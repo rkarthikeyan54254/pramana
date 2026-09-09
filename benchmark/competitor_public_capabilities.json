@@ -1,0 +1,52 @@
+{
+  "as_of":"2026-09-09",
+  "warning":"These are public-product capability observations, not benchmark scores. No behavioral points are awarded until the same benchmark prompts are executed and captured.",
+  "products":[
+    {
+      "name":"Vedapath",
+      "public_urls":["https://vedapath.app/","https://vedapath.app/chat","https://vedapath.app/en/mahabharata-bori","https://vedapath.app/kn/mahabharata-editions"],
+      "observed_public_capabilities":[
+        "AI chat says answers are drawn from scriptures and shows shlokas used",
+        "BORI Critical Edition and Gita Press Mahabharata are kept as separate editions",
+        "individual verse pages expose Sanskrit and ask-about-this-verse interaction",
+        "broad scripture-reading and devotional-consumption UX"
+      ],
+      "not_publicly_established_for_scoring":[
+        "independent second-witness provenance per verse",
+        "claim-authenticity verdict discipline on adversarial paraphrases",
+        "auditable cross-text semantic relation objects",
+        "evidence-backed graph edges with closed-loop source IDs"
+      ]
+    },
+    {
+      "name":"DharmaChat",
+      "public_urls":["https://www.dharmachat.in/"],
+      "observed_public_capabilities":[
+        "claims scripture-sourced AI answers with full shloka references",
+        "claims verified Sanskrit texts and broad scripture coverage",
+        "offers shloka finder, character profiles, stories and devotional guidance"
+      ],
+      "not_publicly_established_for_scoring":[
+        "row-level independent verification provenance",
+        "recension/variant audit objects",
+        "evidence-graph auditability",
+        "adversarial refusal behavior"
+      ]
+    },
+    {
+      "name":"bgita.app",
+      "public_urls":["https://bgita.app/get"],
+      "observed_public_capabilities":[
+        "semantic search over Bhagavad Gita",
+        "AI is explicitly positioned to surface text rather than speak authoritatively over it",
+        "verse, translation, word-level meaning and Shankara commentary are inspectable"
+      ],
+      "not_publicly_established_for_scoring":[
+        "multi-corpus cross-text comparison",
+        "independent second-witness verification",
+        "evidence graph",
+        "recension-difference engine beyond its single-text scope"
+      ]
+    }
+  ]
+}

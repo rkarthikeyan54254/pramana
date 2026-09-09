@@ -1,0 +1,234 @@
+{
+  "id": "graph.narasimha_purana.44.real_seed.v1",
+  "nodes": [
+    {
+      "id": "text:narasimha_purana",
+      "kind": "text",
+      "label": "Narasiṃha Purāṇa",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.16"
+      ],
+      "derivation": "deterministic_metadata",
+      "notes": "Work identity comes from certified corpus metadata."
+    },
+    {
+      "id": "episode:prahlada_narasimha",
+      "kind": "episode",
+      "label": "Prahlāda–Narasiṃha episode",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.16",
+        "purana.narasimha_purana.44.28",
+        "purana.narasimha_purana.44.37"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "notes": "Curated episode identity over certified chapter 44 loci."
+    },
+    {
+      "id": "avatar:narasimha",
+      "kind": "avatar",
+      "label": "Narasiṃha",
+      "aliases": [
+        "Nṛsiṃha",
+        "Narahari",
+        "Narakeśarī"
+      ],
+      "evidence_ids": [
+        "purana.narasimha_purana.44.16",
+        "purana.narasimha_purana.44.31"
+      ],
+      "derivation": "deterministic_metadata",
+      "notes": "Certified verses directly name Narasiṃha/Narakeśarī."
+    },
+    {
+      "id": "deity:vishnu",
+      "kind": "deity",
+      "label": "Viṣṇu",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.16"
+      ],
+      "derivation": "deterministic_metadata",
+      "notes": "Verse 44.16 directly names Viṣṇu."
+    },
+    {
+      "id": "person:hiranyakashipu",
+      "kind": "person",
+      "label": "Hiraṇyakaśipu",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.28",
+        "purana.narasimha_purana.44.29"
+      ],
+      "derivation": "deterministic_metadata",
+      "notes": "Certified verses directly name Hiraṇyakaśipu."
+    },
+    {
+      "id": "person:prahlada",
+      "kind": "person",
+      "label": "Prahlāda",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.37"
+      ],
+      "derivation": "deterministic_metadata",
+      "notes": "Verse 44.37 directly names Prahlāda."
+    },
+    {
+      "id": "deity:brahma",
+      "kind": "deity",
+      "label": "Brahmā",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.37"
+      ],
+      "derivation": "deterministic_metadata",
+      "notes": "Verse 44.37 directly names Brahmā."
+    },
+    {
+      "id": "lineage:daitya",
+      "kind": "lineage",
+      "label": "Daitya lineage",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.37"
+      ],
+      "derivation": "deterministic_metadata",
+      "notes": "Verse 44.37 directly characterizes Prahlāda as daityarāja."
+    },
+    {
+      "id": "place:srisaila",
+      "kind": "place",
+      "label": "Śrīśaila",
+      "aliases": [
+        "Sri Shaila",
+        "Śrīśaila peak"
+      ],
+      "evidence_ids": [
+        "purana.narasimha_purana.44.39"
+      ],
+      "derivation": "deterministic_metadata",
+      "notes": "Verse 44.39 directly names Śrīśailaśikhara; no modern temple identity is asserted."
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge.nsp.text.episode.1",
+      "kind": "episode",
+      "subject": "text:narasimha_purana",
+      "predicate": "contains_evidence_for",
+      "object": "episode:prahlada_narasimha",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.16",
+        "purana.narasimha_purana.44.28",
+        "purana.narasimha_purana.44.37"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "status": "verified",
+      "notes": "Certified chapter 44 loci are curated as part of the Prahlāda–Narasiṃha episode."
+    },
+    {
+      "id": "edge.nsp.narasimha.vishnu.form.1",
+      "kind": "deity_avatar",
+      "subject": "avatar:narasimha",
+      "predicate": "form_of",
+      "object": "deity:vishnu",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.16"
+      ],
+      "derivation": "deterministic_metadata",
+      "status": "verified",
+      "notes": "The verse directly juxtaposes Viṣṇu assuming/producing the Narasiṃha form and Narasiṃha emerging from the pillar."
+    },
+    {
+      "id": "edge.nsp.narasimha.episode.1",
+      "kind": "deity_avatar",
+      "subject": "avatar:narasimha",
+      "predicate": "appears_in",
+      "object": "episode:prahlada_narasimha",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.16"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "status": "verified",
+      "notes": "Episode membership is curator-reviewed; the underlying Narasiṃha wording is explicit."
+    },
+    {
+      "id": "edge.nsp.narasimha.hiranyakashipu.seizes.1",
+      "kind": "episode",
+      "subject": "avatar:narasimha",
+      "predicate": "seizes",
+      "object": "person:hiranyakashipu",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.28"
+      ],
+      "derivation": "deterministic_metadata",
+      "status": "verified",
+      "notes": "Verse 44.28 explicitly says Narasiṃha seized Hiraṇyakaśipu."
+    },
+    {
+      "id": "edge.nsp.narasimha.hiranyakashipu.death.1",
+      "kind": "episode",
+      "subject": "avatar:narasimha",
+      "predicate": "causes_death_of",
+      "object": "person:hiranyakashipu",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.29",
+        "purana.narasimha_purana.44.31"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "status": "verified",
+      "notes": "The verses explicitly describe tearing Hiraṇyakaśipu with claws and tearing open the Daitya king’s heart; death-result classification is curator-reviewed."
+    },
+    {
+      "id": "edge.nsp.brahma.prahlada.consecrates.1",
+      "kind": "genealogy",
+      "subject": "deity:brahma",
+      "predicate": "consecrates_as_daitya_king",
+      "object": "person:prahlada",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.37"
+      ],
+      "derivation": "deterministic_metadata",
+      "status": "verified",
+      "notes": "Verse 44.37 explicitly states Brahmā consecrated Prahlāda as daityarāja."
+    },
+    {
+      "id": "edge.nsp.prahlada.daitya.king.1",
+      "kind": "genealogy",
+      "subject": "person:prahlada",
+      "predicate": "consecrated_as_king_of",
+      "object": "lineage:daitya",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.37"
+      ],
+      "derivation": "deterministic_metadata",
+      "status": "verified",
+      "notes": "Verse 44.37 explicitly calls Prahlāda daityarāja in the consecration statement."
+    },
+    {
+      "id": "edge.nsp.narasimha.srisaila.reaches.1",
+      "kind": "place",
+      "subject": "avatar:narasimha",
+      "predicate": "reaches",
+      "object": "place:srisaila",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.39"
+      ],
+      "derivation": "deterministic_metadata",
+      "status": "verified",
+      "notes": "Verse 44.39 explicitly says Narasiṃha reached Śrīśaila peak."
+    },
+    {
+      "id": "edge.nsp.narasimha.srisaila.stays.1",
+      "kind": "place",
+      "subject": "avatar:narasimha",
+      "predicate": "stays_at",
+      "object": "place:srisaila",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.39"
+      ],
+      "derivation": "deterministic_metadata",
+      "status": "verified",
+      "notes": "Verse 44.39 explicitly says he stayed there; this does not identify a specific modern temple."
+    }
+  ]
+}

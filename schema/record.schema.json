@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/bhakthi-corpus/record.schema.json",
+  "title": "Bhakthi Corpus Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "corpus", "work", "tradition", "author", "language",
+    "section", "unit_no", "text_original", "text_iast",
+    "source", "source_license", "verified"
+  ],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "corpus": {"enum": ["divya_prabandham", "tirumurai", "periya_puranam", "upanishad", "gita", "ramayana", "mahabharata", "bhagavatam", "purana", "stotra", "commentary"]},
+    "work": {"type": "string", "minLength": 1},
+    "tradition": {"enum": ["sri_vaishnava", "saiva_siddhanta", "advaita", "dvaita", "smarta", "shakta", "general"]},
+    "author": {"type": "string", "minLength": 1},
+    "language": {"enum": ["tamil", "sanskrit", "manipravalam"]},
+    "section": {"type": "object"},
+    "unit_no": {"oneOf": [{"type": "integer"}, {"type": "string", "minLength": 1}]},
+    "text_original": {"type": "string", "minLength": 1},
+    "text_iast": {"type": "string", "minLength": 1},
+    "text_itrans": {"type": ["string", "null"]},
+    "translation_en": {"type": ["string", "null"]},
+    "translation_source": {"type": ["string", "null"]},
+    "translation_license": {"type": ["string", "null"], "enum": ["PD", "PD-TRANS", "CC", "©", "SOURCE-TERMS", null]},
+    "commentary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text", "author", "source", "license"],
+        "additionalProperties": false,
+        "properties": {
+          "text": {"type": "string"},
+          "author": {"type": "string"},
+          "source": {"type": "string"},
+          "license": {"type": "string"}
+        }
+      }
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["locus", "primary", "alternatives"],
+        "additionalProperties": false,
+        "properties": {
+          "locus": {"type": "string"},
+          "primary": {"type": "string"},
+          "primary_translit": {"type": ["string", "null"]},
+          "alternatives": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["reading", "status"],
+              "additionalProperties": false,
+              "properties": {
+                "reading": {"type": "string"},
+                "translit": {"type": ["string", "null"]},
+                "gloss": {"type": ["string", "null"]},
+                "source": {"type": ["string", "null"]},
+                "status": {"enum": ["attested", "needs_source", "rejected"]}
+              }
+            }
+          },
+          "note": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "deity": {"type": ["string", "null"]},
+    "sthalam": {"type": ["string", "null"]},
+    "meter": {"type": ["string", "null"]},
+    "themes": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "source": {"type": "string", "minLength": 1},
+    "source_license": {"type": "string", "minLength": 1},
+    "verified": {"type": "boolean"},
+    "verification_source": {"type": ["string", "null"]},
+    "flags": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "notes": {"type": ["string", "null"]}
+  },
+  "allOf": [
+    {
+      "if": {"required": ["translation_en"], "properties": {"translation_en": {"type": "string"}}},
+      "then": {"required": ["translation_source", "translation_license"]}
+    },
+    {
+      "if": {"properties": {"verified": {"const": true}}, "required": ["verified"]},
+      "then": {"required": ["verification_source"], "properties": {"verification_source": {"type": "string", "minLength": 1}}}
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "contracts": [
+    {
+      "key": "devi_mahatmya_gretil_markandeya_81_93",
+      "work": "devi_mahatmya",
+      "parent_work": "markandeya_purana",
+      "corpus": "purana",
+      "primary_source": "gretil_markandeya_1_93",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_mArkaNDeyapurANa1-93.htm",
+      "structure": {
+        "parent_chapter_start": 81,
+        "parent_chapter_end": 93,
+        "chapter_count": 13
+      },
+      "marker_examples": [
+        "MarkP_81.1",
+        "MarkP_93.17"
+      ],
+      "id_policy": "devi_mahatmya.{chapter}.{verse}; retain parent_locus=markandeya_purana.{chapter}.{verse}",
+      "license_policy": "Exact GRETIL transformed e-text states CC BY-NC-SA 4.0; preserve attribution, source provenance, and share-alike/non-commercial terms.",
+      "status": "source_pinned_structure_verified",
+      "secondary_source": "vedpath_durga_saptashati",
+      "verification_policy": "Sequence-align substantive IAST ślokas; do not equate verse numbers because the secondary liturgical edition numbers standalone uvāca/mantra cues that GRETIL often leaves unnumbered.",
+      "secondary_source_url_template": "https://vedpath.org/en/durga-saptashati/adhyaya-{CHAPTER}/",
+      "secondary_source_chapters": [
+        "https://vedpath.org/en/durga-saptashati/adhyaya-1/",
+        "https://vedpath.org/en/durga-saptashati/adhyaya-2/",
+        "https://vedpath.org/en/durga-saptashati/adhyaya-3/",
+        "https://vedpath.org/en/durga-saptashati/adhyaya-4/",
+        "https://vedpath.org/en/durga-saptashati/adhyaya-5/",
+        "https://vedpath.org/en/durga-saptashati/adhyaya-6/",
+        "https://vedpath.org/en/durga-saptashati/adhyaya-7/",
+        "https://vedpath.org/en/durga-saptashati/adhyaya-8/",
+        "https://vedpath.org/en/durga-saptashati/adhyaya-9/",
+        "https://vedpath.org/en/durga-saptashati/adhyaya-10/",
+        "https://vedpath.org/en/durga-saptashati/adhyaya-11/",
+        "https://vedpath.org/en/durga-saptashati/adhyaya-12/",
+        "https://vedpath.org/en/durga-saptashati/adhyaya-13/"
+      ],
+      "secondary_rights_policy": "Verification-only witness. Ved Path footer states © 2026 Ved Path, all rights reserved. Do not redistribute its meanings/commentary; retain only locus mappings, scores, hashes, and minimal review excerpts as permitted.",
+      "verification_scope": "Substantive Sanskrit text only. Ritual prefatory material, meanings, and commentary are outside the authoritative corpus and must not be copied into public data."
+    },
+    {
+      "key": "sundara_kanda_gretil",
+      "work": "sundara_kanda",
+      "parent_work": "valmiki_ramayana",
+      "corpus": "ramayana",
+      "primary_source": "gretil_ramayana_sundara",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/ramayana/ram_05_u.htm",
+      "structure": {
+        "kanda": 5,
+        "sarga_start": 1,
+        "sarga_end": 66,
+        "sarga_count": 66
+      },
+      "marker_examples": [
+        "5.001.001a",
+        "5.066.029c"
+      ],
+      "id_policy": "ramayana.valmiki_critical.k5.s{SARGA}.v{VERSE}; combine a/c padas into one sloka record when locus agrees",
+      "license_policy": "GRETIL page states reference-only and source-file terms apply; no public redistribution until source terms pinned",
+      "status": "source_pinned_structure_verified",
+      "edition_policy": "Critical-edition lane: 66 sargas. Do not merge 68-sarga vulgate/traditional witnesses without explicit recension mapping.",
+      "secondary_source_status": "critical_edition_print_witness_pinned",
+      "verification_policy": "Verify GRETIL loci/text against the Baroda Critical Edition Vol. V constituted text. Preserve 66-sarga critical lane. Treat 68-sarga witnesses as variant/traditional lanes requiring explicit alignment.",
+      "secondary_source": "baroda_critical_edition_volume_5_g_c_jhala",
+      "secondary_source_kind": "print constituted-text witness of the same critical edition; suitable for transcription/locus verification, not independent-recension confirmation"
+    },
+    {
+      "key": "bhagavata_gretil_parent",
+      "work": "bhagavata_purana",
+      "corpus": "bhagavatam",
+      "primary_source": "gretil_bhagavata_1_12",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_bhAgavatapurANa.htm",
+      "structure": {
+        "skandhas": 12,
+        "marker_pattern": "BhP_SS.CC.VVV"
+      },
+      "marker_examples": [
+        "BhP_01.01.001"
+      ],
+      "id_policy": "bhagavatam.{skandha}.{chapter}.{verse}",
+      "license_policy": "CC BY-NC-SA 4.0 for this exact GRETIL TEI-derived e-text; preserve attribution and source provenance",
+      "status": "source_pinned_structure_verified"
+    },
+    {
+      "key": "mahabharata_bombay_indology_ce_final_2026",
+      "work": "mahabharata_critical_edition",
+      "corpus": "mahabharata",
+      "primary_source": "bombay_indology_mahabharata_ce",
+      "url": "https://bombay.indology.info/mahabharata/welcome.html",
+      "structure": {
+        "parvas": 18,
+        "formats": [
+          "unicode_devanagari",
+          "unicode_roman_iso15919",
+          "ascii_harvard_kyoto"
+        ],
+        "roman_file_template": "https://bombay.indology.info/mahabharata/text/UR/MBh{PARVA:02d}.txt",
+        "line_marker_pattern": "PPCCCVVV[pada?] where PP=2-digit parva, CCC=3-digit chapter, VVV=3-digit verse; unlettered same-locus line is a speaker/source cue; lettered a/c/e... lines are verse padas"
+      },
+      "marker_examples": [
+        "03050001",
+        "05033001",
+        "12321001",
+        "13135001"
+      ],
+      "id_policy": "mahabharata.ce.p{PARVA}.c{CHAPTER}.v{VERSE}; preserve source-native starred/interpolation markers separately",
+      "edition_policy": "Use the BORI Critical Edition electronic text only for this lane; do not silently map vulgate/Gita Press chapter numbers into CE loci.",
+      "source_state": "Site states on 2026-06-14 that the electronic text is considered final after 535 corrections since 1999.",
+      "license_policy": "Pin exact redistribution terms before publishing derived raw text; source currently used as primary verification/ingestion candidate, not assumed unrestricted.",
+      "status": "source_pinned_structure_verified",
+      "ingestion_policy": "Use Unicode Roman files as machine-readable parent. Normalize ISO-15919 combining graphemes deterministically; store speaker/source cues in notes; combine same-locus lettered padas into one verse record; fail on duplicate/non-monotonic loci."
+    },
+    {
+      "key": "tevaram_project_madurai_ifp_pifi",
+      "work": "tevaram",
+      "corpus": "tirumurai",
+      "primary_source": "project_madurai_tevaram_unicode",
+      "primary_url": "https://www.projectmadurai.org/pmworks.html",
+      "secondary_source": "ifp_efeo_digital_tevaram_pifi",
+      "secondary_url": "https://www.ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/HOME.HTM",
+      "structure": {
+        "tirumurai_start": 1,
+        "tirumurai_end": 7,
+        "canonical_key": "tirumurai.patikam.verse",
+        "ifp_patika_counts": {
+          "1": 136,
+          "2": 122,
+          "3": 127,
+          "4": 113,
+          "5": 100,
+          "6": 99,
+          "7": 101
+        },
+        "ifp_total_patikams": 798
+      },
+      "edition_policy": "Project Madurai staging identity uses source-native tirumurai.patikam.verse. IFP/EFEO witness uses PIFI T.V. Gopal Iyer edition (1984/1985) in Tamil script. Do not use IFP English gloss as corpus evidence.",
+      "verification_policy": "Auto-certify only exact equality after conservative Unicode/punctuation/whitespace normalization at the same tirumurai.patikam.verse locus. Any textual difference is variant_or_transcription_mismatch and requires curator review; fuzzy similarity cannot certify.",
+      "rights_policy": "Treat Digital Tevaram text as verification-only until exact reuse/publication terms for the electronic PIFI text are pinned. Do not copy English rendering, concordance, maps, audio, or other enrichment into public corpus.",
+      "status": "source_pinned_structure_verified",
+      "url": "https://www.projectmadurai.org/pmworks.html"
+    }
+  ]
+}

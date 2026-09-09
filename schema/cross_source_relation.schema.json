@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bhakthi Corpus cross-source relation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "concept", "dimension", "relation_type", "classification_basis", "left", "right", "status", "policy"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "concept": {"type": "string", "minLength": 1},
+    "dimension": {"type": "string", "minLength": 1},
+    "relation_type": {
+      "enum": ["agreement", "expansion", "omission", "textual_variant", "recension_difference", "scope_difference", "contradiction", "unresolved_difference"]
+    },
+    "classification_basis": {"enum": ["deterministic_textual_diff", "edition_metadata", "curator_reviewed"]},
+    "reviewed_by": {"type": ["string", "null"]},
+    "left": {"$ref": "#/$defs/side"},
+    "right": {"$ref": "#/$defs/side"},
+    "status": {"enum": ["supported", "needs_review", "disputed"]},
+    "notes": {"type": "string"},
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["authority", "silent_resolution", "preferred_side"],
+      "properties": {
+        "authority": {"const": "verified corpus rows only"},
+        "silent_resolution": {"const": false},
+        "preferred_side": {"const": null}
+      }
+    }
+  },
+  "$defs": {
+    "side": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_key", "claim", "support_ids"],
+      "properties": {
+        "source_key": {"type": "string", "minLength": 1},
+        "claim": {"type": "string", "minLength": 1},
+        "quote": {"type": ["string", "null"]},
+        "support_ids": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

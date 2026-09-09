@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bhakthi Corpus evidence graph",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "nodes", "edges", "policy"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "nodes": {
+      "type": "array", "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "kind", "label", "evidence_ids", "derivation"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "kind": {"enum": ["person", "deity", "avatar", "episode", "text", "tradition", "place", "temple", "concept", "festival", "ritual", "lineage"]},
+          "label": {"type": "string", "minLength": 1},
+          "aliases": {"type": "array", "items": {"type": "string"}},
+          "evidence_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+          "relation_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+          "derivation": {"enum": ["deterministic_metadata", "curator_reviewed", "accepted_cross_source_relation"]},
+          "reviewed_by": {"type": ["string", "null"]},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "edges": {
+      "type": "array", "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "kind", "subject", "predicate", "object", "evidence_ids", "derivation", "status"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "kind": {"enum": ["episode", "genealogy", "place", "festival_ritual", "deity_avatar", "claim", "textual_relation", "temple_link", "concept_link"]},
+          "subject": {"type": "string", "minLength": 1},
+          "predicate": {"type": "string", "minLength": 1},
+          "object": {"type": "string", "minLength": 1},
+          "evidence_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+          "relation_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+          "derivation": {"enum": ["deterministic_metadata", "curator_reviewed", "accepted_cross_source_relation"]},
+          "reviewed_by": {"type": ["string", "null"]},
+          "status": {"enum": ["verified", "disputed"]},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "policy": {
+      "type": "object", "additionalProperties": false,
+      "required": ["node_authority", "edge_authority", "generated_nodes", "generated_edges", "silent_harmonization"],
+      "properties": {
+        "node_authority": {"const": "verified corpus evidence only"},
+        "edge_authority": {"const": "verified corpus evidence only"},
+        "generated_nodes": {"const": "forbidden without verified evidence_ids"},
+        "generated_edges": {"const": "forbidden without verified evidence_ids"},
+        "silent_harmonization": {"const": false}
+      }
+    }
+  }
+}

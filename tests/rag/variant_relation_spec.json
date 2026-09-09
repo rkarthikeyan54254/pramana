@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {"source_key":"bhagavata","corpus":"bhagavatam","work":"bhagavata_purana"},
+    {"source_key":"vishnu_purana","corpus":"purana","work":"vishnu_purana"},
+    {"source_key":"alwar","corpus":"divya_prabandham","work":"periyalvar_tirumoli"}
+  ],
+  "relations": [
+    {
+      "id":"rel.prahlada.fixture.1","concept":"prahlada_narasimha","dimension":"narrative_emphasis",
+      "relation_type":"scope_difference","classification_basis":"curator_reviewed","reviewed_by":"fixture_curator",
+      "left":{"source_key":"bhagavata","claim":"Fixture source A supplies one supported locus.","quote":"दैत्यं","support_ids":["bhagavatam.7.8.17"]},
+      "right":{"source_key":"vishnu_purana","claim":"Fixture source B supplies another supported locus.","quote":"प्रह्लाद","support_ids":["vishnu_purana.1.20.1"]},
+      "status":"supported","notes":"Synthetic relation fixture; tests evidence and review gates, not a historical interpretation."
+    },
+    {
+      "id":"rel.bad.unverified","concept":"prahlada_narasimha","dimension":"textual_reference",
+      "relation_type":"textual_variant","classification_basis":"deterministic_textual_diff",
+      "left":{"source_key":"bhagavata","claim":"Verified side.","support_ids":["bhagavatam.7.8.17"]},
+      "right":{"source_key":"alwar","claim":"Unverified side.","support_ids":["divya_prabandham.periyalvar_tirumoli.1"]},
+      "status":"supported"
+    },
+    {
+      "id":"rel.bad.model_semantic","concept":"prahlada_narasimha","dimension":"narrative_emphasis",
+      "relation_type":"contradiction","classification_basis":"deterministic_textual_diff",
+      "left":{"source_key":"bhagavata","claim":"A.","support_ids":["bhagavatam.7.8.17"]},
+      "right":{"source_key":"vishnu_purana","claim":"B.","support_ids":["vishnu_purana.1.20.1"]},
+      "status":"supported"
+    }
+  ]
+}

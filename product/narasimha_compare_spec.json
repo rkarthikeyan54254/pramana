@@ -1,0 +1,24 @@
+{
+  "id": "demo.compare.narasimha.three_puranas.v1",
+  "concept": "narasimha",
+  "question": "How do three verified Purana witnesses describe Narasimha, Hiranyakashipu, and place association?",
+  "dimensions": ["divine_manifestation", "hiranyakashipu_outcome", "place_association"],
+  "sources": [
+    {"source_key":"bhagavata","corpus":"bhagavatam","work":"bhagavata_purana","tradition":"general"},
+    {"source_key":"vishnu_purana","corpus":"purana","work":"vishnu_purana","tradition":"general"},
+    {"source_key":"narasimha_purana","corpus":"purana","work":"narasimha_purana","tradition":"general"}
+  ],
+  "claims": [
+    {"source_key":"bhagavata","dimension":"divine_manifestation","claim":"The Bhāgavata explicitly addresses Nṛsiṃha and calls the form an avatāra.","quote":"सत्त्वमूर्तेऽवतारः","support_ids":["bhagavatam.7.8.49"]},
+    {"source_key":"bhagavata","dimension":"hiranyakashipu_outcome","claim":"Hari tears the opponent with his nails in the doorway scene.","quote":"ददार लीलया","support_ids":["bhagavatam.7.8.29"]},
+    {"source_key":"vishnu_purana","dimension":"divine_manifestation","claim":"The Viṣṇu Purāṇa explicitly describes Viṣṇu in Narasiṃha form.","quote":"नरसिंहस्वरूपिणा","support_ids":["purana.vishnu_purana.1.20.32"]},
+    {"source_key":"vishnu_purana","dimension":"hiranyakashipu_outcome","claim":"The Viṣṇu Purāṇa says Prahlāda's father was brought to his end by Viṣṇu in Narasiṃha form.","support_ids":["purana.vishnu_purana.1.17.12","purana.vishnu_purana.1.20.32"]},
+    {"source_key":"narasimha_purana","dimension":"divine_manifestation","claim":"The Narasiṃha Purāṇa directly names Viṣṇu and Narasiṃha in the manifestation sequence and says Narasiṃha emerged from the pillar.","quote":"नरसिंहः स्तम्भमध्याद् निर्गत्य","support_ids":["purana.narasimha_purana.44.16"]},
+    {"source_key":"narasimha_purana","dimension":"hiranyakashipu_outcome","claim":"The Narasiṃha Purāṇa describes Narasiṃha tearing Hiraṇyakaśipu and tearing open the Daitya king's heart.","support_ids":["purana.narasimha_purana.44.29","purana.narasimha_purana.44.31"]},
+    {"source_key":"narasimha_purana","dimension":"place_association","claim":"The Narasiṃha Purāṇa says Narasiṃha reached Śrīśaila and stayed there.","quote":"श्रीशैलशिखरं प्राप्य","support_ids":["purana.narasimha_purana.44.39"]}
+  ],
+  "gaps": [
+    {"source_key":"bhagavata","dimension":"place_association","reason":"no_verified_place_evidence_in_current_certified_slice"},
+    {"source_key":"vishnu_purana","dimension":"place_association","reason":"no_verified_place_evidence_in_current_certified_slice"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id":"graph.bhagavata.narasimha.real_seed.v1",
+  "nodes":[
+    {"id":"text:bhagavata_purana","kind":"text","label":"Śrīmad Bhāgavata Purāṇa","evidence_ids":["bhagavatam.7.8.29"],"derivation":"deterministic_metadata","notes":"Work identity comes from the certified corpus row."},
+    {"id":"episode:prahlada_narasimha","kind":"episode","label":"Prahlāda–Narasiṃha episode","evidence_ids":["bhagavatam.7.8.29","bhagavatam.7.8.45","bhagavatam.7.8.49"],"derivation":"curator_reviewed","reviewed_by":"bhakthi-corpus-curation","notes":"Curated episode node anchored in certified chapter 7.8 evidence."},
+    {"id":"avatar:narasimha","kind":"avatar","label":"Narasiṃha","aliases":["Nṛsiṃha","Nṛhari","Narahari"],"evidence_ids":["bhagavatam.7.8.45"],"derivation":"deterministic_metadata","notes":"The certified verse directly addresses nṛsiṃha."},
+    {"id":"deity:hari","kind":"deity","label":"Hari","evidence_ids":["bhagavatam.7.8.29"],"derivation":"deterministic_metadata","notes":"The certified verse directly names Hari."},
+    {"id":"concept:avatara","kind":"concept","label":"Avatāra","evidence_ids":["bhagavatam.7.8.49"],"derivation":"deterministic_metadata","notes":"The certified verse directly uses avatāraḥ."}
+  ],
+  "edges":[
+    {"id":"edge.bhp.text.episode.1","kind":"episode","subject":"text:bhagavata_purana","predicate":"contains_evidence_for","object":"episode:prahlada_narasimha","evidence_ids":["bhagavatam.7.8.29","bhagavatam.7.8.45","bhagavatam.7.8.49"],"derivation":"curator_reviewed","reviewed_by":"bhakthi-corpus-curation","status":"verified","notes":"These certified verses belong to the Narasiṃha confrontation/prayer sequence."},
+    {"id":"edge.bhp.narasimha.episode.1","kind":"deity_avatar","subject":"avatar:narasimha","predicate":"appears_in","object":"episode:prahlada_narasimha","evidence_ids":["bhagavatam.7.8.45"],"derivation":"curator_reviewed","reviewed_by":"bhakthi-corpus-curation","status":"verified","notes":"Verse 7.8.45 directly addresses Nṛsiṃha within the episode."},
+    {"id":"edge.bhp.hari.episode.1","kind":"deity_avatar","subject":"deity:hari","predicate":"acts_in","object":"episode:prahlada_narasimha","evidence_ids":["bhagavatam.7.8.29"],"derivation":"curator_reviewed","reviewed_by":"bhakthi-corpus-curation","status":"verified","notes":"Verse 7.8.29 directly names Hari as the acting subject."},
+    {"id":"edge.bhp.narasimha.avatara.1","kind":"concept_link","subject":"avatar:narasimha","predicate":"classified_as","object":"concept:avatara","evidence_ids":["bhagavatam.7.8.45","bhagavatam.7.8.49"],"derivation":"curator_reviewed","reviewed_by":"bhakthi-corpus-curation","status":"verified","notes":"The chapter identifies Nṛsiṃha by name and subsequently calls the manifested form an avatāra; linking those loci is curator-reviewed rather than mechanically inferred."},
+    {"id":"edge.bhp.narasimha.hari.1","kind":"deity_avatar","subject":"avatar:narasimha","predicate":"identified_in_episode_with","object":"deity:hari","evidence_ids":["bhagavatam.7.8.29","bhagavatam.7.8.45"],"derivation":"curator_reviewed","reviewed_by":"bhakthi-corpus-curation","status":"verified","notes":"Same episode sequence names the acting figure Hari and addresses him as Nṛsiṃha; identity edge is explicitly curator-reviewed."}
+  ]
+}

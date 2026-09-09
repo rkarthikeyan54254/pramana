@@ -1,0 +1,30 @@
+{
+  "sources":[
+    {"source_key":"bhagavata","corpus":"bhagavatam","work":"bhagavata_purana"},
+    {"source_key":"vishnu_purana","corpus":"purana","work":"vishnu_purana"}
+  ],
+  "relations":[
+    {
+      "id":"rel.narasimha.bhagavata_vishnu_purana.manifestation.1",
+      "concept":"narasimha",
+      "dimension":"divine_manifestation_identity",
+      "relation_type":"agreement",
+      "classification_basis":"curator_reviewed",
+      "reviewed_by":"bhakthi-corpus-curation",
+      "left":{
+        "source_key":"bhagavata",
+        "claim":"The Bhāgavata chapter directly addresses the manifested figure as Nṛsiṃha and calls the manifested form an avatāra.",
+        "quote":"नृसिंह",
+        "support_ids":["bhagavatam.7.8.45","bhagavatam.7.8.49"]
+      },
+      "right":{
+        "source_key":"vishnu_purana",
+        "claim":"The Viṣṇu Purāṇa explicitly identifies the agent as Viṣṇu in Narasiṃha form.",
+        "quote":"नरसिंहस्वरूपिणा",
+        "support_ids":["purana.vishnu_purana.1.20.32"]
+      },
+      "status":"supported",
+      "notes":"Agreement is limited to the identification of Narasiṃha as a divine manifestation; it does not assert that the two texts narrate every episode detail identically. No preferred source is assigned."
+    }
+  ]
+}

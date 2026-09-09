@@ -1,0 +1,341 @@
+{
+  "benchmark": "pramana_moat_benchmark_v2",
+  "purpose": "Measure evidence behavior, refusal discipline, provenance, source separation, graph auditability, and overclaim resistance.",
+  "cases": [
+    {
+      "id": "verify.exact.narasimha_pillar",
+      "task": "verify_claim",
+      "prompt": "Is 'नरसिंहः स्तम्भमध्याद् निर्गत्य' actually present in the verified corpus?",
+      "input": "नरसिंहः स्तम्भमध्याद् निर्गत्य",
+      "must": {
+        "verified": true,
+        "verdict": "verified_text_match",
+        "evidence_id": "purana.narasimha_purana.44.16"
+      }
+    },
+    {
+      "id": "verify.unsupported.popular_quote",
+      "task": "verify_claim",
+      "prompt": "Did a verified scripture in the current corpus say 'Everything happens for a reason'?",
+      "input": "Everything happens for a reason",
+      "must": {
+        "verified": false,
+        "verdict": "no_verified_exact_match"
+      }
+    },
+    {
+      "id": "compare.narasimha.three_sources",
+      "task": "compare_sources",
+      "prompt": "Compare Narasimha across Bhagavata, Vishnu Purana, and Narasimha Purana without harmonizing them.",
+      "must": {
+        "source_count": 3,
+        "zero_rejected_claims": true,
+        "place_gap_sources": [
+          "bhagavata",
+          "vishnu_purana"
+        ],
+        "reviewed_relation_min": 2
+      }
+    },
+    {
+      "id": "trace.prahlada.evidence",
+      "task": "trace_evidence",
+      "prompt": "Trace Prahlada's evidence-backed neighborhood to depth 2.",
+      "input": "person:prahlada",
+      "depth": 2,
+      "must": {
+        "predicate_any": [
+          "father_of",
+          "son_of",
+          "protects",
+          "characterized_by"
+        ],
+        "all_edges_evidenced": true,
+        "evidence_count_min": 3
+      }
+    },
+    {
+      "id": "trace.srisaila.no_modern_temple_overclaim",
+      "task": "trace_evidence",
+      "prompt": "What does the current verified graph support about Srisaila? Do not identify a modern temple unless evidence does.",
+      "input": "place:srisaila",
+      "depth": 2,
+      "must": {
+        "contains_node": "place:srisaila",
+        "forbid_node_prefix": "temple:",
+        "predicate_any": [
+          "reaches",
+          "stays_at"
+        ]
+      }
+    },
+    {
+      "id": "verify.exact.devi_war",
+      "task": "verify_claim",
+      "prompt": "Is this exact Devi Mahatmya line present?",
+      "input": "देवासुरमभूद् युद्धं पूर्णमब्दशतं पुरा",
+      "must": {
+        "verified": true,
+        "verdict": "verified_text_match",
+        "evidence_id": "purana.devi_mahatmya.82.1"
+      }
+    },
+    {
+      "id": "verify.exact.devi_tejas",
+      "task": "verify_claim",
+      "prompt": "Is this exact divine-tejas line present?",
+      "input": "अतुलं तत्र तत्तेजः सर्वदेवशरीरजम्",
+      "must": {
+        "verified": true,
+        "verdict": "verified_text_match",
+        "evidence_id": "purana.devi_mahatmya.82.12"
+      }
+    },
+    {
+      "id": "verify.exact.vishnu_prahlada_father",
+      "task": "verify_claim",
+      "prompt": "Does this exact Vishnu Purana line occur?",
+      "input": "पिता सुतम्",
+      "must": {
+        "verified": true,
+        "verdict": "verified_text_match",
+        "evidence_id": "purana.vishnu_purana.1.17.12"
+      }
+    },
+    {
+      "id": "verify.exact.prahlada_bhakta",
+      "task": "verify_claim",
+      "prompt": "Is Prahlada explicitly called bhagavad-bhakta in this corpus?",
+      "input": "प्रह्लादो भगवद्भक्तो",
+      "must": {
+        "verified": true,
+        "verdict": "verified_text_match",
+        "evidence_id": "purana.vishnu_purana.1.20.35"
+      }
+    },
+    {
+      "id": "verify.exact.devi_tithis",
+      "task": "verify_claim",
+      "prompt": "Is this tithi sequence attested exactly?",
+      "input": "अष्टम्यां च चतुर्दश्यां नवम्यां",
+      "must": {
+        "verified": true,
+        "verdict": "verified_text_match",
+        "evidence_id": "purana.devi_mahatmya.92.3"
+      }
+    },
+    {
+      "id": "verify.exact.vamana_temple",
+      "task": "verify_claim",
+      "prompt": "Does the corpus explicitly mention a temple of Kesava?",
+      "input": "मन्दिरं केशवस्य",
+      "must": {
+        "verified": true,
+        "verdict": "verified_text_match",
+        "evidence_id": "purana.vamana_purana.68.37"
+      }
+    },
+    {
+      "id": "verify.unsupported.modern_temple",
+      "task": "verify_claim",
+      "prompt": "Does the verified corpus exactly say 'Ahobilam temple'?",
+      "input": "Ahobilam temple",
+      "must": {
+        "verified": false,
+        "verdict": "no_verified_exact_match"
+      }
+    },
+    {
+      "id": "verify.unsupported.navarathri_label",
+      "task": "verify_claim",
+      "prompt": "Does the verified verse itself say 'Navaratri'?",
+      "input": "Navaratri",
+      "must": {
+        "verified": false,
+        "verdict": "no_verified_exact_match"
+      }
+    },
+    {
+      "id": "trace.narasimha.identity",
+      "task": "trace_evidence",
+      "prompt": "Trace Narasimha and verify identity/form links.",
+      "input": "avatar:narasimha",
+      "depth": 1,
+      "must": {
+        "predicate_any": [
+          "form_of",
+          "identified_in_episode_with",
+          "classified_as"
+        ],
+        "all_edges_evidenced": true,
+        "evidence_count_min": 2
+      }
+    },
+    {
+      "id": "trace.hiranyakashipu.genealogy",
+      "task": "trace_evidence",
+      "prompt": "Trace Hiranyakashipu's evidence-backed family links.",
+      "input": "person:hiranyakashipu",
+      "depth": 1,
+      "must": {
+        "predicate_any": [
+          "father_of",
+          "son_of"
+        ],
+        "all_edges_evidenced": true,
+        "evidence_count_min": 1
+      }
+    },
+    {
+      "id": "trace.virocana.genealogy",
+      "task": "trace_evidence",
+      "prompt": "Trace Virocana's evidence-backed lineage.",
+      "input": "person:virocana",
+      "depth": 1,
+      "must": {
+        "predicate_any": [
+          "father_of",
+          "son_of"
+        ],
+        "all_edges_evidenced": true,
+        "evidence_count_min": 1
+      }
+    },
+    {
+      "id": "trace.bali.genealogy",
+      "task": "trace_evidence",
+      "prompt": "Trace Bali's evidence-backed lineage.",
+      "input": "person:bali",
+      "depth": 1,
+      "must": {
+        "predicate_any": [
+          "son_of"
+        ],
+        "all_edges_evidenced": true,
+        "evidence_count_min": 1
+      }
+    },
+    {
+      "id": "trace.devi.ritual",
+      "task": "trace_evidence",
+      "prompt": "Trace Devi to supported ritual/festival evidence.",
+      "input": "deity:devi",
+      "depth": 2,
+      "must": {
+        "predicate_any": [
+          "object_of_devotional_hearing",
+          "linked_to",
+          "prescribes_or_praises"
+        ],
+        "all_edges_evidenced": true,
+        "evidence_count_min": 2
+      }
+    },
+    {
+      "id": "trace.generic_temple.no_named_site",
+      "task": "trace_evidence",
+      "prompt": "Trace the generic Hari/Kesava temple without inventing a named modern site.",
+      "input": "temple:hari_kesava_generic",
+      "depth": 1,
+      "must": {
+        "contains_node": "temple:hari_kesava_generic",
+        "predicate_any": [
+          "site_of",
+          "worshipped_in",
+          "contains_temple_evidence_for"
+        ],
+        "all_edges_evidenced": true
+      }
+    },
+    {
+      "id": "trace.vindhyavali.ritual",
+      "task": "trace_evidence",
+      "prompt": "What ritual is Vindhyavali actually evidenced as performing?",
+      "input": "person:vindhyavali",
+      "depth": 1,
+      "must": {
+        "predicate_any": [
+          "performs"
+        ],
+        "all_edges_evidenced": true,
+        "evidence_count_min": 1
+      }
+    },
+    {
+      "id": "trace.prahlada.bhakti",
+      "task": "trace_evidence",
+      "prompt": "Trace Prahlada to explicit bhakti evidence.",
+      "input": "person:prahlada",
+      "depth": 1,
+      "must": {
+        "predicate_any": [
+          "characterized_by",
+          "protects",
+          "son_of",
+          "father_of"
+        ],
+        "all_edges_evidenced": true,
+        "evidence_count_min": 2
+      }
+    },
+    {
+      "id": "compare.narasimha.source_separation",
+      "task": "compare_sources",
+      "prompt": "Compare Narasimha while keeping source identities separate.",
+      "must": {
+        "source_count": 3,
+        "zero_rejected_claims": true,
+        "place_gap_sources": [
+          "bhagavata",
+          "vishnu_purana"
+        ],
+        "reviewed_relation_min": 2
+      }
+    },
+    {
+      "id": "compare.narasimha.gap_awareness",
+      "task": "compare_sources",
+      "prompt": "Show unsupported place associations explicitly as gaps.",
+      "must": {
+        "source_count": 3,
+        "zero_rejected_claims": true,
+        "place_gap_sources": [
+          "bhagavata",
+          "vishnu_purana"
+        ],
+        "reviewed_relation_min": 2
+      }
+    },
+    {
+      "id": "compare.narasimha.reviewed_relations",
+      "task": "compare_sources",
+      "prompt": "Use only reviewed cross-source semantic relations.",
+      "must": {
+        "source_count": 3,
+        "zero_rejected_claims": true,
+        "place_gap_sources": [
+          "bhagavata",
+          "vishnu_purana"
+        ],
+        "reviewed_relation_min": 2
+      }
+    },
+    {
+      "id": "trace.srisaila.evidence_only",
+      "task": "trace_evidence",
+      "prompt": "Trace Srisaila and stay at scriptural-place level only.",
+      "input": "place:srisaila",
+      "depth": 1,
+      "must": {
+        "contains_node": "place:srisaila",
+        "forbid_node_prefix": "temple:",
+        "predicate_any": [
+          "reaches",
+          "stays_at"
+        ],
+        "all_edges_evidenced": true,
+        "evidence_count_min": 1
+      }
+    }
+  ]
+}

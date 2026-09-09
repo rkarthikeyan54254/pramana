@@ -1,0 +1,743 @@
+{
+  "suite": "pramana_moat_proof_v1",
+  "verify_claim": {
+    "positive": {
+      "verdict": "verified_text_match",
+      "verified": true,
+      "matches": [
+        {
+          "id": "purana.narasimha_purana.44.16",
+          "corpus": "purana",
+          "work": "narasimha_purana",
+          "section": {
+            "chapter": 44
+          },
+          "unit_no": 16,
+          "text_original": "कृत्वेत्थं नारसिंहं तु ययौ विष्णुस् त्रिविक्रमः । नरसिंहः स्तम्भमध्याद् निर्गत्य प्रणनाद च ॥",
+          "text_iast": "kṛtvetthaṃ nārasiṃhaṃ tu yayau viṣṇus trivikramaḥ / narasiṃhaḥ stambhamadhyād nirgatya praṇanāda ca",
+          "translation_en": null,
+          "source": "GRETIL Narasiṃhapurāṇa, NsP_44.16, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_narasiMhapurANa.htm",
+          "verification_source": "Vedapath Sanskrit witness, Narasiṃha Purāṇa 44.16, https://vedpath.app/en/narasimha-purana/glory-of-narayana/44",
+          "variants": [],
+          "flags": []
+        }
+      ],
+      "policy": "Only verified corpus rows can establish this verdict.",
+      "experience": "verify_a_claim",
+      "claim": "नरसिंहः स्तम्भमध्याद् निर्गत्य",
+      "coverage": {
+        "verified_rows_searched": 24,
+        "corpora": [
+          "bhagavata_purana",
+          "devi_mahatmya",
+          "narasimha_purana",
+          "vamana_purana",
+          "vishnu_purana"
+        ]
+      },
+      "moat_contract": {
+        "model_memory": "never used as evidence",
+        "exact_match_required_for_authentication": true,
+        "fuzzy_candidates_are_not_authentication": true
+      }
+    },
+    "negative": {
+      "verdict": "no_verified_exact_match",
+      "verified": false,
+      "message": "No exact claim text was found in verified corpus evidence. Similar verified passages, if any, are candidates only and do not verify the claim.",
+      "candidates": [],
+      "policy": "Fuzzy similarity never establishes scriptural authenticity.",
+      "experience": "verify_a_claim",
+      "claim": "Everything happens for a reason",
+      "coverage": {
+        "verified_rows_searched": 24,
+        "corpora": [
+          "bhagavata_purana",
+          "devi_mahatmya",
+          "narasimha_purana",
+          "vamana_purana",
+          "vishnu_purana"
+        ]
+      },
+      "moat_contract": {
+        "model_memory": "never used as evidence",
+        "exact_match_required_for_authentication": true,
+        "fuzzy_candidates_are_not_authentication": true
+      }
+    }
+  },
+  "compare_sources": {
+    "id": "demo.compare.narasimha.three_puranas.v1",
+    "concept": "narasimha",
+    "question": "How do three verified Purana witnesses describe Narasimha, Hiranyakashipu, and place association?",
+    "dimensions": [
+      "divine_manifestation",
+      "hiranyakashipu_outcome",
+      "place_association"
+    ],
+    "sources": [
+      {
+        "source_key": "bhagavata",
+        "corpus": "bhagavatam",
+        "work": "bhagavata_purana",
+        "tradition": "general",
+        "status": "evidence_present"
+      },
+      {
+        "source_key": "vishnu_purana",
+        "corpus": "purana",
+        "work": "vishnu_purana",
+        "tradition": "general",
+        "status": "evidence_present"
+      },
+      {
+        "source_key": "narasimha_purana",
+        "corpus": "purana",
+        "work": "narasimha_purana",
+        "tradition": "general",
+        "status": "evidence_present"
+      }
+    ],
+    "claims": [
+      {
+        "source_key": "bhagavata",
+        "dimension": "divine_manifestation",
+        "claim": "The Bhāgavata explicitly addresses Nṛsiṃha and calls the form an avatāra.",
+        "quote": "सत्त्वमूर्तेऽवतारः",
+        "support_ids": [
+          "bhagavatam.7.8.49"
+        ],
+        "accepted": true,
+        "status": "supported",
+        "variant_notes": []
+      },
+      {
+        "source_key": "bhagavata",
+        "dimension": "hiranyakashipu_outcome",
+        "claim": "Hari tears the opponent with his nails in the doorway scene.",
+        "quote": "ददार लीलया",
+        "support_ids": [
+          "bhagavatam.7.8.29"
+        ],
+        "accepted": true,
+        "status": "supported",
+        "variant_notes": []
+      },
+      {
+        "source_key": "vishnu_purana",
+        "dimension": "divine_manifestation",
+        "claim": "The Viṣṇu Purāṇa explicitly describes Viṣṇu in Narasiṃha form.",
+        "quote": "नरसिंहस्वरूपिणा",
+        "support_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "accepted": true,
+        "status": "supported",
+        "variant_notes": []
+      },
+      {
+        "source_key": "vishnu_purana",
+        "dimension": "hiranyakashipu_outcome",
+        "claim": "The Viṣṇu Purāṇa says Prahlāda's father was brought to his end by Viṣṇu in Narasiṃha form.",
+        "support_ids": [
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "accepted": true,
+        "status": "supported",
+        "variant_notes": []
+      },
+      {
+        "source_key": "narasimha_purana",
+        "dimension": "divine_manifestation",
+        "claim": "The Narasiṃha Purāṇa directly names Viṣṇu and Narasiṃha in the manifestation sequence and says Narasiṃha emerged from the pillar.",
+        "quote": "नरसिंहः स्तम्भमध्याद् निर्गत्य",
+        "support_ids": [
+          "purana.narasimha_purana.44.16"
+        ],
+        "accepted": true,
+        "status": "supported",
+        "variant_notes": []
+      },
+      {
+        "source_key": "narasimha_purana",
+        "dimension": "hiranyakashipu_outcome",
+        "claim": "The Narasiṃha Purāṇa describes Narasiṃha tearing Hiraṇyakaśipu and tearing open the Daitya king's heart.",
+        "support_ids": [
+          "purana.narasimha_purana.44.29",
+          "purana.narasimha_purana.44.31"
+        ],
+        "accepted": true,
+        "status": "supported",
+        "variant_notes": []
+      },
+      {
+        "source_key": "narasimha_purana",
+        "dimension": "place_association",
+        "claim": "The Narasiṃha Purāṇa says Narasiṃha reached Śrīśaila and stayed there.",
+        "quote": "श्रीशैलशिखरं प्राप्य",
+        "support_ids": [
+          "purana.narasimha_purana.44.39"
+        ],
+        "accepted": true,
+        "status": "supported",
+        "variant_notes": []
+      }
+    ],
+    "gaps": [
+      {
+        "source_key": "bhagavata",
+        "dimension": "place_association",
+        "reason": "no_verified_place_evidence_in_current_certified_slice"
+      },
+      {
+        "source_key": "vishnu_purana",
+        "dimension": "place_association",
+        "reason": "no_verified_place_evidence_in_current_certified_slice"
+      }
+    ],
+    "rejected_claims": [],
+    "evidence_ids": [
+      "bhagavatam.7.8.29",
+      "bhagavatam.7.8.49",
+      "purana.narasimha_purana.44.16",
+      "purana.narasimha_purana.44.29",
+      "purana.narasimha_purana.44.31",
+      "purana.narasimha_purana.44.39",
+      "purana.vishnu_purana.1.17.12",
+      "purana.vishnu_purana.1.20.32"
+    ],
+    "policy": {
+      "authority": "verified corpus rows only",
+      "cross_text_rule": "compare sources; do not collapse them into one harmonized account",
+      "model_memory": "not evidence",
+      "silent_reconciliation": false
+    },
+    "experience": "compare_sources",
+    "reviewed_cross_source_relations": [
+      {
+        "id": "rel.narasimha.bhagavata_vishnu_purana.manifestation.1",
+        "concept": "narasimha",
+        "dimension": "divine_manifestation_identity",
+        "relation_type": "agreement",
+        "classification_basis": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "left": {
+          "source_key": "bhagavata",
+          "claim": "The Bhāgavata chapter directly addresses the manifested figure as Nṛsiṃha and calls the manifested form an avatāra.",
+          "quote": "नृसिंह",
+          "support_ids": [
+            "bhagavatam.7.8.45",
+            "bhagavatam.7.8.49"
+          ]
+        },
+        "right": {
+          "source_key": "vishnu_purana",
+          "claim": "The Viṣṇu Purāṇa explicitly identifies the agent as Viṣṇu in Narasiṃha form.",
+          "quote": "नरसिंहस्वरूपिणा",
+          "support_ids": [
+            "purana.vishnu_purana.1.20.32"
+          ]
+        },
+        "status": "supported",
+        "notes": "Agreement is limited to the identification of Narasiṃha as a divine manifestation; it does not assert that the two texts narrate every episode detail identically. No preferred source is assigned.",
+        "policy": {
+          "authority": "verified corpus rows only",
+          "silent_resolution": false,
+          "preferred_side": null
+        }
+      },
+      {
+        "id": "rel.narasimha.nsp_vip.form_identity.1",
+        "concept": "narasimha",
+        "dimension": "divine_manifestation_identity",
+        "relation_type": "agreement",
+        "classification_basis": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "left": {
+          "source_key": "narasimha_purana",
+          "claim": "Narasiṃha Purāṇa 44.16 directly names Viṣṇu and Narasiṃha in the manifestation sequence.",
+          "quote": "विष्णुस्",
+          "support_ids": [
+            "purana.narasimha_purana.44.16"
+          ]
+        },
+        "right": {
+          "source_key": "vishnu_purana",
+          "claim": "Viṣṇu Purāṇa 1.20.32 explicitly describes Viṣṇu in Narasiṃha form.",
+          "quote": "नरसिंहस्वरूपिणा",
+          "support_ids": [
+            "purana.vishnu_purana.1.20.32"
+          ]
+        },
+        "status": "supported",
+        "notes": "Agreement is limited to Viṣṇu/Narasiṃha manifestation identity; it does not harmonize surrounding narrative details.",
+        "policy": {
+          "authority": "verified corpus rows only",
+          "silent_resolution": false,
+          "preferred_side": null
+        }
+      },
+      {
+        "id": "rel.narasimha.nsp_bhagavata.manifestation.1",
+        "concept": "narasimha",
+        "dimension": "divine_manifestation_status",
+        "relation_type": "agreement",
+        "classification_basis": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "left": {
+          "source_key": "narasimha_purana",
+          "claim": "Narasiṃha Purāṇa 44.16 presents Narasiṃha as the manifested form in a Viṣṇu sequence.",
+          "quote": "नारसिंहं",
+          "support_ids": [
+            "purana.narasimha_purana.44.16"
+          ]
+        },
+        "right": {
+          "source_key": "bhagavata",
+          "claim": "Bhāgavata 7.8 addresses Nṛsiṃha and explicitly calls the manifested form an avatāra.",
+          "quote": "सत्त्वमूर्तेऽवतारः",
+          "support_ids": [
+            "bhagavatam.7.8.49"
+          ]
+        },
+        "status": "supported",
+        "notes": "Agreement is limited to Narasiṃha as a divine manifested/avatāra form. No claim is made that the narratives are identical in all details.",
+        "policy": {
+          "authority": "verified corpus rows only",
+          "silent_resolution": false,
+          "preferred_side": null
+        }
+      }
+    ],
+    "moat_contract": {
+      "sources_kept_separate": true,
+      "silent_harmonization": false,
+      "semantic_relations_require_review": true,
+      "unsupported_dimensions_render_as_gaps": true
+    }
+  },
+  "trace_evidence": {
+    "experience": "trace_evidence",
+    "start_node": {
+      "id": "person:prahlada",
+      "kind": "person",
+      "label": "Prahlāda",
+      "evidence_ids": [
+        "purana.narasimha_purana.44.37",
+        "purana.vishnu_purana.1.17.12",
+        "purana.vishnu_purana.1.20.35",
+        "purana.vishnu_purana.1.21.1"
+      ],
+      "derivation": "deterministic_metadata",
+      "notes": "Prahlāda is directly named in both certified verses."
+    },
+    "depth": 2,
+    "nodes": [
+      {
+        "id": "person:prahlada",
+        "kind": "person",
+        "label": "Prahlāda",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.37",
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.35",
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Prahlāda is directly named in both certified verses."
+      },
+      {
+        "id": "deity:brahma",
+        "kind": "deity",
+        "label": "Brahmā",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.37"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Verse 44.37 directly names Brahmā."
+      },
+      {
+        "id": "lineage:daitya",
+        "kind": "lineage",
+        "label": "Daitya lineage",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.37",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly states that Prahlāda became lord of the Daityas."
+      },
+      {
+        "id": "deity:hari",
+        "kind": "deity",
+        "label": "Hari",
+        "evidence_ids": [
+          "bhagavatam.7.8.29",
+          "purana.vishnu_purana.1.20.39"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly names Hari."
+      },
+      {
+        "id": "person:hiranyakashipu",
+        "kind": "person",
+        "label": "Hiraṇyakaśipu",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.28",
+          "purana.narasimha_purana.44.29",
+          "purana.vishnu_purana.1.17.12"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Hiraṇyakaśipu is directly named in the certified verse."
+      },
+      {
+        "id": "concept:bhakti",
+        "kind": "concept",
+        "label": "Bhakti",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.35"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly characterizes Prahlāda as bhagavad-bhakta."
+      },
+      {
+        "id": "person:virocana",
+        "kind": "person",
+        "label": "Virocana",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "deterministic_metadata"
+      },
+      {
+        "id": "episode:prahlada_narasimha",
+        "kind": "episode",
+        "label": "Prahlāda–Narasiṃha episode",
+        "evidence_ids": [
+          "bhagavatam.7.8.29",
+          "bhagavatam.7.8.45",
+          "bhagavatam.7.8.49",
+          "purana.narasimha_purana.44.16",
+          "purana.narasimha_purana.44.28",
+          "purana.narasimha_purana.44.37",
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.32",
+          "purana.vishnu_purana.1.20.39"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "notes": "Curated episode node anchored in certified chapter 7.8 evidence."
+      },
+      {
+        "id": "avatar:narasimha",
+        "kind": "avatar",
+        "label": "Narasiṃha",
+        "aliases": [
+          "Narahari",
+          "Narakeśarī",
+          "Nṛhari",
+          "Nṛsiṃha"
+        ],
+        "evidence_ids": [
+          "bhagavatam.7.8.45",
+          "bhagavatam.7.8.49",
+          "purana.narasimha_purana.44.16",
+          "purana.narasimha_purana.44.31",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly addresses nṛsiṃha."
+      },
+      {
+        "id": "person:bali",
+        "kind": "person",
+        "label": "Bali",
+        "aliases": [
+          "Mahābali"
+        ],
+        "evidence_ids": [
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "deterministic_metadata"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.nsp.brahma.prahlada.consecrates.1",
+        "kind": "genealogy",
+        "subject": "deity:brahma",
+        "predicate": "consecrates_as_daitya_king",
+        "object": "person:prahlada",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.37"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "Verse 44.37 explicitly states Brahmā consecrated Prahlāda as daityarāja."
+      },
+      {
+        "id": "edge.nsp.prahlada.daitya.king.1",
+        "kind": "genealogy",
+        "subject": "person:prahlada",
+        "predicate": "consecrated_as_king_of",
+        "object": "lineage:daitya",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.37"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "Verse 44.37 explicitly calls Prahlāda daityarāja in the consecration statement."
+      },
+      {
+        "id": "edge.vip.hari.prahlada.protects.1",
+        "kind": "deity_avatar",
+        "subject": "deity:hari",
+        "predicate": "protects",
+        "object": "person:prahlada",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.39"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly states that Hari protected Prahlāda through every calamity."
+      },
+      {
+        "id": "edge.vip.hiranyakashipu.prahlada.father.1",
+        "kind": "genealogy",
+        "subject": "person:hiranyakashipu",
+        "predicate": "father_of",
+        "object": "person:prahlada",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly calls Hiraṇyakaśipu the father (pitā) and Prahlāda the son (sutam)."
+      },
+      {
+        "id": "edge.vip.prahlada.bhakti.1",
+        "kind": "concept_link",
+        "subject": "person:prahlada",
+        "predicate": "characterized_by",
+        "object": "concept:bhakti",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.35"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly calls Prahlāda bhagavad-bhakta."
+      },
+      {
+        "id": "edge.vip.prahlada.daitya.lord.1",
+        "kind": "genealogy",
+        "subject": "person:prahlada",
+        "predicate": "became_lord_of",
+        "object": "lineage:daitya",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly says Prahlāda became lord (pati) of the Daityas."
+      },
+      {
+        "id": "edge.vip.prahlada.hiranyakashipu.son.1",
+        "kind": "genealogy",
+        "subject": "person:prahlada",
+        "predicate": "son_of",
+        "object": "person:hiranyakashipu",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "Inverse genealogical edge from the same explicit pitā/sutam wording."
+      },
+      {
+        "id": "edge.vip.prahlada.virocana.father.1",
+        "kind": "genealogy",
+        "subject": "person:prahlada",
+        "predicate": "father_of",
+        "object": "person:virocana",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "The verse groups Virocana under Prahlāda descendants; genealogical direction is curator-reviewed from the Sanskrit syntax."
+      },
+      {
+        "id": "edge.bhp.hari.episode.1",
+        "kind": "deity_avatar",
+        "subject": "deity:hari",
+        "predicate": "acts_in",
+        "object": "episode:prahlada_narasimha",
+        "evidence_ids": [
+          "bhagavatam.7.8.29"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Verse 7.8.29 directly names Hari as the acting subject."
+      },
+      {
+        "id": "edge.bhp.narasimha.hari.1",
+        "kind": "deity_avatar",
+        "subject": "avatar:narasimha",
+        "predicate": "identified_in_episode_with",
+        "object": "deity:hari",
+        "evidence_ids": [
+          "bhagavatam.7.8.29",
+          "bhagavatam.7.8.45"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Same episode sequence names the acting figure Hari and addresses him as Nṛsiṃha; identity edge is explicitly curator-reviewed."
+      },
+      {
+        "id": "edge.nsp.narasimha.hiranyakashipu.death.1",
+        "kind": "episode",
+        "subject": "avatar:narasimha",
+        "predicate": "causes_death_of",
+        "object": "person:hiranyakashipu",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.29",
+          "purana.narasimha_purana.44.31"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "The verses explicitly describe tearing Hiraṇyakaśipu with claws and tearing open the Daitya king’s heart; death-result classification is curator-reviewed."
+      },
+      {
+        "id": "edge.nsp.narasimha.hiranyakashipu.seizes.1",
+        "kind": "episode",
+        "subject": "avatar:narasimha",
+        "predicate": "seizes",
+        "object": "person:hiranyakashipu",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.28"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "Verse 44.28 explicitly says Narasiṃha seized Hiraṇyakaśipu."
+      },
+      {
+        "id": "edge.vip.narasimha.hiranyakashipu.death.1",
+        "kind": "episode",
+        "subject": "avatar:narasimha",
+        "predicate": "causes_death_of",
+        "object": "person:hiranyakashipu",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "1.17.12 establishes Hiraṇyakaśipu as Prahlāda's father; 1.20.32 says Prahlāda's father was brought to his end by Viṣṇu in Narasiṃha form. The cross-locus referent resolution is curator-reviewed."
+      },
+      {
+        "id": "edge.vip.bali.virocana.son.1",
+        "kind": "genealogy",
+        "subject": "person:bali",
+        "predicate": "son_of",
+        "object": "person:virocana",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified"
+      },
+      {
+        "id": "edge.vip.virocana.bali.father.1",
+        "kind": "genealogy",
+        "subject": "person:virocana",
+        "predicate": "father_of",
+        "object": "person:bali",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly says balir jajñe virocanāt: Bali was born from Virocana."
+      }
+    ],
+    "evidence": [
+      {
+        "id": "bhagavatam.7.8.29",
+        "source": "GRETIL Bhāgavatapurāṇa, BhP_07.08.029, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_bhAgavatapurANa.htm",
+        "verification_source": "Wisdomlib Sanskrit witness of Śrīmad Bhāgavata 7.8.29 (Gita Press-listed Sanskrit edition), https://www.wisdomlib.org/hinduism/book/bhagavata-purana-sanskrit/d/doc1246232.html",
+        "text_original": "विष्वक्स्फुरन्तं ग्रहणातुरं हरिर्व्यालो यथाखुं कुलिशाक्षतत्वचम् । द्वार्यूरुमापत्य ददार लीलया नखैर्यथाहिं गरुडो महाविषम् ॥"
+      },
+      {
+        "id": "bhagavatam.7.8.45",
+        "source": "GRETIL Bhāgavatapurāṇa, BhP_07.08.045, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_bhAgavatapurANa.htm",
+        "verification_source": "Wisdomlib Sanskrit witness of Śrīmad Bhāgavata 7.8.45 (Gita Press-listed Sanskrit edition), https://www.wisdomlib.org/hinduism/book/bhagavata-purana-sanskrit/d/doc1246248.html",
+        "text_original": "श्रीसिद्धा ऊचुः । यो नो गतिं योगसिद्धामसाधुरहार्षीद्योगतपोबलेन । नाना दर्पं तं नखैर्विददार तस्मै तुभ्यं प्रणताः स्मो नृसिंह ॥"
+      },
+      {
+        "id": "purana.narasimha_purana.44.28",
+        "source": "GRETIL Narasiṃhapurāṇa, NsP_44.28, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_narasiMhapurANa.htm",
+        "verification_source": "Vedapath Sanskrit witness, Narasiṃha Purāṇa 44.28, https://vedpath.app/en/narasimha-purana/glory-of-narayana/44",
+        "text_original": "शस्त्रास्त्रवर्षचतुरं हिरण्यकशिपुं जवात् । प्रगृह्य तु बलाद् राजन् नरसिंहो महाबलः ॥"
+      },
+      {
+        "id": "purana.narasimha_purana.44.29",
+        "source": "GRETIL Narasiṃhapurāṇa, NsP_44.29, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_narasiMhapurANa.htm",
+        "verification_source": "Vedapath Sanskrit witness, Narasiṃha Purāṇa 44.29, https://vedpath.app/en/narasimha-purana/glory-of-narayana/44",
+        "text_original": "संध्याकाले गृहद्वारि स्थित्वोरौ स्थाप्य तं रिपुम् । वज्रतुल्यमहोरस्कं हिरण्यकशिपुं रुषा । नखैर् किसलयम् इव दारयत्य् आह सोऽसुरः ॥"
+      },
+      {
+        "id": "purana.narasimha_purana.44.31",
+        "source": "GRETIL Narasiṃhapurāṇa, NsP_44.31, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_narasiMhapurANa.htm",
+        "verification_source": "Vedapath Sanskrit witness, Narasiṃha Purāṇa 44.31, https://vedpath.app/en/narasimha-purana/glory-of-narayana/44",
+        "text_original": "एवं वदति दैत्येन्द्रे ददार नरकेसरी । हृदयं दैत्यराजस्य पद्मपत्रमिव द्विपः ॥"
+      },
+      {
+        "id": "purana.narasimha_purana.44.37",
+        "source": "GRETIL Narasiṃhapurāṇa, NsP_44.37, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_narasiMhapurANa.htm",
+        "verification_source": "Vedapath Sanskrit witness, Narasiṃha Purāṇa 44.37, https://vedpath.app/en/narasimha-purana/glory-of-narayana/44",
+        "text_original": "ब्रह्मा च दैत्यराजानं प्रह्लादमभिषेचयत् । धर्मे रतिः समस्तानां जनानामभवत्तदा ॥"
+      },
+      {
+        "id": "purana.vishnu_purana.1.17.12",
+        "source": "GRETIL Viṣṇupurāṇa, ViP_1,17.12, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_viSNupurANa.htm",
+        "verification_source": "Vedapath Sanskrit witness, Viṣṇu Purāṇa 1.17.12, https://vedapath.app/en/vishnu-purana/amsha-1/17",
+        "text_original": "पादप्रणामावनतं तम् उत्थाप्य पिता सुतम् । हिरण्यकशिपुः प्राह प्रह्लादम् अमितौजसम् ॥"
+      },
+      {
+        "id": "purana.vishnu_purana.1.20.32",
+        "source": "GRETIL Viṣṇupurāṇa, ViP_1,20.32, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_viSNupurANa.htm",
+        "verification_source": "Vedapath Sanskrit witness, Viṣṇu Purāṇa 1.20.32, https://vedapath.app/en/vishnu-purana/amsha-1/20",
+        "text_original": "पितर्य् उपरतिं नीते नरसिंहस्वरूपिणा । विष्णुना सो ऽपि दैत्यानां मैत्रेयाभूत् पतिस् ततः ॥"
+      },
+      {
+        "id": "purana.vishnu_purana.1.20.35",
+        "source": "GRETIL Viṣṇupurāṇa, ViP_1,20.35, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_viSNupurANa.htm",
+        "verification_source": "Vedapath Sanskrit witness, Viṣṇu Purāṇa 1.20.35, https://vedapath.app/en/vishnu-purana/amsha-1/20",
+        "text_original": "एवं प्रभावो दैत्यो ऽसौ मैत्रेयासीन् महामतिः । प्रह्लादो भगवद्भक्तो यं त्वं माम् अनुपृच्छसि ॥"
+      },
+      {
+        "id": "purana.vishnu_purana.1.20.39",
+        "source": "GRETIL Viṣṇupurāṇa, ViP_1,20.39, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_viSNupurANa.htm",
+        "verification_source": "Vedapath Sanskrit witness, Viṣṇu Purāṇa 1.20.39, https://vedapath.app/en/vishnu-purana/amsha-1/20",
+        "text_original": "प्रह्लादं सकलापत्सु यथा रक्षितवान् हरिः । तथा रक्षति यस् तस्य शृणोति चरितं सदा ॥"
+      },
+      {
+        "id": "purana.vishnu_purana.1.21.1",
+        "source": "GRETIL Viṣṇupurāṇa, ViP_1,21.1, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_viSNupurANa.htm",
+        "verification_source": "Vedapath Sanskrit witness, Viṣṇu Purāṇa 1.21.1, https://vedapath.app/en/vishnu-purana/amsha-1/21",
+        "text_original": "प्रह्लादपुत्र आयुष्माञ्छिबिर्बाष्कल एव च । विरोचनस्तु प्राह्लादिर्बलिर्जज्ञे विरोचनात्"
+      }
+    ],
+    "moat_contract": {
+      "all_edges_have_verified_evidence": true,
+      "model_inferred_edges": false,
+      "semantic_edges_must_be_reviewed_or_accepted_relations": true
+    }
+  }
+}

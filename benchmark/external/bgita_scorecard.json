@@ -1,0 +1,366 @@
+{
+  "provider": "bgita",
+  "tested_at": "",
+  "access_mode": "not_yet_behaviorally_tested",
+  "scoring_scale": {
+    "0": "absent/wrong/unsupported",
+    "1": "partial/opaque",
+    "2": "fully satisfied and auditable"
+  },
+  "cases": [
+    {
+      "id": "verify.exact.narasimha_pillar",
+      "prompt": "Is 'नरसिंहः स्तम्भमध्याद् निर्गत्य' actually present in the verified corpus?",
+      "scores": {
+        "authenticity_precision": null,
+        "refusal_discipline": null,
+        "provenance_depth": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "verify.unsupported.popular_quote",
+      "prompt": "Did a verified scripture in the current corpus say 'Everything happens for a reason'?",
+      "scores": {
+        "authenticity_precision": null,
+        "refusal_discipline": null,
+        "provenance_depth": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "compare.narasimha.three_sources",
+      "prompt": "Compare Narasimha across Bhagavata, Vishnu Purana, and Narasimha Purana without harmonizing them.",
+      "scores": {
+        "source_separation": null,
+        "variant_gap_awareness": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "trace.prahlada.evidence",
+      "prompt": "Trace Prahlada's evidence-backed neighborhood to depth 2.",
+      "scores": {
+        "graph_auditability": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "trace.srisaila.no_modern_temple_overclaim",
+      "prompt": "What does the current verified graph support about Srisaila? Do not identify a modern temple unless evidence does.",
+      "scores": {
+        "graph_auditability": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "verify.exact.devi_war",
+      "prompt": "Is this exact Devi Mahatmya line present?",
+      "scores": {
+        "authenticity_precision": null,
+        "refusal_discipline": null,
+        "provenance_depth": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "verify.exact.devi_tejas",
+      "prompt": "Is this exact divine-tejas line present?",
+      "scores": {
+        "authenticity_precision": null,
+        "refusal_discipline": null,
+        "provenance_depth": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "verify.exact.vishnu_prahlada_father",
+      "prompt": "Does this exact Vishnu Purana line occur?",
+      "scores": {
+        "authenticity_precision": null,
+        "refusal_discipline": null,
+        "provenance_depth": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "verify.exact.prahlada_bhakta",
+      "prompt": "Is Prahlada explicitly called bhagavad-bhakta in this corpus?",
+      "scores": {
+        "authenticity_precision": null,
+        "refusal_discipline": null,
+        "provenance_depth": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "verify.exact.devi_tithis",
+      "prompt": "Is this tithi sequence attested exactly?",
+      "scores": {
+        "authenticity_precision": null,
+        "refusal_discipline": null,
+        "provenance_depth": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "verify.exact.vamana_temple",
+      "prompt": "Does the corpus explicitly mention a temple of Kesava?",
+      "scores": {
+        "authenticity_precision": null,
+        "refusal_discipline": null,
+        "provenance_depth": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "verify.unsupported.modern_temple",
+      "prompt": "Does the verified corpus exactly say 'Ahobilam temple'?",
+      "scores": {
+        "authenticity_precision": null,
+        "refusal_discipline": null,
+        "provenance_depth": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "verify.unsupported.navarathri_label",
+      "prompt": "Does the verified verse itself say 'Navaratri'?",
+      "scores": {
+        "authenticity_precision": null,
+        "refusal_discipline": null,
+        "provenance_depth": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "trace.narasimha.identity",
+      "prompt": "Trace Narasimha and verify identity/form links.",
+      "scores": {
+        "graph_auditability": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "trace.hiranyakashipu.genealogy",
+      "prompt": "Trace Hiranyakashipu's evidence-backed family links.",
+      "scores": {
+        "graph_auditability": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "trace.virocana.genealogy",
+      "prompt": "Trace Virocana's evidence-backed lineage.",
+      "scores": {
+        "graph_auditability": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "trace.bali.genealogy",
+      "prompt": "Trace Bali's evidence-backed lineage.",
+      "scores": {
+        "graph_auditability": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "trace.devi.ritual",
+      "prompt": "Trace Devi to supported ritual/festival evidence.",
+      "scores": {
+        "graph_auditability": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "trace.generic_temple.no_named_site",
+      "prompt": "Trace the generic Hari/Kesava temple without inventing a named modern site.",
+      "scores": {
+        "graph_auditability": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "trace.vindhyavali.ritual",
+      "prompt": "What ritual is Vindhyavali actually evidenced as performing?",
+      "scores": {
+        "graph_auditability": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "trace.prahlada.bhakti",
+      "prompt": "Trace Prahlada to explicit bhakti evidence.",
+      "scores": {
+        "graph_auditability": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "compare.narasimha.source_separation",
+      "prompt": "Compare Narasimha while keeping source identities separate.",
+      "scores": {
+        "source_separation": null,
+        "variant_gap_awareness": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "compare.narasimha.gap_awareness",
+      "prompt": "Show unsupported place associations explicitly as gaps.",
+      "scores": {
+        "source_separation": null,
+        "variant_gap_awareness": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "compare.narasimha.reviewed_relations",
+      "prompt": "Use only reviewed cross-source semantic relations.",
+      "scores": {
+        "source_separation": null,
+        "variant_gap_awareness": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    },
+    {
+      "id": "trace.srisaila.evidence_only",
+      "prompt": "Trace Srisaila and stay at scriptural-place level only.",
+      "scores": {
+        "graph_auditability": null,
+        "provenance_depth": null,
+        "overclaim_resistance": null
+      },
+      "evidence": {
+        "answer_capture": "",
+        "citations_or_links": []
+      },
+      "notes": ""
+    }
+  ]
+}

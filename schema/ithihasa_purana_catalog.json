@@ -1,0 +1,186 @@
+{
+  "strategy": {
+    "principle": "Ingest full canonical works as parent corpora, but certify high-value devotional/story slices early to shorten time-to-realization.",
+    "lifecycle": ["discovered", "source_pinned", "ingested", "normalized", "verified", "publishable"],
+    "priority_rule": "Prefer high devotional demand + strong machine-readable structure + source clarity + high linkage value to temples/deities/genealogy/festivals."
+  },
+  "tier_1_anchor_corpora": [
+    {
+      "work": "valmiki_ramayana",
+      "corpus": "ramayana",
+      "priority": 1,
+      "structure": {"kandas": 7},
+      "canonical_policy": "Critical-edition lane; track recension/edition explicitly and never merge Southern-recension readings silently.",
+      "primary_source_candidates": ["bombay_indology_ramayana", "gretil_ramayana"],
+      "early_slices": ["sundara_kanda", "ayodhya_kanda_selected", "bala_kanda_selected"],
+      "linkage_value": ["characters", "genealogy", "places", "temples", "festivals", "dharma", "named_events"],
+      "status": "source-discovery"
+    },
+    {
+      "work": "mahabharata_critical_edition",
+      "corpus": "mahabharata",
+      "priority": 1,
+      "structure": {"parvas": 18},
+      "canonical_policy": "BORI Critical Edition constituted text as the scholarly anchor; supplementary passages kept as a separate layer.",
+      "primary_source_candidates": ["bombay_indology_mahabharata", "gretil_mahabharata"],
+      "early_slices": ["yaksha_prashna", "nala_damayanti", "savitri", "vidura_niti", "narayaniya", "vishnu_sahasranama", "bhagavad_gita_crosslink"],
+      "linkage_value": ["characters", "genealogy", "places", "dharma", "philosophy", "named_events", "weapons"],
+      "status": "source-discovery"
+    },
+    {
+      "work": "harivamsa_critical_edition",
+      "corpus": "harivamsa",
+      "priority": 1,
+      "structure": {"parvans": 4},
+      "canonical_policy": "Treat as a distinct Mahabharata supplement/khila with its own stable IDs and edition provenance.",
+      "primary_source_candidates": ["bori_harivamsa", "gretil_harivamsa"],
+      "early_slices": ["krishna_birth_and_childhood", "yadava_genealogy", "krishna_dvaraka"],
+      "linkage_value": ["krishna", "genealogy", "places", "temples", "avatars"],
+      "status": "source-discovery"
+    },
+    {
+      "work": "bhagavata_purana",
+      "corpus": "bhagavatam",
+      "priority": 1,
+      "structure": {"skandhas": 12},
+      "canonical_policy": "Track skandha/chapter/verse; do not mix commentary into base text.",
+      "primary_source_candidates": ["gretil_bhagavata"],
+      "early_slices": ["skandha_10_krishna", "prahlada_narasimha", "gajendra_moksha", "dhruva", "kapila_gita", "uddhava_gita"],
+      "linkage_value": ["bhakti", "krishna", "avatars", "temples", "festivals", "genealogy", "stories"],
+      "status": "source-discovery"
+    },
+    {
+      "work": "vishnu_purana",
+      "corpus": "purana",
+      "priority": 1,
+      "structure": {"amsas": 6},
+      "canonical_policy": "Preserve edition provenance; especially valuable for dynastic and avatara material.",
+      "primary_source_candidates": ["gretil_vishnu_purana"],
+      "early_slices": ["avatar_cycles", "krishna_narrative", "solar_dynasty", "lunar_dynasty"],
+      "linkage_value": ["genealogy", "avatars", "cosmology", "krishna", "temples"],
+      "status": "source-discovery"
+    },
+    {
+      "work": "devi_mahatmya",
+      "corpus": "purana",
+      "priority": 1,
+      "structure": {"parent_work": "markandeya_purana", "chapters": [81, 93], "chapter_count": 13},
+      "canonical_policy": "Ingest both as a standalone devotional work and as a chapter-linked slice of Markandeya Purana; IDs cross-reference parent loci.",
+      "primary_source_candidates": ["gretil_markandeya_purana"],
+      "early_slices": ["mahishasura_mardini", "suratha_samadhi_frame", "devi_suktas_and_stutis"],
+      "linkage_value": ["devi", "navaratri", "temples", "stotras", "mythic_events"],
+      "status": "source-discovery"
+    }
+  ],
+  "tier_2_high_value_corpora": [
+    {
+      "work": "markandeya_purana",
+      "corpus": "purana",
+      "priority": 2,
+      "primary_source_candidates": ["gretil_markandeya_purana"],
+      "note": "GRETIL currently exposes chapters 1-93; Devi Mahatmya is the highest-value certified slice.",
+      "status": "partial-source-available"
+    },
+    {
+      "work": "linga_purana",
+      "corpus": "purana",
+      "priority": 2,
+      "primary_source_candidates": ["gretil_linga_purana"],
+      "linkage_value": ["shiva", "linga", "cosmology", "temples", "ritual"],
+      "status": "source-discovery"
+    },
+    {
+      "work": "kurma_purana",
+      "corpus": "purana",
+      "priority": 2,
+      "primary_source_candidates": ["gretil_kurma_purana"],
+      "linkage_value": ["avatars", "shiva_vishnu", "tirtha", "ritual"],
+      "status": "source-discovery"
+    },
+    {
+      "work": "garuda_purana",
+      "corpus": "purana",
+      "priority": 2,
+      "primary_source_candidates": ["gretil_garuda_purana"],
+      "linkage_value": ["vishnu", "ritual", "afterlife", "dharma", "temples"],
+      "status": "source-discovery"
+    },
+    {
+      "work": "brahma_purana",
+      "corpus": "purana",
+      "priority": 2,
+      "primary_source_candidates": ["gretil_brahma_purana"],
+      "linkage_value": ["tirtha", "temples", "cosmology", "genealogy"],
+      "status": "source-discovery"
+    },
+    {
+      "work": "brahmanda_purana",
+      "corpus": "purana",
+      "priority": 2,
+      "primary_source_candidates": ["gretil_brahmanda_purana"],
+      "early_slices": ["lalita_related_material_source_map"],
+      "linkage_value": ["cosmology", "shakta", "genealogy", "ritual"],
+      "status": "source-discovery"
+    },
+    {
+      "work": "skanda_purana",
+      "corpus": "purana",
+      "priority": 2,
+      "primary_source_candidates": ["gretil_skanda_purana"],
+      "canonical_policy": "Do not present a partial digitized recension as 'the complete Skanda Purana'; track khanda/recension/source explicitly.",
+      "early_slices": ["kashi_mahatmya_source_map", "revakhanda", "temple_mahatmya_candidates"],
+      "linkage_value": ["temples", "tirtha", "shiva", "skanda", "geography"],
+      "status": "partial-source-available"
+    },
+    {
+      "work": "shiva_purana",
+      "corpus": "purana",
+      "priority": 2,
+      "primary_source_candidates": ["gretil_shiva_purana_partial"],
+      "canonical_policy": "Current GRETIL coverage is partial (Books 1 and 7); full-corpus ingest requires another publication-compatible source.",
+      "linkage_value": ["shiva", "parvati", "linga", "temples", "ritual"],
+      "status": "partial-source-available"
+    }
+  ],
+  "tier_3_breadth": [
+    "agni_purana",
+    "matsya_purana",
+    "narada_purana",
+    "vamana_purana",
+    "narasimha_purana",
+    "varaha_purana",
+    "vayu_purana",
+    "padma_purana",
+    "bhavishya_purana",
+    "brahmavaivarta_purana",
+    "devi_bhagavata_purana_full"
+  ],
+  "cross_corpus_products": [
+    {
+      "offering": "episode_graph",
+      "description": "Canonical story/event nodes linked to exact verse ranges across epics and Puranas.",
+      "examples": ["gajendra_moksha", "prahlada_narasimha", "samudra_manthana", "rama_exile", "yaksha_prashna"]
+    },
+    {
+      "offering": "genealogy_graph",
+      "description": "People/dynasty relationships traced to cited loci rather than unsourced family trees.",
+      "examples": ["ikshvaku_solar_dynasty", "chandra_lunar_dynasty", "kuru_line", "yadava_line"]
+    },
+    {
+      "offering": "sacred_geography",
+      "description": "Tirtha, city, river, forest and temple references mapped to cited passages and modern place candidates with confidence labels."
+    },
+    {
+      "offering": "festival_ritual_index",
+      "description": "Festival, vrata and worship references linked to textual loci, without turning later custom into an unsourced ancient claim."
+    },
+    {
+      "offering": "deity_avatar_index",
+      "description": "Deity names, epithets, avatars and manifestations linked across traditions while preserving source/tradition distinctions."
+    },
+    {
+      "offering": "quote_claim_verifier",
+      "description": "Given a popular quote or story claim, return exact supporting locus, variants, or 'not found in verified corpus'."
+    }
+  ]
+}

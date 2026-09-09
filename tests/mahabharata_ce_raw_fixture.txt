@@ -1,0 +1,10 @@
+% Mahābhārata fixture
+03297026  yakṣa uvāca
+03297026a kiṁ svid ādityam unnayati ke ca tasyābhitaś carāḥ
+03297026c kaś cainam astaṁ nayati kasmiṁś ca pratitiṣṭhati
+03297027  yudhiṣṭhira uvāca
+03297027a brahmādityam unnayati devās tasyābhitaś carāḥ
+03297027c dharmaś cāstaṁ nayati ca satye ca pratitiṣṭhati
+03297028  yakṣa uvāca
+03297028a kena svic chrotriyo bhavati kena svid vindate mahat
+03297028c kena dvitīyavān bhavati rājan kena ca buddhimān

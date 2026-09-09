@@ -1,0 +1,67 @@
+{
+  "relations": [
+    {
+      "id": "rel.narasimha.nsp_vip.form_identity.1",
+      "concept": "narasimha",
+      "dimension": "divine_manifestation_identity",
+      "relation_type": "agreement",
+      "classification_basis": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "left": {
+        "source_key": "narasimha_purana",
+        "claim": "Narasiṃha Purāṇa 44.16 directly names Viṣṇu and Narasiṃha in the manifestation sequence.",
+        "quote": "विष्णुस्",
+        "support_ids": [
+          "purana.narasimha_purana.44.16"
+        ]
+      },
+      "right": {
+        "source_key": "vishnu_purana",
+        "claim": "Viṣṇu Purāṇa 1.20.32 explicitly describes Viṣṇu in Narasiṃha form.",
+        "quote": "नरसिंहस्वरूपिणा",
+        "support_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ]
+      },
+      "status": "supported",
+      "notes": "Agreement is limited to Viṣṇu/Narasiṃha manifestation identity; it does not harmonize surrounding narrative details.",
+      "policy": {
+        "authority": "verified corpus rows only",
+        "silent_resolution": false,
+        "preferred_side": null
+      }
+    },
+    {
+      "id": "rel.narasimha.nsp_bhagavata.manifestation.1",
+      "concept": "narasimha",
+      "dimension": "divine_manifestation_status",
+      "relation_type": "agreement",
+      "classification_basis": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "left": {
+        "source_key": "narasimha_purana",
+        "claim": "Narasiṃha Purāṇa 44.16 presents Narasiṃha as the manifested form in a Viṣṇu sequence.",
+        "quote": "नारसिंहं",
+        "support_ids": [
+          "purana.narasimha_purana.44.16"
+        ]
+      },
+      "right": {
+        "source_key": "bhagavata",
+        "claim": "Bhāgavata 7.8 addresses Nṛsiṃha and explicitly calls the manifested form an avatāra.",
+        "quote": "सत्त्वमूर्तेऽवतारः",
+        "support_ids": [
+          "bhagavatam.7.8.49"
+        ]
+      },
+      "status": "supported",
+      "notes": "Agreement is limited to Narasiṃha as a divine manifested/avatāra form. No claim is made that the narratives are identical in all details.",
+      "policy": {
+        "authority": "verified corpus rows only",
+        "silent_resolution": false,
+        "preferred_side": null
+      }
+    }
+  ],
+  "rejected_relations": []
+}

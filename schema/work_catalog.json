@@ -1,0 +1,61 @@
+{
+  "divya_prabandham": {
+    "expected_total": 4000,
+    "tradition": "sri_vaishnava",
+    "language": "tamil",
+    "numbering_note": "Global pasuram numbering follows the Project Madurai four-part edition. Work ranges are pinned from each part's contents section; source numbering anomalies must be flagged, not repaired silently.",
+    "source_blocks": [
+      {"key":"pm-dp-1-947","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0621_tam.html","nominal_range":[1,947]},
+      {"key":"pm-dp-948-2081","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0622_tam.html","nominal_range":[948,2081]},
+      {"key":"pm-dp-2082-2970","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0623_tam.html","nominal_range":[2082,2970]},
+      {"key":"pm-dp-2971-4000","url":"https://www.projectmadurai.org/pm_etexts/utf8/pmuni0624_tam.html","nominal_range":[2971,4000],"note":"The HTML reproduces Thiruvaymozhi from 2791 for work continuity even though this file is labeled 2971-4000; never infer file coverage solely from header."}
+    ],
+    "works": [
+      {"ordinal":1,"work":"periyalvar_tiruppallandu_tirumozhi","title_ta":"திருப்பல்லாண்டு & பெரியாழ்வார் திருமொழி","author":"periyalvar","global_range":[1,473],"expected_units":473,"status":"mapped"},
+      {"ordinal":2,"work":"tiruppavai","title_ta":"திருப்பாவை","author":"andal","global_range":[474,503],"expected_units":30,"status":"pilot"},
+      {"ordinal":3,"work":"nachiyar_tirumozhi","title_ta":"நாச்சியார் திருமொழி","author":"andal","global_range":[504,646],"expected_units":143,"status":"next"},
+      {"ordinal":4,"work":"perumal_tirumozhi","title_ta":"பெருமாள் திருமொழி","author":"kulasekhara_alvar","global_range":[647,751],"expected_units":105,"status":"mapped"},
+      {"ordinal":5,"work":"tiruchanda_viruttam","title_ta":"திருச்சந்த விருத்தம்","author":"tirumazhisai_alvar","global_range":[752,871],"expected_units":120,"status":"mapped"},
+      {"ordinal":6,"work":"tirumalai","title_ta":"திருமாலை","author":"thondaradippodi_alvar","global_range":[872,916],"expected_units":45,"status":"mapped"},
+      {"ordinal":7,"work":"tiruppalliyezhuchi","title_ta":"திருப்பள்ளியெழுச்சி","author":"thondaradippodi_alvar","global_range":[917,926],"expected_units":10,"status":"mapped"},
+      {"ordinal":8,"work":"amalanadipiran","title_ta":"அமலனாதிபிரான்","author":"tiruppan_alvar","global_range":[927,936],"expected_units":10,"status":"mapped"},
+      {"ordinal":9,"work":"kanninun_siruthambu","title_ta":"கண்ணிநுண்சிறுத்தாம்பு","author":"madhurakavi_alvar","global_range":[937,947],"expected_units":11,"status":"mapped"},
+      {"ordinal":10,"work":"periya_tirumozhi","title_ta":"பெரிய திருமொழி","author":"tirumangai_alvar","global_range":[948,2031],"expected_units":1084,"status":"mapped"},
+      {"ordinal":11,"work":"tirukkuruntandakam","title_ta":"திருக்குறுந்தாண்டகம்","author":"tirumangai_alvar","global_range":[2032,2051],"expected_units":20,"status":"mapped"},
+      {"ordinal":12,"work":"tiruneduntandakam","title_ta":"திருநெடுந்தாண்டகம்","author":"tirumangai_alvar","global_range":[2052,2081],"expected_units":30,"status":"mapped"},
+      {"ordinal":13,"work":"mudhal_tiruvandadi","title_ta":"முதல் திருவந்தாதி","author":"poigai_alvar","global_range":[2082,2181],"expected_units":100,"status":"mapped"},
+      {"ordinal":14,"work":"irandam_tiruvandadi","title_ta":"இரண்டாம் திருவந்தாதி","author":"bhoothath_alvar","global_range":[2182,2281],"expected_units":100,"status":"mapped"},
+      {"ordinal":15,"work":"moondram_tiruvandadi","title_ta":"மூன்றாம் திருவந்தாதி","author":"pey_alvar","global_range":[2282,2381],"expected_units":100,"status":"mapped"},
+      {"ordinal":16,"work":"nanmugan_tiruvandadi","title_ta":"நான்முகன் திருவந்தாதி","author":"tirumazhisai_alvar","global_range":[2382,2477],"expected_units":96,"status":"mapped"},
+      {"ordinal":17,"work":"tiruviruttam","title_ta":"திருவிருத்தம்","author":"nammalvar","global_range":[2478,2577],"expected_units":100,"status":"mapped"},
+      {"ordinal":18,"work":"tiruvasiriyam","title_ta":"திருவாசிரியம்","author":"nammalvar","global_range":[2578,2584],"expected_units":7,"status":"mapped"},
+      {"ordinal":19,"work":"periya_tiruvandadi","title_ta":"பெரிய திருவந்தாதி","author":"nammalvar","global_range":[2585,2671],"expected_units":87,"status":"mapped"},
+      {"ordinal":20,"work":"tiruvezhukootrirukkai","title_ta":"திருவெழுகூற்றிருக்கை","author":"tirumangai_alvar","global_range":[2672,2672],"expected_units":1,"status":"mapped"},
+      {"ordinal":21,"work":"siriya_tirumadal","title_ta":"சிறிய திருமடல்","author":"tirumangai_alvar","global_range":[2673,2712],"expected_units":40,"status":"mapped"},
+      {"ordinal":22,"work":"periya_tirumadal","title_ta":"பெரிய திருமடல்","author":"tirumangai_alvar","global_range":[2713,2790],"expected_units":78,"status":"mapped"},
+      {"ordinal":23,"work":"tiruvaymozhi","title_ta":"திருவாய்மொழி","author":"nammalvar","global_range":[2791,3892],"expected_units":1102,"status":"mapped","flags":["source_numbering_audit_required"]},
+      {"ordinal":24,"work":"ramanuja_nutrandadi","title_ta":"இராமாநுச நூற்றந்தாதி","author":"thiruvarangathu_amudanar","global_range":[3893,4000],"expected_units":108,"status":"mapped"}
+    ]
+  },
+  "tevaram": {
+    "tradition":"saiva_siddhanta",
+    "language":"tamil",
+    "status":"source-mapped",
+    "tirumurai":[
+      {"tirumurai":1,"author":"tirugnanasambandar","expected_units":1469,"source_keys":["pm-tevaram-t1-p1","pm-tevaram-t1-p2"]},
+      {"tirumurai":2,"author":"tirugnanasambandar","expected_units":1331,"source_keys":["pm-tevaram-t2-p1","pm-tevaram-t2-p2"]},
+      {"tirumurai":3,"author":"tirugnanasambandar","expected_units":1347,"source_keys":["pm-tevaram-t3-p1","pm-tevaram-t3-p2"]},
+      {"tirumurai":4,"author":"tirunavukkarasar","expected_units":1070,"source_keys":["pm-tevaram-t4-p1","pm-tevaram-t4-p2"]},
+      {"tirumurai":5,"author":"tirunavukkarasar","expected_units":1016,"source_keys":["pm-tevaram-t5-p1","pm-tevaram-t5-p2"]},
+      {"tirumurai":6,"author":"tirunavukkarasar","expected_units":981,"source_keys":["pm-tevaram-t6-p1","pm-tevaram-t6-p2"]},
+      {"tirumurai":7,"author":"sundaramurti_nayanar","expected_units":1026,"source_keys":["pm-tevaram-t7-p1","pm-tevaram-t7-p2"]}
+    ]
+  },
+  "sanskrit_core": {
+    "status":"source-discovery",
+    "works":[
+      {"work":"bhagavad_gita","corpus":"gita","expected_units":700,"language":"sanskrit","primary_source_candidate":"gita_supersite","verification_source_candidate":"sanskritdocuments","note":"SanskritDocuments has redistribution restrictions; treat as verification/private reference unless permission/publication policy is resolved."},
+      {"work":"isha_upanishad","corpus":"upanishad","expected_units":18,"language":"sanskrit","primary_source_candidate":"gretil_or_sarit","verification_source_candidate":"gita_supersite_or_sanskritdocuments","status":"needs-live-source-pin"}
+    ]
+  }
+}

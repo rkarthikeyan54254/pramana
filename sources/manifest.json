@@ -1,0 +1,432 @@
+{
+  "sources": [
+    {
+      "key": "pm-divya-0005-02",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0005_02.html",
+      "path": "sources/raw/project_madurai/pmuni0005_02.html",
+      "covers": "Divya Prabandham 474-947; pilot source",
+      "terms": "Project Madurai e-text; preserve header/source terms on redistribution.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-dp-1-947",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0621_tam.html",
+      "path": "sources/raw/project_madurai/pmuni0621_tam.html",
+      "covers": "Divya Prabandham 1-947",
+      "terms": "Project Madurai e-text; preserve header/source terms on redistribution.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-dp-948-2081",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0622_tam.html",
+      "path": "sources/raw/project_madurai/pmuni0622_tam.html",
+      "covers": "Divya Prabandham 948-2081",
+      "terms": "Project Madurai e-text; preserve header/source terms on redistribution.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-dp-2082-2970",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0623_tam.html",
+      "path": "sources/raw/project_madurai/pmuni0623_tam.html",
+      "covers": "Divya Prabandham 2082-2970",
+      "terms": "Project Madurai e-text; preserve header/source terms on redistribution.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-dp-2971-4000",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0624_tam.html",
+      "path": "sources/raw/project_madurai/pmuni0624_tam.html",
+      "covers": "Divya Prabandham 2971-4000",
+      "terms": "Project Madurai e-text; preserve header/source terms on redistribution.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t1-p1",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0150.html",
+      "path": "sources/raw/project_madurai/pmuni0150.html",
+      "covers": "Sambandar Tevaram Tirumurai 1 verses 1-721",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t1-p2",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0151.html",
+      "path": "sources/raw/project_madurai/pmuni0151.html",
+      "covers": "Sambandar Tevaram Tirumurai 1 verses 722-1469",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t5-p1",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0186.html",
+      "path": "sources/raw/project_madurai/pmuni0186.html",
+      "covers": "Appar Tevaram Tirumurai 5 verses 1-519",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t2-p1",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0157.html",
+      "path": "sources/raw/project_madurai/pmuni0157.html",
+      "covers": "Sambandar Tevaram Tirumurai 2 verses 1-654",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t2-p2",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0162.html",
+      "path": "sources/raw/project_madurai/pmuni0162.html",
+      "covers": "Sambandar Tevaram Tirumurai 2 verses 655-1331",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t3-p1",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0173.html",
+      "path": "sources/raw/project_madurai/pmuni0173.html",
+      "covers": "Sambandar Tevaram Tirumurai 3 verses 1-713",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t3-p2",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0179.html",
+      "path": "sources/raw/project_madurai/pmuni0179.html",
+      "covers": "Sambandar Tevaram Tirumurai 3 verses 714-1347",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t4-p1",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0181.html",
+      "path": "sources/raw/project_madurai/pmuni0181.html",
+      "covers": "Appar Tevaram Tirumurai 4 verses 1-487",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t4-p2",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0182.html",
+      "path": "sources/raw/project_madurai/pmuni0182.html",
+      "covers": "Appar Tevaram Tirumurai 4 verses 488-1070",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t5-p2",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0188.html",
+      "path": "sources/raw/project_madurai/pmuni0188.html",
+      "covers": "Appar Tevaram Tirumurai 5 verses 520-1016",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t6-p1",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0192.html",
+      "path": "sources/raw/project_madurai/pmuni0192.html",
+      "covers": "Appar Tevaram Tirumurai 6 verses 1-508",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t6-p2",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0196.html",
+      "path": "sources/raw/project_madurai/pmuni0196.html",
+      "covers": "Appar Tevaram Tirumurai 6 verses 509-981",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t7-p1",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0207.html",
+      "path": "sources/raw/project_madurai/pmuni0207.html",
+      "covers": "Sundarar Tevaram Tirumurai 7 verses 1-517",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "pm-tevaram-t7-p2",
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0211.html",
+      "path": "sources/raw/project_madurai/pmuni0211.html",
+      "covers": "Sundarar Tevaram Tirumurai 7 verses 518-1026",
+      "terms": "Project Madurai e-text; redistribution permitted if header remains intact.",
+      "status": "verified-live"
+    },
+    {
+      "key": "sd-bhagavad-gita",
+      "url": "https://sanskritdocuments.org/sanskrit/bhagavadgita/",
+      "path": "sources/raw/verification/sanskritdocuments_bhagavadgita.html",
+      "covers": "Bhagavad Gita source/format index",
+      "terms": "Personal study/research; site states copying/reposting for promotion or commercial purpose requires permission. Verification/reference only until policy resolved.",
+      "status": "verified-live-restricted"
+    },
+    {
+      "key": "gita-supersite",
+      "url": "https://www.gitasupersite.iitk.ac.in/",
+      "path": "sources/raw/verification/gita_supersite.html",
+      "covers": "Bhagavad Gita and related texts; candidate independent verification source",
+      "terms": "Terms/license must be pinned before redistribution; discovery/reference only.",
+      "status": "discovered-needs-terms-check"
+    },
+    {
+      "key": "bori-mahabharata-project",
+      "url": "https://bori.ac.in/department/mahabharata/",
+      "path": "sources/raw/discovery/bori_mahabharata_project.html",
+      "covers": "Official BORI Critical Edition project metadata for Mahabharata and Harivamsha",
+      "terms": "Institutional metadata page; e-text reuse terms are separate and must be pinned from the actual electronic source.",
+      "status": "verified-live-metadata"
+    },
+    {
+      "key": "bombay-indology-mahabharata",
+      "url": "https://bombay.indology.info/mahabharata/welcome.html",
+      "path": "sources/raw/discovery/bombay_indology_mahabharata.html",
+      "covers": "Electronic text of Mahabharata Critical Edition in Devanagari, Unicode Roman and ASCII",
+      "terms": "BORI agreement stated by site; explicit redistribution/publication terms still need pinning before public dataset use.",
+      "status": "verified-live-needs-terms-check"
+    },
+    {
+      "key": "bombay-indology-ramayana",
+      "url": "https://bombay.indology.info/ramayana/welcome.html",
+      "path": "sources/raw/discovery/bombay_indology_ramayana.html",
+      "covers": "Electronic text of Ramayana Critical Edition in Devanagari, Unicode Roman and ASCII",
+      "terms": "Explicit redistribution/publication terms still need pinning before public dataset use.",
+      "status": "verified-live-needs-terms-check"
+    },
+    {
+      "key": "gretil-sanskrit-index",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil.html",
+      "path": "sources/raw/discovery/gretil_sanskrit_index.html",
+      "covers": "GRETIL Sanskrit source index: epics, Puranas and other texts",
+      "terms": "File-specific terms required. Legacy index warns of scholarly/non-commercial restrictions; newer TEI records can carry specific CC terms.",
+      "status": "verified-live-file-terms-required"
+    },
+    {
+      "key": "gretil-purana-index",
+      "url": "https://gretil.sub.uni-goettingen.de/gret_utfbk.htm",
+      "path": "sources/raw/discovery/gretil_purana_index.html",
+      "covers": "GRETIL machine-readable Purana holdings discovery index",
+      "terms": "Discovery only; pin license/terms for every exact source file before public redistribution.",
+      "status": "verified-live-file-terms-required"
+    },
+    {
+      "key": "gretil-markandeya-1-93",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_mArkaNDeyapurANa1-93.htm",
+      "path": "sources/raw/gretil/sa_mArkaNDeyapurANa1-93.htm",
+      "covers": "Markandeya Purana chapters 1-93; Devī Māhātmya = chapters 81-93",
+      "terms": "Exact transformed e-text states Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. Preserve attribution and source provenance.",
+      "status": "verified-live-license-pinned"
+    },
+    {
+      "key": "gretil-ramayana-sundara",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/ramayana/ram_05_u.htm",
+      "path": "sources/raw/gretil/ram_05_u.htm",
+      "covers": "Valmiki Ramayana Sundara Kanda, kanda 5, sargas 1-66 in this electronic edition",
+      "terms": "Page says reference purposes only; copyright/usage as source file. Do not redistribute publicly until exact source terms are pinned.",
+      "status": "verified-live-structure-pinned"
+    },
+    {
+      "key": "gretil-bhagavata-1-12",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_bhAgavatapurANa.htm",
+      "path": "sources/raw/gretil/sa_bhAgavatapurANa.htm",
+      "covers": "Bhagavata Purana skandhas 1-12",
+      "terms": "Exact transformed e-text states Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. Preserve source attribution and license.",
+      "status": "verified-live-license-pinned"
+    },
+    {
+      "key": "vedpath-durga-saptashati",
+      "url": "https://vedpath.org/en/durga-saptashati/adhyaya-1/",
+      "url_template": "https://vedpath.org/en/durga-saptashati/adhyaya-{chapter}/",
+      "path": "sources/raw/verification/vedpath/durga_saptashati_ch{chapter}.html",
+      "covers": "Devī Māhātmya / Durga Saptashati chapters 1-13; independent Devanagari + IAST verification edition",
+      "terms": "Verification-only witness. Site footer states © 2026 Ved Path, all rights reserved. Do not redistribute its meanings/commentary; retain only verification metadata/locus mappings and minimal review excerpts as permitted.",
+      "status": "verified-live-verification-only-rights-pinned",
+      "numbering_note": "Liturgical numbering includes standalone speaker/mantra cues; align by normalized substantive text, not verse number equality.",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "key": "sanskritdocuments-valmiki-sundara",
+      "url": "https://sanskritdocuments.org/mirrors/ramayana/valmiki/sundarkand_1.htm",
+      "path": "sources/raw/verification/sanskritdocuments/valmiki_sundara_index.html",
+      "covers": "Valmiki Ramayana Sundara Kanda index through sarga 66; candidate verification witness",
+      "terms": "Verification/reference only under current SanskritDocuments usage policy; do not redistribute without permission/compatible terms.",
+      "status": "verified-live-needs-independence-check",
+      "numbering_note": "66-sarga structure is compatible at the gross level; textual independence from GRETIL/Bombay-Indology electronic lineage must be established before two-source certification."
+    },
+    {
+      "key": "ramayana-info-sundara-68",
+      "url": "https://ramayana.info/story/sundara/",
+      "path": "sources/raw/verification/traditional/ramayana_info_sundara.html",
+      "covers": "Traditional/vulgate Sundara Kanda presentation with 68 sargas",
+      "terms": "Reference-only until terms pinned.",
+      "status": "verified-live-different-recension",
+      "numbering_note": "Do not merge with the 66-sarga critical-edition lane; use only with explicit recension/alignment mapping."
+    },
+    {
+      "key": "bombay-indology-mbh-ur-01",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh01.txt",
+      "path": "sources/raw/mahabharata/MBh01.txt",
+      "covers": "Mahabharata Critical Edition parva 01, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-02",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh02.txt",
+      "path": "sources/raw/mahabharata/MBh02.txt",
+      "covers": "Mahabharata Critical Edition parva 02, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-03",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh03.txt",
+      "path": "sources/raw/mahabharata/MBh03.txt",
+      "covers": "Mahabharata Critical Edition parva 03, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-04",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh04.txt",
+      "path": "sources/raw/mahabharata/MBh04.txt",
+      "covers": "Mahabharata Critical Edition parva 04, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-05",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh05.txt",
+      "path": "sources/raw/mahabharata/MBh05.txt",
+      "covers": "Mahabharata Critical Edition parva 05, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-06",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh06.txt",
+      "path": "sources/raw/mahabharata/MBh06.txt",
+      "covers": "Mahabharata Critical Edition parva 06, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-07",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh07.txt",
+      "path": "sources/raw/mahabharata/MBh07.txt",
+      "covers": "Mahabharata Critical Edition parva 07, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-08",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh08.txt",
+      "path": "sources/raw/mahabharata/MBh08.txt",
+      "covers": "Mahabharata Critical Edition parva 08, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-09",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh09.txt",
+      "path": "sources/raw/mahabharata/MBh09.txt",
+      "covers": "Mahabharata Critical Edition parva 09, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-10",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh10.txt",
+      "path": "sources/raw/mahabharata/MBh10.txt",
+      "covers": "Mahabharata Critical Edition parva 10, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-11",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh11.txt",
+      "path": "sources/raw/mahabharata/MBh11.txt",
+      "covers": "Mahabharata Critical Edition parva 11, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-12",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh12.txt",
+      "path": "sources/raw/mahabharata/MBh12.txt",
+      "covers": "Mahabharata Critical Edition parva 12, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-13",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh13.txt",
+      "path": "sources/raw/mahabharata/MBh13.txt",
+      "covers": "Mahabharata Critical Edition parva 13, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-14",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh14.txt",
+      "path": "sources/raw/mahabharata/MBh14.txt",
+      "covers": "Mahabharata Critical Edition parva 14, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-15",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh15.txt",
+      "path": "sources/raw/mahabharata/MBh15.txt",
+      "covers": "Mahabharata Critical Edition parva 15, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-16",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh16.txt",
+      "path": "sources/raw/mahabharata/MBh16.txt",
+      "covers": "Mahabharata Critical Edition parva 16, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-17",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh17.txt",
+      "path": "sources/raw/mahabharata/MBh17.txt",
+      "covers": "Mahabharata Critical Edition parva 17, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "bombay-indology-mbh-ur-18",
+      "url": "https://bombay.indology.info/mahabharata/text/UR/MBh18.txt",
+      "path": "sources/raw/mahabharata/MBh18.txt",
+      "covers": "Mahabharata Critical Edition parva 18, Unicode Roman ISO 15919",
+      "terms": "Electronic text (C) Bhandarkar Oriental Research Institute; public redistribution terms not assumed. Use as source/verification candidate until terms are explicitly cleared.",
+      "status": "verified-live-parent-file"
+    },
+    {
+      "key": "ifp-digital-tevaram",
+      "url": "https://www.ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/HOME.HTM",
+      "path": "sources/raw/verification/ifp/digital_tevaram_home.html",
+      "covers": "Digital Tevaram: Tamil text of 798 patikams with scholarly metadata; candidate independent witness for Tevaram 1-7",
+      "terms": "Published IFP/EFEO electronic edition/CD. Use as verification/reference until exact text reuse/publication terms are pinned; modern English rendering is separately copyright-sensitive.",
+      "status": "verified-live-verification-candidate",
+      "independence_note": "IFP text is based on the IFP panmurai edition under T.V. Gopal Iyer/F. Gros project lineage, distinct from Project Madurai electronic preparation; verify exact textual lineage per patikam before certifying independence."
+    }
+  ]
+}

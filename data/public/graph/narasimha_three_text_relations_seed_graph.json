@@ -1,0 +1,99 @@
+{
+  "graph": {
+    "id": "graph.narasimha.three_text_relations.real_seed.v1",
+    "nodes": [
+      {
+        "id": "text:narasimha_purana",
+        "kind": "text",
+        "label": "Narasiṃha Purāṇa",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.16"
+        ],
+        "derivation": "deterministic_metadata"
+      },
+      {
+        "id": "text:vishnu_purana",
+        "kind": "text",
+        "label": "Viṣṇu Purāṇa",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata"
+      },
+      {
+        "id": "text:bhagavata_purana",
+        "kind": "text",
+        "label": "Śrīmad Bhāgavata Purāṇa",
+        "evidence_ids": [
+          "bhagavatam.7.8.49"
+        ],
+        "derivation": "deterministic_metadata"
+      },
+      {
+        "id": "avatar:narasimha",
+        "kind": "avatar",
+        "label": "Narasiṃha",
+        "aliases": [
+          "Nṛsiṃha",
+          "Narahari"
+        ],
+        "evidence_ids": [
+          "purana.narasimha_purana.44.16",
+          "purana.vishnu_purana.1.20.32",
+          "bhagavatam.7.8.49"
+        ],
+        "relation_ids": [
+          "rel.narasimha.nsp_vip.form_identity.1",
+          "rel.narasimha.nsp_bhagavata.manifestation.1"
+        ],
+        "derivation": "accepted_cross_source_relation",
+        "notes": "Cross-text node identity is anchored in both accepted reviewed relations."
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.cross_text.nsp.vip.narasimha.agreement.1",
+        "kind": "textual_relation",
+        "subject": "text:narasimha_purana",
+        "predicate": "agrees_with_on_narasimha_manifestation",
+        "object": "text:vishnu_purana",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.16",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "relation_ids": [
+          "rel.narasimha.nsp_vip.form_identity.1"
+        ],
+        "derivation": "accepted_cross_source_relation",
+        "status": "verified",
+        "notes": "Narrow reviewed agreement only on Narasiṃha/Viṣṇu manifestation identity."
+      },
+      {
+        "id": "edge.cross_text.nsp.bhagavata.narasimha.agreement.1",
+        "kind": "textual_relation",
+        "subject": "text:narasimha_purana",
+        "predicate": "agrees_with_on_narasimha_manifestation",
+        "object": "text:bhagavata_purana",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.16",
+          "bhagavatam.7.8.49"
+        ],
+        "relation_ids": [
+          "rel.narasimha.nsp_bhagavata.manifestation.1"
+        ],
+        "derivation": "accepted_cross_source_relation",
+        "status": "verified",
+        "notes": "Narrow reviewed agreement only on Narasiṃha as a divine manifested/avatāra form."
+      }
+    ],
+    "policy": {
+      "node_authority": "verified corpus evidence only",
+      "edge_authority": "verified corpus evidence only",
+      "generated_nodes": "forbidden without verified evidence_ids",
+      "generated_edges": "forbidden without verified evidence_ids",
+      "silent_harmonization": false
+    }
+  },
+  "rejected_nodes": [],
+  "rejected_edges": []
+}

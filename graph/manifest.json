@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "graphs": [
+    {
+      "id": "devi_mahatmya_seed",
+      "spec": "data/public/graph/devi_mahatmya_seed_spec.json",
+      "rows": [
+        "data/public/purana/devi_mahatmya_certified_seed.jsonl"
+      ],
+      "output": "data/public/graph/devi_mahatmya_seed_graph.json"
+    },
+    {
+      "id": "bhagavata_narasimha_seed",
+      "spec": "data/public/graph/bhagavata_narasimha_seed_spec.json",
+      "rows": [
+        "data/public/bhagavatam/prahlada_narasimha_certified_seed.jsonl"
+      ],
+      "output": "data/public/graph/bhagavata_narasimha_seed_graph.json"
+    },
+    {
+      "id": "vishnu_purana_prahlada_seed",
+      "spec": "data/public/graph/vishnu_purana_prahlada_seed_spec.json",
+      "rows": [
+        "data/public/purana/vishnu_purana_prahlada_certified_seed.jsonl"
+      ],
+      "output": "data/public/graph/vishnu_purana_prahlada_seed_graph.json"
+    },
+    {
+      "id": "narasimha_cross_text_seed",
+      "spec": "data/public/graph/narasimha_cross_text_seed_spec.json",
+      "rows": [
+        "data/public/bhagavatam/prahlada_narasimha_certified_seed.jsonl",
+        "data/public/purana/vishnu_purana_prahlada_certified_seed.jsonl"
+      ],
+      "relations": "data/public/relations/narasimha_bhagavata_vishnu_purana_relations.json",
+      "output": "data/public/graph/narasimha_cross_text_seed_graph.json"
+    },
+    {
+      "id": "narasimha_purana_seed",
+      "spec": "data/public/graph/narasimha_purana_seed_spec.json",
+      "rows": [
+        "data/public/purana/narasimha_purana_44_certified_seed.jsonl"
+      ],
+      "output": "data/public/graph/narasimha_purana_seed_graph.json"
+    },
+    {
+      "id": "narasimha_three_text_relations_seed",
+      "spec": "data/public/graph/narasimha_three_text_relations_seed_spec.json",
+      "rows": [
+        "data/public/purana/narasimha_purana_44_certified_seed.jsonl",
+        "data/public/purana/vishnu_purana_prahlada_certified_seed.jsonl",
+        "data/public/bhagavatam/prahlada_narasimha_certified_seed.jsonl"
+      ],
+      "relations": "data/public/relations/narasimha_three_text_relations.json",
+      "output": "data/public/graph/narasimha_three_text_relations_seed_graph.json"
+    },
+    {
+      "id": "vishnu_purana_genealogy_seed",
+      "spec": "data/public/graph/vishnu_purana_genealogy_seed_spec.json",
+      "rows": [
+        "data/public/purana/vishnu_purana_genealogy_seed.jsonl"
+      ],
+      "output": "data/public/graph/vishnu_purana_genealogy_seed_graph.json"
+    },
+    {
+      "id": "devi_ritual_seed",
+      "spec": "data/public/graph/devi_ritual_seed_spec.json",
+      "rows": [
+        "data/public/purana/devi_mahatmya_ritual_seed.jsonl"
+      ],
+      "output": "data/public/graph/devi_ritual_seed_graph.json"
+    },
+    {
+      "id": "vamana_temple_ritual_seed",
+      "spec": "data/public/graph/vamana_temple_ritual_seed_spec.json",
+      "rows": [
+        "data/public/purana/vamana_purana_temple_ritual_seed.jsonl"
+      ],
+      "output": "data/public/graph/vamana_temple_ritual_seed_graph.json"
+    }
+  ],
+  "global": {
+    "id": "graph.bhakthi.real.v1",
+    "output": "data/public/graph/global_evidence_graph.json"
+  },
+  "relation_sets": [
+    {
+      "id": "narasimha_bhagavata_vishnu_purana",
+      "spec": "data/public/relations/narasimha_bhagavata_vishnu_purana_spec.json",
+      "rows": [
+        "data/public/bhagavatam/prahlada_narasimha_certified_seed.jsonl",
+        "data/public/purana/vishnu_purana_prahlada_certified_seed.jsonl"
+      ],
+      "output": "data/public/relations/narasimha_bhagavata_vishnu_purana_relations.json"
+    },
+    {
+      "id": "narasimha_three_text",
+      "spec": "data/public/relations/narasimha_three_text_spec.json",
+      "rows": [
+        "data/public/purana/narasimha_purana_44_certified_seed.jsonl",
+        "data/public/purana/vishnu_purana_prahlada_certified_seed.jsonl",
+        "data/public/bhagavatam/prahlada_narasimha_certified_seed.jsonl"
+      ],
+      "output": "data/public/relations/narasimha_three_text_relations.json"
+    }
+  ]
+}

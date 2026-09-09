@@ -1,0 +1,17 @@
+{
+  "id":"compare.prahlada_narasimha.v1",
+  "concept":"prahlada_narasimha",
+  "question":"Compare the Prahlada-Narasimha episode across verified sources.",
+  "dimensions":["episode_presence","prahlada_reference"],
+  "sources":[
+    {"source_key":"bhagavata","corpus":"bhagavatam","work":"bhagavata_purana","tradition":"sri_vaishnava"},
+    {"source_key":"vishnu_purana","corpus":"purana","work":"vishnu_purana","tradition":"general"},
+    {"source_key":"alwar","corpus":"divya_prabandham","work":"periyalvar_tirumoli","tradition":"sri_vaishnava"}
+  ],
+  "claims":[
+    {"id":"c1","dimension":"episode_presence","source_key":"bhagavata","text":"The verified Bhagavata evidence belongs to the Prahlada-Narasimha episode.","support_ids":["bhagavatam.7.8.17"],"status":"supported","variant_notes":[]},
+    {"id":"c2","dimension":"prahlada_reference","source_key":"vishnu_purana","text":"The verified Vishnu Purana evidence explicitly contains Prahlada's name.","quote":"प्रह्लाद","support_ids":["vishnu_purana.1.20.1"],"status":"supported","variant_notes":[]},
+    {"id":"c3","dimension":"episode_presence","source_key":"alwar","text":"An Alwar verse supports the comparison.","support_ids":["divya_prabandham.periyalvar_tirumoli.1"],"status":"supported","variant_notes":[]}
+  ],
+  "gaps":[]
+}

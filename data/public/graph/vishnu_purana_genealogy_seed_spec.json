@@ -1,0 +1,85 @@
+{
+  "id": "graph.vishnu_purana.genealogy.real_seed.v1",
+  "nodes": [
+    {
+      "id": "text:vishnu_purana",
+      "kind": "text",
+      "label": "Viṣṇu Purāṇa",
+      "evidence_ids": [
+        "purana.vishnu_purana.1.21.1"
+      ],
+      "derivation": "deterministic_metadata"
+    },
+    {
+      "id": "person:prahlada",
+      "kind": "person",
+      "label": "Prahlāda",
+      "evidence_ids": [
+        "purana.vishnu_purana.1.21.1"
+      ],
+      "derivation": "deterministic_metadata"
+    },
+    {
+      "id": "person:virocana",
+      "kind": "person",
+      "label": "Virocana",
+      "evidence_ids": [
+        "purana.vishnu_purana.1.21.1"
+      ],
+      "derivation": "deterministic_metadata"
+    },
+    {
+      "id": "person:bali",
+      "kind": "person",
+      "label": "Bali",
+      "aliases": [
+        "Mahābali"
+      ],
+      "evidence_ids": [
+        "purana.vishnu_purana.1.21.1"
+      ],
+      "derivation": "deterministic_metadata"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge.vip.prahlada.virocana.father.1",
+      "kind": "genealogy",
+      "subject": "person:prahlada",
+      "predicate": "father_of",
+      "object": "person:virocana",
+      "evidence_ids": [
+        "purana.vishnu_purana.1.21.1"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "status": "verified",
+      "notes": "The verse groups Virocana under Prahlāda descendants; genealogical direction is curator-reviewed from the Sanskrit syntax."
+    },
+    {
+      "id": "edge.vip.virocana.bali.father.1",
+      "kind": "genealogy",
+      "subject": "person:virocana",
+      "predicate": "father_of",
+      "object": "person:bali",
+      "evidence_ids": [
+        "purana.vishnu_purana.1.21.1"
+      ],
+      "derivation": "deterministic_metadata",
+      "status": "verified",
+      "notes": "The verse explicitly says balir jajñe virocanāt: Bali was born from Virocana."
+    },
+    {
+      "id": "edge.vip.bali.virocana.son.1",
+      "kind": "genealogy",
+      "subject": "person:bali",
+      "predicate": "son_of",
+      "object": "person:virocana",
+      "evidence_ids": [
+        "purana.vishnu_purana.1.21.1"
+      ],
+      "derivation": "deterministic_metadata",
+      "status": "verified"
+    }
+  ]
+}

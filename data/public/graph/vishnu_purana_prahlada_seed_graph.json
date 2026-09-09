@@ -1,0 +1,239 @@
+{
+  "graph": {
+    "id": "graph.vishnu_purana.prahlada.real_seed.v1",
+    "nodes": [
+      {
+        "id": "text:vishnu_purana",
+        "kind": "text",
+        "label": "Viṣṇu Purāṇa",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Work identity comes from certified corpus metadata."
+      },
+      {
+        "id": "episode:prahlada_narasimha",
+        "kind": "episode",
+        "label": "Prahlāda–Narasiṃha episode",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.32",
+          "purana.vishnu_purana.1.20.39"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "notes": "Curated episode identity across certified Prahlāda narrative loci."
+      },
+      {
+        "id": "person:prahlada",
+        "kind": "person",
+        "label": "Prahlāda",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.35"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Prahlāda is directly named in both certified verses."
+      },
+      {
+        "id": "person:hiranyakashipu",
+        "kind": "person",
+        "label": "Hiraṇyakaśipu",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Hiraṇyakaśipu is directly named in the certified verse."
+      },
+      {
+        "id": "avatar:narasimha",
+        "kind": "avatar",
+        "label": "Narasiṃha",
+        "aliases": [
+          "Nṛsiṃha",
+          "Narahari"
+        ],
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly uses narasiṃha-svarūpiṇā."
+      },
+      {
+        "id": "deity:vishnu",
+        "kind": "deity",
+        "label": "Viṣṇu",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly names Viṣṇu."
+      },
+      {
+        "id": "deity:hari",
+        "kind": "deity",
+        "label": "Hari",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.39"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly names Hari."
+      },
+      {
+        "id": "concept:bhakti",
+        "kind": "concept",
+        "label": "Bhakti",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.35"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly characterizes Prahlāda as bhagavad-bhakta."
+      },
+      {
+        "id": "lineage:daitya",
+        "kind": "lineage",
+        "label": "Daitya lineage",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly states that Prahlāda became lord of the Daityas."
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.vip.text.episode.1",
+        "kind": "episode",
+        "subject": "text:vishnu_purana",
+        "predicate": "contains_evidence_for",
+        "object": "episode:prahlada_narasimha",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.32",
+          "purana.vishnu_purana.1.20.39"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Certified loci belong to the Prahlāda–Narasiṃha narrative."
+      },
+      {
+        "id": "edge.vip.hiranyakashipu.prahlada.father.1",
+        "kind": "genealogy",
+        "subject": "person:hiranyakashipu",
+        "predicate": "father_of",
+        "object": "person:prahlada",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly calls Hiraṇyakaśipu the father (pitā) and Prahlāda the son (sutam)."
+      },
+      {
+        "id": "edge.vip.prahlada.hiranyakashipu.son.1",
+        "kind": "genealogy",
+        "subject": "person:prahlada",
+        "predicate": "son_of",
+        "object": "person:hiranyakashipu",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "Inverse genealogical edge from the same explicit pitā/sutam wording."
+      },
+      {
+        "id": "edge.vip.narasimha.vishnu.form.1",
+        "kind": "deity_avatar",
+        "subject": "avatar:narasimha",
+        "predicate": "form_of",
+        "object": "deity:vishnu",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The Sanskrit explicitly says viṣṇunā narasiṃha-svarūpiṇā: Viṣṇu in Narasiṃha form."
+      },
+      {
+        "id": "edge.vip.narasimha.episode.1",
+        "kind": "deity_avatar",
+        "subject": "avatar:narasimha",
+        "predicate": "appears_in",
+        "object": "episode:prahlada_narasimha",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Episode membership is curated; the underlying Narasiṃha wording is explicit."
+      },
+      {
+        "id": "edge.vip.hari.prahlada.protects.1",
+        "kind": "deity_avatar",
+        "subject": "deity:hari",
+        "predicate": "protects",
+        "object": "person:prahlada",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.39"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly states that Hari protected Prahlāda through every calamity."
+      },
+      {
+        "id": "edge.vip.prahlada.bhakti.1",
+        "kind": "concept_link",
+        "subject": "person:prahlada",
+        "predicate": "characterized_by",
+        "object": "concept:bhakti",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.35"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly calls Prahlāda bhagavad-bhakta."
+      },
+      {
+        "id": "edge.vip.prahlada.daitya.lord.1",
+        "kind": "genealogy",
+        "subject": "person:prahlada",
+        "predicate": "became_lord_of",
+        "object": "lineage:daitya",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly says Prahlāda became lord (pati) of the Daityas."
+      },
+      {
+        "id": "edge.vip.narasimha.hiranyakashipu.death.1",
+        "kind": "episode",
+        "subject": "avatar:narasimha",
+        "predicate": "causes_death_of",
+        "object": "person:hiranyakashipu",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "1.17.12 establishes Hiraṇyakaśipu as Prahlāda's father; 1.20.32 says Prahlāda's father was brought to his end by Viṣṇu in Narasiṃha form. The cross-locus referent resolution is curator-reviewed."
+      }
+    ],
+    "policy": {
+      "node_authority": "verified corpus evidence only",
+      "edge_authority": "verified corpus evidence only",
+      "generated_nodes": "forbidden without verified evidence_ids",
+      "generated_edges": "forbidden without verified evidence_ids",
+      "silent_harmonization": false
+    }
+  },
+  "rejected_nodes": [],
+  "rejected_edges": []
+}

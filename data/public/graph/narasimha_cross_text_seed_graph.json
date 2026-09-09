@@ -1,0 +1,74 @@
+{
+  "graph": {
+    "id": "graph.narasimha.cross_text.real_seed.v1",
+    "nodes": [
+      {
+        "id": "text:bhagavata_purana",
+        "kind": "text",
+        "label": "Śrīmad Bhāgavata Purāṇa",
+        "evidence_ids": [
+          "bhagavatam.7.8.45"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Certified corpus work identity."
+      },
+      {
+        "id": "text:vishnu_purana",
+        "kind": "text",
+        "label": "Viṣṇu Purāṇa",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Certified corpus work identity."
+      },
+      {
+        "id": "avatar:narasimha",
+        "kind": "avatar",
+        "label": "Narasiṃha",
+        "aliases": [
+          "Nṛsiṃha",
+          "Narahari"
+        ],
+        "evidence_ids": [
+          "bhagavatam.7.8.45",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "relation_ids": [
+          "rel.narasimha.bhagavata_vishnu_purana.manifestation.1"
+        ],
+        "derivation": "accepted_cross_source_relation",
+        "notes": "Cross-text node evidence is anchored in an accepted reviewed relation."
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.cross_text.bhagavata.vip.narasimha.agreement.1",
+        "kind": "textual_relation",
+        "subject": "text:bhagavata_purana",
+        "predicate": "agrees_with_on_narasimha_manifestation",
+        "object": "text:vishnu_purana",
+        "evidence_ids": [
+          "bhagavatam.7.8.45",
+          "bhagavatam.7.8.49",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "relation_ids": [
+          "rel.narasimha.bhagavata_vishnu_purana.manifestation.1"
+        ],
+        "derivation": "accepted_cross_source_relation",
+        "status": "verified",
+        "notes": "The edge inherits authority from the reviewed cross-source relation; it does not imply full narrative identity."
+      }
+    ],
+    "policy": {
+      "node_authority": "verified corpus evidence only",
+      "edge_authority": "verified corpus evidence only",
+      "generated_nodes": "forbidden without verified evidence_ids",
+      "generated_edges": "forbidden without verified evidence_ids",
+      "silent_harmonization": false
+    }
+  },
+  "rejected_nodes": [],
+  "rejected_edges": []
+}

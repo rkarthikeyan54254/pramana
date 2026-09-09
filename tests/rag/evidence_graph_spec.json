@@ -1,0 +1,102 @@
+{
+  "id": "graph.prahlada.fixture.v1",
+  "nodes": [
+    {
+      "id": "episode:prahlada_narasimha",
+      "kind": "episode",
+      "label": "Prahlada-Narasimha fixture episode",
+      "evidence_ids": [
+        "bhagavatam.7.8.17"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "fixture_curator"
+    },
+    {
+      "id": "text:bhagavata_purana",
+      "kind": "text",
+      "label": "Bhagavata Purana",
+      "evidence_ids": [
+        "bhagavatam.7.8.17"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "fixture_curator"
+    },
+    {
+      "id": "text:vishnu_purana",
+      "kind": "text",
+      "label": "Vishnu Purana",
+      "evidence_ids": [
+        "vishnu_purana.1.20.1"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "fixture_curator"
+    },
+    {
+      "id": "text:alwar_fixture",
+      "kind": "text",
+      "label": "Unverified Alwar fixture",
+      "evidence_ids": [
+        "divya_prabandham.periyalvar_tirumoli.1"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "fixture_curator"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge.fixture.bhagavata",
+      "kind": "episode",
+      "subject": "text:bhagavata_purana",
+      "predicate": "contains_evidence_for",
+      "object": "episode:prahlada_narasimha",
+      "evidence_ids": [
+        "bhagavatam.7.8.17"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "fixture_curator",
+      "status": "verified",
+      "notes": "Synthetic graph fixture."
+    },
+    {
+      "id": "edge.fixture.relation",
+      "kind": "textual_relation",
+      "subject": "text:bhagavata_purana",
+      "predicate": "differs_in_scope_from",
+      "object": "text:vishnu_purana",
+      "evidence_ids": [
+        "bhagavatam.7.8.17",
+        "vishnu_purana.1.20.1"
+      ],
+      "relation_ids": [
+        "rel.prahlada.fixture.1"
+      ],
+      "derivation": "accepted_cross_source_relation",
+      "status": "verified"
+    },
+    {
+      "id": "edge.bad.unverified",
+      "kind": "episode",
+      "subject": "text:alwar_fixture",
+      "predicate": "contains_evidence_for",
+      "object": "episode:prahlada_narasimha",
+      "evidence_ids": [
+        "divya_prabandham.periyalvar_tirumoli.1"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "fixture_curator",
+      "status": "verified"
+    },
+    {
+      "id": "edge.bad.unreviewed",
+      "kind": "episode",
+      "subject": "text:vishnu_purana",
+      "predicate": "contains_evidence_for",
+      "object": "episode:prahlada_narasimha",
+      "evidence_ids": [
+        "vishnu_purana.1.20.1"
+      ],
+      "derivation": "curator_reviewed",
+      "status": "verified"
+    }
+  ]
+}

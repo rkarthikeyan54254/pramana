@@ -1,0 +1,34 @@
+name: acquire-source-snapshots
+on:
+  workflow_dispatch:
+    inputs:
+      keys:
+        description: 'Comma-separated source keys; blank fetches the full manifest'
+        required: false
+        type: string
+
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch immutable snapshots
+        shell: bash
+        run: |
+          if [ -n "${{ inputs.keys }}" ]; then
+            python scripts/fetch_sources.py sources/manifest.json --keys "${{ inputs.keys }}"
+          else
+            python scripts/fetch_sources.py sources/manifest.json
+          fi
+      - name: Verify checksums
+        run: python scripts/audit_snapshots.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: raw-source-snapshots
+          path: |
+            sources/raw/
+            sources/SNAPSHOT_INDEX.json
+          retention-days: 30

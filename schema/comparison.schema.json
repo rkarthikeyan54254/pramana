@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bhakthi Corpus evidence-backed cross-text comparison",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "concept", "question", "dimensions", "sources", "claims", "gaps", "policy"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "concept": {"type": "string", "minLength": 1},
+    "question": {"type": "string", "minLength": 1},
+    "dimensions": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "sources": {
+      "type": "array", "minItems": 2,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["source_key", "corpus", "work", "status"],
+        "properties": {
+          "source_key": {"type": "string", "minLength": 1},
+          "corpus": {"type": "string", "minLength": 1},
+          "work": {"type": "string", "minLength": 1},
+          "tradition": {"type": ["string", "null"]},
+          "status": {"enum": ["evidence_present", "no_verified_evidence"]}
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "dimension", "source_key", "text", "support_ids", "status"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "dimension": {"type": "string", "minLength": 1},
+          "source_key": {"type": "string", "minLength": 1},
+          "text": {"type": "string", "minLength": 1},
+          "quote": {"type": ["string", "null"]},
+          "support_ids": {
+            "type": "array", "minItems": 1, "uniqueItems": true,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "variant_notes": {"type": "array", "items": {"type": "string"}},
+          "status": {"enum": ["supported", "disputed"]}
+        }
+      }
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["source_key", "dimension", "reason"],
+        "properties": {
+          "source_key": {"type": "string", "minLength": 1},
+          "dimension": {"type": "string", "minLength": 1},
+          "reason": {"enum": ["no_verified_evidence", "insufficient_evidence", "conflicting_verified_evidence"]},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "policy": {
+      "type": "object", "additionalProperties": false,
+      "required": ["authority", "cross_text_rule", "model_memory", "silent_reconciliation"],
+      "properties": {
+        "authority": {"const": "verified corpus rows only"},
+        "cross_text_rule": {"const": "compare sources; do not collapse them into one harmonized account"},
+        "model_memory": {"const": "not evidence"},
+        "silent_reconciliation": {"const": false}
+      }
+    }
+  }
+}

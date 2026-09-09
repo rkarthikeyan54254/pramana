@@ -1,0 +1,86 @@
+{
+  "id": "graph.devi_mahatmya.ritual.real_seed.v1",
+  "nodes": [
+    {
+      "id": "text:devi_mahatmya",
+      "kind": "text",
+      "label": "Devī Māhātmya",
+      "evidence_ids": [
+        "purana.devi_mahatmya.92.3",
+        "purana.devi_mahatmya.92.11"
+      ],
+      "derivation": "deterministic_metadata"
+    },
+    {
+      "id": "deity:devi",
+      "kind": "deity",
+      "label": "Devī",
+      "evidence_ids": [
+        "purana.devi_mahatmya.92.3",
+        "purana.devi_mahatmya.92.11"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "notes": "Speaker/content identity is curated from the Devī-vākya context."
+    },
+    {
+      "id": "ritual:devi_tithi_recitation",
+      "kind": "ritual",
+      "label": "Devī Māhātmya recitation/hearing on Aṣṭamī, Navamī and Caturdaśī",
+      "evidence_ids": [
+        "purana.devi_mahatmya.92.3"
+      ],
+      "derivation": "deterministic_metadata"
+    },
+    {
+      "id": "festival:annual_autumn_mahapuja",
+      "kind": "festival",
+      "label": "Annual autumn mahāpūjā",
+      "evidence_ids": [
+        "purana.devi_mahatmya.92.11"
+      ],
+      "derivation": "deterministic_metadata",
+      "notes": "Scriptural annual autumn mahāpūjā only; not equated here with any modern named festival."
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge.devi.text.tithi_recitation.1",
+      "kind": "festival_ritual",
+      "subject": "text:devi_mahatmya",
+      "predicate": "prescribes_or_praises",
+      "object": "ritual:devi_tithi_recitation",
+      "evidence_ids": [
+        "purana.devi_mahatmya.92.3"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "status": "verified"
+    },
+    {
+      "id": "edge.devi.text.autumn_mahapuja.1",
+      "kind": "festival_ritual",
+      "subject": "text:devi_mahatmya",
+      "predicate": "linked_to",
+      "object": "festival:annual_autumn_mahapuja",
+      "evidence_ids": [
+        "purana.devi_mahatmya.92.11"
+      ],
+      "derivation": "deterministic_metadata",
+      "status": "verified"
+    },
+    {
+      "id": "edge.devi.deity.tithi_recitation.1",
+      "kind": "festival_ritual",
+      "subject": "deity:devi",
+      "predicate": "object_of_devotional_hearing",
+      "object": "ritual:devi_tithi_recitation",
+      "evidence_ids": [
+        "purana.devi_mahatmya.92.3"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "status": "verified"
+    }
+  ]
+}

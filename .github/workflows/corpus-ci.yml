@@ -1,0 +1,33 @@
+name: corpus-ci
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  trust-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install jsonschema indic-transliteration
+      - name: Moat/trust gates
+        run: make moat-proof-gate
+      - name: Build file-level rights matrix
+        run: python scripts/build_license_matrix.py
+      - name: Test rights-aware release builder
+        run: python tests/test_release_builder.py
+      - name: Build research-NC candidate
+        run: |
+          python scripts/build_release.py --profile research-nc --outdir dist/research-nc
+          python scripts/check_release.py dist/research-nc
+      - name: Build open candidate
+        run: |
+          python scripts/build_release.py --profile open --outdir dist/open
+          python scripts/check_release.py dist/open
+      - uses: actions/upload-artifact@v4
+        with:
+          name: corpus-release-candidates
+          path: dist/

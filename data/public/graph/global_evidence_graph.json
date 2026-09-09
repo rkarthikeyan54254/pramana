@@ -1,0 +1,945 @@
+{
+  "graph": {
+    "id": "graph.bhakthi.real.v1",
+    "nodes": [
+      {
+        "id": "avatar:narasimha",
+        "kind": "avatar",
+        "label": "Narasiṃha",
+        "aliases": [
+          "Narahari",
+          "Narakeśarī",
+          "Nṛhari",
+          "Nṛsiṃha"
+        ],
+        "evidence_ids": [
+          "bhagavatam.7.8.45",
+          "bhagavatam.7.8.49",
+          "purana.narasimha_purana.44.16",
+          "purana.narasimha_purana.44.31",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly addresses nṛsiṃha."
+      },
+      {
+        "id": "concept:avatara",
+        "kind": "concept",
+        "label": "Avatāra",
+        "evidence_ids": [
+          "bhagavatam.7.8.49"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly uses avatāraḥ."
+      },
+      {
+        "id": "concept:bhakti",
+        "kind": "concept",
+        "label": "Bhakti",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.35"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly characterizes Prahlāda as bhagavad-bhakta."
+      },
+      {
+        "id": "concept:combined_divine_tejas",
+        "kind": "concept",
+        "label": "Combined divine tejas",
+        "evidence_ids": [
+          "purana.devi_mahatmya.82.12"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation"
+      },
+      {
+        "id": "deity:brahma",
+        "kind": "deity",
+        "label": "Brahmā",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.37"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Verse 44.37 directly names Brahmā."
+      },
+      {
+        "id": "deity:devi",
+        "kind": "deity",
+        "label": "Devī",
+        "evidence_ids": [
+          "purana.devi_mahatmya.82.12",
+          "purana.devi_mahatmya.82.13",
+          "purana.devi_mahatmya.92.11",
+          "purana.devi_mahatmya.92.3"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation"
+      },
+      {
+        "id": "deity:hari",
+        "kind": "deity",
+        "label": "Hari",
+        "evidence_ids": [
+          "bhagavatam.7.8.29",
+          "purana.vishnu_purana.1.20.39"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly names Hari."
+      },
+      {
+        "id": "deity:vishnu",
+        "kind": "deity",
+        "label": "Viṣṇu",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.16",
+          "purana.vamana_purana.68.37",
+          "purana.vamana_purana.68.6",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly names Viṣṇu."
+      },
+      {
+        "id": "episode:mahishasura_conflict",
+        "kind": "episode",
+        "label": "Mahiṣāsura conflict",
+        "evidence_ids": [
+          "purana.devi_mahatmya.82.1",
+          "purana.devi_mahatmya.82.2"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation"
+      },
+      {
+        "id": "episode:prahlada_narasimha",
+        "kind": "episode",
+        "label": "Prahlāda–Narasiṃha episode",
+        "evidence_ids": [
+          "bhagavatam.7.8.29",
+          "bhagavatam.7.8.45",
+          "bhagavatam.7.8.49",
+          "purana.narasimha_purana.44.16",
+          "purana.narasimha_purana.44.28",
+          "purana.narasimha_purana.44.37",
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.32",
+          "purana.vishnu_purana.1.20.39"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "notes": "Curated episode node anchored in certified chapter 7.8 evidence."
+      },
+      {
+        "id": "festival:annual_autumn_mahapuja",
+        "kind": "festival",
+        "label": "Annual autumn mahāpūjā",
+        "evidence_ids": [
+          "purana.devi_mahatmya.92.11"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Scriptural annual autumn mahāpūjā only; not equated here with any modern named festival."
+      },
+      {
+        "id": "lineage:daitya",
+        "kind": "lineage",
+        "label": "Daitya lineage",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.37",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "The certified verse directly states that Prahlāda became lord of the Daityas."
+      },
+      {
+        "id": "person:bali",
+        "kind": "person",
+        "label": "Bali",
+        "aliases": [
+          "Mahābali"
+        ],
+        "evidence_ids": [
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "deterministic_metadata"
+      },
+      {
+        "id": "person:hiranyakashipu",
+        "kind": "person",
+        "label": "Hiraṇyakaśipu",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.28",
+          "purana.narasimha_purana.44.29",
+          "purana.vishnu_purana.1.17.12"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Hiraṇyakaśipu is directly named in the certified verse."
+      },
+      {
+        "id": "person:mahishasura",
+        "kind": "person",
+        "label": "Mahiṣāsura",
+        "aliases": [
+          "Mahisha"
+        ],
+        "evidence_ids": [
+          "purana.devi_mahatmya.82.1",
+          "purana.devi_mahatmya.82.2"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation"
+      },
+      {
+        "id": "person:prahlada",
+        "kind": "person",
+        "label": "Prahlāda",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.37",
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.35",
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Prahlāda is directly named in both certified verses."
+      },
+      {
+        "id": "person:vindhyavali",
+        "kind": "person",
+        "label": "Vindhyāvalī",
+        "evidence_ids": [
+          "purana.vamana_purana.68.59"
+        ],
+        "derivation": "deterministic_metadata"
+      },
+      {
+        "id": "person:virocana",
+        "kind": "person",
+        "label": "Virocana",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "deterministic_metadata"
+      },
+      {
+        "id": "place:srisaila",
+        "kind": "place",
+        "label": "Śrīśaila",
+        "aliases": [
+          "Sri Shaila",
+          "Śrīśaila peak"
+        ],
+        "evidence_ids": [
+          "purana.narasimha_purana.44.39"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Verse 44.39 directly names Śrīśailaśikhara; no modern temple identity is asserted."
+      },
+      {
+        "id": "ritual:devi_tithi_recitation",
+        "kind": "ritual",
+        "label": "Devī Māhātmya recitation/hearing on Aṣṭamī, Navamī and Caturdaśī",
+        "evidence_ids": [
+          "purana.devi_mahatmya.92.3"
+        ],
+        "derivation": "deterministic_metadata"
+      },
+      {
+        "id": "ritual:temple_lamp_offering",
+        "kind": "ritual",
+        "label": "Lamp offering in a Viṣṇu shrine",
+        "evidence_ids": [
+          "purana.vamana_purana.68.46",
+          "purana.vamana_purana.68.59"
+        ],
+        "derivation": "deterministic_metadata"
+      },
+      {
+        "id": "ritual:upavasa_vishnu_tithi",
+        "kind": "ritual",
+        "label": "Tithi-based Viṣṇu worship with upavāsa",
+        "evidence_ids": [
+          "purana.vamana_purana.68.6"
+        ],
+        "derivation": "deterministic_metadata"
+      },
+      {
+        "id": "temple:hari_kesava_generic",
+        "kind": "temple",
+        "label": "Hari/Keśava temple (scriptural generic)",
+        "aliases": [
+          "Viṣṇu-ālaya",
+          "Vāsudeva-ālaya",
+          "Viṣṇu-gṛha"
+        ],
+        "evidence_ids": [
+          "purana.vamana_purana.68.37",
+          "purana.vamana_purana.68.46",
+          "purana.vamana_purana.68.59"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "notes": "Generic scriptural shrine concept only; not a named modern temple."
+      },
+      {
+        "id": "text:bhagavata_purana",
+        "kind": "text",
+        "label": "Śrīmad Bhāgavata Purāṇa",
+        "evidence_ids": [
+          "bhagavatam.7.8.29",
+          "bhagavatam.7.8.45",
+          "bhagavatam.7.8.49"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Work identity comes from the certified corpus row."
+      },
+      {
+        "id": "text:devi_mahatmya",
+        "kind": "text",
+        "label": "Devī Māhātmya",
+        "evidence_ids": [
+          "purana.devi_mahatmya.82.1",
+          "purana.devi_mahatmya.92.11",
+          "purana.devi_mahatmya.92.3"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation"
+      },
+      {
+        "id": "text:markandeya_purana",
+        "kind": "text",
+        "label": "Mārkaṇḍeya Purāṇa",
+        "evidence_ids": [
+          "purana.devi_mahatmya.82.1"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation"
+      },
+      {
+        "id": "text:narasimha_purana",
+        "kind": "text",
+        "label": "Narasiṃha Purāṇa",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.16"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Work identity comes from certified corpus metadata."
+      },
+      {
+        "id": "text:vamana_purana",
+        "kind": "text",
+        "label": "Vāmana Purāṇa",
+        "evidence_ids": [
+          "purana.vamana_purana.68.6",
+          "purana.vamana_purana.68.37"
+        ],
+        "derivation": "deterministic_metadata"
+      },
+      {
+        "id": "text:vishnu_purana",
+        "kind": "text",
+        "label": "Viṣṇu Purāṇa",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.32",
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "deterministic_metadata",
+        "notes": "Work identity comes from certified corpus metadata."
+      },
+      {
+        "id": "tradition:shakta",
+        "kind": "tradition",
+        "label": "Śākta",
+        "evidence_ids": [
+          "purana.devi_mahatmya.82.12"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.bhp.hari.episode.1",
+        "kind": "deity_avatar",
+        "subject": "deity:hari",
+        "predicate": "acts_in",
+        "object": "episode:prahlada_narasimha",
+        "evidence_ids": [
+          "bhagavatam.7.8.29"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Verse 7.8.29 directly names Hari as the acting subject."
+      },
+      {
+        "id": "edge.bhp.narasimha.avatara.1",
+        "kind": "concept_link",
+        "subject": "avatar:narasimha",
+        "predicate": "classified_as",
+        "object": "concept:avatara",
+        "evidence_ids": [
+          "bhagavatam.7.8.45",
+          "bhagavatam.7.8.49"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "The chapter identifies Nṛsiṃha by name and subsequently calls the manifested form an avatāra; linking those loci is curator-reviewed rather than mechanically inferred."
+      },
+      {
+        "id": "edge.bhp.narasimha.episode.1",
+        "kind": "deity_avatar",
+        "subject": "avatar:narasimha",
+        "predicate": "appears_in",
+        "object": "episode:prahlada_narasimha",
+        "evidence_ids": [
+          "bhagavatam.7.8.45"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Verse 7.8.45 directly addresses Nṛsiṃha within the episode."
+      },
+      {
+        "id": "edge.bhp.narasimha.hari.1",
+        "kind": "deity_avatar",
+        "subject": "avatar:narasimha",
+        "predicate": "identified_in_episode_with",
+        "object": "deity:hari",
+        "evidence_ids": [
+          "bhagavatam.7.8.29",
+          "bhagavatam.7.8.45"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Same episode sequence names the acting figure Hari and addresses him as Nṛsiṃha; identity edge is explicitly curator-reviewed."
+      },
+      {
+        "id": "edge.bhp.text.episode.1",
+        "kind": "episode",
+        "subject": "text:bhagavata_purana",
+        "predicate": "contains_evidence_for",
+        "object": "episode:prahlada_narasimha",
+        "evidence_ids": [
+          "bhagavatam.7.8.29",
+          "bhagavatam.7.8.45",
+          "bhagavatam.7.8.49"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "These certified verses belong to the Narasiṃha confrontation/prayer sequence."
+      },
+      {
+        "id": "edge.cross_text.bhagavata.vip.narasimha.agreement.1",
+        "kind": "textual_relation",
+        "subject": "text:bhagavata_purana",
+        "predicate": "agrees_with_on_narasimha_manifestation",
+        "object": "text:vishnu_purana",
+        "evidence_ids": [
+          "bhagavatam.7.8.45",
+          "bhagavatam.7.8.49",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "relation_ids": [
+          "rel.narasimha.bhagavata_vishnu_purana.manifestation.1"
+        ],
+        "derivation": "accepted_cross_source_relation",
+        "status": "verified",
+        "notes": "The edge inherits authority from the reviewed cross-source relation; it does not imply full narrative identity."
+      },
+      {
+        "id": "edge.cross_text.nsp.bhagavata.narasimha.agreement.1",
+        "kind": "textual_relation",
+        "subject": "text:narasimha_purana",
+        "predicate": "agrees_with_on_narasimha_manifestation",
+        "object": "text:bhagavata_purana",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.16",
+          "bhagavatam.7.8.49"
+        ],
+        "relation_ids": [
+          "rel.narasimha.nsp_bhagavata.manifestation.1"
+        ],
+        "derivation": "accepted_cross_source_relation",
+        "status": "verified",
+        "notes": "Narrow reviewed agreement only on Narasiṃha as a divine manifested/avatāra form."
+      },
+      {
+        "id": "edge.cross_text.nsp.vip.narasimha.agreement.1",
+        "kind": "textual_relation",
+        "subject": "text:narasimha_purana",
+        "predicate": "agrees_with_on_narasimha_manifestation",
+        "object": "text:vishnu_purana",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.16",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "relation_ids": [
+          "rel.narasimha.nsp_vip.form_identity.1"
+        ],
+        "derivation": "accepted_cross_source_relation",
+        "status": "verified",
+        "notes": "Narrow reviewed agreement only on Narasiṃha/Viṣṇu manifestation identity."
+      },
+      {
+        "id": "edge.devi.deity.tithi_recitation.1",
+        "kind": "festival_ritual",
+        "subject": "deity:devi",
+        "predicate": "object_of_devotional_hearing",
+        "object": "ritual:devi_tithi_recitation",
+        "evidence_ids": [
+          "purana.devi_mahatmya.92.3"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified"
+      },
+      {
+        "id": "edge.devi.text.autumn_mahapuja.1",
+        "kind": "festival_ritual",
+        "subject": "text:devi_mahatmya",
+        "predicate": "linked_to",
+        "object": "festival:annual_autumn_mahapuja",
+        "evidence_ids": [
+          "purana.devi_mahatmya.92.11"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified"
+      },
+      {
+        "id": "edge.devi.text.tithi_recitation.1",
+        "kind": "festival_ritual",
+        "subject": "text:devi_mahatmya",
+        "predicate": "prescribes_or_praises",
+        "object": "ritual:devi_tithi_recitation",
+        "evidence_ids": [
+          "purana.devi_mahatmya.92.3"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified"
+      },
+      {
+        "id": "edge.dm.mahisha.episode.1",
+        "kind": "episode",
+        "subject": "person:mahishasura",
+        "predicate": "central_antagonist_in",
+        "object": "episode:mahishasura_conflict",
+        "evidence_ids": [
+          "purana.devi_mahatmya.82.1",
+          "purana.devi_mahatmya.82.2"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "The text names Mahisha as asura lord and Mahishasura as conqueror of the gods."
+      },
+      {
+        "id": "edge.dm.tejas.devi.1",
+        "kind": "deity_avatar",
+        "subject": "concept:combined_divine_tejas",
+        "predicate": "manifests_as",
+        "object": "deity:devi",
+        "evidence_ids": [
+          "purana.devi_mahatmya.82.12",
+          "purana.devi_mahatmya.82.13"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "The combined tejas becomes a woman; the following verse begins describing her body from the gods' energies. The identification with Devī is contextual and curator-reviewed, not mechanically inferred."
+      },
+      {
+        "id": "edge.dm.text.episode.1",
+        "kind": "episode",
+        "subject": "text:devi_mahatmya",
+        "predicate": "contains_evidence_for",
+        "object": "episode:mahishasura_conflict",
+        "evidence_ids": [
+          "purana.devi_mahatmya.82.1",
+          "purana.devi_mahatmya.82.2"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Chapter 82 explicitly sets the devasura war under Mahisha and his defeat of the gods."
+      },
+      {
+        "id": "edge.dm.text.tradition.1",
+        "kind": "claim",
+        "subject": "text:devi_mahatmya",
+        "predicate": "curated_under_tradition",
+        "object": "tradition:shakta",
+        "evidence_ids": [
+          "purana.devi_mahatmya.82.12"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Corpus taxonomy edge; evidence anchors the Devī manifestation passage but classification remains curator-reviewed."
+      },
+      {
+        "id": "edge.nsp.brahma.prahlada.consecrates.1",
+        "kind": "genealogy",
+        "subject": "deity:brahma",
+        "predicate": "consecrates_as_daitya_king",
+        "object": "person:prahlada",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.37"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "Verse 44.37 explicitly states Brahmā consecrated Prahlāda as daityarāja."
+      },
+      {
+        "id": "edge.nsp.narasimha.episode.1",
+        "kind": "deity_avatar",
+        "subject": "avatar:narasimha",
+        "predicate": "appears_in",
+        "object": "episode:prahlada_narasimha",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.16"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Episode membership is curator-reviewed; the underlying Narasiṃha wording is explicit."
+      },
+      {
+        "id": "edge.nsp.narasimha.hiranyakashipu.death.1",
+        "kind": "episode",
+        "subject": "avatar:narasimha",
+        "predicate": "causes_death_of",
+        "object": "person:hiranyakashipu",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.29",
+          "purana.narasimha_purana.44.31"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "The verses explicitly describe tearing Hiraṇyakaśipu with claws and tearing open the Daitya king’s heart; death-result classification is curator-reviewed."
+      },
+      {
+        "id": "edge.nsp.narasimha.hiranyakashipu.seizes.1",
+        "kind": "episode",
+        "subject": "avatar:narasimha",
+        "predicate": "seizes",
+        "object": "person:hiranyakashipu",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.28"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "Verse 44.28 explicitly says Narasiṃha seized Hiraṇyakaśipu."
+      },
+      {
+        "id": "edge.nsp.narasimha.srisaila.reaches.1",
+        "kind": "place",
+        "subject": "avatar:narasimha",
+        "predicate": "reaches",
+        "object": "place:srisaila",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.39"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "Verse 44.39 explicitly says Narasiṃha reached Śrīśaila peak."
+      },
+      {
+        "id": "edge.nsp.narasimha.srisaila.stays.1",
+        "kind": "place",
+        "subject": "avatar:narasimha",
+        "predicate": "stays_at",
+        "object": "place:srisaila",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.39"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "Verse 44.39 explicitly says he stayed there; this does not identify a specific modern temple."
+      },
+      {
+        "id": "edge.nsp.narasimha.vishnu.form.1",
+        "kind": "deity_avatar",
+        "subject": "avatar:narasimha",
+        "predicate": "form_of",
+        "object": "deity:vishnu",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.16"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse directly juxtaposes Viṣṇu assuming/producing the Narasiṃha form and Narasiṃha emerging from the pillar."
+      },
+      {
+        "id": "edge.nsp.prahlada.daitya.king.1",
+        "kind": "genealogy",
+        "subject": "person:prahlada",
+        "predicate": "consecrated_as_king_of",
+        "object": "lineage:daitya",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.37"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "Verse 44.37 explicitly calls Prahlāda daityarāja in the consecration statement."
+      },
+      {
+        "id": "edge.nsp.text.episode.1",
+        "kind": "episode",
+        "subject": "text:narasimha_purana",
+        "predicate": "contains_evidence_for",
+        "object": "episode:prahlada_narasimha",
+        "evidence_ids": [
+          "purana.narasimha_purana.44.16",
+          "purana.narasimha_purana.44.28",
+          "purana.narasimha_purana.44.37"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Certified chapter 44 loci are curated as part of the Prahlāda–Narasiṃha episode."
+      },
+      {
+        "id": "edge.vam.temple.lamp.1",
+        "kind": "festival_ritual",
+        "subject": "temple:hari_kesava_generic",
+        "predicate": "site_of",
+        "object": "ritual:temple_lamp_offering",
+        "evidence_ids": [
+          "purana.vamana_purana.68.46",
+          "purana.vamana_purana.68.59"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified"
+      },
+      {
+        "id": "edge.vam.text.temple.1",
+        "kind": "temple_link",
+        "subject": "text:vamana_purana",
+        "predicate": "contains_temple_evidence_for",
+        "object": "temple:hari_kesava_generic",
+        "evidence_ids": [
+          "purana.vamana_purana.68.37",
+          "purana.vamana_purana.68.46",
+          "purana.vamana_purana.68.59"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified"
+      },
+      {
+        "id": "edge.vam.vindhyavali.lamp.1",
+        "kind": "festival_ritual",
+        "subject": "person:vindhyavali",
+        "predicate": "performs",
+        "object": "ritual:temple_lamp_offering",
+        "evidence_ids": [
+          "purana.vamana_purana.68.59"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified"
+      },
+      {
+        "id": "edge.vam.vishnu.temple.1",
+        "kind": "temple_link",
+        "subject": "deity:vishnu",
+        "predicate": "worshipped_in",
+        "object": "temple:hari_kesava_generic",
+        "evidence_ids": [
+          "purana.vamana_purana.68.37",
+          "purana.vamana_purana.68.46"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified"
+      },
+      {
+        "id": "edge.vam.vishnu.upavasa.1",
+        "kind": "festival_ritual",
+        "subject": "deity:vishnu",
+        "predicate": "object_of",
+        "object": "ritual:upavasa_vishnu_tithi",
+        "evidence_ids": [
+          "purana.vamana_purana.68.6"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified"
+      },
+      {
+        "id": "edge.vip.bali.virocana.son.1",
+        "kind": "genealogy",
+        "subject": "person:bali",
+        "predicate": "son_of",
+        "object": "person:virocana",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified"
+      },
+      {
+        "id": "edge.vip.hari.prahlada.protects.1",
+        "kind": "deity_avatar",
+        "subject": "deity:hari",
+        "predicate": "protects",
+        "object": "person:prahlada",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.39"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly states that Hari protected Prahlāda through every calamity."
+      },
+      {
+        "id": "edge.vip.hiranyakashipu.prahlada.father.1",
+        "kind": "genealogy",
+        "subject": "person:hiranyakashipu",
+        "predicate": "father_of",
+        "object": "person:prahlada",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly calls Hiraṇyakaśipu the father (pitā) and Prahlāda the son (sutam)."
+      },
+      {
+        "id": "edge.vip.narasimha.episode.1",
+        "kind": "deity_avatar",
+        "subject": "avatar:narasimha",
+        "predicate": "appears_in",
+        "object": "episode:prahlada_narasimha",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Episode membership is curated; the underlying Narasiṃha wording is explicit."
+      },
+      {
+        "id": "edge.vip.narasimha.hiranyakashipu.death.1",
+        "kind": "episode",
+        "subject": "avatar:narasimha",
+        "predicate": "causes_death_of",
+        "object": "person:hiranyakashipu",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "1.17.12 establishes Hiraṇyakaśipu as Prahlāda's father; 1.20.32 says Prahlāda's father was brought to his end by Viṣṇu in Narasiṃha form. The cross-locus referent resolution is curator-reviewed."
+      },
+      {
+        "id": "edge.vip.narasimha.vishnu.form.1",
+        "kind": "deity_avatar",
+        "subject": "avatar:narasimha",
+        "predicate": "form_of",
+        "object": "deity:vishnu",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The Sanskrit explicitly says viṣṇunā narasiṃha-svarūpiṇā: Viṣṇu in Narasiṃha form."
+      },
+      {
+        "id": "edge.vip.prahlada.bhakti.1",
+        "kind": "concept_link",
+        "subject": "person:prahlada",
+        "predicate": "characterized_by",
+        "object": "concept:bhakti",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.35"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly calls Prahlāda bhagavad-bhakta."
+      },
+      {
+        "id": "edge.vip.prahlada.daitya.lord.1",
+        "kind": "genealogy",
+        "subject": "person:prahlada",
+        "predicate": "became_lord_of",
+        "object": "lineage:daitya",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.20.32"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly says Prahlāda became lord (pati) of the Daityas."
+      },
+      {
+        "id": "edge.vip.prahlada.hiranyakashipu.son.1",
+        "kind": "genealogy",
+        "subject": "person:prahlada",
+        "predicate": "son_of",
+        "object": "person:hiranyakashipu",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "Inverse genealogical edge from the same explicit pitā/sutam wording."
+      },
+      {
+        "id": "edge.vip.prahlada.virocana.father.1",
+        "kind": "genealogy",
+        "subject": "person:prahlada",
+        "predicate": "father_of",
+        "object": "person:virocana",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "The verse groups Virocana under Prahlāda descendants; genealogical direction is curator-reviewed from the Sanskrit syntax."
+      },
+      {
+        "id": "edge.vip.text.episode.1",
+        "kind": "episode",
+        "subject": "text:vishnu_purana",
+        "predicate": "contains_evidence_for",
+        "object": "episode:prahlada_narasimha",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.17.12",
+          "purana.vishnu_purana.1.20.32",
+          "purana.vishnu_purana.1.20.39"
+        ],
+        "derivation": "curator_reviewed",
+        "reviewed_by": "bhakthi-corpus-curation",
+        "status": "verified",
+        "notes": "Certified loci belong to the Prahlāda–Narasiṃha narrative."
+      },
+      {
+        "id": "edge.vip.virocana.bali.father.1",
+        "kind": "genealogy",
+        "subject": "person:virocana",
+        "predicate": "father_of",
+        "object": "person:bali",
+        "evidence_ids": [
+          "purana.vishnu_purana.1.21.1"
+        ],
+        "derivation": "deterministic_metadata",
+        "status": "verified",
+        "notes": "The verse explicitly says balir jajñe virocanāt: Bali was born from Virocana."
+      }
+    ],
+    "policy": {
+      "node_authority": "verified corpus evidence only",
+      "edge_authority": "verified corpus evidence only",
+      "generated_nodes": "forbidden without verified evidence_ids",
+      "generated_edges": "forbidden without verified evidence_ids",
+      "silent_harmonization": false
+    }
+  },
+  "conflicts": []
+}

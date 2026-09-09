@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+rag/index/*
+!rag/index/.gitkeep
+data/private/*
+!data/private/.gitignore
+# Network-acquired source snapshots and generated release artifacts
+sources/raw/
+sources/SNAPSHOT_INDEX.json
+dist/

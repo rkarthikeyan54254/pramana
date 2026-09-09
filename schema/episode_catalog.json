@@ -1,0 +1,148 @@
+{
+  "version": "1.0",
+  "policy": "Episode ranges are curated views over parent corpora. Never materialize an episode as authoritative unless start/end loci are verified against the pinned source edition.",
+  "episodes": [
+    {
+      "key": "devi_mahatmya_complete",
+      "parent_work": "markandeya_purana",
+      "label": "Devī Māhātmya",
+      "start_locus": "MarkP_81.1",
+      "end_locus": "MarkP_93.17",
+      "status": "locus_verified"
+    },
+    {
+      "key": "sundara_kanda_complete",
+      "parent_work": "valmiki_ramayana",
+      "label": "Sundara Kāṇḍa",
+      "start_locus": "5.001.001",
+      "end_locus": "5.066.029",
+      "status": "locus_verified"
+    },
+    {
+      "key": "bhagavata_skandha_10_krishna",
+      "parent_work": "bhagavata_purana",
+      "label": "Kṛṣṇa narrative — Skandha 10",
+      "status": "exact_locus_verified",
+      "start_locus": "BhP_10.01.001",
+      "end_locus": "BhP_10.90.050*",
+      "scope_note": "Full Skandha 10 Krishna narrative; exact GRETIL first/last verse markers pinned."
+    },
+    {
+      "key": "bhagavata_prahlada_narasimha",
+      "parent_work": "bhagavata_purana",
+      "label": "Prahlāda–Narasimha",
+      "status": "exact_locus_verified",
+      "start_locus": "BhP_07.05.001",
+      "end_locus": "BhP_07.09.047*",
+      "scope_note": "Curated Prahlada–Narasimha core. Ends at the phalaśruti/conclusion marker carried in GRETIL as anomalous BhP_07.09.047* inside chapter 7.10; preserve source anomaly exactly. Verses 7.10.048 onward transition away from the Prahlada core."
+    },
+    {
+      "key": "bhagavata_gajendra_moksha",
+      "parent_work": "bhagavata_purana",
+      "label": "Gajendra Mokṣa",
+      "status": "exact_locus_verified",
+      "start_locus": "BhP_08.02.001",
+      "end_locus": "BhP_08.04.026",
+      "scope_note": "Gajendra crisis, prayer, deliverance and concluding Hari departure."
+    },
+    {
+      "key": "bhagavata_dhruva",
+      "parent_work": "bhagavata_purana",
+      "label": "Dhruva",
+      "status": "exact_locus_verified",
+      "start_locus": "BhP_04.08.001",
+      "end_locus": "BhP_04.12.052",
+      "scope_note": "Dhruva leaves home through tapas, darshana, ascent and explicit narrative close."
+    },
+    {
+      "key": "bhagavata_kapila",
+      "parent_work": "bhagavata_purana",
+      "label": "Kapila teachings",
+      "status": "exact_locus_verified",
+      "start_locus": "BhP_03.25.001",
+      "end_locus": "BhP_03.33.037",
+      "scope_note": "Kapila–Devahuti teachings through explicit phalaśruti."
+    },
+    {
+      "key": "bhagavata_uddhava_gita",
+      "parent_work": "bhagavata_purana",
+      "label": "Uddhava Gītā",
+      "status": "exact_locus_verified",
+      "start_locus": "BhP_11.07.001",
+      "end_locus": "BhP_11.29.049*",
+      "scope_note": "Conservative chapter-defined Uddhava Gita lane with exact GRETIL endpoints. Some traditions begin at 11.6.40; preserve as boundary variant."
+    },
+    {
+      "key": "bhagavata_rasa_pancadhyayi",
+      "parent_work": "bhagavata_purana",
+      "label": "Rāsa Pañcādhyāyī",
+      "start_locus": "BhP_10.29.001",
+      "end_locus": "BhP_10.33.039",
+      "status": "exact_locus_verified",
+      "scope_note": "Five-chapter Rasa cycle with exact GRETIL endpoints."
+    },
+    {
+      "key": "mahabharata_yaksha_prashna",
+      "parent_work": "mahabharata_critical_edition",
+      "label": "Yakṣa Praśna",
+      "status": "chapter_range_verified",
+      "start_locus": "MBh_03.296",
+      "end_locus": "MBh_03.299",
+      "scope_note": "Critical-edition Aranyaka/Vana Parva framing: crisis begins in 3.296, Yaksha questions are concentrated in 3.297, and restoration/conclusion runs through 3.299. Preserve narrower 3.297-only query subset as a derived view."
+    },
+    {
+      "key": "mahabharata_yaksha_question_core",
+      "parent_work": "mahabharata_critical_edition",
+      "label": "Yakṣa Praśna — question/answer core",
+      "status": "exact_locus_verified",
+      "start_locus": "MBh_03.297.026",
+      "end_locus": "MBh_03.297.061",
+      "scope_note": "Exact concentrated question-answer sequence in finalized CE. 3.297.026 begins the first direct Yaksha question; 3.297.061 is Yudhishthira’s final answer; 3.297.062 states that the questions have been answered. Keep 3.296-3.299 as the broader narrative frame."
+    },
+    {
+      "key": "mahabharata_nala_damayanti",
+      "parent_work": "mahabharata_critical_edition",
+      "label": "Nala–Damayantī",
+      "status": "chapter_range_verified",
+      "start_locus": "MBh_03.050",
+      "end_locus": "MBh_03.078",
+      "scope_note": "Nalopakhyana in the Critical Edition, Vana Parva 3.50-78."
+    },
+    {
+      "key": "mahabharata_savitri",
+      "parent_work": "mahabharata_critical_edition",
+      "label": "Sāvitrī",
+      "status": "chapter_range_verified",
+      "start_locus": "MBh_03.277",
+      "end_locus": "MBh_03.283",
+      "scope_note": "Savitryupakhyana in the Critical Edition, Vana Parva 3.277-283."
+    },
+    {
+      "key": "mahabharata_vidura_niti",
+      "parent_work": "mahabharata_critical_edition",
+      "label": "Vidura Nīti",
+      "status": "chapter_range_verified",
+      "start_locus": "MBh_05.033",
+      "end_locus": "MBh_05.040",
+      "scope_note": "Vidura Niti / Prajagara section in the Critical Edition, Udyoga Parva 5.33-40."
+    },
+    {
+      "key": "mahabharata_narayaniya",
+      "parent_work": "mahabharata_critical_edition",
+      "label": "Nārāyaṇīya",
+      "status": "chapter_range_verified",
+      "start_locus": "MBh_12.321",
+      "end_locus": "MBh_12.339",
+      "scope_note": "Narayaniya in the Critical Edition, Santi Parva 12.321-339; independently attested by the dedicated GRETIL Narayaniya file."
+    },
+    {
+      "key": "mahabharata_vishnu_sahasranama",
+      "parent_work": "mahabharata_critical_edition",
+      "label": "Viṣṇu Sahasranāma",
+      "status": "exact_locus_verified",
+      "start_locus": "MBh_13.135.001",
+      "end_locus": "MBh_13.135.142",
+      "scope_note": "Vishnu Sahasranama in the finalized electronic Critical Edition, Anusasana Parva 13.135. Exact chapter endpoints are 13.135.001-13.135.142; the chapter includes Yudhishthira’s framing questions, Bhishma’s introduction, the thousand names, and concluding phalashruti."
+    }
+  ]
+}

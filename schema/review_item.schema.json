@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bhakthi Corpus curator review item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id","kind","priority","status","subject_id","reason","evidence_ids","created_from"],
+  "properties": {
+    "id": {"type":"string","minLength":1},
+    "kind": {"enum":["verification_mismatch","needs_review_flag","variant_needs_source","semantic_relation_review","license_unresolved","script_normalization","transliteration_uncertain"]},
+    "priority": {"enum":["P0","P1","P2","P3"]},
+    "status": {"enum":["open","in_review","resolved","rejected","deferred"]},
+    "subject_id": {"type":"string","minLength":1},
+    "reason": {"type":"string","minLength":1},
+    "evidence_ids": {"type":"array","uniqueItems":true,"items":{"type":"string","minLength":1}},
+    "created_from": {"type":"string","minLength":1},
+    "suggested_action": {"type":["string","null"]},
+    "reviewed_by": {"type":["string","null"]},
+    "review_notes": {"type":["string","null"]},
+    "resolution": {"type":["string","null"]}
+  }
+}

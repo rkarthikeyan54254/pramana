@@ -1,0 +1,142 @@
+{
+  "id": "graph.vamana_purana.temple_ritual.real_seed.v1",
+  "nodes": [
+    {
+      "id": "text:vamana_purana",
+      "kind": "text",
+      "label": "Vāmana Purāṇa",
+      "evidence_ids": [
+        "purana.vamana_purana.68.6",
+        "purana.vamana_purana.68.37"
+      ],
+      "derivation": "deterministic_metadata"
+    },
+    {
+      "id": "deity:vishnu",
+      "kind": "deity",
+      "label": "Viṣṇu",
+      "evidence_ids": [
+        "purana.vamana_purana.68.6",
+        "purana.vamana_purana.68.37"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "notes": "Jagatpati/Keśava/Vāsudeva/Hari are curated here under Viṣṇu."
+    },
+    {
+      "id": "temple:hari_kesava_generic",
+      "kind": "temple",
+      "label": "Hari/Keśava temple (scriptural generic)",
+      "aliases": [
+        "Viṣṇu-ālaya",
+        "Vāsudeva-ālaya",
+        "Viṣṇu-gṛha"
+      ],
+      "evidence_ids": [
+        "purana.vamana_purana.68.37",
+        "purana.vamana_purana.68.46",
+        "purana.vamana_purana.68.59"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "notes": "Generic scriptural shrine concept only; not a named modern temple."
+    },
+    {
+      "id": "ritual:upavasa_vishnu_tithi",
+      "kind": "ritual",
+      "label": "Tithi-based Viṣṇu worship with upavāsa",
+      "evidence_ids": [
+        "purana.vamana_purana.68.6"
+      ],
+      "derivation": "deterministic_metadata"
+    },
+    {
+      "id": "ritual:temple_lamp_offering",
+      "kind": "ritual",
+      "label": "Lamp offering in a Viṣṇu shrine",
+      "evidence_ids": [
+        "purana.vamana_purana.68.46",
+        "purana.vamana_purana.68.59"
+      ],
+      "derivation": "deterministic_metadata"
+    },
+    {
+      "id": "person:vindhyavali",
+      "kind": "person",
+      "label": "Vindhyāvalī",
+      "evidence_ids": [
+        "purana.vamana_purana.68.59"
+      ],
+      "derivation": "deterministic_metadata"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge.vam.text.temple.1",
+      "kind": "temple_link",
+      "subject": "text:vamana_purana",
+      "predicate": "contains_temple_evidence_for",
+      "object": "temple:hari_kesava_generic",
+      "evidence_ids": [
+        "purana.vamana_purana.68.37",
+        "purana.vamana_purana.68.46",
+        "purana.vamana_purana.68.59"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "status": "verified"
+    },
+    {
+      "id": "edge.vam.vishnu.temple.1",
+      "kind": "temple_link",
+      "subject": "deity:vishnu",
+      "predicate": "worshipped_in",
+      "object": "temple:hari_kesava_generic",
+      "evidence_ids": [
+        "purana.vamana_purana.68.37",
+        "purana.vamana_purana.68.46"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "status": "verified"
+    },
+    {
+      "id": "edge.vam.temple.lamp.1",
+      "kind": "festival_ritual",
+      "subject": "temple:hari_kesava_generic",
+      "predicate": "site_of",
+      "object": "ritual:temple_lamp_offering",
+      "evidence_ids": [
+        "purana.vamana_purana.68.46",
+        "purana.vamana_purana.68.59"
+      ],
+      "derivation": "deterministic_metadata",
+      "status": "verified"
+    },
+    {
+      "id": "edge.vam.vindhyavali.lamp.1",
+      "kind": "festival_ritual",
+      "subject": "person:vindhyavali",
+      "predicate": "performs",
+      "object": "ritual:temple_lamp_offering",
+      "evidence_ids": [
+        "purana.vamana_purana.68.59"
+      ],
+      "derivation": "deterministic_metadata",
+      "status": "verified"
+    },
+    {
+      "id": "edge.vam.vishnu.upavasa.1",
+      "kind": "festival_ritual",
+      "subject": "deity:vishnu",
+      "predicate": "object_of",
+      "object": "ritual:upavasa_vishnu_tithi",
+      "evidence_ids": [
+        "purana.vamana_purana.68.6"
+      ],
+      "derivation": "curator_reviewed",
+      "reviewed_by": "bhakthi-corpus-curation",
+      "status": "verified"
+    }
+  ]
+}
