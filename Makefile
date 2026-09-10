@@ -223,3 +223,11 @@ proof-demo:
 
 curation-proof-gate: review-queue review-proof-test proof-demo
 	@echo "curation-proof-gate: GREEN"
+
+# Generic source-comparison triage. Machine output never grants verification.
+review-work:
+	@test -n "$(WORK)" || (echo "usage: make review-work WORK=<work>" && exit 2)
+	$(PYTHON) scripts/review_work.py $(WORK)
+
+review-work-test:
+	$(PYTHON) tests/test_review_work.py

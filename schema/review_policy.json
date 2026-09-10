@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "principles": {
+    "similarity_grants_authority": false,
+    "machine_classification_grants_verification": false,
+    "source_text_may_be_silently_repaired": false
+  },
+  "works": {
+    "tiruppavai": {
+      "expected_units": 30,
+      "primary": {
+        "kind": "divya_prabandham_staging",
+        "path": "data/staging/divya_prabandham/tiruppavai.jsonl"
+      },
+      "witness": {
+        "key": "ta-wikisource-tiruppavai-oldid-1526476",
+        "extractor": "wikisource_numbered_paragraphs",
+        "extractor_options": {
+          "remove_bracket_glosses": true
+        },
+        "independence": "unproven"
+      },
+      "thresholds": {
+        "high_similarity_review_candidate": 0.95
+      },
+      "outputs": {
+        "review_jsonl": "data/review/tiruppavai_wikisource_comparison.jsonl",
+        "summary_json": "dist/review/tiruppavai_summary.json"
+      },
+      "review_sampling": {
+        "spot_check_fraction": 0.05,
+        "spot_check_minimum": 3
+      }
+    }
+  }
+}
