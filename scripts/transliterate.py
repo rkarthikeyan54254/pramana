@@ -1,10 +1,38 @@
 #!/usr/bin/env python3
-"""Transliteration entrypoint. Tamil is deliberately not guessed by an LLM.
-Wire this to an audited Tamil->IAST tool before marking transliteration complete.
+"""Transliteration entrypoint using Aksharamukha for Tamil->IAST.
+
+Deterministic, audited script conversion. No LLM guessing.
 """
 import argparse
+import sys
+from aksharamukha import transliterate
 
-p = argparse.ArgumentParser()
-p.add_argument("text")
-args = p.parse_args()
-raise SystemExit("Tamil transliteration backend not yet pinned/audited; refusing to guess diacritics.")
+
+def transliterate_tamil_to_iast(text: str) -> str:
+    """Convert Tamil text to IAST using Aksharamukha."""
+    return transliterate.process('Tamil', 'IAST', text)
+
+
+def main():
+    ap = argparse.ArgumentParser(description='Transliterate Tamil to IAST')
+    ap.add_argument('text', nargs='?', help='Tamil text to transliterate (or stdin)')
+    ap.add_argument('--stdin', action='store_true', help='Read from stdin')
+    args = ap.parse_args()
+
+    if args.stdin or not args.text:
+        text = sys.stdin.read().strip()
+    else:
+        text = args.text
+
+    if not text:
+        raise SystemExit("No input text provided")
+
+    try:
+        result = transliterate_tamil_to_iast(text)
+        print(result)
+    except Exception as e:
+        raise SystemExit(f"Transliteration failed: {e}")
+
+
+if __name__ == '__main__':
+    main()
