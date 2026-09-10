@@ -31,6 +31,34 @@
         "spot_check_fraction": 0.05,
         "spot_check_minimum": 3
       }
+    },
+    "nachiyar_tirumozhi": {
+      "expected_units": 143,
+      "primary": {
+        "kind": "divya_prabandham_staging",
+        "path": "data/staging/divya_prabandham/nachiyar_tirumozhi.jsonl"
+      },
+      "witness": {
+        "key": "ta-wikisource-nachiyar-tirumozhi-oldid-1526110",
+        "extractor": "wikisource_colon_paragraphs",
+        "extractor_options": {
+          "start_number": 504,
+          "remove_bracket_glosses": true,
+          "strip_trailing_numeric_apparatus": true
+        },
+        "independence": "unproven"
+      },
+      "thresholds": {
+        "high_similarity_review_candidate": 0.95
+      },
+      "review_sampling": {
+        "spot_check_fraction": 0.05,
+        "spot_check_minimum": 5
+      },
+      "outputs": {
+        "review_jsonl": "data/review/nachiyar_tirumozhi_wikisource_comparison.jsonl",
+        "summary_json": "dist/review/nachiyar_tirumozhi_summary.json"
+      }
     }
   }
 }

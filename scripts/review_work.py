@@ -383,9 +383,43 @@ def run(work: str, policy_path: Path, *, no_materialize: bool = False) -> dict:
                 row["flags"].append(flag)
         rows.append(row)
 
+    # Manual-review triage is configurable per work.
+    #
+    # This controls curator attention ONLY. It never grants verification.
+    # Different witnesses can have different orthographic conventions, so a
+    # single similarity metric is not assumed to be portable across corpora.
+    gate = cfg.get("manual_review_gate", {
+        "metric": "machine_classification"
+    })
+
+    def requires_manual_review(row):
+        if row["machine_classification"] == "source_anomaly":
+            return True
+
+        metric = gate.get("metric", "machine_classification")
+
+        if metric == "strict_similarity":
+            return row["similarity"] < float(gate["threshold"])
+
+        if metric == "projected_similarity":
+            return (
+                row["ranking_projected_similarity"]
+                < float(gate["threshold"])
+            )
+
+        if metric == "machine_classification":
+            return (
+                row["machine_classification"]
+                == "textual_review_required"
+            )
+
+        raise ValueError(
+            f"unknown manual_review_gate metric: {metric}"
+        )
+
     mandatory = [
         r for r in rows
-        if r["machine_classification"] in {"source_anomaly", "textual_review_required"}
+        if requires_manual_review(r)
     ]
     triaged = [
         r for r in rows
