@@ -1,5 +1,5 @@
 {
-  "benchmark": "pramana_moat_benchmark_v3_source_revocations",
+  "benchmark": "pramana_moat_benchmark_v2",
   "purpose": "Measure evidence behavior, refusal discipline, provenance, source separation, graph auditability, and overclaim resistance.",
   "cases": [
     {
@@ -119,9 +119,9 @@
       "prompt": "Is this tithi sequence attested exactly?",
       "input": "अष्टम्यां च चतुर्दश्यां नवम्यां",
       "must": {
-        "verified": false,
-        "verdict": "no_verified_exact_match",
-        "excluded_evidence_id": "purana.devi_mahatmya.92.3"
+        "verified": true,
+        "verdict": "verified_text_match",
+        "evidence_id": "purana.devi_mahatmya.92.3"
       }
     },
     {
@@ -222,9 +222,13 @@
       "input": "deity:devi",
       "depth": 2,
       "must": {
-        "status": "no_verified_evidence",
+        "predicate_any": [
+          "object_of_devotional_hearing",
+          "linked_to",
+          "prescribes_or_praises"
+        ],
         "all_edges_evidenced": true,
-        "evidence_count_max": 0
+        "evidence_count_min": 2
       }
     },
     {

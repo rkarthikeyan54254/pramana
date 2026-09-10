@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse, json, re
 from pathlib import Path
 from bs4 import BeautifulSoup
+from html.parser import HTMLParser
 
 PATIKAM = re.compile(r'^\s*(\d+)\.(\d+)\s+(.+?)\s*$')
 LOCUS = re.compile(r'^\s*(\d+)\.(\d+)\.(\d+)\s*$')
@@ -27,68 +28,79 @@ def lines(path: Path):
         if s:
             yield s
 
+class VerseTables(HTMLParser):
+    """Read table cells even in legacy HTML with omitted closing td tags."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.rows=[]; self.contexts=[]; self.heading=None; self.heading_buf=None; self.row_heading=None; self.cells=None; self.cell=None
+    def end_cell(self):
+        if self.cells is not None and self.cell is not None:
+            self.cells.append(' '.join(''.join(self.cell).split()))
+        self.cell=None
+    def end_row(self):
+        self.end_cell(); self.rows.append(self.cells); self.contexts.append(self.row_heading); self.cells=None
+    def handle_starttag(self,tag,attrs):
+        if tag in ('h2','h3'):
+            self.heading_buf=[]
+        if tag=='tr':
+            if self.cells is not None:
+                self.end_row()
+            self.cells=[]; self.row_heading=self.heading
+        elif tag in ('td','th'):
+            if self.cells is None: self.cells=[]; self.row_heading=self.heading
+            self.end_cell(); self.cell=[]
+        elif tag=='br' and self.cell is not None: self.cell.append(' ')
+    def handle_endtag(self,tag):
+        if tag in ('h2','h3') and self.heading_buf is not None:
+            m=PATIKAM.fullmatch(' '.join(''.join(self.heading_buf).split()))
+            if m: self.heading=(int(m[1]),int(m[2]),m[3])
+            self.heading_buf=None
+        if tag in ('td','th'): self.end_cell()
+        elif tag=='tr' and self.cells is not None:
+            self.end_row()
+    def handle_data(self,data):
+        if self.heading_buf is not None: self.heading_buf.append(data)
+        if self.cell is not None: self.cell.append(data)
+
 def parse(path: Path, tirumurai: int):
-    current_pat=None; title=None; pann=None
-    current_running=None; buf=[]; rows=[]; seen=set()
-
-    def flush(locus_tuple):
-        nonlocal buf,current_running
-        if locus_tuple is None: return
-        t,p,v=locus_tuple
-        text=' '.join(x for x in buf if TAMIL.search(x) and not x.startswith(STOP_PREFIXES)).strip()
-        if not text:
-            raise ValueError(f'empty text at {t}.{p}.{v}')
+    raw=path.read_text(encoding='utf-8-sig')
+    parser=VerseTables(); parser.feed(raw)
+    if parser.cells is not None:
+        parser.end_row()
+    rows=[]; seen=set(); previous=None
+    for cells,heading in zip(parser.rows,parser.contexts):
+        loci=[(i,LOCUS.fullmatch(c)) for i,c in enumerate(cells) if LOCUS.fullmatch(c)]
+        if not loci and not heading:
+            continue  # numbered contents rows precede explicit patikam headings
+        if not loci:
+            # Some editions print the chapter in a heading and only the local
+            # verse number in the final cell. Both components are source-backed.
+            if len(cells)>=3 and any(TAMIL.search(c) for c in cells[1:-1]) and LEADING_NUM.fullmatch(cells[-1].lstrip('.')):
+                if not heading: raise ValueError('local verse number without source patikam heading')
+                m=LOCUS.fullmatch(f"{heading[0]}.{heading[1]}.{int(cells[-1].lstrip('.'))}")
+                loci=[(len(cells)-1,m)]
+            elif len(cells)>=2 and LEADING_NUM.fullmatch(cells[0]) and any(TAMIL.search(c) for c in cells[1:]):
+                raise ValueError('verse row missing a terminal locus')
+            else: continue
+        if len(loci)!=1: raise ValueError('ambiguous verse row: multiple loci')
+        idx,m=loci[0]; t,p,v=map(int,m.groups())
+        if t!=tirumurai: raise ValueError(f'wrong tirumurai {t}.{p}.{v}')
         key=(t,p,v)
-        if key in seen:
-            raise ValueError(f'duplicate source locus {t}.{p}.{v}')
-        seen.add(key)
-        expected_running = (rows[-1]['running_no']+1) if rows and rows[-1].get('running_no') is not None else None
+        if key in seen: raise ValueError(f'duplicate source locus {t}.{p}.{v}')
+        if previous and key<=previous: raise ValueError('non-monotonic Tevaram source loci')
+        text=' '.join(c for c in cells[:idx] if TAMIL.search(c))
+        if not text: raise ValueError(f'empty text at {t}.{p}.{v}')
+        running=int(cells[0]) if cells and LEADING_NUM.fullmatch(cells[0]) else None
         flags=[]
-        if current_running is not None and expected_running is not None and current_running != expected_running:
+        if rows and running is not None and rows[-1]['running_no'] is not None and running!=rows[-1]['running_no']+1:
             flags.append('display_running_number_anomaly')
-        rows.append({'tirumurai':t,'patikam':p,'verse':v,'running_no':current_running,
-                     'title':title,'pann':pann,'text':text,'flags':flags})
-        buf=[]; current_running=None
-
-    pending_locus=None
-    for s in lines(path):
-        m=PATIKAM.match(s)
-        if m and int(m.group(1))==tirumurai and '.' not in m.group(3)[:5]:
-            # headings such as "1.1 திருப்பிரமபுரம்"
-            current_pat=int(m.group(2)); title=m.group(3).strip(); pann=None
-            continue
-        m=PANN.match(s)
-        if m:
-            pann=m.group(1).strip(); continue
-        m=LOCUS.match(s)
-        if m:
-            locus=tuple(map(int,m.groups()))
-            if locus[0] != tirumurai:
-                continue
-            if current_pat is not None and locus[1] != current_pat:
-                # source locus wins; heading mismatch is not silently repaired
-                current_pat=locus[1]
-            flush(locus)
-            pending_locus=None
-            continue
-        if LEADING_NUM.match(s):
-            # A running-number cell usually starts a verse; retain but don't trust for identity.
-            current_running=int(s); continue
-        if TAMIL.search(s):
-            # exclude page-level titles/contents-ish lines with no active patikam
-            if current_pat is not None:
-                buf.append(s)
-
-    # Loci are terminal markers; no safe way to flush trailing text without a locus.
-    # That is deliberate: fail rather than invent identity.
-    if buf:
-        raise ValueError('trailing Tamil text without terminal source locus')
-    if not rows:
-        raise ValueError('no Tevaram verse loci found')
-    # structural monotonicity by source locus
-    loci=[(r['tirumurai'],r['patikam'],r['verse']) for r in rows]
-    if any(b<=a for a,b in zip(loci,loci[1:])):
-        raise ValueError('non-monotonic or duplicate Tevaram source loci')
+        rows.append({'tirumurai':t,'patikam':p,'verse':v,'running_no':running,
+            'title':heading[2] if heading else None,'pann':None,'text':text,'flags':flags})
+        seen.add(key); previous=key
+    if not rows: raise ValueError('no Tevaram verse loci found')
+    source_loci=[tuple(map(int, m.groups())) for m in re.finditer(r'>\s*(\d+)\.(\d+)\.(\d+)\s*<',raw)]
+    if any(key not in seen for key in source_loci):
+        raise ValueError('not every source verse marker was extracted in order')
     return rows
 
 def main():

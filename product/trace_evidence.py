@@ -9,7 +9,8 @@ from product.common import load_graph, evidence_index
 
 def run(start_node:str, depth:int=2):
     g=load_graph(); nodes={n['id']:n for n in g['nodes']}; idx=evidence_index()
-    if start_node not in nodes: raise ValueError(f'unknown node: {start_node}')
+    if start_node not in nodes:
+        return {'experience':'trace_evidence','status':'no_verified_evidence','requested_node':start_node,'nodes':[],'edges':[],'evidence':[],'gap':'Node is absent from the current verified graph; no inference is made.'}
     seen={start_node:0}; q=deque([start_node]); edge_ids=set(); edges=[]
     while q:
         node=q.popleft(); d=seen[node]

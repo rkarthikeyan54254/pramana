@@ -52,7 +52,7 @@ def transliterate(text: str) -> str:
         m = TOK_RE.match(text, i)
         if not m:
             ch=text[i]
-            if LETTER_RE.match(ch):
+            if ch.isalpha():
                 raise ValueError(f'unsupported IAST sequence at offset {i}: {text[i:i+8]!r}')
             if pending_consonant: out.append('्'); pending_consonant=False
             out.append(ch); i += 1; continue

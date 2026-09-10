@@ -10,11 +10,15 @@ from collections import Counter
 from pathlib import Path
 from bs4 import BeautifulSoup
 
-NUM = re.compile(r'^\s*(\d{1,5})\s+[\t ]*(.*)$')
+NUM = re.compile(r'^\s*(\d{1,5})[.]?\s+[\t ]*(.*)$')
 
 def visible_lines(path: Path):
     soup=BeautifulSoup(path.read_text(encoding='utf-8'),'html.parser')
-    for raw in soup.get_text('\n').splitlines():
+    # Restrict extraction to the source's verse block; exclude the numbered contents.
+    body=soup.find('pre') or soup
+    for tag in body.find_all(['center','h1','h2','h3','h4','strong','b','hr']):
+        tag.replace_with('\n__BOUNDARY__\n')
+    for raw in body.get_text('\n').splitlines():
         line=' '.join(raw.split())
         if line: yield line
 
@@ -26,6 +30,9 @@ def extract_occurrences(path: Path,start:int,end:int):
             occurrences.append((current,' '.join(buf).strip()))
         buf=[]
     for line in visible_lines(path):
+        if line == '__BOUNDARY__' or re.fullmatch(r'[-_]+',line) or re.search(r'\(\d+\s*[-–]\s*\d+\)\s*$',line):
+            flush(); current=None
+            continue
         m=NUM.match(line)
         if m:
             n=int(m.group(1))

@@ -1,5 +1,5 @@
 {
-  "benchmark": "pramana_moat_benchmark_v2",
+  "benchmark": "pramana_moat_benchmark_v3_source_revocations",
   "cases_passed": 25,
   "cases_total": 25,
   "checks_passed": 82,
@@ -57,17 +57,17 @@
         "experience": "verify_a_claim",
         "claim": "नरसिंहः स्तम्भमध्याद् निर्गत्य",
         "coverage": {
-          "verified_rows_searched": 24,
+          "verified_rows_searched": 21,
           "works": {
             "bhagavata_purana": 3,
-            "devi_mahatmya": 6,
+            "devi_mahatmya": 3,
             "narasimha_purana": 6,
             "vamana_purana": 4,
             "vishnu_purana": 5
           },
           "corpora": {
             "bhagavatam": 3,
-            "purana": 21
+            "purana": 18
           }
         },
         "moat_contract": {
@@ -107,17 +107,17 @@
         "experience": "verify_a_claim",
         "claim": "Everything happens for a reason",
         "coverage": {
-          "verified_rows_searched": 24,
+          "verified_rows_searched": 21,
           "works": {
             "bhagavata_purana": 3,
-            "devi_mahatmya": 6,
+            "devi_mahatmya": 3,
             "narasimha_purana": 6,
             "vamana_purana": 4,
             "vishnu_purana": 5
           },
           "corpora": {
             "bhagavatam": 3,
-            "purana": 21
+            "purana": 18
           }
         },
         "moat_contract": {
@@ -1341,17 +1341,17 @@
         "experience": "verify_a_claim",
         "claim": "देवासुरमभूद् युद्धं पूर्णमब्दशतं पुरा",
         "coverage": {
-          "verified_rows_searched": 24,
+          "verified_rows_searched": 21,
           "works": {
             "bhagavata_purana": 3,
-            "devi_mahatmya": 6,
+            "devi_mahatmya": 3,
             "narasimha_purana": 6,
             "vamana_purana": 4,
             "vishnu_purana": 5
           },
           "corpora": {
             "bhagavatam": 3,
-            "purana": 21
+            "purana": 18
           }
         },
         "moat_contract": {
@@ -1415,17 +1415,17 @@
         "experience": "verify_a_claim",
         "claim": "अतुलं तत्र तत्तेजः सर्वदेवशरीरजम्",
         "coverage": {
-          "verified_rows_searched": 24,
+          "verified_rows_searched": 21,
           "works": {
             "bhagavata_purana": 3,
-            "devi_mahatmya": 6,
+            "devi_mahatmya": 3,
             "narasimha_purana": 6,
             "vamana_purana": 4,
             "vishnu_purana": 5
           },
           "corpora": {
             "bhagavatam": 3,
-            "purana": 21
+            "purana": 18
           }
         },
         "moat_contract": {
@@ -1489,17 +1489,17 @@
         "experience": "verify_a_claim",
         "claim": "पिता सुतम्",
         "coverage": {
-          "verified_rows_searched": 24,
+          "verified_rows_searched": 21,
           "works": {
             "bhagavata_purana": 3,
-            "devi_mahatmya": 6,
+            "devi_mahatmya": 3,
             "narasimha_purana": 6,
             "vamana_purana": 4,
             "vishnu_purana": 5
           },
           "corpora": {
             "bhagavatam": 3,
-            "purana": 21
+            "purana": 18
           }
         },
         "moat_contract": {
@@ -1563,17 +1563,17 @@
         "experience": "verify_a_claim",
         "claim": "प्रह्लादो भगवद्भक्तो",
         "coverage": {
-          "verified_rows_searched": 24,
+          "verified_rows_searched": 21,
           "works": {
             "bhagavata_purana": 3,
-            "devi_mahatmya": 6,
+            "devi_mahatmya": 3,
             "narasimha_purana": 6,
             "vamana_purana": 4,
             "vishnu_purana": 5
           },
           "corpora": {
             "bhagavatam": 3,
-            "purana": 21
+            "purana": 18
           }
         },
         "moat_contract": {
@@ -1593,61 +1593,44 @@
         {
           "check": "verified",
           "pass": true,
-          "detail": true
+          "detail": false
         },
         {
           "check": "verdict",
           "pass": true,
-          "detail": "verified_text_match"
+          "detail": "no_verified_exact_match"
         },
         {
-          "check": "evidence_id",
+          "check": "excluded_evidence_id",
           "pass": true,
-          "detail": [
-            "purana.devi_mahatmya.92.3"
-          ]
+          "detail": null
         }
       ],
       "output": {
-        "verdict": "verified_text_match",
-        "verified": true,
-        "matches": [
-          {
-            "match_modes": [
-              "original_script"
-            ],
-            "id": "purana.devi_mahatmya.92.3",
-            "corpus": "purana",
-            "work": "devi_mahatmya",
-            "section": {
-              "markandeya_chapter": 92,
-              "devi_mahatmya_chapter": 12
-            },
-            "unit_no": 3,
-            "text_original": "अष्टम्यां च चतुर्दश्यां नवम्यां चैकचेतसः । स्तोष्यन्ति चैव ये भक्त्या मम माहात्म्यमुत्तमम्",
-            "text_iast": "aṣṭamyāṃ ca caturdaśyāṃ navamyāṃ caikacetasaḥ / stoṣyanti caiva ye bhaktyā mama māhātmyamuttamam",
-            "translation_en": null,
-            "source": "GRETIL Mārkaṇḍeyapurāṇa, MarkP_92.3, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_mArkaNDeyapurANa1-93.htm",
-            "verification_source": "Ved Path Durga Saptashati chapter 12, liturgical 12.4, https://vedpath.org/en/durga-saptashati/adhyaya-12/",
-            "variants": [],
-            "flags": []
-          }
+        "verdict": "no_verified_exact_match",
+        "verified": false,
+        "message": "No exact claim text was found in verified corpus evidence. Similar passages are discovery candidates only and do not authenticate the claim.",
+        "unverified_exact_match_count": 1,
+        "unverified_exact_match_ids": [
+          "purana.devi_mahatmya.92.3"
         ],
-        "policy": "Only exact normalized text in independently verified corpus rows establishes authenticity.",
+        "transliteration_candidates": [],
+        "candidates": [],
+        "policy": "Fuzzy or lossy transliteration similarity never establishes scriptural authenticity.",
         "experience": "verify_a_claim",
         "claim": "अष्टम्यां च चतुर्दश्यां नवम्यां",
         "coverage": {
-          "verified_rows_searched": 24,
+          "verified_rows_searched": 21,
           "works": {
             "bhagavata_purana": 3,
-            "devi_mahatmya": 6,
+            "devi_mahatmya": 3,
             "narasimha_purana": 6,
             "vamana_purana": 4,
             "vishnu_purana": 5
           },
           "corpora": {
             "bhagavatam": 3,
-            "purana": 21
+            "purana": 18
           }
         },
         "moat_contract": {
@@ -1710,17 +1693,17 @@
         "experience": "verify_a_claim",
         "claim": "मन्दिरं केशवस्य",
         "coverage": {
-          "verified_rows_searched": 24,
+          "verified_rows_searched": 21,
           "works": {
             "bhagavata_purana": 3,
-            "devi_mahatmya": 6,
+            "devi_mahatmya": 3,
             "narasimha_purana": 6,
             "vamana_purana": 4,
             "vishnu_purana": 5
           },
           "corpora": {
             "bhagavatam": 3,
-            "purana": 21
+            "purana": 18
           }
         },
         "moat_contract": {
@@ -1760,17 +1743,17 @@
         "experience": "verify_a_claim",
         "claim": "Ahobilam temple",
         "coverage": {
-          "verified_rows_searched": 24,
+          "verified_rows_searched": 21,
           "works": {
             "bhagavata_purana": 3,
-            "devi_mahatmya": 6,
+            "devi_mahatmya": 3,
             "narasimha_purana": 6,
             "vamana_purana": 4,
             "vishnu_purana": 5
           },
           "corpora": {
             "bhagavatam": 3,
-            "purana": 21
+            "purana": 18
           }
         },
         "moat_contract": {
@@ -1810,17 +1793,17 @@
         "experience": "verify_a_claim",
         "claim": "Navaratri",
         "coverage": {
-          "verified_rows_searched": 24,
+          "verified_rows_searched": 21,
           "works": {
             "bhagavata_purana": 3,
-            "devi_mahatmya": 6,
+            "devi_mahatmya": 3,
             "narasimha_purana": 6,
             "vamana_purana": 4,
             "vishnu_purana": 5
           },
           "corpora": {
             "bhagavatam": 3,
-            "purana": 21
+            "purana": 18
           }
         },
         "moat_contract": {
@@ -2660,155 +2643,29 @@
       "pass": true,
       "checks": [
         {
-          "check": "predicate_any",
+          "check": "status",
           "pass": true,
-          "detail": [
-            "manifests_as",
-            "object_of_devotional_hearing",
-            "prescribes_or_praises"
-          ]
+          "detail": "no_verified_evidence"
+        },
+        {
+          "check": "evidence_count_max",
+          "pass": true,
+          "detail": null
         },
         {
           "check": "all_edges_evidenced",
           "pass": true,
           "detail": null
-        },
-        {
-          "check": "evidence_count_min",
-          "pass": true,
-          "detail": 3
         }
       ],
       "output": {
         "experience": "trace_evidence",
-        "start_node": {
-          "id": "deity:devi",
-          "kind": "deity",
-          "label": "Devī",
-          "evidence_ids": [
-            "purana.devi_mahatmya.82.12",
-            "purana.devi_mahatmya.82.13",
-            "purana.devi_mahatmya.92.11",
-            "purana.devi_mahatmya.92.3"
-          ],
-          "derivation": "curator_reviewed",
-          "reviewed_by": "bhakthi-corpus-curation"
-        },
-        "depth": 2,
-        "nodes": [
-          {
-            "id": "deity:devi",
-            "kind": "deity",
-            "label": "Devī",
-            "evidence_ids": [
-              "purana.devi_mahatmya.82.12",
-              "purana.devi_mahatmya.82.13",
-              "purana.devi_mahatmya.92.11",
-              "purana.devi_mahatmya.92.3"
-            ],
-            "derivation": "curator_reviewed",
-            "reviewed_by": "bhakthi-corpus-curation"
-          },
-          {
-            "id": "ritual:devi_tithi_recitation",
-            "kind": "ritual",
-            "label": "Devī Māhātmya recitation/hearing on Aṣṭamī, Navamī and Caturdaśī",
-            "evidence_ids": [
-              "purana.devi_mahatmya.92.3"
-            ],
-            "derivation": "deterministic_metadata"
-          },
-          {
-            "id": "concept:combined_divine_tejas",
-            "kind": "concept",
-            "label": "Combined divine tejas",
-            "evidence_ids": [
-              "purana.devi_mahatmya.82.12"
-            ],
-            "derivation": "curator_reviewed",
-            "reviewed_by": "bhakthi-corpus-curation"
-          },
-          {
-            "id": "text:devi_mahatmya",
-            "kind": "text",
-            "label": "Devī Māhātmya",
-            "evidence_ids": [
-              "purana.devi_mahatmya.82.1",
-              "purana.devi_mahatmya.92.11",
-              "purana.devi_mahatmya.92.3"
-            ],
-            "derivation": "curator_reviewed",
-            "reviewed_by": "bhakthi-corpus-curation"
-          }
-        ],
-        "edges": [
-          {
-            "id": "edge.devi.deity.tithi_recitation.1",
-            "kind": "festival_ritual",
-            "subject": "deity:devi",
-            "predicate": "object_of_devotional_hearing",
-            "object": "ritual:devi_tithi_recitation",
-            "evidence_ids": [
-              "purana.devi_mahatmya.92.3"
-            ],
-            "derivation": "curator_reviewed",
-            "reviewed_by": "bhakthi-corpus-curation",
-            "status": "verified"
-          },
-          {
-            "id": "edge.dm.tejas.devi.1",
-            "kind": "deity_avatar",
-            "subject": "concept:combined_divine_tejas",
-            "predicate": "manifests_as",
-            "object": "deity:devi",
-            "evidence_ids": [
-              "purana.devi_mahatmya.82.12",
-              "purana.devi_mahatmya.82.13"
-            ],
-            "derivation": "curator_reviewed",
-            "reviewed_by": "bhakthi-corpus-curation",
-            "status": "verified",
-            "notes": "The combined tejas becomes a woman; the following verse begins describing her body from the gods' energies. The identification with Devī is contextual and curator-reviewed, not mechanically inferred."
-          },
-          {
-            "id": "edge.devi.text.tithi_recitation.1",
-            "kind": "festival_ritual",
-            "subject": "text:devi_mahatmya",
-            "predicate": "prescribes_or_praises",
-            "object": "ritual:devi_tithi_recitation",
-            "evidence_ids": [
-              "purana.devi_mahatmya.92.3"
-            ],
-            "derivation": "curator_reviewed",
-            "reviewed_by": "bhakthi-corpus-curation",
-            "status": "verified"
-          }
-        ],
-        "evidence": [
-          {
-            "id": "purana.devi_mahatmya.82.12",
-            "source": "GRETIL Mārkaṇḍeyapurāṇa 1-93, MarkP_82.12, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_mArkaNDeyapurANa1-93.htm",
-            "verification_source": "Ved Path Durga Saptashati chapter 2, verse 2.13, https://vedpath.org/en/durga-saptashati/adhyaya-2/",
-            "text_original": "अतुलं तत्र तत्तेजः सर्वदेवशरीरजम् । एकस्थं तदभून्नारी व्याप्तलोकत्रयं त्विषा ॥"
-          },
-          {
-            "id": "purana.devi_mahatmya.82.13",
-            "source": "GRETIL Mārkaṇḍeyapurāṇa 1-93, MarkP_82.13, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_mArkaNDeyapurANa1-93.htm",
-            "verification_source": "Ved Path Durga Saptashati chapter 2, verse 2.14, https://vedpath.org/en/durga-saptashati/adhyaya-2/",
-            "text_original": "यदभूच्छाम्भवं तेजस्तेनाजायत तन्मुखम् । याम्येन चाभवन् केशा बाहवो विष्णुतेजसा ॥"
-          },
-          {
-            "id": "purana.devi_mahatmya.92.3",
-            "source": "GRETIL Mārkaṇḍeyapurāṇa, MarkP_92.3, https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_mArkaNDeyapurANa1-93.htm",
-            "verification_source": "Ved Path Durga Saptashati chapter 12, liturgical 12.4, https://vedpath.org/en/durga-saptashati/adhyaya-12/",
-            "text_original": "अष्टम्यां च चतुर्दश्यां नवम्यां चैकचेतसः । स्तोष्यन्ति चैव ये भक्त्या मम माहात्म्यमुत्तमम्"
-          }
-        ],
-        "moat_contract": {
-          "all_edges_have_verified_evidence": true,
-          "model_inferred_edges": false,
-          "semantic_edges_must_be_reviewed_or_accepted_relations": true
-        }
+        "status": "no_verified_evidence",
+        "requested_node": "deity:devi",
+        "nodes": [],
+        "edges": [],
+        "evidence": [],
+        "gap": "Node is absent from the current verified graph; no inference is made."
       }
     },
     {

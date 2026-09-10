@@ -10,3 +10,6 @@ data/private/*
 sources/raw/
 sources/SNAPSHOT_INDEX.json
 dist/
+
+# Bulk staging remains local until rights-aware publication approval.
+data/staging/

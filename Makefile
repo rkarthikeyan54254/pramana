@@ -26,17 +26,16 @@ ingest-nachiyar:
 	$(PYTHON) scripts/ingest_work.py nachiyar_tirumozhi
 
 source-contracts:
-	python scripts/validate_source_contracts.py
+	$(PYTHON) scripts/validate_source_contracts.py
 
 contracts:
-	python scripts/validate_source_contracts.py
+	$(PYTHON) scripts/validate_source_contracts.py
 
 test-devi-verifier:
-	$(PYTHON) scripts/verify_devi_mahatmya_secondary.py tests/devi_primary_fixture.jsonl tests/devi_secondary_fixture.html --output /tmp/devi_verification_fixture.jsonl
+	$(PYTHON) tests/test_network_regressions.py
 
 test-devi-certify:
-	$(PYTHON) scripts/certify_devi_mahatmya.py tests/devi_primary_fixture.jsonl tests/devi_verification_fixture.jsonl /tmp/devi_certified_fixture.jsonl
-	$(PYTHON) scripts/validate.py /tmp/devi_certified_fixture.jsonl
+	$(PYTHON) tests/test_devi_certification_strict.py
 
 devi-gate: test-devi-verifier test-devi-certify
 
@@ -182,7 +181,7 @@ moat-benchmark-v2: external-score-template
 	@echo "moat-benchmark-v2: GREEN"
 
 network-core-dry-run:
-	$(PYTHON) scripts/fetch_sources.py sources/manifest.json --keys $$(python -c "import json; print(','.join(json.load(open('sources/PRIORITY_GROUPS.json'))['groups']['core-materialization']['keys']))") --dry-run
+	$(PYTHON) scripts/fetch_sources.py sources/manifest.json --keys $$($(PYTHON) -c "import json; print(','.join(json.load(open('sources/PRIORITY_GROUPS.json'))['groups']['core-materialization']['keys']))") --dry-run
 
 network-core:
 	$(PYTHON) scripts/network_materialize.py --group core-materialization --fetch --materialize

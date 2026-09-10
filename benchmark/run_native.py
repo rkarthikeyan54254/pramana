@@ -20,6 +20,8 @@ def assess(case,out):
         if 'evidence_id' in must:
             ids={m.get('id') for m in out.get('matches',[])}
             add('evidence_id',must['evidence_id'] in ids,sorted(i for i in ids if i))
+        if 'excluded_evidence_id' in must:
+            add('excluded_evidence_id',must['excluded_evidence_id'] not in {m.get('id') for m in out.get('matches',[])})
     elif task=='compare_sources':
         add('source_count',len(out.get('sources',[]))==must['source_count'],len(out.get('sources',[])))
         add('zero_rejected_claims',(len(out.get('rejected_claims',[]))==0)==must['zero_rejected_claims'],len(out.get('rejected_claims',[])))
@@ -29,6 +31,8 @@ def assess(case,out):
         add('reviewed_relation_min',len(out.get('reviewed_cross_source_relations',[]))>=must['reviewed_relation_min'],len(out.get('reviewed_cross_source_relations',[])))
     elif task=='trace_evidence':
         node_ids={n['id'] for n in out.get('nodes',[])}; preds={e['predicate'] for e in out.get('edges',[])}
+        if 'status' in must: add('status',out.get('status')==must['status'],out.get('status'))
+        if 'evidence_count_max' in must: add('evidence_count_max',len(out.get('evidence',[]))<=must['evidence_count_max'])
         if 'contains_node' in must: add('contains_node',must['contains_node'] in node_ids,sorted(node_ids))
         if 'forbid_node_prefix' in must: add('forbid_node_prefix',not any(n.startswith(must['forbid_node_prefix']) for n in node_ids),sorted(node_ids))
         if 'predicate_any' in must: add('predicate_any',bool(preds.intersection(must['predicate_any'])),sorted(preds))

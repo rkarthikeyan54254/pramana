@@ -16,8 +16,16 @@ def main():
     vr=load_jsonl(a.verification_jsonl)
     vmap={x['id']:x for x in vr}
     if len(vmap)!=len(vr): raise SystemExit('duplicate verification ids')
+    if len({r['id'] for r in rows})!=len(rows) or not rows: raise SystemExit('empty/duplicate staging ids')
+    if set(vmap)!={r['id'] for r in rows}: raise SystemExit('verification id coverage mismatch')
+    loci=[v.get('secondary_locus') for v in vr]
+    if None in loci or len(set(loci))!=len(loci): raise SystemExit('missing/duplicate secondary loci')
+    for r in rows:
+        v=vmap[r['id']]
+        if v.get('primary_locus')!=f"MarkP_{r['section']['chapter']}.{r['unit_no']}" or not v['secondary_locus'].startswith(f"{r['section']['chapter']-80}."):
+            raise SystemExit('verification locus mapping mismatch')
     missing=[r['id'] for r in rows if r['id'] not in vmap]
-    bad=[r['id'] for r in rows if r['id'] in vmap and vmap[r['id']]['status']!='match']
+    bad=[r['id'] for r in rows if r['id'] in vmap and (vmap[r['id']]['status']!='match' or vmap[r['id']].get('score') != 1.0)]
     if missing or bad:
         raise SystemExit(f'certification blocked: missing={len(missing)} review={len(bad)}')
     out=[]

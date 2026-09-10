@@ -47,7 +47,7 @@ def main():
         if not pm or not sm: raise SystemExit(f"bad locus mapping: {v['id']}")
         if int(sm.group(1)) != int(pm.group(1))-80:
             raise SystemExit(f"secondary chapter drift: {v['id']}")
-        if float(v.get('score',0)) <= 0: raise SystemExit(f"bad verification score: {v['id']}")
+        if v.get('score') != 1.0: raise SystemExit(f"bad verification score: {v['id']}")
     if a.certified_jsonl:
         cert=load(a.certified_jsonl)
         if {r['id'] for r in cert} != set(ids): raise SystemExit('certified id coverage mismatch')

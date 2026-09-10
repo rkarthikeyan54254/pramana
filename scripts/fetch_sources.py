@@ -28,16 +28,24 @@ def fetch(e,force=False,timeout=45):
     out=Path(e['path']); out.parent.mkdir(parents=True,exist_ok=True)
     if out.exists() and not force:
         data=out.read_bytes(); action='SKIP'
+        side=out.with_suffix(out.suffix+'.sha256')
+        meta_path=out.with_suffix(out.suffix+'.meta.json')
+        if not side.exists() or not meta_path.exists(): raise ValueError(f'unprovenanced existing snapshot: {out}')
+        if hashlib.sha256(data).hexdigest()!=side.read_text().strip(): raise ValueError(f'snapshot checksum mismatch: {out}')
+        meta=json.loads(meta_path.read_text())
+        if meta['sha256']!=hashlib.sha256(data).hexdigest() or meta['url']!=e['url']: raise ValueError(f'snapshot provenance mismatch: {out}')
+        print(action,e['key'],len(data),'bytes',meta['sha256'])
+        return meta
     else:
         req=urllib.request.Request(e['url'],headers={'User-Agent':'bhakthi-corpus/0.2 provenance-preserving research fetch'})
         with urllib.request.urlopen(req,timeout=timeout) as r:
-            data=r.read(); content_type=r.headers.get('Content-Type')
+            data=r.read(); content_type=r.headers.get('Content-Type'); final_url=r.geturl()
         out.write_bytes(data); action='FETCHED'
     sha=hashlib.sha256(data).hexdigest()
     out.with_suffix(out.suffix+'.sha256').write_text(sha+'\n',encoding='utf-8')
     meta={
         'key':e['key'],'parent_key':e.get('parent_key'),'url':e['url'],'path':str(out),
-        'sha256':sha,'bytes':len(data),'fetched_or_checked_at_utc':datetime.now(timezone.utc).isoformat(),
+        'sha256':sha,'bytes':len(data),'final_url':final_url,'content_type':content_type,'fetched_or_checked_at_utc':datetime.now(timezone.utc).isoformat(),
         'source_status':e.get('status'),'recorded_terms':e.get('terms'),'covers':e.get('covers')
     }
     out.with_suffix(out.suffix+'.meta.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
@@ -59,9 +67,17 @@ def main():
     if args.dry_run:
         for e in entries: print(e['key'],e['url'],'->',e['path'])
         return
-    snapshots=[]
-    for e in entries: snapshots.append(fetch(e,args.force))
     p=Path(args.index); p.parent.mkdir(parents=True,exist_ok=True)
+    existing=json.loads(p.read_text()).get('snapshots',[]) if p.exists() else []
+    merged={s['key']:s for s in existing}; failures=[]
+    for e in entries:
+        try: merged[e['key']]=fetch(e,args.force)
+        except Exception as error:
+            failures.append({'key':e['key'],'error':str(error)}); print('FAILED',e['key'],str(error))
+    snapshots=sorted(merged.values(),key=lambda s:s['key'])
     p.write_text(json.dumps({'version':'1.0','snapshot_count':len(snapshots),'snapshots':snapshots},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print('snapshot-index',p,len(snapshots))
+    if failures:
+        p.with_name('FETCH_FAILURES.json').write_text(json.dumps(failures,indent=2)+'\n')
+        raise SystemExit(1)
 if __name__=='__main__': main()

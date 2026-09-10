@@ -22,42 +22,6 @@
       "reviewed_by": "bhakthi-corpus-curation"
     },
     {
-      "id": "episode:mahishasura_conflict",
-      "kind": "episode",
-      "label": "Mahiṣāsura conflict",
-      "evidence_ids": [
-        "purana.devi_mahatmya.82.1",
-        "purana.devi_mahatmya.82.2"
-      ],
-      "derivation": "curator_reviewed",
-      "reviewed_by": "bhakthi-corpus-curation"
-    },
-    {
-      "id": "person:mahishasura",
-      "kind": "person",
-      "label": "Mahiṣāsura",
-      "aliases": [
-        "Mahisha"
-      ],
-      "evidence_ids": [
-        "purana.devi_mahatmya.82.1",
-        "purana.devi_mahatmya.82.2"
-      ],
-      "derivation": "curator_reviewed",
-      "reviewed_by": "bhakthi-corpus-curation"
-    },
-    {
-      "id": "deity:devi",
-      "kind": "deity",
-      "label": "Devī",
-      "evidence_ids": [
-        "purana.devi_mahatmya.82.12",
-        "purana.devi_mahatmya.82.13"
-      ],
-      "derivation": "curator_reviewed",
-      "reviewed_by": "bhakthi-corpus-curation"
-    },
-    {
       "id": "concept:combined_divine_tejas",
       "kind": "concept",
       "label": "Combined divine tejas",
@@ -79,51 +43,6 @@
     }
   ],
   "edges": [
-    {
-      "id": "edge.dm.text.episode.1",
-      "kind": "episode",
-      "subject": "text:devi_mahatmya",
-      "predicate": "contains_evidence_for",
-      "object": "episode:mahishasura_conflict",
-      "evidence_ids": [
-        "purana.devi_mahatmya.82.1",
-        "purana.devi_mahatmya.82.2"
-      ],
-      "derivation": "curator_reviewed",
-      "reviewed_by": "bhakthi-corpus-curation",
-      "status": "verified",
-      "notes": "Chapter 82 explicitly sets the devasura war under Mahisha and his defeat of the gods."
-    },
-    {
-      "id": "edge.dm.mahisha.episode.1",
-      "kind": "episode",
-      "subject": "person:mahishasura",
-      "predicate": "central_antagonist_in",
-      "object": "episode:mahishasura_conflict",
-      "evidence_ids": [
-        "purana.devi_mahatmya.82.1",
-        "purana.devi_mahatmya.82.2"
-      ],
-      "derivation": "curator_reviewed",
-      "reviewed_by": "bhakthi-corpus-curation",
-      "status": "verified",
-      "notes": "The text names Mahisha as asura lord and Mahishasura as conqueror of the gods."
-    },
-    {
-      "id": "edge.dm.tejas.devi.1",
-      "kind": "deity_avatar",
-      "subject": "concept:combined_divine_tejas",
-      "predicate": "manifests_as",
-      "object": "deity:devi",
-      "evidence_ids": [
-        "purana.devi_mahatmya.82.12",
-        "purana.devi_mahatmya.82.13"
-      ],
-      "derivation": "curator_reviewed",
-      "reviewed_by": "bhakthi-corpus-curation",
-      "status": "verified",
-      "notes": "The combined tejas becomes a woman; the following verse begins describing her body from the gods' energies. The identification with Devī is contextual and curator-reviewed, not mechanically inferred."
-    },
     {
       "id": "edge.dm.text.tradition.1",
       "kind": "claim",

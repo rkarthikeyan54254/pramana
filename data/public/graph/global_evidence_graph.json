@@ -63,19 +63,6 @@
         "notes": "Verse 44.37 directly names Brahmā."
       },
       {
-        "id": "deity:devi",
-        "kind": "deity",
-        "label": "Devī",
-        "evidence_ids": [
-          "purana.devi_mahatmya.82.12",
-          "purana.devi_mahatmya.82.13",
-          "purana.devi_mahatmya.92.11",
-          "purana.devi_mahatmya.92.3"
-        ],
-        "derivation": "curator_reviewed",
-        "reviewed_by": "bhakthi-corpus-curation"
-      },
-      {
         "id": "deity:hari",
         "kind": "deity",
         "label": "Hari",
@@ -98,17 +85,6 @@
         ],
         "derivation": "deterministic_metadata",
         "notes": "The certified verse directly names Viṣṇu."
-      },
-      {
-        "id": "episode:mahishasura_conflict",
-        "kind": "episode",
-        "label": "Mahiṣāsura conflict",
-        "evidence_ids": [
-          "purana.devi_mahatmya.82.1",
-          "purana.devi_mahatmya.82.2"
-        ],
-        "derivation": "curator_reviewed",
-        "reviewed_by": "bhakthi-corpus-curation"
       },
       {
         "id": "episode:prahlada_narasimha",
@@ -175,20 +151,6 @@
         "notes": "Hiraṇyakaśipu is directly named in the certified verse."
       },
       {
-        "id": "person:mahishasura",
-        "kind": "person",
-        "label": "Mahiṣāsura",
-        "aliases": [
-          "Mahisha"
-        ],
-        "evidence_ids": [
-          "purana.devi_mahatmya.82.1",
-          "purana.devi_mahatmya.82.2"
-        ],
-        "derivation": "curator_reviewed",
-        "reviewed_by": "bhakthi-corpus-curation"
-      },
-      {
         "id": "person:prahlada",
         "kind": "person",
         "label": "Prahlāda",
@@ -232,15 +194,6 @@
         ],
         "derivation": "deterministic_metadata",
         "notes": "Verse 44.39 directly names Śrīśailaśikhara; no modern temple identity is asserted."
-      },
-      {
-        "id": "ritual:devi_tithi_recitation",
-        "kind": "ritual",
-        "label": "Devī Māhātmya recitation/hearing on Aṣṭamī, Navamī and Caturdaśī",
-        "evidence_ids": [
-          "purana.devi_mahatmya.92.3"
-        ],
-        "derivation": "deterministic_metadata"
       },
       {
         "id": "ritual:temple_lamp_offering",
@@ -296,9 +249,7 @@
         "kind": "text",
         "label": "Devī Māhātmya",
         "evidence_ids": [
-          "purana.devi_mahatmya.82.1",
-          "purana.devi_mahatmya.92.11",
-          "purana.devi_mahatmya.92.3"
+          "purana.devi_mahatmya.82.1"
         ],
         "derivation": "curator_reviewed",
         "reviewed_by": "bhakthi-corpus-curation"
@@ -482,89 +433,6 @@
         "derivation": "accepted_cross_source_relation",
         "status": "verified",
         "notes": "Narrow reviewed agreement only on Narasiṃha/Viṣṇu manifestation identity."
-      },
-      {
-        "id": "edge.devi.deity.tithi_recitation.1",
-        "kind": "festival_ritual",
-        "subject": "deity:devi",
-        "predicate": "object_of_devotional_hearing",
-        "object": "ritual:devi_tithi_recitation",
-        "evidence_ids": [
-          "purana.devi_mahatmya.92.3"
-        ],
-        "derivation": "curator_reviewed",
-        "reviewed_by": "bhakthi-corpus-curation",
-        "status": "verified"
-      },
-      {
-        "id": "edge.devi.text.autumn_mahapuja.1",
-        "kind": "festival_ritual",
-        "subject": "text:devi_mahatmya",
-        "predicate": "linked_to",
-        "object": "festival:annual_autumn_mahapuja",
-        "evidence_ids": [
-          "purana.devi_mahatmya.92.11"
-        ],
-        "derivation": "deterministic_metadata",
-        "status": "verified"
-      },
-      {
-        "id": "edge.devi.text.tithi_recitation.1",
-        "kind": "festival_ritual",
-        "subject": "text:devi_mahatmya",
-        "predicate": "prescribes_or_praises",
-        "object": "ritual:devi_tithi_recitation",
-        "evidence_ids": [
-          "purana.devi_mahatmya.92.3"
-        ],
-        "derivation": "curator_reviewed",
-        "reviewed_by": "bhakthi-corpus-curation",
-        "status": "verified"
-      },
-      {
-        "id": "edge.dm.mahisha.episode.1",
-        "kind": "episode",
-        "subject": "person:mahishasura",
-        "predicate": "central_antagonist_in",
-        "object": "episode:mahishasura_conflict",
-        "evidence_ids": [
-          "purana.devi_mahatmya.82.1",
-          "purana.devi_mahatmya.82.2"
-        ],
-        "derivation": "curator_reviewed",
-        "reviewed_by": "bhakthi-corpus-curation",
-        "status": "verified",
-        "notes": "The text names Mahisha as asura lord and Mahishasura as conqueror of the gods."
-      },
-      {
-        "id": "edge.dm.tejas.devi.1",
-        "kind": "deity_avatar",
-        "subject": "concept:combined_divine_tejas",
-        "predicate": "manifests_as",
-        "object": "deity:devi",
-        "evidence_ids": [
-          "purana.devi_mahatmya.82.12",
-          "purana.devi_mahatmya.82.13"
-        ],
-        "derivation": "curator_reviewed",
-        "reviewed_by": "bhakthi-corpus-curation",
-        "status": "verified",
-        "notes": "The combined tejas becomes a woman; the following verse begins describing her body from the gods' energies. The identification with Devī is contextual and curator-reviewed, not mechanically inferred."
-      },
-      {
-        "id": "edge.dm.text.episode.1",
-        "kind": "episode",
-        "subject": "text:devi_mahatmya",
-        "predicate": "contains_evidence_for",
-        "object": "episode:mahishasura_conflict",
-        "evidence_ids": [
-          "purana.devi_mahatmya.82.1",
-          "purana.devi_mahatmya.82.2"
-        ],
-        "derivation": "curator_reviewed",
-        "reviewed_by": "bhakthi-corpus-curation",
-        "status": "verified",
-        "notes": "Chapter 82 explicitly sets the devasura war under Mahisha and his defeat of the gods."
       },
       {
         "id": "edge.dm.text.tradition.1",

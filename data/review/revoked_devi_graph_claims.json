@@ -1,0 +1,176 @@
+{
+  "status": "quarantined_not_authority",
+  "revocations": {
+    "purana.devi_mahatmya.82.2": "GRETIL būn vs witness bhūn; inherited Devanagari also silently used the witness reading.",
+    "purana.devi_mahatmya.82.13": "GRETIL bahavo vs witness bāhavo; inherited IAST silently used the witness reading.",
+    "purana.devi_mahatmya.92.3": "GRETIL stoṣyanti vs witness śroṣyanti; substantive lexical difference."
+  },
+  "removed_claims": [
+    {
+      "spec": "data/public/graph/devi_mahatmya_seed_spec.json",
+      "reason": "Supporting verification revoked; no substitute evidence inferred.",
+      "nodes": [
+        {
+          "id": "episode:mahishasura_conflict",
+          "kind": "episode",
+          "label": "Mahiṣāsura conflict",
+          "evidence_ids": [
+            "purana.devi_mahatmya.82.1",
+            "purana.devi_mahatmya.82.2"
+          ],
+          "derivation": "curator_reviewed",
+          "reviewed_by": "bhakthi-corpus-curation"
+        },
+        {
+          "id": "person:mahishasura",
+          "kind": "person",
+          "label": "Mahiṣāsura",
+          "aliases": [
+            "Mahisha"
+          ],
+          "evidence_ids": [
+            "purana.devi_mahatmya.82.1",
+            "purana.devi_mahatmya.82.2"
+          ],
+          "derivation": "curator_reviewed",
+          "reviewed_by": "bhakthi-corpus-curation"
+        },
+        {
+          "id": "deity:devi",
+          "kind": "deity",
+          "label": "Devī",
+          "evidence_ids": [
+            "purana.devi_mahatmya.82.12",
+            "purana.devi_mahatmya.82.13"
+          ],
+          "derivation": "curator_reviewed",
+          "reviewed_by": "bhakthi-corpus-curation"
+        }
+      ],
+      "edges": [
+        {
+          "id": "edge.dm.text.episode.1",
+          "kind": "episode",
+          "subject": "text:devi_mahatmya",
+          "predicate": "contains_evidence_for",
+          "object": "episode:mahishasura_conflict",
+          "evidence_ids": [
+            "purana.devi_mahatmya.82.1",
+            "purana.devi_mahatmya.82.2"
+          ],
+          "derivation": "curator_reviewed",
+          "reviewed_by": "bhakthi-corpus-curation",
+          "status": "verified",
+          "notes": "Chapter 82 explicitly sets the devasura war under Mahisha and his defeat of the gods."
+        },
+        {
+          "id": "edge.dm.mahisha.episode.1",
+          "kind": "episode",
+          "subject": "person:mahishasura",
+          "predicate": "central_antagonist_in",
+          "object": "episode:mahishasura_conflict",
+          "evidence_ids": [
+            "purana.devi_mahatmya.82.1",
+            "purana.devi_mahatmya.82.2"
+          ],
+          "derivation": "curator_reviewed",
+          "reviewed_by": "bhakthi-corpus-curation",
+          "status": "verified",
+          "notes": "The text names Mahisha as asura lord and Mahishasura as conqueror of the gods."
+        },
+        {
+          "id": "edge.dm.tejas.devi.1",
+          "kind": "deity_avatar",
+          "subject": "concept:combined_divine_tejas",
+          "predicate": "manifests_as",
+          "object": "deity:devi",
+          "evidence_ids": [
+            "purana.devi_mahatmya.82.12",
+            "purana.devi_mahatmya.82.13"
+          ],
+          "derivation": "curator_reviewed",
+          "reviewed_by": "bhakthi-corpus-curation",
+          "status": "verified",
+          "notes": "The combined tejas becomes a woman; the following verse begins describing her body from the gods' energies. The identification with Devī is contextual and curator-reviewed, not mechanically inferred."
+        }
+      ]
+    },
+    {
+      "spec": "data/public/graph/devi_ritual_seed_spec.json",
+      "reason": "Supporting verification revoked; no substitute evidence inferred.",
+      "nodes": [
+        {
+          "id": "text:devi_mahatmya",
+          "kind": "text",
+          "label": "Devī Māhātmya",
+          "evidence_ids": [
+            "purana.devi_mahatmya.92.3",
+            "purana.devi_mahatmya.92.11"
+          ],
+          "derivation": "deterministic_metadata"
+        },
+        {
+          "id": "deity:devi",
+          "kind": "deity",
+          "label": "Devī",
+          "evidence_ids": [
+            "purana.devi_mahatmya.92.3",
+            "purana.devi_mahatmya.92.11"
+          ],
+          "derivation": "curator_reviewed",
+          "reviewed_by": "bhakthi-corpus-curation",
+          "notes": "Speaker/content identity is curated from the Devī-vākya context."
+        },
+        {
+          "id": "ritual:devi_tithi_recitation",
+          "kind": "ritual",
+          "label": "Devī Māhātmya recitation/hearing on Aṣṭamī, Navamī and Caturdaśī",
+          "evidence_ids": [
+            "purana.devi_mahatmya.92.3"
+          ],
+          "derivation": "deterministic_metadata"
+        }
+      ],
+      "edges": [
+        {
+          "id": "edge.devi.text.tithi_recitation.1",
+          "kind": "festival_ritual",
+          "subject": "text:devi_mahatmya",
+          "predicate": "prescribes_or_praises",
+          "object": "ritual:devi_tithi_recitation",
+          "evidence_ids": [
+            "purana.devi_mahatmya.92.3"
+          ],
+          "derivation": "curator_reviewed",
+          "reviewed_by": "bhakthi-corpus-curation",
+          "status": "verified"
+        },
+        {
+          "id": "edge.devi.text.autumn_mahapuja.1",
+          "kind": "festival_ritual",
+          "subject": "text:devi_mahatmya",
+          "predicate": "linked_to",
+          "object": "festival:annual_autumn_mahapuja",
+          "evidence_ids": [
+            "purana.devi_mahatmya.92.11"
+          ],
+          "derivation": "deterministic_metadata",
+          "status": "verified"
+        },
+        {
+          "id": "edge.devi.deity.tithi_recitation.1",
+          "kind": "festival_ritual",
+          "subject": "deity:devi",
+          "predicate": "object_of_devotional_hearing",
+          "object": "ritual:devi_tithi_recitation",
+          "evidence_ids": [
+            "purana.devi_mahatmya.92.3"
+          ],
+          "derivation": "curator_reviewed",
+          "reviewed_by": "bhakthi-corpus-curation",
+          "status": "verified"
+        }
+      ]
+    }
+  ]
+}

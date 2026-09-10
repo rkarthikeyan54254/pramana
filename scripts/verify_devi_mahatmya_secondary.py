@@ -9,6 +9,7 @@ text agrees. We align normalized text in order and preserve BOTH native loci.
 """
 import argparse, html, json, pathlib, re, unicodedata
 from difflib import SequenceMatcher
+from bs4 import BeautifulSoup
 
 TAG = re.compile(r"<[^>]+>")
 IAST_LOC = re.compile(r"(?P<text>[^\n]+?)\s*\|\|\s*(?P<ch>\d+)\.(?P<v>\d+)\s*\|\|")
@@ -25,12 +26,14 @@ def norm(s: str) -> str:
     s = s.replace("’", "'").replace("ऽ", "'")
     # normalize common web romanization punctuation but retain letters/diacritics
     s = re.sub(r"[|/।॥.,;:!?()\[\]{}\-—–'\"`~]", " ", s)
-    s = re.sub(r"\boṃ\b|\baiṃ\b|\bhrīṃ\b", " ", s)
+    # Never delete lexical syllables to manufacture agreement.
     return re.sub(r"\s+", " ", s).strip()
 
 
 def parse_secondary_html(raw: str):
-    txt = textify(raw)
+    soup = BeautifulSoup(raw, 'html.parser')
+    blocks = soup.select('.verse-block > p[lang="en"]') or soup.find_all('p')
+    txt = '\n'.join(' '.join(p.get_text(' ', strip=True).split()) for p in blocks)
     out = []
     for m in IAST_LOC.finditer(txt):
         text = m.group('text').strip()
@@ -57,31 +60,25 @@ def load_primary(path):
     return rows
 
 
-def align(primary, secondary, threshold=0.985):
+def align(primary, secondary, threshold=1.0):
     by_ch_p={}; by_ch_s={}
     for r in primary: by_ch_p.setdefault(r['chapter'],[]).append(r)
     for r in secondary: by_ch_s.setdefault(r['chapter']+80,[]).append(r)
     results=[]
     for ch in sorted(by_ch_p):
         p=by_ch_p[ch]; s=by_ch_s.get(ch,[])
-        j=0
-        for pr in p:
-            best=None
-            # bounded forward search handles extra numbered speaker cues / half-verses
-            for k in range(j,min(len(s),j+8)):
-                # Compare compact forms too: editions differ in sandhi word-boundary spacing.
-                pn=pr['norm'].replace(' ',''); sn=s[k]['norm'].replace(' ','')
-                score=SequenceMatcher(None, pn, sn).ratio()
-                if best is None or score>best[0]: best=(score,k,s[k])
-            if best and best[0]>=threshold:
-                score,k,sr=best; j=k+1
-                results.append({'id':pr['id'],'primary_locus':f"MarkP_{ch}.{pr['verse']}",
-                                'secondary_locus':f"{ch-80}.{sr['verse']}",
-                                'score':round(score,6),'status':'match'})
-            else:
-                results.append({'id':pr['id'],'primary_locus':f"MarkP_{ch}.{pr['verse']}",
-                                'secondary_locus':None,'score':round(best[0],6) if best else 0,
-                                'status':'needs_review'})
+        # Sequence alignment is over entire verses, with exact compact equality only.
+        pn=[r['norm'].replace(' ','') for r in p]
+        sn=[r['norm'].replace(' ','') for r in s]
+        matches={}
+        for block in SequenceMatcher(None,pn,sn,autojunk=False).get_matching_blocks():
+            for offset in range(block.size): matches[block.a+offset]=block.b+offset
+        for i,pr in enumerate(p):
+            k=matches.get(i)
+            results.append({'id':pr['id'],'primary_locus':f"MarkP_{ch}.{pr['verse']}",
+                'secondary_locus':f"{ch-80}.{s[k]['verse']}" if k is not None else None,
+                'score':1.0 if k is not None else 0.0,
+                'status':'match' if k is not None else 'needs_review'})
     return results
 
 
@@ -90,8 +87,9 @@ def main():
     ap.add_argument('primary_jsonl')
     ap.add_argument('secondary_html', nargs='+')
     ap.add_argument('--output', required=True)
-    ap.add_argument('--threshold', type=float, default=0.985)
+    ap.add_argument('--threshold', type=float, default=1.0)
     a=ap.parse_args()
+    if a.threshold != 1.0: ap.error("Only exact normalized equality can certify; threshold must be 1.0")
     primary=load_primary(a.primary_jsonl)
     secondary=[]
     for p in a.secondary_html:

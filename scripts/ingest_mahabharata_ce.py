@@ -2,7 +2,7 @@
 import argparse, json, pathlib, re, unicodedata
 from iast_to_devanagari import transliterate
 
-LINE_RE = re.compile(r'^(?P<base>\d{8})(?P<pada>[a-z]?)\s+(?P<text>.+?)\s*$')
+LINE_RE = re.compile(r'^(?P<base>\d{8})(?P<pada>[a-zA-Z]?)\s+(?P<text>.+?)\s*$')
 
 
 def iso15919_to_iast(s: str) -> str:
@@ -27,7 +27,7 @@ def parse_file(path: pathlib.Path, source_url: str):
     for ln, raw in enumerate(path.read_text(encoding='utf-8-sig').splitlines(), 1):
         if not raw or raw.startswith('%'): continue
         m = LINE_RE.match(raw)
-        if not m: continue
+        if not m: raise ValueError(f'unrecognized source line {ln}: {raw[:40]!r}')
         base, pada, text = m.group('base'), m.group('pada'), m.group('text')
         parva, chapter, verse = decode_base(base)
         if base not in acc:
@@ -36,6 +36,8 @@ def parse_file(path: pathlib.Path, source_url: str):
         rec=acc[base]; rec['lines'].append(ln)
         text=iso15919_to_iast(text)
         if pada:
+            if any(label == pada for label, _ in rec['padas']):
+                raise ValueError(f'duplicate pada {base}{pada} at line {ln}')
             rec['padas'].append((pada,text))
         else:
             if rec['cue'] is not None:
@@ -67,6 +69,7 @@ def parse_file(path: pathlib.Path, source_url: str):
             'source':source_url,'source_license':'SOURCE-TERMS','verified':False,
             'verification_source':None,'flags':flags,'notes':' | '.join(notes)
         })
+    if not rows: raise ValueError(f'no source units in {path}')
     return rows
 
 
