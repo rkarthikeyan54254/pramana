@@ -427,6 +427,14 @@
       "terms": "Published IFP/EFEO electronic edition/CD. Use as verification/reference until exact text reuse/publication terms are pinned; modern English rendering is separately copyright-sensitive.",
       "status": "verified-live-verification-candidate",
       "independence_note": "IFP text is based on the IFP panmurai edition under T.V. Gopal Iyer/F. Gros project lineage, distinct from Project Madurai electronic preparation; verify exact textual lineage per patikam before certifying independence."
+    },
+    {
+      "key": "ta-wikisource-tiruppavai-oldid-1526476",
+      "url": "https://ta.wikisource.org/w/index.php?title=%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%B5%E0%AF%88&oldid=1526476",
+      "path": "sources/raw/verification/tiruppavai_wikisource_oldid_1526476.html",
+      "covers": "Tiruppavai, 30 pasurams",
+      "terms": "Tamil Wikisource Creative Commons site terms; comparison witness only until exact license and textual provenance are pinned.",
+      "status": "comparison-witness-independence-unproven"
     }
   ]
 }
