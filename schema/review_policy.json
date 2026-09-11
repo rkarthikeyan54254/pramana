@@ -25,11 +25,16 @@
       },
       "outputs": {
         "review_jsonl": "data/review/tiruppavai_wikisource_comparison.jsonl",
-        "summary_json": "dist/review/tiruppavai_summary.json"
+        "summary_json": "dist/review/tiruppavai_summary.json",
+        "review_markdown": "dist/review/tiruppavai_review.md"
       },
       "review_sampling": {
         "spot_check_fraction": 0.05,
         "spot_check_minimum": 3
+      },
+      "manual_review_gate": {
+        "metric": "strict_similarity",
+        "threshold": 0.95
       }
     },
     "nachiyar_tirumozhi": {
@@ -57,7 +62,12 @@
       },
       "outputs": {
         "review_jsonl": "data/review/nachiyar_tirumozhi_wikisource_comparison.jsonl",
-        "summary_json": "dist/review/nachiyar_tirumozhi_summary.json"
+        "summary_json": "dist/review/nachiyar_tirumozhi_summary.json",
+        "review_markdown": "dist/review/nachiyar_tirumozhi_review.md"
+      },
+      "manual_review_gate": {
+        "metric": "projected_similarity",
+        "threshold": 0.95
       }
     }
   }

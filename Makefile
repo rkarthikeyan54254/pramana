@@ -228,6 +228,7 @@ curation-proof-gate: review-queue review-proof-test proof-demo
 review-work:
 	@test -n "$(WORK)" || (echo "usage: make review-work WORK=<work>" && exit 2)
 	$(PYTHON) scripts/review_work.py $(WORK)
+	$(PYTHON) scripts/finalize_review.py $(WORK)
 
 review-work-test:
 	$(PYTHON) tests/test_review_work.py
