@@ -463,6 +463,50 @@
       ],
       "authority_effect": "none_without_item_level_review",
       "notes": "Earlier attestation is strong; direct DK source dependency remains unproven."
+    },
+    {
+      "id": "mahaperiyava.lineage.1957_58.acharya_upanyasangal_shorthand",
+      "relation_type": "shorthand_rendering_of",
+      "left": {
+        "id": "source.acharya_swamigalin_upanyasangal.1957_58",
+        "kind": "source",
+        "title": "ஆசாரிய ஸ்வாமிகளின் உபந்நியாசங்கள்",
+        "date": "1957-1958",
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan"
+      },
+      "right": {
+        "id": "event.mahaperiyava.madras_discourses.1957_59",
+        "kind": "event",
+        "title": "Mahaperiyava Madras discourses",
+        "date": "1957-1959",
+        "source_key": null
+      },
+      "dependency_status": "plausible",
+      "evidence_level": "collection",
+      "status": "needs_review",
+      "acharya_review": "unknown",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1957-59-madras",
+          "url": "https://www.kamakoti.org/kamakoti/articles/SageOfKanchi9.html",
+          "locus": "1957-59 Madras discourse publication family",
+          "note": "Official Kanchi history independently identifies Acharya-svamigalin Upanyasangal as a publication of the 1957-59 discourse corpus."
+        },
+        {
+          "source_key": "ananthan-shorthand-recollection-2019",
+          "url": "https://mahaperiavaamyguru.blogspot.com/2019/08/",
+          "locus": "first-person recollection as later reposted",
+          "note": "Retrospective testimony attributed to Ananthan says the talks were captured in shorthand and then rendered into continuous prose for publication."
+        },
+        {
+          "source_key": "tdl-gs-ananthanarayanan-tamil-shorthand-1965",
+          "url": "https://tamildigitallibrary.in/book-details/TVRJMk5UUT1BdG9aYXRvejB0bzk-/TkE9PUF0b1phdG96MHRvOQ--/TWpBPUF0b1phdG96MHRvOQ--",
+          "locus": "institutional bibliographic metadata",
+          "note": "TDL independently identifies G. S. Ananthanarayanan as the author of a Tamil shorthand manual published in 1965; this corroborates shorthand expertise, not the book-production claim by itself."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Provisional transmission mechanism only. Even if shorthand capture was complete, the claimed conversion into continuous prose means the printed wording is not verbatim by default. Front matter or another contemporaneous production record is required to establish the relation."
     }
   ],
   "acquisition_priorities": [

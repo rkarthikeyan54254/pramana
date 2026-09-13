@@ -609,10 +609,68 @@
     {
       "key": "mahaperiyavaa-acharya-upanyasangal-1957-58-discovery",
       "url": "https://mahaperiyavaa.blog/2023/04/20/acharya-swamigalin-upanyasangal-kalaimagal-1957-58/",
-      "path": "sources/raw/discovery/mahaperiyava/acharya_swamigalin_upanyasangal_1957_58_discovery.html",
-      "covers": "Modern discovery page pointing to scans of Kalaimagal Acharya-swamigalin Upanyasangal; locator only, not independent evidence.",
-      "terms": "Secondary hosting/discovery; rights and scan provenance unresolved.",
-      "status": "discovery-only-secondary-hosting"
+      "path": "sources/raw/discovery/mahaperiyava/acharya_swamigalin_upanyasangal_1957_58_locator.html",
+      "covers": "Modern scan-locator page exposing surviving Part 1 and Part 2 PDFs of Acharya Swamigalin Upanyasangal.",
+      "terms": "Discovery/locator only; modern hosting does not establish historical textual independence or redistribution rights.",
+      "status": "discovery-only-secondary-hosting",
+      "expected_sha256": "4ff546265d4fb02a2fc881d3807a66b1e9abfdde02d4d0ed8241b8e4d7cfee31",
+      "expected_bytes": 290814
+    },
+    {
+      "key": "acharya-upanyasangal-part1-1957-58-scan",
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-1.pdf",
+      "path": "sources/raw/verification/mahaperiyava/acharya_upanyasangal_part1_1957_58.pdf",
+      "covers": "Historical Tamil witness scan: Acharya Swamigalin Upanyasangal, Part 1, associated with the 1957-58 Madras discourse period.",
+      "terms": "Restricted/private research witness. Historical publication age does not by itself clear edition, scan, compilation, or hosting rights. Do not redistribute full scan or source text.",
+      "status": "historical-witness-scan-restricted-pinned",
+      "expected_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+      "expected_bytes": 12392965
+    },
+    {
+      "key": "acharya-upanyasangal-part2-1957-58-scan",
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-2.pdf",
+      "path": "sources/raw/verification/mahaperiyava/acharya_upanyasangal_part2_1957_58.pdf",
+      "covers": "Historical Tamil witness scan: Acharya Swamigalin Upanyasangal, Part 2, associated with the 1957-58 Madras discourse period.",
+      "terms": "Restricted/private research witness. Historical publication age does not by itself clear edition, scan, compilation, or hosting rights. Do not redistribute full scan or source text.",
+      "status": "historical-witness-scan-restricted-pinned",
+      "expected_sha256": "eaf06d8936fb3b160a279b388ec0e2ef408be49c416618bf8bfb9d038f4a31e1",
+      "expected_bytes": 12855141
+    },
+    {
+      "key": "ananthan-shorthand-recollection-2019",
+      "url": "https://mahaperiavaamyguru.blogspot.com/2019/08/",
+      "path": "sources/raw/discovery/mahaperiyava/ananthan_shorthand_recollection_2019.html",
+      "covers": "Later repost of a first-person recollection attributed to Ananthan describing shorthand capture of the 1957-58 discourses followed by conversion into continuous prose for the Kalaimagal volumes.",
+      "terms": "Retrospective discovery evidence only. Do not treat modern repost as an independent textual witness or as proof of verbatim wording.",
+      "status": "retrospective-provenance-lead-needs-front-matter-check",
+      "expected_sha256": "e9af0a71312b878fc389762efc6f6c9c8430af75d4f0a4da06e80f9604a97079",
+      "expected_bytes": 136718
+    },
+    {
+      "key": "tdl-gs-ananthanarayanan-tamil-shorthand-1965",
+      "url": "https://tamildigitallibrary.in/book-details/TVRJMk5UUT1BdG9aYXRvejB0bzk-/TkE9PUF0b1phdG96MHRvOQ--/TWpBPUF0b1phdG96MHRvOQ--",
+      "path": "sources/raw/verification/mahaperiyava/tdl_gs_ananthanarayanan_tamil_shorthand_1965.html",
+      "covers": "Tamil Digital Library institutional metadata for the 1965 Tamil shorthand manual by G. S. Ananthanarayanan.",
+      "terms": "Institutional bibliographic/identity metadata. The manual itself is not a Mahaperiyava witness.",
+      "status": "verified-bibliographic-identity-metadata"
+    },
+    {
+      "key": "tdl-jagadguruvin-upadesangal-1957-catalog-35317",
+      "url": "https://tamildigitallibrary.in/Articles/%E0%AE%A8%E0%AF%82%E0%AE%B2%E0%AF%8D-35317-%E0%AE%B8%E0%AF%8D%E0%AE%B0%E0%AF%80%20%E0%AE%9C%E0%AE%95%E0%AE%A4%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%B0%E0%AF%81%E0%AE%B5%E0%AE%BF%E0%AE%A9%E0%AF%8D%20%E0%AE%89%E0%AE%AA%E0%AE%A4%E0%AF%87%E0%AE%9A%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D",
+      "path": "sources/raw/discovery/mahaperiyava/tdl_jagadguruvin_upadesangal_1957_35317.html",
+      "covers": "Tamil Digital Library item lead for the 1957 edition of Sri Jagadguruvin Upadesangal; stable item number 35317.",
+      "terms": "Catalog/discovery metadata only until the exact scan object, edition front matter, and reuse terms are pinned.",
+      "status": "catalog-item-located-scan-object-unresolved"
+    },
+    {
+      "key": "triveni-call-of-jagadguru-review-1958",
+      "url": "https://www.wisdomlib.org/history/compilation/triveni-journal/d/doc69475.html",
+      "path": "sources/raw/verification/mahaperiyava/triveni_call_of_jagadguru_review_1958.html",
+      "covers": "Contemporary 1958 review of the Kanchi The Call of the Jagadguru; useful for bibliographic confirmation and claim-level acquisition leads including simple living.",
+      "terms": "Review/reference evidence only. Short quotations require normal copyright care; do not substitute review excerpts for the 1958 book.",
+      "status": "contemporary-review-acquisition-lead",
+      "expected_sha256": "1cea734c3ae92adceafc47c53e1f4f23ab975cf51c5209fe4b042f74f048ca5a",
+      "expected_bytes": 30359
     }
   ]
 }
