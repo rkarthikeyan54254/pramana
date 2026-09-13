@@ -4,7 +4,7 @@
 
 Third witness: Aradhanam-hosted *Nachiyar Tirumozhi* PDF.
 Its editorial provenance and independence from the existing witnesses are **not established**,
-and the PDF has **not yet been pinned as an immutable snapshot** in Pramāṇa.
+The PDF is now **pinned as an immutable checksummed verification snapshot** under `aradhanam-nachiyar-tirumozhi-0504-0646`. Its editorial provenance and independence remain unproven, and the raw PDF is verification-only because redistribution rights are not established.
 
 ## Outcome
 
@@ -29,3 +29,11 @@ The 8-item machine review queue can now be separated into:
 
 No canonical source text has been changed and no row should be marked `verified=true`
 from this evidence alone.
+
+
+## Pinned snapshot
+
+- Source key: `aradhanam-nachiyar-tirumozhi-0504-0646`
+- Path: `sources/raw/verification/aradhanam_nachiyar_tirumozhi_0504_0646.pdf`
+- SHA-256: `53109e8af3301bcc8fa69117964132385abc7988e7a2a3e1526f55d82fa1463e`
+- Bytes: `1953960`

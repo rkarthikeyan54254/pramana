@@ -443,6 +443,16 @@
       "covers": "Nachiyar Tirumozhi, global pasurams 504-646 (143 units)",
       "terms": "Tamil Wikisource comparison witness. Preserve source provenance. Independence from Project Madurai is unproven; comparison does not grant verification authority.",
       "status": "comparison-witness-independence-unproven"
+    },
+    {
+      "key": "aradhanam-nachiyar-tirumozhi-0504-0646",
+      "url": "https://www.aradhanam.org/wp-content/uploads/2015/11/29-n-AchchiyAr-thirumozhi-0504-0646-withCoverPage.pdf",
+      "path": "sources/raw/verification/aradhanam_nachiyar_tirumozhi_0504_0646.pdf",
+      "covers": "Nachiyar Tirumozhi global pasurams 504-646; third-witness comparison",
+      "terms": "Verification-only witness. aradhanam.org footer states Copyright © 2026; no explicit redistribution license located. Keep raw PDF internal/research-only and exclude it from public releases until reuse permission/terms are clarified. Editorial provenance and independence from Project Madurai/Wikisource remain unproven.",
+      "status": "verification-only-rights-restricted-independence-unproven",
+      "expected_sha256": "53109e8af3301bcc8fa69117964132385abc7988e7a2a3e1526f55d82fa1463e",
+      "expected_bytes": 1953960
     }
   ]
 }
