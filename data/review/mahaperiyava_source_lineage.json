@@ -1,0 +1,495 @@
+{
+  "version": "1.0",
+  "work": "deivathin_kural",
+  "corpus": "mahaperiyava_teachings",
+  "baseline_commit": "9106856",
+  "authority": "UNVERIFIED_ITEM_LEVEL_PROVENANCE",
+  "policy": {
+    "collection_lineage_does_not_propagate_to_claims": true,
+    "thematic_antecedent_does_not_imply_textual_dependency": true,
+    "no_majority_vote": true,
+    "no_primary_source_upgrade_without_item_level_evidence": true
+  },
+  "disambiguation_guards": [
+    {
+      "title": "The Call of the Jagadguru",
+      "wanted": "Kanchi: Chandrasekharendra Saraswati; compiled by P. Sankaranarayanan; Ganesh & Co., Madras; 1958.",
+      "reject_as_same_work": "Sringeri: distinct work concerning Chandrasekhara Bharati. Never ingest by title match alone."
+    }
+  ],
+  "relations": [
+    {
+      "id": "mahaperiyava.lineage.1932.hindu_reports",
+      "relation_type": "contemporaneous_report_of",
+      "left": {
+        "id": "source.the_hindu.madras_reports.1932",
+        "kind": "source",
+        "title": "The Hindu daily reports of the 1932 Madras discourses",
+        "date": "1932",
+        "source_key": null
+      },
+      "right": {
+        "id": "event.mahaperiyava.madras_discourses.1932",
+        "kind": "event",
+        "title": "Mahaperiyava Madras discourses",
+        "date": "1932-09/1933-01",
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "collection",
+      "status": "supported",
+      "acharya_review": "unknown",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1932-madras",
+          "url": "https://kamakoti.org/kamakoti/articles/SageOfKanchi6.html",
+          "locus": "1932 Madras stay",
+          "note": "Official Kanchi biography states that reports of the discourses appeared every day in The Hindu and Swadesamitran."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Exact newspaper issues/articles have not yet been acquired."
+    },
+    {
+      "id": "mahaperiyava.lineage.1932.swadesamitran_reports",
+      "relation_type": "contemporaneous_report_of",
+      "left": {
+        "id": "source.swadesamitran.madras_reports.1932",
+        "kind": "source",
+        "title": "Swadesamitran daily reports of the 1932 Madras discourses",
+        "date": "1932",
+        "source_key": null
+      },
+      "right": {
+        "id": "event.mahaperiyava.madras_discourses.1932",
+        "kind": "event",
+        "title": "Mahaperiyava Madras discourses",
+        "date": "1932-09/1933-01",
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "collection",
+      "status": "supported",
+      "acharya_review": "unknown",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1932-madras",
+          "url": "https://kamakoti.org/kamakoti/articles/SageOfKanchi6.html",
+          "locus": "1932 Madras stay",
+          "note": "Official Kanchi biography names Swadesamitran alongside The Hindu as carrying daily reports."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Exact newspaper issues/articles have not yet been acquired."
+    },
+    {
+      "id": "mahaperiyava.lineage.1933.jagadguruvin_upadesangal",
+      "relation_type": "published_collection_of",
+      "left": {
+        "id": "source.jagadguruvin_upadesangal.1933",
+        "kind": "source",
+        "title": "ஜகத்குருவின் உபதேசங்கள்",
+        "date": "1933",
+        "source_key": "tdl-jagadguruvin-upadesangal-1933-catalog"
+      },
+      "right": {
+        "id": "event.mahaperiyava.madras_discourses.1932",
+        "kind": "event",
+        "title": "Mahaperiyava Madras discourses",
+        "date": "1932-09/1933-01",
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "collection",
+      "status": "supported",
+      "acharya_review": "unknown",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1932-madras",
+          "url": "https://kamakoti.org/kamakoti/articles/SageOfKanchi6.html",
+          "locus": "footnote 7",
+          "note": "Official Kanchi biography names Sri Jagadguruvin Upadesangal among the publications of the 1932 discourse corpus."
+        },
+        {
+          "source_key": "tdl-jagadguruvin-upadesangal-1933-catalog",
+          "url": "https://tamildigitallibrary.in/book_list_view_book?cid=&selected_title=1933&stype=Y0hWaVgzbGxZWEk9QXRvWmF0b3owdG85&stypeval=TVRrek13PT1BdG9aYXRvejB0bzk-",
+          "locus": "1933 catalog result",
+          "note": "TDL independently lists a 1933 work titled Jagadguruvin Upadesangal and describes it as the Kanchi Jagadguru's Chennai discourses."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Direct scan/page-level comparison remains pending."
+    },
+    {
+      "id": "mahaperiyava.lineage.1950.five_part_series",
+      "relation_type": "possible_editorial_reorganization_of",
+      "left": {
+        "id": "series.kamakoti.topical_five_part.by1950",
+        "kind": "series",
+        "title": "Kamakoti five-part topical teaching series",
+        "date": "by 1950",
+        "source_key": null
+      },
+      "right": {
+        "id": "collection.mahaperiyava.early_discourse_publications.1932_33",
+        "kind": "collection",
+        "title": "Early Mahaperiyava discourse publications",
+        "date": "1932-1933",
+        "source_key": null
+      },
+      "dependency_status": "plausible",
+      "evidence_level": "collection",
+      "status": "needs_review",
+      "acharya_review": "unknown",
+      "evidence": [
+        {
+          "source_key": "tdl-narpatu-samskarangal-1950",
+          "url": "https://tamildigitallibrary.in/Articles/%E0%AE%A8%E0%AF%82%E0%AE%B2%E0%AF%8D-7646-%E0%AE%A8%E0%AE%BE%E0%AE%B1%E0%AF%8D%E0%AE%AA%E0%AE%A4%E0%AF%81%20%E0%AE%B8%E0%AE%AE%E0%AF%8D%E0%AE%B8%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D%20%E0%AE%95%E0%AE%B0%E0%AF%8D%E0%AE%AE%E0%AE%BE%E0%AE%A9%E0%AF%81%E0%AE%B7%E0%AF%8D%E0%AE%9F%E0%AE%BE%E0%AE%A9%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D-%E0%AE%B8%E0%AF%8D%E0%AE%B0%E0%AF%80%20%E0%AE%95%E0%AE%BE%E0%AE%AE%E0%AE%95%E0%AF%8B%E0%AE%9F%E0%AE%BF%20%E0%AE%AA%E0%AF%80%E0%AE%9F%E0%AE%A4%E0%AE%BF%E0%AE%AA%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AE%BE%E0%AE%A9%20%E0%AE%9C%E0%AE%95%E0%AE%A4%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%B0%E0%AF%81%20%E0%AE%B8%E0%AF%8D%E0%AE%B0%E0%AF%80%20%E0%AE%9A%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B0%E0%AE%BE%E0%AE%9A%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%AF%20%E0%AE%B8%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AE%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AF%8D%20%E0%AE%85%E0%AE%B0%E0%AF%81%E0%AE%B3%E0%AE%BF%E0%AE%AF%20%E0%AE%A8%E0%AE%A9%E0%AF%8D%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AF%8D",
+          "locus": "publisher advertisement/back matter",
+          "note": "Back matter of the 1950 volume lists five topical books as a series."
+        },
+        {
+          "source_key": "tdl-namathu-anathi-matham-1932",
+          "url": "https://tamildigitallibrary.in/Articles/%E0%AE%A8%E0%AF%82%E0%AE%B2%E0%AF%8D-9529-%E0%AE%A8%E0%AE%AE%E0%AE%A4%E0%AF%81%20%E0%AE%85%E0%AE%A9%E0%AE%BE%E0%AE%A4%E0%AE%BF%20%E0%AE%AE%E0%AE%A4%E0%AE%AE%E0%AF%8D",
+          "locus": "catalog metadata",
+          "note": "TDL catalogs Namathu Anathi Matham under Sri Kamakoti Kosasthanam with publication year 1932."
+        },
+        {
+          "source_key": "tdl-namathu-vedangal-sastrangal-1949",
+          "url": "https://tamildigitallibrary.in/Articles/%E0%AE%A8%E0%AF%82%E0%AE%B2%E0%AF%8D-7740-%E0%AE%A8%E0%AE%AE%E0%AE%A4%E0%AF%81%20%E0%AE%B5%E0%AF%87%E0%AE%A4%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D%20%E0%AE%9A%E0%AE%BE%E0%AE%B8%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D",
+          "locus": "catalog metadata",
+          "note": "TDL catalogs Namathu Vedangalum Sastrangalum in 1949."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Series existence is established; direct derivation/repackaging from the 1932-33 discourse publications is not yet proven."
+    },
+    {
+      "id": "mahaperiyava.lineage.1957_59.hindu_reports",
+      "relation_type": "contemporaneous_report_of",
+      "left": {
+        "id": "source.the_hindu.madras_reports.1957_59",
+        "kind": "source",
+        "title": "The Hindu reports of the 1957–59 Madras discourses",
+        "date": "1957-1959",
+        "source_key": null
+      },
+      "right": {
+        "id": "event.mahaperiyava.madras_discourses.1957_59",
+        "kind": "event",
+        "title": "Mahaperiyava Madras discourses",
+        "date": "1957-1959",
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "collection",
+      "status": "supported",
+      "acharya_review": "claimed",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1957-59-madras",
+          "url": "https://www.kamakoti.org/kamakoti/articles/SageOfKanchi9.html",
+          "locus": "1957-59 Madras account",
+          "note": "Official Kanchi biography states that people read reports in newspapers including The Hindu; its cited Acharya’s Call introduction describes the reporting process."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Some reports in the broader reporting process are described as having been read/corrected by Mahaperiyava; no item-level review is assumed for any specific report."
+    },
+    {
+      "id": "mahaperiyava.lineage.1957_59.swadesamitran_reports",
+      "relation_type": "contemporaneous_report_of",
+      "left": {
+        "id": "source.swadesamitran.madras_reports.1957_59",
+        "kind": "source",
+        "title": "Swadesamitran reports of the 1957–59 Madras discourses",
+        "date": "1957-1959",
+        "source_key": null
+      },
+      "right": {
+        "id": "event.mahaperiyava.madras_discourses.1957_59",
+        "kind": "event",
+        "title": "Mahaperiyava Madras discourses",
+        "date": "1957-1959",
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "collection",
+      "status": "supported",
+      "acharya_review": "unknown",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1957-59-madras",
+          "url": "https://www.kamakoti.org/kamakoti/articles/SageOfKanchi9.html",
+          "locus": "1957-59 Madras account",
+          "note": "Official Kanchi biography names Swadesamitran among newspapers reporting the discourses."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Exact issues/articles remain unacquired."
+    },
+    {
+      "id": "mahaperiyava.lineage.1958.call_of_jagadguru",
+      "relation_type": "published_collection_of",
+      "left": {
+        "id": "source.call_of_jagadguru.kamakoti.1958",
+        "kind": "source",
+        "title": "The Call of the Jagadguru — Kanchi",
+        "date": "1958",
+        "source_key": "cinii-call-of-jagadguru-kamakoti-1958"
+      },
+      "right": {
+        "id": "event.mahaperiyava.madras_discourses.1957_59",
+        "kind": "event",
+        "title": "Mahaperiyava Madras discourses",
+        "date": "1957-1959",
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "collection",
+      "status": "supported",
+      "acharya_review": "unknown",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1957-59-madras",
+          "url": "https://www.kamakoti.org/kamakoti/articles/SageOfKanchi9.html",
+          "locus": "footnote 11",
+          "note": "Official Kanchi biography identifies the Sankaranarayanan volume as one of the books publishing the discourses."
+        },
+        {
+          "source_key": "cinii-call-of-jagadguru-kamakoti-1958",
+          "url": "https://ci.nii.ac.jp/ncid/BB22781304",
+          "locus": "BB22781304",
+          "note": "CiNii independently gives compiler, publisher, date, place, and extent."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Do not confuse with a different same-titled Sringeri work."
+    },
+    {
+      "id": "mahaperiyava.lineage.1957_59.acharya_swamigalin_upanyasangal",
+      "relation_type": "published_collection_of",
+      "left": {
+        "id": "source.acharya_swamigalin_upanyasangal",
+        "kind": "source",
+        "title": "ஆசார்ய ஸ்வாமிகளின் உபந்யாஸங்கள்",
+        "date": "1957-1958",
+        "source_key": null
+      },
+      "right": {
+        "id": "event.mahaperiyava.madras_discourses.1957_59",
+        "kind": "event",
+        "title": "Mahaperiyava Madras discourses",
+        "date": "1957-1959",
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "collection",
+      "status": "supported",
+      "acharya_review": "unknown",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1957-59-madras",
+          "url": "https://www.kamakoti.org/kamakoti/articles/SageOfKanchi9.html",
+          "locus": "footnote 11",
+          "note": "Official Kanchi biography says the discourses were published in three parts by Kalaimagal Karyalayam."
+        },
+        {
+          "source_key": "mahaperiyavaa-acharya-upanyasangal-1957-58-discovery",
+          "url": "https://mahaperiyavaa.blog/2023/04/20/acharya-swamigalin-upanyasangal-kalaimagal-1957-58/",
+          "locus": null,
+          "note": "Modern discovery page points to surviving scans; locator only, not independent evidence."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Exact editions/scans need provenance and rights review before textual comparison."
+    },
+    {
+      "id": "mahaperiyava.lineage.1964.acharyas_call",
+      "relation_type": "published_collection_of",
+      "left": {
+        "id": "source.acharyas_call.madras_discourses",
+        "kind": "source",
+        "title": "Acharya's Call — Madras Discourses",
+        "date": "1964",
+        "source_key": null
+      },
+      "right": {
+        "id": "event.mahaperiyava.madras_discourses.1957_59",
+        "kind": "event",
+        "title": "Mahaperiyava Madras discourses",
+        "date": "1957-1959",
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "collection",
+      "status": "supported",
+      "acharya_review": "claimed",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1957-59-madras",
+          "url": "https://www.kamakoti.org/kamakoti/articles/SageOfKanchi9.html",
+          "locus": "footnotes 10-11",
+          "note": "Official Kanchi biography identifies Acharya's Call as a publication of the discourse corpus and cites its introduction."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "The reporting process included named reporters/revisers and some reports described as read/corrected by Mahaperiyava; this is not propagated to every item."
+    },
+    {
+      "id": "mahaperiyava.theme.1931.paths_to_one_goal",
+      "relation_type": "thematic_antecedent_to",
+      "left": {
+        "id": "event.mahaperiyava.sriperumbudur_discourse.1931",
+        "kind": "event",
+        "title": "Sriperumbudur discourse on multiple religious paths reaching one goal",
+        "date": "1931",
+        "source_key": null
+      },
+      "right": {
+        "id": "chapter.dk.v1.sakala_mathangalukkum_pothuvana_bhakti",
+        "kind": "chapter",
+        "title": "சகல மதங்களுக்கும் பொதுவான பக்தி",
+        "date": null,
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "claim",
+      "status": "supported",
+      "acharya_review": "not_applicable",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1932-madras",
+          "url": "https://kamakoti.org/kamakoti/articles/SageOfKanchi6.html",
+          "locus": "pre-1932 itinerary",
+          "note": "Official Kanchi biography describes the 1931 Sriperumbudur discourse using the rivers-to-one-ocean analogy for different approaches to God."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Earlier thematic teaching only; no textual dependency claimed."
+    },
+    {
+      "id": "mahaperiyava.theme.1932.advaita",
+      "relation_type": "thematic_antecedent_to",
+      "left": {
+        "id": "event.mahaperiyava.madras_discourses.1932",
+        "kind": "event",
+        "title": "Mahaperiyava Madras discourses",
+        "date": "1932-09/1933-01",
+        "source_key": null
+      },
+      "right": {
+        "id": "chapter.dk.v1.advaitam",
+        "kind": "chapter",
+        "title": "அத்வைதம்",
+        "date": null,
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "collection",
+      "status": "supported",
+      "acharya_review": "not_applicable",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1932-madras",
+          "url": "https://kamakoti.org/kamakoti/articles/SageOfKanchi6.html",
+          "locus": "1932 Madras themes",
+          "note": "Official Kanchi biography explicitly lists the grandeur of Advaita among the themes of the 1932 discourses."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Theme-level antecedent only."
+    },
+    {
+      "id": "mahaperiyava.theme.1932.simple_living",
+      "relation_type": "thematic_antecedent_to",
+      "left": {
+        "id": "event.mahaperiyava.madras_discourses.1932",
+        "kind": "event",
+        "title": "Mahaperiyava Madras discourses",
+        "date": "1932-09/1933-01",
+        "source_key": null
+      },
+      "right": {
+        "id": "chapter.dk.v1.eliya_vazhvu",
+        "kind": "chapter",
+        "title": "எளிய வாழ்வு",
+        "date": null,
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "collection",
+      "status": "supported",
+      "acharya_review": "not_applicable",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1932-madras",
+          "url": "https://kamakoti.org/kamakoti/articles/SageOfKanchi6.html",
+          "locus": "1932 Madras themes",
+          "note": "Official Kanchi biography summarizes the 1932 message as urging a clean, simple, unselfish and godly life."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Theme-level antecedent only; exact wording is not asserted."
+    },
+    {
+      "id": "mahaperiyava.theme.1957_59.siva_vishnu_abheda",
+      "relation_type": "thematic_antecedent_to",
+      "left": {
+        "id": "event.mahaperiyava.madras_discourses.1957_59",
+        "kind": "event",
+        "title": "Mahaperiyava Madras discourses",
+        "date": "1957-1959",
+        "source_key": null
+      },
+      "right": {
+        "id": "chapter.dk.v1.siva_vishnu_abhedam",
+        "kind": "chapter",
+        "title": "சிவ, விஷ்ணு அபேதம்",
+        "date": null,
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "claim",
+      "status": "supported",
+      "acharya_review": "not_applicable",
+      "evidence": [
+        {
+          "source_key": "kamakoti-sage-of-kanchi-1957-59-madras",
+          "url": "https://www.kamakoti.org/kamakoti/articles/SageOfKanchi9.html",
+          "locus": "1957-59 doctrinal summary",
+          "note": "Official Kanchi biography summarizes Mahaperiyava as repeatedly teaching the unity of Siva and Vishnu and of the divine forms."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Earlier attestation is strong; direct DK source dependency remains unproven."
+    }
+  ],
+  "acquisition_priorities": [
+    {
+      "priority": 1,
+      "target": "Direct scan of 1933 Jagadguruvin Upadesangal",
+      "status": "catalog_located_scan_not_yet_pinned"
+    },
+    {
+      "priority": 2,
+      "target": "1932 The Hindu and Swadesamitran daily reports",
+      "status": "publication_run_identified_exact_articles_not_acquired"
+    },
+    {
+      "priority": 3,
+      "target": "1958 Kanchi Call of the Jagadguru",
+      "status": "bibliographically_pinned_text_not_acquired"
+    },
+    {
+      "priority": 4,
+      "target": "Exact 1931 Arya Dharma article",
+      "status": "archive_run_confirmed_target_issue_unresolved"
+    },
+    {
+      "priority": 5,
+      "target": "Five-part Kamakoti topical series scans/prefaces",
+      "status": "series_existentially_confirmed_lineage_plausible"
+    }
+  ]
+}

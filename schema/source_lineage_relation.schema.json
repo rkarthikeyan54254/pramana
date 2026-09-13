@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/pramana/source_lineage_relation.schema.json",
+  "title": "Pramana source-lineage relation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "relation_type",
+    "left",
+    "right",
+    "dependency_status",
+    "evidence_level",
+    "status",
+    "acharya_review",
+    "evidence",
+    "authority_effect"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "relation_type": {
+      "enum": [
+        "contemporaneous_report_of",
+        "published_collection_of",
+        "series_member_of",
+        "possible_editorial_reorganization_of",
+        "retrospective_attestation_of",
+        "thematic_antecedent_to",
+        "possible_source_for",
+        "same_title_distinct_work"
+      ]
+    },
+    "left": {
+      "$ref": "#/$defs/entity"
+    },
+    "right": {
+      "$ref": "#/$defs/entity"
+    },
+    "dependency_status": {
+      "enum": [
+        "unknown",
+        "plausible",
+        "established"
+      ]
+    },
+    "evidence_level": {
+      "enum": [
+        "collection",
+        "chapter",
+        "claim",
+        "exact_text"
+      ]
+    },
+    "status": {
+      "enum": [
+        "supported",
+        "needs_review",
+        "disputed"
+      ]
+    },
+    "acharya_review": {
+      "enum": [
+        "unknown",
+        "claimed",
+        "established",
+        "not_applicable"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_key",
+          "url",
+          "note"
+        ],
+        "properties": {
+          "source_key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "locus": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "authority_effect": {
+      "const": "none_without_item_level_review"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "$defs": {
+    "entity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "event",
+            "source",
+            "collection",
+            "series",
+            "chapter",
+            "claim"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_key": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

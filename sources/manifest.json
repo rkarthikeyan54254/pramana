@@ -541,6 +541,78 @@
       "covers": "Community correction history for Deivathin Kural digital text; reports two proofreading rounds on most volumes and no work on Volume 7",
       "terms": "Discovery/lineage metadata only. The page documents a volunteer correction project derived from the existing Kanchi/print text, not an independent Mahaperiyava witness. It reports copyright concerns and no correction work on Volume 7.",
       "status": "lineage-metadata-rights-restricted-independence-unproven"
+    },
+    {
+      "key": "kamakoti-sage-of-kanchi-1932-madras",
+      "url": "https://kamakoti.org/kamakoti/articles/SageOfKanchi6.html",
+      "path": "sources/raw/verification/mahaperiyava/history/kamakoti_sage_of_kanchi_1932_madras.html",
+      "covers": "Official Kanchi account of 1932 Madras discourses, daily newspaper reporting, and three named subsequent publications.",
+      "terms": "Verification/reference only under Kamakoti site terms; do not redistribute page text.",
+      "status": "verification-only-rights-restricted"
+    },
+    {
+      "key": "kamakoti-sage-of-kanchi-1957-59-madras",
+      "url": "https://www.kamakoti.org/kamakoti/articles/SageOfKanchi9.html",
+      "path": "sources/raw/verification/mahaperiyava/history/kamakoti_sage_of_kanchi_1957_59_madras.html",
+      "covers": "Official Kanchi account of 1957-59 Madras discourses, newspaper reporting, doctrinal themes, and later publications.",
+      "terms": "Verification/reference only under Kamakoti site terms; do not redistribute page text.",
+      "status": "verification-only-rights-restricted"
+    },
+    {
+      "key": "tdl-jagadguruvin-upadesangal-1933-catalog",
+      "url": "https://tamildigitallibrary.in/book_list_view_book?cid=&selected_title=1933&stype=Y0hWaVgzbGxZWEk9QXRvWmF0b3owdG85&stypeval=TVRrek13PT1BdG9aYXRvejB0bzk-",
+      "path": "sources/raw/discovery/mahaperiyava/tdl_1933_catalog_jagadguruvin_upadesangal.html",
+      "covers": "TDL catalog evidence for 1933 Jagadguruvin Upadesangal, described as the Kanchi Jagadguru's Chennai discourses.",
+      "terms": "Catalog metadata only; direct item/scan and reuse terms must be pinned before textual use.",
+      "status": "catalog-evidence-direct-item-not-yet-pinned"
+    },
+    {
+      "key": "tdl-namathu-anathi-matham-1932",
+      "url": "https://tamildigitallibrary.in/Articles/%E0%AE%A8%E0%AF%82%E0%AE%B2%E0%AF%8D-9529-%E0%AE%A8%E0%AE%AE%E0%AE%A4%E0%AF%81%20%E0%AE%85%E0%AE%A9%E0%AE%BE%E0%AE%A4%E0%AE%BF%20%E0%AE%AE%E0%AE%A4%E0%AE%AE%E0%AF%8D",
+      "path": "sources/raw/discovery/mahaperiyava/tdl_namathu_anathi_matham_1932.html",
+      "covers": "TDL metadata for Namathu Anathi Matham, Sri Kamakoti Kosasthanam, Chennai, 1932.",
+      "terms": "Historical scan available; rights/reuse status not assumed.",
+      "status": "catalog-scan-available-rights-unresolved"
+    },
+    {
+      "key": "tdl-namathu-vedangal-sastrangal-1949",
+      "url": "https://tamildigitallibrary.in/Articles/%E0%AE%A8%E0%AF%82%E0%AE%B2%E0%AF%8D-7740-%E0%AE%A8%E0%AE%AE%E0%AE%A4%E0%AF%81%20%E0%AE%B5%E0%AF%87%E0%AE%A4%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D%20%E0%AE%9A%E0%AE%BE%E0%AE%B8%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D",
+      "path": "sources/raw/discovery/mahaperiyava/tdl_namathu_vedangal_sastrangal_1949.html",
+      "covers": "TDL metadata for Namathu Vedangalum Sastrangalum, Sri Kamakoti Kosasthanam, 1949.",
+      "terms": "Historical scan available; rights/reuse status not assumed.",
+      "status": "catalog-scan-available-rights-unresolved"
+    },
+    {
+      "key": "tdl-narpatu-samskarangal-1950",
+      "url": "https://tamildigitallibrary.in/Articles/%E0%AE%A8%E0%AF%82%E0%AE%B2%E0%AF%8D-7646-%E0%AE%A8%E0%AE%BE%E0%AE%B1%E0%AF%8D%E0%AE%AA%E0%AE%A4%E0%AF%81%20%E0%AE%B8%E0%AE%AE%E0%AF%8D%E0%AE%B8%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D%20%E0%AE%95%E0%AE%B0%E0%AF%8D%E0%AE%AE%E0%AE%BE%E0%AE%A9%E0%AF%81%E0%AE%B7%E0%AF%8D%E0%AE%9F%E0%AE%BE%E0%AE%A9%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D-%E0%AE%B8%E0%AF%8D%E0%AE%B0%E0%AF%80%20%E0%AE%95%E0%AE%BE%E0%AE%AE%E0%AE%95%E0%AF%8B%E0%AE%9F%E0%AE%BF%20%E0%AE%AA%E0%AF%80%E0%AE%9F%E0%AE%A4%E0%AE%BF%E0%AE%AA%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AE%BE%E0%AE%A9%20%E0%AE%9C%E0%AE%95%E0%AE%A4%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%B0%E0%AF%81%20%E0%AE%B8%E0%AF%8D%E0%AE%B0%E0%AF%80%20%E0%AE%9A%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B0%E0%AE%BE%E0%AE%9A%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%AF%20%E0%AE%B8%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AE%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AF%8D%20%E0%AE%85%E0%AE%B0%E0%AF%81%E0%AE%B3%E0%AE%BF%E0%AE%AF%20%E0%AE%A8%E0%AE%A9%E0%AF%8D%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AF%8D",
+      "path": "sources/raw/discovery/mahaperiyava/tdl_narpatu_samskarangal_1950.html",
+      "covers": "TDL metadata for 1950 Narpatu Samskarangalum Karmanushtanangalum; back matter lists a five-part Kamakoti series.",
+      "terms": "Historical scan available; rights/reuse status not assumed.",
+      "status": "catalog-scan-available-rights-unresolved"
+    },
+    {
+      "key": "cinii-call-of-jagadguru-kamakoti-1958",
+      "url": "https://ci.nii.ac.jp/ncid/BB22781304",
+      "path": "sources/raw/discovery/mahaperiyava/cinii_call_of_jagadguru_kamakoti_1958.html",
+      "covers": "Bibliographic metadata for Kanchi The Call of the Jagadguru, P. Sankaranarayanan, Ganesh & Co., Madras, 1958, xvi+255 pages.",
+      "terms": "Bibliographic metadata page; citation/discovery only.",
+      "status": "verified-bibliographic-metadata"
+    },
+    {
+      "key": "tdl-arya-dharma-v15n43-1931",
+      "url": "https://tamildigitallibrary.in/Articles/%E0%AE%87%E0%AE%A4%E0%AE%B4%E0%AF%8D-10685-%E0%AE%86%E0%AE%B0%E0%AF%8D%E0%AE%AF%20%E0%AE%A4%E0%AE%B0%E0%AF%8D%E0%AE%AE%E0%AE%AE%E0%AF%8D-Vol.%2015%2C%20No.%2043%20%28%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AF%88%2019%2C%201931%29",
+      "path": "sources/raw/discovery/mahaperiyava/tdl_arya_dharma_v15n43_1931.html",
+      "covers": "One surviving 1931 Arya Dharma issue proving the archive run is digitized; not proven to contain the target Mahaperiyava report.",
+      "terms": "Archive-discovery metadata only; do not treat as a teaching witness until article located.",
+      "status": "archive-run-confirmed-target-issue-unresolved"
+    },
+    {
+      "key": "mahaperiyavaa-acharya-upanyasangal-1957-58-discovery",
+      "url": "https://mahaperiyavaa.blog/2023/04/20/acharya-swamigalin-upanyasangal-kalaimagal-1957-58/",
+      "path": "sources/raw/discovery/mahaperiyava/acharya_swamigalin_upanyasangal_1957_58_discovery.html",
+      "covers": "Modern discovery page pointing to scans of Kalaimagal Acharya-swamigalin Upanyasangal; locator only, not independent evidence.",
+      "terms": "Secondary hosting/discovery; rights and scan provenance unresolved.",
+      "status": "discovery-only-secondary-hosting"
     }
   ]
 }
