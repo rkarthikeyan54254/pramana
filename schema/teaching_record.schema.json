@@ -1,0 +1,491 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/pramana/teaching_record.schema.json",
+  "title": "Pramana Teaching Record",
+  "description": "Evidence-first record for modern compiled teachings such as Deivathin Kural. A record proves what a source attests; it does not imply a verbatim primary utterance unless primary evidence is separately located.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "corpus",
+    "work",
+    "teacher",
+    "language",
+    "source_locus",
+    "attribution",
+    "evidence_status",
+    "rights",
+    "provenance"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^mahaperiyava\\.deivathin_kural\\.v[1-7]\\.[a-z0-9_-]+(?:\\.[a-z0-9_-]+)?$"
+    },
+    "corpus": {
+      "const": "mahaperiyava_teachings"
+    },
+    "work": {
+      "const": "deivathin_kural"
+    },
+    "teacher": {
+      "const": "chandrasekharendra_saraswati"
+    },
+    "compiler": {
+      "type": "string",
+      "const": "ra_ganapathi"
+    },
+    "language": {
+      "const": "tamil"
+    },
+    "source_locus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "volume",
+        "chapter_title_ta",
+        "digital_url"
+      ],
+      "properties": {
+        "volume": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "section_title_ta": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "chapter_title_ta": {
+          "type": "string",
+          "minLength": 1
+        },
+        "chapter_ordinal": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "print_edition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "print_page_start": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "print_page_end": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "digital_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "digital_anchor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "exact_text_restricted": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Exact source wording. Restricted/private field; never exported publicly unless rights are explicitly cleared."
+    },
+    "claim_summary": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Curator-authored summary of the teaching. Must not be presented as a quotation."
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "kind",
+          "value"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "canonical_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "attribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dk_attestation",
+        "wording_status",
+        "compiler_intervention_status"
+      ],
+      "properties": {
+        "dk_attestation": {
+          "enum": [
+            "not_checked",
+            "located",
+            "not_located",
+            "ambiguous"
+          ]
+        },
+        "wording_status": {
+          "enum": [
+            "unknown",
+            "dk_wording_only",
+            "earlier_witness_agrees",
+            "primary_wording_verified",
+            "paraphrase_or_synthesis"
+          ]
+        },
+        "compiler_intervention_status": {
+          "enum": [
+            "unknown",
+            "likely_low",
+            "possible",
+            "explicit_compiler_context",
+            "mixed"
+          ]
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "underlying_source": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "unknown",
+            "candidate",
+            "located",
+            "verified"
+          ]
+        },
+        "kind": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "public_discourse",
+            "private_conversation",
+            "tape",
+            "sri_mukham",
+            "periodical_report",
+            "book_or_article",
+            "interview",
+            "answer_to_individual",
+            "other",
+            null
+          ]
+        },
+        "source_key": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "place": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "locus": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "evidence_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "digital_attestation",
+        "print_check",
+        "primary_source_status",
+        "authority"
+      ],
+      "properties": {
+        "digital_attestation": {
+          "enum": [
+            "not_checked",
+            "confirmed",
+            "conflict",
+            "unavailable"
+          ]
+        },
+        "print_check": {
+          "enum": [
+            "not_checked",
+            "confirmed",
+            "conflict",
+            "unavailable"
+          ]
+        },
+        "primary_source_status": {
+          "enum": [
+            "unknown",
+            "candidate",
+            "located",
+            "verified"
+          ]
+        },
+        "authority": {
+          "enum": [
+            "unreviewed",
+            "dk_attested",
+            "dk_print_checked",
+            "earlier_witness_supported",
+            "primary_source_verified",
+            "unattested"
+          ]
+        }
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_key",
+          "witness_role",
+          "url"
+        ],
+        "properties": {
+          "source_key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "witness_role": {
+            "enum": [
+              "official_digital",
+              "print_reference",
+              "corrected_digital",
+              "earlier_secondary",
+              "primary_candidate",
+              "primary"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "locus": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "snapshot_sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "lineage_note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rights_status": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_text_tier",
+        "public_export"
+      ],
+      "properties": {
+        "source_text_tier": {
+          "enum": [
+            "restricted",
+            "permission_granted",
+            "public_domain",
+            "unknown"
+          ]
+        },
+        "public_export": {
+          "enum": [
+            "metadata_only",
+            "rights_cleared_text",
+            "none"
+          ]
+        },
+        "terms_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "curator_notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "evidence_status": {
+            "properties": {
+              "authority": {
+                "const": "primary_source_verified"
+              }
+            },
+            "required": [
+              "authority"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "underlying_source"
+        ],
+        "properties": {
+          "underlying_source": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "const": "verified"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "rights": {
+            "properties": {
+              "source_text_tier": {
+                "const": "restricted"
+              }
+            },
+            "required": [
+              "source_text_tier"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "rights": {
+            "properties": {
+              "public_export": {
+                "enum": [
+                  "metadata_only",
+                  "none"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

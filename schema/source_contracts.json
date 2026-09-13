@@ -141,6 +141,38 @@
       "rights_policy": "Treat Digital Tevaram text as verification-only until exact reuse/publication terms for the electronic PIFI text are pinned. Do not copy English rendering, concordance, maps, audio, or other enrichment into public corpus.",
       "status": "source_pinned_structure_verified",
       "url": "https://www.projectmadurai.org/pmworks.html"
+    },
+    {
+      "key": "deivathin_kural_kamakoti_restricted",
+      "work": "deivathin_kural",
+      "corpus": "mahaperiyava_teachings",
+      "teacher": "chandrasekharendra_saraswati",
+      "compiler": "ra_ganapathi",
+      "foundational_source_kind": "compiled_teachings",
+      "structure": {
+        "volumes": 7,
+        "official_index_source_keys": [
+          "kamakoti-dk-v1-index",
+          "kamakoti-dk-v2-index",
+          "kamakoti-dk-v3-index",
+          "kamakoti-dk-v4-index",
+          "kamakoti-dk-v5-index",
+          "kamakoti-dk-v6-index",
+          "kamakoti-dk-v7-index"
+        ],
+        "pilot_volume": 1,
+        "pilot_chapter_count": 10
+      },
+      "attribution_policy": "A located passage proves 'attested in Deivathin Kural'. It does not by itself prove that the exact wording is a verbatim Mahaperiyava utterance from one occasion. Primary-source verification requires a separately located tape, Sri Mukham, periodical report, discourse transcript, interview, or other earlier witness.",
+      "lineage_policy": "Do not majority-vote the Kanchi digital text, corrected volunteer text, and modern print copies as independent witnesses. They descend from the Ra. Ganapathi compilation and must be tracked as a textual lineage.",
+      "rights_policy": "Kamakoti.org Terms of Service state that site information/content is intended for personal non-commercial use and prohibit downloading/copying/reproducing/distributing content without prior written consent of the rightful owners. Keep source text private; public export is metadata-only unless rights are cleared.",
+      "corrected_digital_lineage": {
+        "source_key": "mahaperiyavaa-dk-correction-history-2013",
+        "status": "lineage_metadata_only",
+        "note": "2013 correction project reports two rounds of spell-check on most volumes; Volume 7 explicitly received no correction work. It also reports copyright concerns."
+      },
+      "verification_policy": "Phase 1 verifies chapter identity and wording against an obtained print edition. Phase 2 searches for earlier/primary witnesses. Compiler intervention must remain explicitly unknown/possible unless evidence supports a stronger classification.",
+      "status": "pilot_contract_defined"
     }
   ]
 }

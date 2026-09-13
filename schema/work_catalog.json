@@ -57,5 +57,43 @@
       {"work":"bhagavad_gita","corpus":"gita","expected_units":700,"language":"sanskrit","primary_source_candidate":"gita_supersite","verification_source_candidate":"sanskritdocuments","note":"SanskritDocuments has redistribution restrictions; treat as verification/private reference unless permission/publication policy is resolved."},
       {"work":"isha_upanishad","corpus":"upanishad","expected_units":18,"language":"sanskrit","primary_source_candidate":"gretil_or_sarit","verification_source_candidate":"gita_supersite_or_sanskritdocuments","status":"needs-live-source-pin"}
     ]
+  },
+  "mahaperiyava_teachings": {
+    "status": "pilot-source-mapped",
+    "tradition": "smarta",
+    "language": "tamil",
+    "scope_note": "Modern Acharya teaching corpus. Deivathin Kural is a compiled editorial source, not automatically a stenographic primary transcript. Preserve a separate distinction between DK attestation and primary-utterance verification.",
+    "rights_policy": "Treat Deivathin Kural source text as restricted/private unless explicit permission or a rights determination clears redistribution. Public artifacts are metadata, citations, hashes, evidence status, and curator-authored summaries only.",
+    "works": [
+      {
+        "work": "deivathin_kural",
+        "teacher": "chandrasekharendra_saraswati",
+        "compiler": "ra_ganapathi",
+        "volumes": 7,
+        "pilot_volume": 1,
+        "pilot_chapters": [
+          "advaitam",
+          "dharmame_thalaikakkum",
+          "mathathin_payan",
+          "sakala_mathangalukkum_pothuvana_bhakti",
+          "varna_dharmam",
+          "eliya_vazhvu",
+          "tamilnattu_panpin_perumai",
+          "alaya_vazhipadu",
+          "bhakti_seyvathu_etharkaga",
+          "siva_vishnu_abhedam"
+        ],
+        "official_index_source_keys": [
+          "kamakoti-dk-v1-index",
+          "kamakoti-dk-v2-index",
+          "kamakoti-dk-v3-index",
+          "kamakoti-dk-v4-index",
+          "kamakoti-dk-v5-index",
+          "kamakoti-dk-v6-index",
+          "kamakoti-dk-v7-index"
+        ],
+        "status": "v0.01_pilot"
+      }
+    ]
   }
 }

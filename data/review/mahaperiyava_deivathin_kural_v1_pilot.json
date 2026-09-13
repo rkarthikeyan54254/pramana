@@ -1,0 +1,126 @@
+{
+  "work": "deivathin_kural",
+  "corpus": "mahaperiyava_teachings",
+  "milestone": "v0.01",
+  "teacher": "chandrasekharendra_saraswati",
+  "compiler": "ra_ganapathi",
+  "volume": 1,
+  "authority": "UNVERIFIED_PRIMARY_SOURCE",
+  "public_text_policy": "metadata_only",
+  "official_index_source_key": "kamakoti-dk-v1-index",
+  "terms_source_key": "kamakoti-terms-of-service-2026",
+  "lineage_note": "The official Kanchi digital text and corrected volunteer text are descendants of the same Ra. Ganapathi compilation and must not be counted as independent witnesses.",
+  "pilot_goal": "For each chapter: pin official digital locus, compare against print, extract claim-level teaching records privately, and search for earlier/primary witnesses.",
+  "chapters": [
+    {
+      "slug": "advaitam",
+      "title_ta": "அத்வைதம்",
+      "theme": "advaita",
+      "url": "https://www.kamakoti.org/tamil/part1kural4.htm",
+      "volume": 1,
+      "status": "source_located_not_yet_print_checked",
+      "dk_attestation": "located",
+      "print_check": "not_checked",
+      "primary_source_status": "unknown"
+    },
+    {
+      "slug": "dharmame_thalaikakkum",
+      "title_ta": "தர்மமே தலைக்காக்கும்",
+      "theme": "dharma",
+      "url": "https://www.kamakoti.org/tamil/part1kural21.htm",
+      "volume": 1,
+      "status": "source_located_not_yet_print_checked",
+      "dk_attestation": "located",
+      "print_check": "not_checked",
+      "primary_source_status": "unknown"
+    },
+    {
+      "slug": "mathathin_payan",
+      "title_ta": "மதத்தின் பயன்",
+      "theme": "religion_and_purusharthas",
+      "url": "https://www.kamakoti.org/tamil/part1kural23.htm",
+      "volume": 1,
+      "status": "source_located_not_yet_print_checked",
+      "dk_attestation": "located",
+      "print_check": "not_checked",
+      "primary_source_status": "unknown"
+    },
+    {
+      "slug": "sakala_mathangalukkum_pothuvana_bhakti",
+      "title_ta": "சகல மதங்களுக்கும் பொதுவான பக்தி",
+      "theme": "interreligious_bhakti",
+      "url": "https://www.kamakoti.org/tamil/part1kural25.htm",
+      "volume": 1,
+      "status": "source_located_not_yet_print_checked",
+      "dk_attestation": "located",
+      "print_check": "not_checked",
+      "primary_source_status": "unknown"
+    },
+    {
+      "slug": "varna_dharmam",
+      "title_ta": "வர்ண தர்மம்",
+      "theme": "varna_dharma",
+      "url": "https://www.kamakoti.org/tamil/part1kural32.htm",
+      "volume": 1,
+      "status": "source_located_not_yet_print_checked",
+      "dk_attestation": "located",
+      "print_check": "not_checked",
+      "primary_source_status": "unknown"
+    },
+    {
+      "slug": "eliya_vazhvu",
+      "title_ta": "எளிய வாழ்வு",
+      "theme": "simple_living",
+      "url": "https://www.kamakoti.org/tamil/part1kural68.htm",
+      "volume": 1,
+      "status": "source_located_not_yet_print_checked",
+      "dk_attestation": "located",
+      "print_check": "not_checked",
+      "primary_source_status": "unknown"
+    },
+    {
+      "slug": "tamilnattu_panpin_perumai",
+      "title_ta": "தமிழ்நாட்டுப் பண்பின் பெருமை",
+      "theme": "culture_and_history",
+      "url": "https://www.kamakoti.org/tamil/part1kural85.htm",
+      "volume": 1,
+      "status": "source_located_not_yet_print_checked",
+      "dk_attestation": "located",
+      "print_check": "not_checked",
+      "primary_source_status": "unknown"
+    },
+    {
+      "slug": "alaya_vazhipadu",
+      "title_ta": "ஆலய வழிபாடு",
+      "theme": "temple_worship",
+      "url": "https://www.kamakoti.org/tamil/part1kurall08.htm",
+      "volume": 1,
+      "status": "source_located_not_yet_print_checked",
+      "dk_attestation": "located",
+      "print_check": "not_checked",
+      "primary_source_status": "unknown"
+    },
+    {
+      "slug": "bhakti_seyvathu_etharkaga",
+      "title_ta": "பக்தி செய்வது எதற்காக ?",
+      "theme": "bhakti",
+      "url": "https://www.kamakoti.org/tamil/part1kurall16.htm",
+      "volume": 1,
+      "status": "source_located_not_yet_print_checked",
+      "dk_attestation": "located",
+      "print_check": "not_checked",
+      "primary_source_status": "unknown"
+    },
+    {
+      "slug": "siva_vishnu_abhedam",
+      "title_ta": "சிவ, விஷ்ணு அபேதம்",
+      "theme": "siva_vishnu_abheda",
+      "url": "https://www.kamakoti.org/tamil/part1kurall44.htm",
+      "volume": 1,
+      "status": "source_located_not_yet_print_checked",
+      "dk_attestation": "located",
+      "print_check": "not_checked",
+      "primary_source_status": "unknown"
+    }
+  ]
+}

@@ -453,6 +453,94 @@
       "status": "verification-only-rights-restricted-independence-unproven",
       "expected_sha256": "53109e8af3301bcc8fa69117964132385abc7988e7a2a3e1526f55d82fa1463e",
       "expected_bytes": 1953960
+    },
+    {
+      "key": "kamakoti-dk-v1-index",
+      "url": "https://www.kamakoti.org/tamil/part1index.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v1_index.html",
+      "covers": "Deivathin Kural Volume 1 official Kanchi Kamakoti digital index",
+      "terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "status": "verification-only-rights-restricted",
+      "expected_sha256": "90c7648de7e87e05931b4e9f1c0bd709f053a7951ecfdb583b61991f4108a214",
+      "expected_bytes": 145502
+    },
+    {
+      "key": "kamakoti-dk-v2-index",
+      "url": "https://www.kamakoti.org/tamil/part2index.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v2_index.html",
+      "covers": "Deivathin Kural Volume 2 official Kanchi Kamakoti digital index",
+      "terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "status": "verification-only-rights-restricted",
+      "expected_sha256": "b7571af2ca80633dd858092247c3cc8c06a13ae86a21d87f9747e49ef7583325",
+      "expected_bytes": 180565
+    },
+    {
+      "key": "kamakoti-dk-v3-index",
+      "url": "https://www.kamakoti.org/tamil/3dkindex.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v3_index.html",
+      "covers": "Deivathin Kural Volume 3 official Kanchi Kamakoti digital index",
+      "terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "status": "verification-only-rights-restricted",
+      "expected_sha256": "5e34a00ad28d3d6f7b1a33146b825b1d9f5f9318739972525357a9220e8c2367",
+      "expected_bytes": 221309
+    },
+    {
+      "key": "kamakoti-dk-v4-index",
+      "url": "https://www.kamakoti.org/tamil/part4index.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v4_index.html",
+      "covers": "Deivathin Kural Volume 4 official Kanchi Kamakoti digital index",
+      "terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "status": "verification-only-rights-restricted",
+      "expected_sha256": "0248a914ccecc68c57c2a31974a4579d49147bc5b69d183aa9771275c3abc4da",
+      "expected_bytes": 291471
+    },
+    {
+      "key": "kamakoti-dk-v5-index",
+      "url": "https://www.kamakoti.org/tamil/5index.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v5_index.html",
+      "covers": "Deivathin Kural Volume 5 official Kanchi Kamakoti digital index",
+      "terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "status": "verification-only-rights-restricted",
+      "expected_sha256": "a0ab4850b3126b140aa65da5c718e1a6667dff8dc11b8f992a1106966cb07b88",
+      "expected_bytes": 218589
+    },
+    {
+      "key": "kamakoti-dk-v6-index",
+      "url": "https://www.kamakoti.org/tamil/part6index.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v6_index.html",
+      "covers": "Deivathin Kural Volume 6 official Kanchi Kamakoti digital index",
+      "terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "status": "verification-only-rights-restricted",
+      "expected_sha256": "4f9a6f2e38b6913a7b6c822b1c850209cef76998c3e81efd717ba8153606992d",
+      "expected_bytes": 168599
+    },
+    {
+      "key": "kamakoti-dk-v7-index",
+      "url": "https://www.kamakoti.org/tamil/part7index.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v7_index.html",
+      "covers": "Deivathin Kural Volume 7 official Kanchi Kamakoti digital index",
+      "terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "status": "verification-only-rights-restricted",
+      "expected_sha256": "781f5634ca9994bfeb0657b45ff9c6be632e0698efaa399c3d093a0fc46a5440",
+      "expected_bytes": 304714
+    },
+    {
+      "key": "kamakoti-terms-of-service-2026",
+      "url": "https://www.kamakoti.org/main/terms_of_service.html",
+      "path": "sources/raw/verification/mahaperiyava/kamakoti_terms_of_service.html",
+      "covers": "Kamakoti.org current terms governing source use",
+      "terms": "Terms page preserved as the governing site-use evidence for Kamakoti.org sources.",
+      "status": "verified-live-rights-policy",
+      "expected_sha256": "85b88d5048fe82b12f3ec95a30d1ba7e59569c27a1b61d3d7fa391c013c2cbf5",
+      "expected_bytes": 42419
+    },
+    {
+      "key": "mahaperiyavaa-dk-correction-history-2013",
+      "url": "https://mahaperiyavaa.blog/2013/09/10/deivathin-kural-corrected-version/",
+      "path": "sources/raw/discovery/mahaperiyava/deivathin_kural_corrected_version_2013.html",
+      "covers": "Community correction history for Deivathin Kural digital text; reports two proofreading rounds on most volumes and no work on Volume 7",
+      "terms": "Discovery/lineage metadata only. The page documents a volunteer correction project derived from the existing Kanchi/print text, not an independent Mahaperiyava witness. It reports copyright concerns and no correction work on Volume 7.",
+      "status": "lineage-metadata-rights-restricted-independence-unproven"
     }
   ]
 }
