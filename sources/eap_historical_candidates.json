@@ -1,0 +1,120 @@
+{
+  "version": "1.0",
+  "work": "nachiyar_tirumozhi",
+  "authority_status": "candidate_sources_unread",
+  "purpose": "Historical manuscript candidates for locus-level adjudication. Metadata confirmation does not constitute textual verification.",
+  "source_policy": {
+    "raw_images": "verification-only; do not redistribute without applicable permission",
+    "authority": "no candidate grants verified=true until pages are read and policy is satisfied",
+    "alignment": "align by substantive verse text, not catalogue numbering alone"
+  },
+  "candidates": [
+    {
+      "key": "eap1217-1-1299-nachiyar-vyakhyanam",
+      "priority": 1,
+      "shelfmark": "EAP1217/1/1299",
+      "title_tamil": "நாச்சியார் திருமொழி வியாக்கியானம்",
+      "date_range": "17th century",
+      "language": "Tamil",
+      "content": "Nachiyar Tirumozhi; 143 songs; Divya Prabandham 504-646; commentary manuscript",
+      "digitized_image_count": 202,
+      "archive_file_url": "https://eap.bl.uk/archive-file/EAP1217-1-1299",
+      "iiif_manifest_url": "https://eap.bl.uk/archive-file/EAP1217-1-1299/manifest",
+      "rights_status": "record-level conditions require confirmation; treat raw images as research-only",
+      "reading_status": "unread",
+      "role": "primary_historical_adjudication_witness"
+    },
+    {
+      "key": "eap1217-1-1298-mudhal-ayiram-arumpadam",
+      "priority": 2,
+      "shelfmark": "EAP1217/1/1298",
+      "title_tamil": "முதலாயிரம் அரும்பதம்",
+      "date_range": "17th century",
+      "language": "Tamil",
+      "content": "First Thousand / Mudhal Ayiram with detailed commentary",
+      "digitized_image_count": 282,
+      "archive_file_url": "https://eap.bl.uk/archive-file/EAP1217-1-1298",
+      "iiif_manifest_url": "https://eap.bl.uk/archive-file/EAP1217-1-1298/manifest",
+      "rights_status": "record-level conditions require confirmation; treat raw images as research-only",
+      "reading_status": "unread",
+      "role": "secondary_historical_commentary_witness"
+    },
+    {
+      "key": "eap1217-1-1254-mudhal-ayiram",
+      "priority": 3,
+      "shelfmark": "EAP1217/1/1254",
+      "title_tamil": "முதலாயிரம்",
+      "date_range": "18th century",
+      "language": "Tamil",
+      "content": "947 First-Thousand songs including Andal; catalogue notes leaf 12 missing",
+      "digitized_image_count": 114,
+      "archive_file_url": "https://eap.bl.uk/archive-file/EAP1217-1-1254",
+      "iiif_manifest_url": "https://eap.bl.uk/archive-file/EAP1217-1-1254/manifest",
+      "rights_status": "record-level conditions require confirmation; treat raw images as research-only",
+      "reading_status": "unread",
+      "role": "cross_check_manuscript"
+    },
+    {
+      "key": "eap1217-1-1333-mudhal-ayiram",
+      "priority": 3,
+      "shelfmark": "EAP1217/1/1333",
+      "title_tamil": "முதலாயிரம்",
+      "date_range": "18th century",
+      "language": "Tamil",
+      "content": "947 First-Thousand songs including Andal",
+      "digitized_image_count": 284,
+      "archive_file_url": "https://eap.bl.uk/archive-file/EAP1217-1-1333",
+      "iiif_manifest_url": "https://eap.bl.uk/archive-file/EAP1217-1-1333/manifest",
+      "rights_status": "record-level conditions require confirmation; treat raw images as research-only",
+      "reading_status": "unread",
+      "role": "cross_check_manuscript"
+    },
+    {
+      "key": "eap1217-1-1348-mudhal-ayiram",
+      "priority": 3,
+      "shelfmark": "EAP1217/1/1348",
+      "title_tamil": "முதலாயிரம்",
+      "date_range": "18th century",
+      "language": "Tamil",
+      "content": "947 First-Thousand songs including Andal; catalogue notes leaf 12 missing",
+      "digitized_image_count": 238,
+      "archive_file_url": "https://eap.bl.uk/archive-file/EAP1217-1-1348",
+      "iiif_manifest_url": "https://eap.bl.uk/archive-file/EAP1217-1-1348/manifest",
+      "rights_status": "record-level conditions require confirmation; treat raw images as research-only",
+      "reading_status": "unread",
+      "role": "cross_check_manuscript"
+    },
+    {
+      "key": "eap1217-1-1747-mudhal-ayiram",
+      "priority": 3,
+      "shelfmark": "EAP1217/1/1747",
+      "title_tamil": "முதலாயிரம்",
+      "date_range": "18th century",
+      "language": "Tamil",
+      "content": "947 First-Thousand songs including Andal",
+      "digitized_image_count": 104,
+      "archive_file_url": "https://eap.bl.uk/archive-file/EAP1217-1-1747",
+      "iiif_manifest_url": "https://eap.bl.uk/archive-file/EAP1217-1-1747/manifest",
+      "rights_status": "British Library catalogue records CC BY-NC; EAP download/reuse policy still applies",
+      "reading_status": "unread",
+      "role": "cross_check_manuscript",
+      "original_institution_reference": "TU_TAMIL_1397_1744"
+    }
+  ],
+  "deferred_andal_leads": [
+    {
+      "shelfmark": "EAP1217/1/1293",
+      "title_tamil": "திருப்பாவை வியாக்கியானம்",
+      "date_range": "17th century",
+      "digitized_image_count": 134,
+      "use_after_nachiyar": true
+    },
+    {
+      "shelfmark": "EAP1217/1/1296",
+      "title_tamil": "திருப்பாவை பிரமாணத்திரட்டு",
+      "date_range": "17th century",
+      "digitized_image_count": 72,
+      "use_after_nachiyar": true
+    }
+  ]
+}
