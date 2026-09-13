@@ -1,0 +1,233 @@
+{
+  "work": "nachiyar_tirumozhi",
+  "authority_status": "unverified_research_hypothesis",
+  "purpose": "Record observed witness correlations and numbering mappings; prevent dependent witnesses from being treated as independent majority votes.",
+  "observed_numbering_mapping": {
+    "scope": "8 manually reviewed disputed units only",
+    "rule_observed": "tamil_virtual_academy_no = pramana_project_madurai_no - 1",
+    "status": "observed_uniform_not_yet_global_audited",
+    "warning": "Align witnesses by substantive text, not numeric equality."
+  },
+  "witnesses": [
+    {
+      "key": "project-madurai-pmuni0621",
+      "role": "primary_staging_source",
+      "independence_status": "unknown"
+    },
+    {
+      "key": "ta-wikisource-nachiyar-tirumozhi-oldid-1526110",
+      "role": "comparison_witness",
+      "independence_status": "unproven"
+    },
+    {
+      "key": "aradhanam-nachiyar-tirumozhi-0504-0646",
+      "role": "pinned_third_witness",
+      "independence_status": "unproven",
+      "expected_sha256": "53109e8af3301bcc8fa69117964132385abc7988e7a2a3e1526f55d82fa1463e"
+    },
+    {
+      "key": "tva-nalayira-nachiyar-online",
+      "role": "institutional_online_text_auxiliary_witness",
+      "independence_status": "unproven"
+    },
+    {
+      "key": "nalayiram-online",
+      "role": "auxiliary_traditional_text",
+      "independence_status": "unproven"
+    },
+    {
+      "key": "tdl-nachiyar-periyavaccan-1923",
+      "role": "historical_print_candidate_adjudicator",
+      "status": "metadata_confirmed_scan_not_yet_pinned",
+      "catalog_id": "TVA_BOK_0056477",
+      "year": 1923,
+      "pages": 349
+    },
+    {
+      "key": "dli-vengatachalam-nachiyar-1991",
+      "role": "modern_print_candidate_adjudicator",
+      "status": "catalog_confirmed_scan_not_yet_pinned",
+      "year": 1991
+    }
+  ],
+  "lineage_hypotheses": [
+    {
+      "members": [
+        "project-madurai-pmuni0621",
+        "tva-nalayira-nachiyar-online"
+      ],
+      "relation": "possible_shared_textual_or_transcription_lineage",
+      "basis": "TVA aligns with Project Madurai at all 8 manually inspected disputed units, including distinctive loci.",
+      "confidence": "hypothesis_only",
+      "warning": "Agreement cannot establish dependence or independence."
+    },
+    {
+      "members": [
+        "ta-wikisource-nachiyar-tirumozhi-oldid-1526110",
+        "aradhanam-nachiyar-tirumozhi-0504-0646"
+      ],
+      "relation": "possible_shared_textual_or_editorial_lineage",
+      "basis": "They co-align at several loci where PM/TVA differ, notably units 2, 23, 101 and 106.",
+      "confidence": "hypothesis_only",
+      "warning": "Agreement cannot establish dependence or independence."
+    }
+  ],
+  "adjudication_policy": [
+    "Never majority-vote witnesses without lineage/independence evidence.",
+    "Preserve all attested readings and source identities.",
+    "Historical print witnesses should be preferred for lineage investigation, not automatically treated as canonical.",
+    "No witness correlation described here grants verified=true.",
+    "The 1923 Periyavaccan Pillai commentary edition is the next high-value adjudication target, especially for unit 101 / PM 604 / TVA 603."
+  ],
+  "observations": [
+    {
+      "unit_no": 2,
+      "pramana_pm_no": 505,
+      "tva_no": 504,
+      "tva_subid": 3751,
+      "loci": [
+        {
+          "project_madurai": "கள் அவிழ் பூங்கணை",
+          "tamil_virtual_academy": "கள் அவிழ் பூங்கணை",
+          "wikisource": "கள்ளவிழ் பூங்கணை",
+          "aradhanam": "கள்ளவிழ் பூங்கணை",
+          "note": "TVA aligns with PM at this disputed locus."
+        },
+        {
+          "project_madurai": "எனப்து ஓர்",
+          "tamil_virtual_academy": "எனப்து ஓர்",
+          "wikisource": "என்பதோர்",
+          "aradhanam": "என்பதோர்",
+          "note": "TVA preserves the same unusual PM form; possible shared textual/transcription lineage."
+        }
+      ]
+    },
+    {
+      "unit_no": 23,
+      "pramana_pm_no": 526,
+      "tva_no": 525,
+      "tva_subid": 3753,
+      "loci": [
+        {
+          "project_madurai": "வேண்டியது எல்லாம் தருவோம்",
+          "tamil_virtual_academy": "வேண்டியது எல்லாம் தருவோம்",
+          "wikisource": "நீ வேண்டிய தெல்லாம் தருவோம்",
+          "aradhanam": "நீ வேண்டியது எல்லாம் தருவோம்",
+          "note": "TVA and PM omit நீ; Wikisource/Aradhanam include it."
+        }
+      ]
+    },
+    {
+      "unit_no": 46,
+      "pramana_pm_no": 549,
+      "tva_no": 548,
+      "tva_subid": 3755,
+      "loci": [
+        {
+          "project_madurai": "வில்லிபுத்தூர் உறைவான் தன்",
+          "tamil_virtual_academy": "வில்லிபுத்தூர் உறைவான் தன்",
+          "wikisource": "வில்லிபுத் தூருறை வான்றன்",
+          "note": "TVA aligns strongly with PM underlying reading."
+        },
+        {
+          "project_madurai": "உன்னொடு தோழமைக் கொள்ளுவன்",
+          "tamil_virtual_academy": "உன்னொடு தோழமைக் கொள்ளுவன்",
+          "wikisource": "உன்னொடு தோழமை கொள்வன்",
+          "note": "TVA aligns with PM."
+        }
+      ]
+    },
+    {
+      "unit_no": 101,
+      "pramana_pm_no": 604,
+      "tva_no": 603,
+      "tva_subid": 3760,
+      "loci": [
+        {
+          "project_madurai": "ததைத்துக்கொண்டு",
+          "tamil_virtual_academy": "ததைத்துக்கொண்டு",
+          "wikisource": "ததர்த்திக்கொண்டு",
+          "aradhanam": "ததர்த்திக் கொண்டு",
+          "note": "Highest-value unresolved locus: two observed textual families split cleanly."
+        }
+      ]
+    },
+    {
+      "unit_no": 106,
+      "pramana_pm_no": 609,
+      "tva_no": 608,
+      "tva_subid": 3761,
+      "loci": [
+        {
+          "project_madurai": "எம் கோல்-வளையால்",
+          "tamil_virtual_academy": "எம் கோல்-வளையால்",
+          "wikisource": "எங்கோல் வளையால்",
+          "aradhanam": "எங்கோல் வளையால்",
+          "note": "Likely sandhi/assimilation difference, but family split is observable."
+        }
+      ]
+    },
+    {
+      "unit_no": 115,
+      "pramana_pm_no": 618,
+      "tva_no": 617,
+      "tva_subid": 3762,
+      "loci": [
+        {
+          "project_madurai": "நாணி இனி ஓர் கருமம் இல்லை",
+          "tamil_virtual_academy": "நாணி இனி ஓர் கருமம் இல்லை",
+          "wikisource": "நாணி யினியோர் கருமமில்லை",
+          "note": "Predominantly segmentation/sandhi."
+        },
+        {
+          "project_madurai": "மாயனைக் காணிற் தலைமறியும்",
+          "tamil_virtual_academy": "மாயனைக் காணிற் தலைமறியும்",
+          "wikisource": "மாயனைக் காணில் தலைமறியும்",
+          "note": "Morphological locus; TVA aligns with PM."
+        }
+      ]
+    },
+    {
+      "unit_no": 127,
+      "pramana_pm_no": 630,
+      "tva_no": 629,
+      "tva_subid": 3763,
+      "loci": [
+        {
+          "project_madurai": "இளைப்பை நீக்கீரே",
+          "tamil_virtual_academy": "இளைப்பை நீக்கீரே",
+          "wikisource": "யிளைப்பை நீக்கிரே",
+          "aradhanam": "இளைப்பை நீக்கீரே",
+          "note": "TVA and Aradhanam support PM; Wikisource is an isolated candidate error/form here."
+        }
+      ]
+    },
+    {
+      "unit_no": 138,
+      "pramana_pm_no": 641,
+      "tva_no": 640,
+      "tva_subid": 3764,
+      "loci": [
+        {
+          "project_madurai": "வலையிற் பிழைத்த பன்றி போல்",
+          "tamil_virtual_academy": "வலையிற் பிழைத்த பன்றி போல்",
+          "wikisource": "வலையில் பிழைத்த பன்றிபோல்",
+          "aradhanam": "வலையில் பிழைத்த பன்றி போல்",
+          "note": "TVA aligns with PM at locative form."
+        },
+        {
+          "project_madurai": "பீதக-ஆடை உடை தாழ",
+          "tamil_virtual_academy": "பீதக-ஆடை உடை தாழ",
+          "wikisource": "பீதக வாடை யுடைதாழப்",
+          "aradhanam": "பீதக ஆடை உடை தாழ",
+          "note": "TVA/Aradhanam support PM underlying segmentation."
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "tva_subid_base": "https://www.tamilvu.org/slet/l4210/l4210son.jsp?subid={subid}",
+    "tdl_1923_metadata": "https://www.tamildigitallibrary.in/book-detail?id=jZY9lup2kZl6TuXGlZQdjZY6kuQ1",
+    "tdl_catalog_id": "TVA_BOK_0056477"
+  }
+}
