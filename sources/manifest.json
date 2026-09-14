@@ -457,10 +457,10 @@
     {
       "key": "kamakoti-dk-v1-index",
       "url": "https://www.kamakoti.org/tamil/part1index.htm",
-      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v1_index.html",
-      "covers": "Deivathin Kural Volume 1 official Kanchi Kamakoti digital index",
-      "terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
-      "status": "verification-only-rights-restricted",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1index.htm",
+      "covers": "Official Kanchi Deivathin Kural Volume 1 index and table of contents",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
       "expected_sha256": "90c7648de7e87e05931b4e9f1c0bd709f053a7951ecfdb583b61991f4108a214",
       "expected_bytes": 145502
     },
@@ -671,6 +671,1756 @@
       "status": "contemporary-review-acquisition-lead",
       "expected_sha256": "1cea734c3ae92adceafc47c53e1f4f23ab975cf51c5209fe4b042f74f048ca5a",
       "expected_bytes": 30359
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural1",
+      "url": "https://www.kamakoti.org/tamil/part1kural1.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural1.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 1: விநாயகர்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "97a2a7d2a6a3178aff46d6486425e17f724dd4caa09fc1786a991c2a36e1be98",
+      "expected_bytes": 70029
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural2",
+      "url": "https://www.kamakoti.org/tamil/part1kural2.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural2.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 2: தத்துவ மயமான விநாயகர்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "ef890342f143b384f1c2527e9238bc7eaf744c3de77a3c268d75091b743308ed",
+      "expected_bytes": 78418
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural3",
+      "url": "https://www.kamakoti.org/tamil/part1kural3.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural3.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 3: ஸ்வாமி நாமா? இல்லை என்றால்?",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "c663f5a876c89e81f5fd3b70c058faa45a4e50c88051d964dcc5994e0084bddf",
+      "expected_bytes": 70445
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural4",
+      "url": "https://www.kamakoti.org/tamil/part1kural4.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural4.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 4: அத்வைதம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "751d4e4f506bb1fd372695bcc1779ca80cf448738ca129fd4ffbfba98e0d8dbd",
+      "expected_bytes": 85574
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural5",
+      "url": "https://www.kamakoti.org/tamil/part1kural5.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural5.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 5: அதுவேதான் இது!",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "ec1307df7e6dd8d9aad19493d1afade1fcf8479b00a15041f585ecb8e23f06f7",
+      "expected_bytes": 71079
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural6",
+      "url": "https://www.kamakoti.org/tamil/part1kural6.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural6.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 6: ஸ்வாமி எதற்கு? அத்வைதம் அமைதிக்கே.",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "517cab568db40b21f2c49f7af689339f8f061f493df7085ec6c6dca159183a3b",
+      "expected_bytes": 99689
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural7",
+      "url": "https://www.kamakoti.org/tamil/part1kural7.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural7.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 7: அத்வைதமும் அணு விஞ்ஞானமும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "0df130fe2ef95cd85fc8f37ee6304cad240a87a3ab5dcac385960da441615280",
+      "expected_bytes": 71453
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural8",
+      "url": "https://www.kamakoti.org/tamil/part1kural8.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural8.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 8: அழுக்கு நீங்க வழி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "4667de16e3a28a469e8703f55c3fc248dfe27c541b8fc401f933131610399c02",
+      "expected_bytes": 68531
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural9",
+      "url": "https://www.kamakoti.org/tamil/part1kural9.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural9.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 9: கண்ணமும் அகண்டமும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "77880b03814f427d46d34a58fb064dcce79bdd81f71dbfa254882b47f8ae477b",
+      "expected_bytes": 68598
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural10",
+      "url": "https://www.kamakoti.org/tamil/part1kural10.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural10.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 10: நிறைந்த ஆனந்தம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "0c3e57fb47cfcea01c127146fc8b29398e12919edbeb1a7db709167c73a7324c",
+      "expected_bytes": 69744
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural11",
+      "url": "https://www.kamakoti.org/tamil/part1kural11.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural11.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 11: கண்ணன் சொன்னான், கம்பனும் சொன்னான்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "39709a2250ff5b8a9b9e3644e5e344007cfb0a2dc09d1ea6379a30a928563ae7",
+      "expected_bytes": 75513
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural12",
+      "url": "https://www.kamakoti.org/tamil/part1kural12.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural12.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 12: ஆனந்தம் எங்கே",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "4bf28f424667a000726a487dd9476eda8f0b1607b284a4cda75f606f7a6603a0",
+      "expected_bytes": 76517
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural13",
+      "url": "https://www.kamakoti.org/tamil/part1kural13.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural13.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 13: எதிர்கொண்டு அழைப்பான்?",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "5916f5813aa7129bab26b940a2d096c3235903e57c71d392dc5e3e729326c3a5",
+      "expected_bytes": 70682
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural14",
+      "url": "https://www.kamakoti.org/tamil/part1kural14.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural14.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 14: மாயை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "0e533e3303ae54e55364fa5fd886ff4d4333ec3565d18378778e8b1066083a06",
+      "expected_bytes": 71186
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural15",
+      "url": "https://www.kamakoti.org/tamil/part1kural15.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural15.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 15: அகமும் புறமும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "9b205263344e5198583901164724868cb317e79cef4063112410aff85b544042",
+      "expected_bytes": 69734
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural16",
+      "url": "https://www.kamakoti.org/tamil/part1kural16.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural16.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 16: துக்கச் சுமை குறைய வழி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "4c36f7f4c982554688f4f4f26e89cdb4cc272d27733865f3dbbead8df18cd915",
+      "expected_bytes": 70364
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural17",
+      "url": "https://www.kamakoti.org/tamil/part1kural17.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural17.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 17: யோகி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "8f489b3e2771bf18421dce2877642df5f96885f2c85f8a455a9287400e5f8caf",
+      "expected_bytes": 73643
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural18",
+      "url": "https://www.kamakoti.org/tamil/part1kural18.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural18.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 18: துக்க பரிகாரம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "2c66a63ee68a5503894e4a05646df171d49800dc9998ee598d46727724ae13d7",
+      "expected_bytes": 72968
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural19",
+      "url": "https://www.kamakoti.org/tamil/part1kural19.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural19.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 19: த்வைதம் ./. பௌத்தம் = அத்வைதம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "1af0e416ba78104e652ba95f02117ec9221a6e785187b8d1a4048b30f0917155",
+      "expected_bytes": 75712
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural20",
+      "url": "https://www.kamakoti.org/tamil/part1kural20.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural20.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 20: ஆசார்யர்களின் ஆக்ஞை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "bdaaab6dee25f8988b6708646b19484e39579a86b04f63b7b41999466ad0b0bc",
+      "expected_bytes": 75737
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural21",
+      "url": "https://www.kamakoti.org/tamil/part1kural21.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural21.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 21: தர்மமே தலைக்காக்கும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "2787d39293ff12eb4568e1e0fbc73b7453b862d4b630511dfafa7d18f15336fb",
+      "expected_bytes": 88932
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural22",
+      "url": "https://www.kamakoti.org/tamil/part1kural22.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural22.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 22: பாப புண்ணியங்கள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "f7c3aa84d8a075066fc54bf04676ad3bfd7c326a9ac38793263e67b9b92222c6",
+      "expected_bytes": 77957
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural23",
+      "url": "https://www.kamakoti.org/tamil/part1kural23.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural23.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 23: மதத்தின் பயன்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "23485243213fe8bc23400365d8515ea163202cf5be73e3195e6acb2c20e08636",
+      "expected_bytes": 81312
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural24",
+      "url": "https://www.kamakoti.org/tamil/part1kural24.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural24.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 24: மனிதனும் மிருகமும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "868cbd639c2c14bd7ce02ddadffa1580012ec7d598e04e9b61dc1fc7e948d3ac",
+      "expected_bytes": 73008
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural25",
+      "url": "https://www.kamakoti.org/tamil/part1kural25.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural25.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 25: சகல மதங்களுக்கும் பொதுவான பக்தி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "3dbd0bf6a222a039dd57ca7c314c65861bf8195cfb2f8026bbc0ef772ba1be14",
+      "expected_bytes": 72999
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural26",
+      "url": "https://www.kamakoti.org/tamil/part1kural26.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural26.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 26: மதங்களின் ஒற்றுமை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "1016cfa0b68d24f0a9c9599124e695ede64fdb7b56a06514440217fec6beff7a",
+      "expected_bytes": 76018
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural27",
+      "url": "https://www.kamakoti.org/tamil/part1kural27.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural27.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 27: மதபோதகரின் யோக்கியதாம்சங்கள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b906a3818c01b3916b488c1e12828be60f2c684b33729efdea74a0cff6fb6172",
+      "expected_bytes": 85449
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural28",
+      "url": "https://www.kamakoti.org/tamil/part1kural28.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural28.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 28: பெயரில்லாத மதம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "88798d345a2348e9bfd12ee0857fb7ec34c664509ffc21f670d0e1c01249c8f7",
+      "expected_bytes": 76942
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural29",
+      "url": "https://www.kamakoti.org/tamil/part1kural29.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural29.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 29: உலகம் பரவிய மதம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "a0c61b5a1511159e250b85da4e99a3eb3168d54a17a6f8db397c60e6d3c0e1b2",
+      "expected_bytes": 97672
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural30",
+      "url": "https://www.kamakoti.org/tamil/part1kural30.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural30.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 30: நம் மதத்தின் தனி அம்சங்கள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "9a1ca0ebdcddb24f3c541672c6d5c680b2ecb20e1fe05051e06deba3e5d81504",
+      "expected_bytes": 118305
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural31",
+      "url": "https://www.kamakoti.org/tamil/part1kural31.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural31.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 31: தருமங்களின் பாகுபாடு",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "56a8fd394a0b6fedc851b6fb4bd16516eb892991f0880dbbecec04e703f79e15",
+      "expected_bytes": 74374
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural32",
+      "url": "https://www.kamakoti.org/tamil/part1kural32.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural32.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 32: வர்ண தர்மம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "d114ca2a1d109158cc0a939e90144daae52ada924cf734c35d2f93cd7205c4b6",
+      "expected_bytes": 88709
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural33",
+      "url": "https://www.kamakoti.org/tamil/part1kural33.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural33.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 33: வேற்றுமையில் ஒற்றுமை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "8550f753cb71c69a5ea9eeae4606ded53becf2bd45b09524de862ac0cda3221b",
+      "expected_bytes": 76404
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural34",
+      "url": "https://www.kamakoti.org/tamil/part1kural34.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural34.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 34: காரியத்தில் பேதமும் மனோ பேதமும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b6ccea594bb55256f68820362698f1c24eb85b4cd45bb8ca13a7dd0036ed52dc",
+      "expected_bytes": 90827
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural35",
+      "url": "https://www.kamakoti.org/tamil/part1kural35.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural35.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 35: இங்கு மட்டும் இருப்பானேன்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "8f310bda503f071c5b980acdc7afd4811d4dcd9ac292b2db3cd3b33137e27993",
+      "expected_bytes": 96934
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural36",
+      "url": "https://www.kamakoti.org/tamil/part1kural36.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural36.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 36: பொருப்பாள் யார் ? பரிகாரம் என்ன ?",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "aaf3a10fd155db010323cccbeb3ce65323fad247cd0e6bf8815d4dea9aa0a630",
+      "expected_bytes": 121161
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural37",
+      "url": "https://www.kamakoti.org/tamil/part1kural37.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural37.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 37: அதம பட்சப் பரிகாரம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "fa860ccee818b9d26e616a599ea5c6c92e65d93d8018852572c2883b5460276f",
+      "expected_bytes": 79939
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural38",
+      "url": "https://www.kamakoti.org/tamil/part1kural38.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural38.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 38: வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "082fbcb800bd5174cb745c1120ce11a47755a6ec9958edb7cbcd86d0054c2de4",
+      "expected_bytes": 174997
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural39",
+      "url": "https://www.kamakoti.org/tamil/part1kural39.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural39.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 39: என் காரியம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "ed7d1d776770eb4ff86e314691e116bcd83e12908e89f303661c0c8280efd42d",
+      "expected_bytes": 126305
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural40",
+      "url": "https://www.kamakoti.org/tamil/part1kural40.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural40.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 40: நாகரீக வியாதிக்கு மருந்து",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "cc7af8331772596200603d2c2afc93cc9aabf3b32dee8f01c18c2cad2ed53b98",
+      "expected_bytes": 73681
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural41",
+      "url": "https://www.kamakoti.org/tamil/part1kural41.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural41.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 41: சமயமும் சமூகமும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "017502b0e9ffc86962f58e87898f71516372afde76bd0d547b85b1f8c6dc9b66",
+      "expected_bytes": 70150
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural42",
+      "url": "https://www.kamakoti.org/tamil/part1kural42.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural42.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 42: தலைவலிக்குப் பரிகாரம் சிரச்சேதமா ?",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "3c8148239f5afc5b22a4d0cbf377bda3c5b3e4e0b6deeb458254c96a6ce78e56",
+      "expected_bytes": 97758
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural43",
+      "url": "https://www.kamakoti.org/tamil/part1kural43.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural43.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 43: மூலமாகிய வேதம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "0e127e93b1cc7334cbd632d269e4b4c938b67f755f116c22c622bd4154e789f3",
+      "expected_bytes": 78421
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural44",
+      "url": "https://www.kamakoti.org/tamil/part1kural44.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural44.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 44: வைதிகமும் தமிழும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "cbc90d3d3cb937ef6589ee46ce3b49d25dc345b80e045318e5c8655ef1ab5835",
+      "expected_bytes": 75744
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural45",
+      "url": "https://www.kamakoti.org/tamil/part1kural45.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural45.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 45: வேதத்தின் மூல வடிவம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "a7b89dbb90a43f058222be3713a5bf41100218427423810d95bd1b54b7f5e2de",
+      "expected_bytes": 72351
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural46",
+      "url": "https://www.kamakoti.org/tamil/part1kural46.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural46.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 46: சாஸ்திரமா? மனசாட்சியா?",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "978019798f8055d458c36aeb54bb5439f0619ef80f804fe61e0834c3f0dff272",
+      "expected_bytes": 69715
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural47",
+      "url": "https://www.kamakoti.org/tamil/part1kural47.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural47.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 47: சநாதன தர்மமே சங்கரர் தரும் நெறி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "2b4b07d71264537bf11d246d9f31e811492c7413434b6e25978ccb6a81e51529",
+      "expected_bytes": 71904
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural48",
+      "url": "https://www.kamakoti.org/tamil/part1kural48.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural48.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 48: சாமானிய தர்மங்கள் அனைவருக்கும் பொதுவானவை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "9d09ed88b9f1ea8317faf0f3d6173504adf6879b297985e71a2269d8895ae030",
+      "expected_bytes": 74081
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural49",
+      "url": "https://www.kamakoti.org/tamil/part1kural49.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural49.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 49: அஹிம்ஸை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b18a971d6ccf4aad62e417d673850d1688c41e51916fa6d89c5f058d91100585",
+      "expected_bytes": 80819
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural50",
+      "url": "https://www.kamakoti.org/tamil/part1kural50.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural50.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 50: சத்தியம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "cdfcb6e646e0bcab7a9384f7073c5e034a818938bdebfe06d1b86fee2fc5f800",
+      "expected_bytes": 77780
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural51",
+      "url": "https://www.kamakoti.org/tamil/part1kural51.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural51.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 51: எள்ளும் தண்ணீரும் எங்கே போயின?",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "bd0a898c240dbfc7f87f54fca381a9a68678db6b4741a117bbfd767882a31c7c",
+      "expected_bytes": 76463
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural52",
+      "url": "https://www.kamakoti.org/tamil/part1kural52.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural52.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 52: பூஜை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b89d850abc20dc6d944aecb806db4a3b1dff3862268785d49f930784ad72b757",
+      "expected_bytes": 74195
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural53",
+      "url": "https://www.kamakoti.org/tamil/part1kural53.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural53.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 53: பரோபகாரம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "6f3b839f09dcc9cc83abda30a10f5c9fb15bd03e7d584c9455bcef7541828e64",
+      "expected_bytes": 73694
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural54",
+      "url": "https://www.kamakoti.org/tamil/part1kural54.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural54.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 54: சேவையே மேலான பாக்கியம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "2da1c4f4bd62459bcc9a516cebe2c2d76b8908fd89847882c13615b017aade32",
+      "expected_bytes": 73319
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural55",
+      "url": "https://www.kamakoti.org/tamil/part1kural55.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural55.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 55: எல்லா உயிரளின் திருப்திக்காக",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "73f5cc8d7ea4dc01dcc891f4305cf9c1e9cdc740951f9bc2638c5c8f7e825079",
+      "expected_bytes": 79576
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural56",
+      "url": "https://www.kamakoti.org/tamil/part1kural56.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural56.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 56: சித்த சுத்திக்குச் சில சின்ன விஷயங்கள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "7927a15bea680e0c0bed1a30054848d936d5e37818de4e721ab6a812d6d3a5b7",
+      "expected_bytes": 72614
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural57",
+      "url": "https://www.kamakoti.org/tamil/part1kural57.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural57.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 57: குற்றமும் குணமும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "651a7a14b4c2aae7a850c5b8e6d9c098688d32e0b5ea0f7176ed09bdc16ea884",
+      "expected_bytes": 71556
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural58",
+      "url": "https://www.kamakoti.org/tamil/part1kural58.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural58.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 58: கோபம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "ced8be3470886d518d760c0818db3b19add4ffc7570a59d566d587ef17c4cfea",
+      "expected_bytes": 70861
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural59",
+      "url": "https://www.kamakoti.org/tamil/part1kural59.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural59.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 59: கோபம் கொள்ளத் தகுதி ஏது",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "e787b20c6e879ada06e0168e93eb5f0ab2e83b76e99be6f658d3044feea30229",
+      "expected_bytes": 71082
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural60",
+      "url": "https://www.kamakoti.org/tamil/part1kural60.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural60.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 60: அன்பும் துன்பமும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "8a10aacb9003f1c48de9e5eb2a0ff179cdfd2871bfc1df7959b2669aac6d928e",
+      "expected_bytes": 70649
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural61",
+      "url": "https://www.kamakoti.org/tamil/part1kural61.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural61.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 61: அன்பu",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "62fc04c2726fee68fbca4f764b73814170ae4ef676f862818a647cb3975cdcb5",
+      "expected_bytes": 69594
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural62",
+      "url": "https://www.kamakoti.org/tamil/part1kural62.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural62.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 62: எது சுயராஜ்யம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "24dcc0b3136a53775aa741b49ef3d6dd0a6d943edfefde3d6059c110c3e78c10",
+      "expected_bytes": 68399
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural63",
+      "url": "https://www.kamakoti.org/tamil/part1kural63.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural63.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 63: அறமும் அன்பும் அரசாங்கமும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "97500dd4f5218479459d34e161938abc55ebc3e3cde38287ef92beef97adf1ce",
+      "expected_bytes": 70058
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural64",
+      "url": "https://www.kamakoti.org/tamil/part1kural64.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural64.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 64: குற்றத்தைக் குறைக்கும் வழி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "400668291710e3741662da112465d1df46203e1890f56b5eb08fe9f873b91434",
+      "expected_bytes": 71697
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural65",
+      "url": "https://www.kamakoti.org/tamil/part1kural65.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural65.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 65: உண்மைக் கல்வி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "e163b1cdac3402784ae42889b12178431f5d04a4204c87ff5a545053d9735b3b",
+      "expected_bytes": 72229
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural66",
+      "url": "https://www.kamakoti.org/tamil/part1kural66.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural66.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 66: கல்வி முறையின் கோளாறு",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "48952638190e482d48de445f26bef3147dbba9915f4d3a2608e8cd724cc4dfbd",
+      "expected_bytes": 71544
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural67",
+      "url": "https://www.kamakoti.org/tamil/part1kural67.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural67.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 67: வாழ்க்கைத் தரம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "8efa50f6a3205fd3112a908933a7a21ca0b8148f8aa7738bf6cda9e4a8a965e6",
+      "expected_bytes": 71885
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural68",
+      "url": "https://www.kamakoti.org/tamil/part1kural68.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural68.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 68: எளிய வாழ்வு",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "d5e067d04286c7af81e1d2208f70d54b38e270b5c14a2f628e24671235871ec4",
+      "expected_bytes": 74620
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural69",
+      "url": "https://www.kamakoti.org/tamil/part1kural69.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural69.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 69: கணக்காயிருக்கணும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b25e6514cd7434166f1090d7493a91816d51b49097ea50a247f7263e8986d5c6",
+      "expected_bytes": 87901
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural70",
+      "url": "https://www.kamakoti.org/tamil/part1kural70.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural70.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 70: பணத்தை விட்டுக் குணத்தைக் கொள்க",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "24bdfdedf361f9ecd0d35681047b0493c1d2002fed74cf3c5114595244258c70",
+      "expected_bytes": 71641
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural71",
+      "url": "https://www.kamakoti.org/tamil/part1kural71.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural71.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 71: வரதக்ஷிணைப் பிரச்சனை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "833874d18bb4ad5791fc0b2a2e83129b82c00d7b832ecf7c308c00d614f7eef4",
+      "expected_bytes": 73944
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural72",
+      "url": "https://www.kamakoti.org/tamil/part1kural72.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural72.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 72: இளைஞர் கடமை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "cd1e9a3b5714cb9344745a9c2a72d89737fea6f26109ecf479bb3cfaa3b9a8bf",
+      "expected_bytes": 70157
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural73",
+      "url": "https://www.kamakoti.org/tamil/part1kural73.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural73.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 73: அஹிம்ஸா ஸோல்ஜர்கள் தேவை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "4a439b299f6b8dfb1d70b2eb7db1da16e46bda871ea45b669aabdba1b592924a",
+      "expected_bytes": 80693
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural74",
+      "url": "https://www.kamakoti.org/tamil/part1kural74.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural74.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 74: வையகம் துயர்தீர வழி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "da0b4e630a506cf86ca5342f3b0915668e23bfd432d0acc09496b0fce7860e5f",
+      "expected_bytes": 71807
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural75",
+      "url": "https://www.kamakoti.org/tamil/part1kural75.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural75.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 75: பண்பாட்டின் இதயஸ்தானம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "c3d852b993fe11994c60a30ae708e17f7b0137aef4c67212ee3dacfcb9c65475",
+      "expected_bytes": 72247
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural76",
+      "url": "https://www.kamakoti.org/tamil/part1kural76.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural76.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 76: ஸங்கீத லக்ஷியம் சாந்தமே",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "39c102219ef804528a6ffb4531c9348ba8f2fa067bca821fb7c07df13511defa",
+      "expected_bytes": 72521
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural77",
+      "url": "https://www.kamakoti.org/tamil/part1kural77.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural77.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 77: இசை வழியே ஈஸ்வரானுபவம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "dafe4c3ba596aa1f1a0219be0d5ed536d130a6aec50e1928be122cbde0bb827b",
+      "expected_bytes": 68722
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural78",
+      "url": "https://www.kamakoti.org/tamil/part1kural78.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural78.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 78: காந்தர்வ வேதம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "976733ed191ccff1ee11355989b2fc6b9748853fad09d5ee1aa811b98dfe865e",
+      "expected_bytes": 70372
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural79",
+      "url": "https://www.kamakoti.org/tamil/part1kural79.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural79.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 79: வாக்கின் பயன்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "c7386defd9087289b4954560a37db5eb584f89f435c422dab2393a82a7b56b58",
+      "expected_bytes": 72038
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural80",
+      "url": "https://www.kamakoti.org/tamil/part1kural80.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural80.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 80: சொல்லுக்கும் பொருளுக்கும் மூலம் இறைவனே",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b48b88a798c74e13fedcb1c278245de912d3797fa434a8495ea9b5ba8367ea3f",
+      "expected_bytes": 71641
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural81",
+      "url": "https://www.kamakoti.org/tamil/part1kural81.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural81.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 81: எழுத்தாளர் கடமை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "9669075887ff36c25684a288198882681fbc3caf18746841e1e985c989fa24e6",
+      "expected_bytes": 71252
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural82",
+      "url": "https://www.kamakoti.org/tamil/part1kural82.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural82.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 82: மஹா பாரதம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "1e250506461b7c9e9d606eac97fdd6fdbae4c5e9fdd9798201477a21e9c813a2",
+      "expected_bytes": 73724
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural83",
+      "url": "https://www.kamakoti.org/tamil/part1kural83.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural83.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 83: விஞ்ஞானமுமம் ஆன்ம நிறைவும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "29e0eaefc75de74a4c0bfa4dffc141298889adc962d70afdbcdd2da42141fe76",
+      "expected_bytes": 72945
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural84",
+      "url": "https://www.kamakoti.org/tamil/part1kural84.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural84.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 84: வருங்காலத்தவருக்கு வஞ்சனை செய்யலாமா ?",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b88f2eee4255259d2c3ec12e458c963c13dcb3de9ba918de028d33e8bb8370ae",
+      "expected_bytes": 71017
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural85",
+      "url": "https://www.kamakoti.org/tamil/part1kural85.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural85.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 85: தமிழ்நாட்டுப் பண்பின் பெருமை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "94e2df69c87a17f2a89676b91787c8a565ad6dc87c9797f726230e16617680a0",
+      "expected_bytes": 79243
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural87",
+      "url": "https://www.kamakoti.org/tamil/part1kural87.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural87.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 86: வெளியே கர்மம், உள்ளே தியானம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "da5a07920058a55d3187224e5a251bc470cce89e82e66a6c571e3d35626a8fb6",
+      "expected_bytes": 94125
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural88",
+      "url": "https://www.kamakoti.org/tamil/part1kural88.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural88.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 87: சீலம் உண்டாக வழி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "eae6e90e41d5aa95de89c27495398d6a2ae39cef681678d16eaa7cfd4bbd3107",
+      "expected_bytes": 71438
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural89",
+      "url": "https://www.kamakoti.org/tamil/part1kural89.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural89.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 88: ஸம்ஸாரே கிம் ஸாரம் ?",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "2980fa189bc955f7d0ccb6b3c0dcfe594780a8e6b8d14f03d7803252faab2f94",
+      "expected_bytes": 71519
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural90",
+      "url": "https://www.kamakoti.org/tamil/part1kural90.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural90.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 89: உள்ளும் புறமும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "d135aa95de45c4356e8430ecc7ef505ebcd94ec49aa4980f9b7b1ad26444d38a",
+      "expected_bytes": 68802
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural91",
+      "url": "https://www.kamakoti.org/tamil/part1kural91.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural91.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 90: சடங்குகள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b378b609f6d7e7e7c592d80e6aeb23b15d5bbaafa67d170cc00eb2f7099f4ca8",
+      "expected_bytes": 72052
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural92",
+      "url": "https://www.kamakoti.org/tamil/part1kural92.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural92.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 91: யோகத்தின் தொடக்கம் கர்மமே",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "0ce93d26250ece4d093488848bfe857395bd1dee4d7c10c16a99bbe7772ed3a6",
+      "expected_bytes": 71168
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural93",
+      "url": "https://www.kamakoti.org/tamil/part1kural93.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural93.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 92: கர்ம யோகம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "65fd544a555502b196e61b8c6398fe6600979102b341928fd8d17620bc9e3db3",
+      "expected_bytes": 72152
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall01",
+      "url": "https://www.kamakoti.org/tamil/part1kurall01.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall01.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 93: ஸ்வாமி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "4285c7c5e2fffc9423971d565c352bb7f9a157439c0cf1fba0105d9d71bcfc90",
+      "expected_bytes": 72519
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall02",
+      "url": "https://www.kamakoti.org/tamil/part1kurall02.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall02.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 94: ஸ்வாமி என்றால் என்ன ?",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "aed82860cf42cee829b9e764d0ad30e5a89efdb70ee79edda9c35e08c7950b76",
+      "expected_bytes": 68168
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall03",
+      "url": "https://www.kamakoti.org/tamil/part1kurall03.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall03.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 95: இயற்கை காட்டும் ஈஸ்வர தத்துவம்.",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "391546fa8f26327539436fcdad0b4f459f0f4c08de28150e5e940b7001853d7d",
+      "expected_bytes": 70619
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall04",
+      "url": "https://www.kamakoti.org/tamil/part1kurall04.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall04.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 96: கர்மமும் பக்தியும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "9099131e7a3bcc0d1bee9fdef4b1963411505a850f7c9edf37777f54c9a28c8d",
+      "expected_bytes": 71829
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall05",
+      "url": "https://www.kamakoti.org/tamil/part1kurall05.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall05.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 97: உருவமும் அருவமும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "3cb138245b820d86c49a3467288dd962ffaa4f7b57ad4b158752be9e82e74424",
+      "expected_bytes": 71066
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall06",
+      "url": "https://www.kamakoti.org/tamil/part1kurall06.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall06.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 98: ஈஸ்வரன்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "4d73b986e3325ad32b557af4eaaadad8f35ff1289da9fc6c28790291ebe5f768",
+      "expected_bytes": 70802
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall07",
+      "url": "https://www.kamakoti.org/tamil/part1kurall07.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall07.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 99: மூர்த்தி வழிபாடும் முற்றிய ஞானமும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "9b817a652d0ff5637d872f67b740f77ca46a78261c430689ec3e4f7590e6e681",
+      "expected_bytes": 72467
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall08",
+      "url": "https://www.kamakoti.org/tamil/part1kurall08.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall08.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 100: ஆலய வழிபாடு",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "0af3b2f88926c00c790223f23cce9f3960353b922c0d0d29e7ec8040e84a9d3c",
+      "expected_bytes": 71584
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall09",
+      "url": "https://www.kamakoti.org/tamil/part1kurall09.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall09.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 101: ஆலயங்களின் தூய்மை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "944ed11791971ce08538725e779aa8354182a599f5b5a53729f1adbb98510b42",
+      "expected_bytes": 74408
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall10",
+      "url": "https://www.kamakoti.org/tamil/part1kurall10.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall10.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 102: ஆலயமும் தெய்வீகக் கலைகளும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b9987f77fc477f7367f3378f193fcf48777d6666fe3b6602708ea3d31f222cd4",
+      "expected_bytes": 70589
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall11",
+      "url": "https://www.kamakoti.org/tamil/part1kurall11.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall11.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 103: ஆலயமும் ஆஸ்பத்திரியும்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "3192dd87332c2f4d0089ba02376215b30aa5ff264835564ea3890a907b6cfba5",
+      "expected_bytes": 71939
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall12",
+      "url": "https://www.kamakoti.org/tamil/part1kurall12.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall12.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 104: ஐம்புலன்கள் ஐந்து உபச்சாரங்கள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "51e5aa87ce8964460939e1a8529c5b96da556b2a56965cbcc4c2c947d1ce8072",
+      "expected_bytes": 70759
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall13",
+      "url": "https://www.kamakoti.org/tamil/part1kurall13.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall13.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 105: நாக மகிமை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "038f1f7c4349b1a967f4b662e9f53f3b474fd09251a9e518d73fa3c2eb600389",
+      "expected_bytes": 73925
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall14",
+      "url": "https://www.kamakoti.org/tamil/part1kurall14.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall14.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 106: நமஸ்காரம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "17a0924a5ee26418d31b769fbe018fd1845298e859f1bf75fa31bf2ad4cab381",
+      "expected_bytes": 68957
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall15",
+      "url": "https://www.kamakoti.org/tamil/part1kurall15.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall15.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 107: பக்தி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "30dc44f6302153d7c7aeddc8c1fd77e36011860f6a5f52d983c1de1052b2f7a8",
+      "expected_bytes": 73093
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall16",
+      "url": "https://www.kamakoti.org/tamil/part1kurall16.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall16.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 108: பக்தி செய்வது எதற்காக ?",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "54a1eed7b9109eff8b5147cff86e28a6a8efe585cef35ecfa9c4761ae8b12b60",
+      "expected_bytes": 74978
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall17",
+      "url": "https://www.kamakoti.org/tamil/part1kurall17.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall17.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 109: காரணமில்லாத பக்தி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b0191c21727e3026417bd67ccdf2d231b96b46c35bf9217d2b91c3db088f3c6c",
+      "expected_bytes": 72708
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall18",
+      "url": "https://www.kamakoti.org/tamil/part1kurall18.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall18.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 110: முக்திக்கு முந்தைய நிலையில் பக்தி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "653d6a5d60fd06eb24c92480ec4e3be5fd2122db124b7d6fe676b61a02097cd8",
+      "expected_bytes": 70368
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall19",
+      "url": "https://www.kamakoti.org/tamil/part1kurall19.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall19.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 111: \"என்னையே எனக்குக் கொடு\"",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "5df0875036a1d4372e059c5d4308d42d53ea8ee272bd535d03d0cb42cf534d49",
+      "expected_bytes": 70405
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall20",
+      "url": "https://www.kamakoti.org/tamil/part1kurall20.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall20.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 112: பகவத்பாதர் தரும் பக்தி லட்சணம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "fcd1d6b1d75d7912cc91680cda811a565493572830751f4a3b858a51cf44e0d5",
+      "expected_bytes": 72178
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall21",
+      "url": "https://www.kamakoti.org/tamil/part1kurall21.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall21.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 113: இஷ்ட தேவதை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "7a0ef9724e0297d3cd033797dfbcdc4695e2ff4790e23020265e49047deaadf9",
+      "expected_bytes": 74908
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall22",
+      "url": "https://www.kamakoti.org/tamil/part1kurall22.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall22.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 114: சம்பு சங்கரனார்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "c00da61d18ea90868d1d3d5d625be5c058fb0b23972b32d531e0f72865c07fcf",
+      "expected_bytes": 89247
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall23",
+      "url": "https://www.kamakoti.org/tamil/part1kurall23.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall23.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 115: மனிதப் பிறவியும் வேண்டுவதே",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "f694828c6f38c36c7d5b21d75444b38721cf68e7e553b2fa9a22b91b7d75cbe0",
+      "expected_bytes": 75582
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall24",
+      "url": "https://www.kamakoti.org/tamil/part1kurall24.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall24.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 116: நம் தருமதத்தில் மூல புருஷர்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "16a3ac72fdcf76546dba13557f14b2c24daee9caa5370cbf5d659d4bfda1539c",
+      "expected_bytes": 88255
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall25",
+      "url": "https://www.kamakoti.org/tamil/part1kurall25.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall25.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 117: கண்ணன் பிறந்த தினம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "9b9c47a26716a42549660540ece373743eab679ad6ed58316accf995db9854f1",
+      "expected_bytes": 72945
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall26",
+      "url": "https://www.kamakoti.org/tamil/part1kurall26.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall26.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 118: ஸ்ரீ ராமன்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "1e90adc36e76f13f887dbc2d0abba07b454da9e2ebc53872273d6a16d4fd20a4",
+      "expected_bytes": 72180
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall27",
+      "url": "https://www.kamakoti.org/tamil/part1kurall27.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall27.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 119: ஸ்ரீராம நவமி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "09953eb8c5e9e0e1cfc717d6d98b6dbcd8809d9c08c85356a9513971324fcfae",
+      "expected_bytes": 69048
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall28",
+      "url": "https://www.kamakoti.org/tamil/part1kurall28.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall28.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 120: ஐயப்பன்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "7509361d3b60c1f762a396cfdf2a8ae8a2d80c4c75048334c82b98c351f0a1e2",
+      "expected_bytes": 74652
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall29",
+      "url": "https://www.kamakoti.org/tamil/part1kurall29.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall29.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 121: ஸ்வாமி என்றால் குமாரஸ்வாமியே",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "32cef76d7cdaf68b54e906fcdae71c70cbb856472df7cb5143a244c6b10c6519",
+      "expected_bytes": 111275
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall30",
+      "url": "https://www.kamakoti.org/tamil/part1kurall30.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall30.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 122: அருள் மின்னல்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "49406dc2fa6f08cc0e9b5bd5b14d410f0415d9d2239cc016d376c108f5c9e426",
+      "expected_bytes": 73730
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall31",
+      "url": "https://www.kamakoti.org/tamil/part1kurall31.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall31.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 123: குமாரன்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "cce52c6df1b1ea311ef6caac025114aa8176dcb6088326a6bd2fb679960bacc8",
+      "expected_bytes": 73327
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall32",
+      "url": "https://www.kamakoti.org/tamil/part1kurall32.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall32.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 124: சிவ சக்தியின் ஐக்கிய ஸ்தானம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "28ce01ad29b07d25a15b02f2c3f6acba0f6afcde148e87e2e1cc23ff53ede9c7",
+      "expected_bytes": 76306
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall33",
+      "url": "https://www.kamakoti.org/tamil/part1kurall33.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall33.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 125: தந்தையை மிஞ்சிய தனயன்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b5646da16e3abe44517bdff00139fcbe3b915bb2bfc5a5d62862385ad3876d4d",
+      "expected_bytes": 75045
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall34",
+      "url": "https://www.kamakoti.org/tamil/part1kurall34.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall34.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 126: வேத நெறியை வாழ்விப்பவன்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "0f52bfcf50fc0c0c8a17abb5959fb632a514a60036bb6bf0be9d223787f16d17",
+      "expected_bytes": 80006
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall35",
+      "url": "https://www.kamakoti.org/tamil/part1kurall35.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall35.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 127: முருகனின் தமிழ்நாட்டு அவதாரம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "68ba07642f84af9ec1770dc2602a957aea8f5d05b0b719b00a942fff1b5ebce7",
+      "expected_bytes": 78894
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall36",
+      "url": "https://www.kamakoti.org/tamil/part1kurall36.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall36.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 128: முருகனின் வடநாட்டு அவதாரம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "e935b6a21662cfe822bce945ec2debb84290dd0affa533b952b3b274db1be2b9",
+      "expected_bytes": 122313
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall37",
+      "url": "https://www.kamakoti.org/tamil/part1kurall37.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall37.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 129: அக்கினியில் அடங்கிய அவதார புருஷர்கள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "de3df55268d7017b1c8477df5302cc5f781c191eee2cc9c079d698a46291b932",
+      "expected_bytes": 75319
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall38",
+      "url": "https://www.kamakoti.org/tamil/part1kurall38.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall38.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 130: முருகனின் பூர்வ அவதாரம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "2a825fa0f9bfda38367ece4321c6c042ace199b882fbb91103b00da2fcebfab6",
+      "expected_bytes": 102275
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall39",
+      "url": "https://www.kamakoti.org/tamil/part1kurall39.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall39.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 131: சகல மார்க்க நிறைவான சரவணபவன்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "230fee28951d65018491d02e86f1a5fcc42c4a5c130149b0e05c447abdeaae4c",
+      "expected_bytes": 85879
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall40",
+      "url": "https://www.kamakoti.org/tamil/part1kurall40.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall40.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 132: உம்மாச்சி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "c477c73b6df1a058ea024636db30455194a374c12adfd087a1126a13ffa11f73",
+      "expected_bytes": 70297
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall41",
+      "url": "https://www.kamakoti.org/tamil/part1kurall41.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall41.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 133: பசுபதி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "23ce3f84910faefd636ffd33621d26e46d69d5ed0f0fe33cb833cb74c02456db",
+      "expected_bytes": 88458
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall42",
+      "url": "https://www.kamakoti.org/tamil/part1kurall42.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall42.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 134: தேவர்கள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "ab5f09269c938bedb055f25aac26047bc268e72570283d7bd7a8d58bcd2172b8",
+      "expected_bytes": 90486
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall43",
+      "url": "https://www.kamakoti.org/tamil/part1kurall43.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall43.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 135: சிவராத்ரி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "95bfdaef1d85311731b1ddc39da12013eae4a3c5441e28df602efbf2114967fe",
+      "expected_bytes": 78700
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall44",
+      "url": "https://www.kamakoti.org/tamil/part1kurall44.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall44.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 136: சிவ, விஷ்ணு அபேதம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "8be80f64166f41e52d3dce55980408efdd5b3cae2de27ec3c32535b741314a54",
+      "expected_bytes": 72946
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall46",
+      "url": "https://www.kamakoti.org/tamil/part1kurall46.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall46.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 137: சிவ மயம் ; ஸர்வம் விஷ்ணுமயம் ஜகத்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "f1cf0e1ca5721f9547d50f728200f2047c459d4837460263a31c2ed9747c01f3",
+      "expected_bytes": 70704
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall47",
+      "url": "https://www.kamakoti.org/tamil/part1kurall47.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall47.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 138: அரனை மறவேல் ; திருமாலுக்கு அடிமை செய்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "34da8f027d2ffad686dd6c801dc4670d16a71dbd0abcfe50bd89ac2b6b1b2d7b",
+      "expected_bytes": 70647
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall48",
+      "url": "https://www.kamakoti.org/tamil/part1kurall48.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall48.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 139: காலையில் திருமால், மாலையில் மஹாதேவன்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b117e8ea303b271894a166c34ed4cfa07c2b1efbabc782be7c9601ebe852c6f8",
+      "expected_bytes": 70395
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall49",
+      "url": "https://www.kamakoti.org/tamil/part1kurall49.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall49.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 140: ஒற்றும் உணர்த்தும் உத்தமத் தலங்கள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "fa4d5d135aab35ec83673b61b3b1566ea29e94045c096c3726b03beca4e5e076",
+      "expected_bytes": 70563
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall50",
+      "url": "https://www.kamakoti.org/tamil/part1kurall50.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall50.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 141: இரண்டு ராஜாக்கள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "76a88cf1fee3d52aba2bf941d78513cb0d3da3fc80d80367acdc336a3b91513e",
+      "expected_bytes": 71840
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall51",
+      "url": "https://www.kamakoti.org/tamil/part1kurall51.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall51.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 142: \" பகவான் யார் ?\" பகவத் பாதர் பதில்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "5bf8f8522a95df67afc7a1d676fc291ddf07ae72e02beda3a91316ee9977c08f",
+      "expected_bytes": 75382
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall52",
+      "url": "https://www.kamakoti.org/tamil/part1kurall52.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall52.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 143: விபூதி, திருமண்ணின் மகிமை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "37d5b5b7694f15e8f46e99be8587446a8fbaaa0892cf1ef46ccc60b0d1606c94",
+      "expected_bytes": 72691
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall53",
+      "url": "https://www.kamakoti.org/tamil/part1kurall53.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall53.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 144: சிறுவர் இருவரின் சிறப்பு வாக்கு",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "709e40d8502c5e281646cebfd9dbe3f549decd7169799ab910d7b86679002343",
+      "expected_bytes": 75899
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall54",
+      "url": "https://www.kamakoti.org/tamil/part1kurall54.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall54.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 145: ஸரஸ்வதி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b50034ef620d2f837ee907a657665c387b1779e5d68fd9b3a532a0e64a0291f9",
+      "expected_bytes": 91688
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall55",
+      "url": "https://www.kamakoti.org/tamil/part1kurall55.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall55.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 146: மஹாலக்ஷ்மி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "087072d8865bb036b6e185cd7ec72a3e75c8effd11e4fdae4084274fcf9aac13",
+      "expected_bytes": 69174
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall56",
+      "url": "https://www.kamakoti.org/tamil/part1kurall56.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall56.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 147: பராசக்தியே மஹாலக்ஷ்மி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "0f40300ee512088327d664a07c70fe61b4b51ec8083cc7a5e3a5ab07f1109002",
+      "expected_bytes": 68950
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall57",
+      "url": "https://www.kamakoti.org/tamil/part1kurall57.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall57.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 148: மஹான்களுக்கு அருளிய மஹாலக்ஷ்மி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "53e72748336fd777b0e17a25675dffcf2e88abfb4cc065c2962c4467be2ecd7f",
+      "expected_bytes": 105580
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall58",
+      "url": "https://www.kamakoti.org/tamil/part1kurall58.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall58.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 149: பகியே பெரிய லக்ஷ்மி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "6b791088ce4b12785a77457f5029c0f69c0bc956cf187483afbf5f187ba4531a",
+      "expected_bytes": 71174
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall59",
+      "url": "https://www.kamakoti.org/tamil/part1kurall59.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall59.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 150: நவராத்திரி நாயகியர்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "728799243fd2a8c61382b7926850ab4a3d0678e4d1823ac27a8087420ed16545",
+      "expected_bytes": 71281
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall60",
+      "url": "https://www.kamakoti.org/tamil/part1kurall60.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall60.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 151: எனக்கு முக்கியம் அம்பாள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "4531823335fbbd4dc129abb45b2fa8d4f054695dcf567150896692a10613b785",
+      "expected_bytes": 77238
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall61",
+      "url": "https://www.kamakoti.org/tamil/part1kurall61.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall61.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 152: அன்னைத் தெய்வம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "7f0c3fbdb3418064a104a4d814f0ad4a4b0f3555397891e2f71c3eba1e31e382",
+      "expected_bytes": 70372
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall62",
+      "url": "https://www.kamakoti.org/tamil/part1kurall62.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall62.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 153: தேவியின் திருவடித் தியானம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "e43e08cc266e67fea707ba3d7b9d1b4413a437ea9ba0c789c6edd06e259498b2",
+      "expected_bytes": 69760
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall63",
+      "url": "https://www.kamakoti.org/tamil/part1kurall63.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall63.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 154: இயற்கை ஏமாற்றுகிறது ! அம்பாள் ஏமாற்றுகிறாள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "8780b9e0eb04c1948ffcb40c218c7d607b6f697a5be1789554a5b36634fbf44a",
+      "expected_bytes": 72935
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall64",
+      "url": "https://www.kamakoti.org/tamil/part1kurall64.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall64.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 155: காமாக்ஷி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "90779ab1fef431249b45a91139bf1dc363145e790207d63767e0072496ac56b7",
+      "expected_bytes": 74550
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall65",
+      "url": "https://www.kamakoti.org/tamil/part1kurall65.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall65.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 156: காமாக்ஷியின் சிவப்பு",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "c68821692971d3ab26c689ebe9f626b85cfd16959dfeef82c1920d676f533592",
+      "expected_bytes": 71281
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall66",
+      "url": "https://www.kamakoti.org/tamil/part1kurall66.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall66.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 157: கறுப்பும் சிவப்புமான காமாக்ஷி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "2bc81276695a7e25e4d946bf221d2f76cc5de4a5c732ce166076c6dc95b4d758",
+      "expected_bytes": 71596
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall67",
+      "url": "https://www.kamakoti.org/tamil/part1kurall67.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall67.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 158: காமாக்ஷியின் கருமை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "64308cce1d899a7179d561a372d6c1cd4e17282f5ccfca20b1eb0de4cbfeef8d",
+      "expected_bytes": 87486
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall68",
+      "url": "https://www.kamakoti.org/tamil/part1kurall68.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall68.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 159: காமாக்ஷியின் கருணை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "b23e0a9c9e997867c6839363a9affc670b0269de5b00db0f7b394eaa3db033a6",
+      "expected_bytes": 82488
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall69",
+      "url": "https://www.kamakoti.org/tamil/part1kurall69.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall69.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 160: காமாக்ஷியின் பெருமை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "471a3e88a9a4dc746de7679d05ae532f2ba213faffba4390befc58103c687386",
+      "expected_bytes": 105067
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall70",
+      "url": "https://www.kamakoti.org/tamil/part1kurall70.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall70.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 161: காமாக்ஷியின் சரிதை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "e0a0be8b096d68dc19d027199da8e99f63429339a11a0571341c0626aff46024",
+      "expected_bytes": 121188
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall71",
+      "url": "https://www.kamakoti.org/tamil/part1kurall71.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall71.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 162: காமாக்ஷியின் கண்கள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "641103aa568f1f0bc28c83df04483753d8cbfaec189222a4f16630083baff75d",
+      "expected_bytes": 82842
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall72",
+      "url": "https://www.kamakoti.org/tamil/part1kurall72.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall72.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 163: அம்பாளின் ஸ்வரூபம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "85b5048edfb97c155039190cc2215a0dff9a857a4dfa36e0da8ed6e476c7e926",
+      "expected_bytes": 83869
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall73",
+      "url": "https://www.kamakoti.org/tamil/part1kurall73.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall73.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 164: அம்பாளின் இருப்பிடம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "93b330c30de55d400b857fb5e62953897cf078fe94322e60c60f11659f0a1d84",
+      "expected_bytes": 71334
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall74",
+      "url": "https://www.kamakoti.org/tamil/part1kurall74.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall74.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 165: ஞானாம்பிகை",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "8cc67e47dffe4a457eca77987befa53ee12d9e27ca397a15d623306a563ea298",
+      "expected_bytes": 82468
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall75",
+      "url": "https://www.kamakoti.org/tamil/part1kurall75.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall75.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 166: பவானித்வம்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "79eece2defdb4156750225fe91d092955a5bfc2099266d6e7a414671f0d06a9b",
+      "expected_bytes": 71472
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall76",
+      "url": "https://www.kamakoti.org/tamil/part1kurall76.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall76.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 167: வாக்குவன்மை வருக்ஷிப்பாள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "716bbb48c9a870dc115b119d734508b1ea174c67c795b911d9dffdb38ea29c37",
+      "expected_bytes": 82606
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall77",
+      "url": "https://www.kamakoti.org/tamil/part1kurall77.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall77.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 168: பதிபக்தியும் குருபக்தியும் வழங்கும் தேவி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "bb1fd0ac59516bf7bb7a4b2baf573e80a32da871ceeb84456bf661485b616c83",
+      "expected_bytes": 83071
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall78",
+      "url": "https://www.kamakoti.org/tamil/part1kurall78.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall78.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 169: அம்பாள் இருக்க அஹம்பாவம் ஏன் ?",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "07319360c360a8437a482d6df76037d875509938403c098c2c2127814aaa170b",
+      "expected_bytes": 83412
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall79",
+      "url": "https://www.kamakoti.org/tamil/part1kurall79.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall79.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 170: ஆசாரியாள் காட்டும் அம்பாள்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "55ff6dcd08ccd2841def72f5faf02f27fbf39cb3494be2f439a1911e80f22bb4",
+      "expected_bytes": 93727
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall80",
+      "url": "https://www.kamakoti.org/tamil/part1kurall80.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall80.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 171: இன்னல் தருவதும் அவள் இன்னருளே !",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "566b502abbaebb49bbf4efeff7d9cc6b5169786bd560bbf1e0a654d6186eb70b",
+      "expected_bytes": 82339
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall81",
+      "url": "https://www.kamakoti.org/tamil/part1kurall81.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall81.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 172: சிவத்தின் சக்தி ; நாராயண ஸஹோதரி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "ac7e2c92bd5155fa37c39378d9555df89d4669e91e289285aa0033e14e9fa89d",
+      "expected_bytes": 122386
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall82",
+      "url": "https://www.kamakoti.org/tamil/part1kurall82.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall82.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 173: அன்னபூர்ணி",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "fe15a3f57b224b9e5eb2e28214f5ee71b906b84fb232b7ab0456a7240c1a7c44",
+      "expected_bytes": 82353
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall83",
+      "url": "https://www.kamakoti.org/tamil/part1kurall83.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall83.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 174: அம்மா",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "6e28f6d8faf24057f2d9b16eb01cac82d22fd5be79b0147dc2e8ac19b16f6057",
+      "expected_bytes": 71286
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall84",
+      "url": "https://www.kamakoti.org/tamil/part1kurall84.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall84.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 175: அநுமார் அநுக்கிரஹிப்பார்",
+      "terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "status": "verified-live-restricted-private-snapshot",
+      "expected_sha256": "7259096b08f054929a00a4d1c573c7fee88186e2d60d27ae06b5cfe3073d67c9",
+      "expected_bytes": 73042
     }
   ]
 }
