@@ -1,9 +1,9 @@
 {
-  "version": "0.02",
+  "version": "0.03",
   "corpus": "mahaperiyava_teachings",
   "work": "deivathin_kural",
   "baseline_commit": "911bbe1",
-  "phase": "historical_witness_acquisition",
+  "phase": "historical_witness_front_matter_verified",
   "authority": "NO_CLAIM_AUTHORITY_UPGRADE_YET",
   "policy": {
     "shorthand_capture_does_not_equal_verbatim_print": true,
@@ -11,7 +11,10 @@
     "modern_scan_host_is_not_independent_witness": true,
     "part3_url_must_not_be_guessed": true,
     "raw_scans_private": true,
-    "public_export_metadata_only": true
+    "public_export_metadata_only": true,
+    "front_matter_can_establish_collection_lineage_without_primary_authority": true,
+    "publisher_blessing_does_not_equal_textual_review": true,
+    "announced_part_does_not_equal_published_part": true
   },
   "witnesses": [
     {
@@ -21,9 +24,13 @@
       "source_key": "acharya-upanyasangal-part1-1957-58-scan",
       "remote_status": "direct_pdf_url_located",
       "snapshot_status": "pinned",
-      "transmission_class": "contemporaneous_shorthand_derived_candidate",
+      "transmission_class": "contemporaneous_shorthand_derived_editorially_arranged_confirmed",
       "textual_status": "printed_prose_not_assumed_verbatim",
-      "rights": "restricted_private_research"
+      "rights": "restricted_private_research",
+      "front_matter_status": "verified",
+      "front_matter_locus": "printed pp. vii-viii; PDF pp. 12-13",
+      "front_matter_editor": "Ki. Va. Jagannathan",
+      "front_matter_date": "1958-07-22"
     },
     {
       "id": "acharya_upanyasangal_part2",
@@ -34,16 +41,19 @@
       "snapshot_status": "pinned",
       "transmission_class": "contemporaneous_shorthand_derived_candidate",
       "textual_status": "printed_prose_not_assumed_verbatim",
-      "rights": "restricted_private_research"
+      "rights": "restricted_private_research",
+      "front_matter_status": "verified",
+      "front_matter_locus": "1974 publisher preface; PDF p. 8",
+      "publication_note": "Publisher preface says the talks are from the 1957-59 Chennai stay, were issued in book form with Mahaperiyava's blessing, Part 1 and Part 3 had already been published, this was the third edition of Part 2, and Part 4 was expected shortly. Blessing is not treated as proof of textual review."
     },
     {
       "id": "acharya_upanyasangal_part3",
       "title": "ஆசாரிய ஸ்வாமிகளின் உபந்நியாசங்கள் - Part 3",
-      "period": "1957-1959",
+      "period": "published by 1974; exact edition/year still unresolved",
       "source_key": null,
-      "remote_status": "existence_supported_scan_not_located",
+      "remote_status": "publisher_confirmed_published_scan_not_located",
       "snapshot_status": "missing",
-      "transmission_class": "unknown_until_acquired",
+      "transmission_class": "publication_family_member_publisher_confirmed",
       "textual_status": "unreviewed",
       "rights": "unknown"
     },
@@ -68,6 +78,17 @@
       "transmission_class": "contemporary_english_rendering_collection",
       "textual_status": "full_book_not_acquired",
       "rights": "unresolved"
+    },
+    {
+      "id": "acharya_upanyasangal_part4",
+      "title": "ஆசாரிய ஸ்வாமிகளின் உபந்நியாசங்கள் - Part 4",
+      "period": "announced as forthcoming in 1974; publication not yet confirmed",
+      "source_key": null,
+      "remote_status": "publisher_announced_1974_publication_unconfirmed",
+      "snapshot_status": "missing",
+      "transmission_class": "announced_family_member_unconfirmed",
+      "textual_status": "unreviewed",
+      "rights": "unknown"
     }
   ],
   "provenance_findings": [
@@ -90,21 +111,47 @@
     },
     {
       "finding": "shorthand_to_prose_transmission_claim",
-      "status": "plausible_needs_primary_front_matter_confirmation",
+      "status": "supported_by_contemporaneous_front_matter",
       "evidence_keys": [
+        "acharya-upanyasangal-part1-1957-58-scan",
         "ananthan-shorthand-recollection-2019",
         "kamakoti-sage-of-kanchi-1957-59-madras"
       ],
-      "note": "A later first-person recollection attributed to Ananthan says he captured the talks in shorthand and then rendered them into continuous prose. Official Kanchi material independently places the Kalaimagal volumes in the 1957-59 discourse publication family."
+      "note": "Part 1's 1958 preface directly states that 'Sri Ananthan' took the Mylapore discourses in shorthand, typed copies were made, and the material was arranged for publication. The relation is therefore established at collection level. The printed prose remains editorially mediated and is not assumed verbatim."
+    },
+    {
+      "finding": "part3_publisher_confirmation",
+      "status": "supported",
+      "evidence_keys": [
+        "acharya-upanyasangal-part2-1957-58-scan"
+      ],
+      "note": "Part 2's 1974 publisher preface states that Parts 1 and 3 had already been published. Part 3's existence is therefore publisher-confirmed, but its scan and exact edition metadata remain unresolved."
+    },
+    {
+      "finding": "part4_publisher_announcement",
+      "status": "lead_only",
+      "evidence_keys": [
+        "acharya-upanyasangal-part2-1957-58-scan"
+      ],
+      "note": "Part 2's 1974 publisher preface says Part 4 would appear shortly. This is an announcement, not proof that Part 4 was actually published."
+    },
+    {
+      "finding": "acharya_blessing_does_not_equal_textual_review",
+      "status": "policy_guard",
+      "evidence_keys": [
+        "acharya-upanyasangal-part2-1957-58-scan"
+      ],
+      "note": "The 1974 publisher preface says the books were issued with Mahaperiyava's blessing. Pramana does not infer personal proofreading, correction, or approval of every printed wording from that statement."
     }
   ],
   "next_acquisition_targets": [
-    "Inspect Part 1 title page, preface, colophon, and editor/reporter credits.",
-    "Inspect Part 2 title page, preface, colophon, and editor/reporter credits.",
-    "Locate Part 3 without guessing a URL.",
-    "Resolve TDL item 35317 to the actual 1957 scan object and inspect edition lineage.",
-    "Acquire the 1958 Kanchi Call of the Jagadguru full book.",
-    "Map only then to individual DK pilot claims."
+    "Locate a reliable scan of Acharya Swamigalin Upanyasangal Part 3 without guessing a URL.",
+    "Determine whether announced Part 4 was actually published; do not infer publication from the 1974 announcement.",
+    "Resolve TDL item 35317 to the actual 1957 Sri Jagadguruvin Upadesangal scan and inspect edition lineage.",
+    "Acquire the 1933 Jagadguruvin Upadesangal scan.",
+    "Acquire exact 1932 The Hindu / Swadesamitran reports.",
+    "Acquire the full 1958 Kanchi The Call of the Jagadguru.",
+    "Continue item-level DK comparison only where a historical witness is specific enough to support a claim."
   ],
   "fetch_results": [
     {

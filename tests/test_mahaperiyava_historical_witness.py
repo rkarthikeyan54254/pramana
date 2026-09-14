@@ -21,15 +21,15 @@ def test_source_lineage_schema_supports_shorthand_without_authority_upgrade():
     )
 
 
-def test_shorthand_relation_is_provisional_and_non_verbatim():
+def test_shorthand_relation_is_established_and_non_verbatim():
     graph = _load("data/review/mahaperiyava_source_lineage.json")
     relation = next(
         r for r in graph["relations"]
         if r["id"] == "mahaperiyava.lineage.1957_58.acharya_upanyasangal_shorthand"
     )
     assert relation["relation_type"] == "shorthand_rendering_of"
-    assert relation["dependency_status"] == "plausible"
-    assert relation["status"] == "needs_review"
+    assert relation["dependency_status"] == "established"
+    assert relation["status"] == "supported"
     assert relation["evidence_level"] == "collection"
     assert relation["authority_effect"] == "none_without_item_level_review"
     assert "not verbatim" in relation["notes"].lower()
@@ -52,6 +52,15 @@ def test_historical_witness_acquisition_policy_fails_closed():
     )
     assert part3["source_key"] is None
     assert part3["snapshot_status"] == "missing"
+    assert part3["remote_status"] == "publisher_confirmed_published_scan_not_located"
+
+    part4 = next(
+        w for w in data["witnesses"]
+        if w["id"] == "acharya_upanyasangal_part4"
+    )
+    assert part4["source_key"] is None
+    assert part4["snapshot_status"] == "missing"
+    assert part4["remote_status"] == "publisher_announced_1974_publication_unconfirmed"
 
 
 def test_historical_scan_manifest_entries_are_private_raw_only():
@@ -76,3 +85,36 @@ def test_all_lineage_relations_still_validate():
     )
     for relation in graph["relations"]:
         validator.validate(relation)
+
+
+def test_front_matter_evidence_establishes_collection_lineage_only():
+    graph = _load("data/review/mahaperiyava_source_lineage.json")
+    relation = next(
+        r for r in graph["relations"]
+        if r["id"] == "mahaperiyava.lineage.1957_58.acharya_upanyasangal_shorthand"
+    )
+    front_matter = next(
+        e for e in relation["evidence"]
+        if e["source_key"] == "acharya-upanyasangal-part1-1957-58-scan"
+        and "preface" in (e.get("locus") or "").lower()
+    )
+    assert "shorthand" in front_matter["note"].lower()
+    assert "typed" in front_matter["note"].lower()
+    assert relation["evidence_level"] == "collection"
+    assert relation["acharya_review"] == "unknown"
+    assert relation["authority_effect"] == "none_without_item_level_review"
+
+
+def test_dk_v1_historical_review_remains_fail_closed():
+    review = _load("data/review/mahaperiyava_dk_v1_historical_witness_review.json")
+    assert review["authority"] == "NO_AUTOMATIC_AUTHORITY_PROMOTION"
+    assert len(review["reviews"]) == 10
+    by_slug = {r["slug"]: r for r in review["reviews"]}
+    assert by_slug["alaya_vazhipadu"]["authority_recommendation"].startswith(
+        "strong_candidate"
+    )
+    assert by_slug["bhakti_seyvathu_etharkaga"]["authority_recommendation"].startswith(
+        "strong_candidate"
+    )
+    assert by_slug["varna_dharmam"]["authority_recommendation"] == "no_upgrade"
+    assert review["policy"]["collection_lineage_does_not_propagate_to_claims"]

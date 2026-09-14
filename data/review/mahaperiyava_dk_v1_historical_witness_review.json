@@ -1,0 +1,135 @@
+{
+  "version": "0.03",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "phase": "historical_witness_item_level_review",
+  "authority": "NO_AUTOMATIC_AUTHORITY_PROMOTION",
+  "policy": {
+    "page_level_comparison_required_for_claim_upgrade": true,
+    "same_theme_does_not_equal_textual_dependency": true,
+    "collection_lineage_does_not_propagate_to_claims": true,
+    "earlier_witness_supported_is_claim_level_not_primary_source_verified": true,
+    "restricted_source_text_not_reproduced": true
+  },
+  "historical_witnesses": [
+    {
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "title": "ஆசாரிய ஸ்வாமிகளின் உபந்நியாசங்கள் - Part 1",
+      "period": "1957-1958",
+      "transmission": "shorthand-derived; typed; editorially arranged",
+      "authority": "historical_earlier_witness",
+      "rights": "restricted_private_research"
+    },
+    {
+      "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+      "title": "ஆசாரிய ஸ்வாமிகளின் உபந்நியாசங்கள் - Part 2",
+      "period": "1957-1959 discourse material; inspected 1974 edition",
+      "transmission": "same publication family; exact item production path not assumed verbatim",
+      "authority": "historical_earlier_witness",
+      "rights": "restricted_private_research"
+    }
+  ],
+  "reviews": [
+    {
+      "slug": "advaitam",
+      "dk_title_ta": "அத்வைதம்",
+      "witness_source_key": "acharya-upanyasangal-part2-1957-58-scan",
+      "witness_section_ta": "எல்லாம் தழுவும் அத்வைதம்",
+      "witness_locus": "printed p. 27 ff.; PDF pp. 38-41",
+      "match_class": "same_doctrinal_claim",
+      "authority_recommendation": "eligible_for_narrow_claim_level_earlier_witness_supported",
+      "dependency_conclusion": "thematic_or_doctrinal_antecedent_not_textual_dependency"
+    },
+    {
+      "slug": "dharmame_thalaikakkum",
+      "dk_title_ta": "தர்மமே தலைக்காக்கும்",
+      "witness_source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "witness_section_ta": "தர்ம சாஸ்திரங்கள்",
+      "witness_locus": "printed p. 113 ff.; PDF pp. 128-129",
+      "match_class": "same_general_theme",
+      "authority_recommendation": "no_upgrade",
+      "dependency_conclusion": "insufficiently_specific"
+    },
+    {
+      "slug": "mathathin_payan",
+      "dk_title_ta": "மதத்தின் பயன்",
+      "witness_source_key": "acharya-upanyasangal-part2-1957-58-scan",
+      "witness_section_ta": "பக்தியும் கர்மமும் / முடிவான நிலை",
+      "witness_locus": "PDF pp. 35-36 and 97-98",
+      "match_class": "partial_doctrinal_support",
+      "authority_recommendation": "no_whole_chapter_upgrade",
+      "dependency_conclusion": "claim_specific_review_required"
+    },
+    {
+      "slug": "sakala_mathangalukkum_pothuvana_bhakti",
+      "dk_title_ta": "சகல மதங்களுக்கும் பொதுவான பக்தி",
+      "witness_source_key": "acharya-upanyasangal-part2-1957-58-scan",
+      "witness_section_ta": "எல்லாம் தழுவும் அத்வைதம்",
+      "witness_locus": "printed p. 27 ff.; especially PDF pp. 39-41",
+      "match_class": "same_doctrinal_claim",
+      "authority_recommendation": "eligible_for_narrow_claim_level_earlier_witness_supported",
+      "dependency_conclusion": "earlier_doctrinal_attestation_not_textual_dependency"
+    },
+    {
+      "slug": "varna_dharmam",
+      "dk_title_ta": "வர்ண தர்மம்",
+      "witness_source_key": null,
+      "witness_section_ta": null,
+      "witness_locus": null,
+      "match_class": "no_sufficiently_specific_item_located",
+      "authority_recommendation": "no_upgrade",
+      "dependency_conclusion": "unresolved"
+    },
+    {
+      "slug": "eliya_vazhvu",
+      "dk_title_ta": "எளிய வாழ்வு",
+      "witness_source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "witness_section_ta": "ஏழை பங்காளன்",
+      "witness_locus": "PDF pp. 36-38",
+      "match_class": "superficial_thematic_proximity",
+      "authority_recommendation": "no_upgrade",
+      "dependency_conclusion": "not_same_teaching"
+    },
+    {
+      "slug": "tamilnattu_panpin_perumai",
+      "dk_title_ta": "தமிழ்நாட்டுப் பண்பின் பெருமை",
+      "witness_source_key": null,
+      "witness_section_ta": null,
+      "witness_locus": null,
+      "match_class": "no_convincing_item_level_match_yet",
+      "authority_recommendation": "no_upgrade",
+      "dependency_conclusion": "unresolved"
+    },
+    {
+      "slug": "alaya_vazhipadu",
+      "dk_title_ta": "ஆலய வழிபாடு",
+      "witness_source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "witness_section_ta": "ஆலய வணக்கம்",
+      "witness_locus": "printed p. 39 ff.; PDF pp. 54-56",
+      "match_class": "substantial_doctrinal_and_structural_overlap",
+      "authority_recommendation": "strong_candidate_for_claim_level_earlier_witness_supported",
+      "dependency_conclusion": "earlier_witness_support_strong_textual_dependency_not_yet_asserted"
+    },
+    {
+      "slug": "bhakti_seyvathu_etharkaga",
+      "dk_title_ta": "பக்தி செய்வது எதற்காக ?",
+      "witness_source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "witness_section_ta": "ஈசுவர பக்தி ஏன் செய்யவேண்டும்?",
+      "witness_locus": "printed p. 117 ff.; PDF pp. 132-135",
+      "match_class": "substantial_doctrinal_overlap",
+      "authority_recommendation": "strong_candidate_for_claim_level_earlier_witness_supported",
+      "dependency_conclusion": "earlier_witness_support_strong_textual_dependency_not_yet_asserted"
+    },
+    {
+      "slug": "siva_vishnu_abhedam",
+      "dk_title_ta": "சிவ, விஷ்ணு அபேதம்",
+      "witness_source_key": null,
+      "witness_section_ta": null,
+      "witness_locus": null,
+      "match_class": "no_direct_part1_part2_item_located",
+      "authority_recommendation": "no_new_upgrade_from_these_scans",
+      "dependency_conclusion": "use_existing_external_historical_evidence"
+    }
+  ]
+}

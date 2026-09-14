@@ -481,9 +481,9 @@
         "date": "1957-1959",
         "source_key": null
       },
-      "dependency_status": "plausible",
+      "dependency_status": "established",
       "evidence_level": "collection",
-      "status": "needs_review",
+      "status": "supported",
       "acharya_review": "unknown",
       "evidence": [
         {
@@ -503,10 +503,16 @@
           "url": "https://tamildigitallibrary.in/book-details/TVRJMk5UUT1BdG9aYXRvejB0bzk-/TkE9PUF0b1phdG96MHRvOQ--/TWpBPUF0b1phdG96MHRvOQ--",
           "locus": "institutional bibliographic metadata",
           "note": "TDL independently identifies G. S. Ananthanarayanan as the author of a Tamil shorthand manual published in 1965; this corroborates shorthand expertise, not the book-production claim by itself."
+        },
+        {
+          "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+          "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-1.pdf",
+          "locus": "Part 1 preface, printed pp. vii-viii (PDF pp. 12-13)",
+          "note": "Ki. Va. Jagannathan's 22-7-1958 preface states that 'Sri Ananthan' took the Mylapore discourses in shorthand, typed copies were made, and the material was arranged into published volumes. This establishes the collection-level shorthand-derived transmission mechanism. The preface does not identify Ananthan by full name and does not establish verbatim printed wording."
         }
       ],
       "authority_effect": "none_without_item_level_review",
-      "notes": "Provisional transmission mechanism only. Even if shorthand capture was complete, the claimed conversion into continuous prose means the printed wording is not verbatim by default. Front matter or another contemporaneous production record is required to establish the relation."
+      "notes": "Collection-level transmission is established by the 1958 Part 1 preface: Mahaperiyava's Mylapore discourses were taken in shorthand by 'Sri Ananthan', typed, and editorially arranged for publication. This does NOT make the printed wording verbatim by default, does NOT prove that the preface's 'Ananthan' is G. S. Ananthanarayanan without the separate identity evidence, and does NOT upgrade any individual DK claim or any source to primary_source_verified."
     }
   ],
   "acquisition_priorities": [
