@@ -96,11 +96,16 @@ def test_extraction_queue_covers_every_catalog_chapter_once():
     )
     assert all(q["teaching_units_created"] > 0 for q in pilot_rows)
 
+    allowed_nonpilot_stages = {
+        "needs_teaching_unit_review",
+        "batch_teaching_units_curated",
+    }
+    assert all(q["stage"] in allowed_nonpilot_stages for q in nonpilot_rows)
     assert all(
-        q["stage"] == "needs_teaching_unit_review"
+        (q["stage"] == "needs_teaching_unit_review" and q["teaching_units_created"] == 0)
+        or (q["stage"] == "batch_teaching_units_curated" and q["teaching_units_created"] > 0)
         for q in nonpilot_rows
     )
-    assert all(q["teaching_units_created"] == 0 for q in nonpilot_rows)
 
 
 def test_every_v1_catalog_source_resolves_in_manifest():
