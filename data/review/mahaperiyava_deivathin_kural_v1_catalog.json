@@ -67,14 +67,15 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "751d4e4f506bb1fd372695bcc1779ca80cf448738ca129fd4ffbfba98e0d8dbd",
       "snapshot_bytes": 85574,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "pilot_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
       "pilot": true,
       "pilot_slug": "advaitam",
       "pilot_theme": "advaita",
       "pilot_dk_attestation": "located",
-      "pilot_primary_source_status": "unknown"
+      "pilot_primary_source_status": "unknown",
+      "teaching_unit_count": 6
     },
     {
       "ordinal": 5,
@@ -309,14 +310,15 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "2787d39293ff12eb4568e1e0fbc73b7453b862d4b630511dfafa7d18f15336fb",
       "snapshot_bytes": 88932,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "pilot_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
       "pilot": true,
       "pilot_slug": "dharmame_thalaikakkum",
       "pilot_theme": "dharma",
       "pilot_dk_attestation": "located",
-      "pilot_primary_source_status": "unknown"
+      "pilot_primary_source_status": "unknown",
+      "teaching_unit_count": 5
     },
     {
       "ordinal": 22,
@@ -341,14 +343,15 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "23485243213fe8bc23400365d8515ea163202cf5be73e3195e6acb2c20e08636",
       "snapshot_bytes": 81312,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "pilot_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
       "pilot": true,
       "pilot_slug": "mathathin_payan",
       "pilot_theme": "religion_and_purusharthas",
       "pilot_dk_attestation": "located",
-      "pilot_primary_source_status": "unknown"
+      "pilot_primary_source_status": "unknown",
+      "teaching_unit_count": 5
     },
     {
       "ordinal": 24,
@@ -373,14 +376,15 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "3dbd0bf6a222a039dd57ca7c314c65861bf8195cfb2f8026bbc0ef772ba1be14",
       "snapshot_bytes": 72999,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "pilot_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
       "pilot": true,
       "pilot_slug": "sakala_mathangalukkum_pothuvana_bhakti",
       "pilot_theme": "interreligious_bhakti",
       "pilot_dk_attestation": "located",
-      "pilot_primary_source_status": "unknown"
+      "pilot_primary_source_status": "unknown",
+      "teaching_unit_count": 7
     },
     {
       "ordinal": 26,
@@ -475,14 +479,15 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "d114ca2a1d109158cc0a939e90144daae52ada924cf734c35d2f93cd7205c4b6",
       "snapshot_bytes": 88709,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "pilot_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
       "pilot": true,
       "pilot_slug": "varna_dharmam",
       "pilot_theme": "varna_dharma",
       "pilot_dk_attestation": "located",
-      "pilot_primary_source_status": "unknown"
+      "pilot_primary_source_status": "unknown",
+      "teaching_unit_count": 5
     },
     {
       "ordinal": 33,
@@ -983,14 +988,15 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "d5e067d04286c7af81e1d2208f70d54b38e270b5c14a2f628e24671235871ec4",
       "snapshot_bytes": 74620,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "pilot_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
       "pilot": true,
       "pilot_slug": "eliya_vazhvu",
       "pilot_theme": "simple_living",
       "pilot_dk_attestation": "located",
-      "pilot_primary_source_status": "unknown"
+      "pilot_primary_source_status": "unknown",
+      "teaching_unit_count": 5
     },
     {
       "ordinal": 69,
@@ -1225,14 +1231,15 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "94e2df69c87a17f2a89676b91787c8a565ad6dc87c9797f726230e16617680a0",
       "snapshot_bytes": 79243,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "pilot_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
       "pilot": true,
       "pilot_slug": "tamilnattu_panpin_perumai",
       "pilot_theme": "culture_and_history",
       "pilot_dk_attestation": "located",
-      "pilot_primary_source_status": "unknown"
+      "pilot_primary_source_status": "unknown",
+      "teaching_unit_count": 5
     },
     {
       "ordinal": 86,
@@ -1439,14 +1446,15 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "0af3b2f88926c00c790223f23cce9f3960353b922c0d0d29e7ec8040e84a9d3c",
       "snapshot_bytes": 71584,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "pilot_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
       "pilot": true,
       "pilot_slug": "alaya_vazhipadu",
       "pilot_theme": "temple_worship",
       "pilot_dk_attestation": "located",
-      "pilot_primary_source_status": "unknown"
+      "pilot_primary_source_status": "unknown",
+      "teaching_unit_count": 6
     },
     {
       "ordinal": 101,
@@ -1555,14 +1563,15 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "54a1eed7b9109eff8b5147cff86e28a6a8efe585cef35ecfa9c4761ae8b12b60",
       "snapshot_bytes": 74978,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "pilot_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
       "pilot": true,
       "pilot_slug": "bhakti_seyvathu_etharkaga",
       "pilot_theme": "bhakti",
       "pilot_dk_attestation": "located",
-      "pilot_primary_source_status": "unknown"
+      "pilot_primary_source_status": "unknown",
+      "teaching_unit_count": 7
     },
     {
       "ordinal": 109,
@@ -1951,14 +1960,15 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "8be80f64166f41e52d3dce55980408efdd5b3cae2de27ec3c32535b741314a54",
       "snapshot_bytes": 72946,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "pilot_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
       "pilot": true,
       "pilot_slug": "siva_vishnu_abhedam",
       "pilot_theme": "siva_vishnu_abheda",
       "pilot_dk_attestation": "located",
-      "pilot_primary_source_status": "unknown"
+      "pilot_primary_source_status": "unknown",
+      "teaching_unit_count": 5
     },
     {
       "ordinal": 137,

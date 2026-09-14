@@ -86,8 +86,21 @@ def test_extraction_queue_covers_every_catalog_chapter_once():
     assert {q["source_key"] for q in queue} == {
         c["source_key"] for c in catalog["chapters"]
     }
-    assert all(q["stage"] == "needs_teaching_unit_review" for q in queue)
-    assert all(q["teaching_units_created"] == 0 for q in queue)
+    pilot_rows = [q for q in queue if q["pilot"]]
+    nonpilot_rows = [q for q in queue if not q["pilot"]]
+
+    assert len(pilot_rows) == 10
+    assert all(
+        q["stage"] == "pilot_teaching_units_curated"
+        for q in pilot_rows
+    )
+    assert all(q["teaching_units_created"] > 0 for q in pilot_rows)
+
+    assert all(
+        q["stage"] == "needs_teaching_unit_review"
+        for q in nonpilot_rows
+    )
+    assert all(q["teaching_units_created"] == 0 for q in nonpilot_rows)
 
 
 def test_every_v1_catalog_source_resolves_in_manifest():
