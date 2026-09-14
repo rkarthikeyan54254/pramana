@@ -15,16 +15,23 @@
   },
   "policy": {
     "no_exact_source_text_in_tracked_artifacts": true,
-    "all_batch_authority_is_dk_attested": true,
-    "historical_witness_comparison_deferred": true,
+    "all_batch_authority_is_dk_attested": false,
+    "historical_witness_comparison_deferred": false,
     "no_print_check_claimed": true,
     "no_primary_source_verified_claimed": true,
     "sensitive_external_fact_claims_are_flagged": true,
-    "replacement_decoded_source_pages_need_later_text_qc": true
+    "replacement_decoded_source_pages_need_later_text_qc": true,
+    "targeted_historical_witness_pass_completed": true,
+    "historical_witness_exhaustive_review_completed": false,
+    "historical_witness_support_is_claim_level": true,
+    "no_verbatim_wording_claimed": true,
+    "sensitivity_flags_preserved_through_authority_promotion": true,
+    "external_factual_truth_separate_from_earlier_attestation": true
   },
   "unit_count": 102,
   "authority_counts": {
-    "dk_attested": 102
+    "dk_attested": 89,
+    "earlier_witness_supported": 13
   },
   "chapter_unit_counts": {
     "1": 4,
@@ -155,8 +162,13 @@
         "hagiographic_tradition",
         "source_decode_replacement"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness contains the Avvaiyar/Vinayaka/Kailasa narrative used for the same devotional teaching."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.vinayagar.ganesha_grace_elevates_devotee",
@@ -196,8 +208,13 @@
         "hagiographic_tradition",
         "source_decode_replacement"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness preserves the same Avvaiyar narrative in which Vinayaka's grace elevates the devotee to Kailasa."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.coconut_as_highest_offering",
@@ -226,8 +243,13 @@
       "flags": [
         "source_decode_replacement"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness gives the same interpretive use of coconut offering in Vinayaka worship."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.coconut_breaking_as_ego_breaking",
@@ -287,8 +309,13 @@
       "flags": [
         "source_decode_replacement"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness supports the large-form/small-vehicle symbolic teaching at claim level."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.broken_tusk_sacrifice_for_dharma",
@@ -316,8 +343,13 @@
         "hagiographic_tradition",
         "source_decode_replacement"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness supports the broken-tusk interpretation as self-sacrifice in sacred/dharmic work."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.elephant_form_as_joy_symbol",
@@ -347,8 +379,13 @@
         "hagiographic_tradition",
         "source_decode_replacement"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness supports the interpretive link between Vinayaka's form and joy/ananda."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
@@ -410,8 +447,13 @@
         "etymology_claim_requires_external_verification",
         "source_decode_replacement"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_traditional_explanation",
+        "note": "Earlier witness attests the same traditional thoppukaranam explanation. This upgrades attribution of the teaching only; the etymology remains externally unverified."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.advaita_not_egoistic_self_deification",
@@ -466,8 +508,13 @@
         "oneness"
       ],
       "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, எல்லாம் தழுவும் அத்வைதம், printed pp. 29–30 (PDF pp. 40–41)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness supports the move from apparent multiplicity toward a single underlying Advaitic reality."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.bhakti_needed_before_direct_nonduality",
@@ -492,8 +539,13 @@
         "sadhana"
       ],
       "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, எல்லாம் தழுவும் அத்வைதம், printed p. 29 (PDF p. 40)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness explicitly presents saguna bhakti/upasana as the practical route for approaching the Advaitic state."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.devotional_practices_dissolve_body_ego",
@@ -753,8 +805,13 @@
         "jnana"
       ],
       "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, பக்தியும் கர்மமும், printed pp. 24–27 (PDF pp. 35–38)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness supports devotional/upasana practice as a means of shaping and purifying the mind toward spiritual steadiness."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.devotion_matures_into_surrender",
@@ -836,8 +893,13 @@
         "advaita"
       ],
       "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, எல்லாம் தழுவும் அத்வைதம், printed p. 29 (PDF p. 40)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness explicitly treats saguna bhakti as a practical preparatory means before Advaitic realization."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.karma_and_bhakti_as_mind_purification",
@@ -1224,8 +1286,13 @@
         "upanishad"
       ],
       "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, முடிவான நிலை, printed p. 94 (PDF p. 105)",
+        "match_level": "close_paraphrase",
+        "note": "Earlier witness explicitly states the Tat–Tvam identity teaching at the same doctrinal level."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.kandamum_akandamum.hold_to_the_real_for_enduring_joy",
@@ -1278,8 +1345,13 @@
         "advaita"
       ],
       "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, முடிவான நிலை, printed pp. 94–96 (PDF pp. 105–107)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness supports progression from conditioned/saguna contemplation toward higher nondual/nirguna realization."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.kandamum_akandamum.spiritual_maturation_is_gradual",
@@ -3041,5 +3113,12 @@
       "authority": "dk_attested",
       "historical_witness": null
     }
-  ]
+  ],
+  "historical_witness_review": {
+    "path": "data/review/mahaperiyava_dk_v1_batch_001_022_historical_witness_review.json",
+    "review_type": "targeted_historical_witness_matching",
+    "matrix_count": 102,
+    "promotion_count": 13,
+    "exhaustive": false
+  }
 }

@@ -38,3 +38,21 @@ Exact DK wording remains private. Curator summaries are not quotations.
 Science/history-of-science comparisons, health/astrology causality, informal mathematical analogies, etymologies, hagiographic traditions, and comparative religious/philosophical claims are flagged and remain attributed teachings.
 
 The next authority gate is item-level historical-witness matching. No claim in this batch should be promoted automatically from collection-level lineage.
+
+## Historical witness targeted pass
+
+A targeted manual comparison against the acquired 1957–58
+*Acharya Swamigalin Upanyasangal* scans promoted **13** narrow claims to
+`earlier_witness_supported`. The batch authority distribution is now:
+
+- `dk_attested`: **89**
+- `earlier_witness_supported`: **13**
+- `dk_print_checked`: **0**
+- `primary_source_verified`: **0**
+
+This is not an exhaustive negative search over all 102 units. Unreviewed rows
+remain `dk_attested`. Existing science, health, astrology, mathematical,
+etymology, hagiographic and other sensitivity flags remain unchanged.
+
+See:
+`data/review/mahaperiyava_dk_v1_batch_001_022_historical_witness_review.json`.

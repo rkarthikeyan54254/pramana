@@ -1,0 +1,1866 @@
+{
+  "version": "0.1",
+  "generated_at": "2026-09-14T19:05:23+00:00",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "batch": "001_022",
+  "review_type": "targeted_historical_witness_matching",
+  "review_scope": {
+    "exhaustive_across_all_102_units": false,
+    "description": "Manual comparison of high-yield Ganesha, Advaita, bhakti, upasana and Tat-Tvam sections against the acquired 1957–58 Acharya Swamigalin Upanyasangal scans. Rows outside the targeted sections are explicitly marked not evaluated rather than treated as negative evidence."
+  },
+  "witnesses_consulted": [
+    {
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "title": "Acharya Swamigalin Upanyasangal — Part 1",
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-1.pdf",
+      "snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+      "rights_status": "restricted_private_research"
+    },
+    {
+      "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+      "title": "Acharya Swamigalin Upanyasangal — Part 2",
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-2.pdf",
+      "snapshot_sha256": "eaf06d8936fb3b160a279b388ec0e2ef408be49c416618bf8bfb9d038f4a31e1",
+      "rights_status": "restricted_private_research"
+    }
+  ],
+  "transmission_guardrail": "1957–58 witness from the Acharya Swamigalin Upanyasangal publication family. The collection was produced through shorthand capture, typed copies, and editorial arrangement. Claim-level agreement therefore supports earlier attestation of the teaching, but printed wording is not treated as verbatim primary speech and textual dependence on Deivathin Kural is not asserted.",
+  "matrix_count": 102,
+  "status_counts": {
+    "not_evaluated_in_targeted_sections": 85,
+    "partial_match_not_sufficient": 4,
+    "supported_for_claim_level_promotion": 13
+  },
+  "promotion_count": 13,
+  "policy": {
+    "claim_level_only": true,
+    "no_chapter_wide_promotion": true,
+    "no_verbatim_claim": true,
+    "no_primary_source_upgrade": true,
+    "sensitivity_flags_do_not_change": true,
+    "earlier_attestation_is_separate_from_external_factual_truth": true
+  },
+  "rows": [
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vinayagar.pillaiyar_tamil_devotional_presence",
+      "chapter_ordinal": 1,
+      "chapter_title_ta": "விநாயகர்",
+      "claim_summary": "The chapter presents Pillaiyar worship and the honorific name 'Pillaiyar' as especially characteristic of Tamil devotional culture.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vinayagar.ganesha_as_pranava_form",
+      "chapter_ordinal": 1,
+      "chapter_title_ta": "விநாயகர்",
+      "claim_summary": "Ganesha is identified with Pranava, the primordial principle from which the cosmos and living beings arise; his elephant form is interpreted symbolically in relation to Om.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "partial_match_not_sufficient",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "partial_match_not_sufficient",
+        "note": "Earlier witness supports Vinayaka/Pranava identification, but the DK unit also bundles a broader cosmic-origin interpretation. No authority upgrade for the compound claim."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vinayagar.avvaiyar_worship_as_kailasa",
+      "chapter_ordinal": 1,
+      "chapter_title_ta": "விநாயகர்",
+      "claim_summary": "Through the Avvaiyar story, the chapter teaches that wholehearted worship of Ganesha itself can be treated as the devotee's Kailasa rather than something to be hurried for another spiritual goal.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness contains the Avvaiyar/Vinayaka/Kailasa narrative used for the same devotional teaching."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vinayagar.ganesha_grace_elevates_devotee",
+      "chapter_ordinal": 1,
+      "chapter_title_ta": "விநாயகர்",
+      "claim_summary": "The Avvaiyar narrative is used to portray Ganesha's grace as capable of lifting a devoted worshipper swiftly to the highest spiritual destination.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness preserves the same Avvaiyar narrative in which Vinayaka's grace elevates the devotee to Kailasa."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.coconut_as_highest_offering",
+      "chapter_ordinal": 2,
+      "chapter_title_ta": "தத்துவ மயமான விநாயகர்",
+      "claim_summary": "Breaking a coconut before Ganesha is interpreted as a symbolic willingness to offer what is highest and most precious to the divine.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness gives the same interpretive use of coconut offering in Vinayaka worship."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.coconut_breaking_as_ego_breaking",
+      "chapter_ordinal": 2,
+      "chapter_title_ta": "தத்துவ மயமான விநாயகர்",
+      "claim_summary": "The shattered coconut is interpreted as breaking the hard shell of ego so that the inner sweetness or nectar can be revealed.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.large_form_small_vehicle_symbolism",
+      "chapter_ordinal": 2,
+      "chapter_title_ta": "தத்துவ மயமான விநாயகர்",
+      "claim_summary": "Ganesha's large childlike form and tiny mouse vehicle are used to teach that divine greatness does not burden the devotee and that the divine can confer dignity on even the smallest vehicle.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness supports the large-form/small-vehicle symbolic teaching at claim level."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.broken_tusk_sacrifice_for_dharma",
+      "chapter_ordinal": 2,
+      "chapter_title_ta": "தத்துவ மயமான விநாயகர்",
+      "claim_summary": "The broken tusk is presented as a symbol that personal beauty, pride, or possessions may be sacrificed for dharma and can become instruments of sacred work.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness supports the broken-tusk interpretation as self-sacrifice in sacred/dharmic work."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.elephant_form_as_joy_symbol",
+      "chapter_ordinal": 2,
+      "chapter_title_ta": "தத்துவ மயமான விநாயகர்",
+      "claim_summary": "Ganesha's elephant form is interpreted as a form that evokes inexhaustible joy, and the chapter links his manifestation with divine bliss.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness supports the interpretive link between Vinayaka's form and joy/ananda."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+      "chapter_ordinal": 2,
+      "chapter_title_ta": "தத்துவ மயமான விநாயகர்",
+      "claim_summary": "The chapter teaches that Ganesha's grace is sought first so that undertakings and worship may proceed without obstacles, and notes the Ganapatya tradition centered on him.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "partial_match_not_sufficient",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "partial_match_not_sufficient",
+        "note": "Earlier material supports Vinayaka's vighna-related role, but the DK unit also bundles first-worship and Ganapatya claims."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.thoppukaranam_story_and_etymology",
+      "chapter_ordinal": 2,
+      "chapter_title_ta": "தத்துவ மயமான விநாயகர்",
+      "claim_summary": "The chapter recounts a traditional Vishnu-Ganesha story to explain thoppukaranam and derives the word from a phrase meaning holding the ears with the hands.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, விக்னேசுவரர், printed pp. 43–51 (PDF pp. 54–62)",
+        "match_level": "same_traditional_explanation",
+        "note": "Earlier witness attests the same traditional thoppukaranam explanation. This upgrades attribution of the teaching only; the etymology remains externally unverified."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.advaita_not_egoistic_self_deification",
+      "chapter_ordinal": 3,
+      "chapter_title_ta": "ஸ்வாமி நாமா? இல்லை என்றால்?",
+      "claim_summary": "Advaita's statement that jiva and Brahman are one is distinguished from egoistic self-deification: realization requires dissolution of the separate ego rather than exaltation of it.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.all_beings_as_forms_of_one_reality",
+      "chapter_ordinal": 3,
+      "chapter_title_ta": "ஸ்வாமி நாமா? இல்லை என்றால்?",
+      "claim_summary": "If the divine is truly all-encompassing, the individual cannot stand outside it; plurality is described as one reality appearing in limited forms.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, எல்லாம் தழுவும் அத்வைதம், printed pp. 29–30 (PDF pp. 40–41)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness supports the move from apparent multiplicity toward a single underlying Advaitic reality."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.bhakti_needed_before_direct_nonduality",
+      "chapter_ordinal": 3,
+      "chapter_title_ta": "ஸ்வாமி நாமா? இல்லை என்றால்?",
+      "claim_summary": "Because the restless mind cannot immediately realize nonduality, the seeker is advised to begin with devotion, humility, and prayer for grace.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, எல்லாம் தழுவும் அத்வைதம், printed p. 29 (PDF p. 40)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness explicitly presents saguna bhakti/upasana as the practical route for approaching the Advaitic state."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.devotional_practices_dissolve_body_ego",
+      "chapter_ordinal": 3,
+      "chapter_title_ta": "ஸ்வாமி நாமா? இல்லை என்றால்?",
+      "claim_summary": "Bhakti, puja, and pilgrimage are presented as disciplines that redirect the mind from identification with the body toward the divine until ego and the jiva-Isvara distinction dissolve.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.athuvedhan_idhu.wooden_elephant_perception_analogy",
+      "chapter_ordinal": 5,
+      "chapter_title_ta": "அதுவேதான் இது!",
+      "claim_summary": "The wooden-elephant analogy shows how attention to an appearance can conceal its underlying substance, while knowledge of the substance makes the apparent form secondary.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.athuvedhan_idhu.world_as_appearance_in_brahman",
+      "chapter_ordinal": 5,
+      "chapter_title_ta": "அதுவேதான் இது!",
+      "claim_summary": "The chapter applies the wooden-elephant analogy to teach that the world is not separate from Brahman: ordinary vision notices plurality, while the knower sees the underlying Brahman.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.athuvedhan_idhu.material_abundance_does_not_end_competition",
+      "chapter_ordinal": 5,
+      "chapter_title_ta": "அதுவேதான் இது!",
+      "claim_summary": "Material comfort alone is said not to secure peace because comparison, priority, and competition can persist even when basic wants are met.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.athuvedhan_idhu.nondual_knowledge_as_end_of_competition",
+      "chapter_ordinal": 5,
+      "chapter_title_ta": "அதுவேதான் இது!",
+      "claim_summary": "Lasting peace is linked to knowledge that there is no truly separate second entity to compete against; self-inquiry is therefore presented as essential beyond material progress.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.prayer_as_relief_in_suffering",
+      "chapter_ordinal": 6,
+      "chapter_title_ta": "ஸ்வாமி எதற்கு? அத்வைதம் அமைதிக்கே.",
+      "claim_summary": "The chapter says that bringing suffering before God can itself bring some peace and strength, whether the difficulty is removed, endured, or understood as karmic consequence.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.bhakti_not_merely_transactional",
+      "chapter_ordinal": 6,
+      "chapter_title_ta": "ஸ்வாமி எதற்கு? அத்வைதம் அமைதிக்கே.",
+      "claim_summary": "Bhakti is explicitly distinguished from a merely transactional practice undertaken only to remove trouble or repay God for worldly comfort.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.mind_stillness_as_true_happiness",
+      "chapter_ordinal": 6,
+      "chapter_title_ta": "ஸ்வாமி எதற்கு? அத்வைதம் அமைதிக்கே.",
+      "claim_summary": "True happiness is described as conscious stillness of mind; when mental movement and the sense of separateness cease, the result is nondual peace.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.meditation_on_isvara_shapes_mind_toward_peace",
+      "chapter_ordinal": 6,
+      "chapter_title_ta": "ஸ்வாமி எதற்கு? அத்வைதம் அமைதிக்கே.",
+      "claim_summary": "Meditating repeatedly on Isvara as the embodiment of knowledge and peace is presented as a practical way for the mind to acquire those qualities.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, பக்தியும் கர்மமும், printed pp. 24–27 (PDF pp. 35–38)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness supports devotional/upasana practice as a means of shaping and purifying the mind toward spiritual steadiness."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.devotion_matures_into_surrender",
+      "chapter_ordinal": 6,
+      "chapter_title_ta": "ஸ்வாமி எதற்கு? அத்வைதம் அமைதிக்கே.",
+      "claim_summary": "Regular remembrance of God is said to loosen fixation on pleasure and pain and mature into surrender, allowing one's burdens to be left with the divine.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.shankara_definition_of_bhakti_as_self_inquiry",
+      "chapter_ordinal": 6,
+      "chapter_title_ta": "ஸ்வாமி எதற்கு? அத்வைதம் அமைதிக்கே.",
+      "claim_summary": "The chapter cites Shankara's higher definition of bhakti as inquiry into and absorption in the true nature of the Self.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.saguna_worship_practical_for_restless_mind",
+      "chapter_ordinal": 6,
+      "chapter_title_ta": "ஸ்வாமி எதற்கு? அத்வைதம் அமைதிக்கே.",
+      "claim_summary": "Although Advaita culminates in formless realization, saguna worship, temple devotion, and Vedic disciplines are presented as necessary practical supports for minds that cannot yet become still directly.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, எல்லாம் தழுவும் அத்வைதம், printed p. 29 (PDF p. 40)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness explicitly treats saguna bhakti as a practical preparatory means before Advaitic realization."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.karma_and_bhakti_as_mind_purification",
+      "chapter_ordinal": 6,
+      "chapter_title_ta": "ஸ்வாமி எதற்கு? அத்வைதம் அமைதிக்கே.",
+      "claim_summary": "Karma and bhakti are described as preparatory means for purifying accumulated tendencies, replacing harmful action and thought, and making concentrated meditation possible.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "partial_match_not_sufficient",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, பக்தியும் கர்மமும், printed pp. 24–27 (PDF pp. 35–38)",
+        "match_level": "partial_match_not_sufficient",
+        "note": "Earlier witness agrees with the preparatory role of karma/bhakti, but the DK unit is broader than the reviewed passage."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.selfless_duty_purifies_chitta",
+      "chapter_ordinal": 6,
+      "chapter_title_ta": "ஸ்வாமி எதற்கு? அத்வைதம் அமைதிக்கே.",
+      "claim_summary": "The chapter teaches that duty performed without personal gain, jealousy, or competition and with concern for collective welfare can become punya karma and purify the mind.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "partial_match_not_sufficient",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, பக்தியும் கர்மமும், printed pp. 24–27 (PDF pp. 35–38)",
+        "match_level": "partial_match_not_sufficient",
+        "note": "The witness supports karma as preparation/purification, but the specific DK formulation about selfless social duty is broader."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.bhakti_leads_from_form_to_self_knowledge",
+      "chapter_ordinal": 6,
+      "chapter_title_ta": "ஸ்வாமி எதற்கு? அத்வைதம் அமைதிக்கே.",
+      "claim_summary": "Practices such as recitation, puja, and pilgrimage are presented as gradually concentrating the mind in the divine until devotion leads toward conscious stillness and knowledge of one's true Self.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.nonduality_as_freedom_from_fear_and_sorrow",
+      "chapter_ordinal": 7,
+      "chapter_title_ta": "அத்வைதமும் அணு விஞ்ஞானமும்",
+      "claim_summary": "The chapter presents nondual realization as liberation from attachment, fear, hatred, and sorrow because no truly separate second entity remains.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.dream_analogy_for_apparent_plurality",
+      "chapter_ordinal": 7,
+      "chapter_title_ta": "அத்வைதமும் அணு விஞ்ஞானமும்",
+      "claim_summary": "The plurality of ordinary experience is compared with dream: when ignorance ends, the chapter says, the one Paramatman remains as the underlying reality.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.science_matter_energy_unity_as_analogy",
+      "chapter_ordinal": 7,
+      "chapter_title_ta": "அத்வைதமும் அணு விஞ்ஞானமும்",
+      "claim_summary": "The chapter invokes then-modern descriptions of matter and energy as an analogy for the Advaitic claim that apparently different things can rest on an underlying unity.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.relative_world_and_absolute_brahman",
+      "chapter_ordinal": 7,
+      "chapter_title_ta": "அத்வைதமும் அணு விஞ்ஞானமும்",
+      "claim_summary": "Advaita's distinction between Brahman as ultimate reality and the world as dependent or transactional reality is compared in the chapter with the scientific language of relative and absolute.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.intellectual_unity_needs_ethical_realization",
+      "chapter_ordinal": 7,
+      "chapter_title_ta": "அத்வைதமும் அணு விஞ்ஞானமும்",
+      "claim_summary": "The chapter warns that intellectual discovery of unity is insufficient if it remains external knowledge; insight into the unity of life should shape feeling and conduct rather than serve destructive ends.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.azhukku_neenga_vazhi.knowledge_bliss_brahman_self_are_one",
+      "chapter_ordinal": 8,
+      "chapter_title_ta": "அழுக்கு நீங்க வழி",
+      "claim_summary": "Because limitless knowledge and limitless bliss cannot be two separate infinities, the chapter identifies jnana, ananda, Brahman, and Atman as one reality.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.azhukku_neenga_vazhi.dirty_moving_mirror_as_mind",
+      "chapter_ordinal": 8,
+      "chapter_title_ta": "அழுக்கு நீங்க வழி",
+      "claim_summary": "A restless and impure mind is compared to a dirty moving mirror that cannot reflect reality as it is; purification and steadiness are therefore prerequisites for true perception.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.azhukku_neenga_vazhi.removing_defects_enables_concentration_and_truth",
+      "chapter_ordinal": 8,
+      "chapter_title_ta": "அழுக்கு நீங்க வழி",
+      "claim_summary": "The chapter teaches that mental defects obstruct one-pointedness; as those defects are removed, concentration develops and truth becomes clearer.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.azhukku_neenga_vazhi.good_actions_prepare_for_jnana",
+      "chapter_ordinal": 8,
+      "chapter_title_ta": "அழுக்கு நீங்க வழி",
+      "claim_summary": "Charity, dharmic action, devotional remembrance, and temple worship are presented as means for countering prior wrongdoing and preparing the seeker for the path of knowledge.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kandamum_akandamum.many_jivas_as_reflections_of_one_brahman",
+      "chapter_ordinal": 9,
+      "chapter_title_ta": "கண்ணமும் அகண்டமும்",
+      "claim_summary": "Many individual centers of awareness are compared to many reflections of one sun, teaching that their light derives from one Brahman rather than from many independent ultimate selves.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kandamum_akandamum.tat_tvam_asi_identity",
+      "chapter_ordinal": 9,
+      "chapter_title_ta": "கண்ணமும் அகண்டமும்",
+      "claim_summary": "The apparently distant absolute is said to be present everywhere and to be the seeker's own true Self, expressed through the teaching 'Tat Tvam'.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, முடிவான நிலை, printed p. 94 (PDF p. 105)",
+        "match_level": "close_paraphrase",
+        "note": "Earlier witness explicitly states the Tat–Tvam identity teaching at the same doctrinal level."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kandamum_akandamum.hold_to_the_real_for_enduring_joy",
+      "chapter_ordinal": 9,
+      "chapter_title_ta": "கண்ணமும் அகண்டமும்",
+      "claim_summary": "Fragmented identity is treated as a transient mental appearance; enduring joy comes from holding to the one unchanging reality and ultimately becoming established in that wholeness.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kandamum_akandamum.saguna_meditation_toward_nirguna",
+      "chapter_ordinal": 9,
+      "chapter_title_ta": "கண்ணமும் அகண்டமும்",
+      "claim_summary": "Meditation on the formless absolute may be approached through forms and qualities first, with saguna contemplation serving as a path toward nirguna realization and peace.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, முடிவான நிலை, printed pp. 94–96 (PDF pp. 105–107)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness supports progression from conditioned/saguna contemplation toward higher nondual/nirguna realization."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kandamum_akandamum.spiritual_maturation_is_gradual",
+      "chapter_ordinal": 9,
+      "chapter_title_ta": "கண்ணமும் அகண்டமும்",
+      "claim_summary": "Spiritual ripening is compared with fruit maturing through stages; puja, japa, and tapas should continue patiently until direct realization becomes natural rather than forced.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.niraindha_anandam.bhrigu_inquiry_through_layers_of_person",
+      "chapter_ordinal": 10,
+      "chapter_title_ta": "நிறைந்த ஆனந்தம்",
+      "claim_summary": "The Bhrigu narrative presents inquiry progressing through body, life-force, mind, and intellect before turning toward bliss as the deeper ground.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.niraindha_anandam.atman_as_source_of_full_bliss",
+      "chapter_ordinal": 10,
+      "chapter_title_ta": "நிறைந்த ஆனந்தம்",
+      "claim_summary": "Atman is described as the reality underlying and transcending body, prana, mind, and intellect; self-experience is the source of complete bliss.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.niraindha_anandam.ordinary_joy_as_glimpse_of_underlying_ananda",
+      "chapter_ordinal": 10,
+      "chapter_title_ta": "நிறைந்த ஆனந்தம்",
+      "claim_summary": "Ordinary moments of happiness are described as brief openings through the obscuring effects of karma and mind into an all-pervading bliss that can be realized through tapas and inquiry.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kannan_sonnan_kambanum_sonnan.self_as_immanent_and_substratum",
+      "chapter_ordinal": 11,
+      "chapter_title_ta": "கண்ணன் சொன்னான், கம்பனும் சொன்னான்",
+      "claim_summary": "The chapter explains that the Self or Isvara is both present in all beings and the support on which all beings depend; immanence does not make the world the independent support of God.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kannan_sonnan_kambanum_sonnan.ultimate_reality_beyond_world_relations",
+      "chapter_ordinal": 11,
+      "chapter_title_ta": "கண்ணன் சொன்னான், கம்பனும் சொன்னான்",
+      "claim_summary": "From the standpoint of ultimate knowledge, even statements about God being in the world or the world being in God are transcended; the chapter attributes this apparent paradox to maya and says it is understood by realized knowers.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kannan_sonnan_kambanum_sonnan.garland_snake_analogy_for_world_and_brahman",
+      "chapter_ordinal": 11,
+      "chapter_title_ta": "கண்ணன் சொன்னான், கம்பனும் சொன்னான்",
+      "claim_summary": "The garland-snake analogy is used to say that Brahman is the real substratum while the world is a mistaken appearance; when knowledge arises, the apparent world loses independent status.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kannan_sonnan_kambanum_sonnan.kamban_read_as_advaitic_witness",
+      "chapter_ordinal": 11,
+      "chapter_title_ta": "கண்ணன் சொன்னான், கம்பனும் சொன்னான்",
+      "claim_summary": "A Kamban verse is interpreted as expressing the same nondual insight: the apparent five-element world dissolves in knowledge of the underlying divine reality, identified in the poem with Rama.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anandam_enge.desire_binds_to_sorrow",
+      "chapter_ordinal": 12,
+      "chapter_title_ta": "ஆனந்தம் எங்கே",
+      "claim_summary": "Desires are described as so many points of attachment to sorrow; deliberately reducing them before life's end is presented as a path toward freedom and union with the divine.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anandam_enge.human_intelligence_should_seek_lasting_bliss",
+      "chapter_ordinal": 12,
+      "chapter_title_ta": "ஆனந்தம் எங்கே",
+      "claim_summary": "Human intelligence is said to find its highest use not merely in ordinary survival but in discovering lasting bliss and realizing that true knowledge, bliss, and the real Self are one.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anandam_enge.joy_arises_from_self_not_objects",
+      "chapter_ordinal": 12,
+      "chapter_title_ta": "ஆனந்தம் எங்கே",
+      "claim_summary": "Examples of ownership and attachment are used to argue that external objects do not contain happiness in themselves; the feeling of 'mine' changes the experience, indicating that joy arises from the subject rather than the object.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anandam_enge.self_as_ocean_of_bliss_behind_maya",
+      "chapter_ordinal": 12,
+      "chapter_title_ta": "ஆனந்தம் எங்கே",
+      "claim_summary": "The pure Self is compared to a lamp or ocean of bliss whose light appears only in limited rays while maya obscures it; removing the obstruction reveals a single underlying bliss.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anandam_enge.sense_restraint_concentrates_inner_power",
+      "chapter_ordinal": 12,
+      "chapter_title_ta": "ஆனந்தம் எங்கே",
+      "claim_summary": "Restraining desires and the senses is presented not as becoming inert but as gathering scattered inner power into a more concentrated, peaceful capacity that can also serve others.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anandam_enge.vedic_discipline_as_path_to_stable_ananda",
+      "chapter_ordinal": 12,
+      "chapter_title_ta": "ஆனந்தம் எங்கே",
+      "claim_summary": "The chapter presents the Vedic path as practical guidance for restraining desire and mind so that the seeker may reach stable bliss.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ethirkondu_azhaippan.jiva_bubble_and_guru_grace",
+      "chapter_ordinal": 13,
+      "chapter_title_ta": "எதிர்கொண்டு அழைப்பான்?",
+      "claim_summary": "The jiva is compared to a bubble in the ocean of Paramatman, with the guru's grace portrayed as the favorable force that breaks separateness and restores union with the source.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ethirkondu_azhaippan.changing_forms_unmodified_whole",
+      "chapter_ordinal": 13,
+      "chapter_title_ta": "எதிர்கொண்டு அழைப்பான்?",
+      "claim_summary": "Using the water cycle, the chapter teaches that many changing forms do not alter the underlying total reality; increase and decrease belong to appearances, not to the one whole.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ethirkondu_azhaippan.rivers_and_gunas_converge_on_paramatman",
+      "chapter_ordinal": 13,
+      "chapter_title_ta": "எதிர்கொண்டு அழைப்பான்?",
+      "claim_summary": "Different rivers and their colors are used as an analogy for different guna-dominated temperaments, all of which ultimately must reach the same Paramatman.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ethirkondu_azhaippan.humility_and_measure_bring_peace",
+      "chapter_ordinal": 13,
+      "chapter_title_ta": "எதிர்கொண்டு அழைப்பான்?",
+      "claim_summary": "The river reaching its natural level becomes an image for humility and measure: reducing self-display and moving with restraint is said to bring peace and invite divine grace.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mayai.advaita_affirms_brahman_as_ultimate_reality",
+      "chapter_ordinal": 14,
+      "chapter_title_ta": "மாயை",
+      "claim_summary": "Advaita is distinguished from a view that nothing exists at all: the world may be maya, but Brahman is affirmed as the ultimate reality underlying it.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mayai.maya_is_appearance_not_absolute_nonexistence",
+      "chapter_ordinal": 14,
+      "chapter_title_ta": "மாயை",
+      "claim_summary": "Maya is described not as absolute nonexistence but as an appearance that functions while it is taken as real, like a mirage that is seen even when known not to contain water.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mayai.misperception_has_experiential_effects",
+      "chapter_ordinal": 14,
+      "chapter_title_ta": "மாயை",
+      "claim_summary": "The rope-snake example teaches that a mistaken appearance can produce genuine fear and reactions until knowledge of the underlying reality removes the error.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mayai.world_as_temporary_dependent_reality",
+      "chapter_ordinal": 14,
+      "chapter_title_ta": "மாயை",
+      "claim_summary": "The world is described as a temporary or appearance-level reality that persists under ignorance and disappears as an independent reality when knowledge dawns.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mayai.maya_multiplicity_zero_analogy",
+      "chapter_ordinal": 14,
+      "chapter_title_ta": "மாயை",
+      "claim_summary": "The chapter uses zero as an analogy for maya: when the individual takes itself as a separate unit, maya seems to multiply the apparent world into many real things.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mayai.sage_sees_brahman_as_sweet_substance_of_all",
+      "chapter_ordinal": 14,
+      "chapter_title_ta": "மாயை",
+      "claim_summary": "The sugar-figure and light analogies present the sage's vision as recognizing one blissful Brahman beneath forms that ordinary perception experiences as pleasant, painful, bright, or dark.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.agamum_puramum.external_chasing_creates_restlessness",
+      "chapter_ordinal": 15,
+      "chapter_title_ta": "அகமும் புறமும்",
+      "claim_summary": "Endless pursuit of external objects is said to prevent lasting peace because external gains are unstable, incomplete, and never fully under one's control.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.agamum_puramum.desire_for_happiness_points_inward",
+      "chapter_ordinal": 15,
+      "chapter_title_ta": "அகமும் புறமும்",
+      "claim_summary": "The universal search for happiness is interpreted as evidence that bliss is one's own underlying nature, forgotten through maya; prayer, self-inquiry, and meditation are prescribed for discovering it.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.agamum_puramum.external_pleasure_is_drop_of_inner_ocean",
+      "chapter_ordinal": 15,
+      "chapter_title_ta": "அகமும் புறமும்",
+      "claim_summary": "External pleasures are compared to drops from the ocean of inner bliss; realizing the Self is said to dissolve desires rather than require satisfaction of each one.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.agamum_puramum.inner_fullness_removes_sense_of_lack",
+      "chapter_ordinal": 15,
+      "chapter_title_ta": "அகமும் புறமும்",
+      "claim_summary": "The chapter urges the seeker to cultivate the conviction of inner completeness, treating whatever comes from outside as nonessential to the fullness already present in the Self.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dukkach_sumai_kuraiya_vazhi.knowledge_of_one_reality_calms_plurality",
+      "chapter_ordinal": 16,
+      "chapter_title_ta": "துக்கச் சுமை குறைய வழி",
+      "claim_summary": "Jnana is defined as turning from the many changing appearances toward their one underlying reality; this shift is said to end agitation born of difference and comparison.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dukkach_sumai_kuraiya_vazhi.worldly_pleasure_is_impermanent",
+      "chapter_ordinal": 16,
+      "chapter_title_ta": "துக்கச் சுமை குறைய வழி",
+      "claim_summary": "Worldly pleasure is described as intermittent and dependent on changing external conditions, whereas lasting happiness is linked to knowing the single reality underlying the world.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dukkach_sumai_kuraiya_vazhi.wealth_and_status_do_not_remove_suffering",
+      "chapter_ordinal": 16,
+      "chapter_title_ta": "துக்கச் சுமை குறைய வழி",
+      "claim_summary": "The chapter argues that wealth and status do not eliminate suffering and may bring added anxiety about loss, so outward advantage should not be equated with inner happiness.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dukkach_sumai_kuraiya_vazhi.knowledge_helps_bear_karmic_suffering",
+      "chapter_ordinal": 16,
+      "chapter_title_ta": "துக்கச் சுமை குறைய வழி",
+      "claim_summary": "Suffering is framed as connected with prior karma, while spiritual knowledge is offered as the way to bear present hardship peacefully and avoid adding new karmic burdens.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dukkach_sumai_kuraiya_vazhi.jnani_unaffected_inwardly_by_bodily_pain",
+      "chapter_ordinal": 16,
+      "chapter_title_ta": "துக்கச் சுமை குறைய வழி",
+      "claim_summary": "The jnani is described as fully conscious yet inwardly undisturbed even when bodily difficulty remains; liberation is therefore not equated with physical comfort.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dukkach_sumai_kuraiya_vazhi.immerse_sorrow_in_knowledge",
+      "chapter_ordinal": 16,
+      "chapter_title_ta": "துக்கச் சுமை குறைய வழி",
+      "claim_summary": "The water-filled-pot analogy teaches that difficulties may remain outwardly present while their felt weight becomes lighter when immersed in knowledge.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.yogi.yogi_as_one_unshaken_by_sorrow",
+      "chapter_ordinal": 17,
+      "chapter_title_ta": "யோகி",
+      "claim_summary": "A yogi is described as one whom sorrow does not inwardly touch because mental impurity has been reduced through discipline, education, and sustained practice.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.yogi.mind_returns_to_source_and_stops_seeking",
+      "chapter_ordinal": 17,
+      "chapter_title_ta": "யோகி",
+      "claim_summary": "When the mind returns to its source in Paramatman, it is said to stop running after other objects; the river merging in the ocean illustrates the end of separate striving.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.yogi.equanimity_under_great_sorrow_marks_yoga",
+      "chapter_ordinal": 17,
+      "chapter_title_ta": "யோகி",
+      "claim_summary": "Steadiness under even severe outward sorrow is presented as a mark of yoga, not because the yogi is unconscious but because awareness is full and no desire-dependent disturbance remains.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.yogi.compassion_and_egoless_action_mark_yogi",
+      "chapter_ordinal": 17,
+      "chapter_title_ta": "யோகி",
+      "claim_summary": "The realized yogi is portrayed as naturally compassionate, free from hatred and the egoistic sense of doership, and intent on avoiding harm to other beings.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.yogi.disciplines_prepare_for_end_of_rebirth",
+      "chapter_ordinal": 17,
+      "chapter_title_ta": "யோகி",
+      "claim_summary": "Discipline, worship, austerity, sacrifice, charity, and training from early life are presented as gradual means by which rare full realization and freedom from repeated birth may become possible.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dukkha_parikaram.multiple_frameworks_for_illness_and_suffering",
+      "chapter_ordinal": 18,
+      "chapter_title_ta": "துக்க பரிகாரம்",
+      "claim_summary": "Within the chapter's religious framework, illness and other suffering are described through multiple explanatory systems, with karma treated as the underlying cause and medical, astrological, ritual, and other factors as secondary manifestations or conditions.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dukkha_parikaram.surrender_presented_as_highest_remedy",
+      "chapter_ordinal": 18,
+      "chapter_title_ta": "துக்க பரிகாரம்",
+      "claim_summary": "The chapter permits different forms of remedy within their own frameworks but presents devotional surrender of one's life to God as the spiritually highest remedy.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dukkha_parikaram.avoid_new_karmic_burden",
+      "chapter_ordinal": 18,
+      "chapter_title_ta": "துக்க பரிகாரம்",
+      "claim_summary": "More important than repeatedly seeking relief for old karma, the chapter says, is to stop adding new harmful karma and take divine help in living without further wrongdoing.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dukkha_parikaram.isvara_meditation_and_nondual_end_of_suffering",
+      "chapter_ordinal": 18,
+      "chapter_title_ta": "துக்க பரிகாரம்",
+      "claim_summary": "Meditation on Isvara is presented as both a way to endure present suffering and a safeguard against new causes of suffering, culminating in the nondual realization where the duality of pleasure and pain is transcended.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dvaitam_bauddham_advaitam.purnam_mantra_as_appearance_not_transformation",
+      "chapter_ordinal": 19,
+      "chapter_title_ta": "த்வைதம் ./. பௌத்தம் = அத்வைதம்",
+      "claim_summary": "The fullness mantra is interpreted to mean that the world is not a separate product or transformation of Brahman but an appearance in Brahman, leaving the underlying fullness unchanged.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dvaitam_bauddham_advaitam.maya_as_multiplier_of_apparent_plurality",
+      "chapter_ordinal": 19,
+      "chapter_title_ta": "த்வைதம் ./. பௌத்தம் = அத்வைதம்",
+      "claim_summary": "The chapter develops an informal arithmetic analogy in which maya is compared with zero and Brahman with infinity to illustrate how one reality can appear as unlimited plurality without itself changing.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dvaitam_bauddham_advaitam.contrast_advaita_dvaita_buddhism",
+      "chapter_ordinal": 19,
+      "chapter_title_ta": "த்வைதம் ./. பௌத்தம் = அத்வைதம்",
+      "claim_summary": "The chapter gives a compact comparative characterization: Advaita affirms Brahman as the ultimate reality, Dvaita affirms the world as real, and Buddhism is presented as emphasizing emptiness or maya.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dvaitam_bauddham_advaitam.playful_equations_as_mnemonic",
+      "chapter_ordinal": 19,
+      "chapter_title_ta": "த்வைதம் ./. பௌத்தம் = அத்வைதம்",
+      "claim_summary": "The concluding equations relating Advaita, Buddhism, and Dvaita are rhetorical mnemonics for the chapter's comparison, not literal mathematical propositions.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.acharyargalin_aagnai.acharya_command_to_meditate_and_guide_others",
+      "chapter_ordinal": 20,
+      "chapter_title_ta": "ஆசார்யர்களின் ஆக்ஞை",
+      "claim_summary": "The chapter presents a central duty of Shankara-lineage teachers as continual meditation on Isvara and encouraging others to meditate, with the deeper goal of discovering one's true identity with the divine.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.acharyargalin_aagnai.guru_accountability_for_guidance",
+      "chapter_ordinal": 20,
+      "chapter_title_ta": "ஆசார்யர்களின் ஆக்ஞை",
+      "claim_summary": "Using traditional ethical language, the chapter says a teacher bears responsibility for failing to guide disciples well and extends this idea to the heightened responsibility of a Jagadguru.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.acharyargalin_aagnai.meditation_as_purification_for_teacher_and_disciple",
+      "chapter_ordinal": 20,
+      "chapter_title_ta": "ஆசார்யர்களின் ஆக்ஞை",
+      "claim_summary": "Meditation is presented as the means for reducing sin or impurity; teachers may pray and meditate for others, but each person's own practice is still said to matter.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.acharyargalin_aagnai.daily_meditation_should_take_priority",
+      "chapter_ordinal": 20,
+      "chapter_title_ta": "ஆசார்யர்களின் ஆக்ஞை",
+      "claim_summary": "The chapter urges making daily meditation a primary obligation by reclaiming time from gossip and distraction, describing it as a means to purify the mind, endure old karma, and avoid new wrongdoing.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.acharyargalin_aagnai.encourage_meditation_with_love_not_anger",
+      "chapter_ordinal": 20,
+      "chapter_title_ta": "ஆசார்யர்களின் ஆக்ஞை",
+      "claim_summary": "Others should be encouraged toward meditation through affection and persuasion rather than anger; loving instruction is presented as more capable of softening resistance.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.acharyargalin_aagnai.human_birth_fulfilled_by_isvara_meditation",
+      "chapter_ordinal": 20,
+      "chapter_title_ta": "ஆசார்யர்களின் ஆக்ஞை",
+      "claim_summary": "Sustained meditation on Isvara is presented as a principal way of fulfilling human birth and reaching life's end with spiritual confidence rather than fear.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paapa_punniyangal.desire_as_driver_of_sin_and_anger",
+      "chapter_ordinal": 22,
+      "chapter_title_ta": "பாப புண்ணியங்கள்",
+      "claim_summary": "Desire is presented as a principal force behind wrongdoing: fulfillment feeds further desire, while frustration turns desire into anger and pushes the mind toward more harmful action.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paapa_punniyangal.redirect_action_toward_selfless_ends",
+      "chapter_ordinal": 22,
+      "chapter_title_ta": "பாப புண்ணியங்கள்",
+      "claim_summary": "Because action and mental activity cannot simply be stopped at once, the chapter recommends redirecting them away from private craving toward selfless, socially beneficial, and spiritually constructive activity.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paapa_punniyangal.transform_body_speech_mind_wealth_into_merit",
+      "chapter_ordinal": 22,
+      "chapter_title_ta": "பாப புண்ணியங்கள்",
+      "claim_summary": "The same four channels through which wrongdoing occurs—body, speech, mind, and wealth—are to be deliberately redirected toward service and worship, divine-name remembrance, meditation, and charity.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paapa_punniyangal.vasanas_can_be_retrained",
+      "chapter_ordinal": 22,
+      "chapter_title_ta": "பாப புண்ணியங்கள்",
+      "claim_summary": "Repeated wrongdoing is said to create habit-patterns or vasanas that draw a person back into the same conduct; repeated punya and devotion can gradually weaken those patterns and establish better tendencies.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paapa_punniyangal.divine_grace_gives_hope_to_sinner",
+      "chapter_ordinal": 22,
+      "chapter_title_ta": "பாப புண்ணியங்கள்",
+      "claim_summary": "The chapter emphasizes hope rather than despair for the sinner, invoking divine grace and Krishna's promise of liberation to one who takes refuge in him.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paapa_punniyangal.patient_dharma_unwinds_old_tendencies",
+      "chapter_ordinal": 22,
+      "chapter_title_ta": "பாப புண்ணியங்கள்",
+      "claim_summary": "Accumulated harmful tendencies are compared to a tightly wound cord that must be patiently unwound through sustained punya, trust in God, and performance of dharma rather than through impatience.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paapa_punniyangal.religion_redirects_senses_toward_paramatman",
+      "chapter_ordinal": 22,
+      "chapter_title_ta": "பாப புண்ணியங்கள்",
+      "claim_summary": "The chapter presents religious disciplines as systems for turning body, speech, and mind away from transient sense pleasure toward Paramatman, with a path that begins in karma, moves through bhakti, and culminates in jnana.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    }
+  ]
+}
