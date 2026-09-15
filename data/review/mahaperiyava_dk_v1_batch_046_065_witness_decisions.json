@@ -1,0 +1,988 @@
+{
+  "version": "1.0",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "batch": "046_065",
+  "base_git_commit": "05bcb850c2dfc6e119288417018ee8e2b3da17d3",
+  "review_type": "targeted_1957_58_historical_witness_item_level_review",
+  "curator_policy": {
+    "historical_witness_support_is_claim_level_only": true,
+    "same_general_theme_is_insufficient": true,
+    "collection_lineage_does_not_auto_promote_claims": true,
+    "earlier_attestation_is_not_external_factual_verification": true,
+    "printed_wording_is_not_treated_as_verbatim_primary_speech": true,
+    "textual_dependency_on_deivathin_kural_is_not_asserted": true,
+    "no_print_check_claimed": true,
+    "no_primary_source_verified_claimed": true,
+    "sensitivity_flags_must_be_preserved": true,
+    "restricted_source_text_is_not_included": true
+  },
+  "counts": {
+    "total_units": 105,
+    "supported_for_claim_level_promotion": 9,
+    "partial_match_not_sufficient": 13,
+    "not_evaluated_in_targeted_sections": 83
+  },
+  "decisions": [
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sasthirama_manasatchiya.dharma_shastra_as_normative_authority",
+      "chapter_ordinal": 46,
+      "chapter_slug": "sasthirama_manasatchiya",
+      "unit_slug": "dharma_shastra_as_normative_authority",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sasthirama_manasatchiya.veda_smriti_relationship",
+      "chapter_ordinal": 46,
+      "chapter_slug": "sasthirama_manasatchiya",
+      "unit_slug": "veda_smriti_relationship",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sasthirama_manasatchiya.hierarchy_of_dharma_authorities",
+      "chapter_ordinal": 46,
+      "chapter_slug": "sasthirama_manasatchiya",
+      "unit_slug": "hierarchy_of_dharma_authorities",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sasthirama_manasatchiya.conscience_as_last_resort",
+      "chapter_ordinal": 46,
+      "chapter_slug": "sasthirama_manasatchiya",
+      "unit_slug": "conscience_as_last_resort",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sasthirama_manasatchiya.conscience_witness_not_judge",
+      "chapter_ordinal": 46,
+      "chapter_slug": "sasthirama_manasatchiya",
+      "unit_slug": "conscience_witness_not_judge",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sanatana_dharmame_sankarar_tharum_neri.critique_of_dismissing_tradition",
+      "chapter_ordinal": 47,
+      "chapter_slug": "sanatana_dharmame_sankarar_tharum_neri",
+      "unit_slug": "critique_of_dismissing_tradition",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sanatana_dharmame_sankarar_tharum_neri.varna_and_historical_unity_claim",
+      "chapter_ordinal": 47,
+      "chapter_slug": "sanatana_dharmame_sankarar_tharum_neri",
+      "unit_slug": "varna_and_historical_unity_claim",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sanatana_dharmame_sankarar_tharum_neri.small_community_self_regulation",
+      "chapter_ordinal": 47,
+      "chapter_slug": "sanatana_dharmame_sankarar_tharum_neri",
+      "unit_slug": "small_community_self_regulation",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sanatana_dharmame_sankarar_tharum_neri.criticism_should_identify_real_faults",
+      "chapter_ordinal": 47,
+      "chapter_slug": "sanatana_dharmame_sankarar_tharum_neri",
+      "unit_slug": "criticism_should_identify_real_faults",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sanatana_dharmame_sankarar_tharum_neri.sacred_marks_as_spiritual_symbols",
+      "chapter_ordinal": 47,
+      "chapter_slug": "sanatana_dharmame_sankarar_tharum_neri",
+      "unit_slug": "sacred_marks_as_spiritual_symbols",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sanatana_dharmame_sankarar_tharum_neri.shankara_mandate_to_preserve_dharma",
+      "chapter_ordinal": 47,
+      "chapter_slug": "sanatana_dharmame_sankarar_tharum_neri",
+      "unit_slug": "shankara_mandate_to_preserve_dharma",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.restless_mind_obstructs_meditation",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "restless_mind_obstructs_meditation",
+      "status": "supported_for_claim_level_promotion",
+      "target_authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 153–155 (PDF pp. 164–166)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness connects desire/restlessness and mental impurity with the need for chitta discipline and one-pointed concentration. Supports the core teaching, not verbatim wording."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.mastery_means_mind_obeys_intention",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "mastery_means_mind_obeys_intention",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 154–155 (PDF pp. 165–166)",
+        "reason": "Earlier witness supports one-pointed mental discipline, but does not clearly establish the fuller start/stop-thought-at-will formulation."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.mind_mastery_and_response_to_pain_fear_anger",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "mind_mastery_and_response_to_pain_fear_anger",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed p. 154 (PDF p. 165)",
+        "reason": "Earlier witness explicitly describes the steady mind as not shaken even by great sorrow, but does not cover the full pain/fear/grief/provocation scope of the curated unit."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.one_pointed_isvara_meditation",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "one_pointed_isvara_meditation",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 155–156 (PDF pp. 166–167)",
+        "reason": "Earlier witness strongly supports one-pointed concentration and yoga as restraint of mental movement, but the inspected locus does not make the unit's specific Isvara-remembrance formulation sufficiently explicit."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.master_mind_in_this_life",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "master_mind_in_this_life",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 153–155 (PDF pp. 164–166)",
+        "reason": "Earlier witness supports purification from desire/anger and mental steadiness, but not the full within-this-life plus repeated-birth claim."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.yoga_is_for_people_with_restless_minds",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "yoga_is_for_people_with_restless_minds",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 152–156 (PDF pp. 163–167)",
+        "reason": "Earlier witness supports yoga/chitta discipline for overcoming mental disturbance, but not the full ordinary-people plus outward/inward-practice formulation."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.five_common_dharmas_prepare_meditation",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "five_common_dharmas_prepare_meditation",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.ahimsa_in_thought_speech_action",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "ahimsa_in_thought_speech_action",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.respond_to_wrongdoing_without_hatred",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "respond_to_wrongdoing_without_hatred",
+      "status": "supported_for_claim_level_promotion",
+      "target_authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, அஹிம்சை, printed p. 151 (PDF p. 166)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness distinguishes corrective action motivated by care from hostility, using correction of a child as the example. Supports the no-hatred corrective principle."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.ahimsa_purifies_and_disciplines_mind",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "ahimsa_purifies_and_disciplines_mind",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, அஹிம்சை, printed pp. 150–168 (PDF pp. 165–183)",
+        "reason": "Earlier witness links ahimsa, love, restraint and reduction of hostility, but the inspected pages do not cleanly establish the curated unit's specific mind-discipline causal claim."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.perfected_ahimsa_pacifies_surroundings",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "perfected_ahimsa_pacifies_surroundings",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.sannyasi_bound_to_radical_ahimsa",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "sannyasi_bound_to_radical_ahimsa",
+      "status": "supported_for_claim_level_promotion",
+      "target_authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, அஹிம்சை, printed p. 166 (PDF p. 181)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness explicitly treats the strictest non-harming discipline as especially binding on the sannyasi while distinguishing duties by station."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.contextual_exceptions_to_absolute_ahimsa",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "contextual_exceptions_to_absolute_ahimsa",
+      "status": "supported_for_claim_level_promotion",
+      "target_authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, அஹிம்சை, printed pp. 160–166 (PDF pp. 175–181)",
+        "match_level": "substantial_doctrinal_overlap",
+        "note": "Earlier witness presents ahimsa as the ideal while explaining graded application by duty/station and discussing traditionally permitted contexts including yajna. Supports the contextual rather than universally identical application of ahimsa."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.critique_of_universal_absolute_ahimsa",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "critique_of_universal_absolute_ahimsa",
+      "status": "supported_for_claim_level_promotion",
+      "target_authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, அஹிம்சை, printed pp. 160–166 (PDF pp. 175–181)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness argues that the strictest form of ahimsa cannot simply be imposed identically on everyone and instead describes a graded discipline."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sathiyam.satya_as_alignment_of_mind_and_speech",
+      "chapter_ordinal": 50,
+      "chapter_slug": "sathiyam",
+      "unit_slug": "satya_as_alignment_of_mind_and_speech",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sathiyam.truth_must_be_beneficial_not_merely_literal",
+      "chapter_ordinal": 50,
+      "chapter_slug": "sathiyam",
+      "unit_slug": "truth_must_be_beneficial_not_merely_literal",
+      "status": "supported_for_claim_level_promotion",
+      "target_authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, அஹிம்சை, printed p. 165 (PDF p. 180)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness explicitly treats truth as requiring welfare/benefit rather than bare literal disclosure, including cases where harmful speech should be withheld."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sathiyam.truth_should_be_spoken_gently",
+      "chapter_ordinal": 50,
+      "chapter_slug": "sathiyam",
+      "unit_slug": "truth_should_be_spoken_gently",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, அஹிம்சை, printed p. 165 (PDF p. 180)",
+        "reason": "Earlier witness establishes beneficial truth and withholding harmful literal truth, but not the curated unit's distinct gentle/pleasant-delivery formulation."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sathiyam.pure_mind_underlies_truthful_speech",
+      "chapter_ordinal": 50,
+      "chapter_slug": "sathiyam",
+      "unit_slug": "pure_mind_underlies_truthful_speech",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sathiyam.satya_siddhi_and_abhirami_tradition",
+      "chapter_ordinal": 50,
+      "chapter_slug": "sathiyam",
+      "unit_slug": "satya_siddhi_and_abhirami_tradition",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sathiyam.common_dharmas_and_samskaras_purify_person",
+      "chapter_ordinal": 50,
+      "chapter_slug": "sathiyam",
+      "unit_slug": "common_dharmas_and_samskaras_purify_person",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 153–156 (PDF pp. 164–167)",
+        "reason": "Earlier witness supports disciplines and karmas as means of chitta-suddhi, but the inspected locus does not establish the unit's exact samskara plus five-common-dharma formulation."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ellum_thanneerum_enge_poyina.five_yajnas_as_debts_and_service",
+      "chapter_ordinal": 51,
+      "chapter_slug": "ellum_thanneerum_enge_poyina",
+      "unit_slug": "five_yajnas_as_debts_and_service",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ellum_thanneerum_enge_poyina.care_for_parents_and_ancestor_rites",
+      "chapter_ordinal": 51,
+      "chapter_slug": "ellum_thanneerum_enge_poyina",
+      "unit_slug": "care_for_parents_and_ancestor_rites",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ellum_thanneerum_enge_poyina.skepticism_about_shraddha_mechanism",
+      "chapter_ordinal": 51,
+      "chapter_slug": "ellum_thanneerum_enge_poyina",
+      "unit_slug": "skepticism_about_shraddha_mechanism",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ellum_thanneerum_enge_poyina.ritual_transmission_money_order_analogy",
+      "chapter_ordinal": 51,
+      "chapter_slug": "ellum_thanneerum_enge_poyina",
+      "unit_slug": "ritual_transmission_money_order_analogy",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ellum_thanneerum_enge_poyina.shraddha_requires_faith_and_rule",
+      "chapter_ordinal": 51,
+      "chapter_slug": "ellum_thanneerum_enge_poyina",
+      "unit_slug": "shraddha_requires_faith_and_rule",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poojai.daily_family_puja_should_be_practical",
+      "chapter_ordinal": 52,
+      "chapter_slug": "poojai",
+      "unit_slug": "daily_family_puja_should_be_practical",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poojai.panchayatana_worship_and_five_deities",
+      "chapter_ordinal": 52,
+      "chapter_slug": "poojai",
+      "unit_slug": "panchayatana_worship_and_five_deities",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poojai.portable_simple_panchayatana_practice",
+      "chapter_ordinal": 52,
+      "chapter_slug": "poojai",
+      "unit_slug": "portable_simple_panchayatana_practice",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poojai.naivedya_as_gratitude_not_feeding_god",
+      "chapter_ordinal": 52,
+      "chapter_slug": "poojai",
+      "unit_slug": "naivedya_as_gratitude_not_feeding_god",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poojai.divine_presence_in_worshipped_image",
+      "chapter_ordinal": 52,
+      "chapter_slug": "poojai",
+      "unit_slug": "divine_presence_in_worshipped_image",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poojai.daily_offering_disciplines_consumption",
+      "chapter_ordinal": 52,
+      "chapter_slug": "poojai",
+      "unit_slug": "daily_offering_disciplines_consumption",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paropakaram.tirukkural_and_vedic_duty_interpretation",
+      "chapter_ordinal": 53,
+      "chapter_slug": "paropakaram",
+      "unit_slug": "tirukkural_and_vedic_duty_interpretation",
+      "status": "supported_for_claim_level_promotion",
+      "target_authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, அஹிம்சை, printed p. 167 (PDF p. 182)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness interprets the Tirukkural non-killing/yajna comparison as praise of ahimsa rather than a blanket rejection of Vedic yajna, with role-specific context."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paropakaram.handful_of_rice_annadana_scheme",
+      "chapter_ordinal": 53,
+      "chapter_slug": "paropakaram",
+      "unit_slug": "handful_of_rice_annadana_scheme",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paropakaram.purta_dharma_and_physical_service",
+      "chapter_ordinal": 53,
+      "chapter_slug": "paropakaram",
+      "unit_slug": "purta_dharma_and_physical_service",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed p. 153 (PDF p. 164)",
+        "reason": "Earlier witness names public works such as temple/tank construction as dharmic karma contributing to chitta-suddhi, but does not cover the full food-distribution, quiet-service, social-benefit and ego-reduction unit."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paropakaram.service_to_beings_as_service_to_god",
+      "chapter_ordinal": 53,
+      "chapter_slug": "paropakaram",
+      "unit_slug": "service_to_beings_as_service_to_god",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_as_highest_human_fortune",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "service_as_highest_human_fortune",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_extends_to_animals_and_ritual_world",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "service_extends_to_animals_and_ritual_world",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.collective_service_requires_integrity",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "collective_service_requires_integrity",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_as_better_use_of_leisure",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "service_as_better_use_of_leisure",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.krishna_as_model_of_playful_service",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "krishna_as_model_of_playful_service",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_without_publicity",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "service_without_publicity",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.helping_beings_is_worship",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "helping_beings_is_worship",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.vaishvadeva_and_recurring_sacred_duties",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "vaishvadeva_and_recurring_sacred_duties",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.ordinary_household_life_causes_unintended_harm",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "ordinary_household_life_causes_unintended_harm",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.vegetarianism_as_lesser_harm_claim",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "vegetarianism_as_lesser_harm_claim",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, அஹிம்சை, printed pp. 163–165 (PDF pp. 178–180)",
+        "reason": "Earlier witness contains closely related meat/non-killing reasoning and the same wartime horse-meat comparison, but the inspected locus does not establish the full lower-sentience-harm plus sattva formulation."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.five_household_sources_of_unintended_harm",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "five_household_sources_of_unintended_harm",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.vaishvadeva_as_atonement_and_feeding_beings",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "vaishvadeva_as_atonement_and_feeding_beings",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.pancha_mahayajna_as_continuous_tradition",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "pancha_mahayajna_as_continuous_tradition",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.practice_what_is_possible_with_remorse_for_omissions",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "practice_what_is_possible_with_remorse_for_omissions",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.chitta_suddhikku_sila_chinna_vishayangal.small_dharmas_shape_contented_life",
+      "chapter_ordinal": 56,
+      "chapter_slug": "chitta_suddhikku_sila_chinna_vishayangal",
+      "unit_slug": "small_dharmas_shape_contented_life",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.chitta_suddhikku_sila_chinna_vishayangal.mutual_aid_in_family_ceremonies",
+      "chapter_ordinal": 56,
+      "chapter_slug": "chitta_suddhikku_sila_chinna_vishayangal",
+      "unit_slug": "mutual_aid_in_family_ceremonies",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.chitta_suddhikku_sila_chinna_vishayangal.critique_of_status_feasts",
+      "chapter_ordinal": 56,
+      "chapter_slug": "chitta_suddhikku_sila_chinna_vishayangal",
+      "unit_slug": "critique_of_status_feasts",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.chitta_suddhikku_sila_chinna_vishayangal.physical_service_available_to_everyone",
+      "chapter_ordinal": 56,
+      "chapter_slug": "chitta_suddhikku_sila_chinna_vishayangal",
+      "unit_slug": "physical_service_available_to_everyone",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.chitta_suddhikku_sila_chinna_vishayangal.service_and_bhakti_prepare_mind_for_grace",
+      "chapter_ordinal": 56,
+      "chapter_slug": "chitta_suddhikku_sila_chinna_vishayangal",
+      "unit_slug": "service_and_bhakti_prepare_mind_for_grace",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 153–156 (PDF pp. 164–167)",
+        "reason": "Earlier witness supports dharmic action as chitta-suddhi preparation, but not the full service-plus-bhakti leading to recognition of grace formulation."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutramum_gunamum.tradition_should_be_interiorized_not_forced",
+      "chapter_ordinal": 57,
+      "chapter_slug": "kutramum_gunamum",
+      "unit_slug": "tradition_should_be_interiorized_not_forced",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutramum_gunamum.notice_virtues_more_than_faults",
+      "chapter_ordinal": 57,
+      "chapter_slug": "kutramum_gunamum",
+      "unit_slug": "notice_virtues_more_than_faults",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutramum_gunamum.correct_others_only_with_qualification",
+      "chapter_ordinal": 57,
+      "chapter_slug": "kutramum_gunamum",
+      "unit_slug": "correct_others_only_with_qualification",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutramum_gunamum.praise_requires_discernment",
+      "chapter_ordinal": 57,
+      "chapter_slug": "kutramum_gunamum",
+      "unit_slug": "praise_requires_discernment",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam.desire_and_anger_as_moral_enemies",
+      "chapter_ordinal": 58,
+      "chapter_slug": "kobam",
+      "unit_slug": "desire_and_anger_as_moral_enemies",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed p. 153 (PDF p. 164)",
+        "reason": "Earlier witness explicitly lists desire and anger among mental impurities, but does not establish the curated unit's paired causal sequence in which obstructed desire produces anger."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam.anger_harms_the_angry_person",
+      "chapter_ordinal": 58,
+      "chapter_slug": "kobam",
+      "unit_slug": "anger_harms_the_angry_person",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam.desire_grows_when_fed",
+      "chapter_ordinal": 58,
+      "chapter_slug": "kobam",
+      "unit_slug": "desire_grows_when_fed",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam.grief_and_anger_as_two_forms_of_frustrated_desire",
+      "chapter_ordinal": 58,
+      "chapter_slug": "kobam",
+      "unit_slug": "grief_and_anger_as_two_forms_of_frustrated_desire",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam.humility_as_guard_against_anger",
+      "chapter_ordinal": 58,
+      "chapter_slug": "kobam",
+      "unit_slug": "humility_as_guard_against_anger",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam_kolla_thaguthi_ethu.we_lack_ground_for_self_righteous_anger",
+      "chapter_ordinal": 59,
+      "chapter_slug": "kobam_kolla_thaguthi_ethu",
+      "unit_slug": "we_lack_ground_for_self_righteous_anger",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam_kolla_thaguthi_ethu.love_reforms_better_than_fear",
+      "chapter_ordinal": 59,
+      "chapter_slug": "kobam_kolla_thaguthi_ethu",
+      "unit_slug": "love_reforms_better_than_fear",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam_kolla_thaguthi_ethu.pray_for_wrongdoers_instead_of_hating_them",
+      "chapter_ordinal": 59,
+      "chapter_slug": "kobam_kolla_thaguthi_ethu",
+      "unit_slug": "pray_for_wrongdoers_instead_of_hating_them",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam_kolla_thaguthi_ethu.criticism_should_begin_with_ones_own_faults",
+      "chapter_ordinal": 59,
+      "chapter_slug": "kobam_kolla_thaguthi_ethu",
+      "unit_slug": "criticism_should_begin_with_ones_own_faults",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam_kolla_thaguthi_ethu.love_as_human_dharma_and_joy",
+      "chapter_ordinal": 59,
+      "chapter_slug": "kobam_kolla_thaguthi_ethu",
+      "unit_slug": "love_as_human_dharma_and_joy",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.love_as_fulfillment_of_human_life",
+      "chapter_ordinal": 60,
+      "chapter_slug": "anbum_thunbamum",
+      "unit_slug": "love_as_fulfillment_of_human_life",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.finite_attachment_ends_in_separation_grief",
+      "chapter_ordinal": 60,
+      "chapter_slug": "anbum_thunbamum",
+      "unit_slug": "finite_attachment_ends_in_separation_grief",
+      "status": "partial_match_not_sufficient",
+      "target_authority": "dk_attested",
+      "candidate_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, அஹிம்சை, printed pp. 150, 154–155 (PDF pp. 165, 169–170)",
+        "reason": "Earlier witness clearly connects finite personal love with vulnerability to loss/grief while also teaching universal love, but the curated unit combines these points in a broader formulation; kept partial conservatively."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.imperishable_love_should_rest_in_paramatman",
+      "chapter_ordinal": 60,
+      "chapter_slug": "anbum_thunbamum",
+      "unit_slug": "imperishable_love_should_rest_in_paramatman",
+      "status": "supported_for_claim_level_promotion",
+      "target_authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, அஹிம்சை, printed pp. 154–155 (PDF pp. 169–170)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness redirects finite personal attachment toward the underlying Paramatman/imperishable source so that love is not confined to a perishable individual object."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.see_all_beings_as_paramatman",
+      "chapter_ordinal": 60,
+      "chapter_slug": "anbum_thunbamum",
+      "unit_slug": "see_all_beings_as_paramatman",
+      "status": "supported_for_claim_level_promotion",
+      "target_authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, அஹிம்சை, printed pp. 154–155 (PDF pp. 169–170)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness teaches that full love of the Paramatman naturally becomes love toward all beings because the same underlying reality is present in them."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.guru_and_saints_as_bridge_to_universal_love",
+      "chapter_ordinal": 60,
+      "chapter_slug": "anbum_thunbamum",
+      "unit_slug": "guru_and_saints_as_bridge_to_universal_love",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbu.three_conditioned_forms_of_worldly_love",
+      "chapter_ordinal": 61,
+      "chapter_slug": "anbu",
+      "unit_slug": "three_conditioned_forms_of_worldly_love",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbu.true_love_is_unconditional",
+      "chapter_ordinal": 61,
+      "chapter_slug": "anbu",
+      "unit_slug": "true_love_is_unconditional",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbu.love_the_wrongdoer_while_seeking_reform",
+      "chapter_ordinal": 61,
+      "chapter_slug": "anbu",
+      "unit_slug": "love_the_wrongdoer_while_seeking_reform",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbu.guru_love_expands_to_equal_love_for_all",
+      "chapter_ordinal": 61,
+      "chapter_slug": "anbu",
+      "unit_slug": "guru_love_expands_to_equal_love_for_all",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ethu_swarajyam.swarajya_as_cultural_self_rule",
+      "chapter_ordinal": 62,
+      "chapter_slug": "ethu_swarajyam",
+      "unit_slug": "swarajya_as_cultural_self_rule",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ethu_swarajyam.enduring_civilization_as_reason_for_continuity",
+      "chapter_ordinal": 62,
+      "chapter_slug": "ethu_swarajyam",
+      "unit_slug": "enduring_civilization_as_reason_for_continuity",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ethu_swarajyam.dharmic_governance_and_public_choice",
+      "chapter_ordinal": 62,
+      "chapter_slug": "ethu_swarajyam",
+      "unit_slug": "dharmic_governance_and_public_choice",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.aramum_anbum_arasangamum.dharma_integrates_personal_and_social_duties",
+      "chapter_ordinal": 63,
+      "chapter_slug": "aramum_anbum_arasangamum",
+      "unit_slug": "dharma_integrates_personal_and_social_duties",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.aramum_anbum_arasangamum.state_responsibility_for_order_and_spiritual_opportunity",
+      "chapter_ordinal": 63,
+      "chapter_slug": "aramum_anbum_arasangamum",
+      "unit_slug": "state_responsibility_for_order_and_spiritual_opportunity",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.aramum_anbum_arasangamum.all_action_should_begin_in_love",
+      "chapter_ordinal": 63,
+      "chapter_slug": "aramum_anbum_arasangamum",
+      "unit_slug": "all_action_should_begin_in_love",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.aramum_anbum_arasangamum.force_and_punishment_without_hatred",
+      "chapter_ordinal": 63,
+      "chapter_slug": "aramum_anbum_arasangamum",
+      "unit_slug": "force_and_punishment_without_hatred",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutrathai_kuraikkum_vazhi.government_prevents_domination_and_uses_deterrent_punishment",
+      "chapter_ordinal": 64,
+      "chapter_slug": "kutrathai_kuraikkum_vazhi",
+      "unit_slug": "government_prevents_domination_and_uses_deterrent_punishment",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutrathai_kuraikkum_vazhi.prevention_of_criminal_intent_is_better_than_punishment",
+      "chapter_ordinal": 64,
+      "chapter_slug": "kutrathai_kuraikkum_vazhi",
+      "unit_slug": "prevention_of_criminal_intent_is_better_than_punishment",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutrathai_kuraikkum_vazhi.dharmic_exemplars_should_shape_public_culture",
+      "chapter_ordinal": 64,
+      "chapter_slug": "kutrathai_kuraikkum_vazhi",
+      "unit_slug": "dharmic_exemplars_should_shape_public_culture",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutrathai_kuraikkum_vazhi.temples_and_positive_culture_over_expanding_enforcement",
+      "chapter_ordinal": 64,
+      "chapter_slug": "kutrathai_kuraikkum_vazhi",
+      "unit_slug": "temples_and_positive_culture_over_expanding_enforcement",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.education_should_cultivate_inner_and_outer_peace",
+      "chapter_ordinal": 65,
+      "chapter_slug": "unmai_kalvi",
+      "unit_slug": "education_should_cultivate_inner_and_outer_peace",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.science_should_serve_dharma_and_human_welfare",
+      "chapter_ordinal": 65,
+      "chapter_slug": "unmai_kalvi",
+      "unit_slug": "science_should_serve_dharma_and_human_welfare",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.true_education_leads_toward_self_knowledge",
+      "chapter_ordinal": 65,
+      "chapter_slug": "unmai_kalvi",
+      "unit_slug": "true_education_leads_toward_self_knowledge",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.para_and_apara_vidya_and_sources_of_knowledge",
+      "chapter_ordinal": 65,
+      "chapter_slug": "unmai_kalvi",
+      "unit_slug": "para_and_apara_vidya_and_sources_of_knowledge",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.education_should_preserve_inner_discipline_while_learning_from_abroad",
+      "chapter_ordinal": 65,
+      "chapter_slug": "unmai_kalvi",
+      "unit_slug": "education_should_preserve_inner_discipline_while_learning_from_abroad",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.children_should_receive_dharma_bhakti_and_cultural_formation",
+      "chapter_ordinal": 65,
+      "chapter_slug": "unmai_kalvi",
+      "unit_slug": "children_should_receive_dharma_bhakti_and_cultural_formation",
+      "status": "not_evaluated_in_targeted_sections",
+      "target_authority": "dk_attested"
+    }
+  ]
+}
