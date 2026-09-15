@@ -382,10 +382,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "868cbd639c2c14bd7ce02ddadffa1580012ec7d598e04e9b61dc1fc7e948d3ac",
       "snapshot_bytes": 73008,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 5
     },
     {
       "ordinal": 25,
@@ -415,10 +416,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "1016cfa0b68d24f0a9c9599124e695ede64fdb7b56a06514440217fec6beff7a",
       "snapshot_bytes": 76018,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 5
     },
     {
       "ordinal": 27,
@@ -429,10 +431,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "b906a3818c01b3916b488c1e12828be60f2c684b33729efdea74a0cff6fb6172",
       "snapshot_bytes": 85449,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 6
     },
     {
       "ordinal": 28,
@@ -443,10 +446,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "88798d345a2348e9bfd12ee0857fb7ec34c664509ffc21f670d0e1c01249c8f7",
       "snapshot_bytes": 76942,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 5
     },
     {
       "ordinal": 29,
@@ -457,10 +461,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "a0c61b5a1511159e250b85da4e99a3eb3168d54a17a6f8db397c60e6d3c0e1b2",
       "snapshot_bytes": 97672,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 8
     },
     {
       "ordinal": 30,
@@ -471,10 +476,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "9a1ca0ebdcddb24f3c541672c6d5c680b2ecb20e1fe05051e06deba3e5d81504",
       "snapshot_bytes": 118305,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 9
     },
     {
       "ordinal": 31,
@@ -485,10 +491,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "56a8fd394a0b6fedc851b6fb4bd16516eb892991f0880dbbecec04e703f79e15",
       "snapshot_bytes": 74374,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 6
     },
     {
       "ordinal": 32,
@@ -518,10 +525,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "8550f753cb71c69a5ea9eeae4606ded53becf2bd45b09524de862ac0cda3221b",
       "snapshot_bytes": 76404,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 4
     },
     {
       "ordinal": 34,
@@ -532,10 +540,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "b6ccea594bb55256f68820362698f1c24eb85b4cd45bb8ca13a7dd0036ed52dc",
       "snapshot_bytes": 90827,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 7
     },
     {
       "ordinal": 35,
@@ -546,10 +555,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "8f310bda503f071c5b980acdc7afd4811d4dcd9ac292b2db3cd3b33137e27993",
       "snapshot_bytes": 96934,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 6
     },
     {
       "ordinal": 36,
@@ -560,10 +570,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "aaf3a10fd155db010323cccbeb3ce65323fad247cd0e6bf8815d4dea9aa0a630",
       "snapshot_bytes": 121161,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 8
     },
     {
       "ordinal": 37,
@@ -574,10 +585,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "fa860ccee818b9d26e616a599ea5c6c92e65d93d8018852572c2883b5460276f",
       "snapshot_bytes": 79939,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 4
     },
     {
       "ordinal": 38,
@@ -588,10 +600,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "082fbcb800bd5174cb745c1120ce11a47755a6ec9958edb7cbcd86d0054c2de4",
       "snapshot_bytes": 174997,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 14
     },
     {
       "ordinal": 39,
@@ -602,10 +615,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "ed7d1d776770eb4ff86e314691e116bcd83e12908e89f303661c0c8280efd42d",
       "snapshot_bytes": 126305,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 13
     },
     {
       "ordinal": 40,
@@ -616,10 +630,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "cc7af8331772596200603d2c2afc93cc9aabf3b32dee8f01c18c2cad2ed53b98",
       "snapshot_bytes": 73681,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 4
     },
     {
       "ordinal": 41,
@@ -630,10 +645,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "017502b0e9ffc86962f58e87898f71516372afde76bd0d547b85b1f8c6dc9b66",
       "snapshot_bytes": 70150,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 3
     },
     {
       "ordinal": 42,
@@ -644,10 +660,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "3c8148239f5afc5b22a4d0cbf377bda3c5b3e4e0b6deeb458254c96a6ce78e56",
       "snapshot_bytes": 97758,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 7
     },
     {
       "ordinal": 43,
@@ -658,10 +675,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "0e127e93b1cc7334cbd632d269e4b4c938b67f755f116c22c622bd4154e789f3",
       "snapshot_bytes": 78421,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 6
     },
     {
       "ordinal": 44,
@@ -672,10 +690,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "cbc90d3d3cb937ef6589ee46ce3b49d25dc345b80e045318e5c8655ef1ab5835",
       "snapshot_bytes": 75744,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 6
     },
     {
       "ordinal": 45,
@@ -686,10 +705,11 @@
       "snapshot_status": "pinned",
       "snapshot_sha256": "a7b89dbb90a43f058222be3713a5bf41100218427423810d95bd1b54b7f5e2de",
       "snapshot_bytes": 72351,
-      "review_status": "needs_teaching_unit_review",
+      "review_status": "batch_teaching_units_curated",
       "public_text_policy": "metadata_only",
       "rights": "restricted_private_research",
-      "pilot": false
+      "pilot": false,
+      "teaching_unit_count": 4
     },
     {
       "ordinal": 46,
