@@ -1,0 +1,3302 @@
+{
+  "version": "0.1",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "phase": "batch_046_065_teaching_units_curated",
+  "status": "CURATED_REVIEW_DATA_NOT_PUBLICATION_APPROVED",
+  "generated_at": "2026-09-15T05:28:56+00:00",
+  "source_packet": {
+    "packet_version": "1.0",
+    "private_path": "data/private/mahaperiyava_dk_v1_batch_046_065_review_packet.json",
+    "sha256": "e2dd0da5200740c4283cee7e9ce43ae4411cb653195b95d59c2ed5803ec00490",
+    "generated_at": "2026-09-15T05:16:53+00:00",
+    "chapter_count": 20,
+    "paragraph_count": 212,
+    "contains_restricted_source_text": true,
+    "tracked": false
+  },
+  "policy": {
+    "no_exact_source_text_in_tracked_artifacts": true,
+    "claim_summaries_are_not_quotes": true,
+    "all_batch_authority_is_dk_attested": true,
+    "historical_witness_comparison_deferred": true,
+    "no_print_check_claimed": true,
+    "no_primary_source_verified_claimed": true,
+    "every_source_paragraph_mapped_exactly_once": true,
+    "replacement_decoded_source_units_are_flagged": true,
+    "source_title_anomalies_preserved_pending_qc": true,
+    "sensitive_external_fact_claims_are_flagged": true,
+    "social_and_religious_generalizations_are_attributed_only": true,
+    "caste_varna_material_requires_contextual_answering": true,
+    "political_material_requires_source_attribution": true,
+    "violence_punishment_and_sacrifice_material_requires_context": true,
+    "human_publication_review_still_required": true
+  },
+  "source_anomalies": [
+    {
+      "chapter_ordinal": 61,
+      "field": "title_ta",
+      "observed": "அன்பu",
+      "action": "preserved_pending_source_qc"
+    }
+  ],
+  "unit_count": 105,
+  "authority_counts": {
+    "dk_attested": 105
+  },
+  "chapter_unit_counts": {
+    "46": 5,
+    "47": 6,
+    "48": 7,
+    "49": 7,
+    "50": 6,
+    "51": 5,
+    "52": 6,
+    "53": 4,
+    "54": 7,
+    "55": 7,
+    "56": 5,
+    "57": 4,
+    "58": 5,
+    "59": 5,
+    "60": 5,
+    "61": 4,
+    "62": 3,
+    "63": 4,
+    "64": 4,
+    "65": 6
+  },
+  "flag_counts": {
+    "biological_generalization_attributed_only": 1,
+    "caste_varna_normative_claim": 4,
+    "causal_claim_attributed_only": 12,
+    "causal_claim_requires_external_verification": 3,
+    "cultural_generalization": 8,
+    "epistemic_claim_attributed_only": 1,
+    "hagiographic_tradition": 2,
+    "health_claim_attributed_only": 1,
+    "historical_claim_requires_external_verification": 17,
+    "linguistic_etymology_claim_requires_external_verification": 1,
+    "literary_interpretation": 4,
+    "medical_or_effect_claim_attributed_only": 1,
+    "political_historical_claim": 2,
+    "political_normative_claim": 7,
+    "psychological_generalization": 16,
+    "religious_comparison_attributed_only": 4,
+    "scientific_analogy_not_literal": 1,
+    "scientific_claim_requires_external_verification": 1,
+    "social_generalization": 11,
+    "source_decode_replacement": 70,
+    "traditional_normative_claim": 43,
+    "traditional_ritual_claim": 16,
+    "traditional_scriptural_claim": 8,
+    "traditional_soteriological_claim": 15,
+    "traditional_yogic_claim": 5
+  },
+  "source_coverage": {
+    "paragraph_count": 212,
+    "covered_paragraph_count": 212,
+    "coverage_mode": "exactly_once",
+    "excluded_source_blocks": 0
+  },
+  "units": [
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sasthirama_manasatchiya.dharma_shastra_as_normative_authority",
+      "chapter_ordinal": 46,
+      "chapter_slug": "sasthirama_manasatchiya",
+      "unit_slug": "dharma_shastra_as_normative_authority",
+      "claim_summary": "Dharma shastra is presented as the normative authority for determining dharma, oriented toward the welfare of all beings rather than personal preference.",
+      "question_intents": [
+        "How does Mahaperiyava describe the role of dharma shastra in deciding what is dharma?",
+        "Why are personal likes and dislikes insufficient for deciding dharma?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "5d6bfc333c4e3ac4f82a42ab23bf0e3a82896ace072163c423ce5f115a714f68"
+      ],
+      "topics": [
+        "dharma",
+        "scriptural_authority",
+        "ethics"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sasthirama_manasatchiya.veda_smriti_relationship",
+      "chapter_ordinal": 46,
+      "chapter_slug": "sasthirama_manasatchiya",
+      "unit_slug": "veda_smriti_relationship",
+      "claim_summary": "The Veda is presented as the root of dharma, with smriti and dharma shastra understood as elaborations grounded in Vedic teaching.",
+      "question_intents": [
+        "What relationship does Mahaperiyava describe between Veda, smriti, and dharma shastra?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "a37b4a0fbfa5af900bc63d8c6c7578a791f21a8b21d412cc66159f3a62ff3d67"
+      ],
+      "topics": [
+        "veda",
+        "smriti",
+        "dharma_shastra"
+      ],
+      "flags": [
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sasthirama_manasatchiya.hierarchy_of_dharma_authorities",
+      "chapter_ordinal": 46,
+      "chapter_slug": "sasthirama_manasatchiya",
+      "unit_slug": "hierarchy_of_dharma_authorities",
+      "claim_summary": "A hierarchy of practical authorities is described: scripture, remembered tradition, exemplary conduct of the wise, and only then a purified conscience.",
+      "question_intents": [
+        "What hierarchy of authorities does Mahaperiyava give for resolving questions of dharma?",
+        "When can the conduct of respected people serve as a guide?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "9623b2438a40597b5fe54e560dcf6b6b76728a0f5c3240fc7a64e64fea113a05"
+      ],
+      "topics": [
+        "dharma",
+        "authority",
+        "tradition",
+        "conscience"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sasthirama_manasatchiya.conscience_as_last_resort",
+      "chapter_ordinal": 46,
+      "chapter_slug": "sasthirama_manasatchiya",
+      "unit_slug": "conscience_as_last_resort",
+      "claim_summary": "Conscience is treated as a last-resort guide in religious and ethical matters, after Veda, dharma shastra, earlier exemplars, and disciplined contemporary conduct.",
+      "question_intents": [
+        "Where does conscience fit in Mahaperiyava’s hierarchy for deciding dharma?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "5efadd6e15126f119d2cdb74f696a1d341942dbf27df00935cab07914f7201a4"
+      ],
+      "topics": [
+        "conscience",
+        "dharma",
+        "authority"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sasthirama_manasatchiya.conscience_witness_not_judge",
+      "chapter_ordinal": 46,
+      "chapter_slug": "sasthirama_manasatchiya",
+      "unit_slug": "conscience_witness_not_judge",
+      "claim_summary": "Personal conscience is described as capable of witnessing one’s motives but too vulnerable to self-interest to function as the primary judge of dharma.",
+      "question_intents": [
+        "Why does Mahaperiyava caution against making personal conscience the final judge of dharma?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "c404d17c4bd69b6b35bcc2682211187561f15f351c339709d493e00fb57f38a0"
+      ],
+      "topics": [
+        "conscience",
+        "self_interest",
+        "dharma"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sanatana_dharmame_sankarar_tharum_neri.critique_of_dismissing_tradition",
+      "chapter_ordinal": 47,
+      "chapter_slug": "sanatana_dharmame_sankarar_tharum_neri",
+      "unit_slug": "critique_of_dismissing_tradition",
+      "claim_summary": "The chapter criticizes reform arguments that, in its view, discredit inherited dharma by first assigning it harmful motives or consequences.",
+      "question_intents": [
+        "How does Mahaperiyava characterize modern criticism of traditional dharma?",
+        "What is the “bad name” analogy used to argue about inherited practices?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "6e31c6f0685d7fbd20f87de92e0efc3c4758d56a63d5e5cfa07b721ccdd442a9",
+        "3f3205ac2ab7dd992b9b38c5536930f58a8e17f4ab148c6bc0cb2c2bcee1d2a4"
+      ],
+      "topics": [
+        "dharma_shastra",
+        "social_reform",
+        "tradition"
+      ],
+      "flags": [
+        "social_generalization",
+        "historical_claim_requires_external_verification",
+        "caste_varna_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sanatana_dharmame_sankarar_tharum_neri.varna_and_historical_unity_claim",
+      "chapter_ordinal": 47,
+      "chapter_slug": "sanatana_dharmame_sankarar_tharum_neri",
+      "unit_slug": "varna_and_historical_unity_claim",
+      "claim_summary": "The source argues that caste or community distinctions did not necessarily prevent local or national solidarity and contrasts this with perceived modern social conflict.",
+      "question_intents": [
+        "What does Mahaperiyava claim about social divisions and collective unity in earlier India?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "79c7c7ee4baff30c4a0d5bc43ca04ea49e5a0872d7bacfc9ba6d5aff9cfd8529"
+      ],
+      "topics": [
+        "varna",
+        "social_history",
+        "community"
+      ],
+      "flags": [
+        "caste_varna_normative_claim",
+        "historical_claim_requires_external_verification",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sanatana_dharmame_sankarar_tharum_neri.small_community_self_regulation",
+      "chapter_ordinal": 47,
+      "chapter_slug": "sanatana_dharmame_sankarar_tharum_neri",
+      "unit_slug": "small_community_self_regulation",
+      "claim_summary": "Traditional small communities are portrayed as maintaining order through internal honor, discipline, and social accountability rather than centralized enforcement.",
+      "question_intents": [
+        "How does Mahaperiyava describe traditional community self-regulation?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "1d88d3318154db96c44bae4742dceff6567b54112a4aeb82efb40e4c5ecc1650"
+      ],
+      "topics": [
+        "community",
+        "social_order",
+        "tradition"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "social_generalization",
+        "caste_varna_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sanatana_dharmame_sankarar_tharum_neri.criticism_should_identify_real_faults",
+      "chapter_ordinal": 47,
+      "chapter_slug": "sanatana_dharmame_sankarar_tharum_neri",
+      "unit_slug": "criticism_should_identify_real_faults",
+      "claim_summary": "Opposition and criticism are accepted as useful when they reveal genuine faults, but the source rejects inventing faults in order to abolish a practice.",
+      "question_intents": [
+        "What kind of criticism of tradition does Mahaperiyava consider legitimate?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "ca2e8e1d1abe4455565cc4bfb203e4a835e9ce8b06b0e8191a19021226ade56f"
+      ],
+      "topics": [
+        "criticism",
+        "reform",
+        "discernment"
+      ],
+      "flags": [],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sanatana_dharmame_sankarar_tharum_neri.sacred_marks_as_spiritual_symbols",
+      "chapter_ordinal": 47,
+      "chapter_slug": "sanatana_dharmame_sankarar_tharum_neri",
+      "unit_slug": "sacred_marks_as_spiritual_symbols",
+      "claim_summary": "Vibhuti and Vaishnava sacred marks are presented as spiritual symbols shared across communities rather than merely caste identifiers.",
+      "question_intents": [
+        "How does Mahaperiyava interpret vibhuti and tiruman?",
+        "Why does he reject treating forehead marks only as caste symbols?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "ae8fa11dbdcd71fd18585881f8b5a5a8564e38154ce058a9cd8afe041e9f158e"
+      ],
+      "topics": [
+        "vibhuti",
+        "tiruman",
+        "sacred_symbols",
+        "shaiva",
+        "vaishnava"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sanatana_dharmame_sankarar_tharum_neri.shankara_mandate_to_preserve_dharma",
+      "chapter_ordinal": 47,
+      "chapter_slug": "sanatana_dharmame_sankarar_tharum_neri",
+      "unit_slug": "shankara_mandate_to_preserve_dharma",
+      "claim_summary": "The speaker presents preservation of inherited shastric practices as a responsibility received through the Shankara lineage and frames those practices as intended for worldly and spiritual welfare.",
+      "question_intents": [
+        "Why does Mahaperiyava say he has a duty to speak about preserving older dharmic practices?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "6489a48cff2c3e018cfa88cfa753b9a7cb8748a53490b01daa6bda5977f5d709"
+      ],
+      "topics": [
+        "shankara",
+        "sanatana_dharma",
+        "tradition"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.restless_mind_obstructs_meditation",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "restless_mind_obstructs_meditation",
+      "claim_summary": "Restlessness and desire are described as major obstacles to meditation, because the mind repeatedly leaves even a chosen spiritual focus.",
+      "question_intents": [
+        "What does Mahaperiyava identify as the main obstacle to one-pointed meditation?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "69a0570467e18d3cc9eac362900e98dc685945052d686d0254cbfafed8701dc8",
+        "fad4b1385df2e46d3584a9d6a20289a26da77219bf21ab4886d8d21439a5d1b4"
+      ],
+      "topics": [
+        "mind",
+        "desire",
+        "meditation"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.mastery_means_mind_obeys_intention",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "mastery_means_mind_obeys_intention",
+      "claim_summary": "Mastery of mind is defined as the ability to direct or stop thought deliberately rather than being carried by an uncontrolled stream of thought.",
+      "question_intents": [
+        "What does Mahaperiyava mean by mastery of the mind?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "1c9fe0923d85b0dda2cdbb1e8c5c5a60e49e64ce00d00de0065c94f7adc03db1",
+        "1416ad011021f7fef76d31e023b7f8b49b8f67ba772a7389cbf5bfd7afd66afe"
+      ],
+      "topics": [
+        "mind_control",
+        "yoga",
+        "discipline"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.mind_mastery_and_response_to_pain_fear_anger",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "mind_mastery_and_response_to_pain_fear_anger",
+      "claim_summary": "A fully mastered mind is portrayed as remaining undisturbed by pain, fear, grief, and provocation.",
+      "question_intents": [
+        "How does Mahaperiyava describe the effects of complete mental mastery?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "0f43e32cbdea2311b1d01e547cffd7d4b7bfae6c0c0ed381e879b0c4cc3bf1b1"
+      ],
+      "topics": [
+        "mind_control",
+        "equanimity",
+        "pain",
+        "fear"
+      ],
+      "flags": [
+        "medical_or_effect_claim_attributed_only",
+        "psychological_generalization",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.one_pointed_isvara_meditation",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "one_pointed_isvara_meditation",
+      "claim_summary": "Repeated one-pointed remembrance of God is presented as training the mind toward absorption, and this restraining of mind is identified with yoga.",
+      "question_intents": [
+        "How does Mahaperiyava connect remembrance of God with yoga and mental control?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "2419a471a27cd75fddb0d6890d4dbf2d5d3a921bf55f0f6ea29de3a63e78ce38",
+        "e4c537220847ec74cb448248bf83f7af1e73f280d1bbcbe58da8c41f734583a4"
+      ],
+      "topics": [
+        "isvara",
+        "meditation",
+        "yoga",
+        "mind_control"
+      ],
+      "flags": [
+        "traditional_yogic_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.master_mind_in_this_life",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "master_mind_in_this_life",
+      "claim_summary": "The teaching urges mastering desire and anger within this lifetime and links such mastery with the yogic state and freedom from repeated birth.",
+      "question_intents": [
+        "Why does Mahaperiyava say the mind should be mastered in this birth?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "56af3fd1c9cb505b8c1a5f124baad1f502074b634e20d3b6b3480ee85c75eb1f"
+      ],
+      "topics": [
+        "yoga",
+        "desire",
+        "anger",
+        "rebirth"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_yogic_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.yoga_is_for_people_with_restless_minds",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "yoga_is_for_people_with_restless_minds",
+      "claim_summary": "Yogic discipline is presented as practical medicine for ordinary people with restless minds, combining outward disciplines with inward contemplative practice.",
+      "question_intents": [
+        "Is yoga described as only for rishis, or as a discipline for ordinary people?",
+        "Why are both outward and inward disciplines said to be necessary?"
+      ],
+      "source_paragraph_ids": [
+        "p009",
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "7f06f739ce9f0430ed647086ff527a3d2cb29d8e089c4c21f6866c8b5181d64c",
+        "f76a019b58243328461b7fe622c4396ebe1a326298fff29f66d52d36da4de1b7"
+      ],
+      "topics": [
+        "yoga",
+        "practice",
+        "external_discipline",
+        "internal_discipline"
+      ],
+      "flags": [
+        "traditional_yogic_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.five_common_dharmas_prepare_meditation",
+      "chapter_ordinal": 48,
+      "chapter_slug": "samanya_dharmangal_anaivarukkum_pothuvana",
+      "unit_slug": "five_common_dharmas_prepare_meditation",
+      "claim_summary": "Ahimsa, truthfulness, non-stealing, purity, and sense restraint are presented as common disciplines for all adherents and as supports for purification and meditation.",
+      "question_intents": [
+        "What five common dharmas does Mahaperiyava list as supports for meditation?",
+        "How are ahimsa, truthfulness, non-stealing, purity, and sense-restraint described?"
+      ],
+      "source_paragraph_ids": [
+        "p011",
+        "p012"
+      ],
+      "source_paragraph_hashes": [
+        "2ffe7b97683cf75fa7376feb0534bdd56eed94f8958f438a932b29d73ec356ce",
+        "2ecdd259625a6bac7ee152e2626f2edf91c347836a906baae671c965b8a75918"
+      ],
+      "topics": [
+        "ahimsa",
+        "satya",
+        "asteya",
+        "saucha",
+        "sense_restraint",
+        "common_dharma"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_scriptural_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.ahimsa_in_thought_speech_action",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "ahimsa_in_thought_speech_action",
+      "claim_summary": "Ahimsa is presented as a common dharma and a limb of yogic discipline, extending beyond bodily nonviolence to intention and speech.",
+      "question_intents": [
+        "How broadly does Mahaperiyava define ahimsa?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "21bb18cea9146aa41e672e55efd55d6ac44a4e2178914fcd5136063a16de7b73",
+        "003d75eaecb420daeef44b673552e4a9285f6e1786a39b4e0ad5da4b620861c2"
+      ],
+      "topics": [
+        "ahimsa",
+        "yoga",
+        "ethics"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.respond_to_wrongdoing_without_hatred",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "respond_to_wrongdoing_without_hatred",
+      "claim_summary": "When another person causes harm, the preferred response is described as preventing further wrongdoing with care rather than retaliating out of hatred.",
+      "question_intents": [
+        "How does Mahaperiyava say one should respond to someone who causes harm?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "329efcf41e1a0365894eaf7c5c15bb4bf515027975388bb86f1bf9878c284d3a"
+      ],
+      "topics": [
+        "ahimsa",
+        "forgiveness",
+        "compassion",
+        "correction"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.ahimsa_purifies_and_disciplines_mind",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "ahimsa_purifies_and_disciplines_mind",
+      "claim_summary": "Practicing ahimsa is said to reduce anger and strengthen the disciplined mind, which can then become a force for beneficial action.",
+      "question_intents": [
+        "How is ahimsa connected to mastery of the mind?"
+      ],
+      "source_paragraph_ids": [
+        "p004",
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "2b372549236eac80480fe6287e4086f16fa89cd200555c4a4e1d5285bfaca07b",
+        "0329b5f79f27a86ee2b12153633b6dea87b6515118e515c04a44daf873cf82c1",
+        "e9d209e21ab99a67cc2b3eef3a83712b912c4148d09ecafc0f383a8ef406cde8"
+      ],
+      "topics": [
+        "ahimsa",
+        "mind_control",
+        "anger",
+        "yoga"
+      ],
+      "flags": [
+        "causal_claim_attributed_only",
+        "traditional_yogic_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.perfected_ahimsa_pacifies_surroundings",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "perfected_ahimsa_pacifies_surroundings",
+      "claim_summary": "Drawing on a Yoga Sutra teaching, perfected ahimsa is said to have the secondary effect of reducing hostility among beings in the practitioner’s presence.",
+      "question_intents": [
+        "What secondary effect is attributed to perfect ahimsa in the Yoga Sutra tradition?"
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008",
+        "p009",
+        "p010",
+        "p011",
+        "p012"
+      ],
+      "source_paragraph_hashes": [
+        "d75f78ae03be8f7fbbd8144a93e53c2b255dbeee20af0cf34b16c923c60e472f",
+        "49e64f4f369a721cdb2482933ac42a9df06eb791024eec33124bf0723a827d76",
+        "5b978d97e7ef68b01f50969003a63e2eef4e128669f2deefe6f81f9e70213716",
+        "89eb93c6571954f5b07892af55f16cc04c311eb8a73ababfd1a8be0c5d2483ab",
+        "dd00205677dcdec3a1aad5264a3059fca82c7436fa8782a64b89cda47103b63d",
+        "0c7aaf0798746c4966beef9a3a3b1a778b7716d626a43f0b5c4d2a3df41266d9"
+      ],
+      "topics": [
+        "ahimsa",
+        "yoga_sutra",
+        "spiritual_effect"
+      ],
+      "flags": [
+        "traditional_yogic_claim",
+        "causal_claim_requires_external_verification",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.sannyasi_bound_to_radical_ahimsa",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "sannyasi_bound_to_radical_ahimsa",
+      "claim_summary": "The renunciate is presented as being bound to a particularly strict form of ahimsa, including avoidance of practices that could harm even small living beings.",
+      "question_intents": [
+        "Why does Mahaperiyava describe a stricter form of ahimsa for a sannyasi?"
+      ],
+      "source_paragraph_ids": [
+        "p013"
+      ],
+      "source_paragraph_hashes": [
+        "b3ca149a48261d7ad23c24fe6a4e812b1584ba9925c67ff36e645da67f06f1dc"
+      ],
+      "topics": [
+        "sannyasa",
+        "ahimsa",
+        "renunciation"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.contextual_exceptions_to_absolute_ahimsa",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "contextual_exceptions_to_absolute_ahimsa",
+      "claim_summary": "The chapter distinguishes an ideal of ahimsa from contexts in which traditional dharma is said to permit force or sacrifice for a larger duty, emphasizing intention over outward form.",
+      "question_intents": [
+        "Does Mahaperiyava treat ahimsa as an absolute rule in every circumstance?",
+        "What role does intention play in his discussion of violence and dharma?"
+      ],
+      "source_paragraph_ids": [
+        "p014",
+        "p015",
+        "p016",
+        "p017",
+        "p018"
+      ],
+      "source_paragraph_hashes": [
+        "1f01aea824c8ebc1c6e17853be8a97cbcf73fbb7680b424e8828ab235676313f",
+        "62b8639964b5d316c002eb0cdf49941a494758576fb12246aceded6221db06dd",
+        "c2f4d1f6bc6220778dcab223456fc968beddef6bfe18a5c26240cd5865e710ed",
+        "d04083b1bcd683c47e38c348d7f7782cc427e98a360d9c4487d9eb068a011385",
+        "f6a6b39830e09d52b1ad8e322e758bf2c412a32405c2d117ad7fa5bf4d2788b2"
+      ],
+      "topics": [
+        "ahimsa",
+        "dharma_yuddha",
+        "yajna",
+        "intention",
+        "ethics"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "religious_comparison_attributed_only",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsai.critique_of_universal_absolute_ahimsa",
+      "chapter_ordinal": 49,
+      "chapter_slug": "ahimsai",
+      "unit_slug": "critique_of_universal_absolute_ahimsa",
+      "claim_summary": "The source argues that imposing the strictest form of ahimsa on everyone can weaken actual observance and contrasts this with a graded ideal that influences broader vegetarian and nonviolent practice.",
+      "question_intents": [
+        "Why does Mahaperiyava argue for graded rather than identical ahimsa rules for everyone?"
+      ],
+      "source_paragraph_ids": [
+        "p019",
+        "p020"
+      ],
+      "source_paragraph_hashes": [
+        "7a45fcd0d36ae674efddf57760d0ba41596c4cfd9b3b125d750884019aecedae",
+        "8da5f1811001550c1d63dc8eaa5b28f89f5adfbb72f70ffbb2da9d26488b964f"
+      ],
+      "topics": [
+        "ahimsa",
+        "vegetarianism",
+        "buddhism",
+        "social_norms"
+      ],
+      "flags": [
+        "religious_comparison_attributed_only",
+        "historical_claim_requires_external_verification",
+        "social_generalization",
+        "cultural_generalization",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sathiyam.satya_as_alignment_of_mind_and_speech",
+      "chapter_ordinal": 50,
+      "chapter_slug": "sathiyam",
+      "unit_slug": "satya_as_alignment_of_mind_and_speech",
+      "claim_summary": "Truthfulness is initially described as alignment of mind and speech, with misuse of speech framed as a serious moral failure.",
+      "question_intents": [
+        "How does Mahaperiyava initially define satya or truthfulness?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "3c434faf9bef06272ba450765e77542f9782e1a2df389ac9affccd5c522216a5",
+        "5fe9b9dd01576d6b43974136896628611ee835a5fee3dfaa7fdeed6bae249b9d",
+        "69b57af44df849450eb388483076a0cb85183609fd403d924c0dd62db08d091c",
+        "c9ed8d52c8bc39eec109a2898a7144d853c9d5d63fc7e8692b87301388565430"
+      ],
+      "topics": [
+        "satya",
+        "speech",
+        "mind",
+        "ethics"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sathiyam.truth_must_be_beneficial_not_merely_literal",
+      "chapter_ordinal": 50,
+      "chapter_slug": "sathiyam",
+      "unit_slug": "truth_must_be_beneficial_not_merely_literal",
+      "claim_summary": "Truth is said to require more than literal correspondence: speech, thought, and action should also conduce to genuine welfare rather than merely expose faults or express harmful thoughts.",
+      "question_intents": [
+        "Why does Mahaperiyava say literal truth alone is not sufficient for satya?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006",
+        "p007",
+        "p008",
+        "p009",
+        "p010",
+        "p011"
+      ],
+      "source_paragraph_hashes": [
+        "88ea26626c2cba09a397fb3e81f99012629ac86a262e7e879e51427c0ba05e9e",
+        "cbcbc066aa92b5e69c9e63129815b52755bdbd34b5891a4f8d1b567b01690885",
+        "339391094dcbfb3b23a1dc9fe4619f3dc0ba483a7e236a77b20fcdce9a014b99",
+        "04ac7357bfd8517b3b6d62adf45e427d4853527a53ad1a00ceb642d901a90ffb",
+        "0e568622372df7d628cff4f61f3ac41c4a374bd04de06e36dedbea76a8bfe6dd",
+        "d0a51c3bef6f9e6f0cf14de4c029b920689624cd1418e5bb4034cb6da8fb7142",
+        "d4c0720e487e30e9b354ee0fe1163cafa3d11c3b01f4672594c8df3a32297bc6"
+      ],
+      "topics": [
+        "satya",
+        "speech_ethics",
+        "welfare"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sathiyam.truth_should_be_spoken_gently",
+      "chapter_ordinal": 50,
+      "chapter_slug": "sathiyam",
+      "unit_slug": "truth_should_be_spoken_gently",
+      "claim_summary": "Beneficial truth should be communicated in a manner the hearer can receive; pleasant falsehood is rejected, while harsh or needlessly hurtful truth is discouraged.",
+      "question_intents": [
+        "How should truth be spoken according to this teaching?",
+        "What balance is proposed between truth and pleasant speech?"
+      ],
+      "source_paragraph_ids": [
+        "p012",
+        "p013",
+        "p014",
+        "p015",
+        "p016"
+      ],
+      "source_paragraph_hashes": [
+        "374e7318b1be2bfcb6a3936fd69b4c90568b7eab779f23a76931381cf2c53828",
+        "d05fb3b08aef3ebbccfc7c98bb8303baa3867b86553dc0f35126c4553549b237",
+        "5bf58ae13ae35bda378b717b71e236769afba8b40d3561c9101d6d6886f762fe",
+        "d40a6be6e0e59de7774314a054bd4d7336f08bebb82a08304abf7638e0c3ae04",
+        "aa8f0b8c4c0a77e4fdabb67f0e9346ea6dbe76cded1d43cd2760651dde2650c3"
+      ],
+      "topics": [
+        "satya",
+        "speech",
+        "kindness"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sathiyam.pure_mind_underlies_truthful_speech",
+      "chapter_ordinal": 50,
+      "chapter_slug": "sathiyam",
+      "unit_slug": "pure_mind_underlies_truthful_speech",
+      "claim_summary": "Stable truthfulness is linked to a mind purified of desire and anger, so that speech is both honest and beneficial.",
+      "question_intents": [
+        "What inner condition does Mahaperiyava say is necessary for truthful and beneficial speech?"
+      ],
+      "source_paragraph_ids": [
+        "p017",
+        "p018"
+      ],
+      "source_paragraph_hashes": [
+        "82d3d44c0c55bd1533a71b25c4de9161355e57233260649f32642223f60e5f7f",
+        "ee44fe011b0bbcd84c79a6dfb016911b59f9164ce97902b65b3024fc2051776a"
+      ],
+      "topics": [
+        "satya",
+        "mind_purification",
+        "desire",
+        "anger"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sathiyam.satya_siddhi_and_abhirami_tradition",
+      "chapter_ordinal": 50,
+      "chapter_slug": "sathiyam",
+      "unit_slug": "satya_siddhi_and_abhirami_tradition",
+      "claim_summary": "The chapter presents a traditional account in which long-standing truthfulness gives words extraordinary efficacy, illustrated through the Abhirami Pattar narrative and the speech of saints.",
+      "question_intents": [
+        "What spiritual effect does the chapter attribute to perfected truthfulness?",
+        "How is the Abhirami Pattar story used to illustrate satya?"
+      ],
+      "source_paragraph_ids": [
+        "p019",
+        "p020",
+        "p021",
+        "p022"
+      ],
+      "source_paragraph_hashes": [
+        "0a5888ad1fceedb016728f4fc715bd3a75131b1250bdcc94f607ebe58dccc7e9",
+        "9c14073ff0c8ab5731e25a7a02b32a68ddc1149b81ebcea46543ac88d4063f55",
+        "b85fa41cf47946ee749f8aad32d4e76722b79b83616cfbde9836ece4d54edf2d",
+        "994257dedc41ffedd99f9d2e997ae09c7ae63e04f74412fb8b8252a315992500"
+      ],
+      "topics": [
+        "satya",
+        "abhirami_pattar",
+        "hagiography",
+        "spiritual_power"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "causal_claim_requires_external_verification",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sathiyam.common_dharmas_and_samskaras_purify_person",
+      "chapter_ordinal": 50,
+      "chapter_slug": "sathiyam",
+      "unit_slug": "common_dharmas_and_samskaras_purify_person",
+      "claim_summary": "Samskaras together with ahimsa, truthfulness, non-stealing, purity, and sense restraint are presented as disciplines that remove impurity and prepare a person for spiritual understanding.",
+      "question_intents": [
+        "How are samskaras and the common dharmas connected with spiritual preparation?"
+      ],
+      "source_paragraph_ids": [
+        "p023",
+        "p024"
+      ],
+      "source_paragraph_hashes": [
+        "54f84edbe757e804ae4ebbf4618766b4382e15d1e115e7417c30b2517f2625dd",
+        "6ec91a177bf93ca5d9fcba6703bdfc3615dfc84cd9cf8d2975dcca2d34a8f13f"
+      ],
+      "topics": [
+        "samskara",
+        "common_dharma",
+        "purification",
+        "self_knowledge"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ellum_thanneerum_enge_poyina.five_yajnas_as_debts_and_service",
+      "chapter_ordinal": 51,
+      "chapter_slug": "ellum_thanneerum_enge_poyina",
+      "unit_slug": "five_yajnas_as_debts_and_service",
+      "claim_summary": "The chapter presents duties toward ancestors, deities, guests and society, nonhuman beings, and Vedic learning as forms of yajna or repayment of inherited obligations.",
+      "question_intents": [
+        "What recurring obligations does Mahaperiyava describe through the different yajnas?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "c7789913f4e352be2495297142e65d3d9e67383c99c10a524c8804bd8c460e8a",
+        "b5d2c8b619d1482b50b107f542269b8e227c97d8063f8cba9082ed0d39d48d9b",
+        "a69796c677f94842aa75955bfd78eec6f1ec62f78bba4b5e043b92901e45518b",
+        "e6f3417dd46d89017114b6244f327d470d31421198b077db68d24beee820f70d"
+      ],
+      "topics": [
+        "pancha_maha_yajna",
+        "ancestors",
+        "service",
+        "veda"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "caste_varna_normative_claim",
+        "literary_interpretation",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ellum_thanneerum_enge_poyina.care_for_parents_and_ancestor_rites",
+      "chapter_ordinal": 51,
+      "chapter_slug": "ellum_thanneerum_enge_poyina",
+      "unit_slug": "care_for_parents_and_ancestor_rites",
+      "claim_summary": "Care for living parents and post-death rites such as tarpana and shraddha are presented as continuing expressions of gratitude toward ancestors.",
+      "question_intents": [
+        "What duties toward parents and ancestors are described in this chapter?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "f3b4078da238e5260ba31c31272c5c00126515c15341562dff232608470ecdad",
+        "9233de96481d50cfbac63a6a7685d3c67f0b8c41c00473fc2c331724f3adcbe7"
+      ],
+      "topics": [
+        "parents",
+        "ancestors",
+        "shraddha",
+        "tarpana"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ellum_thanneerum_enge_poyina.skepticism_about_shraddha_mechanism",
+      "chapter_ordinal": 51,
+      "chapter_slug": "ellum_thanneerum_enge_poyina",
+      "unit_slug": "skepticism_about_shraddha_mechanism",
+      "claim_summary": "The chapter acknowledges the objection that physical offerings remain locally visible and asks how they could benefit ancestors who are no longer physically present.",
+      "question_intents": [
+        "What skeptical objection to shraddha does Mahaperiyava explicitly address?"
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "affda467f2048885a2ca34585b28a636469eea8ae58dd4e287c656480fb2040e",
+        "c1066da37e7807cabf1faca106f59404ae097ea3aaf7abd986e73e98bde95c57"
+      ],
+      "topics": [
+        "shraddha",
+        "skepticism",
+        "ancestor_rites"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ellum_thanneerum_enge_poyina.ritual_transmission_money_order_analogy",
+      "chapter_ordinal": 51,
+      "chapter_slug": "ellum_thanneerum_enge_poyina",
+      "unit_slug": "ritual_transmission_money_order_analogy",
+      "claim_summary": "A money-order analogy is used to explain the traditional belief that properly performed offerings can be transformed and conveyed to ancestors through unseen ritual agencies.",
+      "question_intents": [
+        "How does Mahaperiyava use the money-order analogy to explain ancestor offerings?"
+      ],
+      "source_paragraph_ids": [
+        "p009",
+        "p010",
+        "p011",
+        "p012"
+      ],
+      "source_paragraph_hashes": [
+        "23088fc99d88147f571e9e97ea2ae08dad272ca41bcd2ca447840dfc35b21019",
+        "2d698874efceab2d7b33febc5d113914e167ac03ea1b50da5900e7de4de78c14",
+        "b9decd0c8a2f606d2b8ad963a68c0eee2574b2c05b19934fc09e1cff0b38f74c",
+        "cccaef7b91e26681cb0687877127d955e6548b8bdba3460b7ac23a9e66bf6088"
+      ],
+      "topics": [
+        "shraddha",
+        "ancestor_rites",
+        "ritual_analogy"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "traditional_soteriological_claim",
+        "causal_claim_requires_external_verification",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ellum_thanneerum_enge_poyina.shraddha_requires_faith_and_rule",
+      "chapter_ordinal": 51,
+      "chapter_slug": "ellum_thanneerum_enge_poyina",
+      "unit_slug": "shraddha_requires_faith_and_rule",
+      "claim_summary": "The primary disposition in ancestor rites is described as gratitude and faith, while concrete ritual action is said to require following the established procedure rather than personal improvisation.",
+      "question_intents": [
+        "Why does Mahaperiyava emphasize both shraddha and prescribed procedure in ancestor rites?"
+      ],
+      "source_paragraph_ids": [
+        "p013"
+      ],
+      "source_paragraph_hashes": [
+        "2cb91219ee78e75c3303ddac23151eb78963172e5a36a36ce4b1e886982206b0"
+      ],
+      "topics": [
+        "shraddha",
+        "faith",
+        "ritual_rule",
+        "gratitude"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poojai.daily_family_puja_should_be_practical",
+      "chapter_ordinal": 52,
+      "chapter_slug": "poojai",
+      "unit_slug": "daily_family_puja_should_be_practical",
+      "claim_summary": "Every household is encouraged to maintain some form of daily worship, even if it must be brief and simple because of work or limited means.",
+      "question_intents": [
+        "Does Mahaperiyava say household puja must be elaborate?",
+        "How does he adapt daily worship for busy households?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "c847ed032b39443fe717a008fde91dcc457c9bff0ee7024d6522e3f5ab8b8605",
+        "3449f237c98d43a302aeed5dde11e7f182760c957bd0577f8e09852a803be8e4",
+        "30f6f29118d91a0c164405bb86ecb5d08206a92d82173981530e855f3e6d64dd"
+      ],
+      "topics": [
+        "puja",
+        "household_dharma",
+        "daily_practice"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poojai.panchayatana_worship_and_five_deities",
+      "chapter_ordinal": 52,
+      "chapter_slug": "poojai",
+      "unit_slug": "panchayatana_worship_and_five_deities",
+      "claim_summary": "Panchayatana worship is described as honoring Shiva, Devi, Vishnu, Ganesha, and Surya through natural sacred objects associated with different regions of India.",
+      "question_intents": [
+        "What is Panchayatana puja and which deities are included?",
+        "What symbolism does Mahaperiyava see in the five sacred objects coming from different regions?"
+      ],
+      "source_paragraph_ids": [
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "4fc915fcd6dab3d073313c831411aa6a987609268bb05dc305f154c5063384a2",
+        "2f6735898a8eeff50c73689fa1a8eff0b10bb59d22ac70f324f96f7dc686fb00"
+      ],
+      "topics": [
+        "panchayatana",
+        "shiva",
+        "devi",
+        "vishnu",
+        "ganesha",
+        "surya"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "historical_claim_requires_external_verification",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poojai.portable_simple_panchayatana_practice",
+      "chapter_ordinal": 52,
+      "chapter_slug": "poojai",
+      "unit_slug": "portable_simple_panchayatana_practice",
+      "claim_summary": "The chapter emphasizes that Panchayatana worship can be compact, portable, and performed with minimal materials, and associates its revival with Shankara while allowing inclusion of Subrahmanya.",
+      "question_intents": [
+        "How can Panchayatana puja be performed simply while traveling?",
+        "What role does the chapter attribute to Shankara in Panchayatana worship?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007",
+        "p008",
+        "p009",
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "aac2c48a45f485ad2bff49fd8148c54e3a95f815cc7201eb632c89ecb9303c87",
+        "e74607d349e39c3be0316643c0ceadede0a87ec341a8e3a79bc20de66d8aa79c",
+        "3730d8063575a8437abe71e5f38ca3f3dfcb3229a7bb2197baa545077c8d43b2",
+        "47caeb3bd4ea6f4640e492e97879d82c9ae4d09fa68be954603035cbd10a8572",
+        "4e90e5c63a3300c1e5fe7a0c44d74c63e1d821ea5973e85f0b1e13f99832a39f"
+      ],
+      "topics": [
+        "panchayatana",
+        "puja",
+        "shankara",
+        "subrahmanya"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "historical_claim_requires_external_verification",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poojai.naivedya_as_gratitude_not_feeding_god",
+      "chapter_ordinal": 52,
+      "chapter_slug": "poojai",
+      "unit_slug": "naivedya_as_gratitude_not_feeding_god",
+      "claim_summary": "Naivedya is explained as gratefully acknowledging that food and the conditions of life are gifts of the divine, not as literally feeding God.",
+      "question_intents": [
+        "What does Mahaperiyava say naivedya means?",
+        "Why is offering food before eating described as a practice of gratitude?"
+      ],
+      "source_paragraph_ids": [
+        "p011",
+        "p012",
+        "p013"
+      ],
+      "source_paragraph_hashes": [
+        "5b5adaf63112b11cc0f131210b7af97f2e3f5a5413c21bc9375ca43c088f90bd",
+        "aea0ab458299f18727e5e28da117800516c1bb1e4e3a8374a841dcf393ac1d94",
+        "0e147961acc1171ff02d75c7064e1f56befbcb7a22e3c4e67ba7b095c87bd964"
+      ],
+      "topics": [
+        "naivedya",
+        "gratitude",
+        "puja"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "scientific_analogy_not_literal",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poojai.divine_presence_in_worshipped_image",
+      "chapter_ordinal": 52,
+      "chapter_slug": "poojai",
+      "unit_slug": "divine_presence_in_worshipped_image",
+      "claim_summary": "The divine is presented as capable of becoming accessible through any consecrated image or material form used sincerely in worship.",
+      "question_intents": [
+        "How does Mahaperiyava explain divine presence in a worshipped image?"
+      ],
+      "source_paragraph_ids": [
+        "p014"
+      ],
+      "source_paragraph_hashes": [
+        "ef068367b97d6c45c187ab209b97f992dd6b99365b468f32949dcd09d88367a7"
+      ],
+      "topics": [
+        "murti",
+        "divine_presence",
+        "puja"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poojai.daily_offering_disciplines_consumption",
+      "chapter_ordinal": 52,
+      "chapter_slug": "poojai",
+      "unit_slug": "daily_offering_disciplines_consumption",
+      "claim_summary": "Regularly offering what one uses to God is presented as gradually disciplining consumption toward what one would consider fit to offer.",
+      "question_intents": [
+        "How is daily offering said to change a person’s habits and choices?"
+      ],
+      "source_paragraph_ids": [
+        "p015"
+      ],
+      "source_paragraph_hashes": [
+        "1ed4f4dd6124fea8fe7c60675b28c6744e11042bcf4cb74141c4ffc2d42c8327"
+      ],
+      "topics": [
+        "puja",
+        "self_discipline",
+        "consumption",
+        "naivedya"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "causal_claim_attributed_only",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paropakaram.tirukkural_and_vedic_duty_interpretation",
+      "chapter_ordinal": 53,
+      "chapter_slug": "paropakaram",
+      "unit_slug": "tirukkural_and_vedic_duty_interpretation",
+      "claim_summary": "The chapter interprets selected Tirukkural verses on hospitality and non-killing as compatible with Vedic household and renunciate duties rather than as a rejection of Vedic practice.",
+      "question_intents": [
+        "How does Mahaperiyava interpret Tirukkural passages on hospitality and non-killing in relation to Vedic dharma?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007",
+        "p008",
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "c239ec942d8a98b268faf0dc85c0c354936e62dee90435989d30c3722bcf0d76",
+        "a69796c677f94842aa75955bfd78eec6f1ec62f78bba4b5e043b92901e45518b",
+        "e6f3417dd46d89017114b6244f327d470d31421198b077db68d24beee820f70d",
+        "376b61f79f24108cb68ec27ba2eb1a580f1c4cb9586dee0868775cb8f7e0b84c",
+        "7e9e552f813a1a2d211fa3e969846f2d8e6fbb703014a1e7f787f366b0170155",
+        "56f7bfeff422e3cf98e292f6231ab784dbc47b4568a3a6bd5579fb08465fda16",
+        "f04870d50eec4dc092e7a9b1dea4f851f438f58507b64a38d494de9d730e7712",
+        "10dbf8bc760ccd13690f3f36b4f48a25852967f4bf3a098ce98c929e4ce750b8",
+        "09b47fb6dc6f278e4b0b1fe8e4de38c1bf44a5e110d4435f5c0f35be467bbbb7"
+      ],
+      "topics": [
+        "tirukkural",
+        "veda",
+        "ahimsa",
+        "hospitality",
+        "interpretation"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "religious_comparison_attributed_only",
+        "historical_claim_requires_external_verification",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paropakaram.handful_of_rice_annadana_scheme",
+      "chapter_ordinal": 53,
+      "chapter_slug": "paropakaram",
+      "unit_slug": "handful_of_rice_annadana_scheme",
+      "claim_summary": "A household practice is proposed in which each family sets aside a small daily quantity of rice and money so that temple-centered community kitchens can feed people in need.",
+      "question_intents": [
+        "What practical annadana scheme does Mahaperiyava propose for households?"
+      ],
+      "source_paragraph_ids": [
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "186590bb3d13fb487d0e6fcd38b30b44131068fc4fcfc50884b35676b9a6fae9"
+      ],
+      "topics": [
+        "annadana",
+        "service",
+        "temple",
+        "community"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paropakaram.purta_dharma_and_physical_service",
+      "chapter_ordinal": 53,
+      "chapter_slug": "paropakaram",
+      "unit_slug": "purta_dharma_and_physical_service",
+      "claim_summary": "Community works such as water resources, food distribution, temple support, and quiet physical service are presented as purta dharma that benefits society while reducing ego and purifying the doer.",
+      "question_intents": [
+        "What kinds of service does Mahaperiyava include under purta dharma?",
+        "How is physical service connected with humility and purification?"
+      ],
+      "source_paragraph_ids": [
+        "p011"
+      ],
+      "source_paragraph_hashes": [
+        "d6eaa17ba42456e3af3809196624a766b0996be0d03b4f38d5c5e25387e50159"
+      ],
+      "topics": [
+        "purta_dharma",
+        "community_service",
+        "chitta_suddhi",
+        "humility"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "social_generalization",
+        "causal_claim_attributed_only",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.paropakaram.service_to_beings_as_service_to_god",
+      "chapter_ordinal": 53,
+      "chapter_slug": "paropakaram",
+      "unit_slug": "service_to_beings_as_service_to_god",
+      "claim_summary": "Serving other beings is presented as an offering to God when they are regarded as manifestations of the divine.",
+      "question_intents": [
+        "How does Mahaperiyava connect service to living beings with service to God?"
+      ],
+      "source_paragraph_ids": [
+        "p012"
+      ],
+      "source_paragraph_hashes": [
+        "961a48f576bf10167762b2dd9362ccf04eac31786dd5022e39d9eb66545c13d0"
+      ],
+      "topics": [
+        "service",
+        "divine_presence",
+        "paropakara"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_as_highest_human_fortune",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "service_as_highest_human_fortune",
+      "claim_summary": "Selfless service beyond one’s immediate family is presented as a central privilege of human life, bringing purification and inner satisfaction rather than being treated as a transaction for reward.",
+      "question_intents": [
+        "Why does Mahaperiyava call service one of the highest human blessings?",
+        "What attitude should accompany social service?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "22cbefaf3e85be3d5f525abfb637a087f8afc5bd5de75c2649c9a4fa4ec47334",
+        "1b71de5562a0031b734dc730c709fc37275560f350c28be81fdc9c6dd57200d6"
+      ],
+      "topics": [
+        "service",
+        "selflessness",
+        "chitta_suddhi"
+      ],
+      "flags": [
+        "causal_claim_attributed_only",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_extends_to_animals_and_ritual_world",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "service_extends_to_animals_and_ritual_world",
+      "claim_summary": "Compassionate service is extended to animals and, within the ritual worldview of the chapter, to beings beyond the visible world through prescribed rites.",
+      "question_intents": [
+        "How broadly does Mahaperiyava extend the idea of service beyond human beings?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "7645a582f32073f78eb8b6c6880ba7f517322e6ea3861ce0e99785483d76b899",
+        "fc28b9616876a75ae752a59b6498920e191cb594d95bf5c9e59d3709e1021766"
+      ],
+      "topics": [
+        "animal_welfare",
+        "service",
+        "ritual",
+        "gograsa"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "linguistic_etymology_claim_requires_external_verification",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.collective_service_requires_integrity",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "collective_service_requires_integrity",
+      "claim_summary": "Organized service is praised for increasing what can be accomplished, provided groups are sustained by truthfulness, discipline, courage, and indifference to praise or insult.",
+      "question_intents": [
+        "What qualities does Mahaperiyava say are needed for collective service?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "912d775fd9d394c6f9b95276e63f6045eef133736ebeb8110a9e79ef4aec32a4"
+      ],
+      "topics": [
+        "service",
+        "organization",
+        "integrity",
+        "courage"
+      ],
+      "flags": [
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_as_better_use_of_leisure",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "service_as_better_use_of_leisure",
+      "claim_summary": "Leisure spent in service is presented as a more fulfilling form of recreation than consumption-centered entertainment.",
+      "question_intents": [
+        "How does Mahaperiyava compare service with ordinary recreation?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "ebc81255ee57e97f7619460c6471bccecd4ae5020cf95919c396498f6dc889f2",
+        "2f4d4b5ece8fe28c280c2bc886659e207b583ff8aee215e9861f22d08bb2d33f"
+      ],
+      "topics": [
+        "service",
+        "leisure",
+        "joy"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.krishna_as_model_of_playful_service",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "krishna_as_model_of_playful_service",
+      "claim_summary": "Krishna is presented as a model in whom play, protection, teaching, and detached service are united, illustrating cheerful and unpossessive action.",
+      "question_intents": [
+        "How is Krishna used as an example of service performed with joy and detachment?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "d093c15d183798f9e8cd97f9173630973d0e6302a8c6c018f1734ff9ca9bb4fd"
+      ],
+      "topics": [
+        "krishna",
+        "service",
+        "detachment",
+        "bhagavata_tradition"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "hagiographic_tradition",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_without_publicity",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "service_without_publicity",
+      "claim_summary": "Service is urged without selfish motive or desire for publicity, and a day without useful service is treated as spiritually wasted.",
+      "question_intents": [
+        "What does Mahaperiyava say about publicity and self-interest in service?"
+      ],
+      "source_paragraph_ids": [
+        "p009",
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "3cd2d542cdd5e93f052af8e7fffad0eb0f87fa1c4965dcbfdecbd1bdc76f4fd5",
+        "5b4f571b360818b1f9a13fccee8bc62bf07cbe6923a8cb7da5c41e170650d1e7"
+      ],
+      "topics": [
+        "service",
+        "selflessness",
+        "humility"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.helping_beings_is_worship",
+      "chapter_ordinal": 54,
+      "chapter_slug": "sevaiye_melana_bakkiyam",
+      "unit_slug": "helping_beings_is_worship",
+      "claim_summary": "Using a Tirumantiram verse, the chapter equates help rendered to living beings with worship offered to God.",
+      "question_intents": [
+        "How does Mahaperiyava use the Tirumantiram to connect service and worship?"
+      ],
+      "source_paragraph_ids": [
+        "p011",
+        "p012",
+        "p013",
+        "p014"
+      ],
+      "source_paragraph_hashes": [
+        "4d4a6de460c82e6d8edbcf7313967d5c7e01ce683406ac4f889ebacafaa6707b",
+        "d5d287a3345ed9dcdb8d7972d934b7e459b0b95a1e8bd0011b6e95e76aa36a72",
+        "656c71318ae5aedb63ebb2afa728be133b42e853c6bf8f320d29efedcfc51dc3",
+        "a84e798786a8bde1097319ab998472d982ef46d759f66a5eb9618e5de42e7a10"
+      ],
+      "topics": [
+        "tirumantiram",
+        "service",
+        "worship",
+        "compassion"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_soteriological_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.vaishvadeva_and_recurring_sacred_duties",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "vaishvadeva_and_recurring_sacred_duties",
+      "claim_summary": "The chapter recalls a network of recurring ritual duties toward deities, ancestors, guests, and living beings, introducing Vaishvadeva as one of those inherited practices.",
+      "question_intents": [
+        "What is Vaishvadeva and where does it fit among recurring household duties?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "73869ef963c8f01b2d36d001e6e7d88984fd455ad13ae5a52e9e4f262e852a51"
+      ],
+      "topics": [
+        "vaishvadeva",
+        "yajna",
+        "ancestors",
+        "guests",
+        "living_beings"
+      ],
+      "flags": [
+        "traditional_ritual_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.ordinary_household_life_causes_unintended_harm",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "ordinary_household_life_causes_unintended_harm",
+      "claim_summary": "Ordinary household activities are described as inevitably causing unnoticed harm to living beings, creating a moral need for awareness and atonement.",
+      "question_intents": [
+        "Why does the chapter say ordinary household life inevitably causes some harm to living beings?"
+      ],
+      "source_paragraph_ids": [
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "07c0e41c3e339b30542ef6ed711945e13087fbe3364bd6d5a26b67900327dba6",
+        "747d90ed1df5fb6149d5747a704cf7c1aeb110497af670e350c05cee1c4cb571",
+        "b45f0917977d9171703e2a37cd8e5c05649a4e5baf863b30dafbf2d1322930e0",
+        "30034f57e8b7f93584ed54415d4f460c134790962b00cb14200a4eef6a8754f8",
+        "3aeb0465e22a0721b7f78bca2579c95d7443d7ea04415b7c9b36e6f1f5b3e872"
+      ],
+      "topics": [
+        "ahimsa",
+        "household_dharma",
+        "unintended_harm"
+      ],
+      "flags": [
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.vegetarianism_as_lesser_harm_claim",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "vegetarianism_as_lesser_harm_claim",
+      "claim_summary": "The source argues that plant-based food generally involves a lower degree of sentient harm than meat and treats vegetarian practice as supportive of sattva.",
+      "question_intents": [
+        "How does Mahaperiyava argue for vegetarianism within the framework of ahimsa?"
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "d50cb2548a9adb5ca6892bc0db8045cb699745180ba5ca5c3fd0af2c60c34685",
+        "9e1426088c27ca815db4a1b6488033014ca1800ae246be639226d795963c1984"
+      ],
+      "topics": [
+        "vegetarianism",
+        "ahimsa",
+        "diet",
+        "sattva"
+      ],
+      "flags": [
+        "scientific_claim_requires_external_verification",
+        "biological_generalization_attributed_only",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.five_household_sources_of_unintended_harm",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "five_household_sources_of_unintended_harm",
+      "claim_summary": "Fire, water vessels, sweeping, food preparation, and grinding are used as examples of unavoidable household activities that can injure small creatures, motivating a ritual response rather than denial of the harm.",
+      "question_intents": [
+        "What household activities are described as sources of unintended harm, and why does that matter?"
+      ],
+      "source_paragraph_ids": [
+        "p009",
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "110d9cece86f660b4b76e58611352626bc416046cb0c5aa6598b33f4ddb3a5a5",
+        "5baeb35293722490a55b9b66d47b06a155f492a43a81d1816a1433eef05a5151"
+      ],
+      "topics": [
+        "ahimsa",
+        "household_dharma",
+        "vaishvadeva"
+      ],
+      "flags": [
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.vaishvadeva_as_atonement_and_feeding_beings",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "vaishvadeva_as_atonement_and_feeding_beings",
+      "claim_summary": "Vaishvadeva is presented as an act of repentance and feeding directed toward all classes of beings affected by unavoidable household harm.",
+      "question_intents": [
+        "What purpose does Mahaperiyava assign to Vaishvadeva?"
+      ],
+      "source_paragraph_ids": [
+        "p011"
+      ],
+      "source_paragraph_hashes": [
+        "345b519202f8afd547da57776914abe21f2c4f55925a5de2c34a5f1520f78ffc"
+      ],
+      "topics": [
+        "vaishvadeva",
+        "atonement",
+        "feeding",
+        "compassion"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.pancha_mahayajna_as_continuous_tradition",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "pancha_mahayajna_as_continuous_tradition",
+      "claim_summary": "The five great yajnas are presented as an ancient continuous discipline whose interruption in modern life is lamented.",
+      "question_intents": [
+        "What are the five great yajnas and why does Mahaperiyava lament their decline?"
+      ],
+      "source_paragraph_ids": [
+        "p012"
+      ],
+      "source_paragraph_hashes": [
+        "afb3a327c61ab0e7e7db5549b519564957349430032d3f7102dcda853c43823d"
+      ],
+      "topics": [
+        "pancha_mahayajna",
+        "tradition",
+        "ritual_continuity"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.practice_what_is_possible_with_remorse_for_omissions",
+      "chapter_ordinal": 55,
+      "chapter_slug": "ella_uyirgalin_thirupthikkaga",
+      "unit_slug": "practice_what_is_possible_with_remorse_for_omissions",
+      "claim_summary": "Where all inherited observances cannot be performed, the teaching urges doing what circumstances permit while retaining concern rather than indifference toward omitted duties.",
+      "question_intents": [
+        "What does Mahaperiyava advise when a person cannot perform every traditional observance?"
+      ],
+      "source_paragraph_ids": [
+        "p013"
+      ],
+      "source_paragraph_hashes": [
+        "c00c7cfcc3f60c25c7dafc9015efcbb450397e1fe3d5f54359aa5b79dc3b46b1"
+      ],
+      "topics": [
+        "practice",
+        "dharma",
+        "repentance"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.chitta_suddhikku_sila_chinna_vishayangal.small_dharmas_shape_contented_life",
+      "chapter_ordinal": 56,
+      "chapter_slug": "chitta_suddhikku_sila_chinna_vishayangal",
+      "unit_slug": "small_dharmas_shape_contented_life",
+      "claim_summary": "Small inherited practices of mutual care and social responsibility are presented as sufficient practical guides for cultivating contentment, rather than requiring novel theories.",
+      "question_intents": [
+        "Why does Mahaperiyava emphasize small inherited dharmas in everyday life?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "5a1b9b68328ae919db7b3288dc5ab79d91cfc3bc69fa44417f9f33d92792aca6",
+        "03e4e1cd714bdfbfe099952d444f656a6a05e05dc527a1a6608b2b6f3bf713ff"
+      ],
+      "topics": [
+        "small_dharmas",
+        "tradition",
+        "contentment",
+        "community"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.chitta_suddhikku_sila_chinna_vishayangal.mutual_aid_in_family_ceremonies",
+      "chapter_ordinal": 56,
+      "chapter_slug": "chitta_suddhikku_sila_chinna_vishayangal",
+      "unit_slug": "mutual_aid_in_family_ceremonies",
+      "claim_summary": "Traditional mutual aid around weddings, funerals, and family hardship is portrayed as distributing burdens while purifying the giver through service.",
+      "question_intents": [
+        "How does Mahaperiyava describe traditional mutual aid among relatives and communities?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "d8b5b57ed936070328ef6d716d72ebc7febe7ea98f8938f18f91efaab2f6bf5a",
+        "71a8dabff11b5c58c5a399fb3abbdfb08a1ac2bd280495ad860ce1d34ccc9406"
+      ],
+      "topics": [
+        "mutual_aid",
+        "family",
+        "service",
+        "chitta_suddhi"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "social_generalization",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.chitta_suddhikku_sila_chinna_vishayangal.critique_of_status_feasts",
+      "chapter_ordinal": 56,
+      "chapter_slug": "chitta_suddhikku_sila_chinna_vishayangal",
+      "unit_slug": "critique_of_status_feasts",
+      "claim_summary": "Prestige-oriented parties among the affluent are contrasted with aid to those in need, with the former criticized as transactional and socially divisive rather than purifying.",
+      "question_intents": [
+        "Why does Mahaperiyava contrast parties for the affluent with helping poor relatives?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "7fbc09f54ae7d8b1cacb595658c9039d3011808de4d5f753c51d773b6175339c",
+        "5e0f9903eb99c2ac314078bfeca7f310e80fe2970d1d2fae143fba50ae8df2ac"
+      ],
+      "topics": [
+        "wealth",
+        "social_custom",
+        "charity",
+        "status"
+      ],
+      "flags": [
+        "social_generalization",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.chitta_suddhikku_sila_chinna_vishayangal.physical_service_available_to_everyone",
+      "chapter_ordinal": 56,
+      "chapter_slug": "chitta_suddhikku_sila_chinna_vishayangal",
+      "unit_slug": "physical_service_available_to_everyone",
+      "claim_summary": "Those without money are encouraged to serve physically through small unnoticed acts and community labor, which are presented as spiritually valuable forms of help.",
+      "question_intents": [
+        "What forms of service are available even to someone without money?"
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "05d73ea699824ab36dfdbfe2072a8b8aafa349a309779b104e69f4ca1a224707",
+        "b3efb10dd28bd1f072291457de95b261b7384de8ad6e822620d0c2b6142d89b8"
+      ],
+      "topics": [
+        "service",
+        "physical_labor",
+        "charity",
+        "chitta_suddhi"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.chitta_suddhikku_sila_chinna_vishayangal.service_and_bhakti_prepare_mind_for_grace",
+      "chapter_ordinal": 56,
+      "chapter_slug": "chitta_suddhikku_sila_chinna_vishayangal",
+      "unit_slug": "service_and_bhakti_prepare_mind_for_grace",
+      "claim_summary": "Compassionate action joined with devotion is presented as a way to clarify the mind so that divine presence and grace can be recognized.",
+      "question_intents": [
+        "How does Mahaperiyava connect service, devotion, purity of mind, and divine grace?"
+      ],
+      "source_paragraph_ids": [
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "e70bc7842adbd576e3a22af172574389c8fb0b5e0bce5d2703400fc4b08d882b"
+      ],
+      "topics": [
+        "service",
+        "bhakti",
+        "chitta_suddhi",
+        "grace"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutramum_gunamum.tradition_should_be_interiorized_not_forced",
+      "chapter_ordinal": 57,
+      "chapter_slug": "kutramum_gunamum",
+      "unit_slug": "tradition_should_be_interiorized_not_forced",
+      "claim_summary": "Inherited discipline is said to work best when people understand and voluntarily adopt it rather than obeying a proliferating system of written prohibitions and coercion.",
+      "question_intents": [
+        "Why does Mahaperiyava prefer voluntarily internalized custom to constant written rules?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "a8aefa580f1305cf72232ec54acb969b0c529d218f6228ca730274b036cf9cf3",
+        "da69bf1d49dd0f6888727ac4b998c2d8b328c1b99172b816a06bb3f351839641",
+        "6f8916e8521ff53e4d45ba7456f64c41a59730277b571428dd14344c80ba3188"
+      ],
+      "topics": [
+        "tradition",
+        "discipline",
+        "voluntary_practice",
+        "social_norms"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutramum_gunamum.notice_virtues_more_than_faults",
+      "chapter_ordinal": 57,
+      "chapter_slug": "kutramum_gunamum",
+      "unit_slug": "notice_virtues_more_than_faults",
+      "claim_summary": "The teaching urges recognizing faults without magnifying or broadcasting them, while deliberately noticing and encouraging even small virtues in others.",
+      "question_intents": [
+        "How should one respond to another person’s faults and good qualities?"
+      ],
+      "source_paragraph_ids": [
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "23c266a5d008b7897f786430bd22b359ff831982a08e465facd203e197540885",
+        "295bd85236f67fee681322cd86e6bc51e186d507fc037fd97393d76576dd5786"
+      ],
+      "topics": [
+        "faults",
+        "virtues",
+        "speech",
+        "compassion"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutramum_gunamum.correct_others_only_with_qualification",
+      "chapter_ordinal": 57,
+      "chapter_slug": "kutramum_gunamum",
+      "unit_slug": "correct_others_only_with_qualification",
+      "claim_summary": "Correction of another person is said to be useful only when the adviser has sufficient integrity, standing, and likelihood of being heard; otherwise it may harden resistance.",
+      "question_intents": [
+        "When does Mahaperiyava say it is appropriate to correct another person?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "ec88073091b73fd4fbbca6e3f4f2168c079eaddf50d8bbf3f1639fc463a23900"
+      ],
+      "topics": [
+        "correction",
+        "self_examination",
+        "advice"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutramum_gunamum.praise_requires_discernment",
+      "chapter_ordinal": 57,
+      "chapter_slug": "kutramum_gunamum",
+      "unit_slug": "praise_requires_discernment",
+      "claim_summary": "Praise is described as useful for encouraging virtue but potentially harmful when it feeds ego, so traditional advice distinguishes when and how different people should be praised.",
+      "question_intents": [
+        "Why does Mahaperiyava say praise should be used carefully?"
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008",
+        "p009",
+        "p010",
+        "p011",
+        "p012"
+      ],
+      "source_paragraph_hashes": [
+        "8b7ca4fba635f10d566d616c67593acb838bd35be96e590e04d71c4606df4dac",
+        "2ff43360c6540641fe95480af281a98152c5aabde6109a17eb373719293550c1",
+        "7d89b3f004e4d7a8951c35effc3f559e47fa9c023a399192d7cf05f4753dc97f",
+        "0be282b35a05a12d944f4d220a492834ec6f0a8598e4d40bb59098ccdaea1543",
+        "4eba431e4a42a94c3319c8244e471c03de2b1bd8fb44b10a1c5660ea7d408d77",
+        "f038d50efff10114f056afb7b53c2edf82358d9fbbf83c9ae214af14d6f54d94"
+      ],
+      "topics": [
+        "praise",
+        "ego",
+        "encouragement",
+        "tradition"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam.desire_and_anger_as_moral_enemies",
+      "chapter_ordinal": 58,
+      "chapter_slug": "kobam",
+      "unit_slug": "desire_and_anger_as_moral_enemies",
+      "claim_summary": "Desire and anger are presented as paired forces that push a person toward wrongdoing, with anger arising when desire is obstructed.",
+      "question_intents": [
+        "How does Mahaperiyava connect desire and anger?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "16dc754ae09b8045a171e728881ac9d934d32ac0d9dafa0fb00c08a7d35f397b",
+        "63d592c27202d7c47885f4506914a257ab5e1a9b77f41aa209910069e64fa793"
+      ],
+      "topics": [
+        "desire",
+        "anger",
+        "ethics",
+        "gita"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam.anger_harms_the_angry_person",
+      "chapter_ordinal": 58,
+      "chapter_slug": "kobam",
+      "unit_slug": "anger_harms_the_angry_person",
+      "claim_summary": "Anger is portrayed as injuring the angry person’s body, mind, judgment, and dignity even when it is intended to strike someone else.",
+      "question_intents": [
+        "Why does Mahaperiyava say anger harms the angry person most?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "bc8aba1757f48e1dc82b15abb8e59a75abf0721321629a972f2c6a20253d0b9f"
+      ],
+      "topics": [
+        "anger",
+        "mind",
+        "body",
+        "self_harm"
+      ],
+      "flags": [
+        "health_claim_attributed_only",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam.desire_grows_when_fed",
+      "chapter_ordinal": 58,
+      "chapter_slug": "kobam",
+      "unit_slug": "desire_grows_when_fed",
+      "claim_summary": "Desire is compared with fire that grows when fed: temporary satisfaction gives way to renewed craving, disturbance, grief, and anger.",
+      "question_intents": [
+        "Why is desire compared with fire in this chapter?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "d7411e55015746dc2fd7db8a059b9a9bf3d03e43fdb900ae28137c29f06895f0"
+      ],
+      "topics": [
+        "desire",
+        "craving",
+        "anger",
+        "analogy"
+      ],
+      "flags": [
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam.grief_and_anger_as_two_forms_of_frustrated_desire",
+      "chapter_ordinal": 58,
+      "chapter_slug": "kobam",
+      "unit_slug": "grief_and_anger_as_two_forms_of_frustrated_desire",
+      "claim_summary": "Grief and anger are described as two responses to frustrated desire, shaped partly by whether one feels able to direct anger outward.",
+      "question_intents": [
+        "How does Mahaperiyava relate grief and anger to unfulfilled desire?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "9acf3e03458b482af1f39c6ed69849d66106f8b4c63a4b9f2358b72f28e10cdf"
+      ],
+      "topics": [
+        "desire",
+        "grief",
+        "anger",
+        "emotion"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam.humility_as_guard_against_anger",
+      "chapter_ordinal": 58,
+      "chapter_slug": "kobam",
+      "unit_slug": "humility_as_guard_against_anger",
+      "claim_summary": "Remembering one’s own faults and imagining oneself in another person’s circumstances is recommended as a practical safeguard against anger.",
+      "question_intents": [
+        "What practical reflection does Mahaperiyava recommend for reducing anger?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "e7b7520447e8d32a08a6bbb0bbf8e82f5518d8ba14878bc7e4c0924fefe549ec",
+        "475c46ce6398d7f36b2a567d30a256b0c6ff869504485beeca0f8069a2c56e9b"
+      ],
+      "topics": [
+        "anger",
+        "humility",
+        "self_examination",
+        "compassion"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam_kolla_thaguthi_ethu.we_lack_ground_for_self_righteous_anger",
+      "chapter_ordinal": 59,
+      "chapter_slug": "kobam_kolla_thaguthi_ethu",
+      "unit_slug": "we_lack_ground_for_self_righteous_anger",
+      "claim_summary": "The chapter argues that awareness of one’s own actual or potential wrongdoing undermines self-righteous anger toward people who have fallen into worse conduct.",
+      "question_intents": [
+        "Why does Mahaperiyava say we usually lack the moral standing for anger at another person’s wrongdoing?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "011990efff3998893c6da120c57e9c17a87a93fbf750856092663ffcebc7f837",
+        "8f02bd534849e9e463d6c233abc909f35d28a277f46978e64e5982b5475fd816"
+      ],
+      "topics": [
+        "anger",
+        "self_examination",
+        "wrongdoing",
+        "compassion"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam_kolla_thaguthi_ethu.love_reforms_better_than_fear",
+      "chapter_ordinal": 59,
+      "chapter_slug": "kobam_kolla_thaguthi_ethu",
+      "unit_slug": "love_reforms_better_than_fear",
+      "claim_summary": "Fear and anger are portrayed as unstable tools of reform, while change produced through love and inner recognition is described as more durable.",
+      "question_intents": [
+        "Why does Mahaperiyava prefer reform through love rather than fear and anger?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "ca5591619cffef9d67f975d2b75c48859055b1f6e4bf09348508660170433a05"
+      ],
+      "topics": [
+        "reform",
+        "love",
+        "anger",
+        "fear"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "causal_claim_attributed_only",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam_kolla_thaguthi_ethu.pray_for_wrongdoers_instead_of_hating_them",
+      "chapter_ordinal": 59,
+      "chapter_slug": "kobam_kolla_thaguthi_ethu",
+      "unit_slug": "pray_for_wrongdoers_instead_of_hating_them",
+      "claim_summary": "The recommended response to another person’s wrongdoing is prayer for the grace and circumstances that can help that person turn toward a better path.",
+      "question_intents": [
+        "What response does Mahaperiyava recommend toward a wrongdoer instead of hatred?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "ff14e169ba1a597f367ee90b03eade5c48e107acb79c967280ab47eb5e9883e4"
+      ],
+      "topics": [
+        "prayer",
+        "compassion",
+        "wrongdoing",
+        "grace"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam_kolla_thaguthi_ethu.criticism_should_begin_with_ones_own_faults",
+      "chapter_ordinal": 59,
+      "chapter_slug": "kobam_kolla_thaguthi_ethu",
+      "unit_slug": "criticism_should_begin_with_ones_own_faults",
+      "claim_summary": "Awareness of one’s own faults and the ideal of seeing divine play are both used to argue against condemning others in anger.",
+      "question_intents": [
+        "How does self-examination weaken the impulse to condemn others?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "ba2c14ffefd9964fff763a846ff7f9b52691e1ef2e8238c0f873c0be80d20bc0",
+        "8186a353b1b6494585da5210aeb3718d2677b92895bffe72cee8f75a206831a7"
+      ],
+      "topics": [
+        "self_examination",
+        "anger",
+        "compassion",
+        "divine_play"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kobam_kolla_thaguthi_ethu.love_as_human_dharma_and_joy",
+      "chapter_ordinal": 59,
+      "chapter_slug": "kobam_kolla_thaguthi_ethu",
+      "unit_slug": "love_as_human_dharma_and_joy",
+      "claim_summary": "Love is presented as a more natural and joyful human disposition than anger, benefiting both oneself and the other person.",
+      "question_intents": [
+        "Why does Mahaperiyava describe love as a natural human dharma?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "9763eff4ffe29b620e08f98d3516fe6176300ffa08bf9279a3380d91af56098b"
+      ],
+      "topics": [
+        "love",
+        "anger",
+        "joy",
+        "human_dharma"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.love_as_fulfillment_of_human_life",
+      "chapter_ordinal": 60,
+      "chapter_slug": "anbum_thunbamum",
+      "unit_slug": "love_as_fulfillment_of_human_life",
+      "claim_summary": "Giving love is presented as a uniquely fulfilling purpose of human life, capable of making sacrifice and hardship feel secondary to inner fullness.",
+      "question_intents": [
+        "Why does Mahaperiyava call love a central fulfillment of human life?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "79267ca060f3a3cc50ac52651663de8b72705a815634ac218f22534ad7fd2c29"
+      ],
+      "topics": [
+        "love",
+        "human_life",
+        "joy",
+        "selflessness"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.finite_attachment_ends_in_separation_grief",
+      "chapter_ordinal": 60,
+      "chapter_slug": "anbum_thunbamum",
+      "unit_slug": "finite_attachment_ends_in_separation_grief",
+      "claim_summary": "Affection for impermanent people and objects is described as vulnerable to grief because separation is unavoidable, yet loveless self-centeredness is rejected as an alternative.",
+      "question_intents": [
+        "Why does ordinary attachment produce grief according to this teaching?"
+      ],
+      "source_paragraph_ids": [
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "2b8e2212c911da472b52ea2128cc56b4e4798cf17dccf2e180135caee1846ac9",
+        "cbec88a17596fbe245dd4250d693d01fe4a201a5603a46f69907dd55267089be"
+      ],
+      "topics": [
+        "love",
+        "attachment",
+        "grief",
+        "impermanence"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "psychological_generalization",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.imperishable_love_should_rest_in_paramatman",
+      "chapter_ordinal": 60,
+      "chapter_slug": "anbum_thunbamum",
+      "unit_slug": "imperishable_love_should_rest_in_paramatman",
+      "claim_summary": "The proposed answer to the tension between love and loss is to root love in the imperishable Paramatman, whose presence is presented as never finally lost.",
+      "question_intents": [
+        "Where should lasting love be rooted according to Mahaperiyava?"
+      ],
+      "source_paragraph_ids": [
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "bf797b24f6be2c1e0de414bdbabe276b65ece743c63907bd7a5aa098bfcbd857",
+        "a3893024c6f343841c11cc69f246b24c6d3a86aac7b17b091d0847c641766353"
+      ],
+      "topics": [
+        "paramatman",
+        "love",
+        "impermanence",
+        "bhakti"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.see_all_beings_as_paramatman",
+      "chapter_ordinal": 60,
+      "chapter_slug": "anbum_thunbamum",
+      "unit_slug": "see_all_beings_as_paramatman",
+      "claim_summary": "As love of the Paramatman deepens, other beings are to be seen as forms of that same imperishable reality, transforming personal attachment into universal love.",
+      "question_intents": [
+        "How does love of Paramatman expand into love for everyone?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "3042a9439dcc3a04c1e1b222815a1f11b095fd6b319d9ba5355603443eda0e8e"
+      ],
+      "topics": [
+        "paramatman",
+        "universal_love",
+        "advaita",
+        "bhakti"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.guru_and_saints_as_bridge_to_universal_love",
+      "chapter_ordinal": 60,
+      "chapter_slug": "anbum_thunbamum",
+      "unit_slug": "guru_and_saints_as_bridge_to_universal_love",
+      "claim_summary": "Love directed toward a realized teacher or saint is presented as a practical bridge from personal devotion to love of the divine in all beings and to freedom from grief.",
+      "question_intents": [
+        "How can love for a guru or saint become a bridge to universal love?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "06d6f4009446cb970edacbefcf117f8358371cff259fa5c47fd683f636844297"
+      ],
+      "topics": [
+        "guru",
+        "saints",
+        "love",
+        "grief",
+        "bhakti"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbu.three_conditioned_forms_of_worldly_love",
+      "chapter_ordinal": 61,
+      "chapter_slug": "anbu",
+      "unit_slug": "three_conditioned_forms_of_worldly_love",
+      "claim_summary": "Worldly love is classified as arising from admired qualities, familiarity, or expected benefit, and all three are described as unstable because they depend on conditions.",
+      "question_intents": [
+        "What three conditioned forms of love does Mahaperiyava distinguish?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "880a719beedf51809e1566cc321eb24ff8239d26c474e00719fc557b6d79af1d",
+        "5062b1538e093ce1c7b44e051f81fda7ac459b2a291b102dec124f3fa3398a12",
+        "7e6b6e0be2ddc06621598b8ad0e4c6a9b82d15754ca5bb7f9b1fddd46d68612b"
+      ],
+      "topics": [
+        "love",
+        "attachment",
+        "relationship",
+        "self_interest"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbu.true_love_is_unconditional",
+      "chapter_ordinal": 61,
+      "chapter_slug": "anbu",
+      "unit_slug": "true_love_is_unconditional",
+      "claim_summary": "True love is defined as affection without dependence on benefit, closeness, or admired qualities, and divine love is offered as the fullest model of such unconditional care.",
+      "question_intents": [
+        "How does Mahaperiyava define true unconditional love?"
+      ],
+      "source_paragraph_ids": [
+        "p004",
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "31c423cbeacde9674ffc746178d06651b766491d416b22298142bbe564a8bc7e",
+        "37b60d1098759ef6c5749ed23222e3e9f4dec22b7330d214d6b5077104142160",
+        "ebdf725a58f22fc382f2ed88d4120cc922da12782af23434b343a850c98e5524"
+      ],
+      "topics": [
+        "unconditional_love",
+        "divine_love",
+        "bhakti"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbu.love_the_wrongdoer_while_seeking_reform",
+      "chapter_ordinal": 61,
+      "chapter_slug": "anbu",
+      "unit_slug": "love_the_wrongdoer_while_seeking_reform",
+      "claim_summary": "Rather than withdrawing love from a person because of wrongdoing, the teaching recommends compassionate effort to help transform the conditions and impulses behind the wrongdoing.",
+      "question_intents": [
+        "How should unconditional love respond to someone who does wrong?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "088cbcd0e46f4ad10de4c4311c9e970b98d66aecd89b738442985f88447be0b2"
+      ],
+      "topics": [
+        "compassion",
+        "wrongdoing",
+        "love",
+        "reform"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anbu.guru_love_expands_to_equal_love_for_all",
+      "chapter_ordinal": 61,
+      "chapter_slug": "anbu",
+      "unit_slug": "guru_love_expands_to_equal_love_for_all",
+      "claim_summary": "Practicing non-transactional love toward the guru is presented as training that can expand into equal causeless love toward all beings, culminating in peace and fullness.",
+      "question_intents": [
+        "Why is unconditional love for the guru described as training for universal love?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "6c1515ce1485ebe0bcae4d906f3d07ea266aa16dfc3d665e7ac39dff7216d272"
+      ],
+      "topics": [
+        "guru",
+        "universal_love",
+        "peace",
+        "bhakti"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ethu_swarajyam.swarajya_as_cultural_self_rule",
+      "chapter_ordinal": 62,
+      "chapter_slug": "ethu_swarajyam",
+      "unit_slug": "swarajya_as_cultural_self_rule",
+      "claim_summary": "Political independence is said to be incomplete without freedom from uncritical imitation of foreign habits and renewed confidence in inherited Indian practices and spiritual culture.",
+      "question_intents": [
+        "What does Mahaperiyava mean by “true swarajya” beyond political independence?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "f1090dbb9d84abe86af7276406481d3615ef2a142ef4f6804328ec9a37d961ab"
+      ],
+      "topics": [
+        "swarajya",
+        "culture",
+        "colonialism",
+        "tradition"
+      ],
+      "flags": [
+        "political_historical_claim",
+        "historical_claim_requires_external_verification",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ethu_swarajyam.enduring_civilization_as_reason_for_continuity",
+      "chapter_ordinal": 62,
+      "chapter_slug": "ethu_swarajyam",
+      "unit_slug": "enduring_civilization_as_reason_for_continuity",
+      "claim_summary": "The longevity of Indian civilization is offered as a reason to preserve and live by its distinctive inherited culture rather than abandon it merely in the name of modernity.",
+      "question_intents": [
+        "Why does Mahaperiyava cite the longevity of Indian civilization as a reason for continuity?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "c8b4cfe873fcf4212d3754b929ed20fa0a0c0affe8860f2db6a1bd2892d53a14"
+      ],
+      "topics": [
+        "civilization",
+        "culture",
+        "tradition",
+        "identity"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ethu_swarajyam.dharmic_governance_and_public_choice",
+      "chapter_ordinal": 62,
+      "chapter_slug": "ethu_swarajyam",
+      "unit_slug": "dharmic_governance_and_public_choice",
+      "claim_summary": "The chapter advocates using political freedom to choose leaders grounded in dharma, discipline, and traditional knowledge, with the state oriented toward restoring a dharmic social order.",
+      "question_intents": [
+        "What kind of political leadership and governance does Mahaperiyava advocate in this chapter?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "a946d9b5bd8e61da7c6c8b8f69ad5a1f0fc4514bf38d023df27d5f0fc213a17c"
+      ],
+      "topics": [
+        "governance",
+        "dharma_rajya",
+        "politics",
+        "public_choice"
+      ],
+      "flags": [
+        "political_normative_claim",
+        "political_historical_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.aramum_anbum_arasangamum.dharma_integrates_personal_and_social_duties",
+      "chapter_ordinal": 63,
+      "chapter_slug": "aramum_anbum_arasangamum",
+      "unit_slug": "dharma_integrates_personal_and_social_duties",
+      "claim_summary": "Dharma is defined as conducting personal, family, occupational, social, and national duties without harmful excess of desire or anger, in a way intended to uplift all concerned.",
+      "question_intents": [
+        "How does Mahaperiyava define dharma in relation to personal and social duties?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "01fb329b191142330988f33898b06d02e126260531240c92be3fcaf08a0e9195",
+        "44d8d27eb9ed76134378b9d07717961c243aa803fae993d14f15b8c6e4b78874",
+        "394d085e648190b05fcd9e6335eba75124ba0311fd6c7e840dc749c7b573133a"
+      ],
+      "topics": [
+        "dharma",
+        "duty",
+        "society",
+        "self_discipline"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.aramum_anbum_arasangamum.state_responsibility_for_order_and_spiritual_opportunity",
+      "chapter_ordinal": 63,
+      "chapter_slug": "aramum_anbum_arasangamum",
+      "unit_slug": "state_responsibility_for_order_and_spiritual_opportunity",
+      "claim_summary": "Government is described as responsible not only for orderly worldly life but also for creating conditions in which citizens can pursue spiritual development.",
+      "question_intents": [
+        "What responsibilities does Mahaperiyava assign to government?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "6a0fbbf4af903353d0c70188458125a945041f4c14980e5959df2fe628c35d2a"
+      ],
+      "topics": [
+        "government",
+        "dharma",
+        "social_order",
+        "spiritual_life"
+      ],
+      "flags": [
+        "political_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.aramum_anbum_arasangamum.all_action_should_begin_in_love",
+      "chapter_ordinal": 63,
+      "chapter_slug": "aramum_anbum_arasangamum",
+      "unit_slug": "all_action_should_begin_in_love",
+      "claim_summary": "Whether undertaken by an individual or a state, action is said to require genuine concern for those who will experience its consequences.",
+      "question_intents": [
+        "What principle does Mahaperiyava say should underlie every action?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "9e35a81f9e0baf5ab495469e5bf7f45d58cb99c3ed5b74735e0583d89d550205"
+      ],
+      "topics": [
+        "love",
+        "action",
+        "government",
+        "ethics"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.aramum_anbum_arasangamum.force_and_punishment_without_hatred",
+      "chapter_ordinal": 63,
+      "chapter_slug": "aramum_anbum_arasangamum",
+      "unit_slug": "force_and_punishment_without_hatred",
+      "claim_summary": "Even where war or punishment is considered unavoidable, the actor is urged to remove hatred, selfish passion, and revenge and to act only for perceived welfare, including that of the offender.",
+      "question_intents": [
+        "How does Mahaperiyava distinguish loving action from absolute nonviolence in matters of punishment or war?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "e863ccf54d0545ab126377332ffe5695733c65c6a578852a30b2ac3e854c3fa7",
+        "a8b149dc23db5afed74911915f3f3d96a1fca257fc22abe48bb66ee45d4ca4e3"
+      ],
+      "topics": [
+        "punishment",
+        "war",
+        "love",
+        "ahimsa",
+        "public_welfare"
+      ],
+      "flags": [
+        "political_normative_claim",
+        "traditional_normative_claim",
+        "religious_comparison_attributed_only",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutrathai_kuraikkum_vazhi.government_prevents_domination_and_uses_deterrent_punishment",
+      "chapter_ordinal": 64,
+      "chapter_slug": "kutrathai_kuraikkum_vazhi",
+      "unit_slug": "government_prevents_domination_and_uses_deterrent_punishment",
+      "claim_summary": "Government is described as necessary to prevent stronger people or groups from exploiting weaker ones, with punishment functioning as deterrence against wrongdoing.",
+      "question_intents": [
+        "Why does Mahaperiyava say government and punishment are necessary?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "2f4decd83c565677de287760a3ca25bf6c501f87e1b6044e8c15c91d30ae663a",
+        "f283b0118f0ac4ad1927dad454913eb5ca3b95a51580e857a9fa87fb7b5ab325",
+        "15db16e2d10f4206f11075309b8ee67147f60bafe3cbc14fe73cfaac43b355e5"
+      ],
+      "topics": [
+        "government",
+        "punishment",
+        "deterrence",
+        "social_order"
+      ],
+      "flags": [
+        "political_normative_claim",
+        "psychological_generalization",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutrathai_kuraikkum_vazhi.prevention_of_criminal_intent_is_better_than_punishment",
+      "chapter_ordinal": 64,
+      "chapter_slug": "kutrathai_kuraikkum_vazhi",
+      "unit_slug": "prevention_of_criminal_intent_is_better_than_punishment",
+      "claim_summary": "Preventing the desire to commit wrongdoing is presented as superior to merely punishing completed offenses, and coercive statecraft is subordinated in principle to dharmic formation.",
+      "question_intents": [
+        "Why does Mahaperiyava prefer prevention of wrongdoing to punishment after the fact?"
+      ],
+      "source_paragraph_ids": [
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "b2b0071109b7fba7d675465ee39d9c0daa938cded634689415940184e2de5ec9",
+        "aaa8861300ffba6e80cae6c2ec250324d8ecea0ae626772e82cbe639bf62312b"
+      ],
+      "topics": [
+        "crime_prevention",
+        "dharma",
+        "government",
+        "ethics"
+      ],
+      "flags": [
+        "political_normative_claim",
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutrathai_kuraikkum_vazhi.dharmic_exemplars_should_shape_public_culture",
+      "chapter_ordinal": 64,
+      "chapter_slug": "kutrathai_kuraikkum_vazhi",
+      "unit_slug": "dharmic_exemplars_should_shape_public_culture",
+      "claim_summary": "The state is urged to cultivate and support trustworthy people who live dharma visibly, because example and selfless teaching are said to influence public conduct more deeply than enforcement alone.",
+      "question_intents": [
+        "What role does Mahaperiyava give to dharmic exemplars in reducing crime?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007",
+        "p008",
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "c418b798e76d08c9d299d94b0b2e405f708b4fcce3dc781854e11fb21f169dad",
+        "bae22a5c924afd5b763a42c8ee4a786791f99cbe77e2d75dd338e2d2ebd29d40",
+        "1009cb356ddb1aee3ef6d7e3533ebb61c23df993a149921658d39c49ee5d861f",
+        "547d8ae391080974bc028e453de96281f9c6c546a91af791a81875b5d5de61a8"
+      ],
+      "topics": [
+        "leadership",
+        "example",
+        "dharma",
+        "public_culture"
+      ],
+      "flags": [
+        "political_normative_claim",
+        "causal_claim_attributed_only",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kutrathai_kuraikkum_vazhi.temples_and_positive_culture_over_expanding_enforcement",
+      "chapter_ordinal": 64,
+      "chapter_slug": "kutrathai_kuraikkum_vazhi",
+      "unit_slug": "temples_and_positive_culture_over_expanding_enforcement",
+      "claim_summary": "The chapter contrasts ever-expanding courts and policing with temples, moral exemplars, and positive paths of conduct, arguing that durable peace comes more from cultivated virtue than fear of punishment.",
+      "question_intents": [
+        "Why does Mahaperiyava contrast temples and moral guidance with courts and punishment?"
+      ],
+      "source_paragraph_ids": [
+        "p010",
+        "p011"
+      ],
+      "source_paragraph_hashes": [
+        "6bae112225d82ac11d8c5577a2b57920c93f6a354e5bd6a398e0f52833d8798b",
+        "056beb7701c559412fde70c406b1a3a02e46519820d53aaf9019a119b78e3111"
+      ],
+      "topics": [
+        "temple",
+        "crime_prevention",
+        "social_order",
+        "peace"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "social_generalization",
+        "political_normative_claim",
+        "causal_claim_attributed_only",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.education_should_cultivate_inner_and_outer_peace",
+      "chapter_ordinal": 65,
+      "chapter_slug": "unmai_kalvi",
+      "unit_slug": "education_should_cultivate_inner_and_outer_peace",
+      "claim_summary": "The highest aim of education is presented as mastery of the mind and inner peace, which is also said to reduce conflict and harm in society.",
+      "question_intents": [
+        "What does Mahaperiyava say should be the highest aim of education?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "1e78c7bd7eb4ef25529170d837f3fe1bb24c3db7ccdf1b89d94cb3d9f728385b"
+      ],
+      "topics": [
+        "education",
+        "mind_control",
+        "peace",
+        "society"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "causal_claim_attributed_only",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.science_should_serve_dharma_and_human_welfare",
+      "chapter_ordinal": 65,
+      "chapter_slug": "unmai_kalvi",
+      "unit_slug": "science_should_serve_dharma_and_human_welfare",
+      "claim_summary": "Scientific learning is accepted as valuable, but its use is said to require direction by dharma so that knowledge does not simply amplify desire and suffering.",
+      "question_intents": [
+        "How does Mahaperiyava evaluate scientific education?",
+        "What role should dharma play in the use of scientific knowledge?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "24e3f01bffd50ce69f260909a389382c8403cb409ba3c1981cda7f38503580fa"
+      ],
+      "topics": [
+        "science",
+        "education",
+        "dharma",
+        "ethics"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "cultural_generalization",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.true_education_leads_toward_self_knowledge",
+      "chapter_ordinal": 65,
+      "chapter_slug": "unmai_kalvi",
+      "unit_slug": "true_education_leads_toward_self_knowledge",
+      "claim_summary": "Education is ranked by whether it ultimately supports self-knowledge: spiritual knowledge gives the direct goal, while worldly learning can still assist through livelihood, duty, worship, and disciplined action.",
+      "question_intents": [
+        "What does Mahaperiyava mean by “true education”?",
+        "How can worldly education still support spiritual growth?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "abbee30fe0cd155901a3a3bdf52c9e0f767c6b1cfa4aafda90bf26770767aa33"
+      ],
+      "topics": [
+        "education",
+        "atma_jnana",
+        "karma",
+        "bhakti",
+        "dharma"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.para_and_apara_vidya_and_sources_of_knowledge",
+      "chapter_ordinal": 65,
+      "chapter_slug": "unmai_kalvi",
+      "unit_slug": "para_and_apara_vidya_and_sources_of_knowledge",
+      "claim_summary": "The chapter distinguishes higher knowledge of Brahman from worldly learning and presents scripture and spiritual experience alongside perception, inference, and reasoning as valid sources in their respective domains.",
+      "question_intents": [
+        "What distinction does Mahaperiyava make between para vidya and apara vidya?",
+        "What sources of knowledge are recognized in this chapter?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "68743772d925477310155b77b9847344bec8396d5c1d1d4c454288b0e6b00482"
+      ],
+      "topics": [
+        "para_vidya",
+        "apara_vidya",
+        "pramana",
+        "veda",
+        "knowledge"
+      ],
+      "flags": [
+        "epistemic_claim_attributed_only",
+        "traditional_scriptural_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.education_should_preserve_inner_discipline_while_learning_from_abroad",
+      "chapter_ordinal": 65,
+      "chapter_slug": "unmai_kalvi",
+      "unit_slug": "education_should_preserve_inner_discipline_while_learning_from_abroad",
+      "claim_summary": "Borrowed methods and knowledge are to be integrated cautiously so that education strengthens character and inward discipline rather than encouraging uncritical imitation of foreign lifestyles.",
+      "question_intents": [
+        "How does Mahaperiyava say foreign methods should be integrated into education?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "108512a3bbb313a5e515349af8dab04eb49af8837f6a6e5765156653f2bfd94c"
+      ],
+      "topics": [
+        "education",
+        "culture",
+        "discipline",
+        "western_influence"
+      ],
+      "flags": [
+        "cultural_generalization",
+        "historical_claim_requires_external_verification",
+        "traditional_normative_claim",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.children_should_receive_dharma_bhakti_and_cultural_formation",
+      "chapter_ordinal": 65,
+      "chapter_slug": "unmai_kalvi",
+      "unit_slug": "children_should_receive_dharma_bhakti_and_cultural_formation",
+      "claim_summary": "Education from childhood is urged to include discipline, inherited culture, devotion, and spiritual practice alongside secular knowledge.",
+      "question_intents": [
+        "What should children be taught from an early age according to Mahaperiyava?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "d1998c3e1411616df91f7eb442721a0f7cd4c50cef5835cfce1decd695020b86"
+      ],
+      "topics": [
+        "children",
+        "education",
+        "dharma",
+        "bhakti",
+        "culture"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "cultural_generalization",
+        "source_decode_replacement"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    }
+  ]
+}
