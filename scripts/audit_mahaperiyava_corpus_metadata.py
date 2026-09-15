@@ -4,30 +4,17 @@ Mahaperiyava Corpus Metadata Auditor
 
 Inspects TRACKED metadata only. Does NOT open data/private/ or sources/raw/.
 Audits all tracked Mahaperiyava teaching-record JSONL and curation-index JSON files.
+Discovers files dynamically via git ls-files.
 """
 from __future__ import annotations
 import json
+import subprocess
 import sys
-from collections import Counter, defaultdict
+from collections import Counter
 from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
-
-# Tracked files to audit
-TEACHING_FILES = [
-    ROOT / "data/review/mahaperiyava_dk_v1_pilot_teaching_records.jsonl",
-    ROOT / "data/review/mahaperiyava_dk_v1_batch_001_022_teaching_records.jsonl",
-    ROOT / "data/review/mahaperiyava_dk_v1_batch_024_045_teaching_records.jsonl",
-    ROOT / "data/review/mahaperiyava_dk_v1_batch_046_065_teaching_records.jsonl",
-]
-
-CURATION_FILES = [
-    ROOT / "data/review/mahaperiyava_dk_v1_pilot_curation_index.json",
-    ROOT / "data/review/mahaperiyava_dk_v1_batch_001_022_curation_index.json",
-    ROOT / "data/review/mahaperiyava_dk_v1_batch_024_045_curation_index.json",
-    ROOT / "data/review/mahaperiyava_dk_v1_batch_046_065_curation_index.json",
-]
 
 VALID_AUTHORITIES = {
     "dk_attested",
@@ -70,19 +57,61 @@ def load_json(path: Path) -> dict:
         raise ValueError(f"{path}: malformed JSON: {e}")
 
 
+def discover_tracked_files() -> tuple[list[Path], list[Path]]:
+    """Discover tracked Mahaperiyava files via git ls-files."""
+    try:
+        result = subprocess.run(
+            ["git", "ls-files", "data/review/mahaperiyava*teaching_records.jsonl",
+             "data/review/mahaperiyava*curation_index.json"],
+            cwd=ROOT, capture_output=True, text=True, check=True
+        )
+    except subprocess.CalledProcessError as e:
+        raise RuntimeError(f"git ls-files failed: {e.stderr}")
+
+    teaching_files = []
+    curation_files = []
+    for line in result.stdout.strip().splitlines():
+        if not line:
+            continue
+        p = ROOT / line
+        if p.suffix == ".jsonl":
+            teaching_files.append(p)
+        else:
+            curation_files.append(p)
+
+    if not teaching_files and not curation_files:
+        raise RuntimeError("No tracked Mahaperiyava metadata files found")
+
+    return sorted(teaching_files), sorted(curation_files)
+
+
+def chapter_identity(record: dict) -> tuple:
+    """
+    Stable chapter identity: (volume, chapter_ordinal) when available,
+    else (volume, digital_url) as fallback.
+    Tamil title is display metadata only.
+    """
+    locus = record.get("source_locus", {})
+    volume = locus.get("volume")
+    ordinal = locus.get("chapter_ordinal")
+    if volume is not None and ordinal is not None:
+        return (volume, ordinal)
+    digital_url = locus.get("digital_url", "")
+    return (volume, digital_url)
+
+
 def audit_teaching_records(files: list[Path]) -> dict[str, Any]:
     all_records = []
     seen_ids = set()
     duplicate_ids = []
     authority_counts = Counter()
     flag_counts = Counter()
-    chapter_counts = Counter()
+    chapter_identities = Counter()
     missing_fields = []
-    malformed = []
     rights_violations = []
     authority_issues = []
     provenance_issues = []
-    source_title_anomalies = []
+    source_anomalies = []
     decode_replacements = 0
 
     for path in files:
@@ -136,7 +165,6 @@ def audit_teaching_records(files: list[Path]) -> dict[str, Any]:
                 pub = rights.get("public_export")
                 if pub not in ("metadata_only", "none"):
                     rights_violations.append(f"{rid}: restricted source_text_tier but public_export='{pub}' (must be metadata_only/none)")
-                # Check exact_text_restricted not in tracked
                 if "exact_text_restricted" in r and r["exact_text_restricted"] is not None:
                     rights_violations.append(f"{rid}: tracked record contains non-null exact_text_restricted")
 
@@ -146,10 +174,9 @@ def audit_teaching_records(files: list[Path]) -> dict[str, Any]:
                 if "source_decode_replacement" in f.lower():
                     decode_replacements += 1
 
-            # Chapter tracking
-            chapter = r.get("source_locus", {}).get("chapter_title_ta")
-            if chapter:
-                chapter_counts[chapter] += 1
+            # Chapter identity (stable key)
+            ch_key = chapter_identity(r)
+            chapter_identities[ch_key] += 1
 
             # Provenance consistency
             prov = r.get("provenance", [])
@@ -159,12 +186,10 @@ def audit_teaching_records(files: list[Path]) -> dict[str, Any]:
                 if "witness_role" not in p:
                     provenance_issues.append(f"{rid}: provenance entry missing witness_role")
 
-            # Source title anomalies (already recorded in metadata)
-            source_locus = r.get("source_locus", {})
-            digital_url = source_locus.get("digital_url", "")
-            if digital_url and "kamakoti.org" in digital_url:
-                if "part1kural" not in digital_url:
-                    source_title_anomalies.append(f"{rid}: unexpected digital_url pattern: {digital_url}")
+            # Record explicit source_anomalies if present in record
+            # (These come from curation-index metadata, not inferred)
+            for anomaly in r.get("source_anomalies", []):
+                source_anomalies.append(f"{rid}: {anomaly}")
 
     return {
         "total_records": len(all_records),
@@ -172,13 +197,13 @@ def audit_teaching_records(files: list[Path]) -> dict[str, Any]:
         "duplicate_ids": duplicate_ids,
         "authority_counts": dict(authority_counts),
         "flag_counts": dict(flag_counts),
-        "chapter_count": len(chapter_counts),
-        "chapters": dict(chapter_counts),
+        "chapter_count": len(chapter_identities),
+        "chapters": dict(chapter_identities),
         "missing_fields": missing_fields,
         "authority_issues": authority_issues,
         "rights_violations": rights_violations,
         "provenance_issues": provenance_issues,
-        "source_title_anomalies": source_title_anomalies,
+        "source_anomalies": source_anomalies,
         "decode_replacements": decode_replacements,
     }
 
@@ -191,10 +216,13 @@ def audit_curation_index(files: list[Path]) -> dict[str, Any]:
     flag_counts = Counter()
     missing_fields = []
     authority_mismatches = []
+    missing_counterparts = []
+    source_anomalies = []
 
     # Build teaching record authority map
     teaching_by_id = {}
-    for tf in TEACHING_FILES:
+    teaching_files, _ = discover_tracked_files()
+    for tf in teaching_files:
         if tf.exists():
             for r in load_jsonl(tf):
                 teaching_by_id[r["id"]] = r.get("evidence_status", {}).get("authority")
@@ -229,9 +257,20 @@ def audit_curation_index(files: list[Path]) -> dict[str, Any]:
                 t_auth = teaching_by_id[uid]
                 if t_auth != auth:
                     authority_mismatches.append(f"{uid}: curation authority='{auth}' vs teaching authority='{t_auth}'")
+            else:
+                missing_counterparts.append(f"{uid}: no corresponding teaching record")
 
             for f in u.get("flags", []):
                 flag_counts[f] += 1
+
+            # Collect explicit source_anomalies from curation index
+            for anomaly in u.get("source_anomalies", []):
+                source_anomalies.append(f"{uid}: {anomaly}")
+
+    # Check for teaching records with no curation counterpart
+    for tid, t_auth in teaching_by_id.items():
+        if tid not in seen_ids:
+            missing_counterparts.append(f"{tid}: no corresponding curation-index unit")
 
     return {
         "total_units": len(all_units),
@@ -240,6 +279,8 @@ def audit_curation_index(files: list[Path]) -> dict[str, Any]:
         "flag_counts": dict(flag_counts),
         "missing_fields": missing_fields,
         "authority_mismatches": authority_mismatches,
+        "missing_counterparts": missing_counterparts,
+        "source_anomalies": source_anomalies,
     }
 
 
@@ -263,10 +304,14 @@ def print_report(teaching: dict, curation: dict) -> int:
         if count:
             print(f"   {auth}: {count}")
 
-    # 3. Unique chapter count
-    print(f"\n3. UNIQUE CHAPTERS: {teaching['chapter_count']}")
-    for ch, cnt in sorted(teaching['chapters'].items()):
-        print(f"   {ch}: {cnt}")
+    # 3. Unique chapter count (by stable identity)
+    print(f"\n3. UNIQUE CHAPTERS (by volume+ordinal/url): {teaching['chapter_count']}")
+    for ch_key, cnt in sorted(teaching['chapters'].items()):
+        vol, ordinal_or_url = ch_key
+        if isinstance(ordinal_or_url, int):
+            print(f"   volume={vol}, chapter_ordinal={ordinal_or_url}: {cnt}")
+        else:
+            print(f"   volume={vol}, digital_url={ordinal_or_url}: {cnt}")
 
     # 4. Flag vocabulary
     print(f"\n4. UNIQUE FLAGS ({len(teaching['flag_counts'])}):")
@@ -298,10 +343,12 @@ def print_report(teaching: dict, curation: dict) -> int:
     print(f"\n8. PROVENANCE INCONSISTENCIES: {len(teaching['provenance_issues'])}")
     for p in teaching['provenance_issues']:
         print(f"   {p}")
+    if teaching['provenance_issues']:
+        has_failures = True
 
-    # 9. Source-title anomalies
-    print(f"\n9. SOURCE-TITLE ANOMALIES: {len(teaching['source_title_anomalies'])}")
-    for a in teaching['source_title_anomalies']:
+    # 9. Recorded source anomalies
+    print(f"\n9. RECORDED SOURCE ANOMALIES: {len(curation['source_anomalies'])}")
+    for a in curation['source_anomalies']:
         print(f"   {a}")
 
     # 10. Source decode replacements
@@ -334,6 +381,13 @@ def print_report(teaching: dict, curation: dict) -> int:
     if curation['duplicate_ids']:
         has_failures = True
 
+    # 15. Missing counterparts
+    print(f"\n15. MISSING TEACHING/CURATION COUNTERPARTS: {len(curation['missing_counterparts'])}")
+    for m in curation['missing_counterparts']:
+        print(f"   {m}")
+    if curation['missing_counterparts']:
+        has_failures = True
+
     # Summary
     print("\n" + "=" * 60)
     if has_failures:
@@ -346,8 +400,9 @@ def print_report(teaching: dict, curation: dict) -> int:
 
 
 def main() -> int:
-    teaching = audit_teaching_records(TEACHING_FILES)
-    curation = audit_curation_index(CURATION_FILES)
+    teaching_files, curation_files = discover_tracked_files()
+    teaching = audit_teaching_records(teaching_files)
+    curation = audit_curation_index(curation_files)
     return print_report(teaching, curation)
 
 

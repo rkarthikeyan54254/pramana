@@ -54,16 +54,52 @@ Restricted exact source text must never be added to tracked files.
 - `evidence_status.print_check`
 - `evidence_status.primary_source_status`
 
-## Authority Ladder (NEVER Upgrade)
-```
-dk_attested
-    ↓
-earlier_witness_supported  (requires explicit earlier-secondary provenance witness + wording_status == "earlier_witness_agrees")
-    ↓
-primary_source_verified    (requires explicit primary-source provenance)
-```
+## Evidence States (Controlled, Not Auto-Promoted)
 
-NEVER upgrade: `dk_attested → earlier_witness_supported → primary_source_verified`
+| State | Meaning | Curator Decision Required |
+|-------|---------|---------------------------|
+| `dk_attested` | Official digital Deivathin Kural attests the teaching | Yes |
+| `dk_print_checked` | Claim checked against physical print edition | Yes |
+| `earlier_witness_supported` | Pre-DK historical witness supports this narrow claim; wording may be close paraphrase, substantial overlap, or near-identical — curator judges per claim | Yes |
+| `primary_source_verified` | Verified against primary source (original manuscript/authoritative edition) | Yes |
+| `unattested` | No digital attestation yet | Yes |
+
+**Separate evidence dimensions (recorded, not inferred):**
+- `evidence_status.print_check` — `"not_checked" | "checked" | "discrepancy"`
+- `evidence_status.primary_source_status` — `"unknown" | "verified" | "unavailable"`
+
+Build Engineer automation does not infer upgrades between these states.
+
+## Historical Witness Promotion Rules
+
+Historical witness promotion (`dk_attested` → `earlier_witness_supported`) is **curator-controlled** and requires **strong, item-level claim evidence**. Valid curator classifications can include:
+
+- Same doctrinal claim
+- Close paraphrase
+- Substantial textual overlap
+- Near-identical wording
+
+depending on the specific claim. **Same general theme alone is insufficient.** Build automation never decides the promotion.
+
+Required for `earlier_witness_supported`:
+- Explicit `earlier_secondary` provenance witness in `provenance[]`
+- `attribution.wording_status` recorded as `"earlier_witness_agrees"` (curator's judgment)
+- Claim-level `historical_witness` object with `source_key`, `locus`, `basis`
+
+Required for `primary_source_verified`:
+- Explicit primary-source provenance witness (`witness_role: "primary"` or `"primary_source"`)
+- Curator judgment recorded
+
+## Retrieval Authority Rule
+
+Lower-authority material such as `dk_attested` **MAY participate in retrieval** when product policy permits, but its evidence state **must remain explicit**. It must never be silently presented as:
+
+- `earlier_witness_supported`
+- `dk_print_checked`
+- verbatim / exact quote
+- `primary_source_verified`
+
+Authority labels are part of the evidence contract shown to the user.
 
 ## Hard Rules
 
@@ -73,11 +109,11 @@ NEVER upgrade: `dk_attested → earlier_witness_supported → primary_source_ver
 
 3. **No Downstream Contamination** — vamsha/sandhyakatha/templecircuit are outputs, never sources.
 
-4. **No Verification Theater** — `verified:true` / `authority: earlier_witness_supported` / `authority: primary_source_verified` requires independent witness + exact normalized match.
+4. **No Verification Theater** — Authority states require explicit curator judgment + documented provenance. No automatic promotion.
 
-5. **No Authority Leakage** — Unverified rows never enter retrieval, graph, or benchmark authority.
+5. **No Authority Leakage** — Evidence state must remain explicit in all outputs. No silent upgrading in retrieval, graph, or benchmarks.
 
-6. **No Push Without Gates** — All moat checks must pass; `make moat-proof-gate` green is minimum.
+6. **No Push Without Gates** — Run all repository-defined validation gates applicable to the change. Never invent or bypass a validation gate.
 
 7. **No Source-Count Majority Voting** — Independent provenance lineage > number of copies.
 
@@ -110,6 +146,11 @@ NEVER upgrade: `dk_attested → earlier_witness_supported → primary_source_ver
 - Unsupported authority values → FAIL
 - Malformed JSON/JSONL → FAIL
 - Restricted records publicly exportable beyond `metadata_only`/`none` → FAIL
+- Provenance entry missing `witness_role` → FAIL
+- Provenance entry missing `snapshot_sha256` → FAIL
+- Teaching record with no curation-index counterpart → FAIL
+- Curation-index unit with no teaching record → FAIL
+- Authority disagreement between teaching and curation → FAIL
 - Curator-controlled field drift → REPORT (do not fix)
 
 ## Rights Handling
