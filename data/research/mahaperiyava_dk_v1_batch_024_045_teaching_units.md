@@ -52,3 +52,26 @@ This batch adds explicit `excluded_source_blocks` so editorial material is accou
 ## Next gate
 
 Run a targeted 1957–58 historical-witness pass on the highest-yield claims with plausible earlier parallels: karma/rebirth, religious pluralism, common Vedic roots, Veda preservation/oral transmission, and selected dharma/varna formulations. Promotion must remain claim-level; this batch itself makes no authority upgrade.
+
+## Historical witness targeted pass
+
+A targeted manual comparison against the acquired 1957-58
+*Acharya Swamigalin Upanyasangal* Part 1 and Part 2 scans promoted
+**6** narrow claims to `earlier_witness_supported`.
+
+The batch authority distribution is now:
+
+- `dk_attested`: **124**
+- `earlier_witness_supported`: **6**
+- `dk_print_checked`: **0**
+- `primary_source_verified`: **0**
+
+This is not an exhaustive negative search across all 130 units.
+Six additional inspected units were partial matches and remain `dk_attested`;
+the other 118 units were not evaluated in this targeted pass.
+
+Earlier attestation remains distinct from independent factual truth.
+All existing sensitivity flags are preserved.
+
+See:
+`data/review/mahaperiyava_dk_v1_batch_024_045_historical_witness_review.json`.

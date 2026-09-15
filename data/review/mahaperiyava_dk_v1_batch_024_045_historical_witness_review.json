@@ -1,0 +1,2318 @@
+{
+  "version": "0.1",
+  "generated_at": "2026-09-15T04:23:23+00:00",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "batch": "024_045",
+  "review_type": "targeted_historical_witness_matching",
+  "review_scope": {
+    "exhaustive_across_all_130_units": false,
+    "description": "Manual comparison of high-yield karma, Hindu-pluralism, Vedic-unity, dharma and related claims against the acquired 1957-58 Acharya Swamigalin Upanyasangal Part 1 and Part 2 scans. Rows outside targeted sections are not negative evidence."
+  },
+  "witnesses_consulted": [
+    {
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "title": "Acharya Swamigalin Upanyasangal - Part 1",
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-1.pdf",
+      "snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+      "rights_status": "restricted_private_research"
+    },
+    {
+      "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+      "title": "Acharya Swamigalin Upanyasangal - Part 2",
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-2.pdf",
+      "snapshot_sha256": "eaf06d8936fb3b160a279b388ec0e2ef408be49c416618bf8bfb9d038f4a31e1",
+      "rights_status": "restricted_private_research"
+    }
+  ],
+  "transmission_guardrail": "1957-58 witness from the Acharya Swamigalin Upanyasangal publication family. The collection was produced through shorthand capture, typed copies, and editorial arrangement. Claim-level agreement therefore supports earlier attestation of the teaching, but printed wording is not treated as verbatim primary speech and textual dependence on Deivathin Kural is not asserted.",
+  "matrix_count": 130,
+  "status_counts": {
+    "not_evaluated_in_targeted_sections": 118,
+    "partial_match_not_sufficient": 6,
+    "supported_for_claim_level_promotion": 6
+  },
+  "promotion_count": 6,
+  "policy": {
+    "claim_level_only": true,
+    "no_chapter_wide_promotion": true,
+    "no_verbatim_claim": true,
+    "no_primary_source_upgrade": true,
+    "sensitivity_flags_do_not_change": true,
+    "earlier_attestation_is_separate_from_external_factual_truth": true,
+    "partial_matches_do_not_promote": true
+  },
+  "rows": [
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manithanum_mirugamum.human_intellect_for_higher_end",
+      "chapter_ordinal": 24,
+      "chapter_title_ta": "மனிதனும் மிருகமும்",
+      "claim_summary": "Human intelligence is presented as the distinctive capacity that should be used for a higher purpose rather than merely for survival and material mastery.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manithanum_mirugamum.desire_anger_karma_rebirth_chain",
+      "chapter_ordinal": 24,
+      "chapter_title_ta": "மனிதனும் மிருகமும்",
+      "claim_summary": "Desire and attachment are described as giving rise to anger and harmful action, which in turn bind the individual to karmic suffering and repeated birth.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "partial_match_not_sufficient",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 152-155 (PDF pp. 163-166)",
+        "match_level": "partial_match_not_sufficient",
+        "note": "Earlier witness supports desire, mental impurity and suffering and the need to restrain desire, but not the full DK chain through karma to repeated birth."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manithanum_mirugamum.duality_as_root_of_desire",
+      "chapter_ordinal": 24,
+      "chapter_title_ta": "மனிதனும் மிருகமும்",
+      "claim_summary": "The sense that something exists as a separate second entity is presented as the root of desire; knowledge of one underlying reality removes desire, anger, karmic action, and suffering.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manithanum_mirugamum.ambal_grace_and_jnana",
+      "chapter_ordinal": 24,
+      "chapter_title_ta": "மனிதனும் மிருகமும்",
+      "claim_summary": "Ambal is presented as the embodiment and giver of spiritual knowledge, whose grace enables the seeker to dissolve separate identity in the divine.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manithanum_mirugamum.religions_aim_at_human_transformation",
+      "chapter_ordinal": 24,
+      "chapter_title_ta": "மனிதனும் மிருகமும்",
+      "claim_summary": "Despite doctrinal differences, religions are described as sharing the ethical-spiritual aim of transforming people from passion and anger toward love, restraint, peace, and sacrifice.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mathangalin_otrumai.one_divine_many_religious_paths",
+      "chapter_ordinal": 26,
+      "chapter_title_ta": "மதங்களின் ஒற்றுமை",
+      "claim_summary": "Different religions are presented as culturally varied paths of devotion to one divine reality, so a person need not abandon the religion into which they were born in order to receive divine grace.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mathangalin_otrumai.hindu_nonexclusive_path_claim",
+      "chapter_ordinal": 26,
+      "chapter_title_ta": "மதங்களின் ஒற்றுமை",
+      "claim_summary": "The chapter presents the Vedic/Hindu tradition as non-exclusive in salvation, citing scriptural support for many forms of worship leading toward the same ultimate reality.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, எல்லாம் தழுவும் அத்வைதம், printed pp. 28-30 (PDF pp. 39-41), especially printed p. 29",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness names multiple Hindu siddhantas and says Isvara-bhakti and the path prescribed by the respective acharya can lead toward the same Paramatma. It does not establish separate conversion-history claims."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mathangalin_otrumai.nonproselytization_historical_claim",
+      "chapter_ordinal": 26,
+      "chapter_title_ta": "மதங்களின் ஒற்றுமை",
+      "claim_summary": "The chapter attributes to Hindu tradition a historical reluctance to proselytize or forcibly convert and contrasts this with the spread of religious culture through voluntary adoption and exchange.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mathangalin_otrumai.many_vehicles_one_destination_analogies",
+      "chapter_ordinal": 26,
+      "chapter_title_ta": "மதங்களின் ஒற்றுமை",
+      "claim_summary": "Vehicle and bridge-arch analogies are used to argue that different religious paths can lead toward the same divine goal without requiring one path to absorb the others.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mathangalin_otrumai.unity_without_uniformity",
+      "chapter_ordinal": 26,
+      "chapter_title_ta": "மதங்களின் ஒற்றுமை",
+      "claim_summary": "Religious harmony is defined as unity of heart despite differences in doctrine and practice: unity is necessary, uniformity is not.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "partial_match_not_sufficient",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, எல்லாம் தழுவும் அத்வைதம், printed pp. 28-30 (PDF pp. 39-41)",
+        "match_level": "partial_match_not_sufficient",
+        "note": "Earlier witness supports coexistence of differing Hindu siddhantas, but the DK unit is framed as a broader inter-religious unity principle."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mathapothagar_yokkiyathamsangal.religion_not_sustained_by_philosophy_alone",
+      "chapter_ordinal": 27,
+      "chapter_title_ta": "மதபோதகரின் யோக்கியதாம்சங்கள்",
+      "claim_summary": "Religious movements are said not to grow or endure through philosophical doctrine alone; ordinary people are often influenced more by the character of religious representatives.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mathapothagar_yokkiyathamsangal.character_of_leaders_shapes_religious_fortunes",
+      "chapter_ordinal": 27,
+      "chapter_title_ta": "மதபோதகரின் யோக்கியதாம்சங்கள்",
+      "claim_summary": "The moral quality of religious leaders is presented as a major factor in a tradition's growth or decline, illustrated through historical examples.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mathapothagar_yokkiyathamsangal.coercion_and_inducement_not_doctrinal_conviction",
+      "chapter_ordinal": 27,
+      "chapter_title_ta": "மதபோதகரின் யோக்கியதாம்சங்கள்",
+      "claim_summary": "Conversion through force, material inducement, or social advantage is distinguished from acceptance based on doctrinal conviction, while the motives of proselytizers are interpreted charitably as possibly sincere.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mathapothagar_yokkiyathamsangal.qualities_of_religious_teacher",
+      "chapter_ordinal": 27,
+      "chapter_title_ta": "மதபோதகரின் யோக்கியதாம்சங்கள்",
+      "claim_summary": "A religious teacher is expected to be free from selfishness and hatred and to embody discipline, tapas, peace, compassion, and moral integrity.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mathapothagar_yokkiyathamsangal.living_example_over_counterpropaganda",
+      "chapter_ordinal": 27,
+      "chapter_title_ta": "மதபோதகரின் யோக்கியதாம்சங்கள்",
+      "claim_summary": "The chapter recommends strengthening religion through lived example and inner spiritual strength rather than counter-propaganda, force, or competition in wealth and institutions.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mathapothagar_yokkiyathamsangal.goal_to_form_exemplary_persons",
+      "chapter_ordinal": 27,
+      "chapter_title_ta": "மதபோதகரின் யோக்கியதாம்சங்கள்",
+      "claim_summary": "The stated aim of the discourses is to help produce people marked by peace, compassion, knowledge, and sacrifice, whose lives themselves can guide others.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.peyarillatha_matham.hindu_name_as_later_exonym",
+      "chapter_ordinal": 28,
+      "chapter_title_ta": "பெயரில்லாத மதம்",
+      "claim_summary": "The name 'Hindu' is presented as a later external geographical designation rather than the ancient self-name of the tradition.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.peyarillatha_matham.absence_of_single_ancient_name",
+      "chapter_ordinal": 28,
+      "chapter_title_ta": "பெயரில்லாத மதம்",
+      "claim_summary": "The absence of a single ancient name for the tradition is explained through an analogy: a unique thing does not need a distinguishing label until alternatives arise.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.peyarillatha_matham.founderless_anadi_tradition",
+      "chapter_ordinal": 28,
+      "chapter_title_ta": "பெயரில்லாத மதம்",
+      "claim_summary": "The Vedic tradition is presented as beginning before founder-centered religions and as lacking an identifiable human founder.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.peyarillatha_matham.rishis_as_mantra_seers_not_authors",
+      "chapter_ordinal": 28,
+      "chapter_title_ta": "பெயரில்லாத மதம்",
+      "claim_summary": "Vedic rishis are described as seers who perceived already-existing mantras in contemplative states rather than composing them as authors.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.peyarillatha_matham.veda_as_apaurusheya_divine_breath",
+      "chapter_ordinal": 28,
+      "chapter_title_ta": "பெயரில்லாத மதம்",
+      "claim_summary": "The Veda is described as apaurusheya, not authored by a human person but eternally grounded in the divine and transmitted through rishis.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ulagam_paraviya_matham.claim_of_ancient_global_vedic_presence",
+      "chapter_ordinal": 29,
+      "chapter_title_ta": "உலகம் பரவிய மதம்",
+      "claim_summary": "The chapter proposes that Vedic religious elements were once widespread globally and cites archaeological, linguistic, ritual, and iconographic examples as supporting indications.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ulagam_paraviya_matham.ramayana_geography_speculations",
+      "chapter_ordinal": 29,
+      "chapter_title_ta": "உலகம் பரவிய மதம்",
+      "claim_summary": "Geographical names in the Americas and Sahara are speculatively connected with Ramayana and Sanskrit names as possible survivals of ancient tradition.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ulagam_paraviya_matham.worldwide_vedic_root_inference",
+      "chapter_ordinal": 29,
+      "chapter_title_ta": "உலகம் பரவிய மதம்",
+      "claim_summary": "Rather than treating Vedic-looking elements abroad only as later Indian influence, the chapter proposes an older common Vedic religious background.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ulagam_paraviya_matham.story_and_ritual_as_carriers_of_tattva",
+      "chapter_ordinal": 29,
+      "chapter_title_ta": "உலகம் பரவிய மதம்",
+      "claim_summary": "Stories and rituals are presented as practical vehicles for conveying philosophical truths to ordinary people, while retaining value beyond mere symbolism.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ulagam_paraviya_matham.upanishadic_two_birds_teaching",
+      "chapter_ordinal": 29,
+      "chapter_title_ta": "உலகம் பரவிய மதம்",
+      "claim_summary": "The Upanishadic two-birds image is interpreted as the experiencing jiva and the witnessing Paramatman dwelling in the same embodied existence.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ulagam_paraviya_matham.adam_eve_as_transformed_upanishadic_story",
+      "chapter_ordinal": 29,
+      "chapter_title_ta": "உலகம் பரவிய மதம்",
+      "claim_summary": "The chapter proposes that the Adam-and-Eve story is a transformed version of an Upanishadic teaching and offers linguistic parallels between names and symbols.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ulagam_paraviya_matham.south_east_asian_hindu_influence_through_trade",
+      "chapter_ordinal": 29,
+      "chapter_title_ta": "உலகம் பரவிய மதம்",
+      "claim_summary": "Later historical Hindu cultural influence in Southeast Asia is attributed especially to trade and is illustrated through temples and the Thai Triyampavai-Tripavai festival tradition.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ulagam_paraviya_matham.final_global_vedic_origin_thesis",
+      "chapter_ordinal": 29,
+      "chapter_title_ta": "உலகம் பரவிய மதம்",
+      "claim_summary": "The chapter concludes with the author's view that ancient local religions worldwide ultimately preserve transformed remnants of an originally widespread Vedic religion.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_mathathin_thani_amsangal.karma_as_moral_cause_and_effect",
+      "chapter_ordinal": 30,
+      "chapter_title_ta": "நம் மதத்தின் தனி அம்சங்கள்",
+      "claim_summary": "Karma is presented as a moral law of cause and effect in which actions necessarily bear corresponding beneficial or harmful consequences.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, ஈசுவர பக்தி ஏன் செய்யவேண்டும்?, printed pp. 117-120 (PDF pp. 132-135), especially printed p. 118 / PDF p. 133",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness explicitly describes good and bad actions as receiving fitting results and identifies Isvara as giver of karmic fruits. It supports the moral action-result claim, not the DK physics analogy."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_mathathin_thani_amsangal.rebirth_as_field_for_karmic_results",
+      "chapter_ordinal": 30,
+      "chapter_title_ta": "நம் மதத்தின் தனி அம்சங்கள்",
+      "claim_summary": "Repeated birth is presented as the framework through which karmic consequences unfold, and as a compassionate alternative to irreversible eternal judgment after a single life.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_mathathin_thani_amsangal.rebirth_used_to_explain_birth_inequalities",
+      "chapter_ordinal": 30,
+      "chapter_title_ta": "நம் மதத்தின் தனி அம்சங்கள்",
+      "claim_summary": "Differences present from birth are used within the chapter as an argument for prior karma and rebirth rather than arbitrary divine favoritism.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_mathathin_thani_amsangal.parapsychology_as_rebirth_support",
+      "chapter_ordinal": 30,
+      "chapter_title_ta": "நம் மதத்தின் தனி அம்சங்கள்",
+      "claim_summary": "The chapter appeals to reports of past-life memories studied by parapsychology as modern support for reincarnation.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_mathathin_thani_amsangal.avatar_as_divine_compassion_and_dharma_restoration",
+      "chapter_ordinal": 30,
+      "chapter_title_ta": "நம் மதத்தின் தனி அம்சங்கள்",
+      "claim_summary": "Divine incarnation is presented as an act of compassion by which Isvara enters the world to guide beings, restore dharma, protect the good, and restrain destructive forces.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "partial_match_not_sufficient",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 150, 157-161 (PDF pp. 161, 168-172)",
+        "match_level": "partial_match_not_sufficient",
+        "note": "Earlier witness identifies the Vedic supreme reality with Rama's birth and presents Rama as protector of dharma, but not the full DK compassion/guidance/protection scope."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_mathathin_thani_amsangal.sectarian_differences_on_avatar",
+      "chapter_ordinal": 30,
+      "chapter_title_ta": "நம் மதத்தின் தனி அம்சங்கள்",
+      "claim_summary": "The chapter notes differing Shaiva, Vaishnava, and Advaita positions on divine incarnation while treating avatar doctrine as broadly accepted within the Vedic fold.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_mathathin_thani_amsangal.one_formless_divine_many_forms_and_murtis",
+      "chapter_ordinal": 30,
+      "chapter_title_ta": "நம் மதத்தின் தனி அம்சங்கள்",
+      "claim_summary": "Murti worship is explained as focused worship of the one all-pervading divine through multiple forms, not as belief in independent rival gods or in stone alone.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "partial_match_not_sufficient",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 148-151 (PDF pp. 159-162)",
+        "match_level": "partial_match_not_sufficient",
+        "note": "Earlier witness supports many Vedic deities and practices converging on one ultimate reality, but not the DK unit's specific murti-worship explanation."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_mathathin_thani_amsangal.nonexclusive_salvation_and_conversion",
+      "chapter_ordinal": 30,
+      "chapter_title_ta": "நம் மதத்தின் தனி அம்சங்கள்",
+      "claim_summary": "The chapter presents Hindu tradition as accepting multiple religious paths to the divine and critiques exclusive-salvation claims and coercive or inducement-based conversion.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_mathathin_thani_amsangal.ashrama_and_varna_as_social_spiritual_frameworks",
+      "chapter_ordinal": 30,
+      "chapter_title_ta": "நம் மதத்தின் தனி அம்சங்கள்",
+      "claim_summary": "The chapter distinguishes ashrama dharma, which orders stages of individual life, from varna dharma, which it presents as a framework for social organization; it also distinguishes varna from the many jatis.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dharumangalin_pagupadu.all_occupations_serve_society",
+      "chapter_ordinal": 31,
+      "chapter_title_ta": "தருமங்களின் பாகுபாடு",
+      "claim_summary": "Different intellectual and manual occupations are described as mutually necessary contributions to social welfare, with no occupation inherently high or low.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dharumangalin_pagupadu.hereditary_division_as_ordering_mechanism",
+      "chapter_ordinal": 31,
+      "chapter_title_ta": "தருமங்களின் பாகுபாடு",
+      "claim_summary": "Hereditary allocation of occupations is defended as a way to distribute necessary social work across generations without constant competition for preferred roles.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dharumangalin_pagupadu.work_as_ishvara_command_and_spiritual_discipline",
+      "chapter_ordinal": 31,
+      "chapter_title_ta": "தருமங்களின் பாகுபாடு",
+      "claim_summary": "Inherited work performed as an Isvara-given duty for collective welfare is presented as a means of personal spiritual purification, with disciplines adapted to different forms of work.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dharumangalin_pagupadu.protect_own_and_others_dharma",
+      "chapter_ordinal": 31,
+      "chapter_title_ta": "தருமங்களின் பாகுபாடு",
+      "claim_summary": "The chapter urges people to preserve their own assigned dharma while helping others preserve theirs rather than competing to exchange social roles.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dharumangalin_pagupadu.basic_needs_over_status_competition",
+      "chapter_ordinal": 31,
+      "chapter_title_ta": "தருமங்களின் பாகுபாடு",
+      "claim_summary": "Social peace is linked to securing basic necessities while limiting expanding wants and the equation of fulfillment with money or status.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.dharumangalin_pagupadu.diverse_roles_not_interchangeable",
+      "chapter_ordinal": 31,
+      "chapter_title_ta": "தருமங்களின் பாகுபாடு",
+      "claim_summary": "An analogy with foods and musical ragas is used to argue that social roles have distinct functions and should not be indiscriminately mixed.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vettrumaiyil_otrumai.unity_in_diversity_as_structural_resilience",
+      "chapter_ordinal": 33,
+      "chapter_title_ta": "வேற்றுமையில் ஒற்றுமை",
+      "claim_summary": "Separate but coordinated social groups are compared to multiple compartments or bundled sticks, presenting unity-in-diversity as more resilient than one undifferentiated mass.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vettrumaiyil_otrumai.jati_self_governance_as_social_order",
+      "chapter_ordinal": 33,
+      "chapter_title_ta": "வேற்றுமையில் ஒற்றுமை",
+      "claim_summary": "Traditional jati self-governance is presented as a decentralized means of maintaining discipline within occupational communities.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vettrumaiyil_otrumai.community_belonging_and_jati_exclusion",
+      "chapter_ordinal": 33,
+      "chapter_title_ta": "வேற்றுமையில் ஒற்றுமை",
+      "claim_summary": "The seriousness of exclusion from one's jati is used as evidence for strong internal belonging and mutual attachment within traditional communities.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vettrumaiyil_otrumai.internal_bonds_vs_external_policing",
+      "chapter_ordinal": 33,
+      "chapter_title_ta": "வேற்றுமையில் ஒற்றுமை",
+      "claim_summary": "The chapter argues that community discipline rooted in belonging could restrain misconduct more effectively than externally imposed policing while preserving inter-group cooperation.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kariyathil_bedhamum_mano_bedhamum.jati_for_occupation_not_occupation_for_jati",
+      "chapter_ordinal": 34,
+      "chapter_title_ta": "காரியத்தில் பேதமும் மனோ பேதமும்",
+      "claim_summary": "Jati is framed as an institutional arrangement for distributing necessary occupations rather than as an end in itself.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kariyathil_bedhamum_mano_bedhamum.hereditary_vocation_and_contentment_claim",
+      "chapter_ordinal": 34,
+      "chapter_title_ta": "காரியத்தில் பேதமும் மனோ பேதமும்",
+      "claim_summary": "The chapter claims hereditary vocation and close community life historically reduced greed and increased contentment, religious confidence, and social stability.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kariyathil_bedhamum_mano_bedhamum.temple_as_shared_civic_religious_center",
+      "chapter_ordinal": 34,
+      "chapter_title_ta": "காரியத்தில் பேதமும் மனோ பேதமும்",
+      "claim_summary": "The village temple and its festivals are portrayed as a shared center that could unite distinct communities in common devotion.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kariyathil_bedhamum_mano_bedhamum.plural_structure_as_religious_resilience",
+      "chapter_ordinal": 34,
+      "chapter_title_ta": "காரியத்தில் பேதமும் மனோ பேதமும்",
+      "claim_summary": "The plurality of distinct dharmic communities is credited with giving Hindu tradition resilience and the capacity to absorb selected external influences without losing its larger identity.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kariyathil_bedhamum_mano_bedhamum.equality_projects_and_competition_critique",
+      "chapter_ordinal": 34,
+      "chapter_title_ta": "காரியத்தில் பேதமும் மனோ பேதமும்",
+      "claim_summary": "The chapter argues that attempts to eliminate inherited distinctions do not eliminate hierarchy, competition, envy, or status differences in other societies.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kariyathil_bedhamum_mano_bedhamum.every_work_can_be_ishvara_arpana",
+      "chapter_ordinal": 34,
+      "chapter_title_ta": "காரியத்தில் பேதமும் மனோ பேதமும்",
+      "claim_summary": "No occupation is treated as inherently high or low; any work done carefully, without greed, and as an offering to Isvara is presented as a means of purifying the mind.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kariyathil_bedhamum_mano_bedhamum.diversity_in_practice_unity_in_heart",
+      "chapter_ordinal": 34,
+      "chapter_title_ta": "காரியத்தில் பேதமும் மனோ பேதமும்",
+      "claim_summary": "The chapter's ideal is difference in outer duties combined with inner unity, love, mutual service, and shared common dharmas.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ingu_mattum_iruppanen.indian_civilizational_superiority_claim",
+      "chapter_ordinal": 35,
+      "chapter_title_ta": "இங்கு மட்டும் இருப்பானேன்",
+      "claim_summary": "The chapter presents Indian civilization as exceptionally enduring and rich in saints, philosophy, literature, arts, and sciences compared with other civilizations.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ingu_mattum_iruppanen.varna_linked_to_civilizational_stability",
+      "chapter_ordinal": 35,
+      "chapter_title_ta": "இங்கு மட்டும் இருப்பானேன்",
+      "claim_summary": "The continuity of India's intellectual, artistic, and spiritual culture is attributed to the social stability said to have been provided by varnashrama dharma.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ingu_mattum_iruppanen.other_societies_lack_comparable_social_foundation_claim",
+      "chapter_ordinal": 35,
+      "chapter_title_ta": "இங்கு மட்டும் இருப்பானேன்",
+      "claim_summary": "Other religious societies are characterized as lacking an equally comprehensive social framework, which the chapter links to greater occupational competition and insecurity.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ingu_mattum_iruppanen.revolution_and_authoritarianism_comparison",
+      "chapter_ordinal": 35,
+      "chapter_title_ta": "இங்கு மட்டும் இருப்பானேன்",
+      "claim_summary": "Foreign histories of revolution and authoritarianism are contrasted with India to argue that traditional Indian society was comparatively stable and not sustained primarily by coercion.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ingu_mattum_iruppanen.decline_linked_to_abandoning_varna",
+      "chapter_ordinal": 35,
+      "chapter_title_ta": "இங்கு மட்டும் இருப்பானேன்",
+      "claim_summary": "Modern social disorder and civilizational decline are attributed in the chapter to abandonment of the older varna-based social order, which is presented as worth preserving at least as an ideal.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ingu_mattum_iruppanen.hereditary_vocation_contentment_and_skill",
+      "chapter_ordinal": 35,
+      "chapter_title_ta": "இங்கு மட்டும் இருப்பானேன்",
+      "claim_summary": "Hereditary vocation is defended as a source of skill, occupational identity, contentment, and reduced competition, even if restoring the old system fully may be difficult.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poruppali_yaar_parikaram_enna.brahmin_abandonment_blame_for_decline",
+      "chapter_ordinal": 36,
+      "chapter_title_ta": "பொருப்பாள் யார் ? பரிகாரம் என்ன ?",
+      "claim_summary": "The chapter places primary responsibility for the decline and disrepute of varna dharma on Brahmins who abandoned Vedic study, ritual discipline, simple living, and their inherited duties.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poruppali_yaar_parikaram_enna.selfless_duty_and_inherited_intellectual_capacity_claim",
+      "chapter_ordinal": 36,
+      "chapter_title_ta": "பொருப்பாள் யார் ? பரிகாரம் என்ன ?",
+      "claim_summary": "The earlier intellectual role of Brahmins is attributed to generations of disciplined, selfless service, with later intellectual success described as residual inherited momentum after abandoning that discipline.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poruppali_yaar_parikaram_enna.colonial_science_machines_and_desire",
+      "chapter_ordinal": 36,
+      "chapter_title_ta": "பொருப்பாள் யார் ? பரிகாரம் என்ன ?",
+      "claim_summary": "Colonial-era science, machines, new employment, and material comforts are described as disrupting hereditary occupations and intensifying desire and occupational competition.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poruppali_yaar_parikaram_enna.status_without_duty_as_hypocrisy",
+      "chapter_ordinal": 36,
+      "chapter_title_ta": "பொருப்பாள் யார் ? பரிகாரம் என்ன ?",
+      "claim_summary": "Claiming social superiority after abandoning the disciplines that supposedly justified respect is condemned as hypocrisy; the chapter says honor should arise from selfless duty, not self-asserted status.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poruppali_yaar_parikaram_enna.lifelong_veda_work_requires_social_support",
+      "chapter_ordinal": 36,
+      "chapter_title_ta": "பொருப்பாள் யார் ? பரிகாரம் என்ன ?",
+      "claim_summary": "Full-time Vedic study and ritual preservation are presented as incompatible with ordinary income-seeking work and therefore historically dependent on material support from the wider community.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poruppali_yaar_parikaram_enna.wealth_seeking_over_svadharma",
+      "chapter_ordinal": 36,
+      "chapter_title_ta": "பொருப்பாள் யார் ? பரிகாரம் என்ன ?",
+      "claim_summary": "The pursuit of ever-higher income and modern careers is criticized as evidence that abandonment of Vedic duty cannot be excused only by economic necessity.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poruppali_yaar_parikaram_enna.svadharma_even_under_hardship",
+      "chapter_ordinal": 36,
+      "chapter_title_ta": "பொருப்பாள் யார் ? பரிகாரம் என்ன ?",
+      "claim_summary": "The chapter urges fidelity to svadharma even under severe hardship, presenting the body and life of the Vedic specialist as dedicated to preserving Veda rather than maximizing sensory comfort.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.poruppali_yaar_parikaram_enna.remedy_return_to_vedic_duty",
+      "chapter_ordinal": 36,
+      "chapter_title_ta": "பொருப்பாள் யார் ? பரிகாரம் என்ன ?",
+      "claim_summary": "The proposed remedy is a determined return to Vedic study and inherited duty even when restoration appears difficult, because religious institutions are said to exist to sustain demanding ideals.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.adhama_paksha_parikaram.dedicated_community_for_veda_preservation",
+      "chapter_ordinal": 37,
+      "chapter_title_ta": "அதம பட்சப் பரிகாரம்",
+      "claim_summary": "At minimum, the chapter argues that a community devoted to Veda preservation must continue to exist for what it regards as the welfare of the wider world, not for caste self-interest.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.adhama_paksha_parikaram.next_generation_vedic_study_minimum",
+      "chapter_ordinal": 37,
+      "chapter_title_ta": "அதம பட்சப் பரிகாரம்",
+      "claim_summary": "If adults cannot return fully to traditional Vedic study, the minimum proposed remedy is to ensure the next generation receives sustained daily instruction from childhood.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.adhama_paksha_parikaram.preservation_as_duty_to_future_generations",
+      "chapter_ordinal": 37,
+      "chapter_title_ta": "அதம பட்சப் பரிகாரம்",
+      "claim_summary": "Preserving Vedic sound is framed as a duty owed not only to the present community but to all beings and future generations who may later seek the older spiritual path.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.adhama_paksha_parikaram.books_not_substitute_for_living_oral_tradition",
+      "chapter_ordinal": 37,
+      "chapter_title_ta": "அதம பட்சப் பரிகாரம்",
+      "claim_summary": "The chapter raises and rejects the idea that printed books alone can replace a living oral tradition, setting up the argument that Vedic sound itself must be transmitted through continuous recitation.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.question_of_social_value_of_veda_preservation",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "The chapter begins by asking what practical social benefit comes from a hereditary vocation centered on Vedic study, teaching, and ritual, and says the answer depends on understanding what Veda is.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.limits_of_rationalism_and_rishi_testimony",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "Human reason is described as limited, and the testimony of rishis and realized practitioners is presented as a legitimate source for realities that ordinary experience cannot independently access.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.sound_vibration_cosmology",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "A sound-and-vibration cosmology is developed in which movements correspond to sounds, creation is linked with primordial sound, and Vedic mantras are presented as ordered sound-patterns connected with cosmic welfare.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.microcosm_macrocosm_and_yogic_sound",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "The human body is treated as a microcosm capable, through yogic discipline, of receiving and reproducing subtler cosmic sound patterns, culminating in an experience of unity between inner and outer space.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.veda_has_sound_power_and_highest_meaning",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "The Veda is said to work on two levels: its sound is held to have independent sacred efficacy, while its meaning culminates in the teaching that one truth appears as the many.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.mantra_deity_and_yajna_relation",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "Mantras are presented as sound-forms associated with particular deities, while yajna offerings are described as means through which divine powers mediate results under Isvara.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.syllable_and_svara_intrinsic_power",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "Correct syllables and intonation are said to possess effects beyond semantic meaning, and Vedic claims are placed in a domain that the chapter says cannot be judged solely by ordinary sensory or rational tests.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.mantra_effect_examples_and_conditions",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "Examples involving ritual rain, healing, mantra practice, plants, and sound-generated forms are cited as support for mantra efficacy, with failures explained through karma or improper observance.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.full_time_oral_transmission_required",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "Because Veda is to be memorized by hearing, recited daily, and transmitted orally with exact sound, the chapter argues that preserving it requires sustained full-time commitment rather than reliance on print.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.brahmin_as_teacher_not_commercial_practitioner",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "The prescribed Brahmin role is described as learning and teaching many branches of knowledge while not commercializing them for personal livelihood, with the community expected to support essential needs.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.social_value_of_exemplary_simple_life",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "The social value of the Veda-preserving community is said to include both ritual service and the personal example of simplicity, restraint, compassion, remembrance of God, and disciplined practice.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.veda_recitation_restricted_but_meaning_open",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "The chapter distinguishes restricted hereditary Vedic recitation from access to Vedic and Vedantic teachings, arguing that spiritual knowledge and devotion are not monopolized and may be realized across communities.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.brahmin_identity_requires_social_purpose",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "A distinct Brahmin social identity is said to have no justification if its Vedic service is abandoned; respect is tied to fulfilling a social-spiritual purpose rather than to inherited privilege alone.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.mutual_support_and_universal_welfare_conclusion",
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "claim_summary": "The chapter concludes with a reciprocal ideal: Veda-preservers should faithfully perform their duty, other communities should support legitimate preservation, and all distinct duties should be pursued without superiority for mutual and universal welfare.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.matha_power_should_be_small",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "A matha is said not to need large wealth or institutional power; the spiritual quality of its head matters more than money, staff, or display.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.city_visits_for_veda_preservation",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "The stated purpose of visiting cities and addressing large gatherings is to urge preservation of Veda as a duty to the present and future, not to seek honor or donations.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.true_honour_is_veda_preservation",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "Public celebrations and honors for the Acharya are redirected toward concrete Veda-preservation work, especially sustained instruction for children and local community organization.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.veda_as_root_of_devotional_institutions",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "Bhajan, temple renovation, discourse, and Vedanta are described as branches whose sustaining root is the living Vedic tradition; preserving Veda is therefore framed as broader than preserving one caste.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.religious_teacher_must_speak_difficult_truths",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "A religious teacher's duty is described as repeatedly stating what is believed to support spiritual and social welfare even when listeners may resist, while recognizing the real difficulties of modern life.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.judge_old_and_new_by_value_not_age",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "Old practices should not be accepted merely because they are old or rejected merely because they are old; both old and new should be examined for genuine benefit and harm.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.veda_preservation_as_central_mission",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "Among many worthy religious topics, Veda preservation is identified as the root concern and the central mission behind these appeals.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.support_existing_veda_schools",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "The chapter calls for practical financial support to keep Veda schools, teachers, and students functioning and treats distributed small contributions as a collective preservation strategy.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.reasons_given_for_veda_preservation",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "Veda preservation is justified through claims about mantra and yajna benefiting the world, preserving an ancient universal religious source, and maintaining a small dedicated community analogous to a power-house serving a larger area.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.shared_task_of_veda_preservation",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "Veda preservation is presented not as the private project of the Acharya but as a shared responsibility whose benefit is said to belong to everyone.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nagariga_viyathikku_marundhu.tension_between_shastra_and_reform",
+      "chapter_ordinal": 40,
+      "chapter_title_ta": "நாகரீக வியாதிக்கு மருந்து",
+      "claim_summary": "The chapter describes people as caught between inherited shastra-based practice and modern reformist ideals, often inwardly attached to tradition while outwardly conforming to modern expectations.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nagariga_viyathikku_marundhu.shastra_rooted_in_veda_not_personal_opinion",
+      "chapter_ordinal": 40,
+      "chapter_title_ta": "நாகரீக வியாதிக்கு மருந்து",
+      "claim_summary": "Dharma-shastra rules are defended as applications of an unchanging Vedic command rather than the private opinions of individual rishis, so the chapter denies later teachers authority simply to rewrite them for convenience.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "partial_match_not_sufficient",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed p. 159 (PDF p. 170)",
+        "match_level": "partial_match_not_sufficient",
+        "note": "Earlier witness explicitly cites Veda as the root of dharma, but not the full DK claims about private rishi opinion and later rewriting for convenience."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nagariga_viyathikku_marundhu.simple_living_makes_dharma_practicable",
+      "chapter_ordinal": 40,
+      "chapter_title_ta": "நாகரீக வியாதிக்கு மருந்து",
+      "claim_summary": "Reducing wants and luxury is presented as making traditional disciplines practicable; worship and ritual are said not to require expensive display.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nagariga_viyathikku_marundhu.dharma_over_artha_kama_toward_moksha",
+      "chapter_ordinal": 40,
+      "chapter_title_ta": "நாகரீக வியாதிக்கு மருந்து",
+      "claim_summary": "The four purusharthas are invoked to redirect life from chasing pleasure and wealth toward dharma as the path to moksha and lasting bliss.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samayamum_samugamum.spiritual_goal_over_temporal_convenience",
+      "chapter_ordinal": 41,
+      "chapter_title_ta": "சமயமும் சமூகமும்",
+      "claim_summary": "Dharma-shastra is said to organize worldly life around the higher goal of spiritual welfare rather than maximizing temporary social convenience or comfort.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samayamum_samugamum.education_can_alienate_from_tradition",
+      "chapter_ordinal": 41,
+      "chapter_title_ta": "சமயமும் சமூகமும்",
+      "claim_summary": "The modern education system is blamed for separating children from their own religious sources and training them to dismiss purana and shastra before they understand them.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samayamum_samugamum.cultivate_faith_through_exemplars_and_practice",
+      "chapter_ordinal": 41,
+      "chapter_title_ta": "சமயமும் சமூகமும்",
+      "claim_summary": "Children are to be formed in faith through regular religious practice, association with disciplined exemplars, and trust in the rishis' spiritual experience.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.thalaivalikku_parikaram_sirachedhama.varna_as_social_and_spiritual_aid",
+      "chapter_ordinal": 42,
+      "chapter_title_ta": "தலைவலிக்குப் பரிகாரம் சிரச்சேதமா ?",
+      "claim_summary": "Varnashrama is defended as a social and spiritual aid even while acknowledging arguments that its historical form has deteriorated and may be difficult to restore.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.thalaivalikku_parikaram_sirachedhama.industrialization_and_decline_of_hereditary_work",
+      "chapter_ordinal": 42,
+      "chapter_title_ta": "தலைவலிக்குப் பரிகாரம் சிரச்சேதமா ?",
+      "claim_summary": "Machines, large industry, and modern economic policy are identified as major forces weakening hereditary crafts and simple living.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.thalaivalikku_parikaram_sirachedhama.do_not_destroy_principle_because_of_conflict",
+      "chapter_ordinal": 42,
+      "chapter_title_ta": "தலைவலிக்குப் பரிகாரம் சிரச்சேதமா ?",
+      "claim_summary": "The central analogy says social conflict around an institution should be treated by correcting misunderstanding and abuse rather than destroying the underlying principle, just as headache is not treated by beheading.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.thalaivalikku_parikaram_sirachedhama.language_and_ideology_conflict_analogies",
+      "chapter_ordinal": 42,
+      "chapter_title_ta": "தலைவலிக்குப் பரிகாரம் சிரச்சேதமா ?",
+      "claim_summary": "Language and political ideology are cited as other sources of conflict to argue that the existence of disputes does not by itself justify abolishing languages, governments, or social principles.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.thalaivalikku_parikaram_sirachedhama.electoral_caste_politics_critique",
+      "chapter_ordinal": 42,
+      "chapter_title_ta": "தலைவலிக்குப் பரிகாரம் சிரச்சேதமா ?",
+      "claim_summary": "The chapter criticizes political actors who publicly reject caste while using caste identities strategically in elections.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.thalaivalikku_parikaram_sirachedhama.duty_not_privilege_and_no_superiority",
+      "chapter_ordinal": 42,
+      "chapter_title_ta": "தலைவலிக்குப் பரிகாரம் சிரச்சேதமா ?",
+      "claim_summary": "Hereditary social identity is defended only when tied to concrete social responsibility; superiority is rejected, and each group is urged to perform its duty as an Isvara-given service rather than a privilege.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.thalaivalikku_parikaram_sirachedhama.duty_over_money_and_final_unity_ideal",
+      "chapter_ordinal": 42,
+      "chapter_title_ta": "தலைவலிக்குப் பரிகாரம் சிரச்சேதமா ?",
+      "claim_summary": "Replacing money-centered competition with duty-centered life is presented as a path toward mutual trust, assistance, equality of worth, peace, and social unity.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.moolamagiya_vedam.sectarian_diversity_within_hindu_fold",
+      "chapter_ordinal": 43,
+      "chapter_title_ta": "மூலமாகிய வேதம்",
+      "claim_summary": "Shaiva, Vaishnava, and other traditions may appear to have different deities and texts, yet the chapter asks whether a deeper common religious identity underlies these differences.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, எல்லாம் தழுவும் அத்வைதம், printed pp. 28-30 (PDF pp. 39-41)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness explicitly discusses Madhva, Ramanuja, Shaiva and other siddhantas as distinct while sharing devotional orientation and a higher spiritual goal."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.moolamagiya_vedam.tevaram_and_prabandham_share_vedic_root",
+      "chapter_ordinal": 43,
+      "chapter_title_ta": "மூலமாகிய வேதம்",
+      "claim_summary": "Tamil Shaiva and Vaishnava devotional canons are presented as consciously grounded in the Veda, making the Veda their common source text.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.moolamagiya_vedam.many_hindu_deities_as_vedic_branches",
+      "chapter_ordinal": 43,
+      "chapter_title_ta": "மூலமாகிய வேதம்",
+      "claim_summary": "Different deity-centered Hindu traditions are compared to distinct bathing places on one Vedic river: varied forms and practices share one underlying scriptural source.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 148-151 (PDF pp. 159-162)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness describes many Vedic deities, yajnas, upasana paths and teachings while bringing them back to one underlying Vedic purport."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.moolamagiya_vedam.upanishadic_brahman_as_common_divine",
+      "chapter_ordinal": 43,
+      "chapter_title_ta": "மூலமாகிய வேதம்",
+      "claim_summary": "The Upanishadic Brahman is presented as the common ultimate divine reality behind Shaiva, Vaishnava, Smarta, and other Hindu traditions.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 149-151 (PDF pp. 160-162)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness says, in an Upanishadic framing, that the many Vedic teachings ultimately indicate one Paramporul / Parama Purusha."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.moolamagiya_vedam.veda_as_common_guide_to_life_and_realization",
+      "chapter_ordinal": 43,
+      "chapter_title_ta": "மூலமாகிய வேதம்",
+      "claim_summary": "The Veda is described as a shared guide that both reveals the divine and orders human life toward eventual realization of that same reality.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "supported_for_claim_level_promotion",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 149-155 (PDF pp. 160-166)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness presents Vedic yajna, upasana, meditation, tapas, karma and discipline as varied means converging on one spiritual purpose and realization."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.moolamagiya_vedam.claim_veda_root_of_world_religions",
+      "chapter_ordinal": 43,
+      "chapter_title_ta": "மூலமாகிய வேதம்",
+      "claim_summary": "The chapter extends its common-root thesis beyond Hindu sects and claims that the Veda is the underlying source of all world religions, making its preservation a universal duty.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaidhikamum_tamilum.tamil_kings_as_supporters_of_vedic_tradition",
+      "chapter_ordinal": 44,
+      "chapter_title_ta": "வைதிகமும் தமிழும்",
+      "claim_summary": "Inscriptions, royal titles, yajnas, and land grants are cited to portray classical Tamil kings as active supporters of Vedic learning and ritual.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaidhikamum_tamilum.tamil_vocabulary_as_evidence_of_ancient_vedic_presence",
+      "chapter_ordinal": 44,
+      "chapter_title_ta": "வைதிகமும் தமிழும்",
+      "claim_summary": "Old Tamil words such as marai and velvi, and the term cadangu, are used as linguistic evidence for a long-standing Vedic presence in Tamil culture.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaidhikamum_tamilum.tirukkural_read_as_vedic",
+      "chapter_ordinal": 44,
+      "chapter_title_ta": "வைதிகமும் தமிழும்",
+      "claim_summary": "The Tirukkural is interpreted as reflecting Vedic ordering of duties, especially the priority given to ancestors, deity, guests, relatives, and self in household obligations.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaidhikamum_tamilum.tamil_bhakti_canon_and_veda",
+      "chapter_ordinal": 44,
+      "chapter_title_ta": "வைதிகமும் தமிழும்",
+      "claim_summary": "Avvaiyar, Alvars, and Shaiva devotional authors are cited as treating Vedic study and Vedic branches as integral to Tamil religious life.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaidhikamum_tamilum.nonbrahmin_support_for_veda_schools",
+      "chapter_ordinal": 44,
+      "chapter_title_ta": "வைதிகமும் தமிழும்",
+      "claim_summary": "The chapter credits non-Brahmin patrons in Tamil Nadu with substantial historical support for Veda schools through land and financial gifts.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaidhikamum_tamilum.tamil_vedic_faith_and_brahmin_responsibility",
+      "chapter_ordinal": 44,
+      "chapter_title_ta": "வைதிகமும் தமிழும்",
+      "claim_summary": "The chapter concludes that Vedic faith remains deeply rooted among Tamil people and that stronger disciplined observance by Brahmins would strengthen Veda preservation.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vedathin_moola_vadivam.language_rivalry_rejected",
+      "chapter_ordinal": 45,
+      "chapter_title_ta": "வேதத்தின் மூல வடிவம்",
+      "claim_summary": "Language is treated as a tool for communication rather than a basis for rivalry, and conflict over which language is superior is lamented.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vedathin_moola_vadivam.tamil_and_sanskrit_equal_dignity_argument",
+      "chapter_ordinal": 45,
+      "chapter_title_ta": "வேதத்தின் மூல வடிவம்",
+      "claim_summary": "A traditional verse about Tiruvalluvar is used to argue for equal dignity between Sanskrit and Tamil, associating Sanskrit with Veda and Tamil with Tirukkural.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vedathin_moola_vadivam.preserve_original_vedic_wording",
+      "chapter_ordinal": 45,
+      "chapter_title_ta": "வேதத்தின் மூல வடிவம்",
+      "claim_summary": "Because translation can alter meaning and later understanding may recover nuances missed earlier, the original Vedic wording is said to require preservation rather than replacement by translation.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vedathin_moola_vadivam.one_fixed_source_many_interpretations",
+      "chapter_ordinal": 45,
+      "chapter_title_ta": "வேதத்தின் மூல வடிவம்",
+      "claim_summary": "Different acharyas are described as interpreting one unchanged Vedic source in different ways while preserving the common original rather than rewriting it to fit each doctrine.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "partial_match_not_sufficient",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, எல்லாம் தழுவும் அத்வைதம் and வேதமும் தர்மமும், printed pp. 28-30 and 149-151 (PDF pp. 39-41 and 160-162)",
+        "match_level": "partial_match_not_sufficient",
+        "note": "Earlier witness establishes multiple siddhantas and a common ultimate Vedic purport, but not the stronger claim about different acharyas preserving one unchanged textual source."
+      },
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.live_veda_duty_as_reconciliation",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "Those entrusted with Veda preservation are urged to live as peaceful, disciplined exemplars so that the social value of their duty becomes visible and hostility can diminish.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.tamil_nadu_as_vedic_spiritual_center_claim",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "Tamil Nadu is portrayed as an ancient center of Vedic learning, jnana, and bhakti, with historical and prophetic examples used to support that view.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.en_kariyam.discipline_and_daily_vedic_study",
+      "chapter_ordinal": 39,
+      "chapter_title_ta": "என் காரியம்",
+      "claim_summary": "Religious and social discipline is compared to the banks that contain a lake, and the practical minimum emphasized is regular daily Vedic study beginning with those considered most directly responsible for preserving it.",
+      "review_scope": "targeted_section_level_manual_comparison",
+      "review_status": "not_evaluated_in_targeted_sections",
+      "authority_before": "dk_attested",
+      "authority_after": "dk_attested",
+      "historical_witness": null,
+      "guardrails": {
+        "verbatim_wording_claimed": false,
+        "primary_source_verified_claimed": false,
+        "textual_dependency_claimed": false,
+        "external_factual_truth_claimed": false
+      }
+    }
+  ]
+}

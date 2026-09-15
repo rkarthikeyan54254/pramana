@@ -19,8 +19,8 @@
   "policy": {
     "no_exact_source_text_in_tracked_artifacts": true,
     "claim_summaries_are_not_quotes": true,
-    "all_batch_authority_is_dk_attested": true,
-    "historical_witness_comparison_deferred": true,
+    "all_batch_authority_is_dk_attested": false,
+    "historical_witness_comparison_deferred": false,
     "no_print_check_claimed": true,
     "no_primary_source_verified_claimed": true,
     "sensitive_external_fact_claims_are_flagged": true,
@@ -28,11 +28,18 @@
     "varna_caste_normative_material_requires_contextual_answering": true,
     "replacement_decoded_source_pages_need_later_text_qc": true,
     "every_source_block_accounted_for_or_explicitly_excluded": true,
-    "human_publication_review_still_required": true
+    "human_publication_review_still_required": true,
+    "targeted_historical_witness_pass_completed": true,
+    "historical_witness_exhaustive_review_completed": false,
+    "historical_witness_support_is_claim_level": true,
+    "no_verbatim_wording_claimed": true,
+    "sensitivity_flags_preserved_through_authority_promotion": true,
+    "external_factual_truth_separate_from_earlier_attestation": true
   },
   "unit_count": 130,
   "authority_counts": {
-    "dk_attested": 130
+    "dk_attested": 124,
+    "earlier_witness_supported": 6
   },
   "chapter_unit_counts": {
     "24": 5,
@@ -313,8 +320,13 @@
         "religious_comparison_attributed_only",
         "historical_claim_requires_external_verification"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, எல்லாம் தழுவும் அத்வைதம், printed pp. 28-30 (PDF pp. 39-41), especially printed p. 29",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness names multiple Hindu siddhantas and says Isvara-bhakti and the path prescribed by the respective acharya can lead toward the same Paramatma. It does not establish separate conversion-history claims."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.mathangalin_otrumai.nonproselytization_historical_claim",
@@ -1044,8 +1056,13 @@
         "scientific_analogy_not_literal",
         "religious_comparison_attributed_only"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "locus": "Part 1, ஈசுவர பக்தி ஏன் செய்யவேண்டும்?, printed pp. 117-120 (PDF pp. 132-135), especially printed p. 118 / PDF p. 133",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness explicitly describes good and bad actions as receiving fitting results and identifies Isvara as giver of karmic fruits. It supports the moral action-result claim, not the DK physics analogy."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.nam_mathathin_thani_amsangal.rebirth_as_field_for_karmic_results",
@@ -3646,8 +3663,13 @@
       "flags": [
         "comparative_doctrinal_simplification"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, எல்லாம் தழுவும் அத்வைதம், printed pp. 28-30 (PDF pp. 39-41)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness explicitly discusses Madhva, Ramanuja, Shaiva and other siddhantas as distinct while sharing devotional orientation and a higher spiritual goal."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.moolamagiya_vedam.tevaram_and_prabandham_share_vedic_root",
@@ -3712,8 +3734,13 @@
       "flags": [
         "traditional_scriptural_claim"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 148-151 (PDF pp. 159-162)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness describes many Vedic deities, yajnas, upasana paths and teachings while bringing them back to one underlying Vedic purport."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.moolamagiya_vedam.upanishadic_brahman_as_common_divine",
@@ -3740,8 +3767,13 @@
         "vaishnava"
       ],
       "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 149-151 (PDF pp. 160-162)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness says, in an Upanishadic framing, that the many Vedic teachings ultimately indicate one Paramporul / Parama Purusha."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.moolamagiya_vedam.veda_as_common_guide_to_life_and_realization",
@@ -3765,8 +3797,13 @@
         "realization"
       ],
       "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+        "locus": "Part 2, வேதமும் தர்மமும், printed pp. 149-155 (PDF pp. 160-166)",
+        "match_level": "same_doctrinal_claim",
+        "note": "Earlier witness presents Vedic yajna, upasana, meditation, tapas, karma and discipline as varied means converging on one spiritual purpose and realization."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.moolamagiya_vedam.claim_veda_root_of_world_religions",
@@ -4201,5 +4238,13 @@
       "authority": "dk_attested",
       "historical_witness": null
     }
-  ]
+  ],
+  "historical_witness_review": {
+    "path": "data/review/mahaperiyava_dk_v1_batch_024_045_historical_witness_review.json",
+    "review_type": "targeted_historical_witness_matching",
+    "matrix_count": 130,
+    "promotion_count": 6,
+    "partial_match_count": 6,
+    "exhaustive": false
+  }
 }
