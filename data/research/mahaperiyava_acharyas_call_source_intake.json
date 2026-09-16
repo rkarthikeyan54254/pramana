@@ -1,0 +1,90 @@
+{
+  "version": "0.1",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "phase": "historical_source_intake_acharyas_call",
+  "status": "CURATOR_REVIEWED_METADATA_ACQUISITION_PENDING",
+  "source_family": {
+    "title": "Acharya's Call",
+    "institution": "Sri Kanchi Kamakoti Peetam",
+    "classification": "earlier_secondary_source_family_with_official_digital_reprint",
+    "primary_source": false,
+    "independent_of_dk": true,
+    "authority_effect": "none_until_item_level_comparison_and_snapshot",
+    "reason": "The official Kamakoti digital pages reproduce an earlier English publication derived from The Hindu reports of Mahaperiyava's Madras discourses. The reporting chain is historically valuable but includes reporter/editor intervention; some reports were perused and approved by Mahaperiyava, but the introduction does not identify which specific reports. The later reprint was also revised and regrouped."
+  },
+  "user_supplied_sources": [
+    {
+      "source_key": "kamakoti-acharyas-call-selected-discourses",
+      "url": "https://www.kamakoti.org/misc/acharyascall.html",
+      "title": "Acharya's Call — Selected Discourses",
+      "role": "official_digital_selection",
+      "finding": "Official Kamakoti landing page describes the material as selected articles and speeches translated into English from the two volumes of Acharya's Call.",
+      "snapshot_sha256": null,
+      "acquisition_status": "pending_local_snapshot"
+    },
+    {
+      "source_key": "kamakoti-acharyas-call-part2-publishers-note",
+      "url": "https://www.kamakoti.org/kamakoti/stotra/acharyascall/bookview.php?chapnum=3",
+      "title": "Acharya's Call Part II — Publisher's Note",
+      "role": "collection_provenance",
+      "finding": "Publisher's note states that Part II collects discourses delivered during the Madras stay from September 1957 to the end of 1959 and thanks The Hindu for permission to use discourses published in its columns.",
+      "recorded_date_anomaly": "The note says release coincides with the 75th birthday on 2 May 1968, while the signature block is dated Madras, 24-5-1964. Preserve this inconsistency pending edition-level bibliographic review.",
+      "snapshot_sha256": null,
+      "acquisition_status": "pending_local_snapshot"
+    }
+  ],
+  "supporting_provenance_pages": [
+    {
+      "source_key": "kamakoti-acharyas-call-part2-preface-1995",
+      "url": "https://www.kamakoti.org/kamakoti/stotra/acharyascall/bookview.php?chapnum=1",
+      "role": "edition_history",
+      "finding": "1995 preface says the 1957-58 Madras material was reported in The Hindu and later issued in two volumes in 1964 and 1968. It explicitly says the reprint was completely revised/reset, changed from chronological to subject-wise order, and removed some out-of-date portions.",
+      "snapshot_sha256": null,
+      "acquisition_status": "pending_local_snapshot"
+    },
+    {
+      "source_key": "kamakoti-acharyas-call-part2-introduction",
+      "url": "https://www.kamakoti.org/kamakoti/stotra/acharyascall/bookview.php?chapnum=4",
+      "role": "reporting_chain_and_editorial_method",
+      "finding": "V. Ramakrishna Aiyer describes reporting the discourses for The Hindu, initially using reports from P. Sankaranarayanan and later preparing his own reports with revision by Sankaranarayanan or Swami Anandananda. He learned that some reports left for revision were perused, touched up and approved by Mahaperiyava. He also states that the book changed indirect newspaper reporting to direct form, altered some wording, and added quoted Sanskrit/Tamil material.",
+      "acharya_review_status": "claimed_at_collection_level_item_identity_unknown",
+      "snapshot_sha256": null,
+      "acquisition_status": "pending_local_snapshot"
+    }
+  ],
+  "targeted_item_level_candidates": [
+    {
+      "source_key": "kamakoti-acharyas-call-part2-ch20",
+      "url": "https://www.kamakoti.org/kamakoti/stotra/acharyascall/bookview.php?chapnum=20",
+      "title": "Soldier of Vedic Religion",
+      "reported_date": "1957-11-12",
+      "witness_role_candidate": "earlier_secondary",
+      "dk_target_ids": [
+        "mahaperiyava.deivathin_kural.v1.muruganin_tamilnaattu_avataram.vedic_path_as_river_with_many_religious_ghats"
+      ],
+      "match_note": "Strong claim-level agreement: Saivism, Vaishnavism and other systems are described as based on the Vedas, with Vedic Dharma compared to a stream and the systems to bathing ghats.",
+      "authority_action": "none_pending_snapshot_and_item_level_review"
+    },
+    {
+      "source_key": "kamakoti-acharyas-call-part2-ch64",
+      "url": "https://www.kamakoti.org/kamakoti/stotra/acharyascall/bookview.php?chapnum=64",
+      "title": "Japanese Professor's Interview",
+      "reported_date": "1960-01-22",
+      "witness_role_candidate": "earlier_secondary",
+      "dk_target_ids": [
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.smarta_view_no_higher_or_lower_deity",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity"
+      ],
+      "match_note": "Strong claim-level agreement: in discussing Advaita, Mahaperiyava is reported as teaching one Paramatma and the unity of Siva, Vishnu and Sakti while allowing different inherited upasana forms.",
+      "authority_action": "none_pending_snapshot_and_item_level_review"
+    }
+  ],
+  "guardrails": {
+    "do_not_treat_official_web_reprint_as_primary": true,
+    "do_not_infer_item_level_acharya_approval_from_collection_level_statement": true,
+    "do_not_claim_verbatim_speech": true,
+    "do_not_promote_candidate_matches_without_snapshot_and_human_item_review": true,
+    "preserve_publisher_date_anomaly": true
+  }
+}
