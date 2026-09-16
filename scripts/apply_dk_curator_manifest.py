@@ -27,6 +27,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import glob
 import sys
 from typing import Any, Dict, List, Optional, Set, Tuple
 
@@ -64,6 +65,13 @@ DEFAULT_QUEUE_REVIEW_NOTE = (
     "Curated metadata-only teaching units from private hashed review packet. "
     "Authority remains dk_attested; historical-witness comparison, print check, "
     "and primary-source verification remain pending."
+)
+
+# Witness carry-forward attribution note convention
+WITNESS_CARRYFORWARD_ATTRIBUTION_NOTE = (
+    "Curator-authored summary, not a quotation. A pre-DK historical witness "
+    "supports this narrow claim; no verbatim identity or textual dependence "
+    "is asserted."
 )
 
 ID_PATTERN = re.compile(r"^mahaperiyava\.deivathin_kural\.v[1-7]\.[a-z0-9_-]+(?:\.[a-z0-9_-]+)?$")
@@ -334,6 +342,18 @@ class DKManifestApplier:
             )
             return overlap_infos, err
 
+        # Stronger pilot evidence scheduled for replacement must have an
+        # item-level curator decision describing how that evidence survives.
+        # A chapter-level carry_forward_stronger_evidence flag alone is not
+        # sufficient, because it does not identify which stronger pilot
+        # record/provenance is being preserved.
+        raw_witness_decisions = cf.get("witness_decisions", [])
+        witness_decision_by_id = {
+            d.get("id"): d
+            for d in raw_witness_decisions
+            if isinstance(d, dict) and d.get("id")
+        }
+
         # Check that stronger evidence is NOT silently downgraded
         for o in overlap_infos:
             dec = decision_map[o.chapter_ordinal]
@@ -355,6 +375,48 @@ class DKManifestApplier:
                         "or provide explicit 'curator_downgrade_approved: true' with 'downgrade_rationale'."
                     )
                     return overlap_infos, err
+
+                # If stronger evidence is meant to be carried forward while the
+                # pilot representation is removed, require an item-level
+                # witness decision for every stronger pilot record. This makes
+                # the replacement fail closed instead of trusting a broad
+                # chapter-level approval.
+                if carries_forward_stronger and dec.get("remove_pilot_records", False):
+                    stronger_ids = []
+                    for r in self.pilot_records:
+                        if r.get("source_locus", {}).get("chapter_ordinal") != o.chapter_ordinal:
+                            continue
+                        evidence = r.get("evidence_status", {})
+                        provenance = r.get("provenance", [])
+                        is_stronger = (
+                            evidence.get("authority") == "earlier_witness_supported"
+                            or evidence.get("print_check") not in (None, "not_checked")
+                            or evidence.get("primary_source_status") == "verified"
+                            or any(
+                                pr.get("witness_role") in (
+                                    "earlier_secondary",
+                                    "primary",
+                                    "primary_source",
+                                )
+                                for pr in provenance
+                            )
+                        )
+                        if is_stronger:
+                            stronger_ids.append(r.get("id", ""))
+
+                    missing_witness_decisions = [
+                        rid
+                        for rid in stronger_ids
+                        if rid and rid not in witness_decision_by_id
+                    ]
+                    if missing_witness_decisions:
+                        return overlap_infos, (
+                            f"Refusing replacement for Chapter {o.chapter_ordinal}: "
+                            "stronger pilot evidence is marked for carry-forward but "
+                            "no item-level witness_decision was supplied for record(s): "
+                            f"{missing_witness_decisions}. "
+                            "Chapter-level carry_forward_stronger_evidence is not enough."
+                        )
 
         return overlap_infos, None
 
@@ -428,6 +490,216 @@ class DKManifestApplier:
             }
             records.append(record)
         return records
+
+    def _apply_witness_decisions(self, records: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """
+        Apply approved witness carry-forward decisions to generated teaching records.
+        This modifies records in place for those matching witness_decisions.
+        """
+        if not self.carry_forward:
+            return records
+        witness_decisions = self.carry_forward.get("witness_decisions", [])
+        if not witness_decisions:
+            return records
+
+        # Build lookup for decisions by unit ID
+        decisions_by_id = {d["id"]: d for d in witness_decisions if "id" in d}
+
+        # Build lookup for manifest units by ID for paragraph verification
+        manifest_units_by_id = {u["id"]: u for u in self.manifest.get("units", [])}
+
+        for record in records:
+            uid = record.get("id")
+            if uid not in decisions_by_id:
+                continue
+
+            dec = decisions_by_id[uid]
+
+            # Verify chapter ordinal matches
+            if dec.get("chapter_ordinal") != record.get("source_locus", {}).get("chapter_ordinal"):
+                raise ValueError(f"Witness decision chapter mismatch for {uid}")
+
+            # Verify source_paragraph_ids match using manifest unit data
+            dec_paras = set(dec.get("source_paragraph_ids", []))
+            manifest_unit = manifest_units_by_id.get(uid)
+            if manifest_unit:
+                rec_paras = set(manifest_unit.get("source_paragraph_ids", []))
+            else:
+                rec_paras = set()
+            if dec_paras != rec_paras:
+                raise ValueError(f"Witness decision paragraph mismatch for {uid}: {dec_paras} vs {rec_paras}")
+
+            # Apply authority and wording status
+            record["evidence_status"]["authority"] = dec.get("evidence_status_authority", "earlier_witness_supported")
+            record["attribution"]["wording_status"] = dec.get("wording_status", "earlier_witness_agrees")
+            record["attribution"]["note"] = WITNESS_CARRYFORWARD_ATTRIBUTION_NOTE
+
+            # Append earlier_secondary provenance exactly from artifact
+            ew = dec.get("earlier_witness", {})
+            if ew:
+                prov_entry = {
+                    "source_key": ew.get("source_key", ""),
+                    "witness_role": ew.get("witness_role", "earlier_secondary"),
+                    "url": ew.get("url", ""),
+                    "locus": ew.get("locus", ""),
+                    "snapshot_sha256": ew.get("snapshot_sha256", ""),
+                    "lineage_note": ew.get("lineage_note", ""),
+                    "rights_status": ew.get("rights_status", "restricted_private_research"),
+                }
+                record["provenance"].append(prov_entry)
+
+            # DO NOT change these:
+            record["evidence_status"]["print_check"] = "not_checked"
+            record["evidence_status"]["primary_source_status"] = "unknown"
+            record["attribution"]["compiler_intervention_status"] = "unknown"
+
+        return records
+
+    def _apply_witness_decisions_to_index(self, index: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Apply approved witness carry-forward decisions to curation index units.
+        """
+        if not self.carry_forward:
+            return index
+        witness_decisions = self.carry_forward.get("witness_decisions", [])
+        if not witness_decisions:
+            return index
+
+        decisions_by_id = {d["id"]: d for d in witness_decisions if "id" in d}
+
+        for unit in index.get("units", []):
+            uid = unit.get("id")
+            if uid not in decisions_by_id:
+                continue
+
+            dec = decisions_by_id[uid]
+            unit["authority"] = dec.get("evidence_status_authority", "earlier_witness_supported")
+
+            # Populate review-only historical_witness metadata
+            ew = dec.get("earlier_witness", {})
+            if ew:
+                unit["historical_witness"] = {
+                    "source_key": ew.get("source_key", ""),
+                    "witness_role": ew.get("witness_role", "earlier_secondary"),
+                    "url": ew.get("url", ""),
+                    "locus": ew.get("locus", ""),
+                    "snapshot_sha256": ew.get("snapshot_sha256", ""),
+                    "basis": ew.get("basis", ""),
+                    "wording_agreement": dec.get("wording_status", "earlier_witness_agrees"),
+                }
+            else:
+                unit["historical_witness"] = None
+
+        return index
+
+    def _remove_pilot_records(self) -> None:
+        """
+        Remove pilot teaching records and curation index units for chapters
+        where carry-forward artifact specifies remove_pilot_records: true.
+        """
+        if not self.carry_forward:
+            return
+
+        cf_decisions = self.carry_forward.get("chapter_decisions", [])
+        if not isinstance(cf_decisions, list):
+            return
+
+        for dec in cf_decisions:
+            if not dec.get("remove_pilot_records", False):
+                continue
+
+            ch_ord = dec.get("chapter_ordinal")
+            expected_pilot_ids = set(dec.get("pilot_record_ids", []))
+
+            if not ch_ord or not expected_pilot_ids:
+                continue
+
+            # Load current pilot records
+            pilot_file = self.repo_root / "data/review/mahaperiyava_dk_v1_pilot_teaching_records.jsonl"
+            if not pilot_file.exists():
+                continue
+
+            pilot_rows = []
+            with open(pilot_file, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line:
+                        pilot_rows.append(json.loads(line))
+
+            # Find pilot records for this chapter
+            chapter_pilot_ids = {r.get("id") for r in pilot_rows
+                                 if r.get("source_locus", {}).get("chapter_ordinal") == ch_ord}
+
+            if chapter_pilot_ids != expected_pilot_ids:
+                # Check for partial removal state (idempotency)
+                if expected_pilot_ids & chapter_pilot_ids:
+                    # Some but not all expected IDs present -> partial state -> ERROR
+                    missing = expected_pilot_ids - chapter_pilot_ids
+                    extra = chapter_pilot_ids - expected_pilot_ids
+                    raise ValueError(
+                        f"Partial pilot removal state for chapter {ch_ord}: "
+                        f"missing expected IDs: {sorted(missing)}, "
+                        f"unexpected IDs: {sorted(extra)}. "
+                        f"Expected exactly: {sorted(expected_pilot_ids)}"
+                    )
+                # If none of the expected IDs present, it's already been removed -> valid no-op
+                continue
+
+            # Remove the expected pilot records
+            filtered_rows = [r for r in pilot_rows
+                             if r.get("id") not in expected_pilot_ids]
+
+            # Write back
+            with open(pilot_file, "w", encoding="utf-8") as f:
+                for r in filtered_rows:
+                    f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+            # Also update pilot curation index
+            pilot_index_file = self.repo_root / "data/review/mahaperiyava_dk_v1_pilot_curation_index.json"
+            if pilot_index_file.exists():
+                with open(pilot_index_file, "r", encoding="utf-8") as f:
+                    pilot_index = json.load(f)
+
+                filtered_units = [u for u in pilot_index.get("units", [])
+                                  if u.get("id") not in expected_pilot_ids]
+
+                # Update counts
+                pilot_index["units"] = filtered_units
+                pilot_index["unit_count"] = len(filtered_units)
+
+                from collections import Counter
+                auth_counter = Counter(u.get("authority", "dk_attested") for u in filtered_units)
+                pilot_index["authority_counts"] = dict(auth_counter)
+
+                flag_counter = Counter(f for u in filtered_units for f in u.get("flags", []))
+                pilot_index["flag_counts"] = dict(flag_counter)
+
+                # Rebuild chapter_unit_counts from remaining units
+                # Build slug->ordinal mapping from pilot teaching records (they have both slug and ordinal)
+                slug_to_ordinal = {}
+                pilot_records_file = self.repo_root / "data/review/mahaperiyava_dk_v1_pilot_teaching_records.jsonl"
+                if pilot_records_file.exists():
+                    with open(pilot_records_file, "r", encoding="utf-8") as pf:
+                        for line in pf:
+                            line = line.strip()
+                            if line:
+                                r = json.loads(line)
+                                slug = r.get("source_locus", {}).get("chapter_title_ta", "").replace(" ", "_").lower()
+                                ord_val = r.get("source_locus", {}).get("chapter_ordinal")
+                                if slug and ord_val:
+                                    slug_to_ordinal[slug] = ord_val
+
+                chapter_counter = {}
+                for u in filtered_units:
+                    slug = u.get("chapter_slug")
+                    if slug in slug_to_ordinal:
+                        ord_val = slug_to_ordinal[slug]
+                        chapter_counter[ord_val] = chapter_counter.get(ord_val, 0) + 1
+
+                pilot_index["chapter_unit_counts"] = {str(k): v for k, v in sorted(chapter_counter.items())}
+
+                with open(pilot_index_file, "w", encoding="utf-8") as f:
+                    json.dump(pilot_index, f, ensure_ascii=False, indent=2)
 
     def generate_curation_index(
         self,
@@ -573,6 +845,7 @@ class DKManifestApplier:
                 if decision.get("update_queue", False):
                     r_copy = dict(row)
                     r_copy["stage"] = "batch_teaching_units_curated"
+                    r_copy["pilot"] = False
                     r_copy["teaching_units_created"] = chapter_counter.get(ord_val, 0)
                     r_copy["review_notes"] = DEFAULT_QUEUE_REVIEW_NOTE
                     updated_rows.append(r_copy)
@@ -703,6 +976,20 @@ class DKManifestApplier:
         elif mode == "apply":
             records_path.parent.mkdir(parents=True, exist_ok=True)
             index_path.parent.mkdir(parents=True, exist_ok=True)
+
+            # Apply witness decisions to records and index
+            records = self._apply_witness_decisions(records)
+            index = self._apply_witness_decisions_to_index(index)
+
+            # Remove pilot records if carry-forward specifies
+            self._remove_pilot_records()
+
+            # Recompute records_text after witness decisions applied
+            records_text = "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records)
+            records_sha = hashlib.sha256(records_text.encode("utf-8")).hexdigest()
+
+            index_text = json.dumps(index, indent=2, ensure_ascii=False) + "\n"
+            index_sha = hashlib.sha256(index_text.encode("utf-8")).hexdigest()
 
             with open(records_path, "w", encoding="utf-8") as f:
                 f.write(records_text)

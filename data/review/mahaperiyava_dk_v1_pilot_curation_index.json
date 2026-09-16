@@ -25,10 +25,10 @@
     "no_primary_source_verified_claimed": true,
     "human_publication_review_still_required": true
   },
-  "unit_count": 40,
+  "unit_count": 33,
   "authority_counts": {
-    "earlier_witness_supported": 3,
-    "dk_attested": 37
+    "earlier_witness_supported": 2,
+    "dk_attested": 31
   },
   "chapter_unit_counts": {
     "4": 6,
@@ -36,7 +36,6 @@
     "23": 5,
     "25": 7,
     "32": 5,
-    "108": 7,
     "136": 5
   },
   "units": [
@@ -834,193 +833,6 @@
       "historical_witness": null
     },
     {
-      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.karma_and_phaladata",
-      "chapter_slug": "bhakti_seyvathu_etharkaga",
-      "unit_slug": "karma_and_phaladata",
-      "claim_summary": "Moral action is presented within a cause-and-effect order in which Isvara is the giver of karmic fruits.",
-      "question_intents": [
-        "Who gives the fruits of karma?",
-        "Why does Mahaperiyava connect cause and effect with Isvara?"
-      ],
-      "source_paragraph_ids": [
-        "p001"
-      ],
-      "source_paragraph_hashes": [
-        "53eac68d3bd06e1ae6f148afde6417d940493611dca1825482029c0319cbf190"
-      ],
-      "topics": [
-        "karma",
-        "phaladata",
-        "isvara"
-      ],
-      "flags": [
-        "packet_reextract_required"
-      ],
-      "authority": "earlier_witness_supported",
-      "historical_witness": {
-        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
-        "locus": "ஈசுவர பக்தி ஏன் செய்யவேண்டும்?, printed p. 117 ff.; PDF pp. 132-135",
-        "basis": "substantial_doctrinal_overlap"
-      }
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.prayer_for_relief_and_acceptance",
-      "chapter_slug": "bhakti_seyvathu_etharkaga",
-      "unit_slug": "prayer_for_relief_and_acceptance",
-      "claim_summary": "Prayer for removal of suffering is treated as understandable, but a higher disposition is to seek the capacity to accept karmic difficulty without being inwardly overwhelmed by it.",
-      "question_intents": [
-        "Should we pray for God to remove suffering?",
-        "What is a higher prayer when facing hardship?"
-      ],
-      "source_paragraph_ids": [
-        "p002"
-      ],
-      "source_paragraph_hashes": [
-        "487435a5ea8572145adf6c357e318e8ed454c0486f0069d23e22f35f2b34cab2"
-      ],
-      "topics": [
-        "prayer",
-        "suffering",
-        "karma"
-      ],
-      "flags": [
-        "packet_reextract_required"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.ordinary_prayer_has_partial_value",
-      "chapter_slug": "bhakti_seyvathu_etharkaga",
-      "unit_slug": "ordinary_prayer_has_partial_value",
-      "claim_summary": "Petitionary prayer is not presented as the highest bhakti, yet it can lighten mental burden and weaken the egoistic belief that one can accomplish everything alone.",
-      "question_intents": [
-        "Is asking God for things true bhakti?",
-        "Does ordinary prayer still have value?"
-      ],
-      "source_paragraph_ids": [
-        "p003"
-      ],
-      "source_paragraph_hashes": [
-        "47e8fa4bacb03bbdc9340d7cb752f492f4f5d7edfe23ffc058852a5892f868de"
-      ],
-      "topics": [
-        "prayer",
-        "bhakti",
-        "ego"
-      ],
-      "flags": [
-        "packet_reextract_required"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.surrender_as_deeper_bhakti",
-      "chapter_slug": "bhakti_seyvathu_etharkaga",
-      "unit_slug": "surrender_as_deeper_bhakti",
-      "claim_summary": "Deeper bhakti is described as surrendering the claim of personal ownership and accepting the divine will, which quiets anxiety and purifies the mind.",
-      "question_intents": [
-        "What is true surrender in bhakti?",
-        "What does 'let it be as You will' mean spiritually?"
-      ],
-      "source_paragraph_ids": [
-        "p004"
-      ],
-      "source_paragraph_hashes": [
-        "4cf94469a21a5663988e9dd0fec80b7c73247e681d89c4575ba4f3dba222b646"
-      ],
-      "topics": [
-        "surrender",
-        "bhakti",
-        "purification"
-      ],
-      "flags": [
-        "packet_reextract_required"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.love_of_god_as_enduring_love",
-      "chapter_slug": "bhakti_seyvathu_etharkaga",
-      "unit_slug": "love_of_god_as_enduring_love",
-      "claim_summary": "Love is a source of deep joy, but worldly relationships are impermanent; love directed to the enduring divine is therefore presented as a source of lasting joy.",
-      "question_intents": [
-        "Why love God?",
-        "How is divine love different from human attachment?"
-      ],
-      "source_paragraph_ids": [
-        "p005"
-      ],
-      "source_paragraph_hashes": [
-        "1f2fa866a76f79aae5e05e093146fb9abd6c792f3540d5db5a99b0a00e515137"
-      ],
-      "topics": [
-        "divine_love",
-        "bhakti",
-        "impermanence"
-      ],
-      "flags": [
-        "packet_reextract_required"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.mature_love_becomes_universal_love",
-      "chapter_slug": "bhakti_seyvathu_etharkaga",
-      "unit_slug": "mature_love_becomes_universal_love",
-      "claim_summary": "As devotion matures, everything is seen as belonging to or being the divine, reducing partiality and extending love toward all.",
-      "question_intents": [
-        "How does bhakti lead to love for everyone?",
-        "What happens when devotion matures?"
-      ],
-      "source_paragraph_ids": [
-        "p005"
-      ],
-      "source_paragraph_hashes": [
-        "1f2fa866a76f79aae5e05e093146fb9abd6c792f3540d5db5a99b0a00e515137"
-      ],
-      "topics": [
-        "universal_love",
-        "bhakti",
-        "oneness"
-      ],
-      "flags": [
-        "packet_reextract_required"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.bhakti_culminates_in_grace_and_moksha",
-      "chapter_slug": "bhakti_seyvathu_etharkaga",
-      "unit_slug": "bhakti_culminates_in_grace_and_moksha",
-      "claim_summary": "Bhakti is described as helping with mental purification, steadiness and divine qualities, and ultimately as opening the way—through grace—to freedom from karmic bondage and non-dual realization.",
-      "question_intents": [
-        "What are the fruits of bhakti?",
-        "How does bhakti lead to moksha or Advaita realization?"
-      ],
-      "source_paragraph_ids": [
-        "p006"
-      ],
-      "source_paragraph_hashes": [
-        "63b5c8a5c2fde070c73d5c3c44a5bc1ca9804be78df216a87cee936afa4df59b"
-      ],
-      "topics": [
-        "bhakti",
-        "grace",
-        "moksha",
-        "advaita"
-      ],
-      "flags": [
-        "packet_reextract_required"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
       "id": "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.gunas_and_trimurti_symbolism",
       "chapter_slug": "siva_vishnu_abhedam",
       "unit_slug": "gunas_and_trimurti_symbolism",
@@ -1171,7 +983,6 @@
     "context_sensitive": 1,
     "context_sensitive_social_teaching": 3,
     "historical_claim_requires_external_verification": 2,
-    "packet_reextract_required": 7,
     "descriptive_of_sectarian_views": 1,
     "historical_match_candidate_external_1927": 1
   }

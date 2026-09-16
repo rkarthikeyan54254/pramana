@@ -1,0 +1,89 @@
+{
+  "version": "0.2",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "phase": "batch_106_125_pilot_migration_and_witness_carryforward",
+  "status": "CURATOR_APPROVED",
+  "reason": "Chapter 108 already exists in the pilot corpus. The full 106-125 review packet provides the regular-batch replacement. The seven stable pilot teaching IDs are preserved in the replacement semantic curation. One pilot record has existing curator-approved earlier-secondary witness support, which must be preserved exactly; the other six remain dk_attested. The obsolete packet_reextract_required pilot representation must be removed after successful batch application.",
+  "policy": {
+    "no_new_witness_research": true,
+    "carry_forward_only_existing_curator_approved_support": true,
+    "no_silent_authority_downgrade": true,
+    "no_verbatim_claim": true,
+    "no_print_check_claim": true,
+    "no_primary_source_claim": true,
+    "remove_obsolete_pilot_representation_after_batch_apply": true,
+    "preserve_stable_teaching_ids": true
+  },
+  "chapter_decisions": [
+    {
+      "chapter_ordinal": 108,
+      "chapter_title_ta": "பக்தி செய்வது எதற்காக ?",
+      "action": "carry_forward_stronger_evidence",
+      "carry_forward_stronger_evidence": true,
+      "update_queue": true,
+      "remove_pilot_records": true,
+      "pilot_record_count": 7,
+      "pilot_authority_distribution": {
+        "dk_attested": 6,
+        "earlier_witness_supported": 1
+      },
+      "pilot_record_ids": [
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.karma_and_phaladata",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.prayer_for_relief_and_acceptance",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.ordinary_prayer_has_partial_value",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.surrender_as_deeper_bhakti",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.love_of_god_as_enduring_love",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.mature_love_becomes_universal_love",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.bhakti_culminates_in_grace_and_moksha"
+      ],
+      "replacement_record_ids": [
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.karma_and_phaladata",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.prayer_for_relief_and_acceptance",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.ordinary_prayer_has_partial_value",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.surrender_as_deeper_bhakti",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.love_of_god_as_enduring_love",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.mature_love_becomes_universal_love",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.bhakti_culminates_in_grace_and_moksha"
+      ],
+      "curator_note": "Replace the entire pilot Chapter 108 representation with the regular 106-125 batch. All seven stable IDs are intentionally retained. Preserve the single earlier-witness-supported record described in witness_decisions."
+    }
+  ],
+  "witness_decisions": [
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.karma_and_phaladata",
+      "chapter_ordinal": 108,
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "decision": "carry_forward_earlier_witness_support",
+      "evidence_status_authority": "earlier_witness_supported",
+      "wording_status": "earlier_witness_agrees",
+      "earlier_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "witness_role": "earlier_secondary",
+        "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-1.pdf",
+        "locus": "ஈசுவர பக்தி ஏன் செய்யவேண்டும்?, printed p. 117 ff.; PDF pp. 132-135",
+        "snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+        "basis": "Existing pilot claim-level historical support for the same stable teaching ID and the same p001 teaching. This is earlier-secondary agreement only; it does not establish verbatim primary wording or textual dependence.",
+        "lineage_note": "1958 publication produced from Ananthan shorthand notes, typed copies, and editorial arrangement. Earlier witness support is claim-level; printed wording is not treated as verbatim primary speech.",
+        "rights_status": "restricted_private_research"
+      }
+    }
+  ],
+  "expected_post_batch": {
+    "batch_teaching_records": 123,
+    "batch_authority_counts_after_carryforward": {
+      "dk_attested": 122,
+      "earlier_witness_supported": 1
+    },
+    "pilot_records_removed_for_chapter_108": 7,
+    "pilot_records_remaining": 33,
+    "total_teaching_records": 698,
+    "dk_attested": 665,
+    "earlier_witness_supported": 33,
+    "dk_print_checked": 0,
+    "primary_source_verified": 0
+  }
+}

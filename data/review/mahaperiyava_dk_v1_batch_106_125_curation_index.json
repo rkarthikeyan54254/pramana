@@ -1,0 +1,3953 @@
+{
+  "version": "0.1",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "phase": "batch_106_125_teaching_units_curated",
+  "status": "CURATED_REVIEW_DATA_NOT_PUBLICATION_APPROVED",
+  "generated_at": "2026-09-16T12:42:00+05:30",
+  "source_packet": {
+    "packet_version": "1.0",
+    "private_path": "data/private/mahaperiyava_dk_v1_batch_106_125_review_packet.json",
+    "sha256": "30f53a83b5b317096fc43df67f5b3ebc5467720ab35892f7ccfc5d5a57156cb2",
+    "generated_at": "2026-09-15T18:29:49+00:00",
+    "chapter_count": 20,
+    "paragraph_count": 262,
+    "contains_restricted_source_text": true,
+    "tracked": false
+  },
+  "policy": {
+    "no_exact_source_text_in_tracked_artifacts": true,
+    "claim_summaries_are_not_quotes": true,
+    "all_batch_authority_is_dk_attested": true,
+    "historical_witness_comparison_deferred": true,
+    "no_print_check_claimed": true,
+    "no_primary_source_verified_claimed": true,
+    "source_paragraph_accounting_policy": "at_least_once_or_explicitly_excluded",
+    "replacement_decoded_source_units_are_flagged": true,
+    "source_title_anomalies_preserved_pending_qc": true,
+    "sensitive_external_fact_claims_are_flagged": true,
+    "social_and_religious_generalizations_are_attributed_only": true,
+    "caste_varna_material_requires_contextual_answering": true,
+    "political_material_requires_source_attribution": true,
+    "violence_punishment_and_sacrifice_material_requires_context": true,
+    "human_publication_review_still_required": true
+  },
+  "source_anomalies": [],
+  "unit_count": 123,
+  "authority_counts": {
+    "dk_attested": 123
+  },
+  "chapter_unit_counts": {
+    "106": 3,
+    "107": 4,
+    "108": 7,
+    "109": 6,
+    "110": 5,
+    "111": 3,
+    "112": 4,
+    "113": 6,
+    "114": 10,
+    "115": 8,
+    "116": 12,
+    "117": 5,
+    "118": 4,
+    "119": 6,
+    "120": 6,
+    "121": 14,
+    "122": 4,
+    "123": 7,
+    "124": 4,
+    "125": 5
+  },
+  "flag_counts": {
+    "traditional_soteriological_claim": 44,
+    "traditional_scriptural_claim": 37,
+    "traditional_normative_claim": 33,
+    "psychological_generalization": 18,
+    "scientific_analogy_not_literal": 4,
+    "causal_claim_attributed_only": 7,
+    "scientific_comparison_requires_external_verification": 1,
+    "religious_comparison_attributed_only": 16,
+    "historical_claim_requires_external_verification": 29,
+    "traditional_yogic_claim": 1,
+    "hagiographic_tradition": 30,
+    "literary_interpretation": 24,
+    "traditional_ritual_claim": 11,
+    "religious_generalization_attributed_only": 5,
+    "linguistic_etymology_claim_requires_external_verification": 12,
+    "social_generalization": 4,
+    "context_sensitive_social_teaching": 1,
+    "scientific_claim_requires_external_verification": 3,
+    "quantitative_historical_claim_requires_verification": 1,
+    "political_historical_claim": 1,
+    "political_normative_claim": 1,
+    "cultural_generalization": 2,
+    "comparative_doctrinal_simplification": 1,
+    "context_sensitive": 1
+  },
+  "source_coverage": {
+    "paragraph_count": 262,
+    "covered_paragraph_count": 261,
+    "coverage_mode": "at_least_once_or_explicitly_excluded",
+    "excluded_source_blocks": 1
+  },
+  "units": [
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.namaskaram.namaskara_as_surrender_leading_to_liberation",
+      "chapter_ordinal": 106,
+      "chapter_slug": "namaskaram",
+      "unit_slug": "namaskara_as_surrender_leading_to_liberation",
+      "claim_summary": "A traditional verse is used to teach that wholehearted prostration to Isvara expresses surrender and is presented as a means by which sin and repeated birth are overcome.",
+      "question_intents": [
+        "What does Mahaperiyava teach about namaskara as surrender leading to liberation?",
+        "How does Deivathin Kural explain namaskara as surrender leading to liberation?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "5719dbcec315e3d540ab375ec3b38d84bea702d2f63ce6b55e37ed1212cc478e",
+        "6cecd9151b2cba68ee950ce53dc5acef62b7be1317bc6ab33d94ca75acb0fd98",
+        "18cc30471cb36eb1827d434bd341a39dbe1abd02f0e4ad811c923c5d11b7e936"
+      ],
+      "topics": [
+        "namaskara",
+        "surrender",
+        "moksha"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.namaskaram.dandavat_prostration_symbolizes_abandoning_ego",
+      "chapter_ordinal": 106,
+      "chapter_slug": "namaskaram",
+      "unit_slug": "dandavat_prostration_symbolizes_abandoning_ego",
+      "claim_summary": "Falling like a staff in prostration is explained as a bodily symbol of giving up the claim that the body and its power belong to oneself, thereby relinquishing ego before Isvara.",
+      "question_intents": [
+        "What does Mahaperiyava teach about dandavat prostration symbolizes abandoning ego?",
+        "How does Deivathin Kural explain dandavat prostration symbolizes abandoning ego?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "397214cb6cbcf9ac254ed8e4e6dd488293287c37aa9f192f542ed11198c2acfc"
+      ],
+      "topics": [
+        "namaskara",
+        "ego",
+        "body",
+        "surrender"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.namaskaram.complete_responsibility_is_placed_with_isvara",
+      "chapter_ordinal": 106,
+      "chapter_slug": "namaskaram",
+      "unit_slug": "complete_responsibility_is_placed_with_isvara",
+      "claim_summary": "True namaskara is presented as entrusting one's whole burden—good and bad—to Isvara without keeping a residual sense of personal control.",
+      "question_intents": [
+        "What does Mahaperiyava teach about complete responsibility is placed with isvara?",
+        "How does Deivathin Kural explain complete responsibility is placed with isvara?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "06a8323b6d60bc7757dbd8539b2093a06e7336181b6b84ab575b88384b0ec156"
+      ],
+      "topics": [
+        "surrender",
+        "isvara",
+        "responsibility"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhakti.brahman_and_isvara_as_one_reality_in_two_standpoints",
+      "chapter_ordinal": 107,
+      "chapter_slug": "bhakti",
+      "unit_slug": "brahman_and_isvara_as_one_reality_in_two_standpoints",
+      "claim_summary": "The chapter distinguishes actionless nirguna Brahman from the same reality appearing through maya as saguna Isvara who governs cosmic activity, while holding the two to be ultimately one.",
+      "question_intents": [
+        "What does Mahaperiyava teach about brahman and isvara as one reality in two standpoints?",
+        "How does Deivathin Kural explain brahman and isvara as one reality in two standpoints?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "71cf4aedf59777e655719ad803e77c55f75befcdb0f02b6ab9d2137ef10da6da",
+        "1b6b10074a36e77de0fcde7d901ad372f9e336b5c1cd15fe3c2d9115458e2ad9"
+      ],
+      "topics": [
+        "brahman",
+        "isvara",
+        "maya",
+        "advaita"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhakti.bhakti_redirects_body_speech_and_mind_to_isvara",
+      "chapter_ordinal": 107,
+      "chapter_slug": "bhakti",
+      "unit_slug": "bhakti_redirects_body_speech_and_mind_to_isvara",
+      "claim_summary": "Because the mind cannot simply stop its activity, bhakti is prescribed as redirecting bodily action, speech and thought toward Isvara through worship, praise and meditation until the mind becomes fit for Brahman-knowledge.",
+      "question_intents": [
+        "What does Mahaperiyava teach about bhakti redirects body speech and mind to isvara?",
+        "How does Deivathin Kural explain bhakti redirects body speech and mind to isvara?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "6c611b32661da153fd9707d57ba2e386c1ce1303e1cbab0e91f5add4306591c5",
+        "10f9484eb46b362ba23a9719245b0ac630e989ba21cf2d3a2fe6b7e49ea3b13c"
+      ],
+      "topics": [
+        "bhakti",
+        "mind",
+        "worship",
+        "meditation"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhakti.saguna_contemplation_uses_divine_qualities_to_train_the_mind",
+      "chapter_ordinal": 107,
+      "chapter_slug": "bhakti",
+      "unit_slug": "saguna_contemplation_uses_divine_qualities_to_train_the_mind",
+      "claim_summary": "At the ordinary stage of practice, the practitioner is told to contemplate Isvara as the embodiment of auspicious qualities rather than attempt an ungraspable nirguna abstraction, with a prism analogy used for the emergence of qualities from the attributeless.",
+      "question_intents": [
+        "What does Mahaperiyava teach about saguna contemplation uses divine qualities to train the mind?",
+        "How does Deivathin Kural explain saguna contemplation uses divine qualities to train the mind?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "9789c3d57e9390a0575d48e49db1056290afad3370eb867c63f66d92bacdad39",
+        "ad6f1aa549f9d7ee3af593333113cda9d6d619df03463c20904c21e92f9f5389"
+      ],
+      "topics": [
+        "saguna",
+        "nirguna",
+        "isvara",
+        "contemplation"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "scientific_analogy_not_literal"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhakti.repeated_divine_contemplation_is_said_to_purify_character",
+      "chapter_ordinal": 107,
+      "chapter_slug": "bhakti",
+      "unit_slug": "repeated_divine_contemplation_is_said_to_purify_character",
+      "claim_summary": "Repeated loving contemplation of the divine is said to shape the mind toward love, weaken sinful tendencies and purify it in preparation for the cessation of mental activity and realization of the Self.",
+      "question_intents": [
+        "What does Mahaperiyava teach about repeated divine contemplation is said to purify character?",
+        "How does Deivathin Kural explain repeated divine contemplation is said to purify character?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "7fdb9998cb0c4979a22d0713eb17566456da6ca19e8fbc01959a3ebba8b34d21"
+      ],
+      "topics": [
+        "bhakti",
+        "purification",
+        "character",
+        "self_realization"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "causal_claim_attributed_only",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.karma_and_phaladata",
+      "chapter_ordinal": 108,
+      "chapter_slug": "bhakti_seyvathu_etharkaga",
+      "unit_slug": "karma_and_phaladata",
+      "claim_summary": "Moral action is presented within a cause-and-effect order in which Isvara is the giver of karmic fruits.",
+      "question_intents": [
+        "What does Mahaperiyava teach about karma and phaladata?",
+        "How does Deivathin Kural explain karma and phaladata?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "53eac68d3bd06e1ae6f148afde6417d940493611dca1825482029c0319cbf190"
+      ],
+      "topics": [
+        "karma",
+        "phaladata",
+        "isvara"
+      ],
+      "flags": [
+        "scientific_comparison_requires_external_verification",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "witness_role": "earlier_secondary",
+        "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-1.pdf",
+        "locus": "ஈசுவர பக்தி ஏன் செய்யவேண்டும்?, printed p. 117 ff.; PDF pp. 132-135",
+        "snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+        "basis": "Existing pilot claim-level historical support for the same stable teaching ID and the same p001 teaching. This is earlier-secondary agreement only; it does not establish verbatim primary wording or textual dependence.",
+        "wording_agreement": "earlier_witness_agrees"
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.prayer_for_relief_and_acceptance",
+      "chapter_ordinal": 108,
+      "chapter_slug": "bhakti_seyvathu_etharkaga",
+      "unit_slug": "prayer_for_relief_and_acceptance",
+      "claim_summary": "Prayer for removal of suffering is treated as understandable, but a higher disposition is to seek the capacity to accept karmic difficulty without being inwardly overwhelmed by it.",
+      "question_intents": [
+        "What does Mahaperiyava teach about prayer for relief and acceptance?",
+        "How does Deivathin Kural explain prayer for relief and acceptance?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "487435a5ea8572145adf6c357e318e8ed454c0486f0069d23e22f35f2b34cab2"
+      ],
+      "topics": [
+        "prayer",
+        "suffering",
+        "karma"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.ordinary_prayer_has_partial_value",
+      "chapter_ordinal": 108,
+      "chapter_slug": "bhakti_seyvathu_etharkaga",
+      "unit_slug": "ordinary_prayer_has_partial_value",
+      "claim_summary": "Petitionary prayer is not presented as the highest bhakti, yet it is said to lighten mental burden and weaken the egoistic belief that one can accomplish everything alone.",
+      "question_intents": [
+        "What does Mahaperiyava teach about ordinary prayer has partial value?",
+        "How does Deivathin Kural explain ordinary prayer has partial value?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "47e8fa4bacb03bbdc9340d7cb752f492f4f5d7edfe23ffc058852a5892f868de"
+      ],
+      "topics": [
+        "prayer",
+        "bhakti",
+        "ego"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.surrender_as_deeper_bhakti",
+      "chapter_ordinal": 108,
+      "chapter_slug": "bhakti_seyvathu_etharkaga",
+      "unit_slug": "surrender_as_deeper_bhakti",
+      "claim_summary": "Deeper bhakti is described as surrendering the claim of personal ownership and accepting the divine will, which is presented as bringing inner quiet and purification.",
+      "question_intents": [
+        "What does Mahaperiyava teach about surrender as deeper bhakti?",
+        "How does Deivathin Kural explain surrender as deeper bhakti?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "4cf94469a21a5663988e9dd0fec80b7c73247e681d89c4575ba4f3dba222b646"
+      ],
+      "topics": [
+        "surrender",
+        "bhakti",
+        "purification"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.love_of_god_as_enduring_love",
+      "chapter_ordinal": 108,
+      "chapter_slug": "bhakti_seyvathu_etharkaga",
+      "unit_slug": "love_of_god_as_enduring_love",
+      "claim_summary": "Love is treated as a source of deep joy, while worldly relationships are impermanent; love directed to the enduring divine is therefore presented as a source of lasting joy.",
+      "question_intents": [
+        "What does Mahaperiyava teach about love of god as enduring love?",
+        "How does Deivathin Kural explain love of god as enduring love?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "1f2fa866a76f79aae5e05e093146fb9abd6c792f3540d5db5a99b0a00e515137"
+      ],
+      "topics": [
+        "divine_love",
+        "bhakti",
+        "impermanence"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.mature_love_becomes_universal_love",
+      "chapter_ordinal": 108,
+      "chapter_slug": "bhakti_seyvathu_etharkaga",
+      "unit_slug": "mature_love_becomes_universal_love",
+      "claim_summary": "As devotion matures, everything is seen as belonging to or being the divine, reducing partiality and extending love toward all.",
+      "question_intents": [
+        "What does Mahaperiyava teach about mature love becomes universal love?",
+        "How does Deivathin Kural explain mature love becomes universal love?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "1f2fa866a76f79aae5e05e093146fb9abd6c792f3540d5db5a99b0a00e515137"
+      ],
+      "topics": [
+        "universal_love",
+        "bhakti",
+        "oneness"
+      ],
+      "flags": [
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.bhakti_culminates_in_grace_and_moksha",
+      "chapter_ordinal": 108,
+      "chapter_slug": "bhakti_seyvathu_etharkaga",
+      "unit_slug": "bhakti_culminates_in_grace_and_moksha",
+      "claim_summary": "Bhakti is described as progressively purifying and steadying the mind and, through grace, culminating in freedom from karmic bondage and non-dual realization; the chapter then points toward devotion that no longer seeks any result.",
+      "question_intents": [
+        "What does Mahaperiyava teach about bhakti culminates in grace and moksha?",
+        "How does Deivathin Kural explain bhakti culminates in grace and moksha?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "63b5c8a5c2fde070c73d5c3c44a5bc1ca9804be78df216a87cee936afa4df59b",
+        "4c8aa524c14c762ad3519a42bc0ccf606efc502ae9a9198e8f16f41eb9816795"
+      ],
+      "topics": [
+        "bhakti",
+        "grace",
+        "moksha",
+        "advaita"
+      ],
+      "flags": [
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karanamillatha_bhakti.jnana_as_direct_means_to_advaita_moksha",
+      "chapter_ordinal": 109,
+      "chapter_slug": "karanamillatha_bhakti",
+      "unit_slug": "jnana_as_direct_means_to_advaita_moksha",
+      "claim_summary": "The chapter states the Advaita position that knowledge is the direct means to liberation, while devotion and Isvara-upasana prepare the mind for that realization.",
+      "question_intents": [
+        "What does Mahaperiyava teach about jnana as direct means to advaita moksha?",
+        "How does Deivathin Kural explain jnana as direct means to advaita moksha?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "009c398530d8d2e57a6d6d648d898231dc3b1e5a5ce08bf0c81f4c63c6daa192"
+      ],
+      "topics": [
+        "jnana",
+        "moksha",
+        "advaita",
+        "bhakti"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "religious_comparison_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karanamillatha_bhakti.devotional_heavens_are_distinguished_from_advaita_moksha",
+      "chapter_ordinal": 109,
+      "chapter_slug": "karanamillatha_bhakti",
+      "unit_slug": "devotional_heavens_are_distinguished_from_advaita_moksha",
+      "claim_summary": "Attaining a deity's realm through devotion is distinguished from Advaita moksha, in which the distinction between devotee and deity and the activity of mind are said to disappear.",
+      "question_intents": [
+        "What does Mahaperiyava teach about devotional heavens are distinguished from advaita moksha?",
+        "How does Deivathin Kural explain devotional heavens are distinguished from advaita moksha?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "8b1415efd9263ece2f28829953b39556c4fecd9dfeb85c631ea550d352d106bd"
+      ],
+      "topics": [
+        "moksha",
+        "deva_loka",
+        "advaita",
+        "bhakti"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "religious_comparison_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karanamillatha_bhakti.shankara_devotion_exemplifies_bhakti_with_advaita",
+      "chapter_ordinal": 109,
+      "chapter_slug": "karanamillatha_bhakti",
+      "unit_slug": "shankara_devotion_exemplifies_bhakti_with_advaita",
+      "claim_summary": "Shankara's hymns, pilgrimage and institutional worship are cited to show that devotional practice can coexist with the Advaita teaching that knowledge alone directly liberates.",
+      "question_intents": [
+        "What does Mahaperiyava teach about shankara devotion exemplifies bhakti with advaita?",
+        "How does Deivathin Kural explain shankara devotion exemplifies bhakti with advaita?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "53f18e5a40a13f146bdea3dcd90896e91c21c3a1a199c2d95ac7d29eac7dae7c"
+      ],
+      "topics": [
+        "shankara",
+        "bhakti",
+        "advaita"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karanamillatha_bhakti.bhakti_concentrates_the_mind_for_self_knowledge",
+      "chapter_ordinal": 109,
+      "chapter_slug": "karanamillatha_bhakti",
+      "unit_slug": "bhakti_concentrates_the_mind_for_self_knowledge",
+      "claim_summary": "Devotion is presented as gathering a mind scattered among worldly objects into continuous one-pointed remembrance of Isvara, thereby making it fit for Self-knowledge.",
+      "question_intents": [
+        "What does Mahaperiyava teach about bhakti concentrates the mind for self knowledge?",
+        "How does Deivathin Kural explain bhakti concentrates the mind for self knowledge?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "cd12a09c8671828f8bbcd5e37856b13b931668b205b70d4bc51486ba878d742f"
+      ],
+      "topics": [
+        "bhakti",
+        "concentration",
+        "mind",
+        "self_knowledge"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "traditional_yogic_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karanamillatha_bhakti.jivanmukti_is_realization_while_alive",
+      "chapter_ordinal": 109,
+      "chapter_slug": "karanamillatha_bhakti",
+      "unit_slug": "jivanmukti_is_realization_while_alive",
+      "claim_summary": "Liberation is described not as travel to another place after death but as realization of the ever-present Self while living; one who has realized this is called a jivanmukta.",
+      "question_intents": [
+        "What does Mahaperiyava teach about jivanmukti is realization while alive?",
+        "How does Deivathin Kural explain jivanmukti is realization while alive?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "4f18a43b30250c3fe2babaadb76c296aa72f2ffa1f5bb7a6130dd688aa5e63e4"
+      ],
+      "topics": [
+        "jivanmukti",
+        "self_realization",
+        "moksha"
+      ],
+      "flags": [
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karanamillatha_bhakti.causeless_devotion_of_the_liberated",
+      "chapter_ordinal": 109,
+      "chapter_slug": "karanamillatha_bhakti",
+      "unit_slug": "causeless_devotion_of_the_liberated",
+      "claim_summary": "Some realized sages are described as continuing to love a chosen divine form without seeking any benefit, enjoying divine lila through devotion that is causeless and non-transactional.",
+      "question_intents": [
+        "What does Mahaperiyava teach about causeless devotion of the liberated?",
+        "How does Deivathin Kural explain causeless devotion of the liberated?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "e44a9908eb8d9ccd1da92841b93353cca3c5da025c1e9fe4cb071bd6d0d930d8"
+      ],
+      "topics": [
+        "jivanmukta",
+        "causeless_bhakti",
+        "ishta_devata"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mukthikku_munthaiya_nilaiyil_bhakti.approaching_moksha_can_make_the_devotee_reluctant_to_lose_bhakti",
+      "chapter_ordinal": 110,
+      "chapter_slug": "mukthikku_munthaiya_nilaiyil_bhakti",
+      "unit_slug": "approaching_moksha_can_make_the_devotee_reluctant_to_lose_bhakti",
+      "claim_summary": "Using the analogy of a father giving away a beloved daughter in marriage, the chapter portrays a mature devotee as simultaneously nearing moksha and grieving the impending disappearance of the devotional relationship itself.",
+      "question_intents": [
+        "What does Mahaperiyava teach about approaching moksha can make the devotee reluctant to lose bhakti?",
+        "How does Deivathin Kural explain approaching moksha can make the devotee reluctant to lose bhakti?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "4b06ae9cfae0544a717c694372d9d01f9e84fd3193a502984284e6e54a228b22",
+        "1c5f6ac9611c91b658a5ff0e61b26bde96ee8d032660164f48987783e2487ffa"
+      ],
+      "topics": [
+        "bhakti",
+        "moksha",
+        "devotee_deity_relation"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mukthikku_munthaiya_nilaiyil_bhakti.devotional_poetry_laments_leaving_the_means_of_bhakti",
+      "chapter_ordinal": 110,
+      "chapter_slug": "mukthikku_munthaiya_nilaiyil_bhakti",
+      "unit_slug": "devotional_poetry_laments_leaving_the_means_of_bhakti",
+      "claim_summary": "A devotional verse is interpreted as bidding farewell to sacred ash, rudraksha and the stages of bhakti when moksha approaches, expressing love for devotional experience even at the threshold of non-dual liberation.",
+      "question_intents": [
+        "What does Mahaperiyava teach about devotional poetry laments leaving the means of bhakti?",
+        "How does Deivathin Kural explain devotional poetry laments leaving the means of bhakti?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "dc7d2bcf4477a2ff2bf37a9ca484c9199f7199e42804adf5663c4bcd1cca1a09",
+        "c60475f828b6f1527fc1894aeb00955021a099b4a3861d16b48f9cd8ded597ca",
+        "71a227d2841845c32398b46de5ca43efca2f04d1bab9ed256c2e1064adbb01a5"
+      ],
+      "topics": [
+        "bhakti",
+        "moksha",
+        "vibhuti",
+        "rudraksha"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "literary_interpretation",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mukthikku_munthaiya_nilaiyil_bhakti.intense_bhakti_is_described_as_making_ritual_karma_fall_away",
+      "chapter_ordinal": 110,
+      "chapter_slug": "mukthikku_munthaiya_nilaiyil_bhakti",
+      "unit_slug": "intense_bhakti_is_described_as_making_ritual_karma_fall_away",
+      "claim_summary": "A verse from Krishna Karnamrita is used to illustrate the traditional idea that when devotion becomes overwhelming, formal ritual duties may fall away of themselves rather than through deliberate rejection.",
+      "question_intents": [
+        "What does Mahaperiyava teach about intense bhakti is described as making ritual karma fall away?",
+        "How does Deivathin Kural explain intense bhakti is described as making ritual karma fall away?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "944e8ab709ce74a9ccd5505e48298947215fc04502cd4c30f10e0d52a1a1ea13"
+      ],
+      "topics": [
+        "bhakti",
+        "karma",
+        "krishna_karnamrita"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mukthikku_munthaiya_nilaiyil_bhakti.karma_bhakti_and_jnana_as_successive_stages",
+      "chapter_ordinal": 110,
+      "chapter_slug": "mukthikku_munthaiya_nilaiyil_bhakti",
+      "unit_slug": "karma_bhakti_and_jnana_as_successive_stages",
+      "claim_summary": "Practice is organized as a progression: prescribed karma reduces attachment and purifies the mind, bhakti concentrates it on Isvara, and mature bhakti culminates in knowledge.",
+      "question_intents": [
+        "What does Mahaperiyava teach about karma bhakti and jnana as successive stages?",
+        "How does Deivathin Kural explain karma bhakti and jnana as successive stages?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "a85e3b46eb8b1f81643306241f743fbd8e6ddb0a5059bd9ec26643b4c9148f8c"
+      ],
+      "topics": [
+        "karma",
+        "bhakti",
+        "jnana",
+        "sadhana"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.mukthikku_munthaiya_nilaiyil_bhakti.do_not_abandon_practice_prematurely",
+      "chapter_ordinal": 110,
+      "chapter_slug": "mukthikku_munthaiya_nilaiyil_bhakti",
+      "unit_slug": "do_not_abandon_practice_prematurely",
+      "claim_summary": "Karma and bhakti are not to be discarded by personal decision; they are said to drop away naturally when fulfilled, so one may seek devotion itself and allow it to lead toward liberation.",
+      "question_intents": [
+        "What does Mahaperiyava teach about do not abandon practice prematurely?",
+        "How does Deivathin Kural explain do not abandon practice prematurely?"
+      ],
+      "source_paragraph_ids": [
+        "p008",
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "cde2a5f22d799e14a581b2ab8cefd6cc6366a01094acc6ce954e8dc78ae4d400",
+        "838c4a4d07dac6017424274a189582346dffca76b35c4a8cee6006edbb884c35"
+      ],
+      "topics": [
+        "karma",
+        "bhakti",
+        "moksha",
+        "maturity"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ennaiye_enakku_kodu.the_highest_offering_is_the_self",
+      "chapter_ordinal": 111,
+      "chapter_slug": "ennaiye_enakku_kodu",
+      "unit_slug": "the_highest_offering_is_the_self",
+      "claim_summary": "A devotional reflection asks what can truly be offered to the all-pervading Lord and answers that the meaningful offering is one's own blissful Self.",
+      "question_intents": [
+        "What does Mahaperiyava teach about the highest offering is the self?",
+        "How does Deivathin Kural explain the highest offering is the self?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "7d08ea6702ac720e7ec71600cdfa04463f02db72949efa384f622bedba004412",
+        "07ef31fda1deaafb2a59528f7b6278c76760dde407e789252c182a91e5acbb22"
+      ],
+      "topics": [
+        "offering",
+        "self",
+        "isvara",
+        "puja"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ennaiye_enakku_kodu.longing_to_recover_ones_true_self_is_called_bhakti",
+      "chapter_ordinal": 111,
+      "chapter_slug": "ennaiye_enakku_kodu",
+      "unit_slug": "longing_to_recover_ones_true_self_is_called_bhakti",
+      "claim_summary": "Human beings are described as estranged from their true blissful Self; intense longing to merge in Paramatman and recover that identity is identified with true divine love or bhakti.",
+      "question_intents": [
+        "What does Mahaperiyava teach about longing to recover ones true self is called bhakti?",
+        "How does Deivathin Kural explain longing to recover ones true self is called bhakti?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "863e482ef673b174718a73f149d9fae138021c2663edd4704189d53faf574ae9"
+      ],
+      "topics": [
+        "bhakti",
+        "self",
+        "paramatma",
+        "longing"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ennaiye_enakku_kodu.external_worship_is_a_first_step_toward_all_pervading_divinity",
+      "chapter_ordinal": 111,
+      "chapter_slug": "ennaiye_enakku_kodu",
+      "unit_slug": "external_worship_is_a_first_step_toward_all_pervading_divinity",
+      "claim_summary": "Temple worship and external puja are defended as necessary initial disciplines for minds absorbed in worldly concerns, providing a concrete place to begin remembering the divine before realizing its all-pervading nature.",
+      "question_intents": [
+        "What does Mahaperiyava teach about external worship is a first step toward all pervading divinity?",
+        "How does Deivathin Kural explain external worship is a first step toward all pervading divinity?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "71957755d92e16877f2a3e7f0502610c964cbb9196255bc0bc3a1307fe81cf42"
+      ],
+      "topics": [
+        "temple_worship",
+        "puja",
+        "sadhana",
+        "divine_presence"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhagavatpadar_tharum_bhakti_lakshanam.advaita_jnanis_can_relish_personal_devotion",
+      "chapter_ordinal": 112,
+      "chapter_slug": "bhagavatpadar_tharum_bhakti_lakshanam",
+      "unit_slug": "advaita_jnanis_can_relish_personal_devotion",
+      "claim_summary": "Advaita sages are presented as seeing no contradiction between non-dual knowledge and loving devotion to a personal deity, since the saguna Lord and nirguna Brahman are treated as one reality.",
+      "question_intents": [
+        "What does Mahaperiyava teach about advaita jnanis can relish personal devotion?",
+        "How does Deivathin Kural explain advaita jnanis can relish personal devotion?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "320d62deb094a0c20e9f6e5cf047ebf443352c5b896220e907a4bd8813643613",
+        "37e750e4fe45bae41e4344d43e9c19e90ed0d4aba1f522cfa1e4b3edabb97c89"
+      ],
+      "topics": [
+        "advaita",
+        "bhakti",
+        "jnani",
+        "saguna_nirguna"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhagavatpadar_tharum_bhakti_lakshanam.five_images_define_bhakti_as_total_attraction_to_the_divine",
+      "chapter_ordinal": 112,
+      "chapter_slug": "bhagavatpadar_tharum_bhakti_lakshanam",
+      "unit_slug": "five_images_define_bhakti_as_total_attraction_to_the_divine",
+      "claim_summary": "Shivananda Lahari's five images—seed and tree, needle and magnet, devoted spouse, creeper and tree, river and ocean—are used to define bhakti as a mind continuously drawn toward and finally absorbed in the divine.",
+      "question_intents": [
+        "What does Mahaperiyava teach about five images define bhakti as total attraction to the divine?",
+        "How does Deivathin Kural explain five images define bhakti as total attraction to the divine?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "f27b20ddc518b8c8dcf6e2a2027fb82754996a2b2a0da10b655873ab05df92bd",
+        "b625de793fdc8131f46f3d5a6f604f72b6fb973e9ac30da4857c2ed7ebc73f75"
+      ],
+      "topics": [
+        "bhakti",
+        "shivananda_lahari",
+        "absorption",
+        "metaphor"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "literary_interpretation",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhagavatpadar_tharum_bhakti_lakshanam.transactional_devotion_can_mature_into_love_for_its_own_sake",
+      "chapter_ordinal": 112,
+      "chapter_slug": "bhagavatpadar_tharum_bhakti_lakshanam",
+      "unit_slug": "transactional_devotion_can_mature_into_love_for_its_own_sake",
+      "claim_summary": "Devotion may begin with requests for worldly benefits, but sustained contact with divine qualities is said to mature into love of God for God's own sake and finally into non-dual absorption.",
+      "question_intents": [
+        "What does Mahaperiyava teach about transactional devotion can mature into love for its own sake?",
+        "How does Deivathin Kural explain transactional devotion can mature into love for its own sake?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "87d34bdc75e2ba109ece1ffa7547970b3e7c71597b27843b616ebf774b7f2515"
+      ],
+      "topics": [
+        "bhakti",
+        "desire",
+        "maturity",
+        "advaita"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhagavatpadar_tharum_bhakti_lakshanam.bhakti_as_supreme_moksha_means_and_self_inquiry",
+      "chapter_ordinal": 112,
+      "chapter_slug": "bhagavatpadar_tharum_bhakti_lakshanam",
+      "unit_slug": "bhakti_as_supreme_moksha_means_and_self_inquiry",
+      "claim_summary": "Shankara is cited as calling bhakti the foremost means among the disciplines for moksha and as also defining it as inquiry or sustained attention into one's own true nature.",
+      "question_intents": [
+        "What does Mahaperiyava teach about bhakti as supreme moksha means and self inquiry?",
+        "How does Deivathin Kural explain bhakti as supreme moksha means and self inquiry?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "77cd6304e817a9aa894deb2d8954e31337b7ca23a3893121d9a378519b590ede",
+        "7ad406b955b9757becaeb4ab558a2702f3847e21cbc7c4e513e708221cb2939f",
+        "d841c8f879b679c6251aa666f2f938105b21379dcc660f495f18df1863bda725"
+      ],
+      "topics": [
+        "bhakti",
+        "moksha",
+        "self_inquiry",
+        "shankara"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ishta_devathai.many_deity_forms_serve_different_temperaments_but_point_to_one_reality",
+      "chapter_ordinal": 113,
+      "chapter_slug": "ishta_devathai",
+      "unit_slug": "many_deity_forms_serve_different_temperaments_but_point_to_one_reality",
+      "claim_summary": "The plurality of Hindu deity forms is explained as a compassionate accommodation to varied human temperaments while affirming that the divine reality itself is one.",
+      "question_intents": [
+        "What does Mahaperiyava teach about many deity forms serve different temperaments but point to one reality?",
+        "How does Deivathin Kural explain many deity forms serve different temperaments but point to one reality?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "dcfc633bd2ce49cfd79fd6a76f2ccd3823f086fc6230648c3bb999d76338f760",
+        "6747115955df0cdecde00d9e6f7cc8f4bc33315c894ff9a7aa2915be9546875c"
+      ],
+      "topics": [
+        "ishta_devata",
+        "deity_forms",
+        "religious_pluralism"
+      ],
+      "flags": [
+        "religious_generalization_attributed_only",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ishta_devathai.mantra_and_upasana_are_paths_through_particular_deity_forms",
+      "chapter_ordinal": 113,
+      "chapter_slug": "ishta_devathai",
+      "unit_slug": "mantra_and_upasana_are_paths_through_particular_deity_forms",
+      "claim_summary": "Traditional mantras and modes of worship associated with particular divine forms are presented as valid paths of grace because every such form is ultimately Paramatman.",
+      "question_intents": [
+        "What does Mahaperiyava teach about mantra and upasana are paths through particular deity forms?",
+        "How does Deivathin Kural explain mantra and upasana are paths through particular deity forms?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "f92ceaeceecdb6855781fe0378b061b6182c1eb70b8b48db27b16bd7e4609981"
+      ],
+      "topics": [
+        "mantra",
+        "upasana",
+        "deity_forms",
+        "grace"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ishta_devathai.ishta_devata_matches_devotion_to_personal_temperament",
+      "chapter_ordinal": 113,
+      "chapter_slug": "ishta_devathai",
+      "unit_slug": "ishta_devata_matches_devotion_to_personal_temperament",
+      "claim_summary": "Ishta-devata worship is presented as allowing a devotee to approach the one divine reality through a form suited to personal temperament, making abstract divinity into a living focus of love.",
+      "question_intents": [
+        "What does Mahaperiyava teach about ishta devata matches devotion to personal temperament?",
+        "How does Deivathin Kural explain ishta devata matches devotion to personal temperament?"
+      ],
+      "source_paragraph_ids": [
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "6e103d7ae111385f29b484454914d36159cb44229f223201cb17cbba919c454a",
+        "d3dfaa758e0347e6d4a4cf07f8b749e2d4f85372cd5028d29ee17b11df954d2d"
+      ],
+      "topics": [
+        "ishta_devata",
+        "temperament",
+        "bhakti"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ishta_devathai.devotion_to_one_form_should_not_demean_other_forms",
+      "chapter_ordinal": 113,
+      "chapter_slug": "ishta_devathai",
+      "unit_slug": "devotion_to_one_form_should_not_demean_other_forms",
+      "claim_summary": "A devotee is instructed not to disparage other people's chosen deities; sectarian praise that elevates one deity above others is interpreted through nahi-ninda as a device for concentrating devotion rather than literal denigration.",
+      "question_intents": [
+        "What does Mahaperiyava teach about devotion to one form should not demean other forms?",
+        "How does Deivathin Kural explain devotion to one form should not demean other forms?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "97310ac46ac15707e220372a9db69e1a9ee8e46479f94b7022eda6233033d171"
+      ],
+      "topics": [
+        "ishta_devata",
+        "sectarianism",
+        "nahi_ninda",
+        "religious_pluralism"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "religious_comparison_attributed_only",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ishta_devathai.one_divine_reality_is_described_through_multiple_cosmic_functions",
+      "chapter_ordinal": 113,
+      "chapter_slug": "ishta_devathai",
+      "unit_slug": "one_divine_reality_is_described_through_multiple_cosmic_functions",
+      "claim_summary": "Poets and devotional traditions are cited for the idea that one reality appears as many deities and as Brahma, Vishnu and Rudra in relation to creation, preservation and dissolution.",
+      "question_intents": [
+        "What does Mahaperiyava teach about one divine reality is described through multiple cosmic functions?",
+        "How does Deivathin Kural explain one divine reality is described through multiple cosmic functions?"
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "7002745af97847818d0ceccf87354cce9081f14999a2bd0d20f2fc9b2cae4b12",
+        "297eaaad60c0bd1ef157caf040d982c262d0d1886f65a72b562bf6fdde57ff41"
+      ],
+      "topics": [
+        "trimurti",
+        "one_reality",
+        "deity_forms"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ishta_devathai.shiva_and_vishnu_are_presented_as_one_to_counter_sectarian_quarrel",
+      "chapter_ordinal": 113,
+      "chapter_slug": "ishta_devathai",
+      "unit_slug": "shiva_and_vishnu_are_presented_as_one_to_counter_sectarian_quarrel",
+      "claim_summary": "The chapter rejects quarrels over the superiority of Shiva or Vishnu and presents reflection on their essential unity as the corrective.",
+      "question_intents": [
+        "What does Mahaperiyava teach about shiva and vishnu are presented as one to counter sectarian quarrel?",
+        "How does Deivathin Kural explain shiva and vishnu are presented as one to counter sectarian quarrel?"
+      ],
+      "source_paragraph_ids": [
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "9905d5dd501c20ff11fcb30edeb1c47770e5ba85a58338e7581c07d0d0ce4ce0"
+      ],
+      "topics": [
+        "shiva",
+        "vishnu",
+        "abheda",
+        "sectarianism"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "religious_comparison_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sambu_sankaranar.yoga_is_union_and_is_said_to_have_been_restored_by_krishna",
+      "chapter_ordinal": 114,
+      "chapter_slug": "sambu_sankaranar",
+      "unit_slug": "yoga_is_union_and_is_said_to_have_been_restored_by_krishna",
+      "claim_summary": "Yoga is defined as the culmination of selfless action, purification, devotion and one-pointedness in non-dual union, and the Gita is read as Krishna's restoration of an ancient path that had declined.",
+      "question_intents": [
+        "What does Mahaperiyava teach about yoga is union and is said to have been restored by krishna?",
+        "How does Deivathin Kural explain yoga is union and is said to have been restored by krishna?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "4152ef54615a3fde677c9cac8394aa8cb50a852806fa711e1f45dcfb6a301fbf",
+        "65ebc398c1ee7cb67537e6879ab1d0c5f2d6415e043ec9828b133494baa24572"
+      ],
+      "topics": [
+        "yoga",
+        "krishna",
+        "gita",
+        "advaita"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sambu_sankaranar.krishna_and_shiva_are_presented_as_non_different_jagadgurus",
+      "chapter_ordinal": 114,
+      "chapter_slug": "sambu_sankaranar",
+      "unit_slug": "krishna_and_shiva_are_presented_as_non_different_jagadgurus",
+      "claim_summary": "Krishna's cosmic form and role as Jagadguru are used to present Krishna and Parameshvara as non-different manifestations of the same divine reality.",
+      "question_intents": [
+        "What does Mahaperiyava teach about krishna and shiva are presented as non different jagadgurus?",
+        "How does Deivathin Kural explain krishna and shiva are presented as non different jagadgurus?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "293f54b259f9f0176ef953fad39da0a07c831fffe078425979355009573fb4ee",
+        "e69b5983f0f5a38103bac301cbe83188e0fa1951ecc398bb9ced04c03dcfcdcc",
+        "905e17a5a97f96a9ec6bf8cf5f8d7f2c4179cdd38048739eb8c6727517e17c5f"
+      ],
+      "topics": [
+        "krishna",
+        "shiva",
+        "jagadguru",
+        "abheda"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "religious_comparison_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sambu_sankaranar.shankara_is_presented_as_shiva_avatar_for_kali_age_revival",
+      "chapter_ordinal": 114,
+      "chapter_slug": "sambu_sankaranar",
+      "unit_slug": "shankara_is_presented_as_shiva_avatar_for_kali_age_revival",
+      "claim_summary": "The chapter narrates Shankara's advent as Shiva's incarnation for the Kali age, with a lifelong mission of restoring Vedic dharma through teaching when competing doctrines were said to have proliferated.",
+      "question_intents": [
+        "What does Mahaperiyava teach about shankara is presented as shiva avatar for kali age revival?",
+        "How does Deivathin Kural explain shankara is presented as shiva avatar for kali age revival?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "de4d6bfaf07407c647b9b79a8bdd719b58f00b0040adbd64af6dc69375199697",
+        "d1130404d328f02c65484f71196952be9f5c0baa0f5355738df8d30fa48036dd",
+        "e01fa3efe88f4e9d691be9ea6cf1507555b151c7c85d99c7e63f466ce33a5f7a"
+      ],
+      "topics": [
+        "shankara",
+        "avatar",
+        "vedic_dharma",
+        "kali_yuga"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "historical_claim_requires_external_verification",
+        "religious_comparison_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sambu_sankaranar.rudra_verse_is_interpreted_as_foretelling_shankara",
+      "chapter_ordinal": 114,
+      "chapter_slug": "sambu_sankaranar",
+      "unit_slug": "rudra_verse_is_interpreted_as_foretelling_shankara",
+      "claim_summary": "A phrase in Sri Rudram describing a shaven-headed form is interpreted as scriptural foreshadowing of Shiva appearing as the renunciate Shankara.",
+      "question_intents": [
+        "What does Mahaperiyava teach about rudra verse is interpreted as foretelling shankara?",
+        "How does Deivathin Kural explain rudra verse is interpreted as foretelling shankara?"
+      ],
+      "source_paragraph_ids": [
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "6b19a3c6542805ecabe16ffea135abe3c46bdeb1b50d37678815e7e6b5174870"
+      ],
+      "topics": [
+        "shankara",
+        "sri_rudram",
+        "avatar"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "literary_interpretation",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sambu_sankaranar.dakshinamurti_silence_becomes_shankaras_active_teaching",
+      "chapter_ordinal": 114,
+      "chapter_slug": "sambu_sankaranar",
+      "unit_slug": "dakshinamurti_silence_becomes_shankaras_active_teaching",
+      "claim_summary": "Dakshinamurti's silent teaching is contrasted with Shankara's active public instruction, using wordplay around Sambhu and Shankara to portray divine bliss moving outward to rescue seekers in a difficult age.",
+      "question_intents": [
+        "What does Mahaperiyava teach about dakshinamurti silence becomes shankaras active teaching?",
+        "How does Deivathin Kural explain dakshinamurti silence becomes shankaras active teaching?"
+      ],
+      "source_paragraph_ids": [
+        "p010",
+        "p011",
+        "p012",
+        "p013"
+      ],
+      "source_paragraph_hashes": [
+        "e4662e4271b0118590f78ddd2aaecc2fde00d61e30975a2fd20809c819a60b66",
+        "dd7190f7416990979de91c9bd4ec5d4b395bccc0e664439cb048b0d4452b0a0d",
+        "eb6ecc0d29d773264cdb7a24577f802796b2b389e185d1f8b819a70781882cdf",
+        "1dc0feaad748e5842ba6aadfd123cf63813d3ad5574cbc42e06cb844f7ce9c45"
+      ],
+      "topics": [
+        "dakshinamurti",
+        "shankara",
+        "guru",
+        "silence"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "linguistic_etymology_claim_requires_external_verification",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sambu_sankaranar.kali_age_asura_is_recast_as_inner_adharma",
+      "chapter_ordinal": 114,
+      "chapter_slug": "sambu_sankaranar",
+      "unit_slug": "kali_age_asura_is_recast_as_inner_adharma",
+      "claim_summary": "Instead of locating demons in a separate race, the chapter uses them as a metaphor for adharma entering human thought in the Kali age and presents instruction rather than physical destruction as the needed remedy.",
+      "question_intents": [
+        "What does Mahaperiyava teach about kali age asura is recast as inner adharma?",
+        "How does Deivathin Kural explain kali age asura is recast as inner adharma?"
+      ],
+      "source_paragraph_ids": [
+        "p014"
+      ],
+      "source_paragraph_hashes": [
+        "c56c10d517d2a6564610e62d3bac3be9eb0229fc70b32c2aab384dffb2e81bc3"
+      ],
+      "topics": [
+        "kali_yuga",
+        "adharma",
+        "asura",
+        "teaching"
+      ],
+      "flags": [
+        "social_generalization",
+        "traditional_normative_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sambu_sankaranar.shankaras_digvijaya_and_advaita_restoration_are_presented_as_historical_religious_triumph",
+      "chapter_ordinal": 114,
+      "chapter_slug": "sambu_sankaranar",
+      "unit_slug": "shankaras_digvijaya_and_advaita_restoration_are_presented_as_historical_religious_triumph",
+      "claim_summary": "Shankara's travels, debates and writings are presented as having displaced numerous rival schools while establishing Advaita within the full Vedic framework of deities and ritual.",
+      "question_intents": [
+        "What does Mahaperiyava teach about shankaras digvijaya and advaita restoration are presented as historical religious triumph?",
+        "How does Deivathin Kural explain shankaras digvijaya and advaita restoration are presented as historical religious triumph?"
+      ],
+      "source_paragraph_ids": [
+        "p015",
+        "p016",
+        "p017",
+        "p018"
+      ],
+      "source_paragraph_hashes": [
+        "c7803839ecd208c0a4a5c2f18433e4d4c0ee115a747907cc87a87cf2b9c9fe33",
+        "7ae80cd28b081a6f51a1ff303cda4c9bf537917384b4d209a30c9f4d9d4458dc",
+        "87bcf1aa1baf774c8bc84bcfc5ed8a42d7abbec802d03d54e496b6e6dbb6c7ae",
+        "490b367825b26caf65f9b5ed9047995b2e6366448fe23efc7ca8f97eee943128"
+      ],
+      "topics": [
+        "shankara",
+        "digvijaya",
+        "advaita",
+        "religious_history"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "religious_comparison_attributed_only",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sambu_sankaranar.shankara_jayanti_is_elevated_as_restoring_vedic_festivals",
+      "chapter_ordinal": 114,
+      "chapter_slug": "sambu_sankaranar",
+      "unit_slug": "shankara_jayanti_is_elevated_as_restoring_vedic_festivals",
+      "claim_summary": "Shankara Jayanti is praised as exceptionally sacred because Shankara's restoration of Vedic religion is portrayed as preserving the wider calendar of Hindu festivals and practices.",
+      "question_intents": [
+        "What does Mahaperiyava teach about shankara jayanti is elevated as restoring vedic festivals?",
+        "How does Deivathin Kural explain shankara jayanti is elevated as restoring vedic festivals?"
+      ],
+      "source_paragraph_ids": [
+        "p019",
+        "p020",
+        "p021",
+        "p022"
+      ],
+      "source_paragraph_hashes": [
+        "e8c4dfb327dd0f508a96e9c72e8326f3f58ac62c3d5cbc8461e4f3b13d78e394",
+        "86d908f00a60b6ebfeeabfaf1e177c07bae7617feb06a24d1f7d6aafc72eac09",
+        "5b4ad60c222e42b54fa814e0a23a81a4123b2c7e516c0803f36fd7d1477d5e39",
+        "ee74cd3d0b819ad42cde510f6cf728a8907befd83690d50ec9ab26287e847e85"
+      ],
+      "topics": [
+        "shankara_jayanti",
+        "festival",
+        "vedic_dharma"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "traditional_normative_claim",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sambu_sankaranar.small_daily_practices_are_prescribed_after_hearing_shankaras_teaching",
+      "chapter_ordinal": 114,
+      "chapter_slug": "sambu_sankaranar",
+      "unit_slug": "small_daily_practices_are_prescribed_after_hearing_shankaras_teaching",
+      "claim_summary": "The chapter turns Shankara's example into concrete practice: remembrance of Govinda while eating, restraint in food, daily remembrance of Vishnu, Shiva and Ambal, self-examination and prayer before sleep.",
+      "question_intents": [
+        "What does Mahaperiyava teach about small daily practices are prescribed after hearing shankaras teaching?",
+        "How does Deivathin Kural explain small daily practices are prescribed after hearing shankaras teaching?"
+      ],
+      "source_paragraph_ids": [
+        "p023",
+        "p024"
+      ],
+      "source_paragraph_hashes": [
+        "e3851a610792f0d8b1b8c4f220f24348cbe8cf5678e8c89795c6a2d8b59bb321",
+        "023a2f3c9752324d97110b7811a347d036f7b13e020e5eaeb1eab40ee55ccf9f"
+      ],
+      "topics": [
+        "daily_practice",
+        "govinda",
+        "self_examination",
+        "food_discipline"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sambu_sankaranar.remember_and_honor_shankara_regularly",
+      "chapter_ordinal": 114,
+      "chapter_slug": "sambu_sankaranar",
+      "unit_slug": "remember_and_honor_shankara_regularly",
+      "claim_summary": "Devotees are urged to remember Shankara, celebrate his Jayanti and worship the acharya's sandals as expressions of gratitude and discipleship.",
+      "question_intents": [
+        "What does Mahaperiyava teach about remember and honor shankara regularly?",
+        "How does Deivathin Kural explain remember and honor shankara regularly?"
+      ],
+      "source_paragraph_ids": [
+        "p025"
+      ],
+      "source_paragraph_hashes": [
+        "56b57bef8946bb6ac2b5992a2ccb332e5df7c6726e2852f3ae53b96a0428bcb8"
+      ],
+      "topics": [
+        "shankara",
+        "jayanti",
+        "guru_bhakti",
+        "paduka"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manitha_piraviyum_venduvathe.prayer_for_vedanta_shiva_and_shankara_across_births",
+      "chapter_ordinal": 115,
+      "chapter_slug": "manitha_piraviyum_venduvathe",
+      "unit_slug": "prayer_for_vedanta_shiva_and_shankara_across_births",
+      "claim_summary": "A verse prays that Vedanta remain one's scripture, Parameshvara one's deity and Shankara one's teacher in birth after birth, expressing a desire for continuity of spiritual orientation even across rebirth.",
+      "question_intents": [
+        "What does Mahaperiyava teach about prayer for vedanta shiva and shankara across births?",
+        "How does Deivathin Kural explain prayer for vedanta shiva and shankara across births?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "4db5b00f672885b8839585355549a994c8e99cabe0ab205bd55d88efac4ae3d5",
+        "1db5faacb1a7980b7feed247c70ba15985f1c6ef01e3fce97af200731218c097",
+        "9648772753859e44cedf26bf425bb2c54a5f9a2eb28cbdf3db107592f22949e2",
+        "ee6ed50fb3b4c46c0a234154f71e42852a180600d468964adac548d4df515826",
+        "cb20da4cb1ebe255f372dff44b11facffd37aa1ad17c9fd8d6a1fd907809a29f"
+      ],
+      "topics": [
+        "shankara",
+        "vedanta",
+        "parameshvara",
+        "rebirth"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manitha_piraviyum_venduvathe.rebirth_is_acceptable_if_divine_remembrance_continues",
+      "chapter_ordinal": 115,
+      "chapter_slug": "manitha_piraviyum_venduvathe",
+      "unit_slug": "rebirth_is_acceptable_if_divine_remembrance_continues",
+      "claim_summary": "Although liberation from rebirth is normally sought, verses from devotional tradition are used to say that any form of birth is acceptable if unwavering remembrance of the divine continues.",
+      "question_intents": [
+        "What does Mahaperiyava teach about rebirth is acceptable if divine remembrance continues?",
+        "How does Deivathin Kural explain rebirth is acceptable if divine remembrance continues?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007",
+        "p008",
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "869efd4fdc81aac1c84abbfccf2d640236f28d45a001fc501899ac8ce911dbc2",
+        "a0d705142a7484e4ff39e54341b2a0b501a39d4f8fec92ea6b0d4522757a29ad",
+        "f4d8508cee2bbe63eff5e1e1e9aac39a643597a0455299093d05f5e1b580b4f1",
+        "88352c791a53b8563db4ccaf9afdc9ba52498e478e5d85cdc49e3cdfd615db12"
+      ],
+      "topics": [
+        "rebirth",
+        "divine_remembrance",
+        "bhakti"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manitha_piraviyum_venduvathe.acharya_is_one_who_teaches_and_lives_the_discipline",
+      "chapter_ordinal": 115,
+      "chapter_slug": "manitha_piraviyum_venduvathe",
+      "unit_slug": "acharya_is_one_who_teaches_and_lives_the_discipline",
+      "claim_summary": "The title acharya is explained as belonging to one who not only teaches scriptural meaning and establishes others in conduct but personally lives that discipline; Shankara is presented as the exemplary case.",
+      "question_intents": [
+        "What does Mahaperiyava teach about acharya is one who teaches and lives the discipline?",
+        "How does Deivathin Kural explain acharya is one who teaches and lives the discipline?"
+      ],
+      "source_paragraph_ids": [
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "899cb0985db47326c2ca082f3d2dab8240bde0e6dde323c9baa0aba25ce92568"
+      ],
+      "topics": [
+        "acharya",
+        "shankara",
+        "conduct",
+        "teaching"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "linguistic_etymology_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manitha_piraviyum_venduvathe.shankara_is_presented_as_embodying_advaita_while_serving_the_world",
+      "chapter_ordinal": 115,
+      "chapter_slug": "manitha_piraviyum_venduvathe",
+      "unit_slug": "shankara_is_presented_as_embodying_advaita_while_serving_the_world",
+      "claim_summary": "Shankara is portrayed as abiding in non-dual realization while remaining active in teaching, devotion, pilgrimage and service without being inwardly affected by success or failure.",
+      "question_intents": [
+        "What does Mahaperiyava teach about shankara is presented as embodying advaita while serving the world?",
+        "How does Deivathin Kural explain shankara is presented as embodying advaita while serving the world?"
+      ],
+      "source_paragraph_ids": [
+        "p011"
+      ],
+      "source_paragraph_hashes": [
+        "ef828a01c6d1187fd829ec589d9c05cc5bf436ebe3924e74ed56ce3cfe7de2dc"
+      ],
+      "topics": [
+        "shankara",
+        "advaita",
+        "service",
+        "equanimity"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manitha_piraviyum_venduvathe.karma_anushthana_is_presented_as_foundation_for_stable_bhakti_and_jnana",
+      "chapter_ordinal": 115,
+      "chapter_slug": "manitha_piraviyum_venduvathe",
+      "unit_slug": "karma_anushthana_is_presented_as_foundation_for_stable_bhakti_and_jnana",
+      "claim_summary": "Vedic discipline and appropriate duties are presented as the foundation for self-control and purification, without which devotion and knowledge are said not to become stable.",
+      "question_intents": [
+        "What does Mahaperiyava teach about karma anushthana is presented as foundation for stable bhakti and jnana?",
+        "How does Deivathin Kural explain karma anushthana is presented as foundation for stable bhakti and jnana?"
+      ],
+      "source_paragraph_ids": [
+        "p012"
+      ],
+      "source_paragraph_hashes": [
+        "a8e67a640225caf9c292a40ad9e3698aa5644024a6463f4cad728f30b5580993"
+      ],
+      "topics": [
+        "karma_anushthana",
+        "bhakti",
+        "jnana",
+        "purification"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manitha_piraviyum_venduvathe.advaita_as_vedanta_abroad_is_an_historical_claim",
+      "chapter_ordinal": 115,
+      "chapter_slug": "manitha_piraviyum_venduvathe",
+      "unit_slug": "advaita_as_vedanta_abroad_is_an_historical_claim",
+      "claim_summary": "The chapter says that Advaita became widely identified abroad with Vedanta, linking that reputation in part to Vivekananda's preaching while insisting that Shankara presented the meaning of the Upanishads rather than inventing a new religion.",
+      "question_intents": [
+        "What does Mahaperiyava teach about advaita as vedanta abroad is an historical claim?",
+        "How does Deivathin Kural explain advaita as vedanta abroad is an historical claim?"
+      ],
+      "source_paragraph_ids": [
+        "p013"
+      ],
+      "source_paragraph_hashes": [
+        "a6d2ca1040e3216e0198f24166b3608499c8ee392a320ef808f7de021f661c90"
+      ],
+      "topics": [
+        "advaita",
+        "vedanta",
+        "vivekananda",
+        "history"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "religious_generalization_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manitha_piraviyum_venduvathe.shankara_as_organizer_of_shanmata",
+      "chapter_ordinal": 115,
+      "chapter_slug": "manitha_piraviyum_venduvathe",
+      "unit_slug": "shankara_as_organizer_of_shanmata",
+      "claim_summary": "Shankara is credited with organizing six forms of worship—Shiva, Devi, Vishnu, Ganesha, Subrahmanya and Surya—without treating the deities as ultimately separate.",
+      "question_intents": [
+        "What does Mahaperiyava teach about shankara as organizer of shanmata?",
+        "How does Deivathin Kural explain shankara as organizer of shanmata?"
+      ],
+      "source_paragraph_ids": [
+        "p014"
+      ],
+      "source_paragraph_hashes": [
+        "36eae98814a74575bd306b7d33fb79727cc69a69abe6507795e826bd579c353c"
+      ],
+      "topics": [
+        "shanmata",
+        "shankara",
+        "deity_worship"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "traditional_ritual_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.manitha_piraviyum_venduvathe.shankaras_defeat_of_rival_schools_is_traditional_history",
+      "chapter_ordinal": 115,
+      "chapter_slug": "manitha_piraviyum_venduvathe",
+      "unit_slug": "shankaras_defeat_of_rival_schools_is_traditional_history",
+      "claim_summary": "The chapter presents Shankara as having refuted several pre-existing philosophical and non-Vedic schools, restored Vedic dharma and accomplished this by age thirty-two, culminating in the devotional assertion that he was an incarnation of Shiva.",
+      "question_intents": [
+        "What does Mahaperiyava teach about shankaras defeat of rival schools is traditional history?",
+        "How does Deivathin Kural explain shankaras defeat of rival schools is traditional history?"
+      ],
+      "source_paragraph_ids": [
+        "p015"
+      ],
+      "source_paragraph_hashes": [
+        "6daa5547b82e29b789803db268f3052332b44ab8a9d3591f559a0cc087d4ff16"
+      ],
+      "topics": [
+        "shankara",
+        "religious_history",
+        "avatar"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "religious_comparison_attributed_only",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_dharmathil_moola_purushar.vyasa_divides_and_transmits_the_vedas_for_kali_yuga",
+      "chapter_ordinal": 116,
+      "chapter_slug": "nam_dharmathil_moola_purushar",
+      "unit_slug": "vyasa_divides_and_transmits_the_vedas_for_kali_yuga",
+      "claim_summary": "Vyasa is portrayed as protecting Vedic transmission for the diminished capacities of the Kali age by dividing the Veda into four collections and entrusting them to disciples in an oral lineage.",
+      "question_intents": [
+        "What does Mahaperiyava teach about vyasa divides and transmits the vedas for kali yuga?",
+        "How does Deivathin Kural explain vyasa divides and transmits the vedas for kali yuga?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "756da4bc03d8d511116a122b1024d62f6fcb8251c1a56290f41d180d11e97eff",
+        "9da8b56dd82875e89519075419ba348b24ed2b54fb9e4690a6260c76453c21ac",
+        "0c0630353184af188c5e75997b59b8c9ec981146e3f32712c03235769155bb08",
+        "578fa9f243cc759960f9410480e00294b771b398afb19c9e9c853e04d4746ddb"
+      ],
+      "topics": [
+        "vyasa",
+        "veda",
+        "oral_tradition",
+        "kali_yuga"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "historical_claim_requires_external_verification",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_dharmathil_moola_purushar.vyasa_names_and_epithets_are_explained",
+      "chapter_ordinal": 116,
+      "chapter_slug": "nam_dharmathil_moola_purushar",
+      "unit_slug": "vyasa_names_and_epithets_are_explained",
+      "claim_summary": "Names such as Badarayana, Dvaipayana and Krishna Dvaipayana are explained through traditional biographical and etymological associations.",
+      "question_intents": [
+        "What does Mahaperiyava teach about vyasa names and epithets are explained?",
+        "How does Deivathin Kural explain vyasa names and epithets are explained?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "8ebd4fff4ae35f64f2882c97f8def9b750a8013cbd0e8f8fd2a0b90bc446ee8a"
+      ],
+      "topics": [
+        "vyasa",
+        "names",
+        "etymology"
+      ],
+      "flags": [
+        "linguistic_etymology_claim_requires_external_verification",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_dharmathil_moola_purushar.vyasa_is_identified_with_vishnu_in_traditional_hagiography",
+      "chapter_ordinal": 116,
+      "chapter_slug": "nam_dharmathil_moola_purushar",
+      "unit_slug": "vyasa_is_identified_with_vishnu_in_traditional_hagiography",
+      "claim_summary": "Traditional verses and stories are cited to identify Vyasa as an aspect of Vishnu and to place his encounter with Shankara within a sacred hagiographic frame.",
+      "question_intents": [
+        "What does Mahaperiyava teach about vyasa is identified with vishnu in traditional hagiography?",
+        "How does Deivathin Kural explain vyasa is identified with vishnu in traditional hagiography?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "b5e90bcad27e1f76b4b75d5bf0a25f8da94df80e32c4e2b40938269d053764f9"
+      ],
+      "topics": [
+        "vyasa",
+        "vishnu",
+        "shankara",
+        "avatar"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_dharmathil_moola_purushar.guru_parampara_runs_from_narayana_to_shankara",
+      "chapter_ordinal": 116,
+      "chapter_slug": "nam_dharmathil_moola_purushar",
+      "unit_slug": "guru_parampara_runs_from_narayana_to_shankara",
+      "claim_summary": "The Advaita guru lineage is traced from Narayana through Brahma, Vasishta, Shakti, Parashara, Vyasa and Shuka, then through Gaudapada and Govinda Bhagavatpada to Shankara and his disciples.",
+      "question_intents": [
+        "What does Mahaperiyava teach about guru parampara runs from narayana to shankara?",
+        "How does Deivathin Kural explain guru parampara runs from narayana to shankara?"
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008",
+        "p009",
+        "p010",
+        "p011",
+        "p012"
+      ],
+      "source_paragraph_hashes": [
+        "5c5d46abaf77bdc82c8d8b87ec5c8b20357e7d30672dee3150ec4762cfce0b99",
+        "118e823fe8278b06b2c488101d973adaced9feccd27f8cae4285bc8b3dcd1b14",
+        "0ca4b1d27beda88d4642b64d954d38165df3b8165f4df03931531a2a5858039d",
+        "b55fbe98a3285a45e35fc63f6409d41292a7c469b1d6279d6dc82c2eafe4d18a",
+        "bbdefb32a5d9d27e3c8bc5e7f15cfc1dc1e5e98e080b472a0df773d25620d230",
+        "2869186c74bfd42278f2b7d06d345e851396c00b3d58bd479461063f214e9b8c"
+      ],
+      "topics": [
+        "guru_parampara",
+        "vyasa",
+        "shankara",
+        "advaita"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "historical_claim_requires_external_verification",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_dharmathil_moola_purushar.vyasa_is_praised_as_embodying_the_trimurti",
+      "chapter_ordinal": 116,
+      "chapter_slug": "nam_dharmathil_moola_purushar",
+      "unit_slug": "vyasa_is_praised_as_embodying_the_trimurti",
+      "claim_summary": "A traditional verse is used to praise Vyasa in the language of Shiva, Brahma and Vishnu, extending the guru-as-Trimurti motif to him.",
+      "question_intents": [
+        "What does Mahaperiyava teach about vyasa is praised as embodying the trimurti?",
+        "How does Deivathin Kural explain vyasa is praised as embodying the trimurti?"
+      ],
+      "source_paragraph_ids": [
+        "p013"
+      ],
+      "source_paragraph_hashes": [
+        "c926b8437ddd2f7b1348c426359272aaf9b7fde0eb6905836dadcae7831e7030"
+      ],
+      "topics": [
+        "vyasa",
+        "trimurti",
+        "guru"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_dharmathil_moola_purushar.puranas_and_mahabharata_make_vedic_ethics_accessible",
+      "chapter_ordinal": 116,
+      "chapter_slug": "nam_dharmathil_moola_purushar",
+      "unit_slug": "puranas_and_mahabharata_make_vedic_ethics_accessible",
+      "claim_summary": "Vyasa is credited with the Puranas and Mahabharata as narrative vehicles for making ethical and devotional teachings accessible beyond specialist Vedic study and for accommodating diverse chosen deities.",
+      "question_intents": [
+        "What does Mahaperiyava teach about puranas and mahabharata make vedic ethics accessible?",
+        "How does Deivathin Kural explain puranas and mahabharata make vedic ethics accessible?"
+      ],
+      "source_paragraph_ids": [
+        "p014"
+      ],
+      "source_paragraph_hashes": [
+        "06832bac9e2254349d5f8e8e237563b367bb320a803df8fa7bdfa443a80e7566"
+      ],
+      "topics": [
+        "vyasa",
+        "puranas",
+        "mahabharata",
+        "ethics"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "traditional_scriptural_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_dharmathil_moola_purushar.brahma_sutra_establishes_vyasa_as_vedanta_teacher",
+      "chapter_ordinal": 116,
+      "chapter_slug": "nam_dharmathil_moola_purushar",
+      "unit_slug": "brahma_sutra_establishes_vyasa_as_vedanta_teacher",
+      "claim_summary": "Vyasa's authorship of the Brahma Sutra is presented as a central reason for regarding him as a foundational teacher of Brahmavidya.",
+      "question_intents": [
+        "What does Mahaperiyava teach about brahma sutra establishes vyasa as vedanta teacher?",
+        "How does Deivathin Kural explain brahma sutra establishes vyasa as vedanta teacher?"
+      ],
+      "source_paragraph_ids": [
+        "p015"
+      ],
+      "source_paragraph_hashes": [
+        "eefca2b097abb060e0e1c1a4fa1e7b89edcf03648f9b081de52978ceea483df9"
+      ],
+      "topics": [
+        "vyasa",
+        "brahma_sutra",
+        "vedanta"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_dharmathil_moola_purushar.suta_is_presented_as_transmitter_of_puranic_material",
+      "chapter_ordinal": 116,
+      "chapter_slug": "nam_dharmathil_moola_purushar",
+      "unit_slug": "suta_is_presented_as_transmitter_of_puranic_material",
+      "claim_summary": "The discourse presents Suta as the disciple who received and disseminated the Puranas and Mahabharata, emphasizing devotional and intellectual stature over birth status.",
+      "question_intents": [
+        "What does Mahaperiyava teach about suta is presented as transmitter of puranic material?",
+        "How does Deivathin Kural explain suta is presented as transmitter of puranic material?"
+      ],
+      "source_paragraph_ids": [
+        "p016"
+      ],
+      "source_paragraph_hashes": [
+        "aa26a11c19bec19d29e43a58b430d633e8db1f2c6d858c8bf1212dffab9955f3"
+      ],
+      "topics": [
+        "suta",
+        "puranas",
+        "mahabharata",
+        "transmission"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "context_sensitive_social_teaching"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_dharmathil_moola_purushar.brahma_sutra_supports_multiple_later_commentarial_traditions",
+      "chapter_ordinal": 116,
+      "chapter_slug": "nam_dharmathil_moola_purushar",
+      "unit_slug": "brahma_sutra_supports_multiple_later_commentarial_traditions",
+      "claim_summary": "Shankara, Ramanuja, Madhva, Srikantha and Vallabha are named as authors of commentaries on the Brahma Sutra from different doctrinal standpoints, illustrating the text's authority across traditions.",
+      "question_intents": [
+        "What does Mahaperiyava teach about brahma sutra supports multiple later commentarial traditions?",
+        "How does Deivathin Kural explain brahma sutra supports multiple later commentarial traditions?"
+      ],
+      "source_paragraph_ids": [
+        "p017"
+      ],
+      "source_paragraph_hashes": [
+        "cb4bccc638c97c10b921f4f6b254d06a38ab90f0539a75ccfc7dbdf2966f46bb"
+      ],
+      "topics": [
+        "brahma_sutra",
+        "commentaries",
+        "vedanta"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "religious_comparison_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_dharmathil_moola_purushar.vyasa_is_presented_as_common_root_of_hindu_traditions",
+      "chapter_ordinal": 116,
+      "chapter_slug": "nam_dharmathil_moola_purushar",
+      "unit_slug": "vyasa_is_presented_as_common_root_of_hindu_traditions",
+      "claim_summary": "Different philosophical schools are compared to branches of one tree whose common root is Vyasa; the chapter urges Hindus across sects to honor him together and imagines an annual public celebration centered on shared Vedic dharma.",
+      "question_intents": [
+        "What does Mahaperiyava teach about vyasa is presented as common root of hindu traditions?",
+        "How does Deivathin Kural explain vyasa is presented as common root of hindu traditions?"
+      ],
+      "source_paragraph_ids": [
+        "p018",
+        "p019",
+        "p020"
+      ],
+      "source_paragraph_hashes": [
+        "5786aff217002bf011449222980f576e57d42941c54f6fc35851f1e79606d1c1",
+        "a975b1ff35135c482cb4464da9ed4b27f2d4040a69b2c46b6220058e720372b5",
+        "c24f7bb66f3f9851d1dff8bc6893d9f25b31e3356f6692eb9365b1fc3459a416"
+      ],
+      "topics": [
+        "vyasa",
+        "hindu_unity",
+        "religious_pluralism",
+        "festival"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "religious_generalization_attributed_only",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_dharmathil_moola_purushar.vyasa_as_chiranjivi_is_a_hagiographic_claim",
+      "chapter_ordinal": 116,
+      "chapter_slug": "nam_dharmathil_moola_purushar",
+      "unit_slug": "vyasa_as_chiranjivi_is_a_hagiographic_claim",
+      "claim_summary": "Vyasa is described in traditional belief as a chiranjivi who remains present and continues to bless the world.",
+      "question_intents": [
+        "What does Mahaperiyava teach about vyasa as chiranjivi is a hagiographic claim?",
+        "How does Deivathin Kural explain vyasa as chiranjivi is a hagiographic claim?"
+      ],
+      "source_paragraph_ids": [
+        "p021"
+      ],
+      "source_paragraph_hashes": [
+        "cbc04458d944faa3e53f9476a662c89cb410d59c8b40f2acc94eefea03ba87bd"
+      ],
+      "topics": [
+        "vyasa",
+        "chiranjivi"
+      ],
+      "flags": [
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.nam_dharmathil_moola_purushar.gratitude_to_vyasa_is_expressed_in_upakarma_and_vyasa_puja",
+      "chapter_ordinal": 116,
+      "chapter_slug": "nam_dharmathil_moola_purushar",
+      "unit_slug": "gratitude_to_vyasa_is_expressed_in_upakarma_and_vyasa_puja",
+      "claim_summary": "Remembering Vyasa is presented as a duty of gratitude, with Upakarma observances and the sannyasin's Vyasa Puja described as ritual expressions of that gratitude.",
+      "question_intents": [
+        "What does Mahaperiyava teach about gratitude to vyasa is expressed in upakarma and vyasa puja?",
+        "How does Deivathin Kural explain gratitude to vyasa is expressed in upakarma and vyasa puja?"
+      ],
+      "source_paragraph_ids": [
+        "p022",
+        "p023"
+      ],
+      "source_paragraph_hashes": [
+        "3b046829e101e7da243d2954ba0698388b70c1c7ff7fba64fcc15ead7a3657dc",
+        "617234708c3f5ed915136738a32417a5b797c889ac14671aed48ed4587c8da0c"
+      ],
+      "topics": [
+        "vyasa",
+        "upakarma",
+        "vyasa_puja",
+        "gratitude"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kannan_pirantha_dhinam.krishna_birth_in_darkness_is_used_as_symbol_of_knowledge_light",
+      "chapter_ordinal": 117,
+      "chapter_slug": "kannan_pirantha_dhinam",
+      "unit_slug": "krishna_birth_in_darkness_is_used_as_symbol_of_knowledge_light",
+      "claim_summary": "Krishna's midnight birth during the dark fortnight is interpreted symbolically as the appearance of knowledge-light amid darkness, alongside traditional calendrical cosmology and the meaning of the name Krishna as dark.",
+      "question_intents": [
+        "What does Mahaperiyava teach about krishna birth in darkness is used as symbol of knowledge light?",
+        "How does Deivathin Kural explain krishna birth in darkness is used as symbol of knowledge light?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "274d43142ce2b3ea7faabc38ce1b697be47013b2a79c1c42d889a10c44a1334c",
+        "0645c2b9c5ed6b46ca64268c981f8e31c1812848bc496763b21c28e51d34700b",
+        "871e11a9c089b84be4510b5e941c530fd45c48151bc255544ef167781971f278"
+      ],
+      "topics": [
+        "krishna",
+        "janmashtami",
+        "light_darkness",
+        "cosmology"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "literary_interpretation",
+        "scientific_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kannan_pirantha_dhinam.kannan_is_interpreted_as_the_eye_that_gives_knowledge",
+      "chapter_ordinal": 117,
+      "chapter_slug": "kannan_pirantha_dhinam",
+      "unit_slug": "kannan_is_interpreted_as_the_eye_that_gives_knowledge",
+      "claim_summary": "The Tamil name Kannan is interpreted devotionally through the eye as a source of light, presenting Krishna as the eye that gives inner knowledge and delight through form, flute and Gita.",
+      "question_intents": [
+        "What does Mahaperiyava teach about kannan is interpreted as the eye that gives knowledge?",
+        "How does Deivathin Kural explain kannan is interpreted as the eye that gives knowledge?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "1d8a2881cf820f3901c0dc295ae7085ac26970a6e9fb53a42d51d368166eb240"
+      ],
+      "topics": [
+        "krishna",
+        "kannan",
+        "knowledge",
+        "gita"
+      ],
+      "flags": [
+        "linguistic_etymology_claim_requires_external_verification",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kannan_pirantha_dhinam.krishnas_many_roles_make_the_avatar_accessible_to_many_temperaments",
+      "chapter_ordinal": 117,
+      "chapter_slug": "kannan_pirantha_dhinam",
+      "unit_slug": "krishnas_many_roles_make_the_avatar_accessible_to_many_temperaments",
+      "claim_summary": "Krishna's life is presented as encompassing many roles—child, cowherd, artist, warrior, statesman, charioteer, protector and giver of liberation—showing the breadth of the avatar's devotional appeal.",
+      "question_intents": [
+        "What does Mahaperiyava teach about krishnas many roles make the avatar accessible to many temperaments?",
+        "How does Deivathin Kural explain krishnas many roles make the avatar accessible to many temperaments?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "fcb9998ce13cac1cce40ba92bba1345b551e8125833ccc1a61036e563d0a54ad"
+      ],
+      "topics": [
+        "krishna",
+        "avatar",
+        "lila",
+        "bhakti"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kannan_pirantha_dhinam.even_morally_ambiguous_krishna_lilas_are_said_to_draw_varied_people_toward_grace",
+      "chapter_ordinal": 117,
+      "chapter_slug": "kannan_pirantha_dhinam",
+      "unit_slug": "even_morally_ambiguous_krishna_lilas_are_said_to_draw_varied_people_toward_grace",
+      "claim_summary": "The discourse says Krishna assumes even morally ambiguous or playful roles so that people of very different temperaments may be attracted toward him and thereby become receptive to grace and knowledge.",
+      "question_intents": [
+        "What does Mahaperiyava teach about even morally ambiguous krishna lilas are said to draw varied people toward grace?",
+        "How does Deivathin Kural explain even morally ambiguous krishna lilas are said to draw varied people toward grace?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "3c8516fd093d9a53f909d2fd97789cc41a05f474cc784b860121e8fe774228af"
+      ],
+      "topics": [
+        "krishna",
+        "lila",
+        "temperament",
+        "grace"
+      ],
+      "flags": [
+        "religious_generalization_attributed_only",
+        "psychological_generalization",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kannan_pirantha_dhinam.shivaratri_and_krishnashtami_are_linked_by_a_180_day_symbolism",
+      "chapter_ordinal": 117,
+      "chapter_slug": "kannan_pirantha_dhinam",
+      "unit_slug": "shivaratri_and_krishnashtami_are_linked_by_a_180_day_symbolism",
+      "claim_summary": "A traditional calendrical observation places Shivaratri and Krishnashtami about 180 days apart and uses the pairing to symbolize the same knowledge-light appearing as Shiva-linga and Krishna.",
+      "question_intents": [
+        "What does Mahaperiyava teach about shivaratri and krishnashtami are linked by a 180 day symbolism?",
+        "How does Deivathin Kural explain shivaratri and krishnashtami are linked by a 180 day symbolism?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "997bab1a5fb03f0d1a591fab24e2b0ed9e5dbe531bea0c58dd8f224fce439ee1"
+      ],
+      "topics": [
+        "shivaratri",
+        "krishnashtami",
+        "calendar",
+        "abheda"
+      ],
+      "flags": [
+        "quantitative_historical_claim_requires_verification",
+        "literary_interpretation",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sri_raman.rama_as_equanimity_and_dharma",
+      "chapter_ordinal": 118,
+      "chapter_slug": "sri_raman",
+      "unit_slug": "rama_as_equanimity_and_dharma",
+      "claim_summary": "Rama is presented as the model of equanimity who follows Vedic dharma without being inwardly disturbed by pleasure or pain, with disciplined dharma described as a path to mental clarity and liberation.",
+      "question_intents": [
+        "What does Mahaperiyava teach about rama as equanimity and dharma?",
+        "How does Deivathin Kural explain rama as equanimity and dharma?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "cb9d46e3c8f103a2615bb7a6a444f0bda3fcb3da5179fe8f535e9d289b54550e",
+        "df0826cdaf3c682e16c419583ed055f12b3790bb07e37ddb0ad04e0e979ebdad",
+        "f92f3dd71dd3302971d433b3d9094a88a5fc5b78a552d30c6c22d8a9de1a9f02"
+      ],
+      "topics": [
+        "rama",
+        "dharma",
+        "equanimity",
+        "moksha"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sri_raman.rama_avatar_is_described_as_deliberately_living_with_human_limits",
+      "chapter_ordinal": 118,
+      "chapter_slug": "sri_raman",
+      "unit_slug": "rama_avatar_is_described_as_deliberately_living_with_human_limits",
+      "claim_summary": "Questions about Rama's apparent human limitations are answered through the analogy of an actor remaining within a role: the avatar is said to conceal divine knowledge and power while living as a human.",
+      "question_intents": [
+        "What does Mahaperiyava teach about rama avatar is described as deliberately living with human limits?",
+        "How does Deivathin Kural explain rama avatar is described as deliberately living with human limits?"
+      ],
+      "source_paragraph_ids": [
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "1c4fc8ebb7cb0dccc60f98237387727edf48ad6a39c62e206640923557d675e8",
+        "ea528752d3a9f36159e0e85443147e369fd1b7f9d486671f6001af23f3407b58"
+      ],
+      "topics": [
+        "rama",
+        "avatar",
+        "human_role"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sri_raman.ramayana_is_presented_as_an_embodiment_of_dharma_that_protects_the_practitioner",
+      "chapter_ordinal": 118,
+      "chapter_slug": "sri_raman",
+      "unit_slug": "ramayana_is_presented_as_an_embodiment_of_dharma_that_protects_the_practitioner",
+      "claim_summary": "The Ramayana is read as a sustained teaching on dharma, with Rama's refusal to abandon it under pressure offered as the example behind the maxim that dharma protects one who protects dharma.",
+      "question_intents": [
+        "What does Mahaperiyava teach about ramayana is presented as an embodiment of dharma that protects the practitioner?",
+        "How does Deivathin Kural explain ramayana is presented as an embodiment of dharma that protects the practitioner?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "6313b2de3a7fff7d02eb43b35c3803d47393a368e82b8e1eaa192d24e9e3ac24",
+        "bbb71265ca0f06ec5290cfc91cd584881f7168e4c0171ee4ab9591d93f6e00c4"
+      ],
+      "topics": [
+        "ramayana",
+        "dharma",
+        "rama",
+        "courage"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_normative_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sri_raman.rama_nama_is_said_to_purify_and_support_dharmic_life",
+      "chapter_ordinal": 118,
+      "chapter_slug": "sri_raman",
+      "unit_slug": "rama_nama_is_said_to_purify_and_support_dharmic_life",
+      "claim_summary": "Repetition of Rama's name is prescribed as a means of removing mental impurities and helping a devotee remain established in dharma and joy.",
+      "question_intents": [
+        "What does Mahaperiyava teach about rama nama is said to purify and support dharmic life?",
+        "How does Deivathin Kural explain rama nama is said to purify and support dharmic life?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "2405ebdc2be4ebd8ac0efcc4e5bea3e0a58f869b5fc4cbbcec70840830ee86e2"
+      ],
+      "topics": [
+        "rama_nama",
+        "japa",
+        "purification",
+        "dharma"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.srirama_navami.rama_name_verse_promises_welfare_and_liberation",
+      "chapter_ordinal": 119,
+      "chapter_slug": "srirama_navami",
+      "unit_slug": "rama_name_verse_promises_welfare_and_liberation",
+      "claim_summary": "A Kamba Ramayanam verse is cited to praise the name Rama as bringing welfare, reducing wrongdoing and ultimately ending the cycle of birth and death.",
+      "question_intents": [
+        "What does Mahaperiyava teach about rama name verse promises welfare and liberation?",
+        "How does Deivathin Kural explain rama name verse promises welfare and liberation?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "c89ca587b11a89e1958aa4c1b5f538aa5f4f59ab7a68c18eda090356a1ecb380",
+        "71f64745469eb66c81c0da270468afebb6090ba83c3cd258b741b7b464d7b965",
+        "7a7c3ad02735e4045fbe2035b430550c3fb05e03a813bfcaf195ecad8baf7241",
+        "e9ecdcfdc37a6d4f2d520c2e597d56a3979fad5390e94b4a5749521e0993f4ee",
+        "f6da951762a8d2c67af4039bbc908c64e6304c49025fd4a3df76713fdab174eb"
+      ],
+      "topics": [
+        "rama_nama",
+        "kamba_ramayanam",
+        "moksha"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.srirama_navami.rama_navami_recitation_of_birth_verses_is_prescribed",
+      "chapter_ordinal": 119,
+      "chapter_slug": "srirama_navami",
+      "unit_slug": "rama_navami_recitation_of_birth_verses_is_prescribed",
+      "claim_summary": "For Rama Navami, devotees of all ages are instructed to recite selected Kamba Ramayanam verses celebrating Rama's birth and the restoration of dharma.",
+      "question_intents": [
+        "What does Mahaperiyava teach about rama navami recitation of birth verses is prescribed?",
+        "How does Deivathin Kural explain rama navami recitation of birth verses is prescribed?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007",
+        "p008",
+        "p009",
+        "p010",
+        "p011",
+        "p012",
+        "p013",
+        "p014",
+        "p015",
+        "p016"
+      ],
+      "source_paragraph_hashes": [
+        "e7305f70c674472be3681092211b84460beb8d7c4d50f923dc8ea0ed47af243b",
+        "8a27178d4dfaa8c5c7e44d13cc792b43cdd85a6fce51214603ee902b2695bed8",
+        "9df240d31e00d9a6c517fff31a23f847f0104f997bbe089ae8af63288f9c01e6",
+        "f810200b44a2f1ec97ef344b2ec758923c31db605dc4892d48d541eb5b0ce888",
+        "203c31e1ad73b3b882afd3b5bae562ca4d60fe1630453c98bba7c952218ba5d1",
+        "05239b308404cb87330d9078cdde5ef1cb0605245f28152b676fe3cc90d573d4",
+        "daea78a21b3a014fa96fe3194c72fb42d49e0ce458e9d24932eaec6a29a72ce9",
+        "19bff2e3bfdd23f2b93781f8e8079616bcd870ba131b5c2b722c2511f5aee58e",
+        "1528be6a0d1fba9ebe98e8333ba5d3a52af3f0bb454200f486bb65708c15e920",
+        "35e10040038fe05663e5461eae75787e9dc87c8c3f77ff05de8dfbcce099cf59",
+        "7b1e6de418b4f52828c22f9136e2579958b8cd8b10eed1f60eedc775488d681c"
+      ],
+      "topics": [
+        "rama_navami",
+        "parayana",
+        "kamba_ramayanam"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.srirama_navami.rama_navami_fasting_is_prescribed_for_adults",
+      "chapter_ordinal": 119,
+      "chapter_slug": "srirama_navami",
+      "unit_slug": "rama_navami_fasting_is_prescribed_for_adults",
+      "claim_summary": "Adults above twenty are instructed to observe a full fast on Rama Navami as part of the festival discipline.",
+      "question_intents": [
+        "What does Mahaperiyava teach about rama navami fasting is prescribed for adults?",
+        "How does Deivathin Kural explain rama navami fasting is prescribed for adults?"
+      ],
+      "source_paragraph_ids": [
+        "p017"
+      ],
+      "source_paragraph_hashes": [
+        "7e391c792f0ee042d44ef21b5c61e023e109eaafa82b39a7882d69c218614201"
+      ],
+      "topics": [
+        "rama_navami",
+        "fasting",
+        "vrata"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.srirama_navami.communal_rama_nama_procession_and_bhajan_are_prescribed",
+      "chapter_ordinal": 119,
+      "chapter_slug": "srirama_navami",
+      "unit_slug": "communal_rama_nama_procession_and_bhajan_are_prescribed",
+      "claim_summary": "The chapter proposes a village-wide Rama-nama practice in which people gather, chant, process through the village and conclude with bhajan.",
+      "question_intents": [
+        "What does Mahaperiyava teach about communal rama nama procession and bhajan are prescribed?",
+        "How does Deivathin Kural explain communal rama nama procession and bhajan are prescribed?"
+      ],
+      "source_paragraph_ids": [
+        "p018"
+      ],
+      "source_paragraph_hashes": [
+        "80a99c33e82c8bff58e86290b299bd0df68315016d61c500690839cae90fc8a4"
+      ],
+      "topics": [
+        "rama_navami",
+        "rama_nama",
+        "bhajan",
+        "community"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.srirama_navami.next_day_coronation_recitation_bhajan_and_feeding_are_prescribed",
+      "chapter_ordinal": 119,
+      "chapter_slug": "srirama_navami",
+      "unit_slug": "next_day_coronation_recitation_bhajan_and_feeding_are_prescribed",
+      "claim_summary": "The day after Rama Navami, the community is instructed to recite the coronation episode, perform bhajan and feed poor people, with Rama's coronation interpreted as shared joy for all.",
+      "question_intents": [
+        "What does Mahaperiyava teach about next day coronation recitation bhajan and feeding are prescribed?",
+        "How does Deivathin Kural explain next day coronation recitation bhajan and feeding are prescribed?"
+      ],
+      "source_paragraph_ids": [
+        "p019",
+        "p020",
+        "p021"
+      ],
+      "source_paragraph_hashes": [
+        "6fd5f5e1baa1858b1bd1764315391499cda73f1b4ab4bf0bb998323ffe7afc86",
+        "49e697e45399774eae363bdd71c5a27db639d11dd2f3578c1ce9ff5c132e7474",
+        "ca00e3dac1c18c7238d334fd7ceb467b7cab55bf590da6c9ee263d60f57b4a56"
+      ],
+      "topics": [
+        "rama_navami",
+        "pattabhisheka",
+        "bhajan",
+        "annadana"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "traditional_normative_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.srirama_navami.festival_prayer_is_directed_to_devotion_and_good_conduct_for_all",
+      "chapter_ordinal": 119,
+      "chapter_slug": "srirama_navami",
+      "unit_slug": "festival_prayer_is_directed_to_devotion_and_good_conduct_for_all",
+      "claim_summary": "The festival observance culminates in a collective prayer that devotion and good conduct take root among all people.",
+      "question_intents": [
+        "What does Mahaperiyava teach about festival prayer is directed to devotion and good conduct for all?",
+        "How does Deivathin Kural explain festival prayer is directed to devotion and good conduct for all?"
+      ],
+      "source_paragraph_ids": [
+        "p022"
+      ],
+      "source_paragraph_hashes": [
+        "d9446481e7f501669e15b6c121fbdd97d45ec82632d34f17571ee97a26579908"
+      ],
+      "topics": [
+        "rama_navami",
+        "devotion",
+        "ethical_conduct"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ayyappan.shiva_and_vishnu_are_one_paramatma_with_distinct_emphases",
+      "chapter_ordinal": 120,
+      "chapter_slug": "ayyappan",
+      "unit_slug": "shiva_and_vishnu_are_one_paramatma_with_distinct_emphases",
+      "claim_summary": "Shiva and Vishnu are presented as forms of the one Paramatman, with Shiva symbolically emphasizing knowledge and renunciation and Vishnu protection and royal splendor without denying that each contains all divine powers.",
+      "question_intents": [
+        "What does Mahaperiyava teach about shiva and vishnu are one paramatma with distinct emphases?",
+        "How does Deivathin Kural explain shiva and vishnu are one paramatma with distinct emphases?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "5f1d2b9f5b95efe1b04b2508a0c640966f0a694c38f305000d01b7a4c17b1c81",
+        "248810290d4d70a577baff63c975541b67637b6381a2638123e1fb267aeab98f",
+        "c11898c74858d2c28e731a4a236770f3856bf58a6ef29e4422e22db1608ea2b9",
+        "9e4f96ae4b1791859c782f3768047fdd6e7ee8dc78e0b83ffac87ba4665ef077"
+      ],
+      "topics": [
+        "shiva",
+        "vishnu",
+        "abheda",
+        "iconography"
+      ],
+      "flags": [
+        "religious_comparison_attributed_only",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ayyappan.ayyappa_as_harihara_son_unites_shiva_and_vishnu_qualities",
+      "chapter_ordinal": 120,
+      "chapter_slug": "ayyappan",
+      "unit_slug": "ayyappa_as_harihara_son_unites_shiva_and_vishnu_qualities",
+      "claim_summary": "The Mohini-Shiva narrative is used to present Ayyappa, also called Hariharaputra, Shasta and Ayyanar, as combining the knowledge and tapas associated with Shiva and the grace, beauty and protective power associated with Vishnu.",
+      "question_intents": [
+        "What does Mahaperiyava teach about ayyappa as harihara son unites shiva and vishnu qualities?",
+        "How does Deivathin Kural explain ayyappa as harihara son unites shiva and vishnu qualities?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "8c865228696983610ea7ed4de259cc73b9ef7a2c699e47ffc7b3b668c5606bab",
+        "b5b0979b2fdbf002282dda9ebd29b3e11cd9e6b9e443f114edb900228c9da783",
+        "6531b8661f38a985ed5d973a2cb65680b80da37e3bc4c2c1780e2f8af433205e"
+      ],
+      "topics": [
+        "ayyappa",
+        "hariharaputra",
+        "shiva",
+        "vishnu"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ayyappan.ayyappa_names_and_regional_worship_are_explained",
+      "chapter_ordinal": 120,
+      "chapter_slug": "ayyappan",
+      "unit_slug": "ayyappa_names_and_regional_worship_are_explained",
+      "claim_summary": "Names such as Arya, Ayyanar and Shasta and place-names such as Sathanur and Aryankavu are connected to the regional history and spread of Ayyappa worship in Tamil Nadu and Kerala.",
+      "question_intents": [
+        "What does Mahaperiyava teach about ayyappa names and regional worship are explained?",
+        "How does Deivathin Kural explain ayyappa names and regional worship are explained?"
+      ],
+      "source_paragraph_ids": [
+        "p008",
+        "p009",
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "46f7479457a98fd97cc789aa69b5c9b382ee5be5e79fadc84a8e60a555664e8a",
+        "d531adf1c579439861e48064297e69ffc5fd7f174cece0ca73393e35aff8c50a",
+        "c24899667a89e1741612d17e04cf037c04aed33ac0dc3c388da29db4b30865c7"
+      ],
+      "topics": [
+        "ayyappa",
+        "ayyanar",
+        "shasta",
+        "regional_worship"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "linguistic_etymology_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ayyappan.ayyappa_is_presented_as_protector_and_liberating_guide",
+      "chapter_ordinal": 120,
+      "chapter_slug": "ayyappan",
+      "unit_slug": "ayyappa_is_presented_as_protector_and_liberating_guide",
+      "claim_summary": "Ayyappa is described as a guardian who protects devotees and as combining Vishnu's preserving power with Shiva's capacity to grant liberating knowledge.",
+      "question_intents": [
+        "What does Mahaperiyava teach about ayyappa is presented as protector and liberating guide?",
+        "How does Deivathin Kural explain ayyappa is presented as protector and liberating guide?"
+      ],
+      "source_paragraph_ids": [
+        "p011"
+      ],
+      "source_paragraph_hashes": [
+        "6a8bf5d38483e835cef3a3cb2b43253c0e99a01874bbd577dc74fab6f2f9974a"
+      ],
+      "topics": [
+        "ayyappa",
+        "protection",
+        "jnana",
+        "grace"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ayyappan.modern_growth_of_ayyappa_devotion_is_contrasted_with_atheist_propaganda",
+      "chapter_ordinal": 120,
+      "chapter_slug": "ayyappan",
+      "unit_slug": "modern_growth_of_ayyappa_devotion_is_contrasted_with_atheist_propaganda",
+      "claim_summary": "The discourse describes the post-independence growth of Ayyappa devotion across regions and explicitly welcomes it as a religious counterforce to contemporary atheist propaganda.",
+      "question_intents": [
+        "What does Mahaperiyava teach about modern growth of ayyappa devotion is contrasted with atheist propaganda?",
+        "How does Deivathin Kural explain modern growth of ayyappa devotion is contrasted with atheist propaganda?"
+      ],
+      "source_paragraph_ids": [
+        "p012",
+        "p013",
+        "p014"
+      ],
+      "source_paragraph_hashes": [
+        "c411cf3c218c91540f0c8a7334a5610d91b71e6bb72a3cd6a546b2334ab0cdab",
+        "5d99a80953d97cbd3775b39a4752f8c507863d5b1dd10213204226da63b7f785",
+        "faf22dfbb611fc8f26aba7ee6281ef5ec6e0df79806de7f15dcbbca21220f818"
+      ],
+      "topics": [
+        "ayyappa",
+        "modern_india",
+        "atheism",
+        "religious_history"
+      ],
+      "flags": [
+        "political_historical_claim",
+        "political_normative_claim",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ayyappan.living_for_grace_is_linked_to_collective_welfare",
+      "chapter_ordinal": 120,
+      "chapter_slug": "ayyappan",
+      "unit_slug": "living_for_grace_is_linked_to_collective_welfare",
+      "claim_summary": "Seeking Ayyappa's grace and living so as to be worthy of it is presented as a path not only to personal good but to the welfare of country and world.",
+      "question_intents": [
+        "What does Mahaperiyava teach about living for grace is linked to collective welfare?",
+        "How does Deivathin Kural explain living for grace is linked to collective welfare?"
+      ],
+      "source_paragraph_ids": [
+        "p015"
+      ],
+      "source_paragraph_hashes": [
+        "071263c22c09c6ca8b9fa334f9118b64dbed6a7e7ed4b632f24c7fcd2785f021"
+      ],
+      "topics": [
+        "ayyappa",
+        "grace",
+        "collective_welfare"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.amarakosha_is_cited_for_swami_as_subrahmanya_name",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "amarakosha_is_cited_for_swami_as_subrahmanya_name",
+      "claim_summary": "Although Swami is commonly used for every deity, the chapter argues that Amarakosha gives the title in a special lexical sense to Subrahmanya or Kumaraswami.",
+      "question_intents": [
+        "What does Mahaperiyava teach about amarakosha is cited for swami as subrahmanya name?",
+        "How does Deivathin Kural explain amarakosha is cited for swami as subrahmanya name?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "7e96adfbb5251ec5cf588ed3269473c0df013d77296aab3bbddea375012741b0",
+        "9805af6ee52bfbc84798420c3c46f1738f7e57630de958beccb838a6d079e210",
+        "06d4b4859aae9dd09e8a804a88de85c106cc31b88fdca2fc973da550574f57b9",
+        "7f2eb3b6b26686bb7fb3fffd666d2b0d3e391c6cbf8c7b6d3d7e407d991b87d7"
+      ],
+      "topics": [
+        "subrahmanya",
+        "swami",
+        "amarakosha"
+      ],
+      "flags": [
+        "linguistic_etymology_claim_requires_external_verification",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.amarakosha_and_amarasimha_background",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "amarakosha_and_amarasimha_background",
+      "claim_summary": "The chapter introduces Amarakosha as a celebrated Sanskrit lexicon named after its author Amarasimha, describes him as a Jain scholar, and recounts literary traditions about Jain learning and texts.",
+      "question_intents": [
+        "What does Mahaperiyava teach about amarakosha and amarasimha background?",
+        "How does Deivathin Kural explain amarakosha and amarasimha background?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006",
+        "p007",
+        "p008",
+        "p009",
+        "p010",
+        "p011"
+      ],
+      "source_paragraph_hashes": [
+        "361193e0b24bc1acca42aca3efe65a44288ddc17e0610f9e7d860e020bf62ad6",
+        "fd6e1c787efe45ccd80c9e2d228ef7e95dfb59791c99b8794c64d749f831ea3c",
+        "a386e9c0d5cb4d2fc8456baf2e434a11507da92038b94a9adb172e280232d9a9",
+        "6cf905ecb0fcc1c89c7d54c3da4931482a35a14ba48c6327e7d4e04b3e33f034",
+        "f2998ab023641e0ebb049fbf484a6761285b4065a6f7235e5c4ec27a9721b081",
+        "9bf7bed203824462a2873d3a25fcbb79f955c558a0b4cf104b7c41bb4fc1b5f2",
+        "b2c267839a869144c8b1ac2e93781f81a524e57a61a717f6e2bf0542a5a99dde"
+      ],
+      "topics": [
+        "amarakosha",
+        "amarasimha",
+        "jainism",
+        "sanskrit"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "cultural_generalization",
+        "religious_comparison_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.advaita_buddhist_and_jain_positions_are_contrasted",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "advaita_buddhist_and_jain_positions_are_contrasted",
+      "claim_summary": "Advaita, Buddhist and Jain philosophical positions are contrasted in simplified terms as background to the traditional story of Shankara's debate with Amarasimha.",
+      "question_intents": [
+        "What does Mahaperiyava teach about advaita buddhist and jain positions are contrasted?",
+        "How does Deivathin Kural explain advaita buddhist and jain positions are contrasted?"
+      ],
+      "source_paragraph_ids": [
+        "p012"
+      ],
+      "source_paragraph_hashes": [
+        "ef54bc84db194fb666984f0e1961a35d69bc4dc2a4cffca4b9a07d51b4b21b01"
+      ],
+      "topics": [
+        "advaita",
+        "buddhism",
+        "jainism",
+        "philosophy"
+      ],
+      "flags": [
+        "religious_comparison_attributed_only",
+        "comparative_doctrinal_simplification",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.saraswati_secretly_aids_amarasimha_in_debate_story",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "saraswati_secretly_aids_amarasimha_in_debate_story",
+      "claim_summary": "A traditional debate narrative says Amarasimha answered Shankara from behind a curtain with the hidden aid of Saraswati, which Shankara eventually recognized.",
+      "question_intents": [
+        "What does Mahaperiyava teach about saraswati secretly aids amarasimha in debate story?",
+        "How does Deivathin Kural explain saraswati secretly aids amarasimha in debate story?"
+      ],
+      "source_paragraph_ids": [
+        "p013",
+        "p014",
+        "p015",
+        "p016",
+        "p017",
+        "p018"
+      ],
+      "source_paragraph_hashes": [
+        "456c1d7da87447014e9250274d36ae8b3eb4cc67534426b3b2e08d2ba6aa6d54",
+        "3e0336b29ed6324554e387a5ef210593e356cd04a84223a7133dfe31984bbc27",
+        "66832ad1b4f52729fdaea7b67dc8b8a59a18f4ecfdb449fb718231570028d862",
+        "5fb4dc405bfa57607bcb4a519a547087713061443fd1b1aed70790a81b51dbc4",
+        "5f9ada081b9d9ea5d5a44ddce20d3c60cf8fcb107b51da9945bd7a8dd46bb0b9",
+        "4738e76fda28fff50f25e30e674278f1e5a56ca84e68d70339fa40439a2af7a7"
+      ],
+      "topics": [
+        "amarasimha",
+        "shankara",
+        "saraswati",
+        "debate"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "historical_claim_requires_external_verification",
+        "religious_comparison_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.sincere_upasana_is_said_to_bear_fruit_even_when_used_for_a_conflicting_cause",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "sincere_upasana_is_said_to_bear_fruit_even_when_used_for_a_conflicting_cause",
+      "claim_summary": "The discourse compares Amarasimha's secret worship with examples of professed unbelievers turning to prayer in distress and uses both to claim that sincere upasana can bear fruit even when attached to an inconsistent or misguided cause.",
+      "question_intents": [
+        "What does Mahaperiyava teach about sincere upasana is said to bear fruit even when used for a conflicting cause?",
+        "How does Deivathin Kural explain sincere upasana is said to bear fruit even when used for a conflicting cause?"
+      ],
+      "source_paragraph_ids": [
+        "p019",
+        "p020"
+      ],
+      "source_paragraph_hashes": [
+        "ee818d9e856cba02bf70d72255d044002fd282d7ba7b0cb6b6ce9cc6a4a6f160",
+        "ee194589c1cb6de6a96682dbe6c81cc7fd75ebafe77388a9b64170400b48a7ab"
+      ],
+      "topics": [
+        "upasana",
+        "sincerity",
+        "amarasimha",
+        "atheism"
+      ],
+      "flags": [
+        "social_generalization",
+        "religious_generalization_attributed_only",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.shankara_asks_saraswati_to_end_her_aid_after_its_due_fruit",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "shankara_asks_saraswati_to_end_her_aid_after_its_due_fruit",
+      "claim_summary": "The story continues with Shankara asking Saraswati to withdraw once Amarasimha's devotional merit has borne its due fruit; her withdrawal leads to his defeat and is symbolically connected with Shankara clearing the 'lake of knowledge.'",
+      "question_intents": [
+        "What does Mahaperiyava teach about shankara asks saraswati to end her aid after its due fruit?",
+        "How does Deivathin Kural explain shankara asks saraswati to end her aid after its due fruit?"
+      ],
+      "source_paragraph_ids": [
+        "p021",
+        "p022",
+        "p023",
+        "p024",
+        "p025",
+        "p026",
+        "p027",
+        "p028"
+      ],
+      "source_paragraph_hashes": [
+        "ed168cab137049eb786a66fb8af15170056c542aeedf7e32530fd304b7664729",
+        "b7ed7046ab3a252c515e907b1061d861d7d4fccb99ad8a83f4a2933c58d682d0",
+        "665ee40f9af3503b6063a678e266ce5bbe4ce1540f398e8980c9d7e380a7cc85",
+        "47c8ee792fd4b6e2583100645eec96f3e4c016d868df637ebaecb4a1eccd32f3",
+        "d4cc907ca8767a134d506333f26fbd2f1793f659c3ac68f9392726e747f00802",
+        "91a26356b72f2ad798167f7a6bbe00fda5da9f8f9c8990c957bb6d2a55bb249d",
+        "a0b90063e6de4f02586bce9e4bad755df4eb846413fa2c1f34f7ba3817581b9b",
+        "29039a3836700c417a64317c5b6df09ce1266a39207ec589dd31b493bcbd74ef"
+      ],
+      "topics": [
+        "shankara",
+        "saraswati",
+        "amarasimha",
+        "knowledge"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "historical_claim_requires_external_verification",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.amarasimha_burns_his_works_after_defeat",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "amarasimha_burns_his_works_after_defeat",
+      "claim_summary": "The traditional narrative says Amarasimha began burning his own writings after accepting defeat because he no longer wished to leave doctrines he considered refuted to posterity.",
+      "question_intents": [
+        "What does Mahaperiyava teach about amarasimha burns his works after defeat?",
+        "How does Deivathin Kural explain amarasimha burns his works after defeat?"
+      ],
+      "source_paragraph_ids": [
+        "p029",
+        "p030",
+        "p032"
+      ],
+      "source_paragraph_hashes": [
+        "a707aa05e981cdc5dbc7d74cf812e63c62441b8eceac58079239fcb804c93489",
+        "e893ad7671d8b7ad6677060e08c690b24a46ad6743280f6a80a71ca61cd04a4a",
+        "21e458183fb452a3c5b8e8ed80914f8112db4a0d8cb2fd44f99fc80a78b024dd"
+      ],
+      "topics": [
+        "amarasimha",
+        "books",
+        "debate",
+        "intellectual_integrity"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.jain_impalement_story_is_recounted_as_a_traditional_polemical_claim",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "jain_impalement_story_is_recounted_as_a_traditional_polemical_claim",
+      "claim_summary": "The discourse recounts a traditional sectarian story about Jain disputants, Sambandar and self-imposed impalement to illustrate commitment to a vow; this is preserved as an attributed polemical tradition, not verified history.",
+      "question_intents": [
+        "What does Mahaperiyava teach about jain impalement story is recounted as a traditional polemical claim?",
+        "How does Deivathin Kural explain jain impalement story is recounted as a traditional polemical claim?"
+      ],
+      "source_paragraph_ids": [
+        "p031"
+      ],
+      "source_paragraph_hashes": [
+        "4411749d26d6bd5a3b40baff5211df5a5e889e113dbe32afcf8609e7a7141621"
+      ],
+      "topics": [
+        "jainism",
+        "sambandar",
+        "sectarian_history",
+        "vow"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "religious_comparison_attributed_only",
+        "context_sensitive"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.shankara_saves_amarakosha_and_defends_value_of_opposing_views",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "shankara_saves_amarakosha_and_defends_value_of_opposing_views",
+      "claim_summary": "Shankara is portrayed as stopping the destruction of Amarakosha and arguing that intelligent opposing views should be preserved because comparison and debate help clarify one's own understanding.",
+      "question_intents": [
+        "What does Mahaperiyava teach about shankara saves amarakosha and defends value of opposing views?",
+        "How does Deivathin Kural explain shankara saves amarakosha and defends value of opposing views?"
+      ],
+      "source_paragraph_ids": [
+        "p033"
+      ],
+      "source_paragraph_hashes": [
+        "bc924de0492fa8524a0a59596a8ca70c7e2ed746ff9010e0b7dc19f7e4bb43f2"
+      ],
+      "topics": [
+        "shankara",
+        "amarakosha",
+        "plural_views",
+        "debate"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "traditional_normative_claim",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.a_lexicon_should_report_terms_without_sectarian_bias",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "a_lexicon_should_report_terms_without_sectarian_bias",
+      "claim_summary": "A lexicographer is said to have the duty of recording terms according to how each tradition understands them rather than suppressing or attacking them, and Amarakosha is praised for largely following this principle.",
+      "question_intents": [
+        "What does Mahaperiyava teach about a lexicon should report terms without sectarian bias?",
+        "How does Deivathin Kural explain a lexicon should report terms without sectarian bias?"
+      ],
+      "source_paragraph_ids": [
+        "p034",
+        "p035"
+      ],
+      "source_paragraph_hashes": [
+        "c25fceca275adf9fa361d34d1a4b14e6610370b40bc963c4fb535502247f3714",
+        "e19761529b3601419d74c4b038af4ef8fe216b659df07495e0bce10106394b12"
+      ],
+      "topics": [
+        "lexicography",
+        "neutrality",
+        "amarakosha"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.verse_form_and_memorization_are_explained_as_pre_print_learning_technology",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "verse_form_and_memorization_are_explained_as_pre_print_learning_technology",
+      "claim_summary": "The verse form of Amarakosha is explained as part of a broader pre-print educational strategy: metrical composition and memorization are said to preserve knowledge and cultivate concentration and mental discipline.",
+      "question_intents": [
+        "What does Mahaperiyava teach about verse form and memorization are explained as pre print learning technology?",
+        "How does Deivathin Kural explain verse form and memorization are explained as pre print learning technology?"
+      ],
+      "source_paragraph_ids": [
+        "p036",
+        "p037"
+      ],
+      "source_paragraph_hashes": [
+        "6f4fe65b38315b1d5886cda973ca4b1f20e13b41ca1882409b8eb8efab7af8bb",
+        "d1f6f36fef376420dea1c18fc4db52b05a3ad08bdd9e9a48a921dc14d06f9a60"
+      ],
+      "topics": [
+        "memorization",
+        "oral_learning",
+        "amarakosha",
+        "education"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "psychological_generalization",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.amarakosha_deity_name_lists_are_heard_like_devotional_namavali",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "amarakosha_deity_name_lists_are_heard_like_devotional_namavali",
+      "claim_summary": "Amarakosha's lists of names for Shiva and Lakshmi are praised as so elegant and comprehensive that they sound like devotional namavali rather than merely dictionary entries.",
+      "question_intents": [
+        "What does Mahaperiyava teach about amarakosha deity name lists are heard like devotional namavali?",
+        "How does Deivathin Kural explain amarakosha deity name lists are heard like devotional namavali?"
+      ],
+      "source_paragraph_ids": [
+        "p038",
+        "p039",
+        "p040",
+        "p041",
+        "p042",
+        "p043",
+        "p044",
+        "p045",
+        "p046"
+      ],
+      "source_paragraph_hashes": [
+        "08686c3de47ad991d8561eba4b2bdbcf6d94db59d275a91e4651669708b1598a",
+        "f0c3700e27b083681cba5c4238e28e382f06fec22e030b2662d35bd8803aa825",
+        "ba27ce318a949ff5e90ff172d1e47fb2049eff61d92da021421aa12e8dfd675b",
+        "df5bd8c46f1c2f5d4fecbf7010f77e2efc4b6f405f05d459d41ad721cb3a3a76",
+        "79b16aac81f8f5cd701740aafcdb090cdcfb2f7b0d86867b875c111505ce9b17",
+        "ffe7c1c170d6e9c7c8269ed3dd255761539eae7d373a7a42e2c210c7075317e5",
+        "7b387a839d17e56fbaf42e240e5978839fe9262a65abf5723497147c4abe0c14",
+        "cc63c9a174cf980f71595303888be344202e348db94d0a28b80739277e1cdf1e",
+        "786cdb18d3b9f75bbf5481c3363035cdeacedce95efc40d3de31875fb48126c4"
+      ],
+      "topics": [
+        "amarakosha",
+        "shiva_names",
+        "lakshmi_names",
+        "namavali"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.the_chapter_attributes_buddhist_name_bias_to_amarasimha",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "the_chapter_attributes_buddhist_name_bias_to_amarasimha",
+      "claim_summary": "The chapter alleges that Amarasimha was comparatively neutral toward Hindu deity names but showed bias in assigning or omitting certain Buddhist names, interpreting this through the psychology of rivalry between close traditions.",
+      "question_intents": [
+        "What does Mahaperiyava teach about the chapter attributes buddhist name bias to amarasimha?",
+        "How does Deivathin Kural explain the chapter attributes buddhist name bias to amarasimha?"
+      ],
+      "source_paragraph_ids": [
+        "p047",
+        "p048",
+        "p049",
+        "p050"
+      ],
+      "source_paragraph_hashes": [
+        "cdf709f98128607cd2339b49cda779e8f8fc462fd0888fc7715bca39699a81a6",
+        "f0498418f353c87a5d956e5557ec08caf237710d0a3cb37334d10cd64e5a6755",
+        "1d475bb13a83de7b29a588dd9c8e9b97bb9cc0224dc7724465dbebf476184b51",
+        "95e0ba43ed1862d16badfe9e4ae2e2584d0c19e9f39cd2d6814d0b47b8a8617a"
+      ],
+      "topics": [
+        "amarakosha",
+        "buddhism",
+        "jainism",
+        "lexicography"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "religious_comparison_attributed_only",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_kumaraswamiye.amarakosha_entry_is_final_lexical_support_for_subrahmanya_as_swami",
+      "chapter_ordinal": 121,
+      "chapter_slug": "swami_endral_kumaraswamiye",
+      "unit_slug": "amarakosha_entry_is_final_lexical_support_for_subrahmanya_as_swami",
+      "claim_summary": "The argument returns to Amarakosha's Subrahmanya entry, where Swami is listed among his names, and treats that lexical evidence as support for the chapter's claim that Kumaraswami is especially entitled to the name Swami.",
+      "question_intents": [
+        "What does Mahaperiyava teach about amarakosha entry is final lexical support for subrahmanya as swami?",
+        "How does Deivathin Kural explain amarakosha entry is final lexical support for subrahmanya as swami?"
+      ],
+      "source_paragraph_ids": [
+        "p051",
+        "p052"
+      ],
+      "source_paragraph_hashes": [
+        "b7b90c3b60e741e848a96e65797b232ee68e597acf87050c59327a2655ba35ac",
+        "0361a2e92fee5b4c2399d0e97d2893ba0f3e2c351098b480805d9b2729a89867"
+      ],
+      "topics": [
+        "subrahmanya",
+        "swami",
+        "amarakosha",
+        "names"
+      ],
+      "flags": [
+        "linguistic_etymology_claim_requires_external_verification",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.arul_minnal.tirupati_associations_are_used_as_suggestive_support_for_subrahmanya_swami",
+      "chapter_ordinal": 122,
+      "chapter_slug": "arul_minnal",
+      "unit_slug": "tirupati_associations_are_used_as_suggestive_support_for_subrahmanya_swami",
+      "claim_summary": "The chapter notes traditions linking Tirupati with Subrahmanya and terms such as Balaji, Kumaradhara and Swami Pushkarini as suggestive, not exclusive, support for associating the title Swami with Kumara.",
+      "question_intents": [
+        "What does Mahaperiyava teach about tirupati associations are used as suggestive support for subrahmanya swami?",
+        "How does Deivathin Kural explain tirupati associations are used as suggestive support for subrahmanya swami?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "a5909643c53813f43d028b3a5d7e7bfe41976252f18d6fac680e7150bb827394",
+        "42614536a360c80c6af7826b19b02b608222b6af6d54a6fd65c9b647e33324d6",
+        "9772f5a3ec370240c499e6d4bf14d60184dff13261fdbc8a08a896de50cd4c93"
+      ],
+      "topics": [
+        "tirupati",
+        "subrahmanya",
+        "swami",
+        "balaji"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "linguistic_etymology_claim_requires_external_verification",
+        "religious_comparison_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.arul_minnal.lightning_is_used_as_an_analogy_for_hidden_power_becoming_manifest",
+      "chapter_ordinal": 122,
+      "chapter_slug": "arul_minnal",
+      "unit_slug": "lightning_is_used_as_an_analogy_for_hidden_power_becoming_manifest",
+      "claim_summary": "Lightning is used as a physical analogy for power that is normally unseen but becomes dramatically manifest when differentiated charges come together.",
+      "question_intents": [
+        "What does Mahaperiyava teach about lightning is used as an analogy for hidden power becoming manifest?",
+        "How does Deivathin Kural explain lightning is used as an analogy for hidden power becoming manifest?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "91ee0b70755431cfb2689a2f66c4cd82d6998babb6c61285e97687adc1b2ef73"
+      ],
+      "topics": [
+        "lightning",
+        "power",
+        "analogy"
+      ],
+      "flags": [
+        "scientific_analogy_not_literal",
+        "scientific_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.arul_minnal.shiva_shakti_reunion_is_symbolized_as_subrahmanya_grace_lightning",
+      "chapter_ordinal": 122,
+      "chapter_slug": "arul_minnal",
+      "unit_slug": "shiva_shakti_reunion_is_symbolized_as_subrahmanya_grace_lightning",
+      "claim_summary": "The separation and reunion of Shiva and Shakti are interpreted through the lightning analogy, with Subrahmanya presented as the concentrated manifestation of their united grace for the benefit of the world.",
+      "question_intents": [
+        "What does Mahaperiyava teach about shiva shakti reunion is symbolized as subrahmanya grace lightning?",
+        "How does Deivathin Kural explain shiva shakti reunion is symbolized as subrahmanya grace lightning?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "2e7e494a0160daa5aa480c386e49f419a96283856bc5c380bc89780dc3be83c8",
+        "10fdec049a4a18dd01c01a8fca7c79d5d0ab64996cd0d556ed2c4efe7f9b2e71"
+      ],
+      "topics": [
+        "shiva",
+        "shakti",
+        "subrahmanya",
+        "grace"
+      ],
+      "flags": [
+        "scientific_analogy_not_literal",
+        "traditional_scriptural_claim",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.arul_minnal.arul_minnal_is_said_to_remove_inner_darkness_and_restore_oneness",
+      "chapter_ordinal": 122,
+      "chapter_slug": "arul_minnal",
+      "unit_slug": "arul_minnal_is_said_to_remove_inner_darkness_and_restore_oneness",
+      "claim_summary": "Subrahmanya is described as an 'arul-minnal,' a flash of grace that removes inner ignorance and draws the devotee from the sense of multiplicity toward oneness.",
+      "question_intents": [
+        "What does Mahaperiyava teach about arul minnal is said to remove inner darkness and restore oneness?",
+        "How does Deivathin Kural explain arul minnal is said to remove inner darkness and restore oneness?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "2ba583c11537d877f156f370cfd8bd17b994f61c51f5c4675293cdb31878e0f0"
+      ],
+      "topics": [
+        "subrahmanya",
+        "grace",
+        "ignorance",
+        "oneness"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kumaran.arunagirinathar_presents_muruga_in_advaitic_devotion",
+      "chapter_ordinal": 123,
+      "chapter_slug": "kumaran",
+      "unit_slug": "arunagirinathar_presents_muruga_in_advaitic_devotion",
+      "claim_summary": "Arunagirinathar's Kandar Anubhuti and Tiruppugazh are read as expressing non-dual grace through devotion to Subrahmanya, including his repeated address to Muruga as Perumal.",
+      "question_intents": [
+        "What does Mahaperiyava teach about arunagirinathar presents muruga in advaitic devotion?",
+        "How does Deivathin Kural explain arunagirinathar presents muruga in advaitic devotion?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "44b1b21da16a34bcff2790cc2cefbd78204f6f0ca7bc37a82a73fa6870b3f465",
+        "31b2eb1522fadf9b6729280875590ea569779ced3b770ad854958f13dcf8ea6a"
+      ],
+      "topics": [
+        "arunagirinathar",
+        "muruga",
+        "advaita",
+        "tiruppugazh"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kumaran.muruga_is_linked_to_vishnu_through_marugan_tradition",
+      "chapter_ordinal": 123,
+      "chapter_slug": "kumaran",
+      "unit_slug": "muruga_is_linked_to_vishnu_through_marugan_tradition",
+      "claim_summary": "Tamil devotional tradition is described as relating Muruga to Vishnu through the kinship term marugan, connecting him to both Shiva's and Vishnu's families.",
+      "question_intents": [
+        "What does Mahaperiyava teach about muruga is linked to vishnu through marugan tradition?",
+        "How does Deivathin Kural explain muruga is linked to vishnu through marugan tradition?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "aecb47a90cf578c435867a0514db10176af5afbccaf811c0034c763aca073833"
+      ],
+      "topics": [
+        "muruga",
+        "vishnu",
+        "kinship",
+        "tradition"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "linguistic_etymology_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kumaran.northern_kartikeya_is_described_as_brahmachari",
+      "chapter_ordinal": 123,
+      "chapter_slug": "kumaran",
+      "unit_slug": "northern_kartikeya_is_described_as_brahmachari",
+      "claim_summary": "The chapter contrasts southern married forms of Muruga with northern traditions that emphasize Kartikeya as a brahmachari and sometimes restrict women's entry to certain shrines.",
+      "question_intents": [
+        "What does Mahaperiyava teach about northern kartikeya is described as brahmachari?",
+        "How does Deivathin Kural explain northern kartikeya is described as brahmachari?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "e97a3e2d44f336f80db2640498acee3c6dfcb3ecaa7f1be3cfef89a0c0581c47"
+      ],
+      "topics": [
+        "kartikeya",
+        "regional_tradition",
+        "brahmacharya"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kumaran.kartikeya_and_kumara_names_are_explained_through_birth_tradition",
+      "chapter_ordinal": 123,
+      "chapter_slug": "kumaran",
+      "unit_slug": "kartikeya_and_kumara_names_are_explained_through_birth_tradition",
+      "claim_summary": "Kartikeya is explained through the six Krittika mothers who nurture the child born from Shiva's sparks, while Kumara is treated as the distinctive title of the divine son.",
+      "question_intents": [
+        "What does Mahaperiyava teach about kartikeya and kumara names are explained through birth tradition?",
+        "How does Deivathin Kural explain kartikeya and kumara names are explained through birth tradition?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "7c37edb7490362b2569ecf0d18df73f9235e148a8316325ad7f365aa1f2ec27a"
+      ],
+      "topics": [
+        "kartikeya",
+        "kumara",
+        "krittika",
+        "birth_story"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "linguistic_etymology_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kumaran.ramayana_kumara_sambhava_story_is_cited_with_phalashruti",
+      "chapter_ordinal": 123,
+      "chapter_slug": "kumaran",
+      "unit_slug": "ramayana_kumara_sambhava_story_is_cited_with_phalashruti",
+      "claim_summary": "The Bala Kanda account of Skanda's birth is cited with its phalashruti promising worldly and spiritual benefits, and the phrase Kumara-sambhava is connected to Kalidasa's later poem title.",
+      "question_intents": [
+        "What does Mahaperiyava teach about ramayana kumara sambhava story is cited with phalashruti?",
+        "How does Deivathin Kural explain ramayana kumara sambhava story is cited with phalashruti?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "86a7fb2cbbb697c03b3161e6d4a9eef9cf9b44cc2ed9cc5678227b6188fe7fbe",
+        "eec0d8f828479900ec9b84dd50c218d1e91a84acd1a4616011b2515e38535a3c"
+      ],
+      "topics": [
+        "ramayana",
+        "kumara_sambhava",
+        "skanda",
+        "phalashruti"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "historical_claim_requires_external_verification",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kumaran.kaumara_is_subrahmanya_centered_member_of_shanmata",
+      "chapter_ordinal": 123,
+      "chapter_slug": "kumaran",
+      "unit_slug": "kaumara_is_subrahmanya_centered_member_of_shanmata",
+      "claim_summary": "Kaumara is identified as the Subrahmanya-centered path among the six traditional modes of deity worship known as Shanmata.",
+      "question_intents": [
+        "What does Mahaperiyava teach about kaumara is subrahmanya centered member of shanmata?",
+        "How does Deivathin Kural explain kaumara is subrahmanya centered member of shanmata?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "1e42ca4981a1a14f0a091c4d1ddb9d61fb15a5450a80d5d6fa6ae8125d7522f7"
+      ],
+      "topics": [
+        "kaumara",
+        "subrahmanya",
+        "shanmata"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kumaran.skanda_name_and_kanda_purana_are_explained",
+      "chapter_ordinal": 123,
+      "chapter_slug": "kumaran",
+      "unit_slug": "skanda_name_and_kanda_purana_are_explained",
+      "claim_summary": "The name Skanda is traditionally derived from a root meaning to spring forth or become manifest, linked to the birth from Shiva's sparks and to the Skanda/Kanda Purana tradition; the chapter closes by asking what makes Kumara the distinctive divine son.",
+      "question_intents": [
+        "What does Mahaperiyava teach about skanda name and kanda purana are explained?",
+        "How does Deivathin Kural explain skanda name and kanda purana are explained?"
+      ],
+      "source_paragraph_ids": [
+        "p009",
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "d87f95611335fa6f4932836353f5eebfffd19b347c29fbcb8d7e58a7af38da26",
+        "a91f55ba00f8c2f92eb0464da4f400d36c08dd4c40830d865c9864455fb6c2ae"
+      ],
+      "topics": [
+        "skanda",
+        "etymology",
+        "skanda_purana",
+        "kumara"
+      ],
+      "flags": [
+        "linguistic_etymology_claim_requires_external_verification",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.siva_sakthiyin_aikkiya_sthanam.ardhanarishvara_image_is_used_to_expose_the_problem_of_comparison",
+      "chapter_ordinal": 124,
+      "chapter_slug": "siva_sakthiyin_aikkiya_sthanam",
+      "unit_slug": "ardhanarishvara_image_is_used_to_expose_the_problem_of_comparison",
+      "claim_summary": "The Ardhanarishvara image is used playfully to show how the mind turns even divine unity into comparison between Shiva and Shakti; Nilakantha Dikshita's verse redirects that play toward the necessity of the Goddess's grace.",
+      "question_intents": [
+        "What does Mahaperiyava teach about ardhanarishvara image is used to expose the problem of comparison?",
+        "How does Deivathin Kural explain ardhanarishvara image is used to expose the problem of comparison?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "90b14a049228def48edc601280ac748d6729f6df62f2adb0a5360e25fc58b92c",
+        "b8f2e0b2a25c223dd067a1b714c24403da5417c2aaf2f9a4851609c76f0f8755"
+      ],
+      "topics": [
+        "ardhanarishvara",
+        "shiva",
+        "shakti",
+        "comparison"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_scriptural_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.siva_sakthiyin_aikkiya_sthanam.seek_the_indivisible_center_of_shiva_shakti_love",
+      "chapter_ordinal": 124,
+      "chapter_slug": "siva_sakthiyin_aikkiya_sthanam",
+      "unit_slug": "seek_the_indivisible_center_of_shiva_shakti_love",
+      "claim_summary": "The chapter asks where Shiva and Shakti cannot be divided into separate halves and answers by seeking the indivisible source of their love rather than comparing their visible attributes.",
+      "question_intents": [
+        "What does Mahaperiyava teach about seek the indivisible center of shiva shakti love?",
+        "How does Deivathin Kural explain seek the indivisible center of shiva shakti love?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "ccb5ec48ba75124353a671a6732da3d7ddd92790704916541dab9586635d7d90",
+        "a3407b1f51f9a8e76fc5fbc00df68556eedb0d2d66be44a5066b71ef2942a605"
+      ],
+      "topics": [
+        "shiva",
+        "shakti",
+        "love",
+        "nonduality"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.siva_sakthiyin_aikkiya_sthanam.atom_and_mind_are_used_as_analogies_for_an_indivisible_subtle_center",
+      "chapter_ordinal": 124,
+      "chapter_slug": "siva_sakthiyin_aikkiya_sthanam",
+      "unit_slug": "atom_and_mind_are_used_as_analogies_for_an_indivisible_subtle_center",
+      "claim_summary": "The atom and the unseen mind are used as analogies for an extremely subtle center that cannot meaningfully be partitioned between Shiva and Shakti; the physical comparisons are illustrative rather than scientific doctrine.",
+      "question_intents": [
+        "What does Mahaperiyava teach about atom and mind are used as analogies for an indivisible subtle center?",
+        "How does Deivathin Kural explain atom and mind are used as analogies for an indivisible subtle center?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "573b86fc8f81592b0f3b1abd8331eec2c7c8fbfb3f782ba91e8a7ea6281ebca8",
+        "7d069313b08bacdfa405e69f36e43c01e562379887d0f74bc5f6da985ba515e2",
+        "5d074cb0a1b293d21e2851a70c93943c5471d76250a8efa78145c7c6a42f1159"
+      ],
+      "topics": [
+        "atom",
+        "mind",
+        "subtlety",
+        "analogy"
+      ],
+      "flags": [
+        "scientific_analogy_not_literal",
+        "scientific_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.siva_sakthiyin_aikkiya_sthanam.meditate_on_the_divine_mind_as_pure_compassion_reached_through_kumara",
+      "chapter_ordinal": 124,
+      "chapter_slug": "siva_sakthiyin_aikkiya_sthanam",
+      "unit_slug": "meditate_on_the_divine_mind_as_pure_compassion_reached_through_kumara",
+      "claim_summary": "Instead of letting attention wander across divine iconographic details, the devotee is urged to contemplate the one compassionate mind of the divine parents, with Kumara presented as the child born of that unity who leads the seeker into it.",
+      "question_intents": [
+        "What does Mahaperiyava teach about meditate on the divine mind as pure compassion reached through kumara?",
+        "How does Deivathin Kural explain meditate on the divine mind as pure compassion reached through kumara?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "e974c86002b41ae0add3908e6647afeb2c296fea55c4771577eef6739249ad9b"
+      ],
+      "topics": [
+        "divine_mind",
+        "compassion",
+        "kumara",
+        "meditation"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.thandhaiyai_minjiya_thanayan.love_is_the_indivisible_center_of_shiva_shakti_unity",
+      "chapter_ordinal": 125,
+      "chapter_slug": "thandhaiyai_minjiya_thanayan",
+      "unit_slug": "love_is_the_indivisible_center_of_shiva_shakti_unity",
+      "claim_summary": "The indivisible center of Shiva-Shakti unity is identified with love itself, supported by a Tirumular verse and linked to Arunagirinathar's devotional realization that the mind can dissolve into love.",
+      "question_intents": [
+        "What does Mahaperiyava teach about love is the indivisible center of shiva shakti unity?",
+        "How does Deivathin Kural explain love is the indivisible center of shiva shakti unity?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "deb3e7703845ae58e14bbb140cac405667a3f34fd710914d03b25190033bd621",
+        "4533960e70a21703c3b31cd9a5e5902a46cefcc3d1e734558ea762bc42dc4a05",
+        "4234a81141b863b1e03b2ec1f2c3cc467528df9cbdf65f7774a7f7338570ac45",
+        "dfd60a6cdd6b167e1a66ef2e3aed81011c0e604b69536d91e5e17b7fd52152c8",
+        "b3332aee0575467f52e9b9bc8702ffb8f8c59d72b095ebb5ca465d8d6b6d26a4",
+        "c840c22355e03bde997198d710391e5da231b4aaae628f6625bf096f359b0b8d"
+      ],
+      "topics": [
+        "shiva",
+        "shakti",
+        "love",
+        "tirumular"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "literary_interpretation",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.thandhaiyai_minjiya_thanayan.subrahmanya_is_presented_as_embodied_union_of_parental_grace",
+      "chapter_ordinal": 125,
+      "chapter_slug": "thandhaiyai_minjiya_thanayan",
+      "unit_slug": "subrahmanya_is_presented_as_embodied_union_of_parental_grace",
+      "claim_summary": "Subrahmanya is presented as the accessible embodiment of the love and grace that arise from Shiva and Shakti's union.",
+      "question_intents": [
+        "What does Mahaperiyava teach about subrahmanya is presented as embodied union of parental grace?",
+        "How does Deivathin Kural explain subrahmanya is presented as embodied union of parental grace?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "a98e3b169274b77d8f43884d53082b07cd2645dd292e0161fda8335db96ff22c"
+      ],
+      "topics": [
+        "subrahmanya",
+        "shiva",
+        "shakti",
+        "grace"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.thandhaiyai_minjiya_thanayan.subrahmanya_surpasses_the_father_in_valor_and_knowledge_as_a_devotional_motif",
+      "chapter_ordinal": 125,
+      "chapter_slug": "thandhaiyai_minjiya_thanayan",
+      "unit_slug": "subrahmanya_surpasses_the_father_in_valor_and_knowledge_as_a_devotional_motif",
+      "claim_summary": "Subrahmanya's victory over demons and his teaching of the pranava to Shiva are used as a devotional motif in which the divine father delights in allowing the son to surpass him in valor and knowledge.",
+      "question_intents": [
+        "What does Mahaperiyava teach about subrahmanya surpasses the father in valor and knowledge as a devotional motif?",
+        "How does Deivathin Kural explain subrahmanya surpasses the father in valor and knowledge as a devotional motif?"
+      ],
+      "source_paragraph_ids": [
+        "p008",
+        "p009",
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "8f76b8a0c24e84e93a6052fde6a986e232afbf76f661f1ae5ef04f587c5b129e",
+        "3c8bde2b742a5101e905604001413d312735156cc3f0d1d410f801ce9cce7dca",
+        "dd29b6c4c77c5b9a1e1426ab5f245b4ee4a6b56f80ad7fb7c72022a0135e0b9d"
+      ],
+      "topics": [
+        "subrahmanya",
+        "swaminatha",
+        "pranava",
+        "valor"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.thandhaiyai_minjiya_thanayan.murugan_beauty_is_interpreted_as_the_radiance_of_grace",
+      "chapter_ordinal": 125,
+      "chapter_slug": "thandhaiyai_minjiya_thanayan",
+      "unit_slug": "murugan_beauty_is_interpreted_as_the_radiance_of_grace",
+      "claim_summary": "Murugan's beauty and perpetual youth are interpreted not as merely physical attractiveness but as the outward radiance of the grace born from Shiva-Shakti love.",
+      "question_intents": [
+        "What does Mahaperiyava teach about murugan beauty is interpreted as the radiance of grace?",
+        "How does Deivathin Kural explain murugan beauty is interpreted as the radiance of grace?"
+      ],
+      "source_paragraph_ids": [
+        "p011",
+        "p012",
+        "p013"
+      ],
+      "source_paragraph_hashes": [
+        "b9eb0ed9f50cf0940fb2e7125769669478d5456fab84838b5564b85fbf75ca04",
+        "e26f6898f7156267d711c5f2d15f756f4ebf4212f965b671e319b582d5eb4803",
+        "ef21ad1d1f64e1755bb1a18c9f2a71b68ff6293e31b7fa84dc975188c7b174dd"
+      ],
+      "topics": [
+        "murugan",
+        "beauty",
+        "grace",
+        "youth"
+      ],
+      "flags": [
+        "linguistic_etymology_claim_requires_external_verification",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.thandhaiyai_minjiya_thanayan.somaskanda_symbolizes_sat_chit_ananda",
+      "chapter_ordinal": 125,
+      "chapter_slug": "thandhaiyai_minjiya_thanayan",
+      "unit_slug": "somaskanda_symbolizes_sat_chit_ananda",
+      "claim_summary": "The Somaskanda form is interpreted symbolically as Sat represented by Shiva, Chit by Ambal and Ananda by Subrahmanya, placing the child between the parents as the concentrated joy of their unity.",
+      "question_intents": [
+        "What does Mahaperiyava teach about somaskanda symbolizes sat chit ananda?",
+        "How does Deivathin Kural explain somaskanda symbolizes sat chit ananda?"
+      ],
+      "source_paragraph_ids": [
+        "p014"
+      ],
+      "source_paragraph_hashes": [
+        "397f2264dde7b2bc9ba949e17bc77151c717739a46abd69c4095b968d8c59cf8"
+      ],
+      "topics": [
+        "somaskanda",
+        "sat_chit_ananda",
+        "subrahmanya",
+        "shiva_shakti"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "literary_interpretation",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    }
+  ]
+}

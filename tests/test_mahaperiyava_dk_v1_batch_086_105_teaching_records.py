@@ -363,7 +363,7 @@ def test_batch_authority_totals():
 
 
 def test_corpus_authority_totals():
-    """Corpus totals after batch and pilot reconciliation: 582 total, 549 dk_attested, 33 earlier_witness_supported."""
+    """Corpus totals after batch 106-125: 698 total, 665 dk_attested, 33 earlier_witness_supported."""
     import glob
     all_rows = []
     for f in glob.glob(str(ROOT / "data/review/mahaperiyava*teaching_records.jsonl")):
@@ -371,8 +371,8 @@ def test_corpus_authority_totals():
             if line.strip():
                 all_rows.append(json.loads(line))
     authority = Counter(r["evidence_status"]["authority"] for r in all_rows)
-    assert len(all_rows) == 582
-    assert authority["dk_attested"] == 549
+    assert len(all_rows) == 698
+    assert authority["dk_attested"] == 665
     assert authority["earlier_witness_supported"] == 33
     assert authority["dk_print_checked"] == 0
     assert authority["primary_source_verified"] == 0
