@@ -1,0 +1,197 @@
+{
+  "version": "0.2",
+  "checkpoint": "THIN_V1_RETRIEVAL_BASELINE",
+  "status": "BASELINE_RECORDED_RETRIEVAL_NOT_READY",
+  "decision": "do_not_use_as_production_answerer",
+  "scope": "Deterministic lexical/concept retrieval over curator metadata; no LLM answer generation.",
+  "quality_target": {
+    "top5_recall": 0.85,
+    "abstention_accuracy": 1.0
+  },
+  "metrics": {
+    "supported_cases": 7,
+    "top1_accuracy": 0.4286,
+    "top5_recall": 0.4286,
+    "unsupported_cases": 1,
+    "abstention_accuracy": 1.0
+  },
+  "failed_case_ids": [
+    "advaita_en",
+    "bhakti_karma_en",
+    "kamakshi_compassion_en",
+    "advaita_ta"
+  ],
+  "cases": [
+    {
+      "id": "advaita_en",
+      "query": "What does Mahaperiyava say about Advaita and nonduality?",
+      "expected_chapter": 4,
+      "expected_status": "retrieved_evidence",
+      "actual_status": "retrieved_evidence",
+      "returned_chapters": [
+        3,
+        133,
+        3,
+        109,
+        109
+      ],
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.advaita_not_egoistic_self_deification",
+        "mahaperiyava.deivathin_kural.v1.pasupati.dualistic_worship_as_stage_not_premature_nonduality",
+        "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.bhakti_needed_before_direct_nonduality",
+        "mahaperiyava.deivathin_kural.v1.karanamillatha_bhakti.devotional_heavens_are_distinguished_from_advaita_moksha",
+        "mahaperiyava.deivathin_kural.v1.karanamillatha_bhakti.jnana_as_direct_means_to_advaita_moksha"
+      ],
+      "pass": false
+    },
+    {
+      "id": "bhakti_karma_en",
+      "query": "Why should one practice bhakti, and how is God related to the results of karma?",
+      "expected_chapter": 108,
+      "expected_status": "retrieved_evidence",
+      "actual_status": "retrieved_evidence",
+      "returned_chapters": [
+        110,
+        6,
+        128,
+        131,
+        110
+      ],
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.mukthikku_munthaiya_nilaiyil_bhakti.karma_bhakti_and_jnana_as_successive_stages",
+        "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.karma_and_bhakti_as_mind_purification",
+        "mahaperiyava.deivathin_kural.v1.muruganin_vadanaattu_avataram.isvara_as_phaladata_links_karma_bhakti_and_jnana",
+        "mahaperiyava.deivathin_kural.v1.sakala_maarga_niraivaana_saravanabhavan.four_spiritual_paths_jnana_bhakti_karma_yoga",
+        "mahaperiyava.deivathin_kural.v1.mukthikku_munthaiya_nilaiyil_bhakti.do_not_abandon_practice_prematurely"
+      ],
+      "pass": false
+    },
+    {
+      "id": "siva_vishnu_en",
+      "query": "Does Mahaperiyava teach the essential unity of Shiva and Vishnu?",
+      "expected_chapter": 136,
+      "expected_status": "retrieved_evidence",
+      "actual_status": "retrieved_evidence",
+      "returned_chapters": [
+        136,
+        113,
+        136,
+        136,
+        137
+      ],
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity",
+        "mahaperiyava.deivathin_kural.v1.ishta_devathai.shiva_and_vishnu_are_presented_as_one_to_counter_sectarian_quarrel",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.simple_guna_labels_do_not_separate_shiva_vishnu",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.smarta_view_no_higher_or_lower_deity",
+        "mahaperiyava.deivathin_kural.v1.siva_mayam_sarvam_vishnumayam_jagat.one_paramatma_as_shiva_and_vishnu"
+      ],
+      "pass": true
+    },
+    {
+      "id": "kamakshi_compassion_en",
+      "query": "What does Mahaperiyava say about Kamakshi and compassion?",
+      "expected_chapter": 159,
+      "expected_status": "retrieved_evidence",
+      "actual_status": "retrieved_evidence",
+      "returned_chapters": [
+        157,
+        156,
+        162,
+        156,
+        155
+      ],
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.karuppum_sivappumana_kamakshi.red_kamakshi_as_compassionate_parashakti",
+        "mahaperiyava.deivathin_kural.v1.kamakshiyin_sivappu.kamakshis_redness_is_the_color_of_compassion",
+        "mahaperiyava.deivathin_kural.v1.kamakshiyin_kangal.kamakshi_eyes_and_brows_as_bow_of_compassion",
+        "mahaperiyava.deivathin_kural.v1.kamakshiyin_sivappu.kamakshi_turns_actionless_shiva_toward_cosmic_compassion",
+        "mahaperiyava.deivathin_kural.v1.kamakshi.kamakshi_purifies_mind_and_senses"
+      ],
+      "pass": false
+    },
+    {
+      "id": "kamakshi_eyes_en",
+      "query": "What is the significance of Kamakshi's eyes?",
+      "expected_chapter": 162,
+      "expected_status": "retrieved_evidence",
+      "actual_status": "retrieved_evidence",
+      "returned_chapters": [
+        162,
+        155,
+        157,
+        155,
+        157
+      ],
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.kamakshiyin_kangal.kamakshi_eyes_and_brows_as_bow_of_compassion",
+        "mahaperiyava.deivathin_kural.v1.kamakshi.kamakshi_purifies_mind_and_senses",
+        "mahaperiyava.deivathin_kural.v1.karuppum_sivappumana_kamakshi.red_kamakshi_as_compassionate_parashakti",
+        "mahaperiyava.deivathin_kural.v1.kamakshi.sugarcane_bow_and_flower_arrows_symbolize_mind_and_senses",
+        "mahaperiyava.deivathin_kural.v1.karuppum_sivappumana_kamakshi.saundarya_lahari_and_muka_panchashati_make_the_goddess_imaginable"
+      ],
+      "pass": true
+    },
+    {
+      "id": "siva_vishnu_ta",
+      "query": "சிவனும் விஷ்ணுவும் ஒன்றா?",
+      "expected_chapter": 136,
+      "expected_status": "retrieved_evidence",
+      "actual_status": "retrieved_evidence",
+      "returned_chapters": [
+        136,
+        136,
+        136,
+        136,
+        137
+      ],
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.simple_guna_labels_do_not_separate_shiva_vishnu",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.gunas_and_trimurti_symbolism",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.smarta_view_no_higher_or_lower_deity",
+        "mahaperiyava.deivathin_kural.v1.siva_mayam_sarvam_vishnumayam_jagat.one_paramatma_as_shiva_and_vishnu"
+      ],
+      "pass": true
+    },
+    {
+      "id": "advaita_ta",
+      "query": "அத்வைதம் என்றால் என்ன?",
+      "expected_chapter": 4,
+      "expected_status": "retrieved_evidence",
+      "actual_status": "retrieved_evidence",
+      "returned_chapters": [
+        3,
+        19,
+        3,
+        19,
+        133
+      ],
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.advaita_not_egoistic_self_deification",
+        "mahaperiyava.deivathin_kural.v1.dvaitam_bauddham_advaitam.contrast_advaita_dvaita_buddhism",
+        "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.bhakti_needed_before_direct_nonduality",
+        "mahaperiyava.deivathin_kural.v1.dvaitam_bauddham_advaitam.playful_equations_as_mnemonic",
+        "mahaperiyava.deivathin_kural.v1.pasupati.dualistic_worship_as_stage_not_premature_nonduality"
+      ],
+      "pass": false
+    },
+    {
+      "id": "unsupported_smartphone",
+      "query": "What did Mahaperiyava say about smartphones?",
+      "expected_chapter": null,
+      "expected_status": "insufficient_evidence",
+      "actual_status": "insufficient_evidence",
+      "returned_chapters": [],
+      "returned_ids": [],
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "This is a retrieval checkpoint, not a production conversational answerer.",
+    "Claim summaries are metadata, not verbatim Mahaperiyava quotations.",
+    "Tamil support is limited to a small transparent concept-alias layer.",
+    "Authority labels are displayed but do not determine relevance ranking.",
+    "Broad-topic queries can have several valid V1 chapters; the current single-target evaluation is diagnostic rather than proof that other relevant chapters are wrong."
+  ]
+}

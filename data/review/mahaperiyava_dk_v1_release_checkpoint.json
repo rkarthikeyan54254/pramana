@@ -1,0 +1,77 @@
+{
+  "version": "0.1",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "checkpoint": "V1_SEMANTIC_FRONTIER_HARDENED_NOT_PUBLICATION_APPROVED",
+  "semantic_frontier_commit": "5f73c61337f3ee4ec811637684f9412b1781ef66",
+  "counts": {
+    "teaching_records": 927,
+    "chapters": 175,
+    "dk_attested": 894,
+    "earlier_witness_supported": 33,
+    "pilot_records": 28,
+    "print_checked": 0,
+    "primary_source_verified": 0
+  },
+  "guardrails": {
+    "no_exact_source_text_in_tracked_teaching_records": true,
+    "review_only_witness_fields_excluded_from_teaching_records": true,
+    "pilot_regular_batch_disjoint": true,
+    "authority_not_auto_upgraded": true,
+    "publication_review_still_required": true
+  },
+  "acharyas_call_intake": {
+    "candidate_count": 2,
+    "target_record_count": 3,
+    "acquisition_status": "pending_local_snapshot",
+    "authority_effect": "none_until_item_level_comparison_and_snapshot"
+  },
+  "manifest_coverage": [
+    {
+      "manifest": "mahaperiyava_dk_v1_batch_066_085_curator_manifest.json",
+      "source_paragraphs": 171,
+      "covered": 171,
+      "excluded": 0,
+      "units": 110
+    },
+    {
+      "manifest": "mahaperiyava_dk_v1_batch_086_105_curator_manifest.json",
+      "source_paragraphs": 161,
+      "covered": 160,
+      "excluded": 1,
+      "units": 95
+    },
+    {
+      "manifest": "mahaperiyava_dk_v1_batch_106_125_curator_manifest.json",
+      "source_paragraphs": 262,
+      "covered": 261,
+      "excluded": 1,
+      "units": 123
+    },
+    {
+      "manifest": "mahaperiyava_dk_v1_batch_126_145_curator_manifest.json",
+      "source_paragraphs": 340,
+      "covered": 339,
+      "excluded": 1,
+      "units": 98
+    },
+    {
+      "manifest": "mahaperiyava_dk_v1_batch_146_165_curator_manifest.json",
+      "source_paragraphs": 286,
+      "covered": 284,
+      "excluded": 2,
+      "units": 100
+    },
+    {
+      "manifest": "mahaperiyava_dk_v1_batch_166_175_curator_manifest.json",
+      "source_paragraphs": 161,
+      "covered": 161,
+      "excluded": 0,
+      "units": 36
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "status": "PASS"
+}

@@ -1,0 +1,45 @@
+{
+  "version": "0.1",
+  "cases": [
+    {
+      "id": "advaita_en",
+      "query": "What does Mahaperiyava say about Advaita and nonduality?",
+      "expected_chapter": 4
+    },
+    {
+      "id": "bhakti_karma_en",
+      "query": "Why should one practice bhakti, and how is God related to the results of karma?",
+      "expected_chapter": 108
+    },
+    {
+      "id": "siva_vishnu_en",
+      "query": "Does Mahaperiyava teach the essential unity of Shiva and Vishnu?",
+      "expected_chapter": 136
+    },
+    {
+      "id": "kamakshi_compassion_en",
+      "query": "What does Mahaperiyava say about Kamakshi and compassion?",
+      "expected_chapter": 159
+    },
+    {
+      "id": "kamakshi_eyes_en",
+      "query": "What is the significance of Kamakshi's eyes?",
+      "expected_chapter": 162
+    },
+    {
+      "id": "siva_vishnu_ta",
+      "query": "சிவனும் விஷ்ணுவும் ஒன்றா?",
+      "expected_chapter": 136
+    },
+    {
+      "id": "advaita_ta",
+      "query": "அத்வைதம் என்றால் என்ன?",
+      "expected_chapter": 4
+    },
+    {
+      "id": "unsupported_smartphone",
+      "query": "What did Mahaperiyava say about smartphones?",
+      "expected_status": "insufficient_evidence"
+    }
+  ]
+}
