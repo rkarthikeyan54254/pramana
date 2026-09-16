@@ -1,0 +1,61 @@
+{
+  "version": "0.1",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "phase": "batch_086_105_pilot_witness_carryforward",
+  "status": "CURATOR_APPROVED",
+  "reason": "Chapter 100 (Alaya Vazhipadu) previously existed in the pilot corpus with claim-level historical witness support. Batch 086-105 replaces the pilot chapter with a consolidated five-unit curation. Existing curator-approved historical support must be preserved where the new unit still expresses the same supported claim. Two new units qualify. The old p003 and p004 supported pilot units are consolidated into one new p003+p004 unit, so the count of earlier_witness_supported records decreases by one without losing the evidence.",
+  "policy": {
+    "no_new_witness_research": true,
+    "carry_forward_only_existing_curator_approved_support": true,
+    "no_verbatim_claim": true,
+    "no_print_check_claim": true,
+    "no_primary_source_claim": true,
+    "candidate_witness_fields_review_only": true
+  },
+  "decisions": [
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alaya_vazhipadu.temple_as_communal_gratitude_and_offering",
+      "chapter_ordinal": 100,
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "decision": "carry_forward_earlier_witness_support",
+      "evidence_status_authority": "earlier_witness_supported",
+      "wording_status": "earlier_witness_agrees",
+      "earlier_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "witness_role": "earlier_secondary",
+        "locus": "ஆலய வணக்கம், printed p. 39 ff.; PDF pp. 54-56",
+        "snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+        "basis": "Existing pilot claim-level historical support for the same p001 teaching."
+      }
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alaya_vazhipadu.regular_attendance_sustains_temple_worship",
+      "chapter_ordinal": 100,
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "decision": "carry_forward_earlier_witness_support",
+      "evidence_status_authority": "earlier_witness_supported",
+      "wording_status": "earlier_witness_agrees",
+      "earlier_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "witness_role": "earlier_secondary",
+        "locus": "ஆலய வணக்கம், printed p. 39 ff.; PDF pp. 54-56",
+        "snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+        "basis": "The new p003+p004 unit consolidates two previously separate pilot claims, both already curator-approved as supported by this same earlier witness."
+      }
+    }
+  ],
+  "expected_post_batch_authority_counts": {
+    "total_records": 592,
+    "dk_attested": 559,
+    "earlier_witness_supported": 33,
+    "dk_print_checked": 0,
+    "primary_source_verified": 0
+  }
+}

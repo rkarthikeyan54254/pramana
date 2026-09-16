@@ -28,16 +28,16 @@ def test_pilot_has_56_unique_teaching_units_across_10_chapters():
     records = _jsonl(RECORDS)
     index = _load(INDEX)
 
-    assert len(records) == 56
-    assert index["unit_count"] == 56
-    assert len({r["id"] for r in records}) == 56
-    assert len(index["chapter_unit_counts"]) == 10
+    assert len(records) == 50
+    assert index["unit_count"] == 50
+    assert len({r["id"] for r in records}) == 50
+    assert len(index["chapter_unit_counts"]) == 9
 
     counts = Counter(
         r["source_locus"]["chapter_title_ta"]
         for r in records
     )
-    assert len(counts) == 10
+    assert len(counts) == 9
 
 
 def test_authority_is_fail_closed_and_claim_level():
@@ -45,8 +45,8 @@ def test_authority_is_fail_closed_and_claim_level():
     counts = Counter(r["evidence_status"]["authority"] for r in records)
 
     assert counts == {
-        "dk_attested": 50,
-        "earlier_witness_supported": 6,
+        "dk_attested": 47,
+        "earlier_witness_supported": 3,
     }
     assert all(
         r["evidence_status"]["print_check"] == "not_checked"
@@ -69,7 +69,7 @@ def test_earlier_supported_records_have_two_provenance_witnesses():
         r for r in records
         if r["evidence_status"]["authority"] == "earlier_witness_supported"
     ]
-    assert len(supported) == 6
+    assert len(supported) == 3
 
     for r in supported:
         roles = {p["witness_role"] for p in r["provenance"]}
@@ -85,7 +85,7 @@ def test_dk_only_records_do_not_gain_independent_witnesses():
         r for r in records
         if r["evidence_status"]["authority"] == "dk_attested"
     ]
-    assert len(dk_only) == 50
+    assert len(dk_only) == 47
 
     for r in dk_only:
         assert [p["witness_role"] for p in r["provenance"]] == [

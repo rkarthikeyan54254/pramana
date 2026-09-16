@@ -1,0 +1,3058 @@
+{
+  "version": "0.1",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "phase": "batch_086_105_teaching_units_curated",
+  "status": "CURATED_REVIEW_DATA_NOT_PUBLICATION_APPROVED",
+  "generated_at": "2026-09-16T05:45:02+00:00",
+  "source_packet": {
+    "packet_version": "1.0",
+    "private_path": "data/private/mahaperiyava_dk_v1_batch_086_105_review_packet.json",
+    "sha256": "905d6431a86ceac72c605cffb6c0510a4b4ea334445a1388accbf6bbed56cc92",
+    "generated_at": "2026-09-15T18:29:49+00:00",
+    "chapter_count": 20,
+    "paragraph_count": 161,
+    "contains_restricted_source_text": true,
+    "tracked": false
+  },
+  "policy": {
+    "no_exact_source_text_in_tracked_artifacts": true,
+    "claim_summaries_are_not_quotes": true,
+    "all_batch_authority_is_dk_attested": true,
+    "historical_witness_comparison_deferred": true,
+    "no_print_check_claimed": true,
+    "no_primary_source_verified_claimed": true,
+    "source_paragraph_accounting_policy": "at_least_once_or_explicitly_excluded",
+    "replacement_decoded_source_units_are_flagged": true,
+    "source_title_anomalies_preserved_pending_qc": true,
+    "sensitive_external_fact_claims_are_flagged": true,
+    "social_and_religious_generalizations_are_attributed_only": true,
+    "caste_varna_material_requires_contextual_answering": true,
+    "political_material_requires_source_attribution": true,
+    "violence_punishment_and_sacrifice_material_requires_context": true,
+    "human_publication_review_still_required": true,
+    "historical_witness_comparison_completed_for_promoted": false
+  },
+  "source_anomalies": [
+    {
+      "chapter_ordinal": 105,
+      "field": "title_ta",
+      "observed": "நாக மகிமை",
+      "action": "preserved_exactly_as_source_pending_source_qc",
+      "note": "Chapter body concerns nama-bhajana/nama-sankirtana; no silent title correction was made."
+    }
+  ],
+  "unit_count": 95,
+  "authority_counts": {
+    "dk_attested": 95
+  },
+  "chapter_unit_counts": {
+    "86": 9,
+    "87": 5,
+    "88": 5,
+    "89": 4,
+    "90": 5,
+    "91": 4,
+    "92": 5,
+    "93": 4,
+    "94": 3,
+    "95": 5,
+    "96": 4,
+    "97": 4,
+    "98": 5,
+    "99": 4,
+    "100": 5,
+    "101": 5,
+    "102": 5,
+    "103": 5,
+    "104": 4,
+    "105": 5
+  },
+  "flag_counts": {
+    "psychological_generalization": 17,
+    "traditional_normative_claim": 54,
+    "traditional_soteriological_claim": 30,
+    "traditional_yogic_claim": 9,
+    "traditional_scriptural_claim": 18,
+    "traditional_ritual_claim": 14,
+    "literary_interpretation": 8,
+    "religious_comparison_attributed_only": 1,
+    "cultural_generalization": 2,
+    "social_generalization": 16,
+    "causal_claim_attributed_only": 15,
+    "epistemic_claim_attributed_only": 7,
+    "linguistic_etymology_claim_requires_external_verification": 1,
+    "historical_claim_requires_external_verification": 6,
+    "scientific_claim_requires_external_verification": 3,
+    "biological_generalization_attributed_only": 1,
+    "scientific_analogy_not_literal": 2,
+    "hagiographic_tradition": 3,
+    "political_normative_claim": 2,
+    "political_historical_claim": 2,
+    "medical_or_effect_claim_attributed_only": 1
+  },
+  "source_coverage": {
+    "paragraph_count": 161,
+    "covered_paragraph_count": 160,
+    "coverage_mode": "at_least_once_or_explicitly_excluded",
+    "excluded_source_blocks": 1
+  },
+  "units": [
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.service_and_worship_benefit_the_doer",
+      "chapter_ordinal": 86,
+      "chapter_slug": "veliye_karmam_ulle_dhyanam",
+      "unit_slug": "service_and_worship_benefit_the_doer",
+      "claim_summary": "Service, worship, pilgrimage, and other outward practices are presented as benefiting the practitioner inwardly by generating fulfillment, peace, and self-transcendence even when their outward effect is uncertain.",
+      "question_intents": [
+        "Why does Mahaperiyava say service and worship ultimately help the person who performs them?",
+        "What inner benefit does he associate with selfless service and worship?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "044f82f22de23736caec509cb61a6fa17acadf86f9ccaa8860a776181c8583ec",
+        "c7abe5b2c6cb7c759607bab6734ecbf16cff80dc50b607078e9c6d493cd8ecb9",
+        "afc13ca04a89740e336afe5611013ca9bac393677b24656764758d5f807f75d2",
+        "0093b1391f0b259eafa03507d890452a77e552256dc8d52fd479957274f63fbe",
+        "073f354ca13f1a9225330d0075fa813f84986c7e4f9fd295910a17086658c905"
+      ],
+      "topics": [
+        "service",
+        "worship",
+        "inner_fulfillment"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.self_indulgence_vs_service_to_paramatman",
+      "chapter_ordinal": 86,
+      "chapter_slug": "veliye_karmam_ulle_dhyanam",
+      "unit_slug": "self_indulgence_vs_service_to_paramatman",
+      "claim_summary": "Seeking wealth, pleasure, and self-display for oneself is contrasted with serving the world as a manifestation of Paramatman, which is described as the path to genuine inner welfare.",
+      "question_intents": [
+        "How does Mahaperiyava contrast self-indulgence with service to the world?",
+        "Why does he connect service to others with service to Paramatman?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "ec705f1f49cbb277db7d12f7b26bb327edcd50dc1b978dcb322ac57e7e49d087",
+        "b02949d0efd85f373ddea097a374f5c3afeb165ad90d9c8a08c1506e22a35060",
+        "680df7dddeeac8b7b2728661df41e651a45e0695af8f27f02cb1e1d260ce8109"
+      ],
+      "topics": [
+        "service",
+        "ego",
+        "paramatman"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.all_practice_should_culminate_in_self_meditation",
+      "chapter_ordinal": 86,
+      "chapter_slug": "veliye_karmam_ulle_dhyanam",
+      "unit_slug": "all_practice_should_culminate_in_self_meditation",
+      "claim_summary": "Ritual and service are presented as preparatory disciplines whose culmination is direct meditation on the Self as none other than Paramatman.",
+      "question_intents": [
+        "What does Mahaperiyava say is the ultimate purpose of religious practices?"
+      ],
+      "source_paragraph_ids": [
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "acdfb8cc4896286d84de804b3fa8ba792d2e3ade4ad304f20edc70b0f8069ef0"
+      ],
+      "topics": [
+        "meditation",
+        "self_knowledge",
+        "ritual"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_yogic_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.samadhi_as_conscious_actionless_peace",
+      "chapter_ordinal": 86,
+      "chapter_slug": "veliye_karmam_ulle_dhyanam",
+      "unit_slug": "samadhi_as_conscious_actionless_peace",
+      "claim_summary": "Deep sleep is used as an analogy for the peace of non-action, while samadhi is distinguished as conscious, stable bliss in which inner peace remains even amid later outward activity.",
+      "question_intents": [
+        "How does Mahaperiyava distinguish samadhi from ordinary sleep?",
+        "Why does he use sleep as an analogy for actionless peace?"
+      ],
+      "source_paragraph_ids": [
+        "p010",
+        "p011",
+        "p012"
+      ],
+      "source_paragraph_hashes": [
+        "43193b1e210ddb33cc163195fb64061f21ec935527b49481d93dc725c8668794",
+        "42d6a37c8ecd5608a9bde278482c12ff4e5f8dd3bb3890225e6f5c19ff4f152b",
+        "6621548bafae00c55a4912bd7e771407408f061845eeaf0884dbeaff86cf6cad"
+      ],
+      "topics": [
+        "samadhi",
+        "sleep",
+        "meditation"
+      ],
+      "flags": [
+        "traditional_yogic_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.dakshinamurti_inner_stillness_outer_action",
+      "chapter_ordinal": 86,
+      "chapter_slug": "veliye_karmam_ulle_dhyanam",
+      "unit_slug": "dakshinamurti_inner_stillness_outer_action",
+      "claim_summary": "Dakshinamurti is presented as the model of complete inner stillness combined with unrestricted outward action, in contrast with outwardly calm but inwardly agitated conduct.",
+      "question_intents": [
+        "What lesson does Mahaperiyava draw from Dakshinamurti about inner stillness and outer action?"
+      ],
+      "source_paragraph_ids": [
+        "p013",
+        "p014"
+      ],
+      "source_paragraph_hashes": [
+        "88b49b3e967a6ef0738f1e42c1302f03bd398f5ff1460a1b7dbd08f7bc10b47f",
+        "6dcc92ae195469e7a95ffe583693146768426953b1d3578a33936191caf1069f"
+      ],
+      "topics": [
+        "dakshinamurti",
+        "inner_stillness",
+        "action"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.karma_purifies_mind_before_renunciation",
+      "chapter_ordinal": 86,
+      "chapter_slug": "veliye_karmam_ulle_dhyanam",
+      "unit_slug": "karma_purifies_mind_before_renunciation",
+      "claim_summary": "Because direct renunciation is difficult for an unpurified mind, prescribed action is presented as the practical means for reducing likes and dislikes, purifying the mind, and making meditation possible.",
+      "question_intents": [
+        "Why does Mahaperiyava put karma before renunciation or meditation?",
+        "How are prescribed actions said to purify the mind?"
+      ],
+      "source_paragraph_ids": [
+        "p015",
+        "p016"
+      ],
+      "source_paragraph_hashes": [
+        "7d21dbcc3a0d441b468ad526d67e19842bfb29a1b0a4d8a67ed8c39393f628e0",
+        "608ceb0e1d7275dcecbfdc0a3bc816ccc428fd6711f85822578b632c48a9bb76"
+      ],
+      "topics": [
+        "karma",
+        "mind_purification",
+        "renunciation"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_yogic_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.staged_path_karma_meditation_lokasangraha",
+      "chapter_ordinal": 86,
+      "chapter_slug": "veliye_karmam_ulle_dhyanam",
+      "unit_slug": "staged_path_karma_meditation_lokasangraha",
+      "claim_summary": "The spiritual path is described as a progression from disciplined action to meditation and realization, after which outward action may continue for the welfare of the world without disturbing inner peace.",
+      "question_intents": [
+        "How does Mahaperiyava reconcile karma, meditation, and work for the welfare of the world?",
+        "What sequence does he give from karma to knowledge?"
+      ],
+      "source_paragraph_ids": [
+        "p017",
+        "p018",
+        "p019"
+      ],
+      "source_paragraph_hashes": [
+        "ac645722aca83064d8b17235ed458d63d4b5377af5eae28b97f90679cc9da1b6",
+        "7150141596289934d755089d387d4000efc96a6db717694e8fa3ce1085e43e2f",
+        "55a8a58ee61266f3e2c36cd87f8edfcd8f5df26d3d942edfc4e27a921f417dea"
+      ],
+      "topics": [
+        "karma",
+        "meditation",
+        "jnana",
+        "lokasangraha"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.dakshinamurti_remembrance_aids_meditation",
+      "chapter_ordinal": 86,
+      "chapter_slug": "veliye_karmam_ulle_dhyanam",
+      "unit_slug": "dakshinamurti_remembrance_aids_meditation",
+      "claim_summary": "Daily remembrance of Dakshinamurti is recommended as a practical aid for cultivating inward peace and moving toward Self-meditation.",
+      "question_intents": [
+        "What practice does Mahaperiyava recommend for developing inner peace and meditation?"
+      ],
+      "source_paragraph_ids": [
+        "p020"
+      ],
+      "source_paragraph_hashes": [
+        "affd60fffc301d6ff5b66a6ab721d33a61d9ee9ddf4a5da78b7106b474675217"
+      ],
+      "topics": [
+        "dakshinamurti",
+        "meditation",
+        "remembrance"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_yogic_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.daily_meditation_alongside_karma",
+      "chapter_ordinal": 86,
+      "chapter_slug": "veliye_karmam_ulle_dhyanam",
+      "unit_slug": "daily_meditation_alongside_karma",
+      "claim_summary": "At the beginner stage, karma, devotion, and meditation are to be practiced together, with at least a short daily period of quiet meditation while ritual discipline continues.",
+      "question_intents": [
+        "Should one stop rituals in order to begin meditation, according to Mahaperiyava?",
+        "What daily meditation practice does he recommend for beginners?"
+      ],
+      "source_paragraph_ids": [
+        "p021",
+        "p022"
+      ],
+      "source_paragraph_hashes": [
+        "c0cde65056b53ddf2e1e4df2a3517badb7c5014215b1536a3264d2aeb723b0e1",
+        "879d1a2bafede2a436cf21c823b9b97c36e7bc4f8b47a275d6161d576bffee02"
+      ],
+      "topics": [
+        "daily_practice",
+        "karma",
+        "bhakti",
+        "meditation"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_yogic_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.seelam_undaga_vazhi.good_conduct_requires_disciplined_good_action",
+      "chapter_ordinal": 87,
+      "chapter_slug": "seelam_undaga_vazhi",
+      "unit_slug": "good_conduct_requires_disciplined_good_action",
+      "claim_summary": "Good character is presented as something cultivated through regular discipline and prescribed good actions that leave less room for harmful thoughts and conduct.",
+      "question_intents": [
+        "How does Mahaperiyava say good character is cultivated?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "def29a91e2c3c4ccef4e8220f3cabd19447e987f8fac056c6577846e77b1de85",
+        "033ecfe7f589ea3aa516fa5bc91c8d96731e3876bedc239faec16b5763546a74"
+      ],
+      "topics": [
+        "character",
+        "discipline",
+        "practice"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.seelam_undaga_vazhi.karma_as_isvara_arpana_without_ego",
+      "chapter_ordinal": 87,
+      "chapter_slug": "seelam_undaga_vazhi",
+      "unit_slug": "karma_as_isvara_arpana_without_ego",
+      "claim_summary": "Prescribed duties, worship, hospitality, and care for living beings are to be performed as offerings to Isvara rather than as achievements of the ego.",
+      "question_intents": [
+        "How should religious duties be performed without strengthening ego?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "631be3b525077701133c59d742729d0d4e6ad70a54dba4015d310b2e7caec7b4"
+      ],
+      "topics": [
+        "karma",
+        "isvara_arpana",
+        "ego"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.seelam_undaga_vazhi.mind_as_clean_steady_mirror",
+      "chapter_ordinal": 87,
+      "chapter_slug": "seelam_undaga_vazhi",
+      "unit_slug": "mind_as_clean_steady_mirror",
+      "claim_summary": "The mind is compared to a mirror that must be both clean and steady before the divine reality can be reflected clearly.",
+      "question_intents": [
+        "What does Mahaperiyava mean by comparing the mind to a mirror?"
+      ],
+      "source_paragraph_ids": [
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "57719ee8a52ba17f408de32ccf2c351f027973275853c193a41362fcfb63447c",
+        "89b433f94c1e6c328afb3df7e20c3e61037f7428e485500a044c4e2857dc99e1"
+      ],
+      "topics": [
+        "mind",
+        "purity",
+        "concentration"
+      ],
+      "flags": [
+        "traditional_yogic_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.seelam_undaga_vazhi.repeated_good_action_cleans_accumulated_tendencies",
+      "chapter_ordinal": 87,
+      "chapter_slug": "seelam_undaga_vazhi",
+      "unit_slug": "repeated_good_action_cleans_accumulated_tendencies",
+      "claim_summary": "Repeated good action is presented as the means for gradually removing accumulated mental impurity and forming good character.",
+      "question_intents": [
+        "Why does Mahaperiyava stress repeated good actions for mental purification?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "fbe69ec11bf2c9b1cda200e118ea9958634ba9f2fd0ad0b4905045bfd7b661b2"
+      ],
+      "topics": [
+        "mind_purification",
+        "karma",
+        "character"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.seelam_undaga_vazhi.practice_continues_until_mind_is_transcended",
+      "chapter_ordinal": 87,
+      "chapter_slug": "seelam_undaga_vazhi",
+      "unit_slug": "practice_continues_until_mind_is_transcended",
+      "claim_summary": "Mental purification must continue without interruption until the stage in which the mind itself is transcended and only the Self remains.",
+      "question_intents": [
+        "How long does Mahaperiyava say disciplines of purification must continue?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "cccd6f663b0e243247d533e6d13de8e000feec99850da74cfb49c77d7943859e"
+      ],
+      "topics": [
+        "mind_purification",
+        "self_knowledge",
+        "practice"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samsare_kim_saram.questioning_lifes_purpose_is_samsaras_essence",
+      "chapter_ordinal": 88,
+      "chapter_slug": "samsare_kim_saram",
+      "unit_slug": "questioning_lifes_purpose_is_samsaras_essence",
+      "claim_summary": "Repeatedly asking what human birth is for and whether life is moving toward its true purpose is presented as the one worthwhile essence to extract from samsara.",
+      "question_intents": [
+        "What does Mahaperiyava say is the 'essence' of samsara?",
+        "Why should one repeatedly ask about the purpose of birth?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "4b0593a278d5c3e2e64125d6842ea078b32cd1aaa38ba44202f45d49f193d4b5",
+        "27b972d0dd98325b3ac1cc54b87a1937b714e92c422ad748784f149c7bdd0296"
+      ],
+      "topics": [
+        "samsara",
+        "self_inquiry",
+        "purpose"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samsare_kim_saram.ripening_toward_peace_and_detachment",
+      "chapter_ordinal": 88,
+      "chapter_slug": "samsare_kim_saram",
+      "unit_slug": "ripening_toward_peace_and_detachment",
+      "claim_summary": "Human passions and attachments are compared to the sour stages of an unripe fruit that should gradually mature into sweetness, peace, love, and spontaneous detachment.",
+      "question_intents": [
+        "How does Mahaperiyava use the ripening fruit analogy for spiritual growth?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "0ce9f356a377081c984e86d55cac1950deee1ebdedc5383d9fb79db31b433318",
+        "fba042be6a680dd21e86ec093df308a12e6625e2d01069714885ca2323e59f38"
+      ],
+      "topics": [
+        "detachment",
+        "peace",
+        "spiritual_growth"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "psychological_generalization",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samsare_kim_saram.examine_arising_desire_anger_and_pride",
+      "chapter_ordinal": 88,
+      "chapter_slug": "samsare_kim_saram",
+      "unit_slug": "examine_arising_desire_anger_and_pride",
+      "claim_summary": "Even before passions can be fully overcome, one should repeatedly examine the arising of desire, anger, pride, and falsehood so that they do not operate unnoticed.",
+      "question_intents": [
+        "What does Mahaperiyava recommend when desire, anger, or pride arises?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "d87b5fa2d75bae3b67134eb3b3b648e7c4897e93d41340b40deb5fd709170952"
+      ],
+      "topics": [
+        "self_examination",
+        "desire",
+        "anger"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samsare_kim_saram.spiritual_maturity_should_not_be_forced",
+      "chapter_ordinal": 88,
+      "chapter_slug": "samsare_kim_saram",
+      "unit_slug": "spiritual_maturity_should_not_be_forced",
+      "claim_summary": "Spiritual development is described as gradual ripening; prematurely demanding immediate supreme knowledge or renunciation is criticized as an unripe shortcut rather than genuine maturity.",
+      "question_intents": [
+        "Why does Mahaperiyava warn against demanding immediate supreme knowledge?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "918fe753c7c0d01f9fe8efc58953a522354f24eaebe7d4e8908137579f296c68",
+        "2eda7c47ff2a6e4e69118874208269f8679675f74f785895a95ed93d84cbdf95"
+      ],
+      "topics": [
+        "spiritual_maturity",
+        "jnana",
+        "patience"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.samsare_kim_saram.begin_with_duty_ritual_and_external_forms",
+      "chapter_ordinal": 88,
+      "chapter_slug": "samsare_kim_saram",
+      "unit_slug": "begin_with_duty_ritual_and_external_forms",
+      "claim_summary": "The recommended starting point is faithful performance of one's duties, rituals, and religious observances, with the expectation that outward practice can mature into inward understanding over time.",
+      "question_intents": [
+        "Where does Mahaperiyava say ordinary seekers should begin their spiritual path?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "b0ea8716d27202af1f2b9324da4721bb00559ba876d024bed3f31d5d2d36d592"
+      ],
+      "topics": [
+        "dharma",
+        "ritual",
+        "spiritual_growth"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ullum_puramum.body_and_outer_practice_influence_inner_state",
+      "chapter_ordinal": 89,
+      "chapter_slug": "ullum_puramum",
+      "unit_slug": "body_and_outer_practice_influence_inner_state",
+      "claim_summary": "Religious actions, bodily disciplines, and outward signs are defended on the premise that bodily patterns and mental states influence one another.",
+      "question_intents": [
+        "Why does Mahaperiyava say outward religious practices can affect the inner life?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "3c4b8dddb21236512cb2d1145f1a6b335c8b6b1f0c5d90da569c7bd82a45af98",
+        "0adbbeb14c4e1aa5231062444fbe2f7bdfb875dab5a70cf810c3c098b6513d29",
+        "2a1f17c67664e5710c1afa01abd38ac28cd16c4c1591cee74feee61eb5e645b6"
+      ],
+      "topics": [
+        "body_mind",
+        "religious_practice",
+        "discipline"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "traditional_normative_claim",
+        "traditional_yogic_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ullum_puramum.religious_symbols_should_serve_inner_purification",
+      "chapter_ordinal": 89,
+      "chapter_slug": "ullum_puramum",
+      "unit_slug": "religious_symbols_should_serve_inner_purification",
+      "claim_summary": "Religious symbols and samskaras are said to aid inner purification when undertaken consciously for spiritual transformation rather than treated as mere external costume.",
+      "question_intents": [
+        "When do external religious symbols have spiritual value, according to Mahaperiyava?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "c7168da5beed4549b1657e9eb0d1913e3cbb9d6e8ed2dd0a4b48e92addf947a4"
+      ],
+      "topics": [
+        "religious_symbols",
+        "samskara",
+        "inner_purification"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ullum_puramum.lay_practice_can_be_purely_spiritual",
+      "chapter_ordinal": 89,
+      "chapter_slug": "ullum_puramum",
+      "unit_slug": "lay_practice_can_be_purely_spiritual",
+      "claim_summary": "Mahaperiyava contrasts his own institutional need to maintain visible religious forms with the opportunity for householders to observe them purely for inner purification.",
+      "question_intents": [
+        "How does Mahaperiyava distinguish his own institutional observances from those of householders?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "66fb4de994771c53c4fd10a1946728807199192ba0f2fb0a7df3b0c652ebce91"
+      ],
+      "topics": [
+        "religious_symbols",
+        "householder",
+        "inner_purification"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ullum_puramum.outer_discipline_should_lead_to_nondual_realization",
+      "chapter_ordinal": 89,
+      "chapter_slug": "ullum_puramum",
+      "unit_slug": "outer_discipline_should_lead_to_nondual_realization",
+      "claim_summary": "Religious signs and disciplined actions are presented as supports for good character and mental purity that should ultimately lead to meditation on and realization of the one supreme reality.",
+      "question_intents": [
+        "What is the ultimate purpose Mahaperiyava gives for external observances?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "af5d0a210198b48714a6cdc8f46e0f6af7a17f64b164e16a34371580f8f36d45"
+      ],
+      "topics": [
+        "character",
+        "meditation",
+        "nonduality"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sadangugal.ritual_needed_until_self_realization",
+      "chapter_ordinal": 90,
+      "chapter_slug": "sadangugal",
+      "unit_slug": "ritual_needed_until_self_realization",
+      "claim_summary": "Ritual is presented as unnecessary only after genuine Self-realization; before that maturity, wholesome actions and habits are said to counter accumulated harmful tendencies.",
+      "question_intents": [
+        "When does Mahaperiyava say ritual is no longer necessary?",
+        "Why does he say ordinary seekers still need ritual?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "707422d68678002375ffd35eb40b0f6fd0bcc25ffabc13bd60d2ac36b567d6a0",
+        "21a591d6e7232e315002c9e58da56c26fb36bd0c036a5b2ef404bdd104514a1d"
+      ],
+      "topics": [
+        "ritual",
+        "self_realization",
+        "vasana"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sadangugal.ritual_cultivates_concentration_and_discipline",
+      "chapter_ordinal": 90,
+      "chapter_slug": "sadangugal",
+      "unit_slug": "ritual_cultivates_concentration_and_discipline",
+      "claim_summary": "Careful observance of ritual is said to cultivate concentration, discipline, detachment, willpower, humility, and moral steadiness needed for deeper inquiry.",
+      "question_intents": [
+        "What practical qualities does Mahaperiyava say ritual can cultivate?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "20b26160bb2cb6dcbd8b6adca5ce3cc2a10a767e34687a2fb3a5c0a458b8978c",
+        "bd97d671219f9e53e1f366550f360054539392c4e3e0854b3af312af28ded766"
+      ],
+      "topics": [
+        "ritual",
+        "discipline",
+        "concentration",
+        "character"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "traditional_normative_claim",
+        "traditional_ritual_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sadangugal.sanatana_dharma_integrates_ritual_ethics_devotion_knowledge",
+      "chapter_ordinal": 90,
+      "chapter_slug": "sadangugal",
+      "unit_slug": "sanatana_dharma_integrates_ritual_ethics_devotion_knowledge",
+      "claim_summary": "Sanatana Dharma is described as integrating ritual, moral conduct, devotion, and knowledge, in contrast with portrayals of Buddhist ethics without Vedic ritual and Mimamsa ritual without emphasis on Isvara.",
+      "question_intents": [
+        "How does Mahaperiyava compare Sanatana Dharma with Buddhism and Purva Mimamsa on ritual and ethics?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "463efbb70ea8c89e1cbeddccff3482eb77b60b146e5fc35d22489772b728e0ce"
+      ],
+      "topics": [
+        "sanatana_dharma",
+        "buddhism",
+        "mimamsa",
+        "ritual"
+      ],
+      "flags": [
+        "religious_comparison_attributed_only",
+        "traditional_scriptural_claim",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sadangugal.isvara_as_moral_ideal_shapes_character",
+      "chapter_ordinal": 90,
+      "chapter_slug": "sadangugal",
+      "unit_slug": "isvara_as_moral_ideal_shapes_character",
+      "claim_summary": "Contemplating Isvara as the embodiment of auspicious qualities is presented as a way for those qualities to shape the devotee and reduce personal defects.",
+      "question_intents": [
+        "Why does Mahaperiyava say contemplation of Isvara improves character?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "56f31dfd4d62a30cb30c2da6a1a145114dba3494a5ff1d90f076d85a9447e403"
+      ],
+      "topics": [
+        "isvara",
+        "character",
+        "contemplation"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sadangugal.ritual_and_worship_prepare_for_meditation",
+      "chapter_ordinal": 90,
+      "chapter_slug": "sadangugal",
+      "unit_slug": "ritual_and_worship_prepare_for_meditation",
+      "claim_summary": "Ritual and worship are summarized as practical means for becoming morally fit and eventually entering actionless meditation and inquiry.",
+      "question_intents": [
+        "How do ritual and worship prepare a person for meditation and knowledge?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "63bcfbf48b14266b59fee8619df7bb6d91031f52004de6330ab4eb301a048952"
+      ],
+      "topics": [
+        "ritual",
+        "worship",
+        "meditation",
+        "jnana"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.yogathin_thodakkam_karmame.yoga_as_union_with_paramatman",
+      "chapter_ordinal": 91,
+      "chapter_slug": "yogathin_thodakkam_karmame",
+      "unit_slug": "yoga_as_union_with_paramatman",
+      "claim_summary": "Yoga is defined as irreversible union with the supreme source rather than merely a posture or breathing technique, with breath control treated as a means of quieting the mind at its root.",
+      "question_intents": [
+        "How does Mahaperiyava define yoga?",
+        "Why does he connect breath control with quieting the mind?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "8dd3820f2b2af7e2044e8037b13e22f5c206d8a9f3a60df85fe491e2afc53e49",
+        "51fe7278c4b3e9039dd7d6f72594b37c795d4860ce27db4005ba9ca19f8b4254"
+      ],
+      "topics": [
+        "yoga",
+        "paramatman",
+        "breath_control"
+      ],
+      "flags": [
+        "traditional_yogic_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.yogathin_thodakkam_karmame.yoga_as_separation_from_sorrow",
+      "chapter_ordinal": 91,
+      "chapter_slug": "yogathin_thodakkam_karmame",
+      "unit_slug": "yoga_as_separation_from_sorrow",
+      "claim_summary": "The Gita's description of yoga is interpreted as separation from sorrow, with all experience grounded in separation from Paramatman characterized as belonging to the domain of sorrow.",
+      "question_intents": [
+        "What does Mahaperiyava mean by yoga as separation from sorrow?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "edf851eed2eb4c28111d5f9273d8de2fcccae674b50626be7e4bb8c2097c1f94",
+        "026ac94f48a9cf3d79b3a8104b4ddc4ecd1b2b4a5ec4c428dea506eaed1c5f70"
+      ],
+      "topics": [
+        "yoga",
+        "sorrow",
+        "gita"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.yogathin_thodakkam_karmame.good_action_trains_the_wandering_mind",
+      "chapter_ordinal": 91,
+      "chapter_slug": "yogathin_thodakkam_karmame",
+      "unit_slug": "good_action_trains_the_wandering_mind",
+      "claim_summary": "Rather than forcibly suppressing a restless mind, sustained engagement in worthy action is presented as a practical way to narrow distraction and develop concentration.",
+      "question_intents": [
+        "Why does Mahaperiyava recommend good action before advanced yogic control?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "cce4efad97cc61ec8195411c5a92c51028bbb9b450678b7ee92c3d8925f27855",
+        "c08b7360d277a90819a8d8fb368179caf511a2a5e7d1d9291df0b65a4198534b"
+      ],
+      "topics": [
+        "mind",
+        "concentration",
+        "good_action"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.yogathin_thodakkam_karmame.karma_is_the_starting_point_for_yoga",
+      "chapter_ordinal": 91,
+      "chapter_slug": "yogathin_thodakkam_karmame",
+      "unit_slug": "karma_is_the_starting_point_for_yoga",
+      "claim_summary": "Large disciplined undertakings are described as training the mind through perseverance, after which meditation and breath practices become more suitable; karma is therefore presented as the ordinary starting point for yoga.",
+      "question_intents": [
+        "How does Mahaperiyava connect karma with the beginning of yoga?"
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "19e89586cc5aeac92c282199cdcfcd4dd1d69f16ea63cf1be2059420ef023826",
+        "4ebd4b8e8d9fc3bce07fa7823c982f77ca69ab7c70c14e67bdc42f1c494ca091"
+      ],
+      "topics": [
+        "karma",
+        "yoga",
+        "mind_purification"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_yogic_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karma_yogam.harsh_action_can_be_dharmic_without_desire_or_hatred",
+      "chapter_ordinal": 92,
+      "chapter_slug": "karma_yogam",
+      "unit_slug": "harsh_action_can_be_dharmic_without_desire_or_hatred",
+      "claim_summary": "Using the Gita's battlefield setting, Mahaperiyava argues that an outwardly harsh action need not be sinful when it is performed without personal desire or hatred and for a larger conception of welfare.",
+      "question_intents": [
+        "How does Mahaperiyava explain the Gita's treatment of harsh or violent duty?",
+        "What role do desire and hatred play in his account of sin and duty?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "9cb27a6462f6cb8aa9cd3a5fd7c3aceeeb7d5cd999d36c761feef2c0399c3b21",
+        "2c29af50ce70cb470114f120ecd87f62562b517365a18ef9cc6cc488ff6ffb7d"
+      ],
+      "topics": [
+        "gita",
+        "duty",
+        "violence",
+        "motivation"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_scriptural_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karma_yogam.shastra_as_standard_for_duty",
+      "chapter_ordinal": 92,
+      "chapter_slug": "karma_yogam",
+      "unit_slug": "shastra_as_standard_for_duty",
+      "claim_summary": "The Gita is read as teaching that scripture, rather than private preference, should be the standard for deciding what ought and ought not to be done.",
+      "question_intents": [
+        "What authority does Mahaperiyava say should determine right action?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "1898726cfc7baf16568b66a24b23502bd3801595e6351294478e81f37a4ceb01",
+        "0498d7eecb611db460eb8b090d5e29d99b141db28b9b71296343fc2e97038605"
+      ],
+      "topics": [
+        "shastra",
+        "dharma",
+        "gita"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karma_yogam.freedom_from_likes_and_dislikes_makes_duty_joyful",
+      "chapter_ordinal": 92,
+      "chapter_slug": "karma_yogam",
+      "unit_slug": "freedom_from_likes_and_dislikes_makes_duty_joyful",
+      "claim_summary": "When personal likes and dislikes are removed, duty is described as something that can be performed with love and inner ease rather than resentment.",
+      "question_intents": [
+        "How does freedom from likes and dislikes affect the performance of duty?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "9a1494d77f509424b4a7c6f282852939c6bd36ff6579cfa5f208927651e2fd4a"
+      ],
+      "topics": [
+        "duty",
+        "likes_dislikes",
+        "equanimity"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karma_yogam.karma_yoga_is_egoless_duty_and_offering_of_fruits",
+      "chapter_ordinal": 92,
+      "chapter_slug": "karma_yogam",
+      "unit_slug": "karma_yoga_is_egoless_duty_and_offering_of_fruits",
+      "claim_summary": "Karma yoga is defined as performing one's duty without egoistic ownership, for the welfare of the world, and offering the results to Isvara so that action becomes a means of purification.",
+      "question_intents": [
+        "How does Mahaperiyava define karma yoga?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "3ae7258a87cd57556bc16052758bfc37f70fa02fcc914b2f022c10de8f7ba007"
+      ],
+      "topics": [
+        "karma_yoga",
+        "isvara_arpana",
+        "ego",
+        "lokasangraha"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karma_yogam.scrutinize_motives_in_every_action",
+      "chapter_ordinal": 92,
+      "chapter_slug": "karma_yogam",
+      "unit_slug": "scrutinize_motives_in_every_action",
+      "claim_summary": "Every action is to be examined for self-interest, desire, hatred, fame, and partiality; purified motives and disciplined duty are presented as conducive to social harmony.",
+      "question_intents": [
+        "What motives does Mahaperiyava say should be examined before acting?",
+        "How does he connect purified duty with social harmony?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "51c6529822c71c3994b453a6660192a5d8a780c5baac07b34fe749409820940d"
+      ],
+      "topics": [
+        "self_examination",
+        "motivation",
+        "social_harmony"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami.ordered_creation_points_to_intelligent_cause",
+      "chapter_ordinal": 93,
+      "chapter_slug": "swami",
+      "unit_slug": "ordered_creation_points_to_intelligent_cause",
+      "claim_summary": "The order, regularity, and purposive structure perceived in the universe are used as an argument for an intelligent creator or governing power.",
+      "question_intents": [
+        "How does Mahaperiyava argue from the order of the universe to the existence of a creator?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "80d18dc3bc1a4234280346c054e47ecc8c4fa2976ab0fdde36599cba4d9dbe22",
+        "e23c78c5c35dd8e367a106e5d983f12eccce7812d1134d28b167946a94cb0263",
+        "d42058aec50eb48f2bdef42d0b3f21fd285d52efcdbf5243e8eaf4c02f4899c8",
+        "c8c6e37ab64a18abd30ca90fb83556d960336601ada95fa90654049fc227a8bd",
+        "ccfac5ed6056ac738ac820bf1e061a4deb1b8c8c8f0a410e0a5eb48b719c1862"
+      ],
+      "topics": [
+        "creation",
+        "isvara",
+        "order"
+      ],
+      "flags": [
+        "epistemic_claim_attributed_only",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami.creator_is_intelligent_and_compassionate",
+      "chapter_ordinal": 93,
+      "chapter_slug": "swami",
+      "unit_slug": "creator_is_intelligent_and_compassionate",
+      "claim_summary": "The creator is described not only as the supreme intelligence behind the universe but also as compassionate and responsive to prayer.",
+      "question_intents": [
+        "What qualities does Mahaperiyava attribute to the creator besides intelligence?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "87f7a1157418f5c9eaa90d38ffef6db60d337959f55d79ef4f13948dfea0fdcb",
+        "f21018fc0da211bad823d53f9ed4f17ecfb503333f6c5390b89915b176fe5827"
+      ],
+      "topics": [
+        "isvara",
+        "compassion",
+        "prayer"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami.creation_and_human_intelligence_as_divine_traces",
+      "chapter_ordinal": 93,
+      "chapter_slug": "swami",
+      "unit_slug": "creation_and_human_intelligence_as_divine_traces",
+      "claim_summary": "Human intelligence and the patterned details of natural things are treated as traces by which the hidden divine source may be inferred.",
+      "question_intents": [
+        "What signs does Mahaperiyava say point toward the hidden divine source?"
+      ],
+      "source_paragraph_ids": [
+        "p008",
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "12c5d5dd1ebebe5a5440e6f590be9db3081241a0fec0cd53d23661f2162ea0a5",
+        "3fef6120fbceaf45f0f062c168e4b9467fdf47a136f23644a4310bac5d9ec4fd"
+      ],
+      "topics": [
+        "isvara",
+        "nature",
+        "human_intelligence"
+      ],
+      "flags": [
+        "epistemic_claim_attributed_only",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami.divine_hidden_in_the_heart_and_sought_through_bhakti",
+      "chapter_ordinal": 93,
+      "chapter_slug": "swami",
+      "unit_slug": "divine_hidden_in_the_heart_and_sought_through_bhakti",
+      "claim_summary": "The divine is said to remain hidden in the heart while manifesting wonders outside, and bhakti is described as the search for that hidden source.",
+      "question_intents": [
+        "Where does Mahaperiyava say the divine is hidden, and what does he call the search for it?"
+      ],
+      "source_paragraph_ids": [
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "28fc91ab767ff16553ae0a950e657d7b266af3f4ddb477b04ee367a050def35d"
+      ],
+      "topics": [
+        "heart",
+        "bhakti",
+        "isvara"
+      ],
+      "flags": [
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_enna.swami_means_owner_or_udaiyar",
+      "chapter_ordinal": 94,
+      "chapter_slug": "swami_endral_enna",
+      "unit_slug": "swami_means_owner_or_udaiyar",
+      "claim_summary": "The word 'Swami' is explained as meaning the owner of property, with 'Udaiyar' presented as its Tamil equivalent and historical temple usage cited in support.",
+      "question_intents": [
+        "What meaning does Mahaperiyava give to the word 'Swami'?",
+        "Why does he connect 'Swami' with the Tamil word 'Udaiyar'?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "430318e072f4a688c8fc46682b31103d0c36d4ac718af31101ff2834d8c8243b",
+        "c66721131f43a559ded9d7fcc265c0559b94485cb92f943b93bd8441769fe9fa"
+      ],
+      "topics": [
+        "swami",
+        "etymology",
+        "temple_history"
+      ],
+      "flags": [
+        "linguistic_etymology_claim_requires_external_verification",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_enna.all_creation_and_persons_belong_to_swami",
+      "chapter_ordinal": 94,
+      "chapter_slug": "swami_endral_enna",
+      "unit_slug": "all_creation_and_persons_belong_to_swami",
+      "claim_summary": "All of creation, including human beings and the materials from which human artifacts are made, is presented as belonging ultimately to the divine owner.",
+      "question_intents": [
+        "What does Mahaperiyava mean when he says everything belongs to Swami?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "0c8d186b5d8e363aa5c4b9b8eafe0bc1664b72bf52be838b854275cb7fb90611",
+        "cb77bccd19a715fff307e5dcd996184ba72145d09254fa6c9c6d697305926bf7"
+      ],
+      "topics": [
+        "swami",
+        "creation",
+        "ownership"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "scientific_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.swami_endral_enna.surrender_follows_from_divine_ownership",
+      "chapter_ordinal": 94,
+      "chapter_slug": "swami_endral_enna",
+      "unit_slug": "surrender_follows_from_divine_ownership",
+      "claim_summary": "If the individual accepts being the divine owner's possession rather than an independent proprietor, surrender is described as relinquishing personal claims, likes, dislikes, and anxiety.",
+      "question_intents": [
+        "How does Mahaperiyava derive surrender from the meaning of 'Swami'?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "ea8466279dbac45ef847f2306024ea1e161323a8e741f3ca447cfa1b0f443edb",
+        "0a1af53372743389027ffc6ffeb6338cb6f6bb14f4190ed4437f1e786af6c8c2"
+      ],
+      "topics": [
+        "surrender",
+        "swami",
+        "ego"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.iyarkai_kattum_isvara_tattuvam.gradations_of_power_point_to_supreme_source",
+      "chapter_ordinal": 95,
+      "chapter_slug": "iyarkai_kattum_isvara_tattuvam",
+      "unit_slug": "gradations_of_power_point_to_supreme_source",
+      "claim_summary": "Perceived gradations of physical strength and intelligence in nature are used to infer a supreme source in which power and intelligence are complete.",
+      "question_intents": [
+        "How does Mahaperiyava use gradations of strength and intelligence to argue for Isvara?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "10718c6b5511ca4008d1a40f97c7ca5e4725e4407cd62e429d0c6382b1f0b8d4",
+        "2776c3f70e9b702f35060a34f17bdc40071113a0b48d36936f53232d91e50542",
+        "a29a092f981797b2e94c82aeef0c6fd17a026da804b77cdd38469cf01e6c73b1",
+        "8a0ea9ab7db9b5923ac50c03aed017575a108c3ff415df4a4a491d033dbe9fd9",
+        "a9f6f965168fec68e05654d83db2177446444c186787a2f03226a53cd1f522be",
+        "6b177880f7b2454a8f33354e8303622fe9412b3dbe602d94068b55a7b0f52c04"
+      ],
+      "topics": [
+        "isvara",
+        "power",
+        "intelligence",
+        "nature"
+      ],
+      "flags": [
+        "biological_generalization_attributed_only",
+        "epistemic_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.iyarkai_kattum_isvara_tattuvam.opposites_in_nature_point_to_transcendent_peace",
+      "chapter_ordinal": 95,
+      "chapter_slug": "iyarkai_kattum_isvara_tattuvam",
+      "unit_slug": "opposites_in_nature_point_to_transcendent_peace",
+      "claim_summary": "Pairs of opposites in nature are used analogically to infer a reality opposite to the restless, dissatisfied human mind: a state of complete peace and contentment identified with the divine.",
+      "question_intents": [
+        "How does Mahaperiyava use pairs of opposites in nature to describe the divine?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "e0e37066474360feebb734809bf86422d0fa3397ed7d2d069818014d7a4d59c1"
+      ],
+      "topics": [
+        "nature",
+        "peace",
+        "isvara"
+      ],
+      "flags": [
+        "scientific_analogy_not_literal",
+        "psychological_generalization",
+        "epistemic_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.iyarkai_kattum_isvara_tattuvam.change_points_to_unchanging_reality",
+      "chapter_ordinal": 95,
+      "chapter_slug": "iyarkai_kattum_isvara_tattuvam",
+      "unit_slug": "change_points_to_unchanging_reality",
+      "claim_summary": "Because everything observed in nature is described as changing, Mahaperiyava infers an unchanging reality beyond change and identifies it with the divine.",
+      "question_intents": [
+        "How does Mahaperiyava reason from change in nature to an unchanging reality?"
+      ],
+      "source_paragraph_ids": [
+        "p008",
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "5d214146fc236571af5aad495387995ac951270a9b3df28590c5a8d92b112887",
+        "f93032a07d8b3db732062f8a39db38bf6c343597fc83ececf5b4e77809c7b647"
+      ],
+      "topics": [
+        "change",
+        "unchanging_reality",
+        "isvara"
+      ],
+      "flags": [
+        "epistemic_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.iyarkai_kattum_isvara_tattuvam.worship_of_fullness_removes_deficiency",
+      "chapter_ordinal": 95,
+      "chapter_slug": "iyarkai_kattum_isvara_tattuvam",
+      "unit_slug": "worship_of_fullness_removes_deficiency",
+      "claim_summary": "Paramatman is portrayed as complete in power, knowledge, compassion, and freedom from need; worship is said to fill the seeker's deficiencies through divine grace.",
+      "question_intents": [
+        "Why does Mahaperiyava say one should worship Paramatman?"
+      ],
+      "source_paragraph_ids": [
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "bc3f5df45eac8be8939f88f5f8c87181822a7ec6e20febea486a2d5faabee169"
+      ],
+      "topics": [
+        "paramatman",
+        "worship",
+        "grace"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.iyarkai_kattum_isvara_tattuvam.final_fulfillment_is_freedom_from_need_and_nonduality",
+      "chapter_ordinal": 95,
+      "chapter_slug": "iyarkai_kattum_isvara_tattuvam",
+      "unit_slug": "final_fulfillment_is_freedom_from_need_and_nonduality",
+      "claim_summary": "The culmination of grace is described as freedom from all felt need and eventual identity with the fullness that had been worshipped as higher than oneself.",
+      "question_intents": [
+        "What final state does Mahaperiyava say divine grace leads toward?"
+      ],
+      "source_paragraph_ids": [
+        "p011"
+      ],
+      "source_paragraph_hashes": [
+        "ea193f559ed8c88f4706003c859eda4791328cd2db689c5a8e2b392896a4f014"
+      ],
+      "topics": [
+        "fulfillment",
+        "nonduality",
+        "grace"
+      ],
+      "flags": [
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karmamum_bhaktiyum.sopanapanchakam_begins_with_daily_duty_as_worship",
+      "chapter_ordinal": 96,
+      "chapter_slug": "karmamum_bhaktiyum",
+      "unit_slug": "sopanapanchakam_begins_with_daily_duty_as_worship",
+      "claim_summary": "Mahaperiyava presents the opening of Sopanapanchakam as teaching daily adherence to Vedic duty, performed as worship and without choosing actions merely by personal preference.",
+      "question_intents": [
+        "What practical beginning does Mahaperiyava draw from Sopanapanchakam?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "6613dc505249f107164ff02a7acf0849260f5820fcee8f59ef4d1b400618d207",
+        "1a3c84b000ee5fed761c1b8956fc31a8e48a5d44c28ea3a140e9771c8be523fb"
+      ],
+      "topics": [
+        "sopanapanchakam",
+        "duty",
+        "worship"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karmamum_bhaktiyum.karma_and_bhakti_should_not_be_set_against_each_other",
+      "chapter_ordinal": 96,
+      "chapter_slug": "karmamum_bhaktiyum",
+      "unit_slug": "karma_and_bhakti_should_not_be_set_against_each_other",
+      "claim_summary": "Practitioners of ritual duty and practitioners of devotional worship are warned against looking down on one another; both dimensions are treated as necessary in ordinary spiritual life.",
+      "question_intents": [
+        "How does Mahaperiyava address the tension between karma and bhakti practitioners?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "91b57b7d768273d356f1e203ad547255377c77e2690c86176ff36436e379cc0c"
+      ],
+      "topics": [
+        "karma",
+        "bhakti",
+        "religious_practice"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karmamum_bhaktiyum.karma_should_mature_into_isvara_puja",
+      "chapter_ordinal": 96,
+      "chapter_slug": "karmamum_bhaktiyum",
+      "unit_slug": "karma_should_mature_into_isvara_puja",
+      "claim_summary": "The higher ideal is to perform action itself as an offering to Isvara, while recognizing that beginners may need separate periods of duty and devotion before such integration becomes natural.",
+      "question_intents": [
+        "How does Mahaperiyava say karma can become worship?",
+        "Why might beginners need separate karma and bhakti practices?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "68d7f6649b9dd55a94759c978cd159d1f8b8365104fd9013c66f26bd43a47233"
+      ],
+      "topics": [
+        "karma",
+        "isvara_puja",
+        "bhakti"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.karmamum_bhaktiyum.duty_with_devotion_serves_divine_family",
+      "chapter_ordinal": 96,
+      "chapter_slug": "karmamum_bhaktiyum",
+      "unit_slug": "duty_with_devotion_serves_divine_family",
+      "claim_summary": "Duty performed with the sense that society is God's family is presented as more complete than either loveless action or praise without service, and separate worship is recommended to cultivate this devotional attitude.",
+      "question_intents": [
+        "Why does Mahaperiyava say duty should be performed with devotion?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "c4b7c0bf47918c2910404a59fb61c2175dfb32672e928893512420dc7b496448"
+      ],
+      "topics": [
+        "duty",
+        "bhakti",
+        "social_harmony",
+        "service"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.uruvamum_aruvamum.reality_need_not_be_available_to_all_senses",
+      "chapter_ordinal": 97,
+      "chapter_slug": "uruvamum_aruvamum",
+      "unit_slug": "reality_need_not_be_available_to_all_senses",
+      "claim_summary": "Different sense objects are used to argue that something need not be accessible to every sense in order to be accepted as real.",
+      "question_intents": [
+        "How does Mahaperiyava respond to the idea that only what can be seen is real?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "fea5adebb9e2521ec1acb26eac32655b94cb3faa54c254ed713c3b878778c997"
+      ],
+      "topics": [
+        "senses",
+        "epistemology",
+        "reality"
+      ],
+      "flags": [
+        "epistemic_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.uruvamum_aruvamum.divine_beyond_senses_yet_immanent",
+      "chapter_ordinal": 97,
+      "chapter_slug": "uruvamum_aruvamum",
+      "unit_slug": "divine_beyond_senses_yet_immanent",
+      "claim_summary": "The divine is compared to pervasive but unseen physical forces and described as the source that governs the senses rather than an object that must itself be captured by them.",
+      "question_intents": [
+        "Why does Mahaperiyava say God cannot be known by the senses in the ordinary way?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "c0d24137df995b9018c4df06f5bd379f30f796c51cf731981939efa54bd2e897"
+      ],
+      "topics": [
+        "isvara",
+        "senses",
+        "immanence"
+      ],
+      "flags": [
+        "scientific_analogy_not_literal",
+        "scientific_claim_requires_external_verification",
+        "epistemic_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.uruvamum_aruvamum.formless_divine_takes_form_for_devotees",
+      "chapter_ordinal": 97,
+      "chapter_slug": "uruvamum_aruvamum",
+      "unit_slug": "formless_divine_takes_form_for_devotees",
+      "claim_summary": "Although ultimately formless, the divine is said to assume perceptible forms out of compassion for devotees who sincerely seek direct experience.",
+      "question_intents": [
+        "How does Mahaperiyava reconcile a formless God with divine forms?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "ed60e0b69d06ab472dd7907e3562ae05c379bf0f9e06078045fdf32a876c23ca"
+      ],
+      "topics": [
+        "formless",
+        "divine_form",
+        "bhakti"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.uruvamum_aruvamum.realized_devotee_benefits_others_through_presence",
+      "chapter_ordinal": 97,
+      "chapter_slug": "uruvamum_aruvamum",
+      "unit_slug": "realized_devotee_benefits_others_through_presence",
+      "claim_summary": "Intense devotion is presented as a path to realization of the formless, and the presence of a realized devotee is said to bring peace and consolation to others.",
+      "question_intents": [
+        "What benefit does Mahaperiyava say a realized devotee brings to other people?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "22bec1a7a864e67003cec9118c47c234bf0efac6d246236da8acdd7efb203063"
+      ],
+      "topics": [
+        "realization",
+        "devotee",
+        "peace"
+      ],
+      "flags": [
+        "causal_claim_attributed_only",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.isvaran.jnani_abides_in_brahman_beyond_action",
+      "chapter_ordinal": 98,
+      "chapter_slug": "isvaran",
+      "unit_slug": "jnani_abides_in_brahman_beyond_action",
+      "claim_summary": "The jnani is described as seeing only the one Paramatman behind appearances and therefore as abiding beyond the ordinary world of action.",
+      "question_intents": [
+        "How does Mahaperiyava describe the standpoint of a jnani?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "62aba112d2339dae4e370275ff458c25d2b2da4745b0bc9018fe8056fe220e8c"
+      ],
+      "topics": [
+        "jnani",
+        "brahman",
+        "nonduality"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.isvaran.same_brahman_appears_as_active_isvara",
+      "chapter_ordinal": 98,
+      "chapter_slug": "isvaran",
+      "unit_slug": "same_brahman_appears_as_active_isvara",
+      "claim_summary": "The actionless Brahman and the Isvara who governs the world are presented as the same reality viewed in different modes, illustrated through Shiva as both silent Dakshinamurti and active deity.",
+      "question_intents": [
+        "How does Mahaperiyava relate Brahman and Isvara?"
+      ],
+      "source_paragraph_ids": [
+        "p002",
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "ac97ad2dcb9028db8125dd0feb5df8699cfac2d3bdf9d26882139d01aaa216a6",
+        "a8685e174f1d41b2ee7e3ed8cb749dd849c38073e7db7d6e5cc4d91b52d889e0",
+        "ef0b94642ac13deaad3fb5a6cee5061ae2f6cc180f08b5f5eb8e160635cd81d1",
+        "2d12b4a18d88263e8b4d3eded8952dccae8c3eb3800809c83432b054b9c6306d"
+      ],
+      "topics": [
+        "brahman",
+        "isvara",
+        "shiva"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.isvaran.isvara_bridges_worldly_and_jnani_perspectives",
+      "chapter_ordinal": 98,
+      "chapter_slug": "isvaran",
+      "unit_slug": "isvara_bridges_worldly_and_jnani_perspectives",
+      "claim_summary": "Isvara is portrayed as standing between the world-bound perspective and the jnani's transcendent perspective, comprehending both.",
+      "question_intents": [
+        "What does Mahaperiyava mean by describing Isvara as 'tatastha' between the world and the jnani?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "af557505d56b2ce025a45f2b039dc36490b46e04a7dd4485f6cb2c8fe0ece8e5"
+      ],
+      "topics": [
+        "isvara",
+        "jnani",
+        "world"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.isvaran.shiva_lila_illustrates_nonduality_and_difference",
+      "chapter_ordinal": 98,
+      "chapter_slug": "isvaran",
+      "unit_slug": "shiva_lila_illustrates_nonduality_and_difference",
+      "claim_summary": "A Shiva lila is used humorously to explore how the divine can be all beings in nondual truth while still appearing to act within distinctions at the level of worldly experience.",
+      "question_intents": [
+        "How does Mahaperiyava use the story of Shiva carrying earth for pittu to illustrate nonduality?"
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "503d25900a35b14f78dd9b5a645bb705063fbe71a7b895ca7272797bbf440fa6",
+        "a520de68cd0741236bec5c5d9b72ff31944f81c81bb1c9bacfa67c26aba74620"
+      ],
+      "topics": [
+        "shiva",
+        "lila",
+        "nonduality"
+      ],
+      "flags": [
+        "hagiographic_tradition",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.isvaran.five_divine_acts_and_grace",
+      "chapter_ordinal": 98,
+      "chapter_slug": "isvaran",
+      "unit_slug": "five_divine_acts_and_grace",
+      "claim_summary": "The five divine acts are described as creation, preservation, dissolution, concealment, and grace, with grace presented as the act that releases beings from maya and enables nondual realization.",
+      "question_intents": [
+        "What are the five divine acts Mahaperiyava describes?",
+        "Why is anugraha especially important in his account?"
+      ],
+      "source_paragraph_ids": [
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "03d4732ac6c7ff8baac9aa1229df8f548944633065cadd6cbaebcd839e3ef242"
+      ],
+      "topics": [
+        "pancha_kritya",
+        "grace",
+        "maya",
+        "nonduality"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.murti_vazhipadum_mutriya_jnanam.upasana_makes_attributeless_reality_mentally_accessible",
+      "chapter_ordinal": 99,
+      "chapter_slug": "murti_vazhipadum_mutriya_jnanam",
+      "unit_slug": "upasana_makes_attributeless_reality_mentally_accessible",
+      "claim_summary": "Upasana is explained as disciplined contemplation of divine forms and qualities so that the mind can relate to an otherwise attributeless and formless ultimate reality.",
+      "question_intents": [
+        "Why does Mahaperiyava say forms and qualities are useful in upasana?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "e410001a18d56ecd7f158a9d1bff00dad34edf8c32a3ea3ed43b4efd4b0ef9f6",
+        "05ba9a1d1767ab2722e586b5fddcac87306da5191212278b291a34dc39d08cea",
+        "9383353bea8a4db6650ca2b6bb9ffed77d0e181c535a41e9fb391a390312c980"
+      ],
+      "topics": [
+        "upasana",
+        "divine_form",
+        "nirguna"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.murti_vazhipadum_mutriya_jnanam.form_worship_matures_into_formless_realization",
+      "chapter_ordinal": 99,
+      "chapter_slug": "murti_vazhipadum_mutriya_jnanam",
+      "unit_slug": "form_worship_matures_into_formless_realization",
+      "claim_summary": "Worship through form and quality is presented as a gradual path that can mature into direct realization of the formless reality beyond mental activity and prescribed ritual.",
+      "question_intents": [
+        "How does Mahaperiyava say murti worship can lead to formless realization?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "99a54f53c3eaf380fa4774ce9092b9e06d4988029c5ee897292cf45af2390743"
+      ],
+      "topics": [
+        "murti_worship",
+        "formless",
+        "jnana"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_ritual_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.murti_vazhipadum_mutriya_jnanam.divine_forms_mantras_and_methods_are_revealed_not_merely_invented",
+      "chapter_ordinal": 99,
+      "chapter_slug": "murti_vazhipadum_mutriya_jnanam",
+      "unit_slug": "divine_forms_mantras_and_methods_are_revealed_not_merely_invented",
+      "claim_summary": "Traditional divine forms, mantras, yantras, and ritual methods are presented as realities revealed through sages rather than arbitrary human inventions, and faithful upasana is said to prepare the way for knowledge.",
+      "question_intents": [
+        "Does Mahaperiyava regard divine forms and mantras as mere human imagination?",
+        "What role does upasana play for most seekers?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "e347c417e3a8da5190c1261b58fce1636d64705d9e3cbda6bc2b037df97ef8b8"
+      ],
+      "topics": [
+        "divine_form",
+        "mantra",
+        "yantra",
+        "upasana"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.murti_vazhipadum_mutriya_jnanam.devotion_itself_is_sufficient_present_goal",
+      "chapter_ordinal": 99,
+      "chapter_slug": "murti_vazhipadum_mutriya_jnanam",
+      "unit_slug": "devotion_itself_is_sufficient_present_goal",
+      "claim_summary": "Rather than anxiously demanding nondual knowledge, the seeker is told to practice devotion with love and receive the joy of divine grace, leaving the timing of higher realization to God.",
+      "question_intents": [
+        "What does Mahaperiyava say a devotee should seek now instead of worrying about immediate jnana?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "7cd671ecf77f97d8533c21012b630ac553cfbe5f07b58b082cbef4023d054a9b"
+      ],
+      "topics": [
+        "bhakti",
+        "grace",
+        "jnana"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alaya_vazhipadu.temple_as_communal_gratitude_and_offering",
+      "chapter_ordinal": 100,
+      "chapter_slug": "alaya_vazhipadu",
+      "unit_slug": "temple_as_communal_gratitude_and_offering",
+      "claim_summary": "Temple worship is presented as a communal expression of gratitude in which food, clothing, and other benefits of life are symbolically offered back to the divine before being enjoyed.",
+      "question_intents": [
+        "Why does Mahaperiyava describe temples as places of communal gratitude?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "3dcd7a16920791d24f76ae2762c04c9539dee54692dbbbcc3ac037d273276136"
+      ],
+      "topics": [
+        "temple",
+        "gratitude",
+        "offering"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim"
+      ],
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "witness_role": "earlier_secondary",
+        "locus": "ஆலய வணக்கம், printed p. 39 ff.; PDF pp. 54-56",
+        "snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+        "basis": "Existing pilot claim-level historical support for the same p001 teaching.",
+        "wording_agreement": "earlier_witness_agrees"
+      },
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alaya_vazhipadu.consecrated_images_as_special_divine_presence",
+      "chapter_ordinal": 100,
+      "chapter_slug": "alaya_vazhipadu",
+      "unit_slug": "consecrated_images_as_special_divine_presence",
+      "claim_summary": "Temple images are described as having a special divine presence established through the mantra power of ancient seers, around which temples were built.",
+      "question_intents": [
+        "How does Mahaperiyava explain the special sanctity of temple murtis?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "b1f12de3f3346935805334b7dc2653b47a860bd6a42d0067cc47219dff9f39a8"
+      ],
+      "topics": [
+        "temple",
+        "murti",
+        "consecration"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alaya_vazhipadu.regular_attendance_sustains_temple_worship",
+      "chapter_ordinal": 100,
+      "chapter_slug": "alaya_vazhipadu",
+      "unit_slug": "regular_attendance_sustains_temple_worship",
+      "claim_summary": "Regular temple attendance is urged not only for personal devotion but also to sustain cleanliness, offerings, lamps, clothing, and the practical continuity of temple worship.",
+      "question_intents": [
+        "Why does Mahaperiyava say even people who worship at home should regularly visit temples?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "4ae402c03893722304ea35c310f7841acacebf46ecac3deab3d6af87b57cddc3",
+        "805a32e4ce750b29db4bd255200ed3b925377b16571ab63fad0b78d6fbacc0bb"
+      ],
+      "topics": [
+        "temple",
+        "attendance",
+        "maintenance"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim",
+        "social_generalization"
+      ],
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+        "witness_role": "earlier_secondary",
+        "locus": "ஆலய வணக்கம், printed p. 39 ff.; PDF pp. 54-56",
+        "snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+        "basis": "The new p003+p004 unit consolidates two previously separate pilot claims, both already curator-approved as supported by this same earlier witness.",
+        "wording_agreement": "earlier_witness_agrees"
+      },
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alaya_vazhipadu.preserve_agamic_order_and_correct_lapses",
+      "chapter_ordinal": 100,
+      "chapter_slug": "alaya_vazhipadu",
+      "unit_slug": "preserve_agamic_order_and_correct_lapses",
+      "claim_summary": "Temple reform is framed as restoring lapses within the inherited Agamic discipline rather than freely altering ritual systems, because those systems are treated as instruments for preserving sacred presence.",
+      "question_intents": [
+        "What does Mahaperiyava say should and should not be changed in temple ritual practice?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "474bc44524b8afc8a13c7694c42b92840fab8b96ef726cb7457ce846da137178",
+        "ca0da9e56256b3fc17f47671c4d41d5f9253330223130a380571236ef0307e14"
+      ],
+      "topics": [
+        "agama",
+        "temple_reform",
+        "ritual_order"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alaya_vazhipadu.explain_tradition_with_love_and_self_reform",
+      "chapter_ordinal": 100,
+      "chapter_slug": "alaya_vazhipadu",
+      "unit_slug": "explain_tradition_with_love_and_self_reform",
+      "claim_summary": "Religious disagreement over temple practice should be answered without anger, by explaining the rationale of Agamic tradition lovingly and beginning with reform of one's own conduct.",
+      "question_intents": [
+        "How does Mahaperiyava say traditionalists should respond to temple reformers?"
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "295ca6359326da73e835e38f559ee77c4d5f9edb8a84f07cb3ec632d8face543",
+        "a61841d7d6369c14dbfb5deed5aac9ab98fb478e1b26cf0b9f13e80505fdb8b1"
+      ],
+      "topics": [
+        "dialogue",
+        "temple_reform",
+        "self_reform"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "political_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayangalin_thuymai.temple_environment_should_be_quiet_and_clean",
+      "chapter_ordinal": 101,
+      "chapter_slug": "alayangalin_thuymai",
+      "unit_slug": "temple_environment_should_be_quiet_and_clean",
+      "claim_summary": "Temple surroundings are said to require quiet, cleanliness, and freedom from distracting commercial or secular activity so that worshippers can remain absorbed in divine remembrance.",
+      "question_intents": [
+        "What kind of atmosphere does Mahaperiyava say temple surroundings should preserve?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "fd5e730017275c24fc4d298dcce982e3b4dd873f7f313fe2e490926a9859323e",
+        "b2b19f9ff62811c7b8b2cf78db7119cc88d5e36f6062574bac4d99270ef74ca7",
+        "42541d335c2c85d76a87da728133a539afbab4032471ef5434b3d80fd2f92449",
+        "150da8abcaee74b4c2ab9da47e76d827469163cbaed3a084a9b30911b44a95a7"
+      ],
+      "topics": [
+        "temple",
+        "cleanliness",
+        "sacred_space"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayangalin_thuymai.public_accountability_for_temple_maintenance",
+      "chapter_ordinal": 101,
+      "chapter_slug": "alayangalin_thuymai",
+      "unit_slug": "public_accountability_for_temple_maintenance",
+      "claim_summary": "Public concern and continuity in administration are presented as necessary for maintaining temples after renovation and for making officials accountable for long-term results.",
+      "question_intents": [
+        "What role does Mahaperiyava give the public and administrators in temple maintenance?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "ef640976cd0ef2270f63497c39578b7339e022db0a73c179e4748230feae43fa",
+        "d14b00eb1edb8e8ceaf41550de7b3ed63e921610e0542def4dcef599d7c96cc1"
+      ],
+      "topics": [
+        "temple_administration",
+        "public_accountability",
+        "maintenance"
+      ],
+      "flags": [
+        "political_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayangalin_thuymai.temple_entry_should_follow_shastric_purity_rules",
+      "chapter_ordinal": 101,
+      "chapter_slug": "alayangalin_thuymai",
+      "unit_slug": "temple_entry_should_follow_shastric_purity_rules",
+      "claim_summary": "Temple entry is presented as governed by inherited ritual-purity rules, including restrictions connected with menstruation, because consecrated temples are treated as spaces whose worship must follow the same shastric framework that establishes their sanctity.",
+      "question_intents": [
+        "What does Mahaperiyava say about ritual-purity rules for entering temples?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "25f75f7ab303e8706d411547ad2bdd0f3c432e6ce3862a5c8229a01237d113ae"
+      ],
+      "topics": [
+        "temple_entry",
+        "ritual_purity",
+        "shastra"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayangalin_thuymai.ritual_violations_and_disasters_linked_as_divine_chastisement",
+      "chapter_ordinal": 101,
+      "chapter_slug": "alayangalin_thuymai",
+      "unit_slug": "ritual_violations_and_disasters_linked_as_divine_chastisement",
+      "claim_summary": "Mahaperiyava explicitly interprets disasters at sacred sites as possible divine chastisement for ritual violations, offered as his religious explanation rather than as independently established causation.",
+      "question_intents": [
+        "How does Mahaperiyava interpret disasters occurring at sacred sites?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "85c21c41c9dc4de9d4bc34b1efed7ce80183d8ba00b4144221aad69aa1d36d89"
+      ],
+      "topics": [
+        "temple",
+        "divine_chastisement",
+        "ritual_violation"
+      ],
+      "flags": [
+        "causal_claim_attributed_only",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayangalin_thuymai.pilgrimage_should_not_become_tourism_or_apachara",
+      "chapter_ordinal": 101,
+      "chapter_slug": "alayangalin_thuymai",
+      "unit_slug": "pilgrimage_should_not_become_tourism_or_apachara",
+      "claim_summary": "Pilgrimage facilities and group travel are criticized when they turn sacred visits into entertainment and normalize conduct that would be considered disrespectful even in one's own home.",
+      "question_intents": [
+        "What concern does Mahaperiyava raise about tourism-like pilgrimage?"
+      ],
+      "source_paragraph_ids": [
+        "p009",
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "48c92b85c9c350d615fbf94dd030873903fd6895e15abb2158b530bcf4ee2899",
+        "21192dfe07bf863337295cfff2e79351bd7b6e77edf602bd9b7f0a75fa013961"
+      ],
+      "topics": [
+        "pilgrimage",
+        "devotion",
+        "apachara"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.megasthenes_as_witness_to_ancient_indian_honesty",
+      "chapter_ordinal": 102,
+      "chapter_slug": "alayamum_deivika_kalaigalum",
+      "unit_slug": "megasthenes_as_witness_to_ancient_indian_honesty",
+      "claim_summary": "Megasthenes is cited as historical testimony that ancient Indian society was exceptionally honest and morally disciplined.",
+      "question_intents": [
+        "What does Mahaperiyava say Megasthenes reported about ancient Indian society?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "283ebc4237f09b7e970bc184ffdda2b5df6190da5873d04021fe422c169ebca1"
+      ],
+      "topics": [
+        "megasthenes",
+        "ancient_india",
+        "morality"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.social_environment_shapes_moral_character",
+      "chapter_ordinal": 102,
+      "chapter_slug": "alayamum_deivika_kalaigalum",
+      "unit_slug": "social_environment_shapes_moral_character",
+      "claim_summary": "Mahaperiyava attributes differences in public morality largely to social environment, contrasting an older temple-centered culture of sacred stories and arts with a modern environment of entertainment, political agitation, and distraction.",
+      "question_intents": [
+        "Why does Mahaperiyava think social environment strongly affects moral character?"
+      ],
+      "source_paragraph_ids": [
+        "p002",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "d33713e5d17c559b89642f073edb967d0248e73390abe5c42c3ffb1198a1c541",
+        "cc06340cea20d7aad9de5c1a7e3a782e28dd0c079218194a7a11eb85d3f3f856"
+      ],
+      "topics": [
+        "social_environment",
+        "morality",
+        "temple_culture"
+      ],
+      "flags": [
+        "social_generalization",
+        "historical_claim_requires_external_verification",
+        "political_historical_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.religious_arts_and_hereditary_skills_are_declining",
+      "chapter_ordinal": 102,
+      "chapter_slug": "alayamum_deivika_kalaigalum",
+      "unit_slug": "religious_arts_and_hereditary_skills_are_declining",
+      "claim_summary": "Temple-related storytelling, ritual professions, architecture, folk arts, and hereditary skills are described as declining because systems of patronage and transmission have weakened.",
+      "question_intents": [
+        "What traditional arts and professions does Mahaperiyava say are declining?",
+        "Why does he connect their decline with loss of patronage?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "6b5b2cc09f6e5d587a5b9746ee0065388aad6967e2d5b1cd4c60df6493516208"
+      ],
+      "topics": [
+        "religious_arts",
+        "patronage",
+        "cultural_transmission"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "cultural_generalization",
+        "political_historical_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.restore_temples_as_centers_of_social_life",
+      "chapter_ordinal": 102,
+      "chapter_slug": "alayamum_deivika_kalaigalum",
+      "unit_slug": "restore_temples_as_centers_of_social_life",
+      "claim_summary": "A proposed remedy for moral and cultural decline is to make temples central to community life again and actively support older devotional and folk arts.",
+      "question_intents": [
+        "What social role does Mahaperiyava want temples to recover?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "c968df932a3ded7afac57b991bf7b46b54f8b5fefd33359fdbb9059362ce2de6"
+      ],
+      "topics": [
+        "temple",
+        "community",
+        "religious_arts"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.preserving_temple_presence_and_arts_benefits_society",
+      "chapter_ordinal": 102,
+      "chapter_slug": "alayamum_deivika_kalaigalum",
+      "unit_slug": "preserving_temple_presence_and_arts_benefits_society",
+      "claim_summary": "Maintaining consecrated presence, Agamic renovation, sacred storytelling, and temple arts is presented as supporting both religious specialists and the moral welfare of society at large.",
+      "question_intents": [
+        "How does Mahaperiyava connect temple preservation with wider social welfare?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "31f68cb184efd3310e1ec6c07d087f90922c9a96ff0926fe5867229bd9da9e5a"
+      ],
+      "topics": [
+        "temple",
+        "agama",
+        "social_welfare",
+        "arts"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "causal_claim_attributed_only",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayamum_aspathiriyum.worship_is_also_a_form_of_human_service",
+      "chapter_ordinal": 103,
+      "chapter_slug": "alayamum_aspathiriyum",
+      "unit_slug": "worship_is_also_a_form_of_human_service",
+      "claim_summary": "Humanitarian service is praised as genuine service to God, but worship is also presented as a form of service to human beings because it is claimed to address enduring moral and spiritual welfare.",
+      "question_intents": [
+        "How does Mahaperiyava relate humanitarian service and worship?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "7936fc5a0713dfc3c54de639608ea98194c7b838ffb4ad05d4435b2131741184"
+      ],
+      "topics": [
+        "service",
+        "worship",
+        "human_welfare"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayamum_aspathiriyum.mental_illness_and_moral_accountability_claim",
+      "chapter_ordinal": 103,
+      "chapter_slug": "alayamum_aspathiriyum",
+      "unit_slug": "mental_illness_and_moral_accountability_claim",
+      "claim_summary": "Mahaperiyava states a traditional moral view that persons whose reasoning is not under their control are not morally accountable in the same way for their actions, and he speculates that curing such a condition could reintroduce ordinary moral liability.",
+      "question_intents": [
+        "What view does Mahaperiyava express about mental illness and moral responsibility?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "5df991de3463fb38a891484402d7a611cf09f478aa1e8f5833d78d6ba514cbe3"
+      ],
+      "topics": [
+        "mental_illness",
+        "moral_accountability",
+        "karma"
+      ],
+      "flags": [
+        "medical_or_effect_claim_attributed_only",
+        "traditional_normative_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayamum_aspathiriyum.health_and_education_are_not_enough_without_character",
+      "chapter_ordinal": 103,
+      "chapter_slug": "alayamum_aspathiriyum",
+      "unit_slug": "health_and_education_are_not_enough_without_character",
+      "claim_summary": "Hospitals and schools are described as incomplete social goods unless the people they help also develop moral character, devotion, discipline, and self-restraint.",
+      "question_intents": [
+        "Why does Mahaperiyava say hospitals and schools alone are not enough?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "b438e093cc790bc1ba2a32a4002b37b60c29e907ac5402bce8dc4459535c737f"
+      ],
+      "topics": [
+        "health",
+        "education",
+        "character",
+        "devotion"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayamum_aspathiriyum.greatest_service_is_orienting_people_to_the_divine",
+      "chapter_ordinal": 103,
+      "chapter_slug": "alayamum_aspathiriyum",
+      "unit_slug": "greatest_service_is_orienting_people_to_the_divine",
+      "claim_summary": "Helping a person turn toward the divine is presented as a deeper service than improving health, intellect, or material welfare alone, and personal worship is said to strengthen one's capacity to serve others.",
+      "question_intents": [
+        "What does Mahaperiyava regard as the highest form of service?"
+      ],
+      "source_paragraph_ids": [
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "7510e61ff7d95aa887116632cdc170322abf7e327e020bd1a8ba9ac5a1a8dc64",
+        "6042dabe20af6311a9c06a11b350185c5a3d1d80afb60497288a9179ae670d10"
+      ],
+      "topics": [
+        "service",
+        "divine_orientation",
+        "worship"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.alayamum_aspathiriyum.bhakti_supports_morality_and_liberation",
+      "chapter_ordinal": 103,
+      "chapter_slug": "alayamum_aspathiriyum",
+      "unit_slug": "bhakti_supports_morality_and_liberation",
+      "claim_summary": "Bhakti is presented both as a powerful support for moral conduct and as a path whose ultimate goal is realization of the divine source and liberation from samsara; temple worship is therefore described as a form of social service.",
+      "question_intents": [
+        "What two roles does Mahaperiyava give bhakti in human life?",
+        "Why does he call temple worship a social service?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "3d6080bb1f8f810f41d10974d669c279388a54585bc9aaf0274286b7ac84f393",
+        "ab71077e1f6dee4b945200c6934c1f7d8843f48fe54b737a8a1df00be51eda5a"
+      ],
+      "topics": [
+        "bhakti",
+        "morality",
+        "liberation",
+        "temple"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.aimpulangal_aindu_upacharangal.five_senses_and_five_elements_traditional_mapping",
+      "chapter_ordinal": 104,
+      "chapter_slug": "aimpulangal_aindu_upacharangal",
+      "unit_slug": "five_senses_and_five_elements_traditional_mapping",
+      "claim_summary": "The five senses and their objects are explained through a traditional mapping to the five elements, with each element associated with an increasing set of perceptible qualities.",
+      "question_intents": [
+        "How does Mahaperiyava relate the five senses to the five elements?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "e55af28ed1d66043e69b13154e6c1af14e2d2c9c5c793c16b59ed583143ed0d0",
+        "47a0c71b48f32236fd15f4d5c2022b54a74d396be234e557c21beb9d46f1a08d"
+      ],
+      "topics": [
+        "five_senses",
+        "five_elements",
+        "traditional_cosmology"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "scientific_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.aimpulangal_aindu_upacharangal.sensory_enjoyments_should_be_received_as_divine_gifts",
+      "chapter_ordinal": 104,
+      "chapter_slug": "aimpulangal_aindu_upacharangal",
+      "unit_slug": "sensory_enjoyments_should_be_received_as_divine_gifts",
+      "claim_summary": "Sensory pleasures are described as gifts made possible by the divine creation of both the senses and their objects, and are therefore to be enjoyed with remembrance and gratitude.",
+      "question_intents": [
+        "How does Mahaperiyava say sensory pleasures should be experienced?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "8bec6cdc469683aefc4997c58491b408c688e8214e92917da37f4ece515998ab"
+      ],
+      "topics": [
+        "senses",
+        "gratitude",
+        "isvara"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.aimpulangal_aindu_upacharangal.offer_first_and_receive_as_prasada",
+      "chapter_ordinal": 104,
+      "chapter_slug": "aimpulangal_aindu_upacharangal",
+      "unit_slug": "offer_first_and_receive_as_prasada",
+      "claim_summary": "Offering sensory enjoyments to God before partaking of them is recommended as a discipline that can gradually restrain the desire to consume what is unfit to offer.",
+      "question_intents": [
+        "Why does Mahaperiyava recommend offering things to God before enjoying them?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "665e596dd5dd2418f004917520920fc2baf3a311edef3c1f13ece621c6a31bac"
+      ],
+      "topics": [
+        "prasada",
+        "self_restraint",
+        "offering"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.aimpulangal_aindu_upacharangal.panchopachara_symbolically_unites_jiva_world_and_isvara",
+      "chapter_ordinal": 104,
+      "chapter_slug": "aimpulangal_aindu_upacharangal",
+      "unit_slug": "panchopachara_symbolically_unites_jiva_world_and_isvara",
+      "claim_summary": "The five basic offerings of worship are interpreted as representing the five elements and, through them, symbolically uniting the individual, the universe, and Isvara in one act of worship.",
+      "question_intents": [
+        "What symbolism does Mahaperiyava give to the five upacharas in worship?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "58efc062f895797ceaad74068370186edae34d08dd040e0f9c96681470fe7c65"
+      ],
+      "topics": [
+        "panchopachara",
+        "five_elements",
+        "worship"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.naga_mahimai.namabhajana_as_communal_path_of_bhakti",
+      "chapter_ordinal": 105,
+      "chapter_slug": "naga_mahimai",
+      "unit_slug": "namabhajana_as_communal_path_of_bhakti",
+      "claim_summary": "Group singing of divine names is described as a long-standing devotional practice through which individuals seek connection with Paramatman while also participating in communal worship.",
+      "question_intents": [
+        "What role does Mahaperiyava give namabhajana in devotional life?",
+        "How does he describe the communal aspect of bhajan?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "521ccff25e3c5a6b7508f67ee8bc71c460694d06d30736a79c7710e01d232547",
+        "f8e3743503cacd397e7c8a70025c4be92cbdf4e4dbe234d42aa5bacd56e1fab6"
+      ],
+      "topics": [
+        "namabhajana",
+        "communal_worship",
+        "bhakti"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.naga_mahimai.music_and_processional_singing_aid_divine_remembrance",
+      "chapter_ordinal": 105,
+      "chapter_slug": "naga_mahimai",
+      "unit_slug": "music_and_processional_singing_aid_divine_remembrance",
+      "claim_summary": "Simple divine names sung melodically, including in processional nagara-sankirtana, are presented as an accessible way to draw the mind toward remembrance of God.",
+      "question_intents": [
+        "Why does Mahaperiyava value simple musical bhajan and nagara-sankirtana?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "bc6c28676138a10a458ef41562bbab9f725721ffcb4c09528c4aa754dfeb4a56",
+        "c74dd572b6639a0302e52b296ecc55dac9d9e8ca834531e70e9ae74e5609a349"
+      ],
+      "topics": [
+        "bhajan",
+        "music",
+        "nagara_sankirtana"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "traditional_ritual_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.naga_mahimai.revive_bhajana_maths_and_local_satsang",
+      "chapter_ordinal": 105,
+      "chapter_slug": "naga_mahimai",
+      "unit_slug": "revive_bhajana_maths_and_local_satsang",
+      "claim_summary": "Mahaperiyava urges the revival of bhajana halls and local singing groups, viewing them as one surviving and growing form of religious community life.",
+      "question_intents": [
+        "What devotional institution does Mahaperiyava want communities to revive?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "f9ae16385bea6b4613ed9f9f21fc0233c8c31b70f52834dd1ddd9cdc9f4412ef"
+      ],
+      "topics": [
+        "bhajana_math",
+        "satsang",
+        "community"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.naga_mahimai.divine_name_as_presence_and_moksha_means",
+      "chapter_ordinal": 105,
+      "chapter_slug": "naga_mahimai",
+      "unit_slug": "divine_name_as_presence_and_moksha_means",
+      "claim_summary": "The divine name is presented in the bhakti tradition as not merely a label but a form of divine presence carrying spiritual power, with nama-sankirtana especially praised as a means to liberation in the present age.",
+      "question_intents": [
+        "Does Mahaperiyava treat the divine name as merely a word?",
+        "What soteriological role does he give nama-sankirtana?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "cdf5d2df7169b174b30043bacdfa09cd09edadff5c4fa1190b0fd855166efa6c",
+        "4a9b3b2b53b6ec3ac11eba48149260a0dfe4e3a5a14c584a6913e365b946b69a"
+      ],
+      "topics": [
+        "divine_name",
+        "nama_sankirtana",
+        "moksha"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "traditional_soteriological_claim",
+        "hagiographic_tradition"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.naga_mahimai.daily_family_bhajan_with_bhakti_over_skill",
+      "chapter_ordinal": 105,
+      "chapter_slug": "naga_mahimai",
+      "unit_slug": "daily_family_bhajan_with_bhakti_over_skill",
+      "claim_summary": "Families are encouraged to spend a short time each evening singing divine names together, with devotion valued above musical training or performance quality.",
+      "question_intents": [
+        "What daily family bhajan practice does Mahaperiyava recommend?",
+        "Does musical skill matter more than devotion in bhajan?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "e7f9545796bb230f7527a279dd26b3bcc4cdc9daf1ea3c5040c9e1429832aa4e"
+      ],
+      "topics": [
+        "family_bhajan",
+        "daily_practice",
+        "bhakti"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_ritual_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null,
+      "candidate_witness": null,
+      "not_evaluated_in_targeted_sections": null
+    }
+  ]
+}
