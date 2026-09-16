@@ -1,0 +1,1318 @@
+{
+  "version": "1.0",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "batch": "166_175",
+  "curation_type": "human_semantic_teaching_unit_review",
+  "base_git_commit": "549bce1303a499ed09fa21000d39925964943787",
+  "generated_at": "2026-09-16T15:00:00+05:30",
+  "source_packet": {
+    "packet_version": "1.0",
+    "uploaded_name": "mahaperiyava_dk_v1_batch_166_175_review_packet.json",
+    "expected_private_repo_path": "data/private/mahaperiyava_dk_v1_batch_166_175_review_packet.json",
+    "sha256": "1c68590858980efeb5af4e69467be4c50539975c1e76c2636bbf72eedf5fdec3",
+    "generated_at": "2026-09-15T18:29:50+00:00",
+    "chapter_count": 10,
+    "paragraph_count": 161,
+    "contains_restricted_source_text": true
+  },
+  "policy": {
+    "source_text_not_included": true,
+    "claim_summaries_are_curator_metadata_not_quotes": true,
+    "authority_for_all_new_units": "dk_attested",
+    "no_historical_witness_promotion": true,
+    "no_print_check_claimed": true,
+    "no_primary_source_verified_claimed": true,
+    "source_paragraph_accounting": "at_least_once_or_explicitly_excluded",
+    "overlap_allowed_when_semantically_required": true,
+    "sensitive_external_fact_claims_flagged": true,
+    "historical_social_scientific_claims_remain_attributed_until_verified": true,
+    "human_publication_review_still_required": true
+  },
+  "source_anomalies": [],
+  "counts": {
+    "chapters": 10,
+    "source_paragraphs": 161,
+    "teaching_units": 36,
+    "authority_counts": {
+      "dk_attested": 36
+    },
+    "covered_source_paragraphs": 161,
+    "explicitly_excluded_source_paragraphs": 0,
+    "overlap_instances": 0,
+    "chapter_unit_counts": {
+      "166": 2,
+      "167": 3,
+      "168": 3,
+      "169": 2,
+      "170": 4,
+      "171": 2,
+      "172": 7,
+      "173": 5,
+      "174": 2,
+      "175": 6
+    },
+    "flag_counts": {
+      "hagiographic_textual_tradition": 1,
+      "context_sensitive_social_norm": 4,
+      "puranic_hagiographic_narrative": 4,
+      "historical_textual_claim_requires_external_verification": 1,
+      "historical_geographic_claim_requires_external_verification": 2,
+      "theological_causation_not_external_fact": 2,
+      "sectarian_harmony_teaching": 1,
+      "context_sensitive_gendered_narrative": 1,
+      "political_analogy_not_policy_claim": 1,
+      "historical_context_claim": 1,
+      "historical_claim_requires_external_verification": 1,
+      "context_sensitive_social_historical_claim": 1,
+      "devotional_tradition_claim": 1
+    }
+  },
+  "chapters": [
+    {
+      "ordinal": 166,
+      "title_ta": "பவானித்வம்",
+      "url": "https://www.kamakoti.org/tamil/part1kurall75.htm",
+      "source_key": "kamakoti-dk-v1-part1kurall75",
+      "snapshot_sha256": "79eece2defdb4156750225fe91d092955a5bfc2099266d6e7a414671f0d06a9b",
+      "paragraph_count": 5,
+      "decoded_as": "utf-8"
+    },
+    {
+      "ordinal": 167,
+      "title_ta": "வாக்குவன்மை வருக்ஷிப்பாள்",
+      "url": "https://www.kamakoti.org/tamil/part1kurall76.htm",
+      "source_key": "kamakoti-dk-v1-part1kurall76",
+      "snapshot_sha256": "716bbb48c9a870dc115b119d734508b1ea174c67c795b911d9dffdb38ea29c37",
+      "paragraph_count": 10,
+      "decoded_as": "utf-8"
+    },
+    {
+      "ordinal": 168,
+      "title_ta": "பதிபக்தியும் குருபக்தியும் வழங்கும் தேவி",
+      "url": "https://www.kamakoti.org/tamil/part1kurall77.htm",
+      "source_key": "kamakoti-dk-v1-part1kurall77",
+      "snapshot_sha256": "bb1fd0ac59516bf7bb7a4b2baf573e80a32da871ceeb84456bf661485b616c83",
+      "paragraph_count": 9,
+      "decoded_as": "utf-8"
+    },
+    {
+      "ordinal": 169,
+      "title_ta": "அம்பாள் இருக்க அஹம்பாவம் ஏன் ?",
+      "url": "https://www.kamakoti.org/tamil/part1kurall78.htm",
+      "source_key": "kamakoti-dk-v1-part1kurall78",
+      "snapshot_sha256": "07319360c360a8437a482d6df76037d875509938403c098c2c2127814aaa170b",
+      "paragraph_count": 14,
+      "decoded_as": "utf-8"
+    },
+    {
+      "ordinal": 170,
+      "title_ta": "ஆசாரியாள் காட்டும் அம்பாள்",
+      "url": "https://www.kamakoti.org/tamil/part1kurall79.htm",
+      "source_key": "kamakoti-dk-v1-part1kurall79",
+      "snapshot_sha256": "55ff6dcd08ccd2841def72f5faf02f27fbf39cb3494be2f439a1911e80f22bb4",
+      "paragraph_count": 20,
+      "decoded_as": "utf-8"
+    },
+    {
+      "ordinal": 171,
+      "title_ta": "இன்னல் தருவதும் அவள் இன்னருளே !",
+      "url": "https://www.kamakoti.org/tamil/part1kurall80.htm",
+      "source_key": "kamakoti-dk-v1-part1kurall80",
+      "snapshot_sha256": "566b502abbaebb49bbf4efeff7d9cc6b5169786bd560bbf1e0a654d6186eb70b",
+      "paragraph_count": 11,
+      "decoded_as": "utf-8"
+    },
+    {
+      "ordinal": 172,
+      "title_ta": "சிவத்தின் சக்தி ; நாராயண ஸஹோதரி",
+      "url": "https://www.kamakoti.org/tamil/part1kurall81.htm",
+      "source_key": "kamakoti-dk-v1-part1kurall81",
+      "snapshot_sha256": "ac7e2c92bd5155fa37c39378d9555df89d4669e91e289285aa0033e14e9fa89d",
+      "paragraph_count": 56,
+      "decoded_as": "utf-8"
+    },
+    {
+      "ordinal": 173,
+      "title_ta": "அன்னபூர்ணி",
+      "url": "https://www.kamakoti.org/tamil/part1kurall82.htm",
+      "source_key": "kamakoti-dk-v1-part1kurall82",
+      "snapshot_sha256": "fe15a3f57b224b9e5eb2e28214f5ee71b906b84fb232b7ab0456a7240c1a7c44",
+      "paragraph_count": 18,
+      "decoded_as": "utf-8"
+    },
+    {
+      "ordinal": 174,
+      "title_ta": "அம்மா",
+      "url": "https://www.kamakoti.org/tamil/part1kurall83.htm",
+      "source_key": "kamakoti-dk-v1-part1kurall83",
+      "snapshot_sha256": "6e28f6d8faf24057f2d9b16eb01cac82d22fd5be79b0147dc2e8ac19b16f6057",
+      "paragraph_count": 4,
+      "decoded_as": "utf-8"
+    },
+    {
+      "ordinal": 175,
+      "title_ta": "அநுமார் அநுக்கிரஹிப்பார்",
+      "url": "https://www.kamakoti.org/tamil/part1kurall84.htm",
+      "source_key": "kamakoti-dk-v1-part1kurall84",
+      "snapshot_sha256": "7259096b08f054929a00a4d1c573c7fee88186e2d60d27ae06b5cfe3073d67c9",
+      "paragraph_count": 14,
+      "decoded_as": "utf-8"
+    }
+  ],
+  "explicit_exclusions": [],
+  "units": [
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhavanitvam.ambal_grants_unasked_support_for_goodness",
+      "chapter_ordinal": 166,
+      "chapter_slug": "bhavanitvam",
+      "unit_slug": "ambal_grants_unasked_support_for_goodness",
+      "claim_summary": "Devotion to Ambal need not be a catalogue of requests: the chapter says that worship itself brings good intelligence, wholesome intentions, means for service and equal love.",
+      "question_intents": [
+        "Devotion to Ambal need not be a catalogue of requests: the chapter says that worship itself brings good intelligence, wholesome intentions, means for service and equal love."
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "fc006e005f5422a20048f88350e1b1756251b0519cbae8cc3c5bf5d312c79e81",
+        "cb81274c95148b1e5960c9109966979882b422530d02a64c1cdc3446147cf600"
+      ],
+      "topics": [
+        "ambal",
+        "grace",
+        "good_intellect",
+        "service"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.bhavanitvam.mother_child_bhakti_culminates_in_nonduality",
+      "chapter_ordinal": 166,
+      "chapter_slug": "bhavanitvam",
+      "unit_slug": "mother_child_bhakti_culminates_in_nonduality",
+      "claim_summary": "Beginning with the dual relation of mother and child, Ambal's grace is said to lead the seeker beyond even that distinction into the realization that everything is her; the Bhavani wordplay dramatizes this immediate transformation.",
+      "question_intents": [
+        "Beginning with the dual relation of mother and child, Ambal's grace is said to lead the seeker beyond even that distinction into the realization that everything is her; the Bhavani wordplay dramatizes this immediate transformation."
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "173b32dfc542bfbea801eefee30d4f7cf134cc1328c71b2845a55dcfa4696634",
+        "b56c6a696fc95ae449b22a8cc6a36241945643ef8a16a18df10d33be46052f67",
+        "ccf78af740ec0007708f678bf3cf97fe6b2fc85529423db18e98c7129edb068d"
+      ],
+      "topics": [
+        "bhavani",
+        "nonduality",
+        "mother_bhava",
+        "grace"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vakkuvanmai_varushippal.three_great_goddess_stotras",
+      "chapter_ordinal": 167,
+      "chapter_slug": "vakkuvanmai_varushippal",
+      "unit_slug": "three_great_goddess_stotras",
+      "claim_summary": "Saundarya Lahari, Muka Panchashati and Arya Dvisati are presented as three pre-eminent goddess hymnal traditions, each preserving a distinctive mode of contemplating and praising Ambal.",
+      "question_intents": [
+        "Saundarya Lahari, Muka Panchashati and Arya Dvisati are presented as three pre-eminent goddess hymnal traditions, each preserving a distinctive mode of contemplating and praising Ambal."
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "1b341211f03c2476ee76487e8c4cb5f689cd70ab7268349ff5bcdc1556765a50",
+        "392da267d211e674767a7437acd82ec70a0442ce938766b2e278b6706c7876c6",
+        "c24a5d4de233a5aea9629d4687f153e168161bb1d87af9c2fb4663db0bb6e2a4",
+        "795e1e4074c03a4cb0d2d0384f7f5e821c3681a5534e2e78eaddf78090c55ad5"
+      ],
+      "topics": [
+        "saundarya_lahari",
+        "muka_panchashati",
+        "arya_dvisati",
+        "stotra"
+      ],
+      "flags": [
+        "hagiographic_textual_tradition"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vakkuvanmai_varushippal.goddess_grace_gives_speech_but_aims_at_jnana",
+      "chapter_ordinal": 167,
+      "chapter_slug": "vakkuvanmai_varushippal",
+      "unit_slug": "goddess_grace_gives_speech_but_aims_at_jnana",
+      "claim_summary": "The great hymns say that the Goddess grants eloquence, but their ultimate fruit is described as knowledge that removes ignorance and leads to moksha.",
+      "question_intents": [
+        "The great hymns say that the Goddess grants eloquence, but their ultimate fruit is described as knowledge that removes ignorance and leads to moksha."
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "b5343fe33928bcac3b4fe7e9e8b4c15801299de546a446fa83b68044b9f2d697",
+        "a54fe31730e29f0111e501d79b0fd565866e883a614611220998a0572fac9ef1"
+      ],
+      "topics": [
+        "eloquence",
+        "jnana",
+        "moksha",
+        "ambal"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vakkuvanmai_varushippal.speech_and_arts_share_grace_with_the_world",
+      "chapter_ordinal": 167,
+      "chapter_slug": "vakkuvanmai_varushippal",
+      "unit_slug": "speech_and_arts_share_grace_with_the_world",
+      "claim_summary": "Eloquence and the arts are valued because realized devotees can communicate their experience for others' benefit; Saraswati and the other divine powers are placed within Ambal's grace, which is also said to deepen guru-bhakti and pati-bhakti.",
+      "question_intents": [
+        "Eloquence and the arts are valued because realized devotees can communicate their experience for others' benefit; Saraswati and the other divine powers are placed within Ambal's grace, which is also said to deepen guru-bhakti and pati-bhakti."
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008",
+        "p009",
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "a7d7eb1be5b56ac810487077b4c7368b82f2ceed3d2ef7f0f35b83cf73c5f798",
+        "551dd8a7ea63706b5a530152ac4da91e1311ab1820d4b58024f526fca459c9cd",
+        "844ebf17ef7896a8860213eabf429b6c5250e664710308974203c26163cab617",
+        "4a973cc4e353c49f831933f8d56fcfbeb72f1c5d022ce51409d1e16f7d042cd5"
+      ],
+      "topics": [
+        "speech",
+        "arts",
+        "saraswati",
+        "guru_bhakti"
+      ],
+      "flags": [
+        "context_sensitive_social_norm"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.patibhaktiyum_gurubhaktiyum_vazhangum_devi.ambal_as_pativrata_and_source_of_shivas_auspiciousness",
+      "chapter_ordinal": 168,
+      "chapter_slug": "patibhaktiyum_gurubhaktiyum_vazhangum_devi",
+      "unit_slug": "ambal_as_pativrata_and_source_of_shivas_auspiciousness",
+      "claim_summary": "Ambal is portrayed as the supreme pativrata whose auspicious presence protects Shiva even through poison, with her ornaments and inseparability used as symbols of enduring marital sacredness.",
+      "question_intents": [
+        "Ambal is portrayed as the supreme pativrata whose auspicious presence protects Shiva even through poison, with her ornaments and inseparability used as symbols of enduring marital sacredness."
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "086173b398d5ad8b14880fadb8792198c02587fb7ea35bab57a898b733af4e11",
+        "78a6962d0591403e79aca56245b81eb759b711efb04aa660fb4ed428f7d1412b",
+        "589e60e42587b443e75c1669bf29817bb7190b5762547274b21fc091ea678e9e",
+        "a15e5aa138a7dcdafcb56454865312dbf029817855562bbdc7ed5f853081a287"
+      ],
+      "topics": [
+        "ambal",
+        "shiva",
+        "pativrata",
+        "auspiciousness"
+      ],
+      "flags": [
+        "context_sensitive_social_norm",
+        "puranic_hagiographic_narrative"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.patibhaktiyum_gurubhaktiyum_vazhangum_devi.wife_husband_and_disciple_guru_surrender_are_paralleled",
+      "chapter_ordinal": 168,
+      "chapter_slug": "patibhaktiyum_gurubhaktiyum_vazhangum_devi",
+      "unit_slug": "wife_husband_and_disciple_guru_surrender_are_paralleled",
+      "claim_summary": "Traditional wife-husband and disciple-guru relations are used as analogies for concentrating loyalty and surrender in one chosen relation, even when the human recipient is imperfect.",
+      "question_intents": [
+        "Traditional wife-husband and disciple-guru relations are used as analogies for concentrating loyalty and surrender in one chosen relation, even when the human recipient is imperfect."
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "a8d3d91563ae93fa46925f8abb896da0947aafe21c77a20104f24242557951b8",
+        "e99e472fb893595293e3703ac222f2f277c6b421b6ea02ec34cab3b17ee52626",
+        "7937923d92cb7f9d249f294f812ceb5f3367b2e21b7478a602b7ca3331cc306a"
+      ],
+      "topics": [
+        "surrender",
+        "guru",
+        "marriage",
+        "devotion"
+      ],
+      "flags": [
+        "context_sensitive_social_norm"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.patibhaktiyum_gurubhaktiyum_vazhangum_devi.goddess_as_guru_and_sati_as_model_of_total_loyalty",
+      "chapter_ordinal": 168,
+      "chapter_slug": "patibhaktiyum_gurubhaktiyum_vazhangum_devi",
+      "unit_slug": "goddess_as_guru_and_sati_as_model_of_total_loyalty",
+      "claim_summary": "The Goddess herself is identified with the guru who liberates from maya, while Sati's unwavering attachment to Shiva is presented as an extreme devotional example of single-pointed loyalty.",
+      "question_intents": [
+        "The Goddess herself is identified with the guru who liberates from maya, while Sati's unwavering attachment to Shiva is presented as an extreme devotional example of single-pointed loyalty."
+      ],
+      "source_paragraph_ids": [
+        "p008",
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "2cbfb1e20711b66c08574f35e618e4aef63a35dcf2941ccc5b4e780ed5c4fa43",
+        "4f6bcc7d6fda369c7a008167759a5caed2345d730f7d2d096f501f9af1e4d635"
+      ],
+      "topics": [
+        "goddess_as_guru",
+        "sati",
+        "shiva",
+        "loyalty"
+      ],
+      "flags": [
+        "context_sensitive_social_norm",
+        "puranic_hagiographic_narrative"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ambal_irukka_ahambhavam_yen.all_human_capacity_is_borrowed_from_higher_power",
+      "chapter_ordinal": 169,
+      "chapter_slug": "ambal_irukka_ahambhavam_yen",
+      "unit_slug": "all_human_capacity_is_borrowed_from_higher_power",
+      "claim_summary": "There is no basis for ego about achievement because intelligence, bodily strength and even breath depend on a greater power; Rama and Shankara are invoked as models of humility despite extraordinary accomplishment.",
+      "question_intents": [
+        "There is no basis for ego about achievement because intelligence, bodily strength and even breath depend on a greater power; Rama and Shankara are invoked as models of humility despite extraordinary accomplishment."
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "516655039fc77ce7e81b838c09081981fb7193de426504b895cea981e9fe9dc7",
+        "d7cbb272bea824e13eda35ce8580560501e115098ee9883fc7a8de61c7001741",
+        "8e58d66921c2cb557627ebe2a8338dede6c845d2433bccf3ae0d6c465e20f12e",
+        "614e6aa45c6a11194a232ecdb36a5598e2112a9eb8cff2e5f088161a4065c6d7"
+      ],
+      "topics": [
+        "humility",
+        "ego",
+        "divine_power",
+        "avatars"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ambal_irukka_ahambhavam_yen.shankaras_final_hymn_denies_authorship_pride",
+      "chapter_ordinal": 169,
+      "chapter_slug": "ambal_irukka_ahambhavam_yen",
+      "unit_slug": "shankaras_final_hymn_denies_authorship_pride",
+      "claim_summary": "The closing imagery of Saundarya Lahari compares praising the Goddess with showing camphor to the sun, offering moonstone-water to the moon and bathing the sea with its own water: all speech used to praise her is itself received from her.",
+      "question_intents": [
+        "The closing imagery of Saundarya Lahari compares praising the Goddess with showing camphor to the sun, offering moonstone-water to the moon and bathing the sea with its own water: all speech used to praise her is itself received from her."
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006",
+        "p007",
+        "p008",
+        "p009",
+        "p010",
+        "p011",
+        "p012",
+        "p013",
+        "p014"
+      ],
+      "source_paragraph_hashes": [
+        "1838c7303df7841736d3966187323f16be7064141a88c6afc13bf3dbf49edb61",
+        "2b4834a22bb5e726f977ad587522155ee49d986468250c69ad79679b9669163e",
+        "e8b15b6ae7bd90328c25ebe9632deb86cc3806931a6fc94d49444b0cb26a03b4",
+        "db60acd304996562f368bd7ef6958aac1d6f0e79e500a500672b81aa813dfaa6",
+        "74d2c65e7e477939341dd61f60b3a8362d0466ec94caf476c7763264c91f6b2b",
+        "12c3123c910abff41e235ebfb52404cdb38924962c2766ce82355ad373360eb4",
+        "3c409df3540d7c61a2ef99759f723805544b8b3dfc52d4afe77f35a0f3564d36",
+        "7cbf30a95571e3c2ea4d41642bae0517099a36dabbebead7aae5cd1a6cbcaded",
+        "3eca4b56cf39b1f755f442fa9f785d335d5ed68d05fbf6bd07fdc8a82d126191",
+        "745bb06e4af8a89c04ac88d591694563b0f88f8137fe565d4c10dc77de6319a9"
+      ],
+      "topics": [
+        "shankara",
+        "saundarya_lahari",
+        "humility",
+        "speech"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.achariyal_kattum_ambal.shankara_models_bold_prayer_grounded_in_divine_compassion",
+      "chapter_ordinal": 170,
+      "chapter_slug": "achariyal_kattum_ambal",
+      "unit_slug": "shankara_models_bold_prayer_grounded_in_divine_compassion",
+      "claim_summary": "Shankara's many goddess hymns are presented as guides for ordinary devotees: even without worthiness one may pray boldly because compassion, unlike strict justice, does not measure merit before giving grace.",
+      "question_intents": [
+        "Shankara's many goddess hymns are presented as guides for ordinary devotees: even without worthiness one may pray boldly because compassion, unlike strict justice, does not measure merit before giving grace."
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "a2aff9a79ae790d3e464ba277a16f83cc852afd62b8dbf3b9bbe0f31b779f5b7",
+        "8a846cf29e59227f397c67a53a6efcdd7d894b8abd1122f2a345ce33fe6a43d6",
+        "21a0a86306752ecaf2bb2f659cfbf4d1ac82a3f694e339ac575daab4ee38c255",
+        "f3397df871ddbae0c9b6aa9915687d892744388530714725a02ce7da820c957a",
+        "ce0a330ab03c7890428046c40bb5ed0c41b2712ee931ff5454c69d9ad3af78ac"
+      ],
+      "topics": [
+        "shankara",
+        "prayer",
+        "compassion",
+        "grace"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.achariyal_kattum_ambal.goddess_feet_on_vedas_and_kena_upanishad",
+      "chapter_ordinal": 170,
+      "chapter_slug": "achariyal_kattum_ambal",
+      "unit_slug": "goddess_feet_on_vedas_and_kena_upanishad",
+      "claim_summary": "The image of Ambal's feet adorning the head of the Vedas is connected with the Kena Upanishad's Uma, supporting the chapter's claim that the Goddess is already present in Upanishadic revelation as the guru of knowledge.",
+      "question_intents": [
+        "The image of Ambal's feet adorning the head of the Vedas is connected with the Kena Upanishad's Uma, supporting the chapter's claim that the Goddess is already present in Upanishadic revelation as the guru of knowledge."
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007",
+        "p008",
+        "p009",
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "68a6854505b129767abb69d8340ef41b0ef352c7a81287bee420eaf59497f90b",
+        "a7840e780df4fcd9a7de492af3ccd509c86e11363fec81ed3757aacfeebcd528",
+        "2a58728af3f676cabee80c7fb667323b2bc7c769e8f5086ead333a3f0de1480a",
+        "801f3a3fba3ac1807cfd3d55aae07012a935647e9cac310fa42c924b448daf00",
+        "b6e88bf1ff1fea57cd3176f0168ee30484dff20944b20342d1427e6a0577c28b"
+      ],
+      "topics": [
+        "kena_upanishad",
+        "veda",
+        "guru",
+        "ambal"
+      ],
+      "flags": [
+        "historical_textual_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.achariyal_kattum_ambal.deities_bow_to_ambal_because_shiva_shakti_are_one",
+      "chapter_ordinal": 170,
+      "chapter_slug": "achariyal_kattum_ambal",
+      "unit_slug": "deities_bow_to_ambal_because_shiva_shakti_are_one",
+      "claim_summary": "Images of Vishnu, Shiva and the gods bowing at Ambal's feet are used to remove ego and are reconciled with her own devotional submission by treating Shiva and Shakti as one reality appearing in reciprocal lila.",
+      "question_intents": [
+        "Images of Vishnu, Shiva and the gods bowing at Ambal's feet are used to remove ego and are reconciled with her own devotional submission by treating Shiva and Shakti as one reality appearing in reciprocal lila."
+      ],
+      "source_paragraph_ids": [
+        "p011",
+        "p012",
+        "p013",
+        "p014"
+      ],
+      "source_paragraph_hashes": [
+        "ff2d3ab92012674481c4bd98f65e7fc61cacad363cfc8d90423a602767168a29",
+        "d9edebf8cae43af14bae26ec11b9205c2535ae2e1151b59c163063d693ca2234",
+        "3ea2945b7ea72f4181f670dabea21cd1a41bbb30d04a6ef37070f4f616d74fae",
+        "ac2c01c8ef30fe9d6accec86bf0014260eaa77d183337e005fc275ad4fb39a69"
+      ],
+      "topics": [
+        "shiva_shakti",
+        "worship",
+        "humility",
+        "lila"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.achariyal_kattum_ambal.ambal_as_all_forms_sounds_and_regional_deities",
+      "chapter_ordinal": 170,
+      "chapter_slug": "achariyal_kattum_ambal",
+      "unit_slug": "ambal_as_all_forms_sounds_and_regional_deities",
+      "claim_summary": "Ambal is described as the substance of elements, day and night, kundalini, sound, mantra and numerous concrete goddess forms worshipped across regions, moving from subtle universality to accessible local forms.",
+      "question_intents": [
+        "Ambal is described as the substance of elements, day and night, kundalini, sound, mantra and numerous concrete goddess forms worshipped across regions, moving from subtle universality to accessible local forms."
+      ],
+      "source_paragraph_ids": [
+        "p015",
+        "p016",
+        "p017",
+        "p018",
+        "p019",
+        "p020"
+      ],
+      "source_paragraph_hashes": [
+        "2963e6b36720dba8fdfc10303ec5d45f5b7fa958bbc3b9f218992a40b16d8d5f",
+        "d0a0bcbd1aa9e87e47db21d4d5c60c222510287c5f6b624e6cde74ef9e8cd2d1",
+        "a8104462a000ea40a7f16a7f75aa23818cb13775260cbbbe9dc120d8817db800",
+        "c5ee9a550c05c57cd55e555357831249af47c65802a274569e3957410a5b2868",
+        "f3d0e327cd342a31b1d107942739bd28c7b74b8c6815c5f9486a72b84f012207",
+        "881e0061cde6637039e52ba71f4745139568e8f6204354f2444f512c3f1ea659"
+      ],
+      "topics": [
+        "ambal",
+        "kundalini",
+        "mantra",
+        "regional_deities"
+      ],
+      "flags": [
+        "historical_geographic_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.innal_taruvathum_aval_innarule.suffering_is_interpreted_as_corrective_grace",
+      "chapter_ordinal": 171,
+      "chapter_slug": "innal_taruvathum_aval_innarule",
+      "unit_slug": "suffering_is_interpreted_as_corrective_grace",
+      "claim_summary": "The chapter confronts the tension between divine compassion and suffering by interpreting hardship as connected with prior wrongdoing and as a corrective form of maternal grace rather than divine cruelty.",
+      "question_intents": [
+        "The chapter confronts the tension between divine compassion and suffering by interpreting hardship as connected with prior wrongdoing and as a corrective form of maternal grace rather than divine cruelty."
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "c21db4020f58d71a8f9d5dded5b4c513ff1f21d9632cd600c1d9c78fca1d6971",
+        "ab776288de61bac8b6cab322f6b73e0f455d897ac8f69c214d8126dfb52eecb0",
+        "5082bc86bd5f678aa7024b2ebcfbd891e3343df5ff6b63299b046ebfc11f401c",
+        "e0656e38a0d0719ed0880910f0cd60bac7f29d7fda85d115e808131b2e0c2eed",
+        "2bd8b3dc2d8a73604417c1e0942911c33f07f80a8a2418523545677e56aa81f4",
+        "aa444de69de90f379d2469618fbbcecaba66468c04dee35f841dc6caf2ef46aa"
+      ],
+      "topics": [
+        "suffering",
+        "karma",
+        "grace",
+        "divine_mother"
+      ],
+      "flags": [
+        "theological_causation_not_external_fact"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.innal_taruvathum_aval_innarule.limited_knowledge_can_hide_the_future_good_of_present_loss",
+      "chapter_ordinal": 171,
+      "chapter_slug": "innal_taruvathum_aval_innarule",
+      "unit_slug": "limited_knowledge_can_hide_the_future_good_of_present_loss",
+      "claim_summary": "The salt-merchant story illustrates that an apparent loss can prevent a greater disaster; because humans do not know past causes or future consequences, the chapter urges humility rather than judging present suffering in isolation.",
+      "question_intents": [
+        "The salt-merchant story illustrates that an apparent loss can prevent a greater disaster; because humans do not know past causes or future consequences, the chapter urges humility rather than judging present suffering in isolation."
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008",
+        "p009",
+        "p010",
+        "p011"
+      ],
+      "source_paragraph_hashes": [
+        "d55293df39505c9ee3e088a9b1aa668bf238b2479e295a72b4dd9068af29e331",
+        "19302bbbe2c2618937f60efabdb559500965fff09c868573fb4b72fb5b6101ea",
+        "3b34fc8c8fb72a888b066c23bbcc2b9c02518e48a1a257d74e5d3d81ec5cbddc",
+        "e5d16ce064195b84ad6d312992b982be5db7538ece3ba583a7ffe046ee0a41bf",
+        "143cc02bd68e104eba44e17704fdbbcd5900252a1a4d03be77f4772740dc4278"
+      ],
+      "topics": [
+        "suffering",
+        "limited_knowledge",
+        "humility",
+        "grace"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sivathin_sakti_narayana_sahodari.shiva_and_shakti_are_inseparable",
+      "chapter_ordinal": 172,
+      "chapter_slug": "sivathin_sakti_narayana_sahodari",
+      "unit_slug": "shiva_and_shakti_are_inseparable",
+      "claim_summary": "Parashakti is described as the form and power of Shiva, with Ardhanarishvara used to express that the formless absolute and its manifesting energy cannot finally be separated.",
+      "question_intents": [
+        "Parashakti is described as the form and power of Shiva, with Ardhanarishvara used to express that the formless absolute and its manifesting energy cannot finally be separated."
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "4b48332b8ddcba0b13f7406dfa430e3024d17d6ba4fb05f3e800d2c9c0c749f0",
+        "ca3300ca4c025d61079417bcf732a27afa2f8d1baca9b49b1b69364b7681a23a",
+        "211d2ae49c4cf502d545dfea08ba8e1a422b9b873d73d108949c6b8f71f21164",
+        "03f372634088aeabe23499ab3f71d2240a4295b48033aa69f12e6b679abb272a",
+        "9b28b7b9c41f5a53c99a2dda4b775f2a8e4b72ac6d7d87dfeadb65b86dd1402c"
+      ],
+      "topics": [
+        "shiva_shakti",
+        "ardhanarishvara",
+        "parashakti",
+        "nonduality"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sivathin_sakti_narayana_sahodari.ambal_and_narayana_are_also_presented_as_one_power",
+      "chapter_ordinal": 172,
+      "chapter_slug": "sivathin_sakti_narayana_sahodari",
+      "unit_slug": "ambal_and_narayana_are_also_presented_as_one_power",
+      "claim_summary": "Sankaranarayana imagery and the title Narayana-sahodari are used to connect Ambal with Vishnu, while the right-left symbolism and scriptural names aim to dissolve hierarchy between Shiva, Vishnu and the Goddess.",
+      "question_intents": [
+        "Sankaranarayana imagery and the title Narayana-sahodari are used to connect Ambal with Vishnu, while the right-left symbolism and scriptural names aim to dissolve hierarchy between Shiva, Vishnu and the Goddess."
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007",
+        "p008",
+        "p009",
+        "p010",
+        "p011",
+        "p012",
+        "p013",
+        "p014",
+        "p015",
+        "p016",
+        "p017",
+        "p018"
+      ],
+      "source_paragraph_hashes": [
+        "e9833edf1c5c47773e1d384c6c56aeb21adccac96b4816420b38d0b1f695d3dc",
+        "4494de53cc638f49ab01498e9570ed9f19811850eb7ea0d788d23ec4d17b73c9",
+        "8d6dbbdd940fb04a2556afb53c86d8273b4b67a718b8f36cc3e0de69677566cf",
+        "a09738c6b3ffe28af7a40df0f7a834cb3993f267361f36d254a2540e190f6872",
+        "9868e8a7dd770b9697fe4c1799caf3c094b2e3526a2f1b6e4c43ef028f53b860",
+        "1dc688064f60fbaa835653547b679e92b2ed6b5ba0eb50ee59fcc11e44cbb6ef",
+        "5a123687983fc9a87025e8503e6b7a46da45b37dc3269884b0735fdbc534268f",
+        "9e6644a63ccc3909dec999b5302a63d17dfa3ceb983970096ca44196124f642d",
+        "897d27e99c1e180133f9ec2439e4297e8470f250bf9741cc754b831d34057c84",
+        "7e82d0f96a6c75e5ff21c6d90dca06e6b6b20343f66f3bf7d8836f6123b7a8ed",
+        "bfe0cbff392546fa732c07fa9f1e05575a1784001f4bcff4515c74aab2fb3bd7",
+        "f123dec59efee7c32a71b4203aa19a1639d01174ec8656a299932f395c7ef03f",
+        "2959d54a2d238149232f207e899fb8c246bf5ec921ed2ec506d1983af80d4e3a"
+      ],
+      "topics": [
+        "narayana_sahodari",
+        "shiva",
+        "vishnu",
+        "ambal",
+        "sectarian_harmony"
+      ],
+      "flags": [
+        "sectarian_harmony_teaching"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sivathin_sakti_narayana_sahodari.durga_and_vishnu_share_iconographic_and_maya_features",
+      "chapter_ordinal": 172,
+      "chapter_slug": "sivathin_sakti_narayana_sahodari",
+      "unit_slug": "durga_and_vishnu_share_iconographic_and_maya_features",
+      "claim_summary": "Durga's dark color, weapons and independent shrine form, together with Vishnu's Mohini form, are interpreted as signs of a close theological identity among Ambal, Vishnu and Shiva.",
+      "question_intents": [
+        "Durga's dark color, weapons and independent shrine form, together with Vishnu's Mohini form, are interpreted as signs of a close theological identity among Ambal, Vishnu and Shiva."
+      ],
+      "source_paragraph_ids": [
+        "p019",
+        "p020",
+        "p021",
+        "p022"
+      ],
+      "source_paragraph_hashes": [
+        "288f26e38ac13aa1dc051aafdc234e5a36e8c097188cb906fd2e5b4f8cc1365e",
+        "aa6d67cd273f9ffad4e58c646db3add824e43fbd06b1340c3d6db1a32be31bf6",
+        "9cec7eb13a2a28c8539a5d5c14685c8552fffe140b05fe70f04c715c58faa92a",
+        "e357e8ce17fbecb6851e156da86a20565b6bbe7e58a1b43c7250cc37bcd5844f"
+      ],
+      "topics": [
+        "durga",
+        "vishnu",
+        "mohini",
+        "iconography"
+      ],
+      "flags": [
+        "puranic_hagiographic_narrative"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sivathin_sakti_narayana_sahodari.ramayana_variant_used_to_identify_ambal_with_rama",
+      "chapter_ordinal": 172,
+      "chapter_slug": "sivathin_sakti_narayana_sahodari",
+      "unit_slug": "ramayana_variant_used_to_identify_ambal_with_rama",
+      "claim_summary": "A nonstandard Ramayana tradition in which Ambal appears as Rama and Shiva as Sita is narrated and connected with Valmiki's gendered taunt to Rama, as a devotional argument for Ambal-Narayana identity.",
+      "question_intents": [
+        "A nonstandard Ramayana tradition in which Ambal appears as Rama and Shiva as Sita is narrated and connected with Valmiki's gendered taunt to Rama, as a devotional argument for Ambal-Narayana identity."
+      ],
+      "source_paragraph_ids": [
+        "p023",
+        "p024",
+        "p025",
+        "p026",
+        "p027",
+        "p028",
+        "p029",
+        "p030",
+        "p031"
+      ],
+      "source_paragraph_hashes": [
+        "8caf3ed612d4ade4999b5c019f5fc4d141db585f1136dbe1be048ecf804259ba",
+        "0a69196671f5b3eea0497a9f4a4d037105bf4e9b156f8bb746a15a27572e78fe",
+        "6b5ef97953e179df78e5ac7c640025165ae988b2c27e1307d1008bb2c0661b87",
+        "0ba2d5069b5bb6da5352a7a00da800e605fcdb947fc9a6d63676de50a0e6f1eb",
+        "bc0a641e2bb636338889200730ddf812e7d980d7a449364e29649b36681fc21c",
+        "3cadb7817913c2d9f0078e7bc064c21e8390376caa2a25fced3a465cc38dd4ad",
+        "14d9c539507d14e1f9827d3750aa9d10e1bc2a33e476226feb731c3498bbd94d",
+        "08f6690ded1b0ae5fff177950a30f3608eedfc8af3e3950a27dfcd1519849366",
+        "4ea0fd7a2c5128d89f93ca7516c65ff7543b55f819bd2fbceb03d2863d77dc63"
+      ],
+      "topics": [
+        "ramayana",
+        "rama",
+        "sita",
+        "ambal"
+      ],
+      "flags": [
+        "puranic_hagiographic_narrative",
+        "context_sensitive_gendered_narrative"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sivathin_sakti_narayana_sahodari.ambals_grace_is_the_shield_against_kama_and_anger",
+      "chapter_ordinal": 172,
+      "chapter_slug": "sivathin_sakti_narayana_sahodari",
+      "unit_slug": "ambals_grace_is_the_shield_against_kama_and_anger",
+      "claim_summary": "Desire is treated as the root from which anger, sorrow, fear and repeated birth grow; Kamakshi's grace is offered as the protective power that destroys this chain.",
+      "question_intents": [
+        "Desire is treated as the root from which anger, sorrow, fear and repeated birth grow; Kamakshi's grace is offered as the protective power that destroys this chain."
+      ],
+      "source_paragraph_ids": [
+        "p032",
+        "p033",
+        "p034",
+        "p035",
+        "p036",
+        "p037",
+        "p038",
+        "p039",
+        "p040",
+        "p041"
+      ],
+      "source_paragraph_hashes": [
+        "ccb11a1ee0fd027a5d8d07dba36499d967401fe948d7bb0425a1afa3cf15364b",
+        "67c3ae7a2849c0a1fd192fa5af0331b59db9d91ae330a459822932627402f74f",
+        "384e1573bb6fdc3ea9dbb70d26ffd6be8af217277ebde6505c3860228bdf9e40",
+        "7b6fc80e1de530bd467f4213020a21a667a4e0768529234f806ea4ee48be06f8",
+        "b8cc6e2d5af044bec15844e6b740c01da8579c1afada574c4d2d8f5630361a80",
+        "957d44b865ad49674901463410c34f82d13c2f1f7700800d534718e16551f186",
+        "77d29c7d2f84928d0aa45aaf3c6fb79bf7123308f09c7c89237da2ad524215b2",
+        "bd721ef520993f6f66f21137774258a6c7e1687031c0888ebd038e1e76d29321",
+        "8bfcf0f877758be6961cf82694321bcf3a670d5a78a3f6a86b5386381688c091",
+        "3a6387fc823835ea9cb5d5ef23e44cbe06cea89395e3d7211b8af2819b948686"
+      ],
+      "topics": [
+        "kama",
+        "anger",
+        "kamakshi",
+        "grace"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sivathin_sakti_narayana_sahodari.kamakshis_glance_gives_equal_vision",
+      "chapter_ordinal": 172,
+      "chapter_slug": "sivathin_sakti_narayana_sahodari",
+      "unit_slug": "kamakshis_glance_gives_equal_vision",
+      "claim_summary": "Muka's description of Kamakshi's devotees is used to define true equality as Advaitic equal vision in which friend and enemy, forest and home, sensual attraction and inert matter no longer disturb the mind.",
+      "question_intents": [
+        "Muka's description of Kamakshi's devotees is used to define true equality as Advaitic equal vision in which friend and enemy, forest and home, sensual attraction and inert matter no longer disturb the mind."
+      ],
+      "source_paragraph_ids": [
+        "p042",
+        "p043",
+        "p044",
+        "p045",
+        "p046"
+      ],
+      "source_paragraph_hashes": [
+        "78e9e6d8a9e3fa5ca1c7b7df221a0487fa2b039323bf800f9c822564686f45e5",
+        "49bb44b5ac459d93b0620b667b3da98e17f6e3778ab290f16004c8f92621ed13",
+        "4e45e1f7cda65b64c234f685deb9cb66e030c959ae2db58bd3cfb3936a058fa1",
+        "3c31678f6d195617657a286dac6defab53b79953ddf7e3daccb6435a4344ff03",
+        "357de4a08d7d218bae9a5cd6aa906487817dd648e9c6c7013debb1c8410de87d"
+      ],
+      "topics": [
+        "kamakshi",
+        "equal_vision",
+        "advaita",
+        "muka"
+      ],
+      "flags": [
+        "political_analogy_not_policy_claim"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sivathin_sakti_narayana_sahodari.freedom_from_attraction_and_aversion_is_moksha",
+      "chapter_ordinal": 172,
+      "chapter_slug": "sivathin_sakti_narayana_sahodari",
+      "unit_slug": "freedom_from_attraction_and_aversion_is_moksha",
+      "claim_summary": "The chapter expands equal vision into liberation: when kama, anger, sorrow and fear cannot move the mind, devotion matures from seeing Ambal as other into being absorbed in her nondual reality.",
+      "question_intents": [
+        "The chapter expands equal vision into liberation: when kama, anger, sorrow and fear cannot move the mind, devotion matures from seeing Ambal as other into being absorbed in her nondual reality."
+      ],
+      "source_paragraph_ids": [
+        "p047",
+        "p048",
+        "p049",
+        "p050",
+        "p051",
+        "p052",
+        "p053",
+        "p054",
+        "p055",
+        "p056"
+      ],
+      "source_paragraph_hashes": [
+        "8c3d18d3a07a193e9c8b69bc987e6fe4d0663ef5b52382bdcb9a526a2c4f1f13",
+        "8f5866d596280ea343af80535cba064d0563fbd24e8c79e4ed4c8b9a8a2b165f",
+        "a5c1c3a8573eae309c48ec47b63038642ebfd60f57b1148ff6ced60a08a82c90",
+        "cbc0211d9d43ecbcf2b1d9a5c81732358780b2014de1860c4049abf107f40004",
+        "a9a35f1cf9a83a7b4ff93ce7bcdfef8d16f7ea55771ed92a2fcee86198435966",
+        "b86ffdad11d18c37f3a543da95d853431ed1ec77bb23cd1c950fd9d99270c816",
+        "5235bf98fb4a3b1534b3c5e71b4645e28989daa03016f6c37aaa1eaffab6e80c",
+        "9b2a906ef2b101cd1e1e9f3896238a82ccb3c3e488545dc1d5f9584766252f66",
+        "be2b778f1c6c418a37bfc7a439b7e00a0514ab109ebb24f4db693260fa584ae5",
+        "d61c87ccf3b4ec8e0df7619d87dfa4ba2f8d8a2e39947f9f7a0c6c4574a46f21"
+      ],
+      "topics": [
+        "moksha",
+        "desirelessness",
+        "advaita",
+        "ambal"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.annapurni.food_security_is_foundational_to_welfare",
+      "chapter_ordinal": 173,
+      "chapter_slug": "annapurni",
+      "unit_slug": "food_security_is_foundational_to_welfare",
+      "claim_summary": "Material development is treated as incomplete without food security, because agriculture and nourishment remain foundational to embodied life.",
+      "question_intents": [
+        "Material development is treated as incomplete without food security, because agriculture and nourishment remain foundational to embodied life."
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "f40c03547d0373353588958c4b74dcbc356353ef06dbd9930d34cd1e174b825f"
+      ],
+      "topics": [
+        "food",
+        "welfare",
+        "agriculture"
+      ],
+      "flags": [
+        "historical_context_claim"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.annapurni.shankaras_annapurna_prayer_is_for_the_world_not_self",
+      "chapter_ordinal": 173,
+      "chapter_slug": "annapurni",
+      "unit_slug": "shankaras_annapurna_prayer_is_for_the_world_not_self",
+      "claim_summary": "Shankara's repeated request for alms from Annapurna is interpreted not as personal dependence but as prayer on behalf of the three worlds, since his closing verse treats all beings as family and the whole world as home.",
+      "question_intents": [
+        "Shankara's repeated request for alms from Annapurna is interpreted not as personal dependence but as prayer on behalf of the three worlds, since his closing verse treats all beings as family and the whole world as home."
+      ],
+      "source_paragraph_ids": [
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "617b6f46a171143822883a22bf1623b9e540f41efe1f0219bee73d9b84a6808d",
+        "c90f8ab5be0621893e336dbbe41ce1a353c3f9b79779f2066d9283482057cd58",
+        "937477430355d31b81a7dfe49ea6d3852ce4ef71edf7da0e172291f6d5f09348",
+        "8d81dd8ab3c7885dbab1ba9ac97f75f918f567f54427aefa43768569ee31d900",
+        "586654dfadf8bb51cfdd235f230c2e6c99725357e5af8399e7ec5da45e4db4eb"
+      ],
+      "topics": [
+        "annapurna",
+        "shankara",
+        "prayer",
+        "universal_family"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.annapurni.annapurna_gives_both_food_and_jnana",
+      "chapter_ordinal": 173,
+      "chapter_slug": "annapurni",
+      "unit_slug": "annapurna_gives_both_food_and_jnana",
+      "claim_summary": "Food alone is not enough; Annapurna is presented as nourishing both body and soul, with the ultimate alms being jnana and vairagya, and Kamakshi is identified as including this Annapurna function.",
+      "question_intents": [
+        "Food alone is not enough; Annapurna is presented as nourishing both body and soul, with the ultimate alms being jnana and vairagya, and Kamakshi is identified as including this Annapurna function."
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008",
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "b62800c7b6991790063ffd98e75ae068574583a6dd1ddc19113ba67e871dc33a",
+        "26fe1c65fb3d38470bbdc54eabba015f35a90116b938a0cc8d14786c95fd2ee7",
+        "861c8879a9cc8c6f77a6fb08e1938b2157ab4eb0b917c5215ef195e08d100e58"
+      ],
+      "topics": [
+        "annapurna",
+        "food",
+        "jnana",
+        "vairagya"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.annapurni.famine_is_read_theologically_as_call_to_reform",
+      "chapter_ordinal": 173,
+      "chapter_slug": "annapurni",
+      "unit_slug": "famine_is_read_theologically_as_call_to_reform",
+      "claim_summary": "Famine and hunger are interpreted through karma and moral responsibility as occasions for self-examination and reform, while Annapurna's compassion is said to extend food even to those regarded as sinful.",
+      "question_intents": [
+        "Famine and hunger are interpreted through karma and moral responsibility as occasions for self-examination and reform, while Annapurna's compassion is said to extend food even to those regarded as sinful."
+      ],
+      "source_paragraph_ids": [
+        "p010",
+        "p011",
+        "p012",
+        "p013"
+      ],
+      "source_paragraph_hashes": [
+        "08d8777820660b2c87b57ad78738696dd467a21272a2f35a6dd25ed33699d03d",
+        "bf58ea1434bfe4c605e0c735476f794cbaf63406465224b362e1bd9c56e68b97",
+        "79546dab6443818576c2990e90444d1b8e51fa1bb383b0ee482efc3af03f3c38",
+        "ee41dce508e09a7b3d66dd0471f672fe4685ab1f5c75aa1de89b7c4055c7520c"
+      ],
+      "topics": [
+        "famine",
+        "karma",
+        "compassion",
+        "reform"
+      ],
+      "flags": [
+        "theological_causation_not_external_fact",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.annapurni.jnana_makes_all_beings_family_and_transcends_regional_division",
+      "chapter_ordinal": 173,
+      "chapter_slug": "annapurni",
+      "unit_slug": "jnana_makes_all_beings_family_and_transcends_regional_division",
+      "claim_summary": "The final prayer for jnana-vairagya is interpreted as yielding a vision in which Shiva and Parvati are parents, all beings are siblings and the world is home; pilgrimage and bhakti are then presented as deeper bases of unity than language or region.",
+      "question_intents": [
+        "The final prayer for jnana-vairagya is interpreted as yielding a vision in which Shiva and Parvati are parents, all beings are siblings and the world is home; pilgrimage and bhakti are then presented as deeper bases of unity than language or region."
+      ],
+      "source_paragraph_ids": [
+        "p014",
+        "p015",
+        "p016",
+        "p017",
+        "p018"
+      ],
+      "source_paragraph_hashes": [
+        "384dcc2e20b527f4b2cffcaba6c50ec330aa4248974e76a3bfe79c3f9ac5f1ad",
+        "6566073e6b3fc4f946bafdc6c2c47fd49c1a4c59271bb716a736a933625e6886",
+        "2beaf3f1d7cad5fe4c095c565d477fcb0551e7c777a97f1f5d6f6407a7fe2acb",
+        "ceeb04aa174899cc07f8af788538aaae0bb2b120101fd6abbe5183c340f95976",
+        "b2e52b9f7ddaf1265a5f2864b76b200efacbf29e285db15ce2cd2c15b7a1ffe3"
+      ],
+      "topics": [
+        "jnana",
+        "unity",
+        "pilgrimage",
+        "bhakti"
+      ],
+      "flags": [
+        "context_sensitive_social_historical_claim"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.amma.motherly_love_is_the_closest_worldly_analogy_to_unconditional_grace",
+      "chapter_ordinal": 174,
+      "chapter_slug": "amma",
+      "unit_slug": "motherly_love_is_the_closest_worldly_analogy_to_unconditional_grace",
+      "claim_summary": "A mother's love is described as the least conditional form of ordinary human love, especially visible in early childhood where care continues without demand for reciprocity.",
+      "question_intents": [
+        "A mother's love is described as the least conditional form of ordinary human love, especially visible in early childhood where care continues without demand for reciprocity."
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "962da75d115147f75412ac7d13f280b41afafdcf38b5bf76a4844d15b6af3831",
+        "2933a6d4dc27a6beb70ac05c09e75df79376375cbffa602f67761df38e188f17"
+      ],
+      "topics": [
+        "motherly_love",
+        "grace",
+        "childhood"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.amma.parashakti_is_mother_of_the_life_not_just_one_body",
+      "chapter_ordinal": 174,
+      "chapter_slug": "amma",
+      "unit_slug": "parashakti_is_mother_of_the_life_not_just_one_body",
+      "claim_summary": "The biological mother belongs to one embodiment, while Parashakti is presented as mother of the continuing life across births and as the source of every fragment of power in living beings; this leaves no basis for egoistic ownership of achievement.",
+      "question_intents": [
+        "The biological mother belongs to one embodiment, while Parashakti is presented as mother of the continuing life across births and as the source of every fragment of power in living beings; this leaves no basis for egoistic ownership of achievement."
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "1c358012c96346b29da19cd4da086647e61d3596509b57db7cde22dc7b6ebc1c",
+        "ff4f975540f2653b8147f50e37d53028ef44a08bea0ec1d5f5018a858d5f6fb1"
+      ],
+      "topics": [
+        "parashakti",
+        "divine_mother",
+        "rebirth",
+        "humility"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anumar_anugrahappar.hanuman_remembrance_is_associated_with_many_complementary_gifts",
+      "chapter_ordinal": 175,
+      "chapter_slug": "anumar_anugrahappar",
+      "unit_slug": "hanuman_remembrance_is_associated_with_many_complementary_gifts",
+      "claim_summary": "A traditional verse is cited saying that remembrance of Hanuman brings intelligence, strength, fame, courage, fearlessness, health, alertness and eloquence.",
+      "question_intents": [
+        "A traditional verse is cited saying that remembrance of Hanuman brings intelligence, strength, fame, courage, fearlessness, health, alertness and eloquence."
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "2afc62735e71dd6a6753b3e668f043bd8805db3afba96d08ad4263015fd9778b",
+        "213a50df6710d598e3e1b201283ac8935639dfe7c00c9b6d78ec8c6e65d839c1",
+        "d42c6f6c97ac4ef4a9693c66be885b24cc5907a59a42195ce9fcd8d5795166db",
+        "90724173112d482900fe6a463ff673ba5e27c8c72c7adadfc35df0b61856eb4f"
+      ],
+      "topics": [
+        "hanuman",
+        "remembrance",
+        "strength",
+        "eloquence"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anumar_anugrahappar.hanuman_unites_qualities_that_normally_diverge",
+      "chapter_ordinal": 175,
+      "chapter_slug": "anumar_anugrahappar",
+      "unit_slug": "hanuman_unites_qualities_that_normally_diverge",
+      "claim_summary": "Hanuman is praised as combining intelligence, strength, courage, devotion, service, humility and worldly effectiveness in a single personality, rather than trading one virtue for another.",
+      "question_intents": [
+        "Hanuman is praised as combining intelligence, strength, courage, devotion, service, humility and worldly effectiveness in a single personality, rather than trading one virtue for another."
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006",
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "d6c1cfdfab8e801438d56e2dc84b24aa2a62b89c0a043a1f0355389456de4eb8",
+        "4ee32566304917aacd2cb982ed7320729336a00a04edd52e28dccab540150cbb",
+        "cf5c1c3b608756d6411f1312f2334b686f31a5753c839fccaf9029d293ecad72",
+        "497307600d1963dc516a36885fa3b8abeacf59a6ac1d0e1320d7403d01663074"
+      ],
+      "topics": [
+        "hanuman",
+        "virtues",
+        "service",
+        "humility"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anumar_anugrahappar.brahmacharya_and_selfless_service_complete_hanumans_ideal",
+      "chapter_ordinal": 175,
+      "chapter_slug": "anumar_anugrahappar",
+      "unit_slug": "brahmacharya_and_selfless_service_complete_hanumans_ideal",
+      "claim_summary": "His brahmacharya is singled out as a foundation of purity and total selflessness, with no personal agenda apart from service to Rama.",
+      "question_intents": [
+        "His brahmacharya is singled out as a foundation of purity and total selflessness, with no personal agenda apart from service to Rama."
+      ],
+      "source_paragraph_ids": [
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "97984f22b0f40aca0cb9df3578c8716d9744a26321b30ce8f7b6dea5a0d76492"
+      ],
+      "topics": [
+        "hanuman",
+        "brahmacharya",
+        "selfless_service",
+        "rama"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anumar_anugrahappar.hanuman_is_worshipped_across_regions_and_invoked_for_courage",
+      "chapter_ordinal": 175,
+      "chapter_slug": "anumar_anugrahappar",
+      "unit_slug": "hanuman_is_worshipped_across_regions_and_invoked_for_courage",
+      "claim_summary": "Regional names for Hanuman are noted, and remembrance of him is recommended for courage, knowledge, freedom from lust, humility and active service.",
+      "question_intents": [
+        "Regional names for Hanuman are noted, and remembrance of him is recommended for courage, knowledge, freedom from lust, humility and active service."
+      ],
+      "source_paragraph_ids": [
+        "p010",
+        "p011"
+      ],
+      "source_paragraph_hashes": [
+        "133b6020eacd3438425785d6fdfc6041b33f0849f06ad05aabc4ab844ec48f0e",
+        "c40ef6b756f5215c3188fd51e021006e4807a7dca379440a79080b9cf1c81bb2"
+      ],
+      "topics": [
+        "hanuman",
+        "regional_devotion",
+        "courage",
+        "service"
+      ],
+      "flags": [
+        "historical_geographic_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anumar_anugrahappar.hanuman_is_present_where_ramas_name_is_sung",
+      "chapter_ordinal": 175,
+      "chapter_slug": "anumar_anugrahappar",
+      "unit_slug": "hanuman_is_present_where_ramas_name_is_sung",
+      "claim_summary": "Devotional tradition holds that Hanuman invisibly attends wherever Rama's name or glory is sung, responding with tears of bliss.",
+      "question_intents": [
+        "Devotional tradition holds that Hanuman invisibly attends wherever Rama's name or glory is sung, responding with tears of bliss."
+      ],
+      "source_paragraph_ids": [
+        "p012"
+      ],
+      "source_paragraph_hashes": [
+        "c8946467ff0f355abfac7d0dea5ca76f068b087f32af9b73118ed6da56790169"
+      ],
+      "topics": [
+        "hanuman",
+        "rama",
+        "kirtana",
+        "bhakti"
+      ],
+      "flags": [
+        "devotional_tradition_claim"
+      ],
+      "authority": "dk_attested"
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.anumar_anugrahappar.humility_and_dharma_are_the_closing_hanuman_prayer",
+      "chapter_ordinal": 175,
+      "chapter_slug": "anumar_anugrahappar",
+      "unit_slug": "humility_and_dharma_are_the_closing_hanuman_prayer",
+      "claim_summary": "The closing appeal asks especially for humility in an age of restless self-assertion and invokes Hanuman's help for the spread of dharma, drawing on Ramayana and Mahabharata associations.",
+      "question_intents": [
+        "The closing appeal asks especially for humility in an age of restless self-assertion and invokes Hanuman's help for the spread of dharma, drawing on Ramayana and Mahabharata associations."
+      ],
+      "source_paragraph_ids": [
+        "p013",
+        "p014"
+      ],
+      "source_paragraph_hashes": [
+        "8e88ed6fdffbd390e7f809985d7ef1fc7eb36e9c412f6e020123056af290351d",
+        "9e70decd2cb4ea9908a45866f6c7539f6a156a2ba2038fba063df4f6058d50a4"
+      ],
+      "topics": [
+        "hanuman",
+        "humility",
+        "dharma",
+        "prayer"
+      ],
+      "flags": [],
+      "authority": "dk_attested"
+    }
+  ]
+}
