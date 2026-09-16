@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 2,
+  "base_git_commit": "6b7695039a6036ec8b73d8c5bc1b64ac0080e589",
+  "repaired_bundle_sha256": "ec60011e39def9d6a9e28eb740c7bc4aee5d203b60143ecdab41f420fe187b44",
+  "cleaned_private_curation_sha256": "e058d97fbf08cc31ffb40235f3e34c0ee1bf21540fd24ccf71fd3a2ed473e779",
+  "checks": {
+    "chapter_count": 225,
+    "teaching_record_count": 673,
+    "unique_teaching_record_ids": 673,
+    "source_paragraph_count": 3435,
+    "covered_source_paragraph_count": 3371,
+    "explicit_exclusion_count": 64,
+    "unaccounted_source_paragraph_count": 0,
+    "intentional_overlap_paragraph_count": 7,
+    "overlap_instances": 7,
+    "all_chapters_represented": true,
+    "all_authority_dk_attested": true,
+    "all_print_checks_not_checked": true,
+    "all_primary_source_status_unknown": true,
+    "source_text_embedded_in_records": false,
+    "record_id_pattern_valid": true,
+    "chapter_208_archive_exception_preserved": true,
+    "human_publication_review_still_required": true
+  },
+  "result": "PASS"
+}
