@@ -355,6 +355,9 @@ def test_apply_carries_witness_and_removes_only_approved_pilot_ids(synthetic_rep
         )
     )
     assert [u["id"] for u in pidx["units"]] == [OTHER_ID]
+    assert pidx["unit_count"] == 1
+    assert pidx["chapter_unit_counts"] == {"200": 1}
+    assert pidx["authority_counts"] == {"dk_attested": 1}
 
     q = _read_jsonl(
         review / "mahaperiyava_deivathin_kural_v1_extraction_queue.jsonl"

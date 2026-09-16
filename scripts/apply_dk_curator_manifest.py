@@ -674,9 +674,10 @@ class DKManifestApplier:
                 flag_counter = Counter(f for u in filtered_units for f in u.get("flags", []))
                 pilot_index["flag_counts"] = dict(flag_counter)
 
-                # Rebuild chapter_unit_counts from remaining units
-                # Build slug->ordinal mapping from pilot teaching records (they have both slug and ordinal)
-                slug_to_ordinal = {}
+                # Rebuild chapter_unit_counts from remaining pilot teaching records.
+                # Join by stable teaching-record ID rather than attempting to derive
+                # an English chapter_slug from the Tamil chapter title.
+                id_to_ordinal = {}
                 pilot_records_file = self.repo_root / "data/review/mahaperiyava_dk_v1_pilot_teaching_records.jsonl"
                 if pilot_records_file.exists():
                     with open(pilot_records_file, "r", encoding="utf-8") as pf:
@@ -684,19 +685,29 @@ class DKManifestApplier:
                             line = line.strip()
                             if line:
                                 r = json.loads(line)
-                                slug = r.get("source_locus", {}).get("chapter_title_ta", "").replace(" ", "_").lower()
+                                rid = r.get("id")
                                 ord_val = r.get("source_locus", {}).get("chapter_ordinal")
-                                if slug and ord_val:
-                                    slug_to_ordinal[slug] = ord_val
+                                if rid and ord_val is not None:
+                                    id_to_ordinal[rid] = ord_val
 
-                chapter_counter = {}
-                for u in filtered_units:
-                    slug = u.get("chapter_slug")
-                    if slug in slug_to_ordinal:
-                        ord_val = slug_to_ordinal[slug]
-                        chapter_counter[ord_val] = chapter_counter.get(ord_val, 0) + 1
+                unmapped_units = [
+                    u.get("id")
+                    for u in filtered_units
+                    if u.get("id") not in id_to_ordinal
+                ]
+                if unmapped_units:
+                    raise ValueError(
+                        "Cannot rebuild pilot chapter_unit_counts; remaining curation "
+                        f"index unit(s) have no matching pilot teaching record: {unmapped_units}"
+                    )
 
-                pilot_index["chapter_unit_counts"] = {str(k): v for k, v in sorted(chapter_counter.items())}
+                chapter_counter = Counter(
+                    id_to_ordinal[u.get("id")]
+                    for u in filtered_units
+                )
+                pilot_index["chapter_unit_counts"] = {
+                    str(k): v for k, v in sorted(chapter_counter.items())
+                }
 
                 with open(pilot_index_file, "w", encoding="utf-8") as f:
                     json.dump(pilot_index, f, ensure_ascii=False, indent=2)

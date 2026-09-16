@@ -24,20 +24,20 @@ def _load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def test_pilot_has_33_unique_teaching_units_across_6_chapters():
+def test_pilot_has_28_unique_teaching_units_across_5_chapters():
     records = _jsonl(RECORDS)
     index = _load(INDEX)
 
-    assert len(records) == 33
-    assert index["unit_count"] == 33
-    assert len({r["id"] for r in records}) == 33
-    assert len(index["chapter_unit_counts"]) == 6
+    assert len(records) == 28
+    assert index["unit_count"] == 28
+    assert len({r["id"] for r in records}) == 28
+    assert len(index["chapter_unit_counts"]) == 5
 
     counts = Counter(
         r["source_locus"]["chapter_title_ta"]
         for r in records
     )
-    assert len(counts) == 6
+    assert len(counts) == 5
 
     # Verify no chapter 68, 85, 100, or 108 in pilot
     chapter_ordinals = {r["source_locus"]["chapter_ordinal"] for r in records}
@@ -46,8 +46,9 @@ def test_pilot_has_33_unique_teaching_units_across_6_chapters():
     assert 100 not in chapter_ordinals, "Chapter 100 must not be in pilot"
     assert 108 not in chapter_ordinals, "Chapter 108 must not be in pilot"
 
-    # Verify future pilot chapters still present
-    assert 136 in chapter_ordinals, "Chapter 136 must still be in pilot"
+    # Chapter 136 has now migrated to the regular 126-145 batch.
+    assert 136 not in chapter_ordinals, "Chapter 136 must not remain in pilot"
+    assert chapter_ordinals == {4, 21, 23, 25, 32}
 
 
 def test_authority_is_fail_closed_and_claim_level():
@@ -55,7 +56,7 @@ def test_authority_is_fail_closed_and_claim_level():
     counts = Counter(r["evidence_status"]["authority"] for r in records)
 
     assert counts == {
-        "dk_attested": 31,
+        "dk_attested": 26,
         "earlier_witness_supported": 2,
     }
     assert all(
@@ -95,7 +96,7 @@ def test_dk_only_records_do_not_gain_independent_witnesses():
         r for r in records
         if r["evidence_status"]["authority"] == "dk_attested"
     ]
-    assert len(dk_only) == 31
+    assert len(dk_only) == 26
 
     for r in dk_only:
         assert [p["witness_role"] for p in r["provenance"]] == [

@@ -25,18 +25,17 @@
     "no_primary_source_verified_claimed": true,
     "human_publication_review_still_required": true
   },
-  "unit_count": 33,
+  "unit_count": 28,
   "authority_counts": {
     "earlier_witness_supported": 2,
-    "dk_attested": 31
+    "dk_attested": 26
   },
   "chapter_unit_counts": {
     "4": 6,
     "21": 5,
     "23": 5,
     "25": 7,
-    "32": 5,
-    "136": 5
+    "32": 5
   },
   "units": [
     {
@@ -831,150 +830,6 @@
       ],
       "authority": "dk_attested",
       "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.gunas_and_trimurti_symbolism",
-      "chapter_slug": "siva_vishnu_abhedam",
-      "unit_slug": "gunas_and_trimurti_symbolism",
-      "claim_summary": "The three gunas—sattva, rajas and tamas—are used as a symbolic framework for discussing Brahma, Vishnu and Shiva and their cosmic functions.",
-      "question_intents": [
-        "How are the three gunas related to the Trimurti?",
-        "Why are Brahma, Vishnu and Shiva associated with different gunas?"
-      ],
-      "source_paragraph_ids": [
-        "p001",
-        "p002",
-        "p003",
-        "p004",
-        "p005",
-        "p006"
-      ],
-      "source_paragraph_hashes": [
-        "747ae5497c771f9c0f3a2ac1c433ccff2d438087a84ffffe790bce9af83a65aa",
-        "41d460664af2e2f80320279361cdec7299ebc4154baf723ebde7d721077e5000",
-        "a579db15d7c47cc4b8d56fba7528b6a3437fd774e06fe022ab0686acd906e06e",
-        "dde33c33e54192a8d1aa4888ff1e2127877eca624f9d80d302f7253df0ca56bc",
-        "4c06ead99674eac63cc9ff39d1b66970453f4e7cc76558ed922d82c52b0041b0",
-        "0e3006cc1df040cd1e80a9d78994226ce6eadfae406d0f5ae07cfb5ad7c3c3aa"
-      ],
-      "topics": [
-        "gunas",
-        "trimurti",
-        "brahma",
-        "vishnu",
-        "shiva"
-      ],
-      "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.sectarian_readings_of_shiva_and_vishnu",
-      "chapter_slug": "siva_vishnu_abhedam",
-      "unit_slug": "sectarian_readings_of_shiva_and_vishnu",
-      "claim_summary": "The chapter presents contrasting Saiva and Vaishnava interpretations of preservation, dissolution and liberation as examples of sectarian reasoning.",
-      "question_intents": [
-        "Why do Saivas and Vaishnavas argue about which deity is supreme?",
-        "How does the chapter describe their different interpretations?"
-      ],
-      "source_paragraph_ids": [
-        "p007"
-      ],
-      "source_paragraph_hashes": [
-        "a771d4b914c19aac51d94f8f35def579ae5d3243f7e65982f05ba935136a27eb"
-      ],
-      "topics": [
-        "saiva",
-        "vaishnava",
-        "shiva",
-        "vishnu"
-      ],
-      "flags": [
-        "descriptive_of_sectarian_views"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.smarta_view_no_higher_or_lower_deity",
-      "chapter_slug": "siva_vishnu_abhedam",
-      "unit_slug": "smarta_view_no_higher_or_lower_deity",
-      "claim_summary": "The Smarta standpoint is stated as seeing Shiva, Vishnu and the other deities as different forms of the one Paramatman, without an ultimate hierarchy among them.",
-      "question_intents": [
-        "What is the Smarta view of Shiva and Vishnu?",
-        "Is one deity higher than another according to this chapter?"
-      ],
-      "source_paragraph_ids": [
-        "p008"
-      ],
-      "source_paragraph_hashes": [
-        "0d036fc8b205a816050b91d78a642099bfdc4b1008c1d6dd05bee2d8465686e3"
-      ],
-      "topics": [
-        "smarta",
-        "shiva",
-        "vishnu",
-        "paramatma",
-        "abheda"
-      ],
-      "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.simple_guna_labels_do_not_separate_shiva_vishnu",
-      "chapter_slug": "siva_vishnu_abhedam",
-      "unit_slug": "simple_guna_labels_do_not_separate_shiva_vishnu",
-      "claim_summary": "The chapter points to features of Vishnu and Shiva that cross simple sattva/tamas assignments, arguing that neither deity can be reduced to a single exclusive guna.",
-      "question_intents": [
-        "Why does Mahaperiyava question simple sattva/tamas labels for Shiva and Vishnu?"
-      ],
-      "source_paragraph_ids": [
-        "p009",
-        "p010",
-        "p011"
-      ],
-      "source_paragraph_hashes": [
-        "b294e5abe0a622b8aeb17b804f8f4e258051e70790dd217280a2f65ab452edf4",
-        "4146031c69ea694fab73f39a222e612d5e1bd09b88a9267a3b1c97a33b511e5f",
-        "127bbefd8360ed3c0e5d9f14e51aa3576faef878e9c11edb6a4ca626af86fade"
-      ],
-      "topics": [
-        "gunas",
-        "shiva",
-        "vishnu"
-      ],
-      "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity",
-      "chapter_slug": "siva_vishnu_abhedam",
-      "unit_slug": "shiva_vishnu_essential_unity",
-      "claim_summary": "Because sattva and tamas are shown as present in different ways in both Shiva and Vishnu, the chapter concludes that their essential reality is one and that both may be worshipped with devotion.",
-      "question_intents": [
-        "What does Shiva-Vishnu abheda mean?",
-        "Can one worship both Shiva and Vishnu?",
-        "What is the conclusion of this chapter about Shiva and Vishnu?"
-      ],
-      "source_paragraph_ids": [
-        "p012"
-      ],
-      "source_paragraph_hashes": [
-        "459ccec100466d47cba8ce687f01fdf3d7e5a44dfdbe8a497342fc5d8952ac52"
-      ],
-      "topics": [
-        "shiva",
-        "vishnu",
-        "abheda",
-        "bhakti"
-      ],
-      "flags": [
-        "historical_match_candidate_external_1927"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
     }
   ],
   "flag_counts": {
@@ -982,8 +837,6 @@
     "historical_generalization": 1,
     "context_sensitive": 1,
     "context_sensitive_social_teaching": 3,
-    "historical_claim_requires_external_verification": 2,
-    "descriptive_of_sectarian_views": 1,
-    "historical_match_candidate_external_1927": 1
+    "historical_claim_requires_external_verification": 2
   }
 }

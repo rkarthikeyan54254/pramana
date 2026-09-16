@@ -1,0 +1,66 @@
+{
+  "version": "0.1",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "phase": "batch_126_145_pilot_migration",
+  "status": "CURATOR_APPROVED",
+  "reason": "Chapter 136 already exists in the pilot corpus with five dk_attested records. The full 126-145 review packet confirms the same five stable semantic teaching identities. The regular batch supersedes the pilot representation. No pilot Chapter 136 record carries earlier_witness_supported, dk_print_checked, primary_source_verified, or earlier_secondary provenance.",
+  "policy": {
+    "no_new_witness_research_in_this_migration": true,
+    "no_silent_authority_downgrade": true,
+    "remove_obsolete_pilot_representation_after_batch_apply": true,
+    "preserve_stable_teaching_ids": true,
+    "candidate_witness_metadata_does_not_promote_authority": true
+  },
+  "chapter_decisions": [
+    {
+      "chapter_ordinal": 136,
+      "chapter_title_ta": "சிவ, விஷ்ணு அபேதம்",
+      "action": "replace_with_batch",
+      "carry_forward_stronger_evidence": false,
+      "update_queue": true,
+      "remove_pilot_records": true,
+      "pilot_record_count": 5,
+      "pilot_authority_distribution": {
+        "dk_attested": 5,
+        "earlier_witness_supported": 0,
+        "dk_print_checked": 0,
+        "primary_source_verified": 0
+      },
+      "pilot_record_ids": [
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.gunas_and_trimurti_symbolism",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.sectarian_readings_of_shiva_and_vishnu",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.smarta_view_no_higher_or_lower_deity",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.simple_guna_labels_do_not_separate_shiva_vishnu",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity"
+      ],
+      "replacement_record_ids": [
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.gunas_and_trimurti_symbolism",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.sectarian_readings_of_shiva_and_vishnu",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.smarta_view_no_higher_or_lower_deity",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.simple_guna_labels_do_not_separate_shiva_vishnu",
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity"
+      ],
+      "curator_note": "Replace the entire pilot Chapter 136 representation with the regular 126-145 batch. All five stable IDs are intentionally retained. The old pilot-only historical-match flag is not carried into teaching flags; historical source leads are represented as review-only candidate_witness metadata in the curator manifest."
+    }
+  ],
+  "expected_post_batch_assuming_106_125_integrated": {
+    "prior_total_teaching_records": 698,
+    "prior_dk_attested": 665,
+    "prior_earlier_witness_supported": 33,
+    "prior_pilot_records": 33,
+    "batch_teaching_records": 98,
+    "batch_authority_counts": {
+      "dk_attested": 98
+    },
+    "pilot_records_removed_for_chapter_136": 5,
+    "pilot_records_remaining": 28,
+    "total_teaching_records": 791,
+    "dk_attested": 758,
+    "earlier_witness_supported": 33,
+    "dk_print_checked": 0,
+    "primary_source_verified": 0,
+    "sequential_semantic_frontier": 145
+  }
+}
