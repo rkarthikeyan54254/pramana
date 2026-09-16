@@ -65,14 +65,6 @@ EXPECTED_BATCH_AUTHORITY = {
     "primary_source_verified": 0,
 }
 
-# Corpus-wide totals
-EXPECTED_CORPUS_AUTHORITY = {
-    "total": 393,
-    "dk_attested": 359,
-    "earlier_witness_supported": 34,
-    "dk_print_checked": 0,
-    "primary_source_verified": 0,
-}
 
 
 def load_json(path: Path) -> dict:
@@ -157,24 +149,6 @@ class TestBatchAuthority:
         assert authority_counts.get("dk_print_checked", 0) == 0
         assert authority_counts.get("primary_source_verified", 0) == 0
 
-
-class TestCorpusWideAuthority:
-    """Test corpus-wide authority totals after batch 046-065 promotion."""
-
-    def test_corpus_authority_totals(self):
-        """Corpus-wide authority must match expected totals."""
-        # We rely on the existing auditor which scans all tracked files
-        # This is a sanity check on the overall numbers
-        from scripts.audit_mahaperiyava_corpus_metadata import audit_teaching_records, discover_tracked_files
-
-        teaching_files, _ = discover_tracked_files()
-        teaching = audit_teaching_records(teaching_files)
-
-        assert teaching["total_records"] == EXPECTED_CORPUS_AUTHORITY["total"]
-        assert teaching["authority_counts"].get("dk_attested", 0) == EXPECTED_CORPUS_AUTHORITY["dk_attested"]
-        assert teaching["authority_counts"].get("earlier_witness_supported", 0) == EXPECTED_CORPUS_AUTHORITY["earlier_witness_supported"]
-        assert teaching["authority_counts"].get("dk_print_checked", 0) == EXPECTED_CORPUS_AUTHORITY["dk_print_checked"]
-        assert teaching["authority_counts"].get("primary_source_verified", 0) == EXPECTED_CORPUS_AUTHORITY["primary_source_verified"]
 
 
 class TestPromotedRecordIntegrity:

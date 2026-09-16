@@ -1,0 +1,3292 @@
+{
+  "version": "0.1",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "phase": "batch_066_085_teaching_units_curated",
+  "status": "CURATED_REVIEW_DATA_NOT_PUBLICATION_APPROVED",
+  "generated_at": "2026-09-16T04:40:43+00:00",
+  "source_packet": {
+    "packet_version": "1.0",
+    "private_path": "data/private/mahaperiyava_dk_v1_batch_066_085_review_packet.json",
+    "sha256": "844415317346754f04d7afcef278b9aa231005f2009a4b68d36ddc176bd86557",
+    "generated_at": "2026-09-15T18:29:48+00:00",
+    "chapter_count": 20,
+    "paragraph_count": 171,
+    "contains_restricted_source_text": true,
+    "tracked": false
+  },
+  "policy": {
+    "no_exact_source_text_in_tracked_artifacts": true,
+    "claim_summaries_are_not_quotes": true,
+    "all_batch_authority_is_dk_attested": true,
+    "historical_witness_comparison_deferred": true,
+    "no_print_check_claimed": true,
+    "no_primary_source_verified_claimed": true,
+    "source_paragraph_accounting_policy": "at_least_once_or_explicitly_excluded",
+    "replacement_decoded_source_units_are_flagged": true,
+    "source_title_anomalies_preserved_pending_qc": true,
+    "sensitive_external_fact_claims_are_flagged": true,
+    "social_and_religious_generalizations_are_attributed_only": true,
+    "caste_varna_material_requires_contextual_answering": true,
+    "political_material_requires_source_attribution": true,
+    "violence_punishment_and_sacrifice_material_requires_context": true,
+    "human_publication_review_still_required": true
+  },
+  "source_anomalies": [],
+  "unit_count": 110,
+  "authority_counts": {
+    "dk_attested": 110
+  },
+  "chapter_unit_counts": {
+    "66": 6,
+    "67": 7,
+    "68": 5,
+    "69": 8,
+    "70": 5,
+    "71": 6,
+    "72": 4,
+    "73": 7,
+    "74": 6,
+    "75": 5,
+    "76": 5,
+    "77": 4,
+    "78": 4,
+    "79": 5,
+    "80": 6,
+    "81": 5,
+    "82": 6,
+    "83": 5,
+    "84": 4,
+    "85": 7
+  },
+  "flag_counts": {
+    "traditional_normative_claim": 48,
+    "social_generalization": 28,
+    "historical_claim_requires_external_verification": 30,
+    "causal_claim_attributed_only": 22,
+    "psychological_generalization": 11,
+    "political_normative_claim": 11,
+    "traditional_soteriological_claim": 11,
+    "cultural_generalization": 12,
+    "caste_varna_normative_claim": 1,
+    "traditional_yogic_claim": 4,
+    "linguistic_etymology_claim_requires_external_verification": 3,
+    "literary_interpretation": 12,
+    "traditional_scriptural_claim": 18,
+    "religious_comparison_attributed_only": 6,
+    "political_historical_claim": 2,
+    "biological_generalization_attributed_only": 3,
+    "traditional_ritual_claim": 2,
+    "epistemic_claim_attributed_only": 1,
+    "scientific_claim_requires_external_verification": 4
+  },
+  "source_coverage": {
+    "paragraph_count": 171,
+    "covered_paragraph_count": 171,
+    "coverage_mode": "at_least_once_or_explicitly_excluded",
+    "excluded_source_blocks": 0
+  },
+  "units": [
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kalvi_muraiyin_kolaru.education_should_form_humility",
+      "chapter_ordinal": 66,
+      "chapter_slug": "kalvi_muraiyin_kolaru",
+      "unit_slug": "education_should_form_humility",
+      "claim_summary": "Education is presented as worthwhile only when it forms humility, self-restraint, and good character rather than merely increasing formal schooling.",
+      "question_intents": [
+        "What does Mahaperiyava say should be the first fruit of education?",
+        "Why does he criticize education that does not produce humility?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "6f6927e229df0f95ef97231ae8e6bceb858c8204e2f0247aec60f845aa8f33e1",
+        "bfbfeb5e2e60bfa26de6161dbf1c97ac2fbd5fa22be7cba2d07fbdca823dd204"
+      ],
+      "topics": [
+        "education",
+        "humility",
+        "self_control"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kalvi_muraiyin_kolaru.education_aims_at_knowledge_of_god",
+      "chapter_ordinal": 66,
+      "chapter_slug": "kalvi_muraiyin_kolaru",
+      "unit_slug": "education_aims_at_knowledge_of_god",
+      "claim_summary": "The ultimate purpose of education is presented as coming to know the divine, with loss of devotion treated as a sign that education has missed its higher aim.",
+      "question_intents": [
+        "What does Mahaperiyava describe as the highest purpose of education?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "0d59373fc5f1d9353b79069f709b2095e07aa65f37c6bcc335dc71f7b63e0635"
+      ],
+      "topics": [
+        "education",
+        "god_knowledge",
+        "devotion"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kalvi_muraiyin_kolaru.education_and_womens_character",
+      "chapter_ordinal": 66,
+      "chapter_slug": "kalvi_muraiyin_kolaru",
+      "unit_slug": "education_and_womens_character",
+      "claim_summary": "The chapter criticizes contemporary education for, in its view, weakening modesty and restraint among women rather than strengthening those qualities.",
+      "question_intents": [
+        "What concern does Mahaperiyava express about education and women’s traditional character?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "a4ac5b8015980a8c9dc00e6735fe5bc2af1ac848903b84ddf0b8322a1ba8100e"
+      ],
+      "topics": [
+        "education",
+        "women",
+        "modesty",
+        "character"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kalvi_muraiyin_kolaru.gurukula_forms_humility_and_bond",
+      "chapter_ordinal": 66,
+      "chapter_slug": "kalvi_muraiyin_kolaru",
+      "unit_slug": "gurukula_forms_humility_and_bond",
+      "claim_summary": "Traditional gurukula life is presented as forming humility through disciplined dependence on the teacher and as creating reciprocal affection, exemplary conduct, and reverence between student and guru.",
+      "question_intents": [
+        "Why does Mahaperiyava value the gurukula relationship?",
+        "How does he say gurukula life cultivates humility?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "ea6cafe155caab1e486169f974a93bbb058b39142d168ff12cb374e27ee0436c",
+        "196e522141e0e1563e3d4d9a99c6a10b1de2ab953ea5e9f97bfe7f729006054b",
+        "b6872e96b4a76fdc9a57b58eb1600571c412499ff928ef3bc59b5a4d78ecd40b"
+      ],
+      "topics": [
+        "gurukula",
+        "guru_bhakti",
+        "humility",
+        "education"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kalvi_muraiyin_kolaru.loss_of_guru_bhakti_as_educational_disorder",
+      "chapter_ordinal": 66,
+      "chapter_slug": "kalvi_muraiyin_kolaru",
+      "unit_slug": "loss_of_guru_bhakti_as_educational_disorder",
+      "claim_summary": "The loss of reverence for teachers is presented as a central defect of modern education even when the subjects taught remain similar.",
+      "question_intents": [
+        "What does Mahaperiyava identify as a major disorder in modern education?"
+      ],
+      "source_paragraph_ids": [
+        "p008",
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "a0caab3f37062edcffa845ef682021d07fb6cad573ea84454dbe5772f0f1358d",
+        "76b67651414204903c8eae74d04c1663d4d591ecc5bc68ce7720942073950430"
+      ],
+      "topics": [
+        "guru_bhakti",
+        "education",
+        "discipline"
+      ],
+      "flags": [
+        "social_generalization",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kalvi_muraiyin_kolaru.preserve_gurukula_seed",
+      "chapter_ordinal": 66,
+      "chapter_slug": "kalvi_muraiyin_kolaru",
+      "unit_slug": "preserve_gurukula_seed",
+      "claim_summary": "Even if full restoration of the gurukula system is impractical, the chapter urges preserving at least a small living continuity of it so that the tradition and its discipline do not disappear.",
+      "question_intents": [
+        "Does Mahaperiyava call for restoring gurukula education for everyone?",
+        "What does he mean by preserving the ‘seed’ of gurukula education?"
+      ],
+      "source_paragraph_ids": [
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "41c6932d32f215e92934c1e1eae52a8f5103d76f4fd914dcc140d297b78da9e8"
+      ],
+      "topics": [
+        "gurukula",
+        "tradition_preservation",
+        "education"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.endless_wants_are_not_higher_living",
+      "chapter_ordinal": 67,
+      "chapter_slug": "vaazhkai_tharam",
+      "unit_slug": "endless_wants_are_not_higher_living",
+      "claim_summary": "Increasing consumption is rejected as a genuine rise in quality of life; multiplying wants is said to increase greed, dissatisfaction, and a sense of poverty.",
+      "question_intents": [
+        "How does Mahaperiyava distinguish higher living from higher consumption?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "c84b951c8d7c52a2a4add2eea8671851aa016342843d3c1b62f3624b15c2bad0",
+        "290362cf2d32f63e7611437b04936221a757bc61c5684a2274f866be27a96337"
+      ],
+      "topics": [
+        "contentment",
+        "consumerism",
+        "quality_of_life"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "causal_claim_attributed_only",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.basic_needs_for_all",
+      "chapter_ordinal": 67,
+      "chapter_slug": "vaazhkai_tharam",
+      "unit_slug": "basic_needs_for_all",
+      "claim_summary": "Public planning is said to have a proper role in ensuring that everyone receives the necessities required to preserve life and dignity.",
+      "question_intents": [
+        "What role does Mahaperiyava assign to government in material welfare?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "c8462091f0ed41046e5538c057cc297da8df06dd760c10fd71209b4cfd42bf44"
+      ],
+      "topics": [
+        "basic_needs",
+        "public_policy",
+        "social_welfare"
+      ],
+      "flags": [
+        "political_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.affluent_should_limit_luxury",
+      "chapter_ordinal": 67,
+      "chapter_slug": "vaazhkai_tharam",
+      "unit_slug": "affluent_should_limit_luxury",
+      "claim_summary": "Those with means are urged to restrain their own comforts rather than continually enlarging them while others lack necessities.",
+      "question_intents": [
+        "What does Mahaperiyava ask of people who have greater material means?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "c33020e869e42286cb8092c888f974dd505051fbfc709d3e1d76f9c228d04890"
+      ],
+      "topics": [
+        "simplicity",
+        "wealth",
+        "solidarity"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.aparigraha_and_helping_the_needy",
+      "chapter_ordinal": 67,
+      "chapter_slug": "vaazhkai_tharam",
+      "unit_slug": "aparigraha_and_helping_the_needy",
+      "claim_summary": "Aparigraha is explained as refusing to desire more than is necessary for life and using surplus means to help families that lack essentials; this is presented as dharma and spiritually beneficial.",
+      "question_intents": [
+        "How does Mahaperiyava explain aparigraha?",
+        "What should surplus wealth be used for?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "3939db2cf1bc16cdc1ae9c5434d8fe2bf11368f71f49032f8905c7da0bee5caf"
+      ],
+      "topics": [
+        "aparigraha",
+        "charity",
+        "simplicity",
+        "moksha"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.luxury_imitation_and_debt",
+      "chapter_ordinal": 67,
+      "chapter_slug": "vaazhkai_tharam",
+      "unit_slug": "luxury_imitation_and_debt",
+      "claim_summary": "Luxury consumption by the affluent is said to stimulate imitation among those with fewer means, encouraging unnecessary borrowing and hardship.",
+      "question_intents": [
+        "What social effect does Mahaperiyava attribute to conspicuous luxury?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "ef0292b645c2f561312ea37fb6084bff5764430c7dbe82d23f40b15652dbb8bb"
+      ],
+      "topics": [
+        "consumerism",
+        "debt",
+        "social_influence"
+      ],
+      "flags": [
+        "social_generalization",
+        "causal_claim_attributed_only",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.true_quality_of_life_is_inner",
+      "chapter_ordinal": 67,
+      "chapter_slug": "vaazhkai_tharam",
+      "unit_slug": "true_quality_of_life_is_inner",
+      "claim_summary": "True quality of life is defined in terms of good character, devotion, peace, and contentment rather than an ever-rising material standard of living.",
+      "question_intents": [
+        "What does Mahaperiyava mean by true ‘quality of life’?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "72efc8192e0c11216e825e992bc538f3b63ca6c3db7f1920d10a116fb4e33b61"
+      ],
+      "topics": [
+        "quality_of_life",
+        "contentment",
+        "devotion",
+        "character"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.policy_should_reduce_excess_wants",
+      "chapter_ordinal": 67,
+      "chapter_slug": "vaazhkai_tharam",
+      "unit_slug": "policy_should_reduce_excess_wants",
+      "claim_summary": "The chapter argues that policy aimed at genuine welfare should reduce the multiplication of unnecessary material wants rather than treating their expansion as progress.",
+      "question_intents": [
+        "What policy direction does Mahaperiyava propose regarding material wants?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "b17f9f9cc223f346c2ca69b78b40e33990d95b0e48d7a2d14c2db60bb242791f"
+      ],
+      "topics": [
+        "public_policy",
+        "consumerism",
+        "simplicity"
+      ],
+      "flags": [
+        "political_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.eliya_vaazhvu.contentment_not_possessions_defines_good_life",
+      "chapter_ordinal": 68,
+      "chapter_slug": "eliya_vaazhvu",
+      "unit_slug": "contentment_not_possessions_defines_good_life",
+      "claim_summary": "A good life is presented as one of inner contentment with basic necessities, not one measured by accumulating comforts and possessions.",
+      "question_intents": [
+        "How does Mahaperiyava define a genuinely good standard of living?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "c7984c8fb9b921d45bf2409d3b8a4e8d8d29f63f22f2303c1c9bd9bb2a4c2fd2"
+      ],
+      "topics": [
+        "simple_living",
+        "contentment",
+        "quality_of_life"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.eliya_vaazhvu.desire_for_goods_creates_poverty_and_competition",
+      "chapter_ordinal": 68,
+      "chapter_slug": "eliya_vaazhvu",
+      "unit_slug": "desire_for_goods_creates_poverty_and_competition",
+      "claim_summary": "Persistent desire for more goods is described as a form of poverty even among the wealthy and as a source of competition and conflict.",
+      "question_intents": [
+        "Why does Mahaperiyava call even wealthy people ‘poor’ when wants keep increasing?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "1aeb0adff10cc5d6203cf4a7eecb7bff484ca6b3f6f40390fbfafa53200e763c"
+      ],
+      "topics": [
+        "desire",
+        "consumerism",
+        "poverty",
+        "competition"
+      ],
+      "flags": [
+        "psychological_generalization",
+        "causal_claim_attributed_only",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.eliya_vaazhvu.consumerism_weakens_spiritual_life",
+      "chapter_ordinal": 68,
+      "chapter_slug": "eliya_vaazhvu",
+      "unit_slug": "consumerism_weakens_spiritual_life",
+      "claim_summary": "Modern consumerism is criticized for displacing spiritual development and contentment and for intensifying social unease, envy, and frustration.",
+      "question_intents": [
+        "What spiritual and social harms does Mahaperiyava associate with consumerism?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "af51ea1c76bb2b426859585700503fa1cf423797a4d9a0fa6d07b532548075cf",
+        "340dcf32eb42bdd211aaeb186f998b9d0601c485a942bd083082b0542986a1d3"
+      ],
+      "topics": [
+        "consumerism",
+        "spiritual_life",
+        "envy",
+        "contentment"
+      ],
+      "flags": [
+        "social_generalization",
+        "causal_claim_attributed_only",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.eliya_vaazhvu.affluent_simplicity_as_social_example",
+      "chapter_ordinal": 68,
+      "chapter_slug": "eliya_vaazhvu",
+      "unit_slug": "affluent_simplicity_as_social_example",
+      "claim_summary": "The chapter presents simplicity among socially influential or affluent people as a stabilizing example and contrasts it with ostentation, while making historical claims about older patterns of social life.",
+      "question_intents": [
+        "Why does Mahaperiyava place special responsibility on people with means to live simply?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "da0198e34aaa3d65c2c0e4ec130373dd24b2a6c706c9d03ab783a7292dca841c"
+      ],
+      "topics": [
+        "simple_living",
+        "social_example",
+        "wealth",
+        "historical_society"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "historical_claim_requires_external_verification",
+        "social_generalization",
+        "caste_varna_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.eliya_vaazhvu.return_to_simple_living",
+      "chapter_ordinal": 68,
+      "chapter_slug": "eliya_vaazhvu",
+      "unit_slug": "return_to_simple_living",
+      "claim_summary": "People are urged to revive simple living, reduce wants, perform their duties, and seek prosperity in contentment rather than display.",
+      "question_intents": [
+        "What practical return to simple living does Mahaperiyava recommend?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "3cdeeaf37ac185cd4eee2db1cae25aba46f45040decbde817f113e8cb41966d6"
+      ],
+      "topics": [
+        "simple_living",
+        "duty",
+        "contentment"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kanakkayirukkanum.economy_means_limiting_needs",
+      "chapter_ordinal": 69,
+      "chapter_slug": "kanakkayirukkanum",
+      "unit_slug": "economy_means_limiting_needs",
+      "claim_summary": "True economy is described not as bargaining over unnecessary purchases but as first asking whether a thing is genuinely necessary and limiting one’s needs accordingly.",
+      "question_intents": [
+        "What does Mahaperiyava mean by being ‘careful in accounts’ in personal consumption?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "3af9e45732795edf8050416e1c77abc4307f018cd12c75e64672905b18f7cbea",
+        "9219ea2603f5fce531fbe52c7ab59975759d28be02a82d357570b2eba059b077",
+        "77d62eed80f3e73ae8fd984da76f2eb24578cc31b33d6333e9bb3462cdb098b9"
+      ],
+      "topics": [
+        "simplicity",
+        "economy",
+        "needs",
+        "contentment"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kanakkayirukkanum.measured_speech_preserves_energy_and_peace",
+      "chapter_ordinal": 69,
+      "chapter_slug": "kanakkayirukkanum",
+      "unit_slug": "measured_speech_preserves_energy_and_peace",
+      "claim_summary": "Speech should be concise, measured, and controlled because excessive talking wastes time and energy and can generate needless conflict.",
+      "question_intents": [
+        "Why does Mahaperiyava urge people to speak less and more precisely?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "22dceb4c414cb1953cfd2d98c1094f5478dfd19f7f3d40f10809706c465550ac"
+      ],
+      "topics": [
+        "speech",
+        "self_control",
+        "silence"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kanakkayirukkanum.limit_actions_to_worthwhile_ends",
+      "chapter_ordinal": 69,
+      "chapter_slug": "kanakkayirukkanum",
+      "unit_slug": "limit_actions_to_worthwhile_ends",
+      "claim_summary": "Actions should be limited to what serves spiritual welfare or the welfare of the world, rather than being driven simply by desire.",
+      "question_intents": [
+        "How does Mahaperiyava say we should decide which actions are worth doing?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "bdf5eb5c20765b34881b1ef69e424665105ec0360f40b1bd9d3fc0c0fbf01cdd"
+      ],
+      "topics": [
+        "action",
+        "discernment",
+        "lokakshema",
+        "spiritual_welfare"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kanakkayirukkanum.restrain_and_focus_thought",
+      "chapter_ordinal": 69,
+      "chapter_slug": "kanakkayirukkanum",
+      "unit_slug": "restrain_and_focus_thought",
+      "claim_summary": "Because scattered thought weakens the mind, the chapter recommends gradually restraining unnecessary thinking and directing attention toward a small number of wholesome objects.",
+      "question_intents": [
+        "What does Mahaperiyava recommend for controlling a scattered mind?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "eb3c06691d08b3cc721753bb532bd28ce0156f9da3654787dfaeefbfbb48326c",
+        "06ff18daf23568eca038f2adb2d93ee3b3f03d94b1c08f86b6b556c1d1ba2476"
+      ],
+      "topics": [
+        "mind_control",
+        "attention",
+        "thought",
+        "self_discipline"
+      ],
+      "flags": [
+        "traditional_yogic_claim",
+        "psychological_generalization",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kanakkayirukkanum.spend_less_give_more",
+      "chapter_ordinal": 69,
+      "chapter_slug": "kanakkayirukkanum",
+      "unit_slug": "spend_less_give_more",
+      "claim_summary": "One should earn and spend with a sense of sufficiency, minimize personal expenditure, and use available means generously for charity and service.",
+      "question_intents": [
+        "How does Mahaperiyava connect personal frugality with charity?",
+        "What does he say about luxury spending and giving?"
+      ],
+      "source_paragraph_ids": [
+        "p008",
+        "p009",
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "83b9f7043f2669eaa79029ca7373641147f2619358c230ced91b21ee28e99e93",
+        "5f64edccff52426c50c58c5d26507f7efb90148dfd053e606f7c4299deee0b36",
+        "053d32bf8e8da5a8571d45b62dc9a160cf8a642b8123297261165f796e0564f3"
+      ],
+      "topics": [
+        "charity",
+        "wealth",
+        "simplicity",
+        "aparigraha"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kanakkayirukkanum.speech_control_as_spiritual_practice",
+      "chapter_ordinal": 69,
+      "chapter_slug": "kanakkayirukkanum",
+      "unit_slug": "speech_control_as_spiritual_practice",
+      "claim_summary": "The chapter gives special urgency to controlling speech: avoid harmful and pointless talk, prefer silence where possible, and speak about what elevates oneself and others.",
+      "question_intents": [
+        "What discipline of speech does Mahaperiyava recommend?"
+      ],
+      "source_paragraph_ids": [
+        "p011"
+      ],
+      "source_paragraph_hashes": [
+        "3625bb7e27ce83da156212e05b3d27991bd6f5587647796b18fb657a5bfd3fe7"
+      ],
+      "topics": [
+        "speech",
+        "silence",
+        "self_control",
+        "spiritual_practice"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_yogic_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kanakkayirukkanum.discipline_thought_word_and_deed_is_yoga",
+      "chapter_ordinal": 69,
+      "chapter_slug": "kanakkayirukkanum",
+      "unit_slug": "discipline_thought_word_and_deed_is_yoga",
+      "claim_summary": "Measured control of thought, speech, and action is presented as a path of integration, with yoga characterized as gathered rather than scattered functioning.",
+      "question_intents": [
+        "How does Mahaperiyava connect self-control with yoga?"
+      ],
+      "source_paragraph_ids": [
+        "p012",
+        "p013"
+      ],
+      "source_paragraph_hashes": [
+        "8bed3a2427a360c8db0d39325b61a48af815324a2b1774ac8f261e9cda3aca06",
+        "a69e75241751d4e287f5692377b5f15eed37d3fdb162236298139a692e410557"
+      ],
+      "topics": [
+        "yoga",
+        "self_control",
+        "thought_word_deed"
+      ],
+      "flags": [
+        "traditional_yogic_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.kanakkayirukkanum.sankhya_as_counting_and_discernment",
+      "chapter_ordinal": 69,
+      "chapter_slug": "kanakkayirukkanum",
+      "unit_slug": "sankhya_as_counting_and_discernment",
+      "claim_summary": "The chapter interprets the word ‘Sankhya’ through the idea of counting or exact discrimination and connects such disciplined discernment with mental balance and yoga.",
+      "question_intents": [
+        "How does Mahaperiyava interpret ‘Sankhya’ in connection with being exact or measured?"
+      ],
+      "source_paragraph_ids": [
+        "p014",
+        "p015",
+        "p016",
+        "p017",
+        "p018"
+      ],
+      "source_paragraph_hashes": [
+        "0b221d62272141e5e3522b12ccbe70b23386d81e3f54efdfc95204db4a7f95f6",
+        "678f7ebdb072c5e1697726b8ed70719e8440d5b33f98ef4c6249f45ae192941c",
+        "f04615cf1ee1e92c780d0d9c7c504fd074b4e40a948a90dfc4e3fe4709c90e22",
+        "c1bf630a9cbfca590e44541117f380e9c15819624e8b6991f0f3dec4a73429e9",
+        "357527175a6993816a51fb69d8eefb000b39a6531ed372e3aa9f156e2554d6fb"
+      ],
+      "topics": [
+        "sankhya",
+        "discernment",
+        "yoga",
+        "etymology"
+      ],
+      "flags": [
+        "linguistic_etymology_claim_requires_external_verification",
+        "traditional_yogic_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.panathai_vittu_gunathai_kolka.city_and_village_religious_observation",
+      "chapter_ordinal": 70,
+      "chapter_slug": "panathai_vittu_gunathai_kolka",
+      "unit_slug": "city_and_village_religious_observation",
+      "claim_summary": "From his own travels, the speaker contrasts village and city religious practice and says that busy city dwellers sometimes preserve worship and observance more consciously despite modern pressures.",
+      "question_intents": [
+        "What contrast does Mahaperiyava draw between city and village religious practice?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "e30e511224e6d4895b56e4117d1fd740178e67cedffce0b118db177153825bb2",
+        "bd5254969cd793ec2f2ad7d37e1d4aa2b636813514675c422941d8ed8381b55e",
+        "a30de62f02367860ca47907a7e603b63f0c6699a59574e831a80f21bc9b08741",
+        "d9dfe6fb158b15ceb1317257884b89a834ff663800f8638ce9f487788b3c0a6f"
+      ],
+      "topics": [
+        "religious_practice",
+        "city_life",
+        "village_life",
+        "observation"
+      ],
+      "flags": [
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.panathai_vittu_gunathai_kolka.character_over_money",
+      "chapter_ordinal": 70,
+      "chapter_slug": "panathai_vittu_gunathai_kolka",
+      "unit_slug": "character_over_money",
+      "claim_summary": "Full well-being is said to require reviving dharmic practice, reducing the pursuit of money and comfort, and striving instead for good character and a quieter, more contented life.",
+      "question_intents": [
+        "What does Mahaperiyava say should replace the pursuit of ever more money?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "b46993892fc9d6fb16bef2841c8e333f2774cb9db2bdd7d1b07ce35fec9223e3"
+      ],
+      "topics": [
+        "character",
+        "money",
+        "dharma",
+        "contentment"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.panathai_vittu_gunathai_kolka.devotion_without_ego_or_display",
+      "chapter_ordinal": 70,
+      "chapter_slug": "panathai_vittu_gunathai_kolka",
+      "unit_slug": "devotion_without_ego_or_display",
+      "claim_summary": "Even devotion and learning can be corrupted by desire for wealth, praise, or display; the remedy presented is relinquishing ego and acting with humility as an offering to God.",
+      "question_intents": [
+        "What warning does Mahaperiyava give about ego entering religious practice?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "b46993892fc9d6fb16bef2841c8e333f2774cb9db2bdd7d1b07ce35fec9223e3"
+      ],
+      "topics": [
+        "ego",
+        "devotion",
+        "ishvararpana",
+        "humility"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.panathai_vittu_gunathai_kolka.critique_of_modernity_and_western_imitation",
+      "chapter_ordinal": 70,
+      "chapter_slug": "panathai_vittu_gunathai_kolka",
+      "unit_slug": "critique_of_modernity_and_western_imitation",
+      "claim_summary": "The chapter contrasts modern consumer culture with Indian traditions and claims that some Westerners, dissatisfied with material modernity, were turning toward Vedanta and bhakti.",
+      "question_intents": [
+        "What contrast does Mahaperiyava make between modern material culture and Vedanta or bhakti?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "cd14e64ff5693fab6ba042756744b4d2cd360ba1a816f8857682fa786912c0d6"
+      ],
+      "topics": [
+        "modernity",
+        "vedanta",
+        "bhakti",
+        "cultural_comparison"
+      ],
+      "flags": [
+        "cultural_generalization",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.panathai_vittu_gunathai_kolka.cultivate_virtue_instead_of_attachment_to_money",
+      "chapter_ordinal": 70,
+      "chapter_slug": "panathai_vittu_gunathai_kolka",
+      "unit_slug": "cultivate_virtue_instead_of_attachment_to_money",
+      "claim_summary": "Attachment to money is identified as a root disorder, and the recommended alternative is to cultivate virtues so that one’s life benefits both oneself and the world.",
+      "question_intents": [
+        "What does Mahaperiyava identify as a root problem in social life, and what should replace it?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "5e5e78b496b9251f1e3f03ece881c4d0d3aaa824574578b7a5710f546a4f47cf"
+      ],
+      "topics": [
+        "money",
+        "virtue",
+        "service",
+        "life_purpose"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.varadakshanai_prachchanai.dowry_and_wedding_costs_delay_marriage",
+      "chapter_ordinal": 71,
+      "chapter_slug": "varadakshanai_prachchanai",
+      "unit_slug": "dowry_and_wedding_costs_delay_marriage",
+      "claim_summary": "The chapter argues that dowry demands and extravagant wedding expectations place severe financial pressure on families and contribute to delayed marriages.",
+      "question_intents": [
+        "Why does Mahaperiyava oppose dowry and extravagant weddings?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "6f3d0a560863eaf8a571efd9d0dada8d3e817ee05c0aeb5edbcec10b2a1df503",
+        "478c745fc4db3df443400dc1c058825c7223e3a9d1c95226c9dfd7a9cea0138c",
+        "014d59af9dd457e2292a793db11e7e1d48aaa8f160ad8f8ac48620c84b74bed1",
+        "640c1df5280ea41df39e3b6cc329155b48001b29720aa77fab18c3d6bcc4710e"
+      ],
+      "topics": [
+        "dowry",
+        "marriage",
+        "wedding_costs",
+        "social_reform"
+      ],
+      "flags": [
+        "social_generalization",
+        "historical_claim_requires_external_verification",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.varadakshanai_prachchanai.traditional_gender_role_concern",
+      "chapter_ordinal": 71,
+      "chapter_slug": "varadakshanai_prachchanai",
+      "unit_slug": "traditional_gender_role_concern",
+      "claim_summary": "The chapter criticizes women’s employment and mixed-gender workplaces from the standpoint of the traditional social norms it endorses.",
+      "question_intents": [
+        "What traditional concern does Mahaperiyava express about women entering employment?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "97bf8ca98971e86dfa10d697e7b00cea76cc97486fa9c9a7ea91b91679bcc106"
+      ],
+      "topics": [
+        "women",
+        "employment",
+        "traditional_social_norms"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.varadakshanai_prachchanai.reject_dowry_as_status_marker",
+      "chapter_ordinal": 71,
+      "chapter_slug": "varadakshanai_prachchanai",
+      "unit_slug": "reject_dowry_as_status_marker",
+      "claim_summary": "Families of prospective grooms are urged to reject dowry entirely and not treat dowry demands as a sign of social status or the groom’s worth.",
+      "question_intents": [
+        "What does Mahaperiyava ask families of grooms to do about dowry?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "c3a1db8f74a8cafd0dd63775e691664c83bab38802cb0487a8be6ccb4146e9e2"
+      ],
+      "topics": [
+        "dowry",
+        "marriage",
+        "social_status"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.varadakshanai_prachchanai.simplify_weddings_and_help_poor_relatives",
+      "chapter_ordinal": 71,
+      "chapter_slug": "varadakshanai_prachchanai",
+      "unit_slug": "simplify_weddings_and_help_poor_relatives",
+      "claim_summary": "Wedding extravagance and dowry are to be abandoned, while people with means are encouraged to help poorer relatives meet marriage expenses rather than seek prestige through public charity.",
+      "question_intents": [
+        "What alternative use of wealth does Mahaperiyava recommend instead of lavish weddings?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "49b7d0129136e1d319cb5036ee1590e265920e4bda42a1fdee4b2e62e75376fc"
+      ],
+      "topics": [
+        "dowry",
+        "weddings",
+        "charity",
+        "simplicity"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.varadakshanai_prachchanai.women_as_guardians_of_dharma",
+      "chapter_ordinal": 71,
+      "chapter_slug": "varadakshanai_prachchanai",
+      "unit_slug": "women_as_guardians_of_dharma",
+      "claim_summary": "Within the traditional framework of the discourse, women are portrayed as central transmitters of family and social dharma, and timely marriage is treated as important to social welfare.",
+      "question_intents": [
+        "How does Mahaperiyava describe women’s role in preserving family and social dharma?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "aeb8000dcd8c317985ff0eaccda5432df42dd12e571760c1e371b57937f47739"
+      ],
+      "topics": [
+        "women",
+        "dharma",
+        "family",
+        "social_welfare"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.varadakshanai_prachchanai.withhold_blessing_from_dowry_weddings",
+      "chapter_ordinal": 71,
+      "chapter_slug": "varadakshanai_prachchanai",
+      "unit_slug": "withhold_blessing_from_dowry_weddings",
+      "claim_summary": "As a concrete protest against dowry, the speaker says that weddings involving dowry should not claim his blessing in their invitations.",
+      "question_intents": [
+        "What concrete stand does Mahaperiyava take against dowry in wedding invitations?"
+      ],
+      "source_paragraph_ids": [
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "9200ea2b2b57fd3832508ff79bbb6e5b144d3fd1dc52398b1ffce0d7396e2d8d"
+      ],
+      "topics": [
+        "dowry",
+        "religious_authority",
+        "social_reform"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ilaignar_kadamai.strength_for_service_with_moral_discipline",
+      "chapter_ordinal": 72,
+      "chapter_slug": "ilaignar_kadamai",
+      "unit_slug": "strength_for_service_with_moral_discipline",
+      "claim_summary": "Young people are urged to preserve physical strength for service, while treating moral discipline and freedom from anger and passion as even more important than bodily strength.",
+      "question_intents": [
+        "What kind of strength does Mahaperiyava want young people to cultivate for service?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "3a237d4e614510593dfa367a3fea40ea6a59d54147834dd85efb83404b1bad0c"
+      ],
+      "topics": [
+        "youth",
+        "service",
+        "strength",
+        "self_control"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ilaignar_kadamai.fearlessness_is_not_violence",
+      "chapter_ordinal": 72,
+      "chapter_slug": "ilaignar_kadamai",
+      "unit_slug": "fearlessness_is_not_violence",
+      "claim_summary": "Fearlessness is distinguished from aggression: Hanuman is presented as a model of immense strength joined with humility, devotion, restraint, and force used only in protection rather than self-interest.",
+      "question_intents": [
+        "How does Mahaperiyava distinguish fearlessness from violence?",
+        "Why does he present Hanuman as a model for youth?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "6286af890f7e13a5918b31747387337e314f9a69b9d5d8b4ec4d60496b889b90"
+      ],
+      "topics": [
+        "fearlessness",
+        "ahimsa",
+        "hanuman",
+        "service"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ilaignar_kadamai.kshatra_dharma_as_protecting_the_weak",
+      "chapter_ordinal": 72,
+      "chapter_slug": "ilaignar_kadamai",
+      "unit_slug": "kshatra_dharma_as_protecting_the_weak",
+      "claim_summary": "Kshatra dharma is defined as courageously protecting the weak from harm, even at personal cost, without being intimidated by majority or minority power.",
+      "question_intents": [
+        "How does Mahaperiyava define kshatra dharma for young people?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "865c96909952e5bf6d4611c800505ab8c10f3c2882c08e5a6068b7c00f360bea"
+      ],
+      "topics": [
+        "kshatra_dharma",
+        "courage",
+        "protection",
+        "service"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "political_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ilaignar_kadamai.reject_coercion_build_civic_courage",
+      "chapter_ordinal": 72,
+      "chapter_slug": "ilaignar_kadamai",
+      "unit_slug": "reject_coercion_build_civic_courage",
+      "claim_summary": "Coercive protest and intimidation are criticized as signs of weakness; the preferred alternative is disciplined unity, moral courage, resistance to oppression, and service directed toward public welfare.",
+      "question_intents": [
+        "What kinds of protest does Mahaperiyava criticize, and what alternative does he propose?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "91d4f7048024bc9b97c8c365dabd308252ad2b25daa7284f900006ce1ace99b5"
+      ],
+      "topics": [
+        "civic_courage",
+        "protest",
+        "discipline",
+        "lokakshema"
+      ],
+      "flags": [
+        "political_normative_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.science_and_comfort_do_not_guarantee_contentment",
+      "chapter_ordinal": 73,
+      "chapter_slug": "ahimsa_soldiers_thevai",
+      "unit_slug": "science_and_comfort_do_not_guarantee_contentment",
+      "claim_summary": "Scientific and material development are said to increase conveniences without guaranteeing inner happiness; reducing desire through religion is presented as more directly related to contentment.",
+      "question_intents": [
+        "Does Mahaperiyava think scientific progress by itself can produce happiness?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "300eb7402842a4320a57df9dd0180cfad779e878cbd7ea772e93c008d02c3440"
+      ],
+      "topics": [
+        "science",
+        "contentment",
+        "desire",
+        "religion"
+      ],
+      "flags": [
+        "causal_claim_attributed_only",
+        "psychological_generalization",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.modern_nations_turning_to_indian_spirituality",
+      "chapter_ordinal": 73,
+      "chapter_slug": "ahimsa_soldiers_thevai",
+      "unit_slug": "modern_nations_turning_to_indian_spirituality",
+      "claim_summary": "The discourse claims that technologically advanced societies such as the Soviet Union and the United States were showing dissatisfaction with material progress and interest in Indian epics, yoga, Vedanta, or devotional practice.",
+      "question_intents": [
+        "What examples does Mahaperiyava give of technologically advanced societies turning toward Indian spiritual traditions?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "df12e9257a08eb9cbecfce7510b99ca01b0ad121c2df9eab5aeecf72dbe2ea65"
+      ],
+      "topics": [
+        "modernity",
+        "soviet_union",
+        "united_states",
+        "indian_spirituality"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "cultural_generalization",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.responsibility_to_preserve_sanatana_dharma",
+      "chapter_ordinal": 73,
+      "chapter_slug": "ahimsa_soldiers_thevai",
+      "unit_slug": "responsibility_to_preserve_sanatana_dharma",
+      "claim_summary": "Even when atheism and materialism grow, Sanatana Dharma is presented as resilient, while its preservation is still described as the responsibility of practitioners.",
+      "question_intents": [
+        "What responsibility does Mahaperiyava assign to practitioners regarding Sanatana Dharma?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "51b978ca1528388fbe021b39dd5c73a50838e29bc54cb7f4f105fa37395236fc"
+      ],
+      "topics": [
+        "sanatana_dharma",
+        "preservation",
+        "responsibility"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "religious_comparison_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.religion_sustained_by_lived_examples_not_combat",
+      "chapter_ordinal": 73,
+      "chapter_slug": "ahimsa_soldiers_thevai",
+      "unit_slug": "religion_sustained_by_lived_examples_not_combat",
+      "claim_summary": "The endurance of Hindu tradition is attributed primarily to generations of people who lived disciplined, devotional, loving, and truthful lives rather than to combat, polemics, or organized conversion.",
+      "question_intents": [
+        "What does Mahaperiyava say has historically sustained Hindu religious life?"
+      ],
+      "source_paragraph_ids": [
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "7cd328772ce667c1efad3800e548c38b1e105f5533bf9bc158c94f5367e63acd",
+        "a373561c7eeaea279085b3ffdb7280a2219d7b8a8a3619be4e3341c864915985"
+      ],
+      "topics": [
+        "lived_dharma",
+        "religious_practice",
+        "example",
+        "nonviolence"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "religious_comparison_attributed_only",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.ahimsa_soldiers_live_dharma_courageously",
+      "chapter_ordinal": 73,
+      "chapter_slug": "ahimsa_soldiers_thevai",
+      "unit_slug": "ahimsa_soldiers_live_dharma_courageously",
+      "claim_summary": "The desired ‘ahimsa soldiers’ are people willing to live their own dharma with purity, discipline, love, and even personal sacrifice, without attacking opponents; exemplary lives are expected to inspire others.",
+      "question_intents": [
+        "What does Mahaperiyava mean by an ‘ahimsa soldier’?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "42f33bc7ca33d8d561803f62e40f411492f214b3bd4c71957dd38308b503618c"
+      ],
+      "topics": [
+        "ahimsa",
+        "dharma",
+        "courage",
+        "example"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_soteriological_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.opposition_as_stimulus_for_religious_renewal",
+      "chapter_ordinal": 73,
+      "chapter_slug": "ahimsa_soldiers_thevai",
+      "unit_slug": "opposition_as_stimulus_for_religious_renewal",
+      "claim_summary": "The chapter interprets opposition to religion as a possible stimulus for self-correction and renewed commitment, illustrating the claim with figures from traditional and historical narratives.",
+      "question_intents": [
+        "How does Mahaperiyava interpret opposition to religion?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "a6f4b0d0342ef8c58e72fc283ba0774eeb47633c840e0f1a106d6d7fecae40dd"
+      ],
+      "topics": [
+        "religious_renewal",
+        "opposition",
+        "history",
+        "self_correction"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "causal_claim_attributed_only",
+        "religious_comparison_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.practice_dharma_without_anger_or_polemic",
+      "chapter_ordinal": 73,
+      "chapter_slug": "ahimsa_soldiers_thevai",
+      "unit_slug": "practice_dharma_without_anger_or_polemic",
+      "claim_summary": "Practitioners are urged not to fear, hate, or quarrel with religious opponents, but instead to follow their own disciplines fully enough that the tradition can be seen embodied in exemplary lives.",
+      "question_intents": [
+        "How does Mahaperiyava say believers should respond to critics or opponents of their religion?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "f37b96fe3bd24eef8e384158d019ed3d9218505274cbb4f3f2e6625571e71445"
+      ],
+      "topics": [
+        "dharma",
+        "nonviolence",
+        "religious_practice",
+        "self_discipline"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "religious_comparison_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaiyagam_thuyar_theera_vazhi.modern_progress_and_distance_from_dharma",
+      "chapter_ordinal": 74,
+      "chapter_slug": "vaiyagam_thuyar_theera_vazhi",
+      "unit_slug": "modern_progress_and_distance_from_dharma",
+      "claim_summary": "Rapid scientific, economic, political, and social change is interpreted as having increased insecurity because people have moved away from God and dharmic teaching.",
+      "question_intents": [
+        "What diagnosis does Mahaperiyava give for modern social unrest?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "9406e967b3f0e7f467071c71c441a8e00cba480b71d808aa11feb1eb0ebbd6c0"
+      ],
+      "topics": [
+        "modernity",
+        "science",
+        "dharma",
+        "social_change"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "social_generalization",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaiyagam_thuyar_theera_vazhi.devotion_and_peace_as_social_remedy",
+      "chapter_ordinal": 74,
+      "chapter_slug": "vaiyagam_thuyar_theera_vazhi",
+      "unit_slug": "devotion_and_peace_as_social_remedy",
+      "claim_summary": "Devotion and peace are presented as remedies for social disorder, with the claim that their spread would reduce dependence on police, courts, and armies.",
+      "question_intents": [
+        "What remedy does Mahaperiyava propose for social disorder?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "4dd797729939383b21dbb64e40d00c7aa95da732232ca8650823a231883d0d30"
+      ],
+      "topics": [
+        "devotion",
+        "peace",
+        "social_order"
+      ],
+      "flags": [
+        "causal_claim_attributed_only",
+        "political_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaiyagam_thuyar_theera_vazhi.government_should_support_devotion_and_peace",
+      "chapter_ordinal": 74,
+      "chapter_slug": "vaiyagam_thuyar_theera_vazhi",
+      "unit_slug": "government_should_support_devotion_and_peace",
+      "claim_summary": "The discourse says that a government concerned with public welfare should help spread devotion and peace.",
+      "question_intents": [
+        "What public responsibility does Mahaperiyava assign to government regarding devotion and peace?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "620428217098981b12545707c280a4115132d023b92eeb18a36850cf2ec171c3"
+      ],
+      "topics": [
+        "government",
+        "devotion",
+        "peace",
+        "public_policy"
+      ],
+      "flags": [
+        "political_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaiyagam_thuyar_theera_vazhi.critique_of_secularism_as_non_support_of_religion",
+      "chapter_ordinal": 74,
+      "chapter_slug": "vaiyagam_thuyar_theera_vazhi",
+      "unit_slug": "critique_of_secularism_as_non_support_of_religion",
+      "claim_summary": "The chapter criticizes an interpretation of secularism that avoids supporting any religion and argues instead for even-handed encouragement of religious and moral formation.",
+      "question_intents": [
+        "How does Mahaperiyava criticize the way secularism is interpreted in public policy?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "28c517a92f8400241461369d48e76aa885c585e4b8deee0ac0eda624d1b0d670"
+      ],
+      "topics": [
+        "secularism",
+        "religion",
+        "government",
+        "moral_education"
+      ],
+      "flags": [
+        "political_normative_claim",
+        "political_historical_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaiyagam_thuyar_theera_vazhi.public_welfare_through_devotion",
+      "chapter_ordinal": 74,
+      "chapter_slug": "vaiyagam_thuyar_theera_vazhi",
+      "unit_slug": "public_welfare_through_devotion",
+      "claim_summary": "Regardless of government action, knowledgeable citizens are said to have a duty to seek genuine public welfare by helping people develop love of God and devotion.",
+      "question_intents": [
+        "What duty does Mahaperiyava place on citizens if government does not promote devotion?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "093b6e385b2a4d24dfc00b8df6126a7fb53e95890ea5c9691985cec66127b8a1"
+      ],
+      "topics": [
+        "devotion",
+        "public_welfare",
+        "civic_duty"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "political_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaiyagam_thuyar_theera_vazhi.worship_associations_for_social_peace",
+      "chapter_ordinal": 74,
+      "chapter_slug": "vaiyagam_thuyar_theera_vazhi",
+      "unit_slug": "worship_associations_for_social_peace",
+      "claim_summary": "Local worship associations are proposed as institutions that can turn hostility into love, cultivate peace, and orient community life toward the welfare of all beings.",
+      "question_intents": [
+        "Why does Mahaperiyava advocate local worship associations?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "ddeeae0c85811fe72f107abf65d07c0c98ab7b4fd88c0cd41e75e68dfe4a684e",
+        "60ba7ed493a71a83dede770c6a1bba247f42a01b969eb9567ee4fca25b85ad60",
+        "82190ab950357ac5a4a5174e4ad17993b776469bb6b7f362c9d0cff49fb56a1a"
+      ],
+      "topics": [
+        "worship",
+        "community",
+        "peace",
+        "lokakshema"
+      ],
+      "flags": [
+        "political_normative_claim",
+        "causal_claim_attributed_only",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.panpaattin_idhayasthanam.kala_as_growth_of_mind",
+      "chapter_ordinal": 75,
+      "chapter_slug": "panpaattin_idhayasthanam",
+      "unit_slug": "kala_as_growth_of_mind",
+      "claim_summary": "The chapter links the words for art and culture to the idea of growth and presents art as a means of developing the mind.",
+      "question_intents": [
+        "How does Mahaperiyava connect art, education, and culture with inner growth?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "66639417240f400b639da1654e95d5d01cdb812095661ad079c5690df76a68fe"
+      ],
+      "topics": [
+        "art",
+        "culture",
+        "education",
+        "etymology"
+      ],
+      "flags": [
+        "linguistic_etymology_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.panpaattin_idhayasthanam.highest_culture_is_universal_love",
+      "chapter_ordinal": 75,
+      "chapter_slug": "panpaattin_idhayasthanam",
+      "unit_slug": "highest_culture_is_universal_love",
+      "claim_summary": "Many arts, service, sacrifice, and charity are described as forms taken by elevated thought, whose highest expression is universal love that sees the whole world as one.",
+      "question_intents": [
+        "What does Mahaperiyava call the highest expression of culture?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "ab745a8976f9280a18cb3e13d8ee1a65c2df7e8522d2a2febaa59ffc7ff0049f"
+      ],
+      "topics": [
+        "culture",
+        "universal_love",
+        "art",
+        "service"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.panpaattin_idhayasthanam.great_poetry_as_heart_of_culture",
+      "chapter_ordinal": 75,
+      "chapter_slug": "panpaattin_idhayasthanam",
+      "unit_slug": "great_poetry_as_heart_of_culture",
+      "claim_summary": "A nation’s enduring great literature is presented as a kind of heart or touchstone by which its deeper culture and moral sensibility can be judged.",
+      "question_intents": [
+        "Why does Mahaperiyava call the words of great poets the ‘heart’ of a culture?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "cb0527c4067063cd67d853e25ac4d7c9c57730a057c5ebce86971431b48a143e",
+        "d315ecaea958c176e8fe826d38a0485570cc9672764317200aab3161e05e0fd2",
+        "56ede7d612a7ba1717f01d886abb7faf74c034aa96dbcefe2aa3aa4b731cff6a"
+      ],
+      "topics": [
+        "literature",
+        "culture",
+        "poetry",
+        "cultural_memory"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.panpaattin_idhayasthanam.poets_presented_as_more_impartial_than_founders",
+      "chapter_ordinal": 75,
+      "chapter_slug": "panpaattin_idhayasthanam",
+      "unit_slug": "poets_presented_as_more_impartial_than_founders",
+      "claim_summary": "The chapter contrasts literary creators with religious founders, portraying the former as freer to describe life without defending a sectarian system.",
+      "question_intents": [
+        "Why does Mahaperiyava say great poets can serve as relatively impartial cultural witnesses?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "1f2d6e8e5af49ee5dc2c6d4a35c9e448388691f266ce43ae92bea12086f441c4"
+      ],
+      "topics": [
+        "literature",
+        "religion",
+        "impartiality",
+        "poets"
+      ],
+      "flags": [
+        "religious_comparison_attributed_only",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.panpaattin_idhayasthanam.enduring_classics_as_cultural_authority",
+      "chapter_ordinal": 75,
+      "chapter_slug": "panpaattin_idhayasthanam",
+      "unit_slug": "enduring_classics_as_cultural_authority",
+      "claim_summary": "Works that have survived and shaped people over long periods are treated as stronger cultural authorities than contemporary literature whose durability is not yet known.",
+      "question_intents": [
+        "Why does Mahaperiyava give special authority to long-enduring classics?"
+      ],
+      "source_paragraph_ids": [
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "3d7123c428828c447c0d65f00b59edd139f0960cf71c6f8c4c62457fb153720c",
+        "65e26913ff2a52ef42711ae9b48f005153ad3d0236855234363415b6e1e720e8"
+      ],
+      "topics": [
+        "classics",
+        "cultural_authority",
+        "literature"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sangeetha_lakshiyam_santhame.music_as_image_of_divine_bliss",
+      "chapter_ordinal": 76,
+      "chapter_slug": "sangeetha_lakshiyam_santhame",
+      "unit_slug": "music_as_image_of_divine_bliss",
+      "claim_summary": "Appar’s comparison of Shiva’s feet with flawless veena music and other beautiful experiences is read as giving music a privileged place among sensory images of divine bliss.",
+      "question_intents": [
+        "How does Mahaperiyava interpret Appar’s image of ‘flawless veena’ music?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "490aaad6443fa669b56b89d01362a78f7eb544e1c79e84afb132275209626af9",
+        "065060c31c3fc879e9fc91f31c51dc31db0f49d0ed647168cce63a4aef8496f1",
+        "16f5073994df6e61bbfffa236006728526cdb3dc1debb9946cd72bcf9336be7c",
+        "1ae06ee492098e0391fc217074ceaec2503703ed48d6ac3abbe5e9318e57cd0e"
+      ],
+      "topics": [
+        "music",
+        "appar",
+        "divine_bliss",
+        "literary_interpretation"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sangeetha_lakshiyam_santhame.veena_music_as_path_to_moksha",
+      "chapter_ordinal": 76,
+      "chapter_slug": "sangeetha_lakshiyam_santhame",
+      "unit_slug": "veena_music_as_path_to_moksha",
+      "claim_summary": "Sacred, disciplined music is presented as capable of leading performer and listener toward absorption in God, citing Yajnavalkya on veena, pitch, and rhythm as a path to moksha.",
+      "question_intents": [
+        "What does Mahaperiyava say about music as a path to moksha?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006",
+        "p007",
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "d28b1540945906112ff8f923d03d2cc0ecabc74f05f9107e5fdf91eabf8e494b",
+        "387c4730aa06195ff4cbf249a2b453273db56c35a2beff4156d38e16a0889ce6",
+        "9d03a8dd9cc558f32f1418f2aaefb35fe052eee3e47cb8a564557cc5f8323dc4",
+        "6c9ddbe59c6d539c2e0ec0e5946701df5d9b32a0c6170b51829b27328a154c45"
+      ],
+      "topics": [
+        "music",
+        "veena",
+        "moksha",
+        "nadopasana"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sangeetha_lakshiyam_santhame.music_should_be_offered_to_god",
+      "chapter_ordinal": 76,
+      "chapter_slug": "sangeetha_lakshiyam_santhame",
+      "unit_slug": "music_should_be_offered_to_god",
+      "claim_summary": "Music is said to reach its proper purpose when it is offered to God rather than treated as merely secular entertainment.",
+      "question_intents": [
+        "What purpose does Mahaperiyava assign to music?"
+      ],
+      "source_paragraph_ids": [
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "fa6bfef3967ed7438d531738f89deafbb6a1f1c286597ddc09b9a6beb8913b28"
+      ],
+      "topics": [
+        "music",
+        "devotion",
+        "saraswati",
+        "worship"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sangeetha_lakshiyam_santhame.saundarya_lahari_music_symbolism",
+      "chapter_ordinal": 76,
+      "chapter_slug": "sangeetha_lakshiyam_santhame",
+      "unit_slug": "saundarya_lahari_music_symbolism",
+      "claim_summary": "A Saundarya Lahari image of the goddess’s three neck lines is interpreted symbolically through the three traditional musical gramas and as evidence of the text’s musical knowledge.",
+      "question_intents": [
+        "How does Mahaperiyava connect the goddess’s three neck lines with traditional music theory?"
+      ],
+      "source_paragraph_ids": [
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "be8648a92e4e829194dc55b53d9cb9ce72d611e651ec65201beedc9427a2eec1"
+      ],
+      "topics": [
+        "saundarya_lahari",
+        "music_theory",
+        "goddess",
+        "symbolism"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_scriptural_claim",
+        "biological_generalization_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sangeetha_lakshiyam_santhame.peace_as_music_highest_goal",
+      "chapter_ordinal": 76,
+      "chapter_slug": "sangeetha_lakshiyam_santhame",
+      "unit_slug": "peace_as_music_highest_goal",
+      "claim_summary": "Whatever emotions music awakens, its highest end is described as peace, tenderness, love, and final absorption in the divine.",
+      "question_intents": [
+        "What does Mahaperiyava describe as the ultimate goal of music?"
+      ],
+      "source_paragraph_ids": [
+        "p011"
+      ],
+      "source_paragraph_hashes": [
+        "f0baec540a273ff7ed69041620f14fc12ee9df725c691f315a203d7e2ddae3c8"
+      ],
+      "topics": [
+        "music",
+        "peace",
+        "love",
+        "nonduality"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "psychological_generalization",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.isai_vazhiye_isvaranubhavam.goddess_music_linked_to_serenity_and_compassion",
+      "chapter_ordinal": 77,
+      "chapter_slug": "isai_vazhiye_isvaranubhavam",
+      "unit_slug": "goddess_music_linked_to_serenity_and_compassion",
+      "claim_summary": "Kalidasa’s image of the goddess absorbed in veena music is interpreted as linking divine music with serenity, tenderness, joy, and compassion.",
+      "question_intents": [
+        "How does Mahaperiyava connect divine music with serenity and compassion?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "569274a8cc11a4dbfe2c96ab4c73960b245263f3672e7ae0c9dd2783229dc49f",
+        "8be9e7663f4bb3b0a71a22f60c53ff3cd5a644fc5b3248d1ec931dee5b632620",
+        "baeec2c835c704e896bd11980cc08af5b8b7263861d3c08b3a55a78a4f8f8f66",
+        "1e8524ff7c3f5351588d9496288b4903c9b7c549d879a9e66b3d1d8c9e97fe88",
+        "12c0637dd1991be6fffe88e378751e6fbde23e175a4739ee760a5d3444700bed",
+        "9ad738b8d51b38784083add0fef168de140473f9f6d0226249b6555921507abe",
+        "35f782b61fe9595a0e8e2be05b2162c4eb9d977ea9ca068bb2e51b661f025bbd"
+      ],
+      "topics": [
+        "goddess",
+        "music",
+        "peace",
+        "compassion"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_scriptural_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.isai_vazhiye_isvaranubhavam.music_as_accessible_god_experience",
+      "chapter_ordinal": 77,
+      "chapter_slug": "isai_vazhiye_isvaranubhavam",
+      "unit_slug": "music_as_accessible_god_experience",
+      "claim_summary": "Divine music is presented as an accessible means of experiencing God, with Yajnavalkya cited for the claim that musical practice can lead toward liberation without the same difficulty as other disciplines.",
+      "question_intents": [
+        "Why does Mahaperiyava present music as an especially accessible spiritual path?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "159f0ebbd9390d601de785d23f19c1d1474cd7ed40abdb433d39f18d38f20c94"
+      ],
+      "topics": [
+        "music",
+        "god_experience",
+        "yajnavalkya",
+        "moksha"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.isai_vazhiye_isvaranubhavam.performer_and_listener_share_spiritual_benefit",
+      "chapter_ordinal": 77,
+      "chapter_slug": "isai_vazhiye_isvaranubhavam",
+      "unit_slug": "performer_and_listener_share_spiritual_benefit",
+      "claim_summary": "A distinctive benefit of music is said to be that listeners can share in the devotional and contemplative experience generated by the performer.",
+      "question_intents": [
+        "What special benefit does Mahaperiyava attribute to listening to sacred music?"
+      ],
+      "source_paragraph_ids": [
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "c218a021f7eda5396c2e21210bf1e056f0b9f218b3c2bef21eadc2e5b57b31c1"
+      ],
+      "topics": [
+        "music",
+        "listener",
+        "devotion",
+        "shared_experience"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "psychological_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.isai_vazhiye_isvaranubhavam.music_symbolizes_brahman_shakti_union",
+      "chapter_ordinal": 77,
+      "chapter_slug": "isai_vazhiye_isvaranubhavam",
+      "unit_slug": "music_symbolizes_brahman_shakti_union",
+      "claim_summary": "The goddess delighting in nada is interpreted as a symbol of the nondual union of Brahman and Shakti, with music serving as a means through which the individual soul may be absorbed in the supreme.",
+      "question_intents": [
+        "How does Mahaperiyava connect music with the nondual unity of Brahman and Shakti?"
+      ],
+      "source_paragraph_ids": [
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "db71c76b780488546cccd9891d9e33de78cffb01002cd168b44be9a8e10e0b3a"
+      ],
+      "topics": [
+        "brahman",
+        "shakti",
+        "nada",
+        "advaita",
+        "music"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.gandharva_vedam.art_from_ordered_permutation",
+      "chapter_ordinal": 78,
+      "chapter_slug": "gandharva_vedam",
+      "unit_slug": "art_from_ordered_permutation",
+      "claim_summary": "Art is described as arising when basic elements—letters, colors, or sounds—are arranged and rearranged with order, skill, and beauty.",
+      "question_intents": [
+        "How does Mahaperiyava explain the role of ordered variation in creating art?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "27c75ed38abe84d049650ef7086b53c5f14f226e900a9585c831db7e1f5080e1",
+        "fbadfcacdbb6fda7d7a0126dae4dbd3c9cb6891f6ab6ed180cc1d89df16bfcbd",
+        "2c3e73e50df27a4a3f8031ec09561ebab778e3274c0ae75a8eb32482d622182f",
+        "21241a7990f07da4c68e33249eed2a2215874e56bc16e4571e899b334ef49080"
+      ],
+      "topics": [
+        "art",
+        "creativity",
+        "order",
+        "aesthetics"
+      ],
+      "flags": [
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.gandharva_vedam.instrument_families_and_resonance",
+      "chapter_ordinal": 78,
+      "chapter_slug": "gandharva_vedam",
+      "unit_slug": "instrument_families_and_resonance",
+      "claim_summary": "The chapter describes voice and musical instruments as different ways of shaping sound and highlights resonance as a source of musical richness.",
+      "question_intents": [
+        "How does Mahaperiyava describe the common principle behind different musical instruments?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "6937c8c231464824ed1ba49bc28aee85fbc23b471b71e2155a323fb4c52506cc"
+      ],
+      "topics": [
+        "music",
+        "instruments",
+        "resonance",
+        "sound"
+      ],
+      "flags": [],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.gandharva_vedam.dance_as_rhythmic_ordered_movement",
+      "chapter_ordinal": 78,
+      "chapter_slug": "gandharva_vedam",
+      "unit_slug": "dance_as_rhythmic_ordered_movement",
+      "claim_summary": "Dance is presented as the ordering of bodily movement, with abhinaya adding expressive meaning and nritta showing that rhythmic movement itself can give aesthetic delight.",
+      "question_intents": [
+        "How does Mahaperiyava distinguish expressive dance from pure rhythmic movement?"
+      ],
+      "source_paragraph_ids": [
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "c4bb1814e9db4ac382e8d382c62a811176f20f43e5ac12bdcb6f1be86e315db2",
+        "717e070c2588fbd50fdc6e3f2fdc430551215a7bab4230197df0720e542989cc"
+      ],
+      "topics": [
+        "dance",
+        "nritta",
+        "abhinaya",
+        "rhythm"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_ritual_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.gandharva_vedam.gandharva_veda_as_joy_giving_arts",
+      "chapter_ordinal": 78,
+      "chapter_slug": "gandharva_vedam",
+      "unit_slug": "gandharva_veda_as_joy_giving_arts",
+      "claim_summary": "Music and dance are grouped under Gandharva Veda and associated with arts that enliven and uplift the mind.",
+      "question_intents": [
+        "What does Mahaperiyava mean by Gandharva Veda?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "a3c4a9c2eab9eb73db44ee27f21dde6e6b7b30b5aacd9b1a2d65e972e6bcfbd0"
+      ],
+      "topics": [
+        "gandharva_veda",
+        "music",
+        "dance",
+        "joy"
+      ],
+      "flags": [
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaakkin_payan.speech_as_distinctive_human_power",
+      "chapter_ordinal": 79,
+      "chapter_slug": "vaakkin_payan",
+      "unit_slug": "speech_as_distinctive_human_power",
+      "claim_summary": "Speech is presented as a distinctive human capacity from which writing, education, libraries, and public communication have developed.",
+      "question_intents": [
+        "What special human capacity does Mahaperiyava emphasize in this chapter?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "4a6eb86ca8aa496bd62820a8a5abf38e27c5efa433837ad5ee49947593a55e1c"
+      ],
+      "topics": [
+        "speech",
+        "language",
+        "writing",
+        "education"
+      ],
+      "flags": [
+        "biological_generalization_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaakkin_payan.civilization_does_not_automatically_bring_contentment",
+      "chapter_ordinal": 79,
+      "chapter_slug": "vaakkin_payan",
+      "unit_slug": "civilization_does_not_automatically_bring_contentment",
+      "claim_summary": "The chapter contrasts animals and less literate communities with modern educated society to argue that more institutions, wealth, and verbal sophistication do not automatically produce peace or moral improvement.",
+      "question_intents": [
+        "Why does Mahaperiyava question whether literacy and civilization automatically make people better or happier?"
+      ],
+      "source_paragraph_ids": [
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "57353d7ba8299b65fb9290bff7a0a4c83a3c90c37a2cf678a36b284645923a0e",
+        "1512542084d87193159eb199d36781e7b1393fa13ea5f06e0aa21d45ea03d559",
+        "20bbc242bd67649f2a880dedace258664c339f8153f2cc4712e72ddd77ebc598"
+      ],
+      "topics": [
+        "civilization",
+        "education",
+        "contentment",
+        "morality"
+      ],
+      "flags": [
+        "social_generalization",
+        "biological_generalization_attributed_only",
+        "historical_claim_requires_external_verification",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaakkin_payan.human_birth_can_seek_fearlessness_and_liberation",
+      "chapter_ordinal": 79,
+      "chapter_slug": "vaakkin_payan",
+      "unit_slug": "human_birth_can_seek_fearlessness_and_liberation",
+      "claim_summary": "Human birth is presented as higher not because humans are free from fear, but because knowledge can lead them toward fearlessness, freedom from rebirth, and realization of unity.",
+      "question_intents": [
+        "Why does Mahaperiyava call human birth spiritually valuable?"
+      ],
+      "source_paragraph_ids": [
+        "p005",
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "22eb41d329fd868fdd1a98609e372372d76d54a345cf38ddb212bd9c596b0941",
+        "468a1611f0a20a053e10fb340b20404e4ea79dcc851035b577cc47688f21a0a7"
+      ],
+      "topics": [
+        "human_birth",
+        "fearlessness",
+        "jnana",
+        "moksha"
+      ],
+      "flags": [
+        "traditional_soteriological_claim",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaakkin_payan.use_speech_for_welfare",
+      "chapter_ordinal": 79,
+      "chapter_slug": "vaakkin_payan",
+      "unit_slug": "use_speech_for_welfare",
+      "claim_summary": "Speech and intelligence should be used so that they harm neither oneself nor others and instead reduce wrongdoing, sorrow, and fear.",
+      "question_intents": [
+        "How does Mahaperiyava say speech and intelligence should be used?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "d83d902d9a6eae0e11591917b40d9e3bded4af12bac198b40731d1dd8ab5604e"
+      ],
+      "topics": [
+        "speech",
+        "welfare",
+        "ethics",
+        "self_control"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vaakkin_payan.speech_should_begin_and_end_in_devotion",
+      "chapter_ordinal": 79,
+      "chapter_slug": "vaakkin_payan",
+      "unit_slug": "speech_should_begin_and_end_in_devotion",
+      "claim_summary": "Speech is said to find its proper basis in devotion, illustrated by beginning literacy with a divine name; misuse of speech is linked in the discourse to lower rebirth.",
+      "question_intents": [
+        "Why does Mahaperiyava connect the beginning of literacy with a divine name?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "1d608a6483302488f907510033d7ce44136cdc3f82d645ac840f56fa386eafdd"
+      ],
+      "topics": [
+        "speech",
+        "devotion",
+        "aksharabhyasa",
+        "rebirth"
+      ],
+      "flags": [
+        "traditional_ritual_claim",
+        "traditional_soteriological_claim",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sollukkum_porulukkum_moolam_iraivane.sense_perception_does_not_exhaust_reality",
+      "chapter_ordinal": 80,
+      "chapter_slug": "sollukkum_porulukkum_moolam_iraivane",
+      "unit_slug": "sense_perception_does_not_exhaust_reality",
+      "claim_summary": "The limits of human sight and hearing are used to argue that reality need not be confined to what ordinary senses can detect and that sages may perceive forms and sounds unavailable to ordinary perception.",
+      "question_intents": [
+        "How does Mahaperiyava argue against limiting reality to what ordinary senses detect?"
+      ],
+      "source_paragraph_ids": [
+        "p001"
+      ],
+      "source_paragraph_hashes": [
+        "53d6109785411aa23e220a105729d628986a307a36a76a54d1f3ebe541f57085"
+      ],
+      "topics": [
+        "epistemology",
+        "senses",
+        "sages",
+        "divine_perception"
+      ],
+      "flags": [
+        "epistemic_claim_attributed_only",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sollukkum_porulukkum_moolam_iraivane.nataraja_as_cosmic_movement",
+      "chapter_ordinal": 80,
+      "chapter_slug": "sollukkum_porulukkum_moolam_iraivane",
+      "unit_slug": "nataraja_as_cosmic_movement",
+      "claim_summary": "Nataraja’s dance and icon are presented as a visible symbol of the movement of the cosmos.",
+      "question_intents": [
+        "How does Mahaperiyava interpret Nataraja’s dance?"
+      ],
+      "source_paragraph_ids": [
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "d1c51b10517e3e691a6a0ddb721858b18347ec593527efa9e87750306c155cd5"
+      ],
+      "topics": [
+        "nataraja",
+        "cosmos",
+        "dance",
+        "iconography"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "literary_interpretation"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sollukkum_porulukkum_moolam_iraivane.damaru_and_maheshvara_sutras",
+      "chapter_ordinal": 80,
+      "chapter_slug": "sollukkum_porulukkum_moolam_iraivane",
+      "unit_slug": "damaru_and_maheshvara_sutras",
+      "claim_summary": "The Maheshvara Sutras are traditionally traced to sounds of Nataraja’s damaru, and Panini’s grammar is presented as built on those sound groups.",
+      "question_intents": [
+        "What connection does Mahaperiyava make between Nataraja’s drum and Panini’s grammar?"
+      ],
+      "source_paragraph_ids": [
+        "p003",
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "d4c6428f4d0460902a666b8a0d7a7d16674046e9fae84c02ba89d787a278f11a",
+        "1974f55c13d58f1558ca0a17daed702171c921d4f84f47ca6ec39676d546a414"
+      ],
+      "topics": [
+        "nataraja",
+        "damaru",
+        "maheshvara_sutras",
+        "panini",
+        "grammar"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sollukkum_porulukkum_moolam_iraivane.fourteen_sounds_and_fourteen_vidyas",
+      "chapter_ordinal": 80,
+      "chapter_slug": "sollukkum_porulukkum_moolam_iraivane",
+      "unit_slug": "fourteen_sounds_and_fourteen_vidyas",
+      "claim_summary": "The fourteen sound groups are paralleled with the fourteen traditional vidya-sthanas, and the chapter extends this into claims about the letters and names of alphabets across languages.",
+      "question_intents": [
+        "How does Mahaperiyava connect the fourteen Maheshvara sound groups with the fourteen traditional branches of learning?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "a0498153796cbc7e8ca65b50a8b21dfbcbcab27d6ffab5defbe496f03d040059"
+      ],
+      "topics": [
+        "fourteen_vidyas",
+        "language",
+        "alphabet",
+        "etymology"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "linguistic_etymology_claim_requires_external_verification",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sollukkum_porulukkum_moolam_iraivane.panini_patanjali_nataraja_wordplay",
+      "chapter_ordinal": 80,
+      "chapter_slug": "sollukkum_porulukkum_moolam_iraivane",
+      "unit_slug": "panini_patanjali_nataraja_wordplay",
+      "claim_summary": "A poetic interpretation links Panini and Patanjali with Nataraja’s hand and foot, making language and grammar expressions of the divine dance.",
+      "question_intents": [
+        "What poetic connection does Mahaperiyava describe among Nataraja, Panini, and Patanjali?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "d7e040e4fc40fb016a1a4e96b4542cde78273326bbb25dc9d131b3e4fe7e8962"
+      ],
+      "topics": [
+        "panini",
+        "patanjali",
+        "nataraja",
+        "poetic_wordplay"
+      ],
+      "flags": [
+        "literary_interpretation",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.sollukkum_porulukkum_moolam_iraivane.god_as_source_of_sound_and_meaning",
+      "chapter_ordinal": 80,
+      "chapter_slug": "sollukkum_porulukkum_moolam_iraivane",
+      "unit_slug": "god_as_source_of_sound_and_meaning",
+      "claim_summary": "The deeper teaching drawn from these traditions is that both sound and meaning originate in God, so speech and writing should be used to elevate oneself and others toward the divine.",
+      "question_intents": [
+        "What practical conclusion does Mahaperiyava draw from the idea that sound and meaning come from God?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "b1549979c2baaf4d65ffd79edcbe1817d994b18c68c5c9c4e9ed82d04489ad16"
+      ],
+      "topics": [
+        "speech",
+        "meaning",
+        "god",
+        "ethical_communication"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ezhuthalar_kadamai.vyasa_made_vedic_meaning_accessible_through_puranas",
+      "chapter_ordinal": 81,
+      "chapter_slug": "ezhuthalar_kadamai",
+      "unit_slug": "vyasa_made_vedic_meaning_accessible_through_puranas",
+      "claim_summary": "Vyasa is presented as both organizing the Vedas for specialized study and making their deeper teachings accessible to the wider public through narrative Puranas communicated by Suta.",
+      "question_intents": [
+        "How does Mahaperiyava describe Vyasa’s twofold role in preserving and popularizing Vedic teaching?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "13b301c7c54bda444af060afaca44a96d583ddacf0766f2846139862f1a3e366",
+        "c60ad2dd5e049c283e644f69ceed5af0207be84b7c83d0ec7513542fd239958c"
+      ],
+      "topics": [
+        "vyasa",
+        "vedas",
+        "puranas",
+        "public_teaching"
+      ],
+      "flags": [
+        "traditional_scriptural_claim",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ezhuthalar_kadamai.temple_purana_recitation_as_moral_education",
+      "chapter_ordinal": 81,
+      "chapter_slug": "ezhuthalar_kadamai",
+      "unit_slug": "temple_purana_recitation_as_moral_education",
+      "claim_summary": "Public recitation of Puranas and the Mahabharata in temples is presented as an older form of moral education that helped shape ordinary people’s character.",
+      "question_intents": [
+        "What role does Mahaperiyava say temple Purana recitations once played in public education?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "913f46afbf73c8b051a0c120502867289e27716404eb869619393c8f0998c248"
+      ],
+      "topics": [
+        "puranas",
+        "temples",
+        "moral_education",
+        "mahabharata"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "causal_claim_attributed_only",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ezhuthalar_kadamai.printing_displaced_oral_puranics",
+      "chapter_ordinal": 81,
+      "chapter_slug": "ezhuthalar_kadamai",
+      "unit_slug": "printing_displaced_oral_puranics",
+      "claim_summary": "The spread of print, books, and newspapers is described as taking over the public communication role once performed mainly by oral teachers and Puranic reciters.",
+      "question_intents": [
+        "How does Mahaperiyava describe the change from oral teaching to print culture?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "0374bb360ef7975805590d6b7ae5dd9f5b41843c12a10bdbf341a7da180c395c"
+      ],
+      "topics": [
+        "printing",
+        "oral_tradition",
+        "media",
+        "puranas"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ezhuthalar_kadamai.writers_as_modern_puranics",
+      "chapter_ordinal": 81,
+      "chapter_slug": "ezhuthalar_kadamai",
+      "unit_slug": "writers_as_modern_puranics",
+      "claim_summary": "Journalists and writers are called the modern counterparts of Puranic teachers and are given a duty to present morally and spiritually elevating material in engaging forms rather than merely echo popular taste.",
+      "question_intents": [
+        "What responsibility does Mahaperiyava assign to writers and journalists?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "05a28060e6bfb7e6e91af65f0069c2cdb1b5dca8215d50353bac1f0ec1a45d79"
+      ],
+      "topics": [
+        "writers",
+        "journalism",
+        "public_duty",
+        "moral_education"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.ezhuthalar_kadamai.make_truth_attractive_without_reducing_it_to_entertainment",
+      "chapter_ordinal": 81,
+      "chapter_slug": "ezhuthalar_kadamai",
+      "unit_slug": "make_truth_attractive_without_reducing_it_to_entertainment",
+      "claim_summary": "Truth should be made attractive enough to be received, but writing should not become mere entertainment; authors should elevate both themselves and their readers and serve spiritual and social welfare.",
+      "question_intents": [
+        "What does Mahaperiyava mean by giving truth a ‘sugar coating’ without turning it into sugar?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "e69e74c71beb68e4eda3d52f9f234bd24e90581b02f8c06f592de1fcb19ef9e6"
+      ],
+      "topics": [
+        "writers",
+        "truth",
+        "entertainment",
+        "spiritual_welfare",
+        "lokakshema"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.maha_bharatham.decline_in_artistic_and_written_quality_claim",
+      "chapter_ordinal": 82,
+      "chapter_slug": "maha_bharatham",
+      "unit_slug": "decline_in_artistic_and_written_quality_claim",
+      "claim_summary": "The chapter claims that inscriptions, writing, sculpture, and artistic workmanship show a decline in quality from ancient to more recent periods.",
+      "question_intents": [
+        "What decline does Mahaperiyava claim to see in inscriptions and sculpture over time?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "0637e9ebf28df2adfe977a2297039b54d4b0dcab1fa98b7040ac76ef20c2dfbb",
+        "4d15b9d95963a8267c75fd5345c16a4c475c701b15641f4776267dffef67a8b2",
+        "0c68e11d3f28cc979b8558bf2e98c5f931600177e40dd8dbc04152c588c430f5"
+      ],
+      "topics": [
+        "art_history",
+        "inscriptions",
+        "sculpture",
+        "decline"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.maha_bharatham.ancient_indian_moral_superiority_claim",
+      "chapter_ordinal": 82,
+      "chapter_slug": "maha_bharatham",
+      "unit_slug": "ancient_indian_moral_superiority_claim",
+      "claim_summary": "Ancient Indians are portrayed as having had greater honesty, restraint, and social order, including an appeal to Megasthenes as evidence.",
+      "question_intents": [
+        "What does Mahaperiyava claim about the moral character of ancient Indian society?"
+      ],
+      "source_paragraph_ids": [
+        "p004",
+        "p005",
+        "p006",
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "e64cea52574a38597a642e8ac1428d1c8bdc64b9f832ff64e1df48e9ff47e385",
+        "a1087cc717fb4a23839a8666b6236d9df8af2b7ccc4c922c2354e34f322ba1a5",
+        "5d1a8d48c306553d3a6cb8d1e65c7c933ba9ac198e3dadfa1cd30a1d24e4a5cb",
+        "5221d2ee94d59ea546247a12a4344decf4041ea9ece8ec60b3eb2a63ad7e7e90"
+      ],
+      "topics": [
+        "ancient_india",
+        "morality",
+        "megasthenes",
+        "social_order"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "social_generalization",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.maha_bharatham.temple_mahabharata_recitation",
+      "chapter_ordinal": 82,
+      "chapter_slug": "maha_bharatham",
+      "unit_slug": "temple_mahabharata_recitation",
+      "claim_summary": "The chapter says that Mahabharata recitation was historically supported in temples and continued in some village settings as a form of communal listening.",
+      "question_intents": [
+        "What historical role does Mahaperiyava attribute to Mahabharata recitation in temples?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "24b8918ce1ad533297635d87e4b36784bff0b02b9de43b4f60b43e83499c145b"
+      ],
+      "topics": [
+        "mahabharata",
+        "temples",
+        "public_recitation",
+        "history"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.maha_bharatham.epics_present_virtue_models",
+      "chapter_ordinal": 82,
+      "chapter_slug": "maha_bharatham",
+      "unit_slug": "epics_present_virtue_models",
+      "claim_summary": "Figures from the Mahabharata and Ramayana are presented as memorable models of patience, truthfulness, generosity, dignity, dharma, and fidelity.",
+      "question_intents": [
+        "Which virtues does Mahaperiyava say the epics embody through their characters?"
+      ],
+      "source_paragraph_ids": [
+        "p009"
+      ],
+      "source_paragraph_hashes": [
+        "55e1198be4903e3b517cec236eacb12ca86174169ba732f3a92de1304f6ec601"
+      ],
+      "topics": [
+        "mahabharata",
+        "ramayana",
+        "virtue",
+        "exemplars"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_scriptural_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.maha_bharatham.repeated_epic_hearing_shapes_moral_imagination",
+      "chapter_ordinal": 82,
+      "chapter_slug": "maha_bharatham",
+      "unit_slug": "repeated_epic_hearing_shapes_moral_imagination",
+      "claim_summary": "Regular hearing of epic stories is said to keep ideals of right conduct before people even when they cannot fully imitate the exemplary characters.",
+      "question_intents": [
+        "How does Mahaperiyava say repeated hearing of the epics affects moral life?"
+      ],
+      "source_paragraph_ids": [
+        "p010"
+      ],
+      "source_paragraph_hashes": [
+        "457be61487b69ae5c74f0e2353a259da57d3b6a750ffd70f6f96db08034a48ae"
+      ],
+      "topics": [
+        "epics",
+        "moral_formation",
+        "memory",
+        "virtue"
+      ],
+      "flags": [
+        "causal_claim_attributed_only",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.maha_bharatham.restore_epic_culture_to_preserve_dharma",
+      "chapter_ordinal": 82,
+      "chapter_slug": "maha_bharatham",
+      "unit_slug": "restore_epic_culture_to_preserve_dharma",
+      "claim_summary": "The chapter urges reviving some exposure to the epics as a way of preserving truth, justice, and dharma amid modern social and ideological pressures.",
+      "question_intents": [
+        "Why does Mahaperiyava want Mahabharata teaching to be revived?"
+      ],
+      "source_paragraph_ids": [
+        "p011",
+        "p012"
+      ],
+      "source_paragraph_hashes": [
+        "c2b5d067736855875998417a3b52d09f20bb1d19917ef827f99b81a12a4be8e6",
+        "a9c592f0c59f219693c72511a7866d6b8a1acc8e81538d55a15a1791250e24b4"
+      ],
+      "topics": [
+        "mahabharata",
+        "dharma",
+        "cultural_preservation",
+        "moral_education"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "social_generalization",
+        "political_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vignaanamum_aanma_niraivum.indian_tradition_presented_as_scientifically_rich",
+      "chapter_ordinal": 83,
+      "chapter_slug": "vignaanamum_aanma_niraivum",
+      "unit_slug": "indian_tradition_presented_as_scientifically_rich",
+      "claim_summary": "The chapter rejects the claim that Indian traditions were concerned only with spirituality and asserts that ancient texts contained substantial knowledge in medicine, engineering, and other sciences.",
+      "question_intents": [
+        "What does Mahaperiyava claim about scientific knowledge in ancient Indian traditions?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "5dc332e041c365632278c2c025e53a05fd8360cc8d4e3977b717e8217f640814",
+        "098429d7f788cf41d4497cdc3cf26de5c049eb25e90b9fa4c08f4c8859edfe10",
+        "ee41d658782b408879502ac8bd18155df60c348afc09d49a5d2df974b138ec88"
+      ],
+      "topics": [
+        "history_of_science",
+        "india",
+        "medicine",
+        "engineering"
+      ],
+      "flags": [
+        "scientific_claim_requires_external_verification",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vignaanamum_aanma_niraivum.astronomy_and_calendar_claim",
+      "chapter_ordinal": 83,
+      "chapter_slug": "vignaanamum_aanma_niraivum",
+      "unit_slug": "astronomy_and_calendar_claim",
+      "claim_summary": "Traditional Indian astronomy is credited with enabling long-term calculation of lunar dates and eclipses through the panchanga tradition.",
+      "question_intents": [
+        "What scientific achievement does Mahaperiyava attribute to traditional Indian astronomy?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "f8e5a2b8a7df5da9a114b1d9d13d5c3ebf6b7701e26363f16e49158651c00a12"
+      ],
+      "topics": [
+        "astronomy",
+        "panchanga",
+        "eclipses",
+        "calendar"
+      ],
+      "flags": [
+        "scientific_claim_requires_external_verification",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vignaanamum_aanma_niraivum.esoteric_science_restricted_to_the_mature",
+      "chapter_ordinal": 83,
+      "chapter_slug": "vignaanamum_aanma_niraivum",
+      "unit_slug": "esoteric_science_restricted_to_the_mature",
+      "claim_summary": "The chapter claims that advanced scientific knowledge was intentionally taught only to mature people, and often encoded in specialized language, to reduce the danger of destructive misuse.",
+      "question_intents": [
+        "Why does Mahaperiyava say some scientific knowledge was kept difficult or restricted?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "d3912074af71b645bfde9f4db61364f85eaf304d2fccb7b0439dbf3c5e39b5bf"
+      ],
+      "topics": [
+        "science",
+        "knowledge_restriction",
+        "ethics",
+        "esoteric_language"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "causal_claim_attributed_only",
+        "scientific_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vignaanamum_aanma_niraivum.preserve_ununderstood_scientific_texts",
+      "chapter_ordinal": 83,
+      "chapter_slug": "vignaanamum_aanma_niraivum",
+      "unit_slug": "preserve_ununderstood_scientific_texts",
+      "claim_summary": "Old technical and scientific texts should be preserved even when current readers do not understand them, because later generations may recover their meaning and value.",
+      "question_intents": [
+        "What does Mahaperiyava say should be done with old technical texts we do not currently understand?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "56bedd3d48e95602740c03279b6e83626658bf2c6fa7b2ef1a250c578e01f30a"
+      ],
+      "topics": [
+        "preservation",
+        "science",
+        "manuscripts",
+        "future_generations"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.vignaanamum_aanma_niraivum.science_should_serve_spiritual_fulfillment",
+      "chapter_ordinal": 83,
+      "chapter_slug": "vignaanamum_aanma_niraivum",
+      "unit_slug": "science_should_serve_spiritual_fulfillment",
+      "claim_summary": "The chapter argues that worldly sciences were traditionally subordinated to spiritual realization and contrasts this with a modern material civilization portrayed as technically advanced but inwardly dissatisfied.",
+      "question_intents": [
+        "How does Mahaperiyava say worldly sciences should relate to spiritual knowledge?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "96a90e02c6a39a4287bf0d353d00bef72e3f87dd06ef0b146948fe71ab65e602"
+      ],
+      "topics": [
+        "science",
+        "brahmavidya",
+        "modernity",
+        "spiritual_fulfillment"
+      ],
+      "flags": [
+        "cultural_generalization",
+        "social_generalization",
+        "causal_claim_attributed_only",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.varungaalaththavarkku_vanjanai_seyyalama.ancient_aircraft_and_machine_text_claims",
+      "chapter_ordinal": 84,
+      "chapter_slug": "varungaalaththavarkku_vanjanai_seyyalama",
+      "unit_slug": "ancient_aircraft_and_machine_text_claims",
+      "claim_summary": "Bhoja’s Samarangana Sutradhara and other old technical works are presented as containing theories of machines, including aircraft, and as evidence of advanced ancient engineering knowledge.",
+      "question_intents": [
+        "What technological claims does Mahaperiyava make about old Indian technical texts?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "bdf3c196d722249a9cd18c84b5fe2cbf514f9de3019824fd73baf4e086fb1d46",
+        "2c826bd4e9c49e3a856f94f123908f4f450bea6b65121329185412619d334878",
+        "2f4fd079424e78b6292b62f6d7f91a7c4fd5b166f06ee555493f4a7069bb7f21",
+        "b8b382539c74220f3082fbaeb5e0a96ed0cc14f841a3909d628f046edb6e2307",
+        "cde1a62104fdf82284f1478b6b50a0de3a03595eaf643b20c197a834d2bd3a3d"
+      ],
+      "topics": [
+        "ancient_technology",
+        "aircraft",
+        "engineering",
+        "samarangana_sutradhara"
+      ],
+      "flags": [
+        "scientific_claim_requires_external_verification",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.varungaalaththavarkku_vanjanai_seyyalama.preserve_inherited_shastras_for_future",
+      "chapter_ordinal": 84,
+      "chapter_slug": "varungaalaththavarkku_vanjanai_seyyalama",
+      "unit_slug": "preserve_inherited_shastras_for_future",
+      "claim_summary": "Texts preserved through many generations are described as an inherited trust that the present generation has a duty to transmit rather than allow to disappear.",
+      "question_intents": [
+        "Why does Mahaperiyava call preservation of old shastras a duty to future generations?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "74159168252f0c1abcb4a8428220d44428171331cdbc245c915daa2f3f2d6ade"
+      ],
+      "topics": [
+        "text_preservation",
+        "shastras",
+        "heritage",
+        "future_generations"
+      ],
+      "flags": [
+        "traditional_normative_claim",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.varungaalaththavarkku_vanjanai_seyyalama.preserve_what_we_do_not_understand",
+      "chapter_ordinal": 84,
+      "chapter_slug": "varungaalaththavarkku_vanjanai_seyyalama",
+      "unit_slug": "preserve_what_we_do_not_understand",
+      "claim_summary": "Even when an old text is not understood now, it should be preserved because future readers may possess the knowledge needed to understand and use it.",
+      "question_intents": [
+        "What does Mahaperiyava say about preserving texts whose meaning we cannot currently understand?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "6160db54d7346572b69500f320f76a36fd61cd4e0249ba046576f876dd59a57c"
+      ],
+      "topics": [
+        "preservation",
+        "future_generations",
+        "knowledge"
+      ],
+      "flags": [
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.varungaalaththavarkku_vanjanai_seyyalama.individual_responsibility_when_state_cannot_preserve",
+      "chapter_ordinal": 84,
+      "chapter_slug": "varungaalaththavarkku_vanjanai_seyyalama",
+      "unit_slug": "individual_responsibility_when_state_cannot_preserve",
+      "claim_summary": "The chapter argues that preservation of old knowledge cannot simply be left to government and that individuals must continue the work despite political and social distractions.",
+      "question_intents": [
+        "Who does Mahaperiyava say is responsible for preserving old shastras if government does not do it?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "6273f53b51f91e037fef4bb42846f567e76b8c1fc63a34726093b991f65a228d"
+      ],
+      "topics": [
+        "preservation",
+        "government",
+        "civic_duty",
+        "heritage"
+      ],
+      "flags": [
+        "political_normative_claim",
+        "political_historical_claim",
+        "social_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tamilnattu_panpin_perumai.tamil_nadu_temple_and_manuscript_abundance_claims",
+      "chapter_ordinal": 85,
+      "chapter_slug": "tamilnattu_panpin_perumai",
+      "unit_slug": "tamil_nadu_temple_and_manuscript_abundance_claims",
+      "claim_summary": "Tamil Nadu is described as containing an exceptionally large share of the world’s temples and India’s devotional and scholarly manuscripts.",
+      "question_intents": [
+        "What cultural abundance does Mahaperiyava claim for Tamil Nadu?"
+      ],
+      "source_paragraph_ids": [
+        "p001",
+        "p002"
+      ],
+      "source_paragraph_hashes": [
+        "c3d2b9489299a26d9bd1e9535eb218023f4ef708c49a0c1789faceccb355ce0c",
+        "dadd2b0be97692f87254afdf5b60001ce50d856e424ddcbfed0738001c1fb917"
+      ],
+      "topics": [
+        "tamil_nadu",
+        "temples",
+        "manuscripts",
+        "cultural_history"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tamilnattu_panpin_perumai.migration_usually_leads_to_assimilation",
+      "chapter_ordinal": 85,
+      "chapter_slug": "tamilnattu_panpin_perumai",
+      "unit_slug": "migration_usually_leads_to_assimilation",
+      "claim_summary": "The chapter generalizes that migrant communities often lose their original language and customs over generations, illustrating this with people of southern origin living in northern India.",
+      "question_intents": [
+        "What general pattern of migration and assimilation does Mahaperiyava describe?"
+      ],
+      "source_paragraph_ids": [
+        "p003"
+      ],
+      "source_paragraph_hashes": [
+        "a46161b3d83ce8457fe789a1fa902b9ad0b9b28b902adfe1d0d0064c415a1ef0"
+      ],
+      "topics": [
+        "migration",
+        "language",
+        "assimilation",
+        "culture"
+      ],
+      "flags": [
+        "social_generalization",
+        "historical_claim_requires_external_verification"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tamilnattu_panpin_perumai.aryan_dravidian_as_regional_not_racial_claim",
+      "chapter_ordinal": 85,
+      "chapter_slug": "tamilnattu_panpin_perumai",
+      "unit_slug": "aryan_dravidian_as_regional_not_racial_claim",
+      "claim_summary": "The discourse rejects a racial division between Aryans and Dravidians and instead interprets older classifications such as Pancha-Gauda and Pancha-Dravida as regional categories within one people.",
+      "question_intents": [
+        "How does Mahaperiyava interpret the Aryan–Dravidian distinction?"
+      ],
+      "source_paragraph_ids": [
+        "p004"
+      ],
+      "source_paragraph_hashes": [
+        "50f91359fde1c8f9844066b45d7d9d70103e2263c815686f6dfa938397541818"
+      ],
+      "topics": [
+        "aryan_dravidian",
+        "regional_identity",
+        "race",
+        "history"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tamilnattu_panpin_perumai.tamil_openness_to_other_cultures",
+      "chapter_ordinal": 85,
+      "chapter_slug": "tamilnattu_panpin_perumai",
+      "unit_slug": "tamil_openness_to_other_cultures",
+      "claim_summary": "Tamil people are portrayed as unusually quick to adopt other languages and cultural forms, a capacity praised as openness but criticized when imitation is driven only by pleasure or prestige.",
+      "question_intents": [
+        "What strength and danger does Mahaperiyava see in Tamil openness to other cultures?"
+      ],
+      "source_paragraph_ids": [
+        "p005"
+      ],
+      "source_paragraph_hashes": [
+        "0c563be1e74687a05bac2a10cf4a3d59c52f6e51d15955a9232607768a625912"
+      ],
+      "topics": [
+        "tamil_culture",
+        "cultural_exchange",
+        "language",
+        "imitation"
+      ],
+      "flags": [
+        "cultural_generalization",
+        "traditional_normative_claim"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tamilnattu_panpin_perumai.tamil_nadu_as_preserver_of_migrant_cultures",
+      "chapter_ordinal": 85,
+      "chapter_slug": "tamilnattu_panpin_perumai",
+      "unit_slug": "tamil_nadu_as_preserver_of_migrant_cultures",
+      "claim_summary": "Tamil Nadu is portrayed as unusual in allowing long-settled migrant communities to retain their languages and customs and as a place where literary and religious traditions from multiple languages were preserved and developed.",
+      "question_intents": [
+        "Why does Mahaperiyava compare Tamil Nadu to a ‘refrigerator’ preserving cultures?"
+      ],
+      "source_paragraph_ids": [
+        "p006"
+      ],
+      "source_paragraph_hashes": [
+        "0a3aac30bc1ad93bc59592255328607a91320bff6600d502cbbdf85c894f881f"
+      ],
+      "topics": [
+        "tamil_nadu",
+        "pluralism",
+        "migration",
+        "cultural_preservation"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tamilnattu_panpin_perumai.tamil_nadu_as_vedic_and_bhakti_center",
+      "chapter_ordinal": 85,
+      "chapter_slug": "tamilnattu_panpin_perumai",
+      "unit_slug": "tamil_nadu_as_vedic_and_bhakti_center",
+      "claim_summary": "The chapter presents Tamil Nadu as an ancient center of Vedic religion, bhakti, ethical literature, and royal support for Vedic learning.",
+      "question_intents": [
+        "What religious and literary heritage does Mahaperiyava attribute to Tamil Nadu?"
+      ],
+      "source_paragraph_ids": [
+        "p007"
+      ],
+      "source_paragraph_hashes": [
+        "9f477266aa76859b24f2538c14d20a21ad3cf270b0a68501b968c474954ca509"
+      ],
+      "topics": [
+        "tamil_nadu",
+        "vedic_tradition",
+        "bhakti",
+        "history"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "traditional_scriptural_claim",
+        "cultural_generalization"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    },
+    {
+      "id": "mahaperiyava.deivathin_kural.v1.tamilnattu_panpin_perumai.heterodox_challenges_as_renewal_catalyst",
+      "chapter_ordinal": 85,
+      "chapter_slug": "tamilnattu_panpin_perumai",
+      "unit_slug": "heterodox_challenges_as_renewal_catalyst",
+      "claim_summary": "Periods of heterodox or atheistic challenge are said to have repeatedly stimulated stronger devotional and Vedic commitment in Tamil society.",
+      "question_intents": [
+        "How does Mahaperiyava interpret periods of atheistic or non-Vedic challenge in Tamil history?"
+      ],
+      "source_paragraph_ids": [
+        "p008"
+      ],
+      "source_paragraph_hashes": [
+        "cac7bf8e62f222fa99f38801411c0d5af54939a00adc239d51b4bbb2767ad90e"
+      ],
+      "topics": [
+        "religious_history",
+        "vedic_tradition",
+        "renewal",
+        "tamil_nadu"
+      ],
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "religious_comparison_attributed_only",
+        "causal_claim_attributed_only"
+      ],
+      "authority": "dk_attested",
+      "historical_witness": null
+    }
+  ]
+}
