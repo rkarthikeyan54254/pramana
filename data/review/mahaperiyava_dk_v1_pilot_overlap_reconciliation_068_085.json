@@ -1,0 +1,56 @@
+{
+  "version": "0.1",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 1,
+  "phase": "pilot_overlap_reconciliation_068_085",
+  "status": "CURATOR_APPROVED",
+  "policy": {
+    "regular_batch_supersedes_prior_pilot_semantic_curation": true,
+    "preserve_stronger_evidence_if_present": true,
+    "no_authority_downgrade_allowed": true,
+    "no_new_witness_research": true
+  },
+  "decisions": [
+    {
+      "chapter_ordinal": 68,
+      "chapter_title_ta": "எளிய வாழ்வு",
+      "pilot_records_to_remove": 5,
+      "regular_batch_records_to_keep": 5,
+      "pilot_authority_distribution": {
+        "dk_attested": 5,
+        "earlier_witness_supported": 0,
+        "dk_print_checked": 0,
+        "primary_source_verified": 0
+      },
+      "decision": "replace_pilot_with_regular_batch",
+      "carry_forward_required": false,
+      "reason": "All pilot records are dk_attested only; the regular 066-085 batch supersedes the pilot semantic curation without losing stronger evidence."
+    },
+    {
+      "chapter_ordinal": 85,
+      "chapter_title_ta": "தமிழ்நாட்டுப் பண்பின் பெருமை",
+      "pilot_records_to_remove": 5,
+      "regular_batch_records_to_keep": 7,
+      "pilot_authority_distribution": {
+        "dk_attested": 5,
+        "earlier_witness_supported": 0,
+        "dk_print_checked": 0,
+        "primary_source_verified": 0
+      },
+      "decision": "replace_pilot_with_regular_batch",
+      "carry_forward_required": false,
+      "reason": "All pilot records are dk_attested only; the regular 066-085 batch supersedes the pilot semantic curation without losing stronger evidence."
+    }
+  ],
+  "expected_post_reconciliation": {
+    "pilot_teaching_records": 40,
+    "total_teaching_records": 582,
+    "dk_attested": 549,
+    "earlier_witness_supported": 33,
+    "dk_print_checked": 0,
+    "primary_source_verified": 0,
+    "chapter_68_regular_batch_records": 5,
+    "chapter_85_regular_batch_records": 7
+  }
+}

@@ -24,20 +24,30 @@ def _load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def test_pilot_has_56_unique_teaching_units_across_10_chapters():
+def test_pilot_has_40_unique_teaching_units_across_7_chapters():
     records = _jsonl(RECORDS)
     index = _load(INDEX)
 
-    assert len(records) == 50
-    assert index["unit_count"] == 50
-    assert len({r["id"] for r in records}) == 50
-    assert len(index["chapter_unit_counts"]) == 9
+    assert len(records) == 40
+    assert index["unit_count"] == 40
+    assert len({r["id"] for r in records}) == 40
+    assert len(index["chapter_unit_counts"]) == 7
 
     counts = Counter(
         r["source_locus"]["chapter_title_ta"]
         for r in records
     )
-    assert len(counts) == 9
+    assert len(counts) == 7
+
+    # Verify no chapter 68, 85, or 100 in pilot
+    chapter_ordinals = {r["source_locus"]["chapter_ordinal"] for r in records}
+    assert 68 not in chapter_ordinals, "Chapter 68 must not be in pilot"
+    assert 85 not in chapter_ordinals, "Chapter 85 must not be in pilot"
+    assert 100 not in chapter_ordinals, "Chapter 100 must not be in pilot"
+
+    # Verify future pilot chapters still present
+    assert 108 in chapter_ordinals, "Chapter 108 must still be in pilot"
+    assert 136 in chapter_ordinals, "Chapter 136 must still be in pilot"
 
 
 def test_authority_is_fail_closed_and_claim_level():
@@ -45,7 +55,7 @@ def test_authority_is_fail_closed_and_claim_level():
     counts = Counter(r["evidence_status"]["authority"] for r in records)
 
     assert counts == {
-        "dk_attested": 47,
+        "dk_attested": 37,
         "earlier_witness_supported": 3,
     }
     assert all(
@@ -85,7 +95,7 @@ def test_dk_only_records_do_not_gain_independent_witnesses():
         r for r in records
         if r["evidence_status"]["authority"] == "dk_attested"
     ]
-    assert len(dk_only) == 47
+    assert len(dk_only) == 37
 
     for r in dk_only:
         assert [p["witness_role"] for p in r["provenance"]] == [

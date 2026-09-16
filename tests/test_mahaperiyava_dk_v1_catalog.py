@@ -89,7 +89,7 @@ def test_extraction_queue_covers_every_catalog_chapter_once():
     pilot_rows = [q for q in queue if q["pilot"]]
     nonpilot_rows = [q for q in queue if not q["pilot"]]
 
-    assert len(pilot_rows) == 10
+    assert len(pilot_rows) == 8
     assert all(
         q["stage"] == "pilot_teaching_units_curated"
         for q in pilot_rows

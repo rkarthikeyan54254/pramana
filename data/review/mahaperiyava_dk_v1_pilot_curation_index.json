@@ -25,21 +25,19 @@
     "no_primary_source_verified_claimed": true,
     "human_publication_review_still_required": true
   },
-  "unit_count": 50,
+  "unit_count": 40,
   "authority_counts": {
     "earlier_witness_supported": 3,
-    "dk_attested": 47
+    "dk_attested": 37
   },
   "chapter_unit_counts": {
-    "advaitam": 6,
-    "dharmame_thalaikakkum": 5,
-    "mathathin_payan": 5,
-    "sakala_mathangalukkum_pothuvana_bhakti": 7,
-    "varna_dharmam": 5,
-    "eliya_vazhvu": 5,
-    "tamilnattu_panpin_perumai": 5,
-    "bhakti_seyvathu_etharkaga": 7,
-    "siva_vishnu_abhedam": 5
+    "4": 6,
+    "21": 5,
+    "23": 5,
+    "25": 7,
+    "32": 5,
+    "108": 7,
+    "136": 5
   },
   "units": [
     {
@@ -836,275 +834,6 @@
       "historical_witness": null
     },
     {
-      "id": "mahaperiyava.deivathin_kural.v1.eliya_vazhvu.standard_of_living_is_contentment",
-      "chapter_slug": "eliya_vazhvu",
-      "unit_slug": "standard_of_living_is_contentment",
-      "claim_summary": "A genuinely high standard of living is identified with contentment and sufficiency rather than the multiplication of possessions and conveniences.",
-      "question_intents": [
-        "What is a true high standard of living?",
-        "Does wealth or comfort produce contentment?"
-      ],
-      "source_paragraph_ids": [
-        "p001",
-        "p002"
-      ],
-      "source_paragraph_hashes": [
-        "c7984c8fb9b921d45bf2409d3b8a4e8d8d29f63f22f2303c1c9bd9bb2a4c2fd2",
-        "1aeb0adff10cc5d6203cf4a7eecb7bff484ca6b3f6f40390fbfafa53200e763c"
-      ],
-      "topics": [
-        "simple_living",
-        "contentment",
-        "materialism"
-      ],
-      "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.eliya_vazhvu.expanding_wants_create_inner_poverty",
-      "chapter_slug": "eliya_vazhvu",
-      "unit_slug": "expanding_wants_create_inner_poverty",
-      "claim_summary": "Endlessly expanding wants are described as a form of poverty because they prevent contentment even when a person possesses considerable wealth.",
-      "question_intents": [
-        "What does Mahaperiyava mean by poverty amid wealth?",
-        "Why do more possessions not end desire?"
-      ],
-      "source_paragraph_ids": [
-        "p002"
-      ],
-      "source_paragraph_hashes": [
-        "1aeb0adff10cc5d6203cf4a7eecb7bff484ca6b3f6f40390fbfafa53200e763c"
-      ],
-      "topics": [
-        "desire",
-        "contentment",
-        "wealth"
-      ],
-      "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.eliya_vazhvu.luxury_harms_spiritual_and_social_wellbeing",
-      "chapter_slug": "eliya_vazhvu",
-      "unit_slug": "luxury_harms_spiritual_and_social_wellbeing",
-      "claim_summary": "Luxury and competitive consumption are portrayed as weakening spiritual aspiration and increasing comparison, jealousy and social friction.",
-      "question_intents": [
-        "How can luxury affect spiritual life?",
-        "How does competitive consumption affect society?"
-      ],
-      "source_paragraph_ids": [
-        "p003",
-        "p004"
-      ],
-      "source_paragraph_hashes": [
-        "af51ea1c76bb2b426859585700503fa1cf423797a4d9a0fa6d07b532548075cf",
-        "340dcf32eb42bdd211aaeb186f998b9d0601c485a942bd083082b0542986a1d3"
-      ],
-      "topics": [
-        "luxury",
-        "spirituality",
-        "social_harmony"
-      ],
-      "flags": [
-        "social_generalization"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.eliya_vazhvu.affluent_should_model_simplicity",
-      "chapter_slug": "eliya_vazhvu",
-      "unit_slug": "affluent_should_model_simplicity",
-      "claim_summary": "Those with means are urged to live simply, both for their own spiritual good and to reduce envy and social tension around them.",
-      "question_intents": [
-        "Why should wealthy people live simply?",
-        "How can simple living help society?"
-      ],
-      "source_paragraph_ids": [
-        "p005"
-      ],
-      "source_paragraph_hashes": [
-        "1ccebde172dabe00eba8a33ae6886d0ae6e793c5c6c5b87d04dc8bbd965b5057"
-      ],
-      "topics": [
-        "simple_living",
-        "wealth",
-        "social_harmony"
-      ],
-      "flags": [
-        "context_sensitive_historical_examples"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.eliya_vazhvu.reduce_needs_and_do_duty",
-      "chapter_slug": "eliya_vazhvu",
-      "unit_slug": "reduce_needs_and_do_duty",
-      "claim_summary": "The practical prescription is to reduce unnecessary needs, fulfill one's duties and seek fullness in the mind rather than in consumption.",
-      "question_intents": [
-        "How should one practice simple living?",
-        "What is Mahaperiyava's practical advice for contentment?"
-      ],
-      "source_paragraph_ids": [
-        "p006"
-      ],
-      "source_paragraph_hashes": [
-        "3cdeeaf37ac185cd4eee2db1cae25aba46f45040decbde817f113e8cb41966d6"
-      ],
-      "topics": [
-        "simple_living",
-        "duty",
-        "contentment"
-      ],
-      "flags": [],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.tamilnattu_panpin_perumai.temple_and_textual_heritage",
-      "chapter_slug": "tamilnattu_panpin_perumai",
-      "unit_slug": "temple_and_textual_heritage",
-      "claim_summary": "The chapter celebrates Tamil Nadu as exceptionally rich in temples, religious literature and manuscript traditions.",
-      "question_intents": [
-        "What does Mahaperiyava praise about Tamil Nadu's religious heritage?",
-        "Why does he highlight temples and manuscripts in Tamil Nadu?"
-      ],
-      "source_paragraph_ids": [
-        "p001",
-        "p002"
-      ],
-      "source_paragraph_hashes": [
-        "c3d2b9489299a26d9bd1e9535eb218023f4ef708c49a0c1789faceccb355ce0c",
-        "dadd2b0be97692f87254afdf5b60001ce50d856e424ddcbfed0738001c1fb917"
-      ],
-      "topics": [
-        "tamil_nadu",
-        "temples",
-        "manuscripts",
-        "heritage"
-      ],
-      "flags": [
-        "quantitative_historical_claim_requires_verification"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.tamilnattu_panpin_perumai.regional_not_racial_aryan_dravidian_reading",
-      "chapter_slug": "tamilnattu_panpin_perumai",
-      "unit_slug": "regional_not_racial_aryan_dravidian_reading",
-      "claim_summary": "The chapter rejects a racialized Aryan-versus-Dravidian division and presents older regional classifications as geographic rather than racial.",
-      "question_intents": [
-        "What does this chapter say about Aryan and Dravidian identity?",
-        "Does Mahaperiyava treat Aryan and Dravidian as separate races?"
-      ],
-      "source_paragraph_ids": [
-        "p003",
-        "p004"
-      ],
-      "source_paragraph_hashes": [
-        "a46161b3d83ce8457fe789a1fa902b9ad0b9b28b902adfe1d0d0064c415a1ef0",
-        "50f91359fde1c8f9844066b45d7d9d70103e2263c815686f6dfa938397541818"
-      ],
-      "topics": [
-        "aryan",
-        "dravidian",
-        "history",
-        "identity"
-      ],
-      "flags": [
-        "historical_claim_requires_external_verification",
-        "context_sensitive_identity_claim"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.tamilnattu_panpin_perumai.tamil_capacity_to_absorb_languages_and_customs",
-      "chapter_slug": "tamilnattu_panpin_perumai",
-      "unit_slug": "tamil_capacity_to_absorb_languages_and_customs",
-      "claim_summary": "Tamil people are described as unusually ready to learn and absorb other languages and cultural forms, a capacity the chapter views as both admirable and potentially risky when used without discrimination.",
-      "question_intents": [
-        "What does Mahaperiyava say about Tamils adopting other languages and customs?",
-        "What is both the strength and danger of cultural openness?"
-      ],
-      "source_paragraph_ids": [
-        "p005"
-      ],
-      "source_paragraph_hashes": [
-        "0c563be1e74687a05bac2a10cf4a3d59c52f6e51d15955a9232607768a625912"
-      ],
-      "topics": [
-        "tamil",
-        "language",
-        "culture"
-      ],
-      "flags": [
-        "cultural_generalization"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.tamilnattu_panpin_perumai.tamil_nadu_as_preserver_of_plural_traditions",
-      "chapter_slug": "tamilnattu_panpin_perumai",
-      "unit_slug": "tamil_nadu_as_preserver_of_plural_traditions",
-      "claim_summary": "Tamil Nadu is portrayed as allowing migrant communities to preserve their languages and customs while participating in the region's wider cultural life.",
-      "question_intents": [
-        "How does Mahaperiyava describe Tamil Nadu's treatment of migrant communities?",
-        "Why does he compare Tamil Nadu to a refrigerator preserving cultures?"
-      ],
-      "source_paragraph_ids": [
-        "p006"
-      ],
-      "source_paragraph_hashes": [
-        "0a3aac30bc1ad93bc59592255328607a91320bff6600d502cbbdf85c894f881f"
-      ],
-      "topics": [
-        "tamil_nadu",
-        "pluralism",
-        "language",
-        "migration"
-      ],
-      "flags": [
-        "historical_generalization"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
-      "id": "mahaperiyava.deivathin_kural.v1.tamilnattu_panpin_perumai.vedic_and_bhakti_continuity_in_tamil_nadu",
-      "chapter_slug": "tamilnattu_panpin_perumai",
-      "unit_slug": "vedic_and_bhakti_continuity_in_tamil_nadu",
-      "claim_summary": "The chapter presents Tamil Nadu as a long-standing home of Vedic, bhakti and literary traditions and describes periods of challenge as followed by renewed religious commitment.",
-      "question_intents": [
-        "How does Mahaperiyava connect Tamil Nadu with Vedic and bhakti traditions?",
-        "What does he say about religious renewal in Tamil history?"
-      ],
-      "source_paragraph_ids": [
-        "p007",
-        "p008"
-      ],
-      "source_paragraph_hashes": [
-        "9f477266aa76859b24f2538c14d20a21ad3cf270b0a68501b968c474954ca509",
-        "cac7bf8e62f222fa99f38801411c0d5af54939a00adc239d51b4bbb2767ad90e"
-      ],
-      "topics": [
-        "tamil_nadu",
-        "veda",
-        "bhakti",
-        "history"
-      ],
-      "flags": [
-        "historical_claim_requires_external_verification"
-      ],
-      "authority": "dk_attested",
-      "historical_witness": null
-    },
-    {
       "id": "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.karma_and_phaladata",
       "chapter_slug": "bhakti_seyvathu_etharkaga",
       "unit_slug": "karma_and_phaladata",
@@ -1438,15 +1167,10 @@
   ],
   "flag_counts": {
     "context_sensitive_traditional_norm": 1,
-    "historical_generalization": 2,
+    "historical_generalization": 1,
     "context_sensitive": 1,
     "context_sensitive_social_teaching": 3,
-    "historical_claim_requires_external_verification": 4,
-    "social_generalization": 1,
-    "context_sensitive_historical_examples": 1,
-    "quantitative_historical_claim_requires_verification": 1,
-    "context_sensitive_identity_claim": 1,
-    "cultural_generalization": 1,
+    "historical_claim_requires_external_verification": 2,
     "packet_reextract_required": 7,
     "descriptive_of_sectarian_views": 1,
     "historical_match_candidate_external_1927": 1
