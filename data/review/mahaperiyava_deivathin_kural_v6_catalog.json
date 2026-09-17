@@ -1,0 +1,4603 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-09-17T10:27:57.186983+00:00",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "volume": 6,
+  "source_index": {
+    "url": "https://www.kamakoti.org/tamil/part6index.htm",
+    "sha256": "4f9a6f2e38b6913a7b6c822b1c850209cef76998c3e81efd717ba8153606992d",
+    "retrieval": {
+      "retrieval_mode": "live_official",
+      "status": 200,
+      "url": "https://www.kamakoti.org/tamil/part6index.htm"
+    }
+  },
+  "rights": {
+    "source_text_tier": "restricted",
+    "public_export": "metadata_only"
+  },
+  "chapter_count": 208,
+  "chapters": [
+    {
+      "ordinal": 1,
+      "legacy_file_id": "dk6-1",
+      "legacy_filename": "dk6-1.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 1,
+      "title_ta": "எல்லா இடையூறும் நீங்க உபாயம்",
+      "index_labels": [
+        "எல்லா இடையூறும் நீங்க உபாயம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-1.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-1",
+      "snapshot_sha256": "52b2d7891af3cb3956b571e3e31e46805168b6b3c1c381a19d221bd88ed20c98",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-1.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-1.htm"
+      }
+    },
+    {
+      "ordinal": 2,
+      "legacy_file_id": "dk6-2",
+      "legacy_filename": "dk6-2.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 2,
+      "title_ta": "பதினாறின் பெருமை",
+      "index_labels": [
+        "பதினாறின் பெருமை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-2.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-2",
+      "snapshot_sha256": "b4bc4bd4808913584d72bebb67bcbe54a15326a1cbac0b5750065b7f301c58ad",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-2.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-2.htm"
+      }
+    },
+    {
+      "ordinal": 3,
+      "legacy_file_id": "dk6-3",
+      "legacy_filename": "dk6-3.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 3,
+      "title_ta": "ஷோடச நாம சுலோகங்கள்",
+      "index_labels": [
+        "ஷோடச நாம சுலோகங்கள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-3.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-3",
+      "snapshot_sha256": "f38e8bd3762de8287ad568eb5cd65db8e99c45c8182f61918347b200bc2979c3",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-3.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-3.htm"
+      }
+    },
+    {
+      "ordinal": 4,
+      "legacy_file_id": "dk6-4",
+      "legacy_filename": "dk6-4.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 4,
+      "title_ta": "ஸுமுகர்",
+      "index_labels": [
+        "ஸுமுகர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-4.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-4",
+      "snapshot_sha256": "214aa074c506524b7a8c47739dad715551284fb1a59d85e79c6553b4718347ba",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-4.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-4.htm"
+      }
+    },
+    {
+      "ordinal": 5,
+      "legacy_file_id": "dk6-5",
+      "legacy_filename": "dk6-5.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 5,
+      "title_ta": "நரமுக கணபதி ஆனைமுகரானது",
+      "index_labels": [
+        "நரமுக கணபதி ஆனைமுகரானது"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-5.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-5",
+      "snapshot_sha256": "e82d6798941b9afaaeabda3edad4cc000edd3b49767784f764cdd036ac82afee",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-5.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-5.htm"
+      }
+    },
+    {
+      "ordinal": 6,
+      "legacy_file_id": "dk6-6",
+      "legacy_filename": "dk6-6.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 6,
+      "title_ta": "ஆனந்த வடிவர்",
+      "index_labels": [
+        "ஆனந்த வடிவர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-6.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-6",
+      "snapshot_sha256": "741e362a9e11220e0b8cd891da31951f87ae59639f558fb36e46ac4aeab84734",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-6.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-6.htm"
+      }
+    },
+    {
+      "ordinal": 7,
+      "legacy_file_id": "dk6-7",
+      "legacy_filename": "dk6-7.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 7,
+      "title_ta": "நல்ல வாய் உடையவர்",
+      "index_labels": [
+        "'நல்ல வாய் ' உடையவர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-7.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-7",
+      "snapshot_sha256": "a9ab5d2ae91feb950de4446d7d0adec7b19d060fb69630d7d460005a6b6d53e5",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-7.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-7.htm"
+      }
+    },
+    {
+      "ordinal": 8,
+      "legacy_file_id": "dk6-8",
+      "legacy_filename": "dk6-8.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 8,
+      "title_ta": "ஏகதந்தர் : ‘என்பும் பிறர்க்குரியர்’",
+      "index_labels": [
+        "ஏகதந்தர் : ' என்பும் பிறர்க்குரியர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-8.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-8",
+      "snapshot_sha256": "b98b1dae5a32aae644adb23a83299edc31d6ae1da489b948ca9d5b5a2570c4e6",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-8.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-8.htm"
+      }
+    },
+    {
+      "ordinal": 9,
+      "legacy_file_id": "dk6-9",
+      "legacy_filename": "dk6-9.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 9,
+      "title_ta": "பெண்ணாகவும் இருப்பவர்",
+      "index_labels": [
+        "பெண்ணாகவும் இருப்பவர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-9.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-9",
+      "snapshot_sha256": "1b42d02cc1bae2ecd800b8aac4ffd9f68d530d982294b7b54f33c6aec1e31bb5",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-9.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-9.htm"
+      }
+    },
+    {
+      "ordinal": 10,
+      "legacy_file_id": "dk6-10",
+      "legacy_filename": "dk6-10.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 10,
+      "title_ta": "விக்நேச்வர காயத்ரீ",
+      "index_labels": [
+        "விக்நேச்வர காயத்ரீ"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-10.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-10",
+      "snapshot_sha256": "3b1375c6af3c9cdf150715304e6d995f0a60f5d29ac586af24903c39e05ab908",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-10.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-10.htm"
+      }
+    },
+    {
+      "ordinal": 11,
+      "legacy_file_id": "dk6-11",
+      "legacy_filename": "dk6-11.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 11,
+      "title_ta": "கபிலர் : திருச்செங்கட்டான்குடி விநாயகர்",
+      "index_labels": [
+        "கபிலர் : திருச்செங்காட்டாங்குடி விநாயகர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-11.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-11",
+      "snapshot_sha256": "4490909fbefcfda88c764d1882ac878ef3fe7c0935c73a8370d026d6ab7b1eee",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-11.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-11.htm"
+      }
+    },
+    {
+      "ordinal": 12,
+      "legacy_file_id": "dk6-12",
+      "legacy_filename": "dk6-12.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 12,
+      "title_ta": "வாதாபி கணபதி : சரித்திர விவரங்கள்",
+      "index_labels": [
+        "வாதாபி கணபதி : சரித்திர விவரங்கள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-12.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-12",
+      "snapshot_sha256": "15ba9dc8042269795902694e856dc030c3934f7fe95e992ada54fe4e4b36f5c9",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-12.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-12.htm"
+      }
+    },
+    {
+      "ordinal": 13,
+      "legacy_file_id": "dk6-13",
+      "legacy_filename": "dk6-13.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 13,
+      "title_ta": "ஆனைமுகரும் அகத்தியரும்",
+      "index_labels": [
+        "ஆனைமுகரும் அகத்தியரும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-13.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-13",
+      "snapshot_sha256": "8c52a3df0cfcffcc2713d87d1a62d2bfc756e9d286255ce85ecf137918473fe6",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-13.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-13.htm"
+      }
+    },
+    {
+      "ordinal": 14,
+      "legacy_file_id": "dk6-14",
+      "legacy_filename": "dk6-14.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 14,
+      "title_ta": "பரஞ்ஜோதி (சிறுத்தொண்டர்); வாதாபி கணபதி",
+      "index_labels": [
+        "பரஞ்ஜோதி (சிறுத்தொண்டர்) ; வாதாபி கணபதி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-14.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-14",
+      "snapshot_sha256": "9f2c0e17f662469fc7af367abcb991ed3d3fefdf2d1abf75e046a686ecf9ec9c",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-14.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-14.htm"
+      }
+    },
+    {
+      "ordinal": 15,
+      "legacy_file_id": "dk6-15",
+      "legacy_filename": "dk6-15.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 15,
+      "title_ta": "மாமாத்திரர், அமாத்தியர்",
+      "index_labels": [
+        "மாமாத்திரர், அமாத்தியர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-15.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-15",
+      "snapshot_sha256": "b69666c3ac3408b7fee192424ed53860680a84fea33c111c5c43e4770b615fef",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-15.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-15.htm"
+      }
+    },
+    {
+      "ordinal": 16,
+      "legacy_file_id": "dk6-16",
+      "legacy_filename": "dk6-16.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 16,
+      "title_ta": "தவறான தனித்தமிழ் நாகரிகப் பிரிவினை",
+      "index_labels": [
+        "தவறான தனித்தமிழ் நாகரிகப் பிரிவினை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-16.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-16",
+      "snapshot_sha256": "b473a93163e5c23608e1a95ef7f50cdd6b5c842630df27032b03c9989017c807",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-16.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-16.htm"
+      }
+    },
+    {
+      "ordinal": 17,
+      "legacy_file_id": "dk6-17",
+      "legacy_filename": "dk6-17.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 17,
+      "title_ta": "மஹேந்திர பல்லவன் கலப்பு ஜாதியா?",
+      "index_labels": [
+        "மஹேந்திர பல்லவன் கலப்பு ஜாதியா ?"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-17.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-17",
+      "snapshot_sha256": "be08620c4c5cdc4a481d5b16209ceffa766813a4df2b0d16e5230389041e2be2",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-17.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-17.htm"
+      }
+    },
+    {
+      "ordinal": 18,
+      "legacy_file_id": "dk6-18",
+      "legacy_filename": "dk6-18.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 18,
+      "title_ta": "மாமாத்திரப் பரஞ்ஜோதி",
+      "index_labels": [
+        "மாமாத்திர பரஞ்ஜோதி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-18.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-18",
+      "snapshot_sha256": "d4be8e1ba1846802c36167c1c4f4a8e46115d3f5e6979d71172c674e4f91280a",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-18.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-18.htm"
+      }
+    },
+    {
+      "ordinal": 19,
+      "legacy_file_id": "dk6-19",
+      "legacy_filename": "dk6-19.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 19,
+      "title_ta": "நந்தனார் : உண்மையை வென்ற கற்பனை",
+      "index_labels": [
+        "நந்தனார் : உண்மையை வென்ற கற்பனை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-19.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-19",
+      "snapshot_sha256": "30a00ddcf3e4e98a3a04974b49cd6acc5aca6d192994d4135358a8074972889e",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-19.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-19.htm"
+      }
+    },
+    {
+      "ordinal": 20,
+      "legacy_file_id": "dk6-20",
+      "legacy_filename": "dk6-20.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 20,
+      "title_ta": "படைத்தலைவர் பக்தித் தொண்டரானார்!",
+      "index_labels": [
+        "படைத்தலைவர் பக்தித் தொண்டரானார்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-20.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-20",
+      "snapshot_sha256": "36fd0e6515dc8dd53b86ffe9959c1bf1e0abc55885be123fc9a210870f8e01d4",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-20.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-20.htm"
+      }
+    },
+    {
+      "ordinal": 21,
+      "legacy_file_id": "dk6-21",
+      "legacy_filename": "dk6-21.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 21,
+      "title_ta": "பிள்ளைக் கறி : அதன் உட்கிடைகள்",
+      "index_labels": [
+        "பிள்ளைக் கறி : அதன் உட்கிடைகள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-21.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-21",
+      "snapshot_sha256": "178f57e60373146c9b6f4fe2ff0f6e6d9d244ffe92dd07ebf29c143797e2f918",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-21.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-21.htm"
+      }
+    },
+    {
+      "ordinal": 22,
+      "legacy_file_id": "dk6-22",
+      "legacy_filename": "dk6-22.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 22,
+      "title_ta": "வாதாபி விக்கிரஹம் : வெவ்வேறு கருத்துக்கள்",
+      "index_labels": [
+        "வாதாபி விக்கிரஹம் : வெவ்வேறு கருத்துக்கள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-22.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-22",
+      "snapshot_sha256": "349597287b2aa88d0203cfa427da0ae081f04bf01958ca4134a038e6c21aec0a",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-22.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-22.htm"
+      }
+    },
+    {
+      "ordinal": 23,
+      "legacy_file_id": "dk6-23",
+      "legacy_filename": "dk6-23.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 23,
+      "title_ta": "கஜகர்ணகர்",
+      "index_labels": [
+        "கஜகர்ணகர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-23.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-23",
+      "snapshot_sha256": "c156d49e593da88d7d93fed99497567835a2472b05d5965379e4cdffbc824f01",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-23.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-23.htm"
+      }
+    },
+    {
+      "ordinal": 24,
+      "legacy_file_id": "dk6-24",
+      "legacy_filename": "dk6-24.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 24,
+      "title_ta": "லம்போதரர்",
+      "index_labels": [
+        "லம்போதரர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-24.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-24",
+      "snapshot_sha256": "2e83d25b855c2b4a27e46a430386e74d65e0eef05cfa35b838102f9940a20c15",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-24.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-24.htm"
+      }
+    },
+    {
+      "ordinal": 25,
+      "legacy_file_id": "dk6-25",
+      "legacy_filename": "dk6-25.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 25,
+      "title_ta": "விகடர்",
+      "index_labels": [
+        "விகடர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-25.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-25",
+      "snapshot_sha256": "53f2537f6fafaa3f09cf6d548d4e8c53c6f46e946e7b7c0f88012d13805060ae",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-25.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-25.htm"
+      }
+    },
+    {
+      "ordinal": 26,
+      "legacy_file_id": "dk6-26",
+      "legacy_filename": "dk6-26.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 26,
+      "title_ta": "திருத்தலங்களில் விகட விநாயகர்கள்",
+      "index_labels": [
+        "திருத்தலங்களில் விகட விநாயகர்கள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-26.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-26",
+      "snapshot_sha256": "7c288e8053b5a7ec908982034f02beca3635dae6a7ed20379dc37334c177e567",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-26.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-26.htm"
+      }
+    },
+    {
+      "ordinal": 27,
+      "legacy_file_id": "dk6-27",
+      "legacy_filename": "dk6-27.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 27,
+      "title_ta": "விகட சக்ர விநாயகர்",
+      "index_labels": [
+        "விகட சக்ர விநாயகர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-27.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-27",
+      "snapshot_sha256": "edc3e74bd14d37f2193b1ab96dd8df2959a46cb4fc4e93fe7011b6c7d2f98d68",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-27.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-27.htm"
+      }
+    },
+    {
+      "ordinal": 28,
+      "legacy_file_id": "dk6-28",
+      "legacy_filename": "dk6-28.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 28,
+      "title_ta": "விக்ந ராஜர்",
+      "index_labels": [
+        "விக்நராஜர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-28.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-28",
+      "snapshot_sha256": "0de28540d72ba0eafe94d235e2d71e56d9ad0297822c8a16883c5b6c1f8e29f2",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-28.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-28.htm"
+      }
+    },
+    {
+      "ordinal": 29,
+      "legacy_file_id": "dk6-29",
+      "legacy_filename": "dk6-29.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 29,
+      "title_ta": "விக்னம் செய்வதும் உயர் நோக்கத்திலேயே!",
+      "index_labels": [
+        "விக்னம் செய்வதும் உயர்நோக்கத்திலேயே"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-29.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-29",
+      "snapshot_sha256": "17b7079f5e1bcc45d6bb748627f61d49cb2d5ce432c6f3f133255a5210e95598",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-29.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-29.htm"
+      }
+    },
+    {
+      "ordinal": 30,
+      "legacy_file_id": "dk6-30",
+      "legacy_filename": "dk6-30.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 30,
+      "title_ta": "“சொந்த” அநுபவம்",
+      "index_labels": [
+        "' சொந்த ' அநுபவம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-30.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-30",
+      "snapshot_sha256": "0845336ef4d2f3fe2f24ca8a2b90f4fe7f2e72df882ad657377d08f7d1e17dc4",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-30.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-30.htm"
+      }
+    },
+    {
+      "ordinal": 31,
+      "legacy_file_id": "dk6-31",
+      "legacy_filename": "dk6-31.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 31,
+      "title_ta": "விநாயகர்; இரட்டைப் பிள்ளையார்",
+      "index_labels": [
+        "விநாயகர் ; இரட்டைப் பிள்ளையார்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-31.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-31",
+      "snapshot_sha256": "6087c16ab67cd461b94556b684abe814f1005e53b666fb1d97a4b04c6e298dee",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-31.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-31.htm"
+      }
+    },
+    {
+      "ordinal": 32,
+      "legacy_file_id": "dk6-32",
+      "legacy_filename": "dk6-32.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 32,
+      "title_ta": "பிரஸித்தமான பெயர்",
+      "index_labels": [
+        "பிரஸித்தமான பெயர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-32.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-32",
+      "snapshot_sha256": "af4c4ebb498b953c04e8cf8a9bcf557947daf02ddf4a3428ef7ee91fdbd72825",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-32.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-32.htm"
+      }
+    },
+    {
+      "ordinal": 33,
+      "legacy_file_id": "dk6-33",
+      "legacy_filename": "dk6-33.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 33,
+      "title_ta": "‘வி’ எனும் அடை",
+      "index_labels": [
+        "'M' என்னும் அடை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-33.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-33",
+      "snapshot_sha256": "92d0b71ca8625d35627bcf0e695dd1eecfcfd2d84bdd5d58cd0ee20afc0f54a5",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-33.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-33.htm"
+      }
+    },
+    {
+      "ordinal": 34,
+      "legacy_file_id": "dk6-34",
+      "legacy_filename": "dk6-34.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 34,
+      "title_ta": "இருபொருளிலும் வி-நாயகர்!",
+      "index_labels": [
+        "இருபொருளிலும் வி-நாயகர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-34.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-34",
+      "snapshot_sha256": "0bb3c99357556a12e9d53cc271ed52e46ad44b858dfc326542d5407c0bb064a8",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-34.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-34.htm"
+      }
+    },
+    {
+      "ordinal": 35,
+      "legacy_file_id": "dk6-35",
+      "legacy_filename": "dk6-35.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 35,
+      "title_ta": "‘அமர’த்தில் பிள்ளையார்ப் பெயர்கள்",
+      "index_labels": [
+        "' அமர 'த்தில் பிள்ளையார் பெயர்கள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-35.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-35",
+      "snapshot_sha256": "8373ac837675de0451b875d25853f1438158a14941ebe3e56d627c36f131d2fb",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-35.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-35.htm"
+      }
+    },
+    {
+      "ordinal": 36,
+      "legacy_file_id": "dk6-36",
+      "legacy_filename": "dk6-36.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 36,
+      "title_ta": "தூமகேது",
+      "index_labels": [
+        "தூமகேது"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-36.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-36",
+      "snapshot_sha256": "73b8c4985238de72357fcb155477fd7e988f562e2eb500c40de5a1d708fe5f5e",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-36.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-36.htm"
+      }
+    },
+    {
+      "ordinal": 37,
+      "legacy_file_id": "dk6-37",
+      "legacy_filename": "dk6-37.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 37,
+      "title_ta": "கணாத்யக்ஷர்",
+      "index_labels": [
+        "கணாத்யக்ஷர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-37.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-37",
+      "snapshot_sha256": "85141036420ee995c26b8086b94bf6b6713c7242ab2460f18a25addc20302018",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-37.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-37.htm"
+      }
+    },
+    {
+      "ordinal": 38,
+      "legacy_file_id": "dk6-38",
+      "legacy_filename": "dk6-38.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 38,
+      "title_ta": "பாலசந்த்ரர்",
+      "index_labels": [
+        "பாலசந்த்ரர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-38.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-38",
+      "snapshot_sha256": "4a981892b5df659771ec02178b1f667d1189aba50537a81b0eb5964d69c7edd7",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-38.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-38.htm"
+      }
+    },
+    {
+      "ordinal": 39,
+      "legacy_file_id": "dk6-39",
+      "legacy_filename": "dk6-39.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 39,
+      "title_ta": "பிள்ளையாரும் சந்திரனும்",
+      "index_labels": [
+        "பிள்ளையாரும் சந்திரனும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-39.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-39",
+      "snapshot_sha256": "da06ecee90b30c567761b82e23deef693c4349854408a04df8bbccd008b1fced",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-39.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-39.htm"
+      }
+    },
+    {
+      "ordinal": 40,
+      "legacy_file_id": "dk6-40",
+      "legacy_filename": "dk6-40.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 40,
+      "title_ta": "கஜானனர் : யானையின் சிறப்புக்கள்",
+      "index_labels": [
+        "கஜானனர் : யானையின் சிறப்புக்கள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-40.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-40",
+      "snapshot_sha256": "84667257838984379d154b49d3733bf21231088cdf80c869f5758d54c888d644",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-40.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-40.htm"
+      }
+    },
+    {
+      "ordinal": 41,
+      "legacy_file_id": "dk6-41",
+      "legacy_filename": "dk6-41.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 41,
+      "title_ta": "தெய்வத்தொடர்புள்ள விலங்கினம்",
+      "index_labels": [
+        "தெய்வத் தொடர்புள்ள விலங்கினம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-41.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-41",
+      "snapshot_sha256": "fb8b77f450dcfa9eea44f31fed83434e54ffc97f6e99a9ee55ff0fcf12472ad4",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-41.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-41.htm"
+      }
+    },
+    {
+      "ordinal": 42,
+      "legacy_file_id": "dk6-42",
+      "legacy_filename": "dk6-42.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 42,
+      "title_ta": "அனைத்து உயிரினங்களும் இணைந்தவர்",
+      "index_labels": [
+        "அனைத்து உயிரனங்களும் இணைந்தவர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-42.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-42",
+      "snapshot_sha256": "fb690c19561ffddd782d5b5e8572f7a7668e5e5411b292e054aaeb0a4abf6bf3",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-42.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-42.htm"
+      }
+    },
+    {
+      "ordinal": 43,
+      "legacy_file_id": "dk6-43",
+      "legacy_filename": "dk6-43.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 43,
+      "title_ta": "ஆதி முதலின் வரிவடிவம்",
+      "index_labels": [
+        "ஆதி முதலின் வரிவடிவம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-43.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-43",
+      "snapshot_sha256": "0ad185c863aad08c35d6245ed767e5b945fe105fde7f739326c95141ea137eaf",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-43.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-43.htm"
+      }
+    },
+    {
+      "ordinal": 44,
+      "legacy_file_id": "dk6-44",
+      "legacy_filename": "dk6-44.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 44,
+      "title_ta": "முகமும் வாயும்",
+      "index_labels": [
+        "முகமும் வாயும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-44.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-44",
+      "snapshot_sha256": "14c6dc15c5da9afd998061a35f1c02dc84399914de911dfbcf72ab32a88967fa",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-44.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-44.htm"
+      }
+    },
+    {
+      "ordinal": 45,
+      "legacy_file_id": "dk6-45",
+      "legacy_filename": "dk6-45.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 45,
+      "title_ta": "வக்ரதுண்டர்",
+      "index_labels": [
+        "வக்ரதுண்டர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-45.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-45",
+      "snapshot_sha256": "39b6fdf58c3178382d9ac0e97dc6d958a8a9367977bba7a3884dce20db65d317",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-45.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-45.htm"
+      }
+    },
+    {
+      "ordinal": 46,
+      "legacy_file_id": "dk6-46",
+      "legacy_filename": "dk6-46.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 46,
+      "title_ta": "சூர்ப்பகர்ணர்",
+      "index_labels": [
+        "சூர்ப்பகர்ணர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-46.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-46",
+      "snapshot_sha256": "4dd038887b078ec3dd39c314124179e31f16358fea26f235ce370f7f218f2b5b",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-46.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-46.htm"
+      }
+    },
+    {
+      "ordinal": 47,
+      "legacy_file_id": "dk6-47",
+      "legacy_filename": "dk6-47.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 47,
+      "title_ta": "ஹேரம்பர்",
+      "index_labels": [
+        "ஹேரம்பர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-47.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-47",
+      "snapshot_sha256": "a8595b69ad0f9ce1203a6e12d62dbae15ec2f19d64544d24e89f78291a4ec3e9",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-47.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-47.htm"
+      }
+    },
+    {
+      "ordinal": 48,
+      "legacy_file_id": "dk6-48",
+      "legacy_filename": "dk6-48.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 48,
+      "title_ta": "சிங்கம் பூஜிக்கும் யானை!",
+      "index_labels": [
+        "சிங்கம் பூஜிக்கும் யானை !"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-48.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-48",
+      "snapshot_sha256": "52118cf30319594732e0d514d91ba1b55ca55e5a64922e25efed2a3cb82d1342",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-48.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-48.htm"
+      }
+    },
+    {
+      "ordinal": 49,
+      "legacy_file_id": "dk6-49",
+      "legacy_filename": "dk6-49.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 49,
+      "title_ta": "ஐந்து முகம்கொண்ட ஸிம்ஹவாஹனர்",
+      "index_labels": [
+        "ஐந்து முகம்கொண்ட ஸிம்ஹவாஹனர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-49.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-49",
+      "snapshot_sha256": "9ec87b319339d5858ad2d3337b544974356f0f5d347a30d5b54b30b986473c05",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-49.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-49.htm"
+      }
+    },
+    {
+      "ordinal": 50,
+      "legacy_file_id": "dk6-50",
+      "legacy_filename": "dk6-50.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 50,
+      "title_ta": "ஸ்கந்த பூர்வஜர்",
+      "index_labels": [
+        "ஸ்கந்த பூர்வஜர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-50.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-50",
+      "snapshot_sha256": "283bf26361aa4ce8364d924877656c5b95c2579825fb9ec3a4c1982670f281c3",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-50.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-50.htm"
+      }
+    },
+    {
+      "ordinal": 51,
+      "legacy_file_id": "dk6-51",
+      "legacy_filename": "dk6-51.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 51,
+      "title_ta": "முருகனின் தமையர் என்பதன் சிறப்பு",
+      "index_labels": [
+        "முருகனின் தமையர் என்பதன் சிறப்பு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-51.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-51",
+      "snapshot_sha256": "f3ac616981c58f991be6dfc3cc20efc48dccba14bc4b695ac72f26928f6d6e19",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-51.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-51.htm"
+      }
+    },
+    {
+      "ordinal": 52,
+      "legacy_file_id": "dk6-52",
+      "legacy_filename": "dk6-52.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 52,
+      "title_ta": "முருகன் ஜனனத்தில் மூத்தவர் பங்கு",
+      "index_labels": [
+        "முருகன் ஜனனத்தில் மூத்தவர் பங்கு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-52.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-52",
+      "snapshot_sha256": "867017d4135b59048d58dd5f1551ff7a93f1013b629148e1e6b7146824466a14",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-52.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-52.htm"
+      }
+    },
+    {
+      "ordinal": 53,
+      "legacy_file_id": "dk6-53",
+      "legacy_filename": "dk6-53.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 53,
+      "title_ta": "முருகன் திருமணத்தில் மூத்தவர் பங்கு",
+      "index_labels": [
+        "முருகன் திருமணத்தில் மூத்தவர் பங்கு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-53.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-53",
+      "snapshot_sha256": "e14ab5cddbf59ed2c74c69d59b1675995be3aa6a059cecfc91aae9c73858b204",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-53.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-53.htm"
+      }
+    },
+    {
+      "ordinal": 54,
+      "legacy_file_id": "dk6-54",
+      "legacy_filename": "dk6-54.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 54,
+      "title_ta": "முருகன் துறவில் மூத்தவர் பங்கு",
+      "index_labels": [
+        "முருகன் துறவில் மூத்தவர் பங்கு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-54.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-54",
+      "snapshot_sha256": "18d83d5d62739d628dd319aefe3abfa073f1d6a93aa45d8bb411291cc520eb63",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-54.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-54.htm"
+      }
+    },
+    {
+      "ordinal": 55,
+      "legacy_file_id": "dk6-55",
+      "legacy_filename": "dk6-55.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 55,
+      "title_ta": "பலச்ருதியின் அனைத்துப் பயனும் பெற்ற முருகன்",
+      "index_labels": [
+        "பலச்ருதியின் அனைத்துப் பயனும் பெற்ற முருகன்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-55.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-55",
+      "snapshot_sha256": "e3dbf9dc69e3041659d7f3075c5fc192917b0b06c6d5f574da54fdedb14f4471",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-55.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-55.htm"
+      }
+    },
+    {
+      "ordinal": 56,
+      "legacy_file_id": "dk6-56",
+      "legacy_filename": "dk6-56.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 56,
+      "title_ta": "ஸ்கந்த நாமச் சிறப்பு",
+      "index_labels": [
+        "ஸ்கந்த நாமச் சிறப்பு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-56.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-56",
+      "snapshot_sha256": "d046b3cd8b74d012b6549cdf16707ebdede0d226392d1b1e0490d2b9fd02522a",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-56.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-56.htm"
+      }
+    },
+    {
+      "ordinal": 57,
+      "legacy_file_id": "dk6-57",
+      "legacy_filename": "dk6-57.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 57,
+      "title_ta": "அண்ணாவைக் கூறி அன்றாடம் தொடங்குவோம் !",
+      "index_labels": [
+        "அண்ணாவைக் கூறி அன்றாடம் தொடங்குவோம் !"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-57.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-57",
+      "snapshot_sha256": "842e620120356dd580482454d5bc77aa02ffa9b1042cad0748363bf7bec6855a",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-57.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-57.htm"
+      }
+    },
+    {
+      "ordinal": 58,
+      "legacy_file_id": "dk6-58",
+      "legacy_filename": "dk6-58.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 58,
+      "title_ta": "வாழ்க்கையில் வழியும் திசையும்",
+      "index_labels": [
+        "உபதேசிகராகிய தேசிகர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-58.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-58",
+      "snapshot_sha256": "15855585e127c61482a8940bbdb71e4fd92255794bbf47a26f16ae06341de54b",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-58.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-58.htm"
+      }
+    },
+    {
+      "ordinal": 59,
+      "legacy_file_id": "dk6-59",
+      "legacy_filename": "dk6-59.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 59,
+      "title_ta": "பூர்வோத்தரம் : கிழக்கு – வடக்கு",
+      "index_labels": [
+        "பூர்வோத்தரம் : கிழக்கு - வடக்கு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-59.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-59",
+      "snapshot_sha256": "d863498d305e2a5a318f0d159bae84e13a6620db3117b8a6186fbe8f4f01c3b6",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-59.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-59.htm"
+      }
+    },
+    {
+      "ordinal": 60,
+      "legacy_file_id": "dk6-60",
+      "legacy_filename": "dk6-60.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 60,
+      "title_ta": "மேல்-கீழ் : மேற்கு-கிழக்கு",
+      "index_labels": [
+        "மேல்-கீழ் : மேற்கு - கிழக்கு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-60.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-60",
+      "snapshot_sha256": "717d68a7713a0ca58f4e442d8e605df063c111c7a1dd054bfab074d930c5d81d",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-60.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-60.htm"
+      }
+    },
+    {
+      "ordinal": 61,
+      "legacy_file_id": "dk6-61",
+      "legacy_filename": "dk6-61.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 61,
+      "title_ta": "“திச்” : பெயர்ச்சொல்லாகவும் வினைச்சொல்லாகவும்",
+      "index_labels": [
+        "' திச் ': பெயர்ச்சொல்லாகவும் வினைச்சொல்லாகவும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-61.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-61",
+      "snapshot_sha256": "62c67963e9ad7ef7b914e2b9f85944133560d1771c64db81c548dd4a4f509db1",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-61.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-61.htm"
+      }
+    },
+    {
+      "ordinal": 62,
+      "legacy_file_id": "dk6-62",
+      "legacy_filename": "dk6-62.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 62,
+      "title_ta": "தேசம், உபதேசம்",
+      "index_labels": [
+        "தேசம், உபதேசம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-62.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-62",
+      "snapshot_sha256": "fa00e534b7213013dc0dcde80c567e8b1780caa9e0d45fd1d41b2deac7b88ba5",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-62.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-62.htm"
+      }
+    },
+    {
+      "ordinal": 63,
+      "legacy_file_id": "dk6-63",
+      "legacy_filename": "dk6-63.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 63,
+      "title_ta": "இரு பொருளிலும் ‘தேசிகர்’",
+      "index_labels": [
+        "இரு பொருளிலும் ' தேசிகர் '"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-63.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-63",
+      "snapshot_sha256": "0d1536007d6d3941e52f0396c3a8b54c52a78886105889bac2fcf2fca0ebd500",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-63.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-63.htm"
+      }
+    },
+    {
+      "ordinal": 64,
+      "legacy_file_id": "dk6-64",
+      "legacy_filename": "dk6-64.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 64,
+      "title_ta": "ஒட்டுறவைக் காட்டும் பதம்!",
+      "index_labels": [
+        "ஒட்டுறவைக் காட்டும் பதம் !"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-64.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-64",
+      "snapshot_sha256": "683837026b747264f49090741e7e01e0b190c706278a3c1443fb8d594d96f6ce",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-64.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-64.htm"
+      }
+    },
+    {
+      "ordinal": 65,
+      "legacy_file_id": "dk6-65",
+      "legacy_filename": "dk6-65.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 65,
+      "title_ta": "அன்னை தந்தைக்கும் மேல் ஆசானே !",
+      "index_labels": [
+        "அன்னை தந்தைக்கும் மேல் ஆசானே"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-65.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-65",
+      "snapshot_sha256": "1e20259eeb7e9b1517e0a7a676bf33da79adbd7b4cb17648773ecd88591d5112",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-65.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-65.htm"
+      }
+    },
+    {
+      "ordinal": 66,
+      "legacy_file_id": "dk6-66",
+      "legacy_filename": "dk6-66.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 66,
+      "title_ta": "ஆசாரிய தர்மம்",
+      "index_labels": [
+        "ஆசாரிய தர்மம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-66.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-66",
+      "snapshot_sha256": "d5de68d5939dd2ce7b10736544f67dbab49532dc62044397b3707d44359d494d",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-66.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-66.htm"
+      }
+    },
+    {
+      "ordinal": 67,
+      "legacy_file_id": "dk6-67",
+      "legacy_filename": "dk6-67.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 67,
+      "title_ta": "அன்னை-தந்தையர் பெருமை",
+      "index_labels": [
+        "அன்னை-தந்தையர் பெருமை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-67.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-67",
+      "snapshot_sha256": "404a45799fd7fa130294899e46ab39ec3c6ccdbc9147bbadfd38a43e948c3f96",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-67.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-67.htm"
+      }
+    },
+    {
+      "ordinal": 68,
+      "legacy_file_id": "dk6-68",
+      "legacy_filename": "dk6-68.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 68,
+      "title_ta": "ஞானியின் ‘வெள்ளரிப்பழ முக்தி’",
+      "index_labels": [
+        "ஞானியின் ' வெள்ளரிப்பழ முக்தி '"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-68.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-68",
+      "snapshot_sha256": "51f6d4a45be1ed9ea2f6cf6f2f75d86cb98f95fcd379048c4dd1684327eb8392",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-68.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-68.htm"
+      }
+    },
+    {
+      "ordinal": 69,
+      "legacy_file_id": "dk6-69",
+      "legacy_filename": "dk6-69.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 69,
+      "title_ta": "குருவின் பிரியமும் தியாகமும்",
+      "index_labels": [
+        "குருவின் பிரியமும் தியாகமும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-69.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-69",
+      "snapshot_sha256": "7fb2c885cd33f78bb5be7dbbab2a1a10351c575f222c31bc87fa7b4cb00c8299",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-69.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-69.htm"
+      }
+    },
+    {
+      "ordinal": 70,
+      "legacy_file_id": "dk6-70",
+      "legacy_filename": "dk6-70.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 70,
+      "title_ta": "குரு உபதேசமின்றி ஞானமில்லை",
+      "index_labels": [
+        "குரு உபதேசமின்றி ஞானமில்லை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-70.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-70",
+      "snapshot_sha256": "e833a6c1a733796071e734f6c41057a165f8852a6c94ad3305ea4665c0ee45ee",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-70.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-70.htm"
+      }
+    },
+    {
+      "ordinal": 71,
+      "legacy_file_id": "dk6-71",
+      "legacy_filename": "dk6-71.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 71,
+      "title_ta": "“தேசிக” பதத்தின் சிறப்புக்கள்",
+      "index_labels": [
+        "' தேசிக ' பதத்தின் சிறப்புக்கள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-71.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-71",
+      "snapshot_sha256": "3135cc334321311a3717de01b60cec0e1a59db4866827a056c7bd71b7e2f7b39",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-71.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-71.htm"
+      }
+    },
+    {
+      "ordinal": 72,
+      "legacy_file_id": "dk6-72",
+      "legacy_filename": "dk6-72.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 72,
+      "title_ta": "“பரமாசார்யர்”",
+      "index_labels": [
+        "' பரமாச்சார்யர் '"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-72.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-72",
+      "snapshot_sha256": "74452f5559a0122968398838dd3fdfdef92f70c36a2d89e5c842fccd8416914d",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-72.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-72.htm"
+      }
+    },
+    {
+      "ordinal": 73,
+      "legacy_file_id": "dk6-73",
+      "legacy_filename": "dk6-73.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 73,
+      "title_ta": "தேசிக ரூபத்தில் தேவி",
+      "index_labels": [
+        "தேசிக ரூபத்தில் தேவி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-73.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-73",
+      "snapshot_sha256": "982aaa69723c72b0e95d8f5ba702ae2121c70c957676bfcb73fc210861023301",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-73.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-73.htm"
+      }
+    },
+    {
+      "ordinal": 74,
+      "legacy_file_id": "dk6-74",
+      "legacy_filename": "dk6-74.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 74,
+      "title_ta": "மத ஸித்தாந்தங்களின் ஸாராம்சம்",
+      "index_labels": [
+        "மத ஸித்தாந்தங்களின் ஸாராம்சம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-74.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-74",
+      "snapshot_sha256": "43be1b4c1d7bae86372c92a16dc9fcaaf211291f0d33d2464e019b23986cf785",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-74.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-74.htm"
+      }
+    },
+    {
+      "ordinal": 75,
+      "legacy_file_id": "dk6-75",
+      "legacy_filename": "dk6-75.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 75,
+      "title_ta": "அத்தனைக்கும் வித்தியாஸமான அத்வைதம்",
+      "index_labels": [
+        "அத்தனைக்கும் வித்தியாஸமான அத்வைதம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-75.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-75",
+      "snapshot_sha256": "e5990cdd66f1ab7bb23be82fc99ed3abcde7d9e08daadd3b8de8b18129c2d8fb",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-75.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-75.htm"
+      }
+    },
+    {
+      "ordinal": 76,
+      "legacy_file_id": "dk6-76",
+      "legacy_filename": "dk6-76.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 76,
+      "title_ta": "எளிதாகத் தோன்றினாலும் கடினமானது",
+      "index_labels": [
+        "எளிதாகத் தோன்றினாலும் கடினமானது"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-76.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-76",
+      "snapshot_sha256": "386494a640bd9d5e7c07987ad35a1de9ca04ac897e8c8333e6662e39bfb89264",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-76.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-76.htm"
+      }
+    },
+    {
+      "ordinal": 77,
+      "legacy_file_id": "dk6-77",
+      "legacy_filename": "dk6-77.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 77,
+      "title_ta": "ஈச்வராநுக்ரஹத்தினால் மோக்ஷம்",
+      "index_labels": [
+        "ஈச்வராநுக்ரஹத்தினால் மோக்ஷம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-77.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-77",
+      "snapshot_sha256": "47865407dfb12d7dc1684ed91c84d0a4b619b53e10734e76a7318b4aadd50479",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-77.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-77.htm"
+      }
+    },
+    {
+      "ordinal": 78,
+      "legacy_file_id": "dk6-78",
+      "legacy_filename": "dk6-78.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 78,
+      "title_ta": "காலம் செல்வதாயினும் முயற்சி தொடங்க வேண்டியதே",
+      "index_labels": [
+        "காலம் செல்வதாயினும் முயற்சி தொடங்க வேண்டியதே"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-78.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-78",
+      "snapshot_sha256": "a28df0cd26de1cb0186ed94199cac668c9c64f7a289d73e993fdcc85e85d8729",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-78.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-78.htm"
+      }
+    },
+    {
+      "ordinal": 79,
+      "legacy_file_id": "dk6-79",
+      "legacy_filename": "dk6-79.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 79,
+      "title_ta": "ஸாதன சதுஷ்டயம் : வேத வழியில் ஆசார்யாள் வகுத்த முறை",
+      "index_labels": [
+        "ஸாதன சதுஷ்டயம் : வேத வழியில் ஆசார்யாள் வகுத்த முறை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-79.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-79",
+      "snapshot_sha256": "712adbc72a67e8d8178fbd87a19897bcb65dc3fbdc976ed07bd9da72a770f403",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-79.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-79.htm"
+      }
+    },
+    {
+      "ordinal": 80,
+      "legacy_file_id": "dk6-80",
+      "legacy_filename": "dk6-80.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 80,
+      "title_ta": "ஞானத்திற்குப் பூர்வாங்கம் : கர்மாவும் பக்தியும்",
+      "index_labels": [
+        "ஞானத்திற்குப் பூர்வாங்கம் : கர்மாவும் பக்தியும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-80.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-80",
+      "snapshot_sha256": "32a12ec1d32e5479ad1d782759387169077b4c64aec9108f61e00385e6e69fcb",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-80.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-80.htm"
+      }
+    },
+    {
+      "ordinal": 81,
+      "legacy_file_id": "dk6-81",
+      "legacy_filename": "dk6-81.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 81,
+      "title_ta": "சிரத்தை (நம்பிக்கை) அவசியம்",
+      "index_labels": [
+        "சிரத்தை (நம்பிக்கை) அவசியம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-81.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-81",
+      "snapshot_sha256": "e1ff2833b9a938a591e9ea98624241605c9fd33e3da87a54ddabc3b3460b4280",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-81.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-81.htm"
+      }
+    },
+    {
+      "ordinal": 82,
+      "legacy_file_id": "dk6-82",
+      "legacy_filename": "dk6-82.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 82,
+      "title_ta": "ஆத்ம ஸாதனைக்கான யோக்யதாம்சம்",
+      "index_labels": [
+        "ஆத்ம ஸாதனைக்கான யோக்யதாம்சம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-82.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-82",
+      "snapshot_sha256": "a01fe3a1661246be5261d8d6114112b483326d044204606e2e823fdcdb1a7a27",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-82.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-82.htm"
+      }
+    },
+    {
+      "ordinal": 83,
+      "legacy_file_id": "dk6-83",
+      "legacy_filename": "dk6-83.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 83,
+      "title_ta": "உச்ச கட்ட ஸாதனை துறவிக்கே!",
+      "index_labels": [
+        "உச்ச கட்ட ஸாதனை துறிவக்கே !"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-83.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-83",
+      "snapshot_sha256": "4f06e3f23b9cb870ab12f9954fa5f7b3ff1981adaa2df15277ade4552b1afed8",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-83.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-83.htm"
+      }
+    },
+    {
+      "ordinal": 84,
+      "legacy_file_id": "dk6-84",
+      "legacy_filename": "dk6-84.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 84,
+      "title_ta": "ஸந்நியாஸிக்கானதை ஸகலருக்கும் சொல்வானேன் ?",
+      "index_labels": [
+        "ஸந்நியாஸிக்கானதை ஸகலருக்கும் சொல்வானேன் ?"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-84.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-84",
+      "snapshot_sha256": "d1717467164456b36a47760b25ca0fd30bcd9704f83e362c2d3c809b69e4a283",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-84.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-84.htm"
+      }
+    },
+    {
+      "ordinal": 85,
+      "legacy_file_id": "dk6-85",
+      "legacy_filename": "dk6-85.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 85,
+      "title_ta": "இருவேறு சாராருக்கு இருவேறு வழிகள்",
+      "index_labels": [
+        "இருவேறு சாராருக்கு இருவேறு வழிகள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-85.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-85",
+      "snapshot_sha256": "11b641eef14ea0fae19af1a5af015dfcc6fa675ddd69b045a2a6522fb0154e30",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-85.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-85.htm"
+      }
+    },
+    {
+      "ordinal": 86,
+      "legacy_file_id": "dk6-86",
+      "legacy_filename": "dk6-86.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 86,
+      "title_ta": "ஸகலருக்கும் சொல்வதன் காரணம்",
+      "index_labels": [
+        "ஸகலருக்கும் சொல்வதன் காரணம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-86.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-86",
+      "snapshot_sha256": "ecb8157c2af5d4c4bdfecd3807f262f9ab1a2380cd792180bb8c3047082c7cf7",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-86.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-86.htm"
+      }
+    },
+    {
+      "ordinal": 87,
+      "legacy_file_id": "dk6-87",
+      "legacy_filename": "dk6-87.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 87,
+      "title_ta": "பக்தியோக விஷயம்",
+      "index_labels": [
+        "பக்தியோக விஷயம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-87.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-87",
+      "snapshot_sha256": "73d3914d262463222f5236dcd545a531dbd699ba53ba13d659eb108884a409b0",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-87.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-87.htm"
+      }
+    },
+    {
+      "ordinal": 88,
+      "legacy_file_id": "dk6-88",
+      "legacy_filename": "dk6-88.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 88,
+      "title_ta": "அனைவருக்கும் அடிப்படை அத்வைத அறிவு",
+      "index_labels": [
+        "அனைவருக்கும் அடிப்படை அத்வைத அறிவு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-88.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-88",
+      "snapshot_sha256": "b5699f1524aef1c52ee82d1427e8a022dda92634fbedfb228e38c7966040e1d2",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-88.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-88.htm"
+      }
+    },
+    {
+      "ordinal": 89,
+      "legacy_file_id": "dk6-89",
+      "legacy_filename": "dk6-89.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 89,
+      "title_ta": "நித்ய – அநித்ய வஸ்து விவேகம்",
+      "index_labels": [
+        "நித்ய-அநித்ய வஸ்து விவேகம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-89.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-89",
+      "snapshot_sha256": "00ac8710ce869d5eee25c24491329405a00e30490481d66daaf2a92ff7bd5766",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-89.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-89.htm"
+      }
+    },
+    {
+      "ordinal": 90,
+      "legacy_file_id": "dk6-90",
+      "legacy_filename": "dk6-90.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 90,
+      "title_ta": "வைராக்யம்",
+      "index_labels": [
+        "வைராக்யம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-90.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-90",
+      "snapshot_sha256": "5cbb21c01654da81088203f86ef287c45bdb554600f7aabffb90b2ef282f29da",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-90.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-90.htm"
+      }
+    },
+    {
+      "ordinal": 91,
+      "legacy_file_id": "dk6-91",
+      "legacy_filename": "dk6-91.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 91,
+      "title_ta": "“ஆறு சம்பத்துக்கள்”",
+      "index_labels": [
+        "\"ஆறு ஸம்பத்துகள்\""
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-91.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-91",
+      "snapshot_sha256": "b065a01daf9b047b9c4b4f529edf1a95d3b12f4aab822b24f9e7fd6ea0162198",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-91.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-91.htm"
+      }
+    },
+    {
+      "ordinal": 92,
+      "legacy_file_id": "dk6-92",
+      "legacy_filename": "dk6-92.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 92,
+      "title_ta": "‘சமம் – தமம் ‘",
+      "index_labels": [
+        "சமம்-தமம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-92.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-92",
+      "snapshot_sha256": "cd94b96f1b1e3ff0e4e507a49a851c2cfe906fa5aedf7f4444bbd3da64012ff6",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-92.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-92.htm"
+      }
+    },
+    {
+      "ordinal": 93,
+      "legacy_file_id": "dk6-93",
+      "legacy_filename": "dk6-93.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 93,
+      "title_ta": "உபரதி",
+      "index_labels": [
+        "உபரதி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-93.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-93",
+      "snapshot_sha256": "2c32e1efe6d3c8ab6f95f8b6d6691220f3e54b1395648172fda27f8fc211bfba",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-93.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-93.htm"
+      }
+    },
+    {
+      "ordinal": 94,
+      "legacy_file_id": "dk6-94",
+      "legacy_filename": "dk6-94.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 94,
+      "title_ta": "திதிக்ஷை",
+      "index_labels": [
+        "திதி¬க்ஷ"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-94.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-94",
+      "snapshot_sha256": "fc1d3e15b01998489764df4c3ca3091a75bd5828ddeb94efbb997c39e8daf66d",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-94.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-94.htm"
+      }
+    },
+    {
+      "ordinal": 95,
+      "legacy_file_id": "dk6-95",
+      "legacy_filename": "dk6-95.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 95,
+      "title_ta": "ச்ரத்தை",
+      "index_labels": [
+        "ச்ரத்தை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-95.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-95",
+      "snapshot_sha256": "93cd7755a6eb92844cfd5008d6aad2fe5c0ce0d63fd9761a6da5326ec900e111",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-95.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-95.htm"
+      }
+    },
+    {
+      "ordinal": 96,
+      "legacy_file_id": "dk6-96",
+      "legacy_filename": "dk6-96.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 96,
+      "title_ta": "ஸமாதானம்",
+      "index_labels": [
+        "ஸமாதானம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-96.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-96",
+      "snapshot_sha256": "27afa0d3821f5229acdc4c8ed2d3b2e3d02e95962f23edea7e12b4ced2a0cd74",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-96.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-96.htm"
+      }
+    },
+    {
+      "ordinal": 97,
+      "legacy_file_id": "dk6-97",
+      "legacy_filename": "dk6-97.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 97,
+      "title_ta": "உபநிஷத் போதனை பெற அதிகாரி யார் ?",
+      "index_labels": [
+        "உபநிஷத் போதனை பெற அதிகாரி யார் ?"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-97.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-97",
+      "snapshot_sha256": "99358e2a7f728a1515f10cdaab5d185ce14c433c4b0f1852bde3f32c619cadb2",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-97.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-97.htm"
+      }
+    },
+    {
+      "ordinal": 98,
+      "legacy_file_id": "dk6-98",
+      "legacy_filename": "dk6-98.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 98,
+      "title_ta": "‘ஸமாதான’த்தில் கண்டிப்பு",
+      "index_labels": [
+        "'ஸமாதான' த்தில் கண்டிப்பு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-98.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-98",
+      "snapshot_sha256": "708fbd5761a127c64a0036797af372689f3cf08ef747df1848842674b9c9a432",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-98.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-98.htm"
+      }
+    },
+    {
+      "ordinal": 99,
+      "legacy_file_id": "dk6-99",
+      "legacy_filename": "dk6-99.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 99,
+      "title_ta": "பரமாத்மாவின் ஆறும் ஜீவாத்மாவின் ஆறும்",
+      "index_labels": [
+        "பரமாத்மாவின் ஆறும் ஜீவாத்மாவின் ஆறும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-99.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-99",
+      "snapshot_sha256": "b9160019433f90cebe347c7bbd709a546f52af112c68d24eaea1b1b527fdf581",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-99.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-99.htm"
+      }
+    },
+    {
+      "ordinal": 100,
+      "legacy_file_id": "dk6-100",
+      "legacy_filename": "dk6-100.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 100,
+      "title_ta": "முமுக்ஷுத்வம்",
+      "index_labels": [
+        "முமுக்ஷ§த்வம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-100.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-100",
+      "snapshot_sha256": "5050b82066092f90e1e0129e0618698afac83c99d091accf9e1841d99751239b",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-100.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-100.htm"
+      }
+    },
+    {
+      "ordinal": 101,
+      "legacy_file_id": "dk6-101",
+      "legacy_filename": "dk6-101.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 101,
+      "title_ta": "முடிவான நிலையை விடுதலை என்று மட்டும் சொல்வதேன் ?",
+      "index_labels": [
+        "முடிவான நிலையை விடுதலை என்று மட்டும் சொல்வதேன் ?"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-101.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-101",
+      "snapshot_sha256": "40751671298700c89d8e44e87c568b3fa915baa1d89ac393412d22d51347faef",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-101.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-101.htm"
+      }
+    },
+    {
+      "ordinal": 102,
+      "legacy_file_id": "dk6-102",
+      "legacy_filename": "dk6-102.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 102,
+      "title_ta": "முமுக்ஷு : ஆசார்யாள் தரும் லக்ஷணம்",
+      "index_labels": [
+        "முமுக்ஷ§ : ஆசார்யாள் தரும் லக்ஷணம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-102.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-102",
+      "snapshot_sha256": "ff9567421e200eb762848a44d4e72fd837001983123be6c0882fe1c85a6b8344",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-102.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-102.htm"
+      }
+    },
+    {
+      "ordinal": 103,
+      "legacy_file_id": "dk6-103",
+      "legacy_filename": "dk6-103.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 103,
+      "title_ta": "அடிநிலை, நடுநிலை முமுக்ஷு",
+      "index_labels": [
+        "அடிநிலை, நடுநிலை,முமுக்ஷ§"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-103.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-103",
+      "snapshot_sha256": "1ebbf893b7f08fe5b071585da33bf227f4cb9aec3608f5ef8ea078b1b9f9da4e",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-103.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-103.htm"
+      }
+    },
+    {
+      "ordinal": 104,
+      "legacy_file_id": "dk6-104",
+      "legacy_filename": "dk6-104.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 104,
+      "title_ta": "குரு ப்ரஸாதம்",
+      "index_labels": [
+        "குருப் ப்ரஸாதம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-104.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-104",
+      "snapshot_sha256": "7ecaa477a852bb47a54f78f95a9a718249cd9159a6bd8462dd883c4771203f04",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-104.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-104.htm"
+      }
+    },
+    {
+      "ordinal": 105,
+      "legacy_file_id": "dk6-105",
+      "legacy_filename": "dk6-105.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 105,
+      "title_ta": "முமுக்ஷு பற்றி ஆசார்யாளும் ஆதி நூல்களும்",
+      "index_labels": [
+        "முமுக்ஷ§ பற்றி ஆசார்யாளும் ஆதி நூல்களும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-105.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-105",
+      "snapshot_sha256": "7bcd0177cd7a42b3d83e879b43a9020a757f29d8576589c380394f4ffa91fe32",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-105.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-105.htm"
+      }
+    },
+    {
+      "ordinal": 106,
+      "legacy_file_id": "dk6-106",
+      "legacy_filename": "dk6-106.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 106,
+      "title_ta": "ஆன்மியமான நால்வகைப் படை",
+      "index_labels": [
+        "ஆன்மியமான நால்வகைப் படை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-106.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-106",
+      "snapshot_sha256": "c48721faf29f16de488d5afdde209dbe515898b5e14ab600e35c55b32a23eb4c",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-106.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-106.htm"
+      }
+    },
+    {
+      "ordinal": 107,
+      "legacy_file_id": "dk6-107",
+      "legacy_filename": "dk6-107.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 107,
+      "title_ta": "மூன்றாம் கட்டத்தின் மூன்று அங்கங்களுக்கு முன்",
+      "index_labels": [
+        "மூன்றாம் கட்டத்தின் மூன்று அங்கங்களுக்கு முன்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-107.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-107",
+      "snapshot_sha256": "75d3b3adbb15dffaebbc5fde4e8bb8b46ef42d01a45cc89cd525f19b9e6641e0",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-107.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-107.htm"
+      }
+    },
+    {
+      "ordinal": 108,
+      "legacy_file_id": "dk6-108",
+      "legacy_filename": "dk6-108.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 108,
+      "title_ta": "பக்தி: ஞான மார்க்கத்தில் அதன் இடம்",
+      "index_labels": [
+        "பக்தி : ஞானமார்க்த்தில் அதன் இடம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-108.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-108",
+      "snapshot_sha256": "305b4c7263d853de7fc168b5f1be66f4daf5a3057ab602ee713072504ef9abd5",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-108.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-108.htm"
+      }
+    },
+    {
+      "ordinal": 109,
+      "legacy_file_id": "dk6-109",
+      "legacy_filename": "dk6-109.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 109,
+      "title_ta": "பக்தி என்றால் என்ன ?",
+      "index_labels": [
+        "பக்தி என்றால் என்ன ?"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-109.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-109",
+      "snapshot_sha256": "4caef08958a00730114ca7bf942b4d10779e1e31859cb96c2f3a38ae2a74754c",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-109.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-109.htm"
+      }
+    },
+    {
+      "ordinal": 110,
+      "legacy_file_id": "dk6-110",
+      "legacy_filename": "dk6-110.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 110,
+      "title_ta": "அன்பு என்பது என்ன ?",
+      "index_labels": [
+        "அன்பு என்பது என்ன ?"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-110.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-110",
+      "snapshot_sha256": "eae87f6c399c1c3219d85b2f630579a365a69a4027e7c616b75e0e509419a13b",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-110.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-110.htm"
+      }
+    },
+    {
+      "ordinal": 111,
+      "legacy_file_id": "dk6-111",
+      "legacy_filename": "dk6-111.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 111,
+      "title_ta": "அந்தஃகரணமும் ஹ்ருதயமும்",
+      "index_labels": [
+        "அந்தஃகரணமும் ஹ்ருதயமும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-111.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-111",
+      "snapshot_sha256": "115ded8f3dfea237766ded2ad4ff9b8d9aebf56393edeb1ee0622cda7cca40da",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-111.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-111.htm"
+      }
+    },
+    {
+      "ordinal": 112,
+      "legacy_file_id": "dk6-112",
+      "legacy_filename": "dk6-112.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 112,
+      "title_ta": "‘அஹங்கார’மும் அன்பும்",
+      "index_labels": [
+        "' அஹங்கார ' மும் அன்பும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-112.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-112",
+      "snapshot_sha256": "245ebdb7923332083cdd351a3505a63481089f563182aa09140b5d86decaffd6",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-112.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-112.htm"
+      }
+    },
+    {
+      "ordinal": 113,
+      "legacy_file_id": "dk6-113",
+      "legacy_filename": "dk6-113.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 113,
+      "title_ta": "ஆத்ம ஸாதகனின் அன்புக்கு இலக்கு எது ?",
+      "index_labels": [
+        "ஆத்ம ஸாதகனின் அன்புக்கு இலக்கு ஏது ?"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-113.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-113",
+      "snapshot_sha256": "26c9382f781b58ee1aef595e057f260227902d0fba7b9d0554bb21ba9457f642",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-113.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-113.htm"
+      }
+    },
+    {
+      "ordinal": 114,
+      "legacy_file_id": "dk6-114",
+      "legacy_filename": "dk6-114.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 114,
+      "title_ta": "நிர்குண, ஸகுண பக்திகள்",
+      "index_labels": [
+        "நிர்குண, ஸகுண பக்திகள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-114.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-114",
+      "snapshot_sha256": "06ea1f16a42035cd5189b5395ad3fd7faeaacfde95ed6e54b0c0ea36913a0aeb",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-114.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-114.htm"
+      }
+    },
+    {
+      "ordinal": 115,
+      "legacy_file_id": "dk6-115",
+      "legacy_filename": "dk6-115.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 115,
+      "title_ta": "உயிர் கலந்த குளுகுளு அன்பு",
+      "index_labels": [
+        "உயிர் கலந்த குளுகுளு அன்பு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-115.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-115",
+      "snapshot_sha256": "97c874e15cb29fe29de33ce4e50de1c3df5d1feb67265876d937c1ba65662381",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-115.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-115.htm"
+      }
+    },
+    {
+      "ordinal": 116,
+      "legacy_file_id": "dk6-116",
+      "legacy_filename": "dk6-116.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 116,
+      "title_ta": "செருக்கு நீங்கும் பொருட்டும்",
+      "index_labels": [
+        "செருக்கு நீங்கும் பொருட்டும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-116.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-116",
+      "snapshot_sha256": "79f3a1e34248280f05009f6d637ad65ab7eaf870d87d16679836484c7cb07ef2",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-116.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-116.htm"
+      }
+    },
+    {
+      "ordinal": 117,
+      "legacy_file_id": "dk6-117",
+      "legacy_filename": "dk6-117.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 117,
+      "title_ta": "ஸாதனையில் அஹங்காரம் : இரு கட்டங்கள்",
+      "index_labels": [
+        "ஸாதனையில் அஹங்காரம் : இரு கட்டங்கள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-117.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-117",
+      "snapshot_sha256": "4792491a1af1a9e4e14d467c9fa9b7715610f2c5201f1a311c2b3ca7b49c1503",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-117.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-117.htm"
+      }
+    },
+    {
+      "ordinal": 118,
+      "legacy_file_id": "dk6-118",
+      "legacy_filename": "dk6-118.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 118,
+      "title_ta": "பக்தியும் ஹ்ருதயமும்",
+      "index_labels": [
+        "பக்தியும் ஹ்ருதயமும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-118.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-118",
+      "snapshot_sha256": "0ce8e924bb08cf65877fb46670469cbf7352c558bfd962051db9956c31699c1a",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-118.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-118.htm"
+      }
+    },
+    {
+      "ordinal": 119,
+      "legacy_file_id": "dk6-119",
+      "legacy_filename": "dk6-119.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 119,
+      "title_ta": "ஹ்ருதய நாடிகள்; ஞானியின் உயிர் அடங்குவதும் ஏனையோர் உயிர் பிரிவதும்",
+      "index_labels": [
+        "ஹ்ருதய நாடிகள் : ஞானியின் உயிர் அடங்குவதும், ஏனையோர் உயிர் பிரிவதும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-119.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-119",
+      "snapshot_sha256": "e3bbdd60bbe8c313de941d42eb0d9ab4588fbdc77c27a59151a71e14853cab35",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-119.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-119.htm"
+      }
+    },
+    {
+      "ordinal": 120,
+      "legacy_file_id": "dk6-120",
+      "legacy_filename": "dk6-120.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 120,
+      "title_ta": "உத்தராயண மரணம்: அதன் சரியான பொருள்",
+      "index_labels": [
+        "உத்தராயண மரணம் : அதன் சரியான பொருள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-120.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-120",
+      "snapshot_sha256": "7687f79dfeadd110a77a010a55ad4db574d06ac764cc64fb2b474a541d2e2219",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-120.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-120.htm"
+      }
+    },
+    {
+      "ordinal": 121,
+      "legacy_file_id": "dk6-121",
+      "legacy_filename": "dk6-121.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 121,
+      "title_ta": "கர்மயோகத்தின் மாறுபட்ட இரு பலன்கள்",
+      "index_labels": [
+        "கர்மயோகத்தின் மாறுபட்ட இரு பலன்கள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-121.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-121",
+      "snapshot_sha256": "709749160022e2b3f09719039693cde022be2e49c84c92da2384a8cb2108f3f6",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-121.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-121.htm"
+      }
+    },
+    {
+      "ordinal": 122,
+      "legacy_file_id": "dk6-122",
+      "legacy_filename": "dk6-122.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 122,
+      "title_ta": "தலை நாடி பற்றிய தவறான கருத்து",
+      "index_labels": [
+        "தலை நாடி பற்றிய தவறான கருத்து"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-122.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-122",
+      "snapshot_sha256": "10250be711c19466573edecf5116893f6d816e81f09f3c76305f832c527ab9d1",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-122.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-122.htm"
+      }
+    },
+    {
+      "ordinal": 123,
+      "legacy_file_id": "dk6-123",
+      "legacy_filename": "dk6-123.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 123,
+      "title_ta": "பக்தி மார்க்க பக்தியிலும் சிறந்த ஞானமார்க்க பக்தி!",
+      "index_labels": [
+        "பக்தி மார்க்க பக்தியிலும் சிறந்த ஞானமார்க்க பக்தி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-123.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-123",
+      "snapshot_sha256": "c0f4387b68ccf73fbadf3e7d28ae48cd2226bbae6c580689a8a89f9e490e4b46",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-123.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-123.htm"
+      }
+    },
+    {
+      "ordinal": 124,
+      "legacy_file_id": "dk6-124",
+      "legacy_filename": "dk6-124.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 124,
+      "title_ta": "ஆத்மா உயிர் மயமானது; தத்வப் பொருள் மட்டுமன்று",
+      "index_labels": [
+        "ஆத்மா உயிர்மயமானது ; தத்வப் பொருள் மட்டுமன்று"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-124.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-124",
+      "snapshot_sha256": "c95508d1a3dba817604e33fb8b4ad8cb986e41602a62f30bcabdcdcaede3caaf",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-124.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-124.htm"
+      }
+    },
+    {
+      "ordinal": 125,
+      "legacy_file_id": "dk6-125",
+      "legacy_filename": "dk6-125.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 125,
+      "title_ta": "வேதமே விதிக்கும் ஞான மார்க்க பக்தி",
+      "index_labels": [
+        "வேதமே விதிக்கும் ஞானமார்க்க பக்தி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-125.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-125",
+      "snapshot_sha256": "fe92995f725d1a6109c4807aff34de64a84318afb8b296faa407c989aa745994",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-125.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-125.htm"
+      }
+    },
+    {
+      "ordinal": 126,
+      "legacy_file_id": "dk6-126",
+      "legacy_filename": "dk6-126.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 126,
+      "title_ta": "ஸூத்ர பாஷ்யத்திலும்",
+      "index_labels": [
+        "ஸ¨த்ர பாஷ்யத்திலும் !"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-126.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-126",
+      "snapshot_sha256": "2008ee72627c0b1227a819e3a6718f326eefc7afd612f65ae321a40fed1a1617",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-126.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-126.htm"
+      }
+    },
+    {
+      "ordinal": 127,
+      "legacy_file_id": "dk6-127",
+      "legacy_filename": "dk6-127.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 127,
+      "title_ta": "கண்ணன் காட்டும் ஞானமேயான பக்தி",
+      "index_labels": [
+        "கண்ணன் காட்டும் ஞானமேயான பக்தி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-127.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-127",
+      "snapshot_sha256": "f7da2ec2acd6469dbe7644d90340a425d6b5c2520a357735bb8efb453f0689fd",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-127.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-127.htm"
+      }
+    },
+    {
+      "ordinal": 128,
+      "legacy_file_id": "dk6-128",
+      "legacy_filename": "dk6-128.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 128,
+      "title_ta": "மூன்றாவது கட்டம்",
+      "index_labels": [
+        "மூன்றாவது கட்டம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-128.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-128",
+      "snapshot_sha256": "b0344cf9ef08a554491a19c606b38bf9ff39b3bc34ae99198ea22fa76ba865e0",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-128.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-128.htm"
+      }
+    },
+    {
+      "ordinal": 129,
+      "legacy_file_id": "dk6-129",
+      "legacy_filename": "dk6-129.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 129,
+      "title_ta": "துறவறம்",
+      "index_labels": [
+        "துறவறம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-129.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-129",
+      "snapshot_sha256": "e02349334ec513ee2dffc7f8ad0c895a23c0d5437f7b2e5314cdc1f7bc360757",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-129.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-129.htm"
+      }
+    },
+    {
+      "ordinal": 130,
+      "legacy_file_id": "dk6-130",
+      "legacy_filename": "dk6-130.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 130,
+      "title_ta": "விஷ்ணு ஸஹஸ்ரநாமத்தில் தொடர் நாமங்கள்",
+      "index_labels": [
+        "விஷ்ணு ஸஹஸ்ரநாமத்தில் தொடர் நாமங்கள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-130.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-130",
+      "snapshot_sha256": "8550f5e2683863e8437b2f0746584dd64422bc626a985496b93a79cfa7904a2b",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-130.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-130.htm"
+      }
+    },
+    {
+      "ordinal": 131,
+      "legacy_file_id": "dk6-131",
+      "legacy_filename": "dk6-131.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 131,
+      "title_ta": "வேதக் கட்டளையாகவே சிரவணம் முதலியன",
+      "index_labels": [
+        "வேதக் கட்டளையாகவே சிரவணம் முதலியன"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-131.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-131",
+      "snapshot_sha256": "9b6c19f22e8377b26eceae0e5914bd5d4d0e189cec8ee36dc38c1f9c97af8e21",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-131.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-131.htm"
+      }
+    },
+    {
+      "ordinal": 132,
+      "legacy_file_id": "dk6-132",
+      "legacy_filename": "dk6-132.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 132,
+      "title_ta": "சிரவணமும் சுசுரூஷையும்",
+      "index_labels": [
+        "சிரவணமும் சிசுருஷையும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-132.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-132",
+      "snapshot_sha256": "62d242507cba4750e2b17216955cd068bf7991f00bb7e8754bad42444c235359",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-132.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-132.htm"
+      }
+    },
+    {
+      "ordinal": 133,
+      "legacy_file_id": "dk6-133",
+      "legacy_filename": "dk6-133.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 133,
+      "title_ta": "அநுபூதி பெற்ற குரு கிடைப்பாரா?",
+      "index_labels": [
+        "அநுபூதி பெற்ற குரு கிடைப்பாரா ?"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-133.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-133",
+      "snapshot_sha256": "567933ecb944789226aa7e5f920508af3f186210730fe85497f33355e3651e9d",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-133.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-133.htm"
+      }
+    },
+    {
+      "ordinal": 134,
+      "legacy_file_id": "dk6-134",
+      "legacy_filename": "dk6-134.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 134,
+      "title_ta": "ஒரே குறியில் ஈடுபாடு",
+      "index_labels": [
+        "ஒரே குறியில் ஈடுபாடு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-134.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-134",
+      "snapshot_sha256": "f262d15f514b4a5012d3198de524df01359602f1f9746158d2844aaf8e74d402",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-134.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-134.htm"
+      }
+    },
+    {
+      "ordinal": 135,
+      "legacy_file_id": "dk6-135",
+      "legacy_filename": "dk6-135.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 135,
+      "title_ta": "ச்ரவண – மனன – நிதித்யாஸன லக்ஷணம்",
+      "index_labels": [
+        "ச்ரவண - மனன- நிதித்யாஸன லக்ஷணம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-135.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-135",
+      "snapshot_sha256": "f10489f8d43d808f16cc2363746e164feacab9b934852fa97bb6ef503320234e",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-135.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-135.htm"
+      }
+    },
+    {
+      "ordinal": 136,
+      "legacy_file_id": "dk6-136",
+      "legacy_filename": "dk6-136.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 136,
+      "title_ta": "ஸித்திக்கு முன்னிலையில்",
+      "index_labels": [
+        "ஸித்திக்கு முன்னிலையில்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-136.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-136",
+      "snapshot_sha256": "e9b74b3bb9079b56fb4c06d66597521db12a7ef763a61e4ac3b96e5e06ef548c",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-136.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-136.htm"
+      }
+    },
+    {
+      "ordinal": 137,
+      "legacy_file_id": "dk6-137",
+      "legacy_filename": "dk6-137.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 137,
+      "title_ta": "சிற்றறிவு கடந்த மனனம்; மனவுணர்ச்சி கடந்த நிதித்யாஸனம்",
+      "index_labels": [
+        "சிற்றறிவு கடந்த மனனம் ; மனவுணர்ச்சி கடந்த நிதித்யாஸனம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-137.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-137",
+      "snapshot_sha256": "d9b1b2d02e577dd4a45d5ba38df022773335cc727dc3a3d61c650cb85c7a0259",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-137.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-137.htm"
+      }
+    },
+    {
+      "ordinal": 138,
+      "legacy_file_id": "dk6-138",
+      "legacy_filename": "dk6-138.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 138,
+      "title_ta": "மாறுபாடான இரு பாவனைகள் விலக",
+      "index_labels": [
+        "மாறுபாடான இரு பாவனைகள் வில"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-138.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-138",
+      "snapshot_sha256": "44b338067cde9b9ee149b173b82c1de8f5ec7ea67333ad91ec4a0053b61f419b",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-138.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-138.htm"
+      }
+    },
+    {
+      "ordinal": 139,
+      "legacy_file_id": "dk6-139",
+      "legacy_filename": "dk6-139.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 139,
+      "title_ta": "மனன – நிதித்யாஸனங்களின் பெருஞ்சிறப்பு",
+      "index_labels": [
+        "மனன - நிதித்யாஸனங்களின் பெருஞ்சிறப்பு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-139.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-139",
+      "snapshot_sha256": "4ac87ba12b32292062a92e982d42b20b7fde30dca8fc92c9073d18b3de5e3537",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-139.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-139.htm"
+      }
+    },
+    {
+      "ordinal": 140,
+      "legacy_file_id": "dk6-140",
+      "legacy_filename": "dk6-140.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 140,
+      "title_ta": "புழு குளவியாவது; புழுவைக் குளவியாக்குவது",
+      "index_labels": [
+        "புழு குளவியாவது ; புழுவைக் குளவியாக்குவது"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-140.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-140",
+      "snapshot_sha256": "66a3cd3d7bd84c65dab359690f4cad9436d2c81115545ee863172e2c36615a01",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-140.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-140.htm"
+      }
+    },
+    {
+      "ordinal": 141,
+      "legacy_file_id": "dk6-141",
+      "legacy_filename": "dk6-141.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 141,
+      "title_ta": "உடன் செய்ய வேண்டியது",
+      "index_labels": [
+        "உடன் செய்ய வேண்டியது"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-141.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-141",
+      "snapshot_sha256": "326ad98a561abe975fac6578bef2946fb2e4ed3ef440535bc63d4dbaa2f81a62",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-141.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-141.htm"
+      }
+    },
+    {
+      "ordinal": 142,
+      "legacy_file_id": "dk6-142",
+      "legacy_filename": "dk6-142.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 142,
+      "title_ta": "அவதார புருஷர் ஆசார்யாள்",
+      "index_labels": [
+        "அவதார புருஷர் ஆசார்யாள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-142.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-142",
+      "snapshot_sha256": "9c001b74ee56d675f6c2d9d4cd2c3cb6b3590a25675f52131286a302abe8b0cf",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-142.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-142.htm"
+      }
+    },
+    {
+      "ordinal": 143,
+      "legacy_file_id": "dk6-143",
+      "legacy_filename": "dk6-143.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 143,
+      "title_ta": "பக்தி-கவிதைச் சிகரம் “ஸெளந்தர்ய லஹரி”",
+      "index_labels": [
+        "பக்தி-கவிதைச் சிகரம் ' ஸெளந்தர்ய லஹரி '"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-143.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-143",
+      "snapshot_sha256": "1580282166944bbedb8c0b140394659b86c6c393b92664adb33194ca90ffdb8b",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-143.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-143.htm"
+      }
+    },
+    {
+      "ordinal": 144,
+      "legacy_file_id": "dk6-144",
+      "legacy_filename": "dk6-144.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 144,
+      "title_ta": "ஞானியும் பக்தியும்",
+      "index_labels": [
+        "ஞானியும் பக்தியும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-144.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-144",
+      "snapshot_sha256": "e8cd0029b04bae7bdde1e528179aa09e3d14481e6a9f4f5cf061a98f8002d53c",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-144.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-144.htm"
+      }
+    },
+    {
+      "ordinal": 145,
+      "legacy_file_id": "dk6-145",
+      "legacy_filename": "dk6-145.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 145,
+      "title_ta": "கவிதை பிறந்த கதை",
+      "index_labels": [
+        "கவிதை பிறந்த கதை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-145.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-145",
+      "snapshot_sha256": "98b21cf6b0cc1f85b3ad1000e96d3a844751464749510ec6d060df945f0cb0a1",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-145.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-145.htm"
+      }
+    },
+    {
+      "ordinal": 146,
+      "legacy_file_id": "dk6-151",
+      "legacy_filename": "dk6-151.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 151,
+      "title_ta": "நந்திகேச்வரர் நாடகம் எதற்கு?",
+      "index_labels": [
+        "நந்திகேச்வர நாடகம் எதற்கு?"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-151.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-151",
+      "snapshot_sha256": "cdcd52c1b6d9388679f1d40dc6efc399a683e3a174d427a541f6e2cbc3f47901",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-151.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-151.htm"
+      }
+    },
+    {
+      "ordinal": 147,
+      "legacy_file_id": "dk6-152",
+      "legacy_filename": "dk6-152.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 152,
+      "title_ta": "உத்தம துதிகள் மூன்று",
+      "index_labels": [
+        "உத்தமத் துதிகள் மூன்று"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-152.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-152",
+      "snapshot_sha256": "874c933eacd4d50463bd3bc66173564756b728fb3d8bd6b628fc071a6e25cc22",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-152.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-152.htm"
+      }
+    },
+    {
+      "ordinal": 148,
+      "legacy_file_id": "dk6-153",
+      "legacy_filename": "dk6-153.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 153,
+      "title_ta": "நூற் சிறப்பு",
+      "index_labels": [
+        "நூற்சிறப்பு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-153.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-153",
+      "snapshot_sha256": "b70c254fd49c85488bcb22d0a97b30928e3149c5e753c671a96f6470fac58b24",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-153.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-153.htm"
+      }
+    },
+    {
+      "ordinal": 149,
+      "legacy_file_id": "dk6-154",
+      "legacy_filename": "dk6-154.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 154,
+      "title_ta": "அருட்கவி: இரு பொருளில்!",
+      "index_labels": [
+        "அருட்கவி: இரு பொருளில்!"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-154.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-154",
+      "snapshot_sha256": "315b78901348ae8b0ffa03f0df42154b49acb072cb461247f4c78110c2f3eec8",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-154.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-154.htm"
+      }
+    },
+    {
+      "ordinal": 150,
+      "legacy_file_id": "dk6-155",
+      "legacy_filename": "dk6-155.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 155,
+      "title_ta": "இத் துதியின் பாஷ்யங்கள் முதலியன",
+      "index_labels": [
+        "இத் துதியின் பாஷ்யங்கள் முதலியன"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-155.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-155",
+      "snapshot_sha256": "ec12cf43f396ad8ab7fac98aa8303a6716027c8826f47c41f172f10066d6b94e",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-155.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-155.htm"
+      }
+    },
+    {
+      "ordinal": 151,
+      "legacy_file_id": "dk6-156",
+      "legacy_filename": "dk6-156.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 156,
+      "title_ta": "அன்னை வழிபாடு",
+      "index_labels": [
+        "அன்னை வழிபாடு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-156.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-156",
+      "snapshot_sha256": "808db189e244db5e0c4e1170e7ebd415a413dd35015a706beed85a71e110f0f9",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-156.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-156.htm"
+      }
+    },
+    {
+      "ordinal": 152,
+      "legacy_file_id": "dk6-157",
+      "legacy_filename": "dk6-157.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 157,
+      "title_ta": "தேவிபரமான புண்ணிய இலக்கியம்",
+      "index_labels": [
+        "தேவிபரமான புண்ணிய இலக்கியம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-157.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-157",
+      "snapshot_sha256": "c0e9dcf468194f996880fe3268c8b2157a3435a0e257fa421a99fc4ff15e8813",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-157.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-157.htm"
+      }
+    },
+    {
+      "ordinal": 153,
+      "legacy_file_id": "dk6-158",
+      "legacy_filename": "dk6-158.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 158,
+      "title_ta": "பெயர் வந்த காரணம்: இரு ”லஹரி”களுக்குமே!",
+      "index_labels": [
+        "பெயர் வந்த காரணம்: இரு ''லஹரி''களுக்குமே"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-158.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-158",
+      "snapshot_sha256": "7f1a625999f953cff10544bb0ab4eb9b4ed3b29b85c53c7d9b63f771bf6ccbba",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-158.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-158.htm"
+      }
+    },
+    {
+      "ordinal": 154,
+      "legacy_file_id": "dk6-159",
+      "legacy_filename": "dk6-159.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 159,
+      "title_ta": "அனைத்து மக்களையும் கவரும் தலைப்பு",
+      "index_labels": [
+        "அனைத்து மக்களையும் கவரும் தலைப்பு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-159.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-159",
+      "snapshot_sha256": "169931e93457dd2e05541425be116c25c15adc0edc8d7968e82d4344832036eb",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-159.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-159.htm"
+      }
+    },
+    {
+      "ordinal": 155,
+      "legacy_file_id": "dk6-160",
+      "legacy_filename": "dk6-160.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 160,
+      "title_ta": "நாமங்கள் குறைவாக வரும் நூல்",
+      "index_labels": [
+        "நாமங்கள் குறைவாக வரும் நூல்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-160.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-160",
+      "snapshot_sha256": "75d143c49bc7c02ee96157ef5b25fa847f73cf2a142148904ca25254ad216e8e",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-160.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-160.htm"
+      }
+    },
+    {
+      "ordinal": 156,
+      "legacy_file_id": "dk6-161",
+      "legacy_filename": "dk6-161.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 161,
+      "title_ta": "‘ஆனந்த லஹரி’ பற்றி",
+      "index_labels": [
+        "'ஆனந்த லஹரி'பற்றி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-161.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-161",
+      "snapshot_sha256": "a9abc13c3a03a78cf2e714dc070870da4897b9a40659994e90e6fce5d7ef5fc9",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-161.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-161.htm"
+      }
+    },
+    {
+      "ordinal": 157,
+      "legacy_file_id": "dk6-162",
+      "legacy_filename": "dk6-162.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 162,
+      "title_ta": "அழகு ரஸனையே அதற்குப் பலனும்",
+      "index_labels": [
+        "அழகு ரஸனையே அதற்குப் பலனும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-162.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-162",
+      "snapshot_sha256": "576c4dd206e1c6ee090fbca8875117b6494d5548db94102a607de5bfc1bcdcb8",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-162.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-162.htm"
+      }
+    },
+    {
+      "ordinal": 158,
+      "legacy_file_id": "dk6-163",
+      "legacy_filename": "dk6-163.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 163,
+      "title_ta": "அழகு என்றால் என்ன?",
+      "index_labels": [
+        "அழகு என்றால் என்ன?"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-163.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-163",
+      "snapshot_sha256": "a71c6f34e78d646be83d0aa8f1192d56390d601f76e438d43b405ac0f04bf4af",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-163.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-163.htm"
+      }
+    },
+    {
+      "ordinal": 159,
+      "legacy_file_id": "dk6-164",
+      "legacy_filename": "dk6-164.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 164,
+      "title_ta": "அம்பாள் : அழகு – அன்புகளின் முழுமை",
+      "index_labels": [
+        "அம்பள்:அழகு - அன்புகளின் முழுமை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-164.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-164",
+      "snapshot_sha256": "f6b746a71cc1f2a40dee1f69a2da947d226a1d823eab89472c777cfd28c22c03",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-164.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-164.htm"
+      }
+    },
+    {
+      "ordinal": 160,
+      "legacy_file_id": "dk6-165",
+      "legacy_filename": "dk6-165.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 165,
+      "title_ta": "அம்பிகையின் வடிவேயான துதி",
+      "index_labels": [
+        "அம்பிகையின் வடிவேயான துதி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-165.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-165",
+      "snapshot_sha256": "8bbe1035768898668370259d4cfc4f92013944b71d4d75c4f52141715c0b147a",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-165.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-165.htm"
+      }
+    },
+    {
+      "ordinal": 161,
+      "legacy_file_id": "dk6-166",
+      "legacy_filename": "dk6-166.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 166,
+      "title_ta": "“ஆனந்த லஹரி” என்ற தலைப்பு : அத்வைதமும் சாக்தமும்",
+      "index_labels": [
+        "''ஆனந்த லஹரி''என்ற தலைப்பு:அத்வைதமும் சாக்தமும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-166.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-166",
+      "snapshot_sha256": "998ea9cc5615cd01d52a9eca62621a1e6f3cf9d03319d12601ae24f3334774ae",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-166.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-166.htm"
+      }
+    },
+    {
+      "ordinal": 162,
+      "legacy_file_id": "dk6-167",
+      "legacy_filename": "dk6-167.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 167,
+      "title_ta": "‘சிவ’ எனத் தொடங்கும் சக்தித் துதி",
+      "index_labels": [
+        "சிவ எனத் தொடங்கும் சக்தித் துதி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-167.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-167",
+      "snapshot_sha256": "304d419e8a4b9254ca705bd7512d8a323127efe47731405b7811f16dbfa3b591",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-167.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-167.htm"
+      }
+    },
+    {
+      "ordinal": 163,
+      "legacy_file_id": "dk6-168",
+      "legacy_filename": "dk6-168.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 168,
+      "title_ta": "சிவத்துக்கும் ஜீவசக்தி; ஆண்-பெண் பெயர்கள்",
+      "index_labels": [
+        "சிவத்துக்கும் ஜீவசக்தி;ஆண்-பெண் பெயர்கள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-168.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-168",
+      "snapshot_sha256": "3522f03fc13dffb08a452f2d1041a2bd993afdcc932119859612197d4853d44a",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-168.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-168.htm"
+      }
+    },
+    {
+      "ordinal": 164,
+      "legacy_file_id": "dk6-169",
+      "legacy_filename": "dk6-169.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 169,
+      "title_ta": "இரு மார்க்கத்திற்கும் ஆசாரியர்",
+      "index_labels": [
+        "இரு மார்க்கத்திற்கும் ஆசாரியர்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-169.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-169",
+      "snapshot_sha256": "3faebe5e692235af45ad9416f248a2854c958495b04aad2278ed4870e5447336",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-169.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-169.htm"
+      }
+    },
+    {
+      "ordinal": 165,
+      "legacy_file_id": "dk6-170",
+      "legacy_filename": "dk6-170.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 170,
+      "title_ta": "பஞ்ச க்ருத்யமும் காமேச்வரி-காமேச்வரர்களும்",
+      "index_labels": [
+        "பஞ்ச கிருத்யமும் காமேச்வரி-காமேச்வரர்களும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-170.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-170",
+      "snapshot_sha256": "ba0abfdd5149e1074b02f31f4ece77deab720eebfbdd83bcdf086a5c33e53042",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-170.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-170.htm"
+      }
+    },
+    {
+      "ordinal": 166,
+      "legacy_file_id": "dk6-171",
+      "legacy_filename": "dk6-171.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 171,
+      "title_ta": "‘சிவ’னும் ‘ஹர’னும்",
+      "index_labels": [
+        "'சிவ'னும் 'ஹர'னும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-171.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-171",
+      "snapshot_sha256": "f86b5ce73cdc058acf29536bc3131b4c26d64a13c3fb6e650c98e242df9dac76",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-171.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-171.htm"
+      }
+    },
+    {
+      "ordinal": 167,
+      "legacy_file_id": "dk6-172",
+      "legacy_filename": "dk6-172.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 172,
+      "title_ta": "புண்டரீகம் : நாமம்",
+      "index_labels": [
+        "புண்டரீகம்:நாமம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-172.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-172",
+      "snapshot_sha256": "ef1a83374b8a1e07160230ab0047b3a9e12237307a49bcb6ef69b4d5904298c1",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-172.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-172.htm"
+      }
+    },
+    {
+      "ordinal": 168,
+      "legacy_file_id": "dk6-173",
+      "legacy_filename": "dk6-173.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 173,
+      "title_ta": "சிவத்தின் ஸ்பந்தனம் (அசைவு)",
+      "index_labels": [
+        "சிவத்தின் ஸ்பந்தனம் (அசைவு)"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-173.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-173",
+      "snapshot_sha256": "a903b691dcc68f37c70dfcd4279d02bc2b81017a6c8d9e193d96f3cc71f714e8",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-173.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-173.htm"
+      }
+    },
+    {
+      "ordinal": 169,
+      "legacy_file_id": "dk6-174",
+      "legacy_filename": "dk6-174.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 174,
+      "title_ta": "திறந்த மனத்துடன் செய்த துதி",
+      "index_labels": [
+        "திறந்த மனத்துடன் செய்த துதி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-174.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-174",
+      "snapshot_sha256": "e53bfb0b333b10749b0b15080be672a8d4819aa9e2422e8ccaa5a0d81c996008",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-174.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-174.htm"
+      }
+    },
+    {
+      "ordinal": 170,
+      "legacy_file_id": "dk6-175",
+      "legacy_filename": "dk6-175.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 175,
+      "title_ta": "அத்வைத மாயையும், சைவ-சாக்தங்களின் சக்திகளும்",
+      "index_labels": [
+        "அத்வைத மாயையும், சைவ-சாக்தங்களின் சக்திகளும்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-175.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-175",
+      "snapshot_sha256": "45422fad7f103ff9e0be976c37e1c3ca78ba8380afc9f3f6634c492c4ce1dcd9",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-175.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-175.htm"
+      }
+    },
+    {
+      "ordinal": 171,
+      "legacy_file_id": "dk6-176",
+      "legacy_filename": "dk6-176.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 176,
+      "title_ta": "மாயா உபகரணங்களாலேயே ஞான நிலை அடைய",
+      "index_labels": [
+        "மாயா உபகரணங்களாலேயே ஞான நிலை அடைய"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-176.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-176",
+      "snapshot_sha256": "333ba7723201aa7f4f0fb43d2b5933737c3f8a366f918d397fbaac9bc9d6d0d3",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-176.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-176.htm"
+      }
+    },
+    {
+      "ordinal": 172,
+      "legacy_file_id": "dk6-177",
+      "legacy_filename": "dk6-177.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 177,
+      "title_ta": "அத்வைத சாஸ்திரத்திலும் சக்தி, லீலை முதலியன",
+      "index_labels": [
+        "அத்வைத சாஸ்திரத்திலும் சக்தி, லீலை முதலியன"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-177.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-177",
+      "snapshot_sha256": "90e09e5f8a0a25f4045ca03e56dff66e245c8d671f13b2eb37e47fbe972b96bf",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-177.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-177.htm"
+      }
+    },
+    {
+      "ordinal": 173,
+      "legacy_file_id": "dk6-178",
+      "legacy_filename": "dk6-178.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 178,
+      "title_ta": "ஸ்தோத்திரத்தை நாம் அணுகவேண்டிய முறை",
+      "index_labels": [
+        "ஸ்தோத்திரத்தை நாம் அணுகவேண்டிய முறை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-178.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-178",
+      "snapshot_sha256": "834e99e67b5065f5250a2bfd22a7fcb8d7c59c4c6d278a122ddffbedcc5bed46",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-178.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-178.htm"
+      }
+    },
+    {
+      "ordinal": 174,
+      "legacy_file_id": "dk6-179",
+      "legacy_filename": "dk6-179.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 179,
+      "title_ta": "குண்டலிநீ யோகம்: அதி ஜாக்கிரதை தேவை",
+      "index_labels": [
+        "குண்டலிநீ யோகம்:அதி ஜாக்கிரதை தேவை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-179.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-179",
+      "snapshot_sha256": "0d213706e90d1aee49d54e5371354590ac655db76c38b5f76eb31bf389d82c3f",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-179.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-179.htm"
+      }
+    },
+    {
+      "ordinal": 175,
+      "legacy_file_id": "dk6-180",
+      "legacy_filename": "dk6-180.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 180,
+      "title_ta": "பொதுச்சபையில் விளக்கும் முறை",
+      "index_labels": [
+        "பொதுச்சபையில் விளக்கும் முறை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-180.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-180",
+      "snapshot_sha256": "383814e8c128b8c17ba0eee831fdbd68580b2bbf68237cd2e73a175fbfcffb64",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-180.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-180.htm"
+      }
+    },
+    {
+      "ordinal": 176,
+      "legacy_file_id": "dk6-181",
+      "legacy_filename": "dk6-181.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 181,
+      "title_ta": "சாக்த தத்வத்திற்கு ஸயன்ஸின் சான்று",
+      "index_labels": [
+        "சாக்த தத்வத்திற்கு ஸயன்ஸின் சான்று"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-181.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-181",
+      "snapshot_sha256": "aee14a72a3f72352e3b1f5a090dfc91d30f50f9093e13040fc57a284c35fc125",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-181.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-181.htm"
+      }
+    },
+    {
+      "ordinal": 177,
+      "legacy_file_id": "dk6-182",
+      "legacy_filename": "dk6-182.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 182,
+      "title_ta": "முதல் ச்லோகத்தின் பாடம்",
+      "index_labels": [
+        "முதல் ச்லோகத்தின் பாடம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-182.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-182",
+      "snapshot_sha256": "c6e9f12444494e9e89023ce11b0df0c6a6a4ce0aa245de9aede3819a4ae767e9",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-182.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-182.htm"
+      }
+    },
+    {
+      "ordinal": 178,
+      "legacy_file_id": "dk6-183",
+      "legacy_filename": "dk6-183.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 183,
+      "title_ta": "அடிப்பொடி கொண்டே அகிலாண்ட வியாபாரம்",
+      "index_labels": [
+        "அடிப்பொடி கொண்டே அகிலாண்ட வியாபாரம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-183.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-183",
+      "snapshot_sha256": "3984f0ed6380d3009b7850bf10ad7572968dcb5b1baefa8be083721aec67df5f",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-183.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-183.htm"
+      }
+    },
+    {
+      "ordinal": 179,
+      "legacy_file_id": "dk6-184",
+      "legacy_filename": "dk6-184.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 184,
+      "title_ta": "பாதத்தில் தொடங்கலாமா?",
+      "index_labels": [
+        "பாதத்தில் தொடங்கலாமா?"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-184.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-184",
+      "snapshot_sha256": "d77264459b8da2f4624ee4a2fdfdfde7e83417296c4ce0109307a6d4f6f5c173",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-184.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-184.htm"
+      }
+    },
+    {
+      "ordinal": 180,
+      "legacy_file_id": "dk6-185",
+      "legacy_filename": "dk6-185.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 185,
+      "title_ta": "இஹ-பர நலன் தரும் இணையடிப் பொடி",
+      "index_labels": [
+        "இஹ-பர நலன் தரும் இணையடிப் பொடி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-185.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-185",
+      "snapshot_sha256": "9750eafbb71af3ba8b82a13095a5fc63bf5147eeba8351faefe28ab5a2920ab4",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-185.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-185.htm"
+      }
+    },
+    {
+      "ordinal": 181,
+      "legacy_file_id": "dk6-186",
+      "legacy_filename": "dk6-186.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 186,
+      "title_ta": "கையால் கொடுக்காத வர, அபயம்",
+      "index_labels": [
+        "கையால் கொடுக்காத வர, அபயம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-186.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-186",
+      "snapshot_sha256": "0d015971cf7706227e5bf2a6f4a5a4ad108f6532d4e636bc8f2ae70ec21fa6ff",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-186.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-186.htm"
+      }
+    },
+    {
+      "ordinal": 182,
+      "legacy_file_id": "dk6-187",
+      "legacy_filename": "dk6-187.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 187,
+      "title_ta": "ஸ்தோத்திர மூர்த்தியைக் குறிப்பாலுணர்த்தல்",
+      "index_labels": [
+        "ஸ்தோத்திர மூர்த்தியைக் குறிப்பாலுணர்த்தல்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-187.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-187",
+      "snapshot_sha256": "6a3d7c1a62f19429a5f4f32bba11448da188c90584d35bc815a13d72143d7989",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-187.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-187.htm"
+      }
+    },
+    {
+      "ordinal": 183,
+      "legacy_file_id": "dk6-188",
+      "legacy_filename": "dk6-188.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 188,
+      "title_ta": "காமமும் அநுக்ரஹமாகுமா?",
+      "index_labels": [
+        "ஸ்தோத்திர மூர்த்தியைக் குறிப்பாலுணர்த்தல்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-188.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-188",
+      "snapshot_sha256": "243fe55c75eb1882a608f8b67585e69993c5275e858bff44a3bd755953e117ec",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-188.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-188.htm"
+      }
+    },
+    {
+      "ordinal": 184,
+      "legacy_file_id": "dk6-189",
+      "legacy_filename": "dk6-189.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 189,
+      "title_ta": "காமனை வெற்றி வீரனாக்கிய கடாக்ஷ சக்தி",
+      "index_labels": [
+        "காமனை வெற்றி வீரனாக்கிய காடக்ஷசக்தி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-189.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-189",
+      "snapshot_sha256": "1a244a4732df5c5e7ca5a247a2802de2c103c5e2c862690e9c870573359621a8",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-189.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-189.htm"
+      }
+    },
+    {
+      "ordinal": 185,
+      "legacy_file_id": "dk6-190",
+      "legacy_filename": "dk6-190.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 190,
+      "title_ta": "சிவனைக் காமன் வென்றதைச் சொல்லாதது",
+      "index_labels": [
+        "சிவனைக் காமன் வென்றதைச் சொல்லாதது"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-190.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-190",
+      "snapshot_sha256": "bfaccd7aa3947433964427ba99607f2a0622f00ab55e395d6b8571982e60dbd2",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-190.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-190.htm"
+      }
+    },
+    {
+      "ordinal": 186,
+      "legacy_file_id": "dk6-191",
+      "legacy_filename": "dk6-191.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 191,
+      "title_ta": "சிவ, சக்திகளாக இன்றி சிவசக்தி ஒன்றாகவே",
+      "index_labels": [
+        "சிவ, சக்திகளாக இன்றி சிவசக்தி ஒன்றாகவே"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-191.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-191",
+      "snapshot_sha256": "30738e06da729b12d5d432f6a9eba48333d79a3c551c8402d395792a6ad6c069",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-191.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-191.htm"
+      }
+    },
+    {
+      "ordinal": 187,
+      "legacy_file_id": "dk6-192",
+      "legacy_filename": "dk6-192.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 192,
+      "title_ta": "ஸ்வரூப வர்ணனை",
+      "index_labels": [
+        "ஸ்வரூப வர்ணனை"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-192.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-192",
+      "snapshot_sha256": "d2bdf5de5fe1cd312c3863b0c35e4250fe1e2e060afcb676bd37709664b44caf",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-192.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-192.htm"
+      }
+    },
+    {
+      "ordinal": 188,
+      "legacy_file_id": "dk6-193",
+      "legacy_filename": "dk6-193.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 193,
+      "title_ta": "அம்பிகையின் இருப்பிடம்",
+      "index_labels": [
+        "அம்பிகையின் இருப்பிடம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-193.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-193",
+      "snapshot_sha256": "edbdd683ff9517faaed920f2f251f636e5f0b4f4e995fca2e213a1f872a0e610",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-193.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-193.htm"
+      }
+    },
+    {
+      "ordinal": 189,
+      "legacy_file_id": "dk6-194",
+      "legacy_filename": "dk6-194.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 194,
+      "title_ta": "குண்டலிநீ ரூபத்தில்",
+      "index_labels": [
+        "குண்டலிநீ ரூபத்தில்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-194.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-194",
+      "snapshot_sha256": "6afd9997bd47d06337500049ad5562a5d1f0ce0d389ae9c7640954f9b4dab66e",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-194.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-194.htm"
+      }
+    },
+    {
+      "ordinal": 190,
+      "legacy_file_id": "dk6-195",
+      "legacy_filename": "dk6-195.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 195,
+      "title_ta": "எந்த உபாஸனையிலும் யோகாநுபவ, ஞானாநுபவ, ப்ரேமாநுபவங்கள்",
+      "index_labels": [
+        "எந்த உபாஸனையிலும் யோகாநுப"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-195.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-195",
+      "snapshot_sha256": "5f75b9cf750e25504ad48800ab32cdcbf3727cdb4ac4145e3c3c2f31f9cf8188",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-195.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-195.htm"
+      }
+    },
+    {
+      "ordinal": 191,
+      "legacy_file_id": "dk6-196",
+      "legacy_filename": "dk6-196.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 196,
+      "title_ta": "ஸ்ரீசக்ரம் : அதன் சிறப்புக்கள்",
+      "index_labels": [
+        "ஸ்ரீசக்ரம் :அதன் சிறப்புக்கள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-196.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-196",
+      "snapshot_sha256": "06991cb94328ba3f5c5b9f9fee3c52ef50b6bc3fe842d7d1471eafd8c58866b1",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-196.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-196.htm"
+      }
+    },
+    {
+      "ordinal": 192,
+      "legacy_file_id": "dk6-197",
+      "legacy_filename": "dk6-197.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 197,
+      "title_ta": "தனிப் பெயரில்லாத யந்திரம், தந்திரம், தலைநகரம்",
+      "index_labels": [
+        "தனிப் பெயரில்லாத யந்திரம், தந்திரம், தலைநகரம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-197.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-197",
+      "snapshot_sha256": "710271141330c9f4bcb74d2aebfbe75ca09f0cce6c1fc74c3b0a930ea892dde9",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-197.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-197.htm"
+      }
+    },
+    {
+      "ordinal": 193,
+      "legacy_file_id": "dk6-198",
+      "legacy_filename": "dk6-198.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 198,
+      "title_ta": "உவமிக்கவொண்ணாத உருவழகு; காண்பதற்கொண்ணாத காட்சி!",
+      "index_labels": [
+        "உவமிக்கவொண்ணாத உருவழகு; காண்பதற்கொண்ணாத காட்சி!"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-198.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-198",
+      "snapshot_sha256": "3d701d0867f522e68fd5d3ae81c2e8275d2a7d75aa6baad6a90c315d9f22ea80",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-198.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-198.htm"
+      }
+    },
+    {
+      "ordinal": 194,
+      "legacy_file_id": "dk6-199",
+      "legacy_filename": "dk6-199.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 199,
+      "title_ta": "கால ஸ்வரூபமாக",
+      "index_labels": [
+        "கால ஸ்வரூபமாக"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-199.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-199",
+      "snapshot_sha256": "de647cccd25545fe7bdb2a286b4d6cd7d73768a8d53c8313da123d505cf786d4",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-199.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-199.htm"
+      }
+    },
+    {
+      "ordinal": 195,
+      "legacy_file_id": "dk6-200",
+      "legacy_filename": "dk6-200.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 200,
+      "title_ta": "வாக்குவன்மை அருள்வது; சாக்தத்தில் சப்தத்தின் விசேஷம்",
+      "index_labels": [
+        "வாக்குவன்மை அருள்வது; சாக்தத்தில் சப்தத்தின் விசேஷம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-200.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-200",
+      "snapshot_sha256": "6737f4cd4f0d16b6674a4fee5ba09b4d6e72d78b1d190ee820d8b64d64c6afab",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-200.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-200.htm"
+      }
+    },
+    {
+      "ordinal": 196,
+      "legacy_file_id": "dk6-213",
+      "legacy_filename": "dk6-213.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 213,
+      "title_ta": "அம்பாளின் தாடங்கம்",
+      "index_labels": [
+        "அம்பாளின் தாடங்கம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-213.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-213",
+      "snapshot_sha256": "8723d807c3c8d45148a195d4068db4da7c6a99d0a560fd9c05950e016876282b",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-213.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-213.htm"
+      }
+    },
+    {
+      "ordinal": 197,
+      "legacy_file_id": "dk6-214",
+      "legacy_filename": "dk6-214.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 214,
+      "title_ta": "விஷ்ணுவை விட்டதேன்?",
+      "index_labels": [
+        "விஷ்ணுவை விட்டதேன்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-214.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-214",
+      "snapshot_sha256": "74406405806acefce5cf84231380794f16cb57c184c018d4e13eec4923a2259b",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-214.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-214.htm"
+      }
+    },
+    {
+      "ordinal": 198,
+      "legacy_file_id": "dk6-215",
+      "legacy_filename": "dk6-215.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 215,
+      "title_ta": "அம்பாளுடைய திருட்டு",
+      "index_labels": [
+        "அம்பாளுடைய திருட்டு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-215.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-215",
+      "snapshot_sha256": "2d0f1c918192227c42040836dc2369bd450cfb181d00fd19c766674ea72c19e3",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-215.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-215.htm"
+      }
+    },
+    {
+      "ordinal": 199,
+      "legacy_file_id": "dk6-216",
+      "legacy_filename": "dk6-216.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 216,
+      "title_ta": "ஸர்வ ஸமர்ப்பணம்",
+      "index_labels": [
+        "ஸர்வ ஸமர்ப்பணம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-216.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-216",
+      "snapshot_sha256": "17d4a4d91a2d1adc44cacc7ca01d202ffdd8612dbd9bbeb4ab55cf9e7bcea217",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-216.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-216.htm"
+      }
+    },
+    {
+      "ordinal": 200,
+      "legacy_file_id": "dk6-217",
+      "legacy_filename": "dk6-217.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 217,
+      "title_ta": "சிவன் – சக்தி : உயிர் – உடல்",
+      "index_labels": [
+        "சிவன் சக்தி : உயிர் - உடல்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-217.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-217",
+      "snapshot_sha256": "a90380a41128e688b8f61b39d42a929cf9f1aae8bdbd16223a71093b37a6d5ec",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-217.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-217.htm"
+      }
+    },
+    {
+      "ordinal": 201,
+      "legacy_file_id": "dk6-218",
+      "legacy_filename": "dk6-218.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 218,
+      "title_ta": "ஸூர்ய சந்திரரைக் கொண்டு பாலூட்டும் தாய்",
+      "index_labels": [
+        "ஸ¨ர்ய சந்திரரைக் கொண்டு பாலூட்டும் தாய்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-218.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-218",
+      "snapshot_sha256": "6952b3954bb0777ffb753953a96f47e2b90f41f0241363ad20773e4c02095a00",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-218.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-218.htm"
+      }
+    },
+    {
+      "ordinal": 202,
+      "legacy_file_id": "dk6-219",
+      "legacy_filename": "dk6-219.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 219,
+      "title_ta": "சேஷ-சேஷீ : உடைமையும் உடைமையாளரும்",
+      "index_labels": [
+        "சேஷ-சேஷீ"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-219.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-219",
+      "snapshot_sha256": "63fdc63c8a12813f54663f14763238f8d50731ce40f2eb8627ace9353a3a37ce",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-219.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-219.htm"
+      }
+    },
+    {
+      "ordinal": 203,
+      "legacy_file_id": "dk6-220",
+      "legacy_filename": "dk6-220.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 220,
+      "title_ta": "இரு ச்லோகங்களின் ஸாரம்",
+      "index_labels": [
+        "இரு ச்லோகங்களின் ஸாரம்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-220.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-220",
+      "snapshot_sha256": "3dfd390953b894406434189bfb2ea25cd2c15a8149230c7f243fe1c6ec32d965",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-220.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-220.htm"
+      }
+    },
+    {
+      "ordinal": 204,
+      "legacy_file_id": "dk6-221",
+      "legacy_filename": "dk6-221.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 221,
+      "title_ta": "சக்ரங்களில் சிவ-சக்தி",
+      "index_labels": [
+        "சக்ரங்களில் சிவ-சக்தி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-221.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-221",
+      "snapshot_sha256": "784711b0fe00745cfdfb246f3a6d9ecfdcbeeebd0e0ee3bd42af8273b867b03d",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-221.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-221.htm"
+      }
+    },
+    {
+      "ordinal": 205,
+      "legacy_file_id": "dk6-222",
+      "legacy_filename": "dk6-222.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 222,
+      "title_ta": "ஜனக – ஜனனி",
+      "index_labels": [
+        "ஜனக - ஜனனி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-222.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-222",
+      "snapshot_sha256": "b9f9e75beff6edb09325d6d102995b69a88a3583fcdd0e776564850b23d54ac9",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-222.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-222.htm"
+      }
+    },
+    {
+      "ordinal": 206,
+      "legacy_file_id": "dk6-223",
+      "legacy_filename": "dk6-223.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 223,
+      "title_ta": "பல நிலைகளில் சிவ சக்திகள்",
+      "index_labels": [
+        "பல நிலைகளில் சிவ சக்திகள்"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-223.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-223",
+      "snapshot_sha256": "ea0d72596f2eb7fd2b8e736103c4817c28709fe90346b87695d4ae49bb67c07d",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-223.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-223.htm"
+      }
+    },
+    {
+      "ordinal": 207,
+      "legacy_file_id": "dk6-224",
+      "legacy_filename": "dk6-224.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 224,
+      "title_ta": "சந்திர-ஸூர்ய மௌளீச்வரி",
+      "index_labels": [
+        "சந்திர-ஸ¨ர்ய மௌளீச்வரி"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-224.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-224",
+      "snapshot_sha256": "539e4f7fc0d627065538923c810db52af8d670f8eb69eba00f5b49f3bd1fab49",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-224.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-224.htm"
+      }
+    },
+    {
+      "ordinal": 208,
+      "legacy_file_id": "dk6-225",
+      "legacy_filename": "dk6-225.htm",
+      "legacy_family": "dk6",
+      "legacy_file_number": 225,
+      "title_ta": "இருட்டைப் போக்கடிக்கும் கறுப்பு!",
+      "index_labels": [
+        "இருட்டைப் போக்கடிக்கும் கறுப்பு"
+      ],
+      "url": "https://www.kamakoti.org/tamil/dk6-225.htm",
+      "source_key": "mahaperiyava-deivathin-kural-v6-dk6-225",
+      "snapshot_sha256": "f14194d099afca766aa06679a80732b6243f3661061735188487886448c4cc8d",
+      "witness_role": "official_digital",
+      "authority_effect": "dk_attestation_only",
+      "source_availability": {
+        "retrieval_mode": "live_official",
+        "official_url": "https://www.kamakoti.org/tamil/dk6-225.htm",
+        "live_status": 200,
+        "final_url": "https://www.kamakoti.org/tamil/dk6-225.htm"
+      }
+    }
+  ],
+  "source_exceptions": [],
+  "base_git_commit": "31334d8942a10d65cdbe2454bcf587ec1a9f5085",
+  "semantic_status": "chatgpt_semantic_complete_not_publication_approved",
+  "teaching_record_count": 331
+}
