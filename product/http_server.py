@@ -12,7 +12,7 @@ class Handler(BaseHTTPRequestHandler):
         if urlparse(self.path).path=='/v1/health': self._send(200,dispatch('health',{}))
         else: self._send(404,{'status':'error','error':'not found'})
     def do_POST(self):
-        path=urlparse(self.path).path; op={'/v1/verify':'verify','/v1/compare':'compare','/v1/trace':'trace'}.get(path)
+        path=urlparse(self.path).path; op={'/v1/verify':'verify','/v1/compare':'compare','/v1/trace':'trace','/v1/mahaperiyava/answer':'mahaperiyava-answer'}.get(path)
         if not op: return self._send(404,{'status':'error','error':'not found'})
         try:
             n=int(self.headers.get('Content-Length','0')); payload=json.loads(self.rfile.read(n) or b'{}'); out=dispatch(op,payload); self._send(200,out)

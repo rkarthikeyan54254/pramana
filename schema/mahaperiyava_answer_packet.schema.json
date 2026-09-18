@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/pramana/mahaperiyava_answer_packet.schema.json",
+  "title": "Pramana Mahaperiyava grounded answer packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "query",
+    "question_type",
+    "status",
+    "answerable",
+    "answer",
+    "claims",
+    "evidence",
+    "generation_request",
+    "policy",
+    "message"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": "1.0"
+    },
+    "query": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question_type": {
+      "enum": [
+        "personal_guidance",
+        "broad_question",
+        "doctrinal",
+        "source_lookup"
+      ]
+    },
+    "status": {
+      "enum": [
+        "grounded_answer_packet",
+        "insufficient_evidence"
+      ]
+    },
+    "answerable": {
+      "type": "boolean"
+    },
+    "answer": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_id",
+          "claim_type",
+          "text",
+          "support_ids",
+          "source_label",
+          "authority",
+          "context_required",
+          "is_verbatim_quote"
+        ],
+        "properties": {
+          "claim_id": {
+            "type": "string"
+          },
+          "claim_type": {
+            "const": "curator_summary"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "support_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "source_label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "authority": {
+            "type": "string",
+            "minLength": 1
+          },
+          "context_required": {
+            "type": "boolean"
+          },
+          "is_verbatim_quote": {
+            "const": false
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "generation_request": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "policy": {
+      "type": "object"
+    },
+    "message": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

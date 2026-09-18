@@ -256,3 +256,10 @@ mahaperiyava-retrieval-gate:
 	$(PYTHON) scripts/eval_ask_mahaperiyava.py --output data/review/mahaperiyava_v1_v7_retrieval_checkpoint.json
 	$(PYTHON) -m pytest -q tests/test_ask_mahaperiyava_v1_v7.py
 	@echo "mahaperiyava-retrieval-gate: GREEN"
+
+# Mahaperiyava Phase 9 grounded answer backend. Metadata-only synthesis.
+mahaperiyava-grounded-answer-gate:
+	$(PYTHON) scripts/eval_mahaperiyava_grounded_answer.py --output data/review/mahaperiyava_grounded_answer_checkpoint.json
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_grounded_answer.py
+	$(PYTHON) tests/test_mahaperiyava_answer_api.py
+	@echo "mahaperiyava-grounded-answer-gate: GREEN"

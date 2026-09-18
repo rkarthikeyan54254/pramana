@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_GROUNDED_ANSWER_FOUNDATION",
+  "status": "PHASE9_GROUNDED_ANSWER_READY_FOR_PRODUCT_UI",
+  "decision": "proceed_to_product_ui_and_voice",
+  "scope": "Deterministic grounded answer packets over Phase 8 V1-V7 retrieval, with evidence drawer data and a metadata-only provider handoff.",
+  "metrics": {
+    "evaluation_cases": 6,
+    "evaluation_passes": 6,
+    "evaluation_pass_rate": 1.0,
+    "provider_valid_proposal_accepted": true,
+    "provider_invalid_proposal_rejected": true,
+    "restricted_source_text_exposure_count": 0,
+    "authority_promotions": 0
+  },
+  "authority_boundary": {
+    "answer_generation_changes_authority": false,
+    "generated_text_may_enter_corpus": false,
+    "metadata_summary_is_verbatim_quote": false,
+    "publication_approval_implied": false,
+    "provider_validation_is_structural_not_semantic_truth": true
+  },
+  "cases": [
+    {
+      "id": "broad_kamakshi",
+      "query": "What does Mahaperiyava say about Kamakshi and compassion?",
+      "question_type": "broad_question",
+      "answerable": true,
+      "claim_count": 4,
+      "evidence_count": 4,
+      "context_claim_count": 0,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "doctrinal_shiva_vishnu",
+      "query": "Does Mahaperiyava teach the essential unity of Shiva and Vishnu?",
+      "question_type": "doctrinal",
+      "answerable": true,
+      "claim_count": 4,
+      "evidence_count": 4,
+      "context_claim_count": 1,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "source_lookup_kamakshi",
+      "query": "Which chapter discusses Kamakshi's eyes?",
+      "question_type": "source_lookup",
+      "answerable": true,
+      "claim_count": 4,
+      "evidence_count": 4,
+      "context_claim_count": 1,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "personal_guidance_pride",
+      "query": "What should I do when pride makes me ridicule others?",
+      "question_type": "personal_guidance",
+      "answerable": true,
+      "claim_count": 4,
+      "evidence_count": 4,
+      "context_claim_count": 2,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "historical_context",
+      "query": "What does the discourse say about uncertain traditions of Pallava origins?",
+      "question_type": "doctrinal",
+      "answerable": true,
+      "claim_count": 4,
+      "evidence_count": 4,
+      "context_claim_count": 4,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "unsupported_smartphone",
+      "query": "What did Mahaperiyava say about smartphone push notifications?",
+      "question_type": "source_lookup",
+      "answerable": false,
+      "claim_count": 0,
+      "evidence_count": 0,
+      "context_claim_count": 0,
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "provider_validation": {
+    "valid_example": {
+      "valid": true,
+      "errors": [],
+      "structurally_grounded": true,
+      "semantic_entailment_verified": false,
+      "generated_text_may_enter_corpus": false
+    },
+    "invalid_example": {
+      "valid": false,
+      "errors": [
+        "must_not_speak_as_mahaperiyava",
+        "must_not_claim_verbatim_wording",
+        "claim_0_support_not_in_retrieved_evidence",
+        "claim_0_quote_not_allowed_from_metadata_only_packet",
+        "modern_application_requires_app_generated_label"
+      ],
+      "structurally_grounded": false,
+      "semantic_entailment_verified": false,
+      "generated_text_may_enter_corpus": false
+    }
+  }
+}

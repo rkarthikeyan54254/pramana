@@ -19,6 +19,8 @@ jobs:
         run: make mahaperiyava-evidence-depth-gate
       - name: Mahaperiyava V1-V7 retrieval foundation
         run: make mahaperiyava-retrieval-gate
+      - name: Mahaperiyava grounded answer backend
+        run: make mahaperiyava-grounded-answer-gate
       - name: Moat/trust gates
         run: make moat-proof-gate
       - name: Build file-level rights matrix

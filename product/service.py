@@ -9,6 +9,7 @@ from product.compare_sources import run as compare_sources
 from product.trace_evidence import run as trace_evidence
 from product.common import load_jsonl
 from scripts.export_proof_bundle import build as build_proof_bundle, collect_ids
+from product.mahaperiyava_answer import build_answer as mahaperiyava_answer
 
 def health():
     rows=load_jsonl(); verified=[r for r in rows if r.get('verified') and r.get('verification_source')]
@@ -17,6 +18,7 @@ def health():
 
 def dispatch(operation:str,payload:dict):
     if operation=='health': return health()
+    if operation=='mahaperiyava-answer': return mahaperiyava_answer(payload['query'],int(payload.get('top_k',8)))
     if operation=='verify': return verify_claim(payload['claim'])
     if operation=='compare': return compare_sources()
     if operation=='trace': return trace_evidence(payload['node'],int(payload.get('depth',2)))
@@ -28,7 +30,7 @@ def dispatch(operation:str,payload:dict):
     raise ValueError(f'unknown operation: {operation}')
 
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('operation',choices=['health','verify','compare','trace','proof']); ap.add_argument('--payload',default='{}'); a=ap.parse_args()
+    ap=argparse.ArgumentParser(); ap.add_argument('operation',choices=['health','verify','compare','trace','proof','mahaperiyava-answer']); ap.add_argument('--payload',default='{}'); a=ap.parse_args()
     try: out=dispatch(a.operation,json.loads(a.payload))
     except Exception as e: print(json.dumps({'status':'error','error':str(e)})); raise
     print(json.dumps(out,ensure_ascii=False,indent=2))
