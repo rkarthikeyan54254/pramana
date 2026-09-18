@@ -240,5 +240,7 @@ dk-semantic-hardening-gate:
 		tests/test_mahaperiyava_deivathin_kural_v4_teaching_records.py \
 		tests/test_mahaperiyava_deivathin_kural_v5_teaching_records.py \
 		tests/test_mahaperiyava_deivathin_kural_v6_teaching_records.py \
-		tests/test_mahaperiyava_dk_v4_v6_semantic_hardening.py
+		tests/test_mahaperiyava_deivathin_kural_v7_teaching_records.py \
+		tests/test_mahaperiyava_dk_v4_v6_semantic_hardening.py \
+		tests/test_mahaperiyava_dk_v1_v7_semantic_quality.py
 	@echo "dk-semantic-hardening-gate: GREEN"

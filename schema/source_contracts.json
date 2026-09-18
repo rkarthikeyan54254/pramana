@@ -161,7 +161,25 @@
           "kamakoti-dk-v7-index"
         ],
         "pilot_volume": 1,
-        "pilot_chapter_count": 10
+        "pilot_chapter_count": 10,
+        "semantic_frontier_volumes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "volume_chapter_counts": {
+          "1": 175,
+          "2": 225,
+          "3": 289,
+          "4": 450,
+          "5": 298,
+          "6": 208,
+          "7": 342
+        }
       },
       "attribution_policy": "A located passage proves 'attested in Deivathin Kural'. It does not by itself prove that the exact wording is a verbatim Mahaperiyava utterance from one occasion. Primary-source verification requires a separately located tape, Sri Mukham, periodical report, discourse transcript, interview, or other earlier witness.",
       "lineage_policy": "Do not majority-vote the Kanchi digital text, corrected volunteer text, and modern print copies as independent witnesses. They descend from the Ra. Ganapathi compilation and must be tracked as a textual lineage.",
@@ -172,7 +190,8 @@
         "note": "2013 correction project reports two rounds of spell-check on most volumes; Volume 7 explicitly received no correction work. It also reports copyright concerns."
       },
       "verification_policy": "Phase 1 verifies chapter identity and wording against an obtained print edition. Phase 2 searches for earlier/primary witnesses. Compiler intervention must remain explicitly unknown/possible unless evidence supports a stronger classification.",
-      "status": "pilot_contract_defined"
+      "status": "source_pinned_structure_verified",
+      "semantic_corpus_policy": "The semantic corpus records what the restricted Deivathin Kural witness attests. Digital attestation does not establish print wording, an earlier independent witness, or a primary utterance. Publication approval remains separate."
     }
   ]
 }
