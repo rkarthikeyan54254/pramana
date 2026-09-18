@@ -250,3 +250,9 @@ mahaperiyava-evidence-depth-gate:
 	$(PYTHON) scripts/validate_mahaperiyava_evidence_depth.py
 	$(PYTHON) -m pytest -q tests/test_mahaperiyava_evidence_depth_foundation.py
 	@echo "mahaperiyava-evidence-depth-gate: GREEN"
+
+# Mahaperiyava V1-V7 retrieval foundation. Relevance never changes authority.
+mahaperiyava-retrieval-gate:
+	$(PYTHON) scripts/eval_ask_mahaperiyava.py --output data/review/mahaperiyava_v1_v7_retrieval_checkpoint.json
+	$(PYTHON) -m pytest -q tests/test_ask_mahaperiyava_v1_v7.py
+	@echo "mahaperiyava-retrieval-gate: GREEN"

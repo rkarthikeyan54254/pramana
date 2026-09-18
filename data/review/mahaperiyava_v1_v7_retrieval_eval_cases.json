@@ -1,0 +1,139 @@
+{
+  "version": "1.0",
+  "quality_target": {
+    "top5_recall": 0.85,
+    "abstention_accuracy": 1.0,
+    "minimum_distinct_volumes_hit": 7
+  },
+  "evaluation_note": "Broad-topic questions use manually curated relevance sets rather than forcing one chapter to be uniquely correct. The Advaita set includes direct proposition-level matches from V1 chapter 4 (Brahman/nonduality) and V1 chapter 7 (nondual realization/freedom from fear and sorrow), which the retriever correctly ranked but the initial evaluation set omitted.",
+  "cases": [
+    {
+      "id": "advaita_en",
+      "query": "What does Mahaperiyava say about Advaita and nonduality?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.advaita_not_egoistic_self_deification",
+        "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.all_beings_as_forms_of_one_reality",
+        "mahaperiyava.deivathin_kural.v1.dvaitam_bauddham_advaitam.contrast_advaita_dvaita_buddhism",
+        "mahaperiyava.deivathin_kural.v1.advaitam.nonduality_of_brahman",
+        "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.nonduality_as_freedom_from_fear_and_sorrow"
+      ]
+    },
+    {
+      "id": "bhakti_karma_en",
+      "query": "Why practice bhakti, and how is God related to the results of karma?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.mukthikku_munthaiya_nilaiyil_bhakti.karma_bhakti_and_jnana_as_successive_stages",
+        "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.karma_and_bhakti_as_mind_purification",
+        "mahaperiyava.deivathin_kural.v1.muruganin_vadanaattu_avataram.isvara_as_phaladata_links_karma_bhakti_and_jnana"
+      ]
+    },
+    {
+      "id": "siva_vishnu_en",
+      "query": "Does Mahaperiyava teach the essential unity of Shiva and Vishnu?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity",
+        "mahaperiyava.deivathin_kural.v1.ishta_devathai.shiva_and_vishnu_are_presented_as_one_to_counter_sectarian_quarrel"
+      ]
+    },
+    {
+      "id": "kamakshi_compassion_en",
+      "query": "What does Mahaperiyava say about Kamakshi and compassion?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.karuppum_sivappumana_kamakshi.red_kamakshi_as_compassionate_parashakti",
+        "mahaperiyava.deivathin_kural.v1.kamakshiyin_sivappu.kamakshis_redness_is_the_color_of_compassion",
+        "mahaperiyava.deivathin_kural.v1.kamakshiyin_kangal.kamakshi_eyes_and_brows_as_bow_of_compassion"
+      ]
+    },
+    {
+      "id": "kamakshi_eyes_en",
+      "query": "What is the significance of Kamakshi's eyes?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.kamakshiyin_kangal.kamakshi_eyes_and_brows_as_bow_of_compassion"
+      ]
+    },
+    {
+      "id": "siva_vishnu_ta",
+      "query": "சிவனும் விஷ்ணுவும் ஒன்றா?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity"
+      ]
+    },
+    {
+      "id": "advaita_ta",
+      "query": "அத்வைதம் என்றால் என்ன?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.swami_naama_illai_endral.advaita_not_egoistic_self_deification",
+        "mahaperiyava.deivathin_kural.v1.dvaitam_bauddham_advaitam.contrast_advaita_dvaita_buddhism",
+        "mahaperiyava.deivathin_kural.v1.advaitam.nonduality_of_brahman",
+        "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.nonduality_as_freedom_from_fear_and_sorrow"
+      ]
+    },
+    {
+      "id": "v2_title_smoke",
+      "query": "கிழவியும் குழவியும்",
+      "expected_status": "retrieved_evidence",
+      "expected_any_loci": [
+        {
+          "volume": 2,
+          "chapter_ordinal": 1
+        }
+      ]
+    },
+    {
+      "id": "v3_title_smoke",
+      "query": "பிள்ளையார் சுழி",
+      "expected_status": "retrieved_evidence",
+      "expected_any_loci": [
+        {
+          "volume": 3,
+          "chapter_ordinal": 1
+        }
+      ]
+    },
+    {
+      "id": "v4_moon_curse",
+      "query": "What does the Ganesha moon curse story teach about pride and ridicule?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c033.chapter_teaching"
+      ]
+    },
+    {
+      "id": "v5_pallava_origins",
+      "query": "What does the discourse say about uncertain traditions of Pallava origins?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c055.chapter_teaching"
+      ]
+    },
+    {
+      "id": "v6_ganesha_beginning",
+      "query": "Why invoke Ganesha before beginning an undertaking?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life",
+        "mahaperiyava.deivathin_kural.v6.c001.sixteen_name_practice"
+      ]
+    },
+    {
+      "id": "v7_sectarianism",
+      "query": "Should Tamil devotion to Ganesha become sectarian or separatist?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c002.chapter_teaching"
+      ]
+    },
+    {
+      "id": "unsupported_smartphone",
+      "query": "What did Mahaperiyava say about smartphone push notifications?",
+      "expected_status": "insufficient_evidence"
+    }
+  ]
+}

@@ -17,6 +17,8 @@ jobs:
         run: make dk-semantic-hardening-gate
       - name: Mahaperiyava evidence-depth authority gate
         run: make mahaperiyava-evidence-depth-gate
+      - name: Mahaperiyava V1-V7 retrieval foundation
+        run: make mahaperiyava-retrieval-gate
       - name: Moat/trust gates
         run: make moat-proof-gate
       - name: Build file-level rights matrix
