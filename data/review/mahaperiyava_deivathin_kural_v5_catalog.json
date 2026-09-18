@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-17T07:01:43.090165+00:00",
+  "generated_at": "2026-09-18T06:30:00+05:30",
   "corpus": "mahaperiyava_teachings",
   "work": "deivathin_kural",
   "volume": 5,
@@ -6279,7 +6279,6 @@
     }
   ],
   "source_exceptions": [],
-  "base_git_commit": "6017491661fcc0e5e7c8d1ef59bd844565febe24",
-  "semantic_status": "chatgpt_semantic_complete_not_publication_approved",
-  "teaching_record_count": 377
+  "semantic_status": "source_read_semantic_hardened_not_publication_approved",
+  "teaching_record_count": 345
 }

@@ -232,3 +232,13 @@ review-work:
 
 review-work-test:
 	$(PYTHON) tests/test_review_work.py
+
+
+# Permanent Deivathin Kural semantic-hardening gate. Publication approval remains separate.
+dk-semantic-hardening-gate:
+	$(PYTHON) -m pytest -q \
+		tests/test_mahaperiyava_deivathin_kural_v4_teaching_records.py \
+		tests/test_mahaperiyava_deivathin_kural_v5_teaching_records.py \
+		tests/test_mahaperiyava_deivathin_kural_v6_teaching_records.py \
+		tests/test_mahaperiyava_dk_v4_v6_semantic_hardening.py
+	@echo "dk-semantic-hardening-gate: GREEN"

@@ -1,24 +1,37 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "corpus": "mahaperiyava_teachings",
   "work": "deivathin_kural",
   "volume": 4,
-  "generated_at": "2026-09-17T05:57:59.992161+00:00",
+  "generated_at": "2026-09-18T06:45:00+05:30",
+  "semantic_status": "source_read_semantic_hardened_not_publication_approved",
   "result": "PASS",
   "checks": {
     "chapter_count": 450,
-    "teaching_record_count": 487,
+    "teaching_record_count": 457,
     "curation_paragraph_count": 3208,
-    "covered_curation_paragraph_count": 3208,
-    "explicit_exclusion_count": 0,
+    "covered_curation_paragraph_count": 3139,
+    "explicit_editorial_exclusion_count": 69,
     "unaccounted_curation_paragraph_count": 0,
     "intentional_overlap_paragraph_count": 0,
     "all_historical_witness_null": true,
-    "all_authority_dk_attested": true,
+    "authority_counts": {
+      "dk_attested": 457
+    },
+    "print_checked_count": 0,
+    "primary_source_verified_count": 0,
+    "generic_template_summary_count": 0,
     "source_text_embedded_in_public_artifacts": false,
     "snapshot_count_after_volume_4": 1219,
     "live_official_page_count": 450,
     "archive_recovery_count": 0,
-    "special_legacy_file_24b_preserved": true
+    "special_legacy_file_24b_preserved": true,
+    "publication_approved": false,
+    "topic_label_only_summary_count": 0,
+    "explicit_exclusions_have_rationale": true,
+    "paragraph_hash_recomputation_failures": 0,
+    "record_provenance_snapshot_mismatches": 0,
+    "exact_restricted_paragraph_leak_count": 0,
+    "semantic_hardening_complete": true
   }
 }
