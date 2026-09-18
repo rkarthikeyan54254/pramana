@@ -21,6 +21,8 @@ jobs:
         run: make mahaperiyava-retrieval-gate
       - name: Mahaperiyava grounded answer backend
         run: make mahaperiyava-grounded-answer-gate
+      - name: Mahaperiyava mobile-first product UI
+        run: make mahaperiyava-product-ui-gate
       - name: Moat/trust gates
         run: make moat-proof-gate
       - name: Build file-level rights matrix

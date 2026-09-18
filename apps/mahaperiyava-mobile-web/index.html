@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7f2e8">
+  <title>Pramāṇa · Mahaperiyava</title>
+  <link rel="manifest" href="/mahaperiyava/manifest.webmanifest">
+  <link rel="stylesheet" href="/mahaperiyava/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div><div class="eyebrow">PRAMĀṆA</div><h1>Mahaperiyava</h1></div>
+      <span class="trust">Evidence-first</span>
+    </header>
+
+    <main>
+      <section id="homeView" class="view active">
+        <article class="card hero">
+          <div class="eyebrow">DEIVATHIN KURAL · VOLUMES 1–7</div>
+          <h2>Ask with the source one tap away.</h2>
+          <p class="muted">Grounded in public-safe teaching metadata. Curator summaries are not quotations.</p>
+          <button class="primary" data-nav="ask">Ask a question</button>
+        </article>
+        <article class="card">
+          <h3>Trust contract</h3>
+          <ul>
+            <li>Never speaks as Mahaperiyava.</li>
+            <li>Every substantive answer idea carries evidence IDs.</li>
+            <li>Unsupported questions abstain instead of improvising.</li>
+            <li>Present-day application stays separate from attested teaching.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="askView" class="view">
+        <article class="card">
+          <h2>Ask</h2>
+          <form id="askForm">
+            <label for="questionInput">Your question</label>
+            <textarea id="questionInput" rows="4" required placeholder="What does Mahaperiyava say about compassion?"></textarea>
+            <div class="voice-row">
+              <button id="micButton" type="button" class="secondary" aria-pressed="false">🎙 Dictate</button>
+              <select id="speechLanguage" aria-label="Dictation language">
+                <option value="en-IN">English (India)</option>
+                <option value="ta-IN">தமிழ்</option>
+              </select>
+              <span id="voiceStatus" class="muted small">Transcript stays editable and is never auto-submitted.</span>
+            </div>
+            <button id="askButton" class="primary" type="submit">Find grounded answer</button>
+          </form>
+        </article>
+        <div id="answerRegion" aria-live="polite"></div>
+      </section>
+
+      <section id="exploreView" class="view">
+        <article class="card">
+          <h2>Explore</h2>
+          <p class="muted">Prompts only — answers are retrieved when you ask.</p>
+          <div id="promptGrid" class="prompt-grid"></div>
+        </article>
+      </section>
+
+      <section id="savedView" class="view">
+        <article class="card">
+          <div class="row"><h2>Saved</h2><button id="clearSaved" class="text-button" type="button">Clear</button></div>
+          <div id="savedList"></div>
+        </article>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Primary">
+      <button class="nav active" data-nav="home">Home</button>
+      <button class="nav" data-nav="ask">Ask</button>
+      <button class="nav" data-nav="explore">Explore</button>
+      <button class="nav" data-nav="saved">Saved</button>
+    </nav>
+  </div>
+
+  <template id="evidenceTemplate">
+    <details class="evidence-card">
+      <summary><span class="evidence-title"></span><span class="authority"></span></summary>
+      <div class="evidence-body">
+        <p class="evidence-summary"></p>
+        <p class="evidence-meta muted small"></p>
+        <p class="context-note small" hidden>Context flag present — read with the historical/social framing shown by the corpus.</p>
+      </div>
+    </details>
+  </template>
+
+  <script src="/mahaperiyava/app.js" defer></script>
+</body>
+</html>

@@ -263,3 +263,10 @@ mahaperiyava-grounded-answer-gate:
 	$(PYTHON) -m pytest -q tests/test_mahaperiyava_grounded_answer.py
 	$(PYTHON) tests/test_mahaperiyava_answer_api.py
 	@echo "mahaperiyava-grounded-answer-gate: GREEN"
+
+# Mahaperiyava Phase 10 mobile-first UI and editable voice-input contract.
+mahaperiyava-product-ui-gate:
+	$(PYTHON) scripts/eval_mahaperiyava_product_ui.py --output data/review/mahaperiyava_product_ui_checkpoint.json
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_product_ui.py
+	$(PYTHON) tests/test_mahaperiyava_product_ui_http.py
+	@echo "mahaperiyava-product-ui-gate: GREEN"

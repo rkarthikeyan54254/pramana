@@ -1,0 +1,9 @@
+{
+  "name": "Pramāṇa · Mahaperiyava",
+  "short_name": "Pramāṇa",
+  "start_url": "/mahaperiyava",
+  "display": "standalone",
+  "background_color": "#f7f2e8",
+  "theme_color": "#f7f2e8",
+  "description": "Evidence-first Mahaperiyava question answering over Deivathin Kural V1-V7."
+}

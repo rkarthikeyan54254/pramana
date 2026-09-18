@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_PRODUCT_UI_FOUNDATION",
+  "status": "PHASE10_PRODUCT_UI_READY_FOR_USER_TRIAL",
+  "decision": "begin_user_trial_and_iterate_product_quality",
+  "scope": "Mobile-first local web UI for the Phase 9 grounded-answer API, with evidence drawer, Explore/Saved views, and optional editable dictation.",
+  "checks": {
+    "four_views_present": true,
+    "evidence_drawer_present": true,
+    "answer_api_connected": true,
+    "save_local_only": true,
+    "voice_transcript_editable": true,
+    "voice_never_auto_submits": true,
+    "no_tts": true,
+    "mobile_layout": true,
+    "standalone_manifest": true,
+    "no_external_ui_network_assets": true,
+    "restricted_source_text_exposed": false,
+    "authority_promotions": 0
+  },
+  "voice_contract": {
+    "mode": "optional_browser_dictation",
+    "supported_languages": [
+      "en-IN",
+      "ta-IN"
+    ],
+    "auto_submit": false,
+    "transcript_editable": true,
+    "text_fallback": true,
+    "text_to_speech_enabled": false,
+    "note": "Browser dictation is only an input convenience. A local Whisper backend can replace it later without changing the answer/evidence contract."
+  },
+  "rights": {
+    "mahaperiyava_photo_included": false,
+    "reason": "No image is shipped until a real photograph has explicit provenance and reuse rights."
+  },
+  "trust_boundary": {
+    "restricted_source_text_sent_to_ui": false,
+    "curator_summaries_presented_as_quotes": false,
+    "generated_prose_enters_corpus": false,
+    "publication_approval_implied": false
+  }
+}
