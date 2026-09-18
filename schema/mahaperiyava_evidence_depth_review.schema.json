@@ -1,0 +1,193 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/pramana/mahaperiyava_evidence_depth_review.schema.json",
+  "title": "Pramana Mahaperiyava evidence-depth item review",
+  "description": "Public-safe item-level evidence adjudication metadata. Exact restricted source wording is intentionally absent.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "review_id",
+    "teaching_id",
+    "review_stage",
+    "authority_before",
+    "authority_after",
+    "decision",
+    "review_method",
+    "evidence",
+    "guardrails",
+    "reviewer",
+    "reviewed_at"
+  ],
+  "properties": {
+    "version": {
+      "const": "1.0"
+    },
+    "review_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "teaching_id": {
+      "type": "string",
+      "pattern": "^mahaperiyava\\.deivathin_kural\\.v[1-7]\\."
+    },
+    "review_stage": {
+      "enum": [
+        "dk_print_check",
+        "earlier_witness_check",
+        "primary_source_check"
+      ]
+    },
+    "authority_before": {
+      "enum": [
+        "unreviewed",
+        "dk_attested",
+        "dk_print_checked",
+        "earlier_witness_supported",
+        "primary_source_verified",
+        "unattested"
+      ]
+    },
+    "authority_after": {
+      "enum": [
+        "unreviewed",
+        "dk_attested",
+        "dk_print_checked",
+        "earlier_witness_supported",
+        "primary_source_verified",
+        "unattested"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "supported",
+        "not_supported",
+        "conflict",
+        "insufficient_evidence",
+        "deferred"
+      ]
+    },
+    "review_method": {
+      "const": "manual_item_level"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_key",
+          "witness_role",
+          "locus",
+          "snapshot_sha256",
+          "relation_to_dk",
+          "match_level",
+          "rights_status"
+        ],
+        "properties": {
+          "source_key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "witness_role": {
+            "enum": [
+              "print_reference",
+              "earlier_secondary",
+              "primary_candidate",
+              "primary"
+            ]
+          },
+          "locus": {
+            "type": "string",
+            "minLength": 1
+          },
+          "snapshot_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "source_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "relation_to_dk": {
+            "enum": [
+              "same_compilation_print",
+              "earlier_attestation",
+              "possible_ancestor",
+              "independent_primary",
+              "dependency_unknown"
+            ]
+          },
+          "match_level": {
+            "enum": [
+              "exact_wording",
+              "close_paraphrase",
+              "same_claim",
+              "partial_match",
+              "topic_only",
+              "conflict"
+            ]
+          },
+          "rights_status": {
+            "type": "string",
+            "minLength": 1
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "guardrails": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_text_embedded",
+        "verbatim_wording_claimed",
+        "primary_source_claimed_without_primary_evidence",
+        "external_factual_truth_claimed",
+        "machine_similarity_grants_authority",
+        "majority_vote_grants_authority"
+      ],
+      "properties": {
+        "source_text_embedded": {
+          "const": false
+        },
+        "verbatim_wording_claimed": {
+          "type": "boolean"
+        },
+        "primary_source_claimed_without_primary_evidence": {
+          "const": false
+        },
+        "external_factual_truth_claimed": {
+          "const": false
+        },
+        "machine_similarity_grants_authority": {
+          "const": false
+        },
+        "majority_vote_grants_authority": {
+          "const": false
+        }
+      }
+    },
+    "reviewer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

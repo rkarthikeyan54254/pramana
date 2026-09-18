@@ -244,3 +244,9 @@ dk-semantic-hardening-gate:
 		tests/test_mahaperiyava_dk_v4_v6_semantic_hardening.py \
 		tests/test_mahaperiyava_dk_v1_v7_semantic_quality.py
 	@echo "dk-semantic-hardening-gate: GREEN"
+
+# Mahaperiyava evidence-depth authority gate. No collection-level or machine-only promotion.
+mahaperiyava-evidence-depth-gate:
+	$(PYTHON) scripts/validate_mahaperiyava_evidence_depth.py
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_evidence_depth_foundation.py
+	@echo "mahaperiyava-evidence-depth-gate: GREEN"

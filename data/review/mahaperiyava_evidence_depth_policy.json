@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "purpose": "Fail-closed authority promotion from DK attestation into deeper print, historical-witness, and primary-source evidence.",
+  "principles": {
+    "item_level_review_required": true,
+    "collection_lineage_never_auto_promotes_claims": true,
+    "machine_similarity_never_grants_authority": true,
+    "majority_vote_never_grants_authority": true,
+    "source_text_stays_restricted": true,
+    "public_review_artifacts_are_metadata_only": true,
+    "print_check_is_not_primary_source_verification": true,
+    "earlier_witness_support_is_not_verbatim_primary_wording": true,
+    "no_transitive_authority_promotion": true,
+    "publication_approval_is_separate": true
+  },
+  "stages": {
+    "dk_print_check": {
+      "may_establish": "dk_print_checked",
+      "required_witness_role": "print_reference",
+      "minimum_evidence": [
+        "specific DK print edition identity",
+        "item-level page/locus",
+        "pinned snapshot SHA-256",
+        "manual same-teaching comparison",
+        "no unresolved material conflict"
+      ]
+    },
+    "earlier_witness_check": {
+      "may_establish": "earlier_witness_supported",
+      "required_witness_role": "earlier_secondary",
+      "minimum_evidence": [
+        "demonstrably earlier witness",
+        "item-level locus",
+        "pinned snapshot SHA-256",
+        "manual same-claim/close-paraphrase comparison",
+        "source-lineage/dependency recorded"
+      ],
+      "does_not_claim": [
+        "verbatim oral wording",
+        "independence unless separately established",
+        "primary-source status"
+      ]
+    },
+    "primary_source_check": {
+      "may_establish": "primary_source_verified",
+      "required_witness_role": "primary",
+      "minimum_evidence": [
+        "underlying source identity verified",
+        "direct primary relationship established",
+        "item-level locus",
+        "pinned snapshot SHA-256",
+        "manual same-claim comparison"
+      ]
+    }
+  },
+  "authority_model": {
+    "single_record_label_represents_highest_established_evidence_class": true,
+    "print_and_earlier_witness_dimensions_remain_preserved_in_provenance": true,
+    "dk_print_checked_is_not_a_prerequisite_for_earlier_witness_supported": true,
+    "primary_source_verified_requires_primary_source_status_verified": true
+  },
+  "pilot": {
+    "phase": "foundation_before_product_phases_8_9_10",
+    "existing_promotions_to_revalidate": 33,
+    "known_partial_match_negative_controls": 4,
+    "forward_candidate_queue_size": 30,
+    "new_authority_promotions_planned_in_foundation": 0
+  }
+}

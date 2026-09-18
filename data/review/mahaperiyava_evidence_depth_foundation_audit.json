@@ -1,0 +1,153 @@
+{
+  "version": "1.0",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "foundation_result": "PASS",
+  "baseline_commit": "eb655bda770400a247c8b25b008bf60ee46d062c",
+  "checks": {
+    "teaching_record_count": 3368,
+    "existing_earlier_witness_supported_count": 33,
+    "legacy_placeholder_hash_repairs": 9,
+    "earlier_witness_supported_with_pinned_item_level_evidence_after_repair": 33,
+    "known_partial_match_negative_controls": 4,
+    "negative_controls_still_dk_attested": true,
+    "new_authority_promotions": 0,
+    "dk_print_checked_count": 0,
+    "primary_source_verified_count": 0,
+    "forward_candidate_queue_count": 30,
+    "all_volumes_represented_in_queue": true,
+    "restricted_source_text_embedded": false,
+    "publication_approved": false,
+    "legacy_missing_provenance_url_repairs": 2
+  },
+  "provenance_hash_repairs": [
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.restless_mind_obstructs_meditation",
+      "source_key": "acharya-upanyasangal-part2-1957-58-scan",
+      "old_snapshot_sha256": "PLACEHOLDER_SHA256_NEEDS_FETCH",
+      "new_snapshot_sha256": "eaf06d8936fb3b160a279b388ec0e2ef408be49c416618bf8bfb9d038f4a31e1",
+      "authority_before": "earlier_witness_supported",
+      "authority_after": "earlier_witness_supported",
+      "authority_changed": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.ahimsai.respond_to_wrongdoing_without_hatred",
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "old_snapshot_sha256": "PLACEHOLDER_SHA256_NEEDS_FETCH",
+      "new_snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+      "authority_before": "earlier_witness_supported",
+      "authority_after": "earlier_witness_supported",
+      "authority_changed": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.ahimsai.sannyasi_bound_to_radical_ahimsa",
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "old_snapshot_sha256": "PLACEHOLDER_SHA256_NEEDS_FETCH",
+      "new_snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+      "authority_before": "earlier_witness_supported",
+      "authority_after": "earlier_witness_supported",
+      "authority_changed": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.ahimsai.contextual_exceptions_to_absolute_ahimsa",
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "old_snapshot_sha256": "PLACEHOLDER_SHA256_NEEDS_FETCH",
+      "new_snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+      "authority_before": "earlier_witness_supported",
+      "authority_after": "earlier_witness_supported",
+      "authority_changed": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.ahimsai.critique_of_universal_absolute_ahimsa",
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "old_snapshot_sha256": "PLACEHOLDER_SHA256_NEEDS_FETCH",
+      "new_snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+      "authority_before": "earlier_witness_supported",
+      "authority_after": "earlier_witness_supported",
+      "authority_changed": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.sathiyam.truth_must_be_beneficial_not_merely_literal",
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "old_snapshot_sha256": "PLACEHOLDER_SHA256_NEEDS_FETCH",
+      "new_snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+      "authority_before": "earlier_witness_supported",
+      "authority_after": "earlier_witness_supported",
+      "authority_changed": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.paropakaram.tirukkural_and_vedic_duty_interpretation",
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "old_snapshot_sha256": "PLACEHOLDER_SHA256_NEEDS_FETCH",
+      "new_snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+      "authority_before": "earlier_witness_supported",
+      "authority_after": "earlier_witness_supported",
+      "authority_changed": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.imperishable_love_should_rest_in_paramatman",
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "old_snapshot_sha256": "PLACEHOLDER_SHA256_NEEDS_FETCH",
+      "new_snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+      "authority_before": "earlier_witness_supported",
+      "authority_after": "earlier_witness_supported",
+      "authority_changed": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.see_all_beings_as_paramatman",
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "old_snapshot_sha256": "PLACEHOLDER_SHA256_NEEDS_FETCH",
+      "new_snapshot_sha256": "ace3c1cca4c3077d9e15080365741f541d471274c28d11e07d85f2b372901f7e",
+      "authority_before": "earlier_witness_supported",
+      "authority_after": "earlier_witness_supported",
+      "authority_changed": false
+    }
+  ],
+  "negative_controls": [
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.vinayagar.ganesha_as_pranava_form",
+      "review_status": "partial_match_not_sufficient",
+      "authority": "dk_attested",
+      "authority_correctly_not_promoted": true
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+      "review_status": "partial_match_not_sufficient",
+      "authority": "dk_attested",
+      "authority_correctly_not_promoted": true
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.karma_and_bhakti_as_mind_purification",
+      "review_status": "partial_match_not_sufficient",
+      "authority": "dk_attested",
+      "authority_correctly_not_promoted": true
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.swami_etharku_advaitam_amaithikke.selfless_duty_purifies_chitta",
+      "review_status": "partial_match_not_sufficient",
+      "authority": "dk_attested",
+      "authority_correctly_not_promoted": true
+    }
+  ],
+  "guardrail": "The nine SHA repairs replace literal placeholder hashes with hashes already pinned in sources/manifest.json. The two URL repairs add the manifest-pinned source URL to legacy carry-forward earlier-secondary provenance entries. Neither repair adds new evidence, alters claim summaries, or promotes authority.",
+  "provenance_url_repairs": [
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.alaya_vazhipadu.temple_as_communal_gratitude_and_offering",
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "witness_role": "earlier_secondary",
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-1.pdf",
+      "authority_before": "earlier_witness_supported",
+      "authority_after": "earlier_witness_supported",
+      "authority_changed": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.alaya_vazhipadu.regular_attendance_sustains_temple_worship",
+      "source_key": "acharya-upanyasangal-part1-1957-58-scan",
+      "witness_role": "earlier_secondary",
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-1.pdf",
+      "authority_before": "earlier_witness_supported",
+      "authority_after": "earlier_witness_supported",
+      "authority_changed": false
+    }
+  ]
+}

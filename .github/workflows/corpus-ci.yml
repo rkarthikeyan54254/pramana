@@ -15,6 +15,8 @@ jobs:
       - run: pip install jsonschema indic-transliteration pytest
       - name: Deivathin Kural semantic hardening
         run: make dk-semantic-hardening-gate
+      - name: Mahaperiyava evidence-depth authority gate
+        run: make mahaperiyava-evidence-depth-gate
       - name: Moat/trust gates
         run: make moat-proof-gate
       - name: Build file-level rights matrix

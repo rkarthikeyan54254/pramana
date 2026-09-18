@@ -486,6 +486,170 @@
           }
         }
       }
+    },
+    {
+      "$comment": "Evidence-depth gate: dk_print_checked requires a confirmed, pinned print witness.",
+      "if": {
+        "properties": {
+          "evidence_status": {
+            "properties": {
+              "authority": {
+                "const": "dk_print_checked"
+              }
+            },
+            "required": [
+              "authority"
+            ]
+          }
+        },
+        "required": [
+          "evidence_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "evidence_status": {
+            "properties": {
+              "print_check": {
+                "const": "confirmed"
+              }
+            },
+            "required": [
+              "print_check"
+            ]
+          },
+          "provenance": {
+            "contains": {
+              "type": "object",
+              "properties": {
+                "witness_role": {
+                  "const": "print_reference"
+                },
+                "snapshot_sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "locus": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "witness_role",
+                "snapshot_sha256",
+                "locus"
+              ]
+            },
+            "minContains": 1
+          }
+        }
+      }
+    },
+    {
+      "$comment": "Evidence-depth gate: earlier_witness_supported requires a pinned item-level earlier witness.",
+      "if": {
+        "properties": {
+          "evidence_status": {
+            "properties": {
+              "authority": {
+                "const": "earlier_witness_supported"
+              }
+            },
+            "required": [
+              "authority"
+            ]
+          }
+        },
+        "required": [
+          "evidence_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "provenance": {
+            "contains": {
+              "type": "object",
+              "properties": {
+                "witness_role": {
+                  "const": "earlier_secondary"
+                },
+                "snapshot_sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "locus": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "witness_role",
+                "snapshot_sha256",
+                "locus"
+              ]
+            },
+            "minContains": 1
+          }
+        }
+      }
+    },
+    {
+      "$comment": "Evidence-depth gate: primary_source_verified requires verified primary provenance.",
+      "if": {
+        "properties": {
+          "evidence_status": {
+            "properties": {
+              "authority": {
+                "const": "primary_source_verified"
+              }
+            },
+            "required": [
+              "authority"
+            ]
+          }
+        },
+        "required": [
+          "evidence_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "evidence_status": {
+            "properties": {
+              "primary_source_status": {
+                "const": "verified"
+              }
+            },
+            "required": [
+              "primary_source_status"
+            ]
+          },
+          "provenance": {
+            "contains": {
+              "type": "object",
+              "properties": {
+                "witness_role": {
+                  "const": "primary"
+                },
+                "snapshot_sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "locus": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "witness_role",
+                "snapshot_sha256",
+                "locus"
+              ]
+            },
+            "minContains": 1
+          }
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "semantic_frontier_commit": "eb655bda770400a247c8b25b008bf60ee46d062c",
+  "semantic_frontier_tag": "mahaperiyava-deivathin-kural-v7-semantic-complete",
+  "teaching_record_count": 3368,
+  "volume_counts": {
+    "1": 927,
+    "2": 673,
+    "3": 370,
+    "4": 457,
+    "5": 345,
+    "6": 254,
+    "7": 342
+  },
+  "authority_counts": {
+    "dk_attested": 3335,
+    "earlier_witness_supported": 33
+  },
+  "evidence_depth_state": {
+    "dk_attested": 3335,
+    "dk_print_checked": 0,
+    "earlier_witness_supported": 33,
+    "primary_source_verified": 0
+  },
+  "publication_approved": false,
+  "source_text_included": false
+}

@@ -1,0 +1,641 @@
+{
+  "version": "1.0",
+  "corpus": "mahaperiyava_teachings",
+  "work": "deivathin_kural",
+  "baseline_commit": "eb655bda770400a247c8b25b008bf60ee46d062c",
+  "queue_type": "bounded_forward_evidence_depth_candidates",
+  "selection_policy": {
+    "all_volumes_represented": true,
+    "volume_distribution": {
+      "1": 6,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 4
+    },
+    "prioritize_context_or_external_verification_flags_where_present": true,
+    "otherwise_use_broad_chapter_quantiles": true,
+    "authority_required_at_queue_time": "dk_attested",
+    "queue_does_not_itself_change_authority": true
+  },
+  "count": 30,
+  "items": [
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.kariyathil_bedhamum_mano_bedhamum.equality_projects_and_competition_critique",
+      "volume": 1,
+      "chapter_ordinal": 34,
+      "chapter_title_ta": "காரியத்தில் பேதமும் மனோ பேதமும்",
+      "current_authority": "dk_attested",
+      "claim_summary": "The chapter argues that attempts to eliminate inherited distinctions do not eliminate hierarchy, competition, envy, or status differences in other societies.",
+      "claim_summary_sha256": "b36d24627166fe13086e4c83259597234a8696cc3cfc0b7933714d864afc94be",
+      "record_metadata_sha256": "d79840ade07a77212dbf76d78392c902acae1fe7038089e22db5a8c1b36065d1",
+      "flags": [
+        "caste_varna_normative_claim",
+        "social_generalization",
+        "political_historical_claim"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: caste_varna_normative_claim, social_generalization, political_historical_claim",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.veda_rakshanam_aayutkala_thozhil.mantra_effect_examples_and_conditions",
+      "volume": 1,
+      "chapter_ordinal": 38,
+      "chapter_title_ta": "வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "current_authority": "dk_attested",
+      "claim_summary": "Examples involving ritual rain, healing, mantra practice, plants, and sound-generated forms are cited as support for mantra efficacy, with failures explained through karma or improper observance.",
+      "claim_summary_sha256": "0588cb9aaf6e7449c2f14a16b64b5c81f14ec2b1031c2002fc84170c698bdf08",
+      "record_metadata_sha256": "f91e437ab4ccc9b19b7300c3b81de65a937421cb6d77b40d9a687bc15eb32c81",
+      "flags": [
+        "scientific_claim_requires_external_verification",
+        "medical_or_effect_claim_attributed_only",
+        "causal_claim_attributed_only",
+        "hagiographic_tradition"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: scientific_claim_requires_external_verification, medical_or_effect_claim_attributed_only, causal_claim_attributed_only, hagiographic_tradition",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.vettrumaiyil_otrumai.community_belonging_and_jati_exclusion",
+      "volume": 1,
+      "chapter_ordinal": 33,
+      "chapter_title_ta": "வேற்றுமையில் ஒற்றுமை",
+      "current_authority": "dk_attested",
+      "claim_summary": "The seriousness of exclusion from one's jati is used as evidence for strong internal belonging and mutual attachment within traditional communities.",
+      "claim_summary_sha256": "2ba630011cc412343e84407f9426f99309b4373adca53fa38ec5edce9d65a166",
+      "record_metadata_sha256": "1a057afc752099c862711465f10383a3139bee2e5124717a84fc1534e0960dcc",
+      "flags": [
+        "caste_varna_normative_claim",
+        "historical_claim_requires_external_verification",
+        "social_generalization"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: caste_varna_normative_claim, historical_claim_requires_external_verification, social_generalization",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.dharmame_thalaikakkum.dharma_protects_through_hardship",
+      "volume": 1,
+      "chapter_ordinal": 21,
+      "chapter_title_ta": "தர்மமே தலைக்காக்கும்",
+      "current_authority": "dk_attested",
+      "claim_summary": "Using Rama's exile and victory as an illustration, the chapter teaches that hardship should be met within dharma and that dharma ultimately protects the one who protects it.",
+      "claim_summary_sha256": "b332eb1806edfab715ecfc3a72738606ddef66dddd536e0ce55ee494d03b1cce",
+      "record_metadata_sha256": "b439e318afab7be69c9f4c920d111f0ba3e8896cc28d0234b07b9ec5d7ec845b",
+      "flags": [],
+      "priority_reason": "Coverage sample from Volume 1 for print/earlier-witness item-level review.",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.ellum_thanneerum_enge_poyina.skepticism_about_shraddha_mechanism",
+      "volume": 1,
+      "chapter_ordinal": 51,
+      "chapter_title_ta": "எள்ளும் தண்ணீரும் எங்கே போயின?",
+      "current_authority": "dk_attested",
+      "claim_summary": "The chapter acknowledges the objection that physical offerings remain locally visible and asks how they could benefit ancestors who are no longer physically present.",
+      "claim_summary_sha256": "e16ddc5df910d8bc3cfa7ab0c51880ff744860dd0de1360118e0c76dd91dafb5",
+      "record_metadata_sha256": "9dd13b1864d1178b935613c49acb76f9cd7d563c2ce12c369a74a7ec9e2b45be",
+      "flags": [
+        "traditional_ritual_claim",
+        "source_decode_replacement"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: traditional_ritual_claim, source_decode_replacement",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.daily_meditation_alongside_karma",
+      "volume": 1,
+      "chapter_ordinal": 86,
+      "chapter_title_ta": "veliye karmam ulle dhyanam",
+      "current_authority": "dk_attested",
+      "claim_summary": "At the beginner stage, karma, devotion, and meditation are to be practiced together, with at least a short daily period of quiet meditation while ritual discipline continues.",
+      "claim_summary_sha256": "cf85c700d718ce23d5ca63bf0f12378b2191df1b6a8cf3385aaa7aaadda66a62",
+      "record_metadata_sha256": "716d9146704f37bec265aac98798ac59835fc26187f24098b72b7c8c57530792",
+      "flags": [
+        "traditional_normative_claim",
+        "traditional_yogic_claim"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: traditional_normative_claim, traditional_yogic_claim",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v2.c177.source_rejects_artificial_family_planning_and_speculates_physical_labor_affects_child_sex_ratio",
+      "volume": 2,
+      "chapter_ordinal": 177,
+      "chapter_title_ta": "குடும்பக் கட்டுப்பாடும் பெண் தொகைப் பெருக்கமும்",
+      "current_authority": "dk_attested",
+      "claim_summary": "The source advocates dietary and periodic abstinence as alternatives to artificial family planning and advances a speculative theory that reduced physical labor among Brahmins increased female births and thereby contributed to dowry; these demographic and biological claims are unverified and context-sensitive.",
+      "claim_summary_sha256": "e8c3eb0ead979e582b726d586ea0f8cfa8149a3869bfcfd18dd717a8415221fc",
+      "record_metadata_sha256": "1980c81cec4a4c013557fc78f5f48cf291ff28f280ebf16bb75212dcd2ef9d94",
+      "flags": [
+        "medical_or_reproductive_claim_requires_external_verification",
+        "scientific_claim_requires_external_verification",
+        "gender_discriminatory_norm_requires_context",
+        "caste_varna_sensitive_claim",
+        "potentially_harmful_historical_advice"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: medical_or_reproductive_claim_requires_external_verification, scientific_claim_requires_external_verification, gender_discriminatory_norm_requires_context, caste_varna_sensitive_claim",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v2.c060.rain_social_order_and_womens_chastity_are_linked_to_vedic_recitation_just_rule_and_early_marriage",
+      "volume": 2,
+      "chapter_ordinal": 60,
+      "chapter_title_ta": "என் கடமை",
+      "current_authority": "dk_attested",
+      "claim_summary": "A traditional verse is interpreted as linking regular rain to Vedic recitation, just kingship and women's chastity; the source then defends child marriage, criticizes coeducation and women's employment, and discusses generating public opinion to reverse marriage-age law, while claiming Vedic restoration would also improve political and sexual morality.",
+      "claim_summary_sha256": "979cc1cd72da12313802bcccb86a35e3487a49ba72eea93074892140feaa21de",
+      "record_metadata_sha256": "63111c3aaa1d2d34847268338453240c89bcdd38dfdae56ef0637cb143e78c42",
+      "flags": [
+        "scientific_or_environmental_effect_claim_attributed_only",
+        "caste_varna_normative_claim",
+        "gender_discriminatory_norm_requires_context",
+        "child_marriage_advocacy_historical_claim",
+        "political_normative_claim",
+        "potentially_harmful_historical_advice",
+        "historical_legal_claim_requires_external_verification"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: scientific_or_environmental_effect_claim_attributed_only, caste_varna_normative_claim, gender_discriminatory_norm_requires_context, child_marriage_advocacy_historical_claim",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v2.c014.advaita_is_presented_as_final_stage_that_can_include_other_vedanta_views",
+      "volume": 2,
+      "chapter_ordinal": 14,
+      "chapter_title_ta": "வேதத்தின் முடிவும் சங்கரரின் முடிவும் ஒன்றே",
+      "current_authority": "dk_attested",
+      "claim_summary": "Self-inquiry is presented as revealing the identity of jiva and Brahman, while dualist and qualified-nondualist teachings are treated as meaningful intermediate standpoints that can be connected to the final Advaitic conclusion.",
+      "claim_summary_sha256": "e06ab3532d605977a2e8a38b88a9a13bee3138d3910cc820150a35697950cb19",
+      "record_metadata_sha256": "ae1074e8f8c592959913940d557cf192928b436865f45605ab8cbbcfd0914f6c",
+      "flags": [
+        "religious_comparison_attributed_only",
+        "historical_textual_claim_requires_external_verification"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: religious_comparison_attributed_only, historical_textual_claim_requires_external_verification",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v2.c049.realized_sages_are_presented_as_benefiting_the_world_without_formal_ritual",
+      "volume": 2,
+      "chapter_ordinal": 49,
+      "chapter_title_ta": "வேதமும் வேதாந்தமும் முரணானவையா ?",
+      "current_authority": "dk_attested",
+      "claim_summary": "The realized sage is portrayed as no longer needing formal yajna because divine grace is said to flow through the sage's very presence; this is used to argue that Hindu pursuit of liberation need not be opposed to collective welfare.",
+      "claim_summary_sha256": "8c57e12fc32ff66cbbfad1876d2e724abc40b43b63a1b5cded67378b26a82c39",
+      "record_metadata_sha256": "9b968737aa598098b2eef8a1b87d82da5fe0a766cf1d4c58f92da81d9ddf5057",
+      "flags": [
+        "theological_causation_not_external_fact",
+        "religious_comparison_attributed_only"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: theological_causation_not_external_fact, religious_comparison_attributed_only",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v3.c080.plural_deity_ancestor_practices_finally_gradual_pedagogy",
+      "volume": 3,
+      "chapter_ordinal": 80,
+      "chapter_title_ta": "கண்டனமே பாராட்டு !1",
+      "current_authority": "dk_attested",
+      "claim_summary": "Plural deity and ancestor practices are finally presented as a gradual pedagogy suited to different levels of spiritual maturity, including village-deity traditions attributed to women and the fourth varna; claims that propitiation prevents disease or calamity remain historical religious assertions, not medical or scientific facts.",
+      "claim_summary_sha256": "4b6b399669274e9ab3f7d4a3905fa893a0c1ae2479846fb37f6aac257fe6da11",
+      "record_metadata_sha256": "3c8b69d5168409e504ff84a57f2b8b0ab458ee78392bafcc861a5ea3cd244266",
+      "flags": [
+        "caste_varna_sensitive_claim",
+        "gendered_norm_requires_context",
+        "supernatural_claim_attributed_only",
+        "medical_or_effect_claim_attributed_only",
+        "scientific_or_environmental_effect_claim_attributed_only",
+        "historical_textual_claim_requires_external_verification"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: caste_varna_sensitive_claim, gendered_norm_requires_context, supernatural_claim_attributed_only, medical_or_effect_claim_attributed_only",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v3.c121.traditional_purity_rules_defended_claims_about_germs",
+      "volume": 3,
+      "chapter_ordinal": 121,
+      "chapter_title_ta": "விஞ்ஞானத்துக்குக் கட்டுப்பட்டதல்ல",
+      "current_authority": "dk_attested",
+      "claim_summary": "Traditional purity rules are defended through claims about germs, psychological or parapsychological 'waves', aura, menstruation, ritual impurity and the Ganges; these combine historical religious doctrine with scientific-sounding assertions that require independent verification and strong health context.",
+      "claim_summary_sha256": "aa0574aa017d5643881e6ada4c18280677291fc68c45a027a8f7100a9743c85a",
+      "record_metadata_sha256": "5e9906d03116eed7a95c16a42be79e444ac925d07952b1cc3f5f6830dc5f5e20",
+      "flags": [
+        "scientific_claim_requires_external_verification",
+        "medical_or_effect_claim_attributed_only",
+        "gendered_purity_norm_requires_context",
+        "supernatural_claim_attributed_only",
+        "potentially_harmful_historical_advice"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: scientific_claim_requires_external_verification, medical_or_effect_claim_attributed_only, gendered_purity_norm_requires_context, supernatural_claim_attributed_only",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v3.c030.vedic_sacrifice_interpreted_training_self_surrender_even",
+      "volume": 3,
+      "chapter_ordinal": 30,
+      "chapter_title_ta": "தான எண்ணத்தையும் தானம் செய்க!",
+      "current_authority": "dk_attested",
+      "claim_summary": "Vedic sacrifice is interpreted as training in self-surrender, and even the pride of being a donor or social worker is presented as something that must itself be relinquished.",
+      "claim_summary_sha256": "1e0e0706ddefd4075e7d60264f7b93817d6bebfbca602041629f99ccee6c7f9b",
+      "record_metadata_sha256": "0ad199095c0d9c2620ed64021f8dd72c74de88f588b8e4b703f0054f797f2562",
+      "flags": [
+        "religious_interpretation_attributed_only",
+        "religious_normative_claim"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: religious_interpretation_attributed_only, religious_normative_claim",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v3.c087.person_urged_follow_inherited_religious_customs_community",
+      "volume": 3,
+      "chapter_ordinal": 87,
+      "chapter_title_ta": "பிறந்த குலாசாரமே உய்நெறி",
+      "current_authority": "dk_attested",
+      "claim_summary": "A person is urged to follow the inherited religious customs of the community into which one is born rather than choosing a path solely by present preference.",
+      "claim_summary_sha256": "600d55a5a9383688448faa698ed2ab649d3fec85fe348840ba023286b8442db3",
+      "record_metadata_sha256": "5bf3c3bb52275c71b5a4a0ecd82f91fab4e969ef83513b785f22093ed20d1d0a",
+      "flags": [
+        "caste_varna_normative_claim",
+        "religious_normative_claim"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: caste_varna_normative_claim, religious_normative_claim",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v4.c164.chapter_teaching",
+      "volume": 4,
+      "chapter_ordinal": 164,
+      "chapter_title_ta": "ஜாதி நாட்டாண்மை",
+      "current_authority": "dk_attested",
+      "claim_summary": "Occupational and social groups are described as having forms of self-government within a larger polity, an attributed historical account that also reflects a caste-organized social order requiring context.",
+      "claim_summary_sha256": "b2947fb04663277db58471cfc72d555c9e07c3896046a656abaa6e849f8f2f5f",
+      "record_metadata_sha256": "63ea8b1aba9f821eee03f51e0dcc1e29443042d4af94b7eac1d48c84ee3f98ca",
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "caste_varna_sensitive_claim",
+        "political_social_claim_requires_context",
+        "caste_varna_normative_claim"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: historical_claim_requires_external_verification, caste_varna_sensitive_claim, political_social_claim_requires_context, caste_varna_normative_claim",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v4.c176.chapter_teaching",
+      "volume": 4,
+      "chapter_ordinal": 176,
+      "chapter_title_ta": "அந்தண – வேளாள அதிகாரிகள்",
+      "current_authority": "dk_attested",
+      "claim_summary": "Officials named in the inscription show Brahmin and Vellala participation in administration, which is used to complicate a simplistic claim that office belonged exclusively to one varna; the caste categories remain historical context.",
+      "claim_summary_sha256": "94a5c88f9692712e4af5f9c91a4e975e2af374beebd900adf0d2d887e757fea8",
+      "record_metadata_sha256": "75c19dc072f7adf9e02c3c01b65445a42291ddece5dbbd7bb0556ee6f8548322",
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "caste_varna_sensitive_claim",
+        "political_social_claim_requires_context"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: historical_claim_requires_external_verification, caste_varna_sensitive_claim, political_social_claim_requires_context",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v4.c047.chapter_teaching",
+      "volume": 4,
+      "chapter_ordinal": 47,
+      "chapter_title_ta": "குரு-ஆசார்ய ஒற்றுமை-வேற்றுமை",
+      "current_authority": "dk_attested",
+      "claim_summary": "Guru and acharya overlap as guides but are not always identical categories; dharma texts distinguish their roles according to initiation, teaching, and formation of the student.",
+      "claim_summary_sha256": "eb73de25d806643e8eb83e2cbe076305de5e7fd1b1122647a9d33028d2bd9d3f",
+      "record_metadata_sha256": "741452a2bc4a03f0f0167f3844b7d512c91cdf6bed7bd5abd02a32ec71cef29d",
+      "flags": [],
+      "priority_reason": "Coverage sample from Volume 4 for print/earlier-witness item-level review.",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v4.c138.chapter_teaching",
+      "volume": 4,
+      "chapter_ordinal": 138,
+      "chapter_title_ta": "புராணம்",
+      "current_authority": "dk_attested",
+      "claim_summary": "Puranic learning is said to survive partly through public discourse, but deeper study of the full Purana corpus and other Vedic ancillary disciplines still requires organized preservation.",
+      "claim_summary_sha256": "0d7efa26e8c9585e58db22cc6c7c0d3ded5453f7b320057966cd3acb99f2172d",
+      "record_metadata_sha256": "b27f861c429a8a721b323e5796535dfd41e86432a5f45be681f07e2f1807fc92",
+      "flags": [],
+      "priority_reason": "Coverage sample from Volume 4 for print/earlier-witness item-level review.",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v5.c120.chapter_teaching",
+      "volume": 5,
+      "chapter_ordinal": 120,
+      "chapter_title_ta": "பௌத்த சமண மதங்களும் ஹிந்து மதமும்",
+      "current_authority": "dk_attested",
+      "claim_summary": "Buddhism and Jainism are compared with Hindu traditions on nonviolence, social order, and religious discipline; the resulting claims are represented as the discourse's interreligious and social argument rather than as neutral history.",
+      "claim_summary_sha256": "952c3555c133f766811e63e4f0aab96e020b428d8d339d2d30fc5b145f8d6d52",
+      "record_metadata_sha256": "d3b13aefb9579e07a60f69d9089cb6c9c66a5ac56729923a2b0ef0e3b867b33b",
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "religious_comparison_attributed_only",
+        "caste_varna_sensitive_claim",
+        "violence_requires_context"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: historical_claim_requires_external_verification, religious_comparison_attributed_only, caste_varna_sensitive_claim, violence_requires_context",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v5.c146.chapter_teaching",
+      "volume": 5,
+      "chapter_ordinal": 146,
+      "chapter_title_ta": "அந்தண குல அவதாரம்",
+      "current_authority": "dk_attested",
+      "claim_summary": "Shankara's birth in a Brahmin family is explained within the discourse's traditional varna framework as fitting a mission centered on Vedic learning and teaching, a normative caste claim requiring historical context.",
+      "claim_summary_sha256": "7168c9daae44d6889f7220dfac10c1115b5fb179da9daa4b7f90e67d9985b0d2",
+      "record_metadata_sha256": "a549d01a7f5a81169fa6b661b27bbd145afda5069730a421b0335d4f6b5c017c",
+      "flags": [
+        "hagiographic_tradition",
+        "historical_claim_requires_external_verification",
+        "caste_varna_sensitive_claim",
+        "caste_varna_normative_claim"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: hagiographic_tradition, historical_claim_requires_external_verification, caste_varna_sensitive_claim, caste_varna_normative_claim",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v5.c035.chapter_teaching",
+      "volume": 5,
+      "chapter_ordinal": 35,
+      "chapter_title_ta": "தெய்வ பக்தியும் குரு பக்தியும்",
+      "current_authority": "dk_attested",
+      "claim_summary": "Devotion to God and devotion to the guru are treated as mutually reinforcing because the guru leads the disciple toward the divine and divine grace operates through the guru.",
+      "claim_summary_sha256": "16079ec7594c3db1e677aff1e37b28f310c8a666778d46ca542d69bab4997dfb",
+      "record_metadata_sha256": "7b4d1a05cc2ba87f7b90d0c0c4a68778f3549cf3292dbc33dd4922b6b83fadc2",
+      "flags": [],
+      "priority_reason": "Coverage sample from Volume 5 for print/earlier-witness item-level review.",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v5.c098.chapter_teaching",
+      "volume": 5,
+      "chapter_ordinal": 98,
+      "chapter_title_ta": "அம்பா, மாதா: அம்மன், தாயார்",
+      "current_authority": "dk_attested",
+      "claim_summary": "The words Amba and Mata are examined as forms of 'mother,' preparing the interpretation of Lakshmi as a maternal divine figure addressed in the verse.",
+      "claim_summary_sha256": "3b475b45c3b6e4a05c0af97729fe05b385d7366854fcdab5010ed3e03a8906d4",
+      "record_metadata_sha256": "698604153d6882837b0e7195fadf49f9e92dec440917f44ef747b1f3630db944",
+      "flags": [],
+      "priority_reason": "Coverage sample from Volume 5 for print/earlier-witness item-level review.",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v6.c020.military_career_and_devotion",
+      "volume": 6,
+      "chapter_ordinal": 20,
+      "chapter_title_ta": "படைத்தலைவர் பக்தித் தொண்டரானார்!",
+      "current_authority": "dk_attested",
+      "claim_summary": "Paranjoti’s military success is narrated as inseparable from an already existing Shaiva devotion, and the victory is attributed within the hagiographic source to divine favor rather than merely to martial skill.",
+      "claim_summary_sha256": "145dd4b5d3de8997829de24d97a8aafecbac15724979f2ca3b036557b69f7e01",
+      "record_metadata_sha256": "a3e8763e7c656c25ef2160cc986c69eab831b47f6c82f1c207e7c712975038be",
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "political_social_claim_requires_context",
+        "violence_requires_context",
+        "hagiographic_tradition"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: historical_claim_requires_external_verification, political_social_claim_requires_context, violence_requires_context, hagiographic_tradition",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v6.c017.chapter_teaching",
+      "volume": 6,
+      "chapter_ordinal": 17,
+      "chapter_title_ta": "மஹேந்திர பல்லவன் கலப்பு ஜாதியா?",
+      "current_authority": "dk_attested",
+      "claim_summary": "Claims that Mahendravarman’s ancestry proves a simple ethnic or caste separation are questioned by examining dynastic, marital, and naming evidence, with conclusions kept as historical interpretation rather than settled fact.",
+      "claim_summary_sha256": "a536e7e3e7fd6ec7a6fedc038787421eb23799964907711a0aee7a773680f4e0",
+      "record_metadata_sha256": "219e94ca7eb68fa3da243e8e0684e8e3d3323ede20fbc77d6e7f43e488fd5212",
+      "flags": [
+        "historical_claim_requires_external_verification",
+        "political_social_claim_requires_context",
+        "caste_varna_sensitive_claim"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: historical_claim_requires_external_verification, political_social_claim_requires_context, caste_varna_sensitive_claim",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v6.c021.chapter_teaching",
+      "volume": 6,
+      "chapter_ordinal": 21,
+      "chapter_title_ta": "பிள்ளைக் கறி : அதன் உட்கிடைகள்",
+      "current_authority": "dk_attested",
+      "claim_summary": "The child-meat episode in the Siruthondar hagiography is interpreted as an extreme sacred test of total surrender and hospitality, a supernatural narrative that must not be read as practical endorsement of harm.",
+      "claim_summary_sha256": "d35b08905ae1f7fd791f9d97bac1d55bcbcc9185bf4b771b667ac03a850f95c2",
+      "record_metadata_sha256": "31cdd007a545af3dbd96509c3bc876022a8d4218d5bf8a87cdc86e05ea46e931",
+      "flags": [
+        "caste_varna_sensitive_claim",
+        "violence_requires_context",
+        "explicit_nonendorsement_required",
+        "supernatural_claim_attributed_only",
+        "hagiographic_tradition"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: caste_varna_sensitive_claim, violence_requires_context, explicit_nonendorsement_required, supernatural_claim_attributed_only",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v6.c071.chapter_teaching",
+      "volume": 6,
+      "chapter_ordinal": 71,
+      "chapter_title_ta": "“தேசிக” பதத்தின் சிறப்புக்கள்",
+      "current_authority": "dk_attested",
+      "claim_summary": "The title deshika is traced across Advaita, Shaiva, Vaishnava, and literary usage to emphasize the enduring idea of the teacher as one who shows the way.",
+      "claim_summary_sha256": "a6427c9244418bcf6b041c55c453abd6dc2d12b4e576505c72dfbdfde0f9cdd6",
+      "record_metadata_sha256": "38acceb814c17f09773aca6bb9efa1eaaa467142f3f835e326a435a1d2b52a5b",
+      "flags": [],
+      "priority_reason": "Coverage sample from Volume 6 for print/earlier-witness item-level review.",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v7.c247.chapter_teaching",
+      "volume": 7,
+      "chapter_ordinal": 247,
+      "chapter_title_ta": "மதத்தைக் காத்த மற்ற மாதரசியர்",
+      "current_authority": "dk_attested",
+      "claim_summary": "Jijabai and Rani Lakshmibai are invoked as women whose religious commitment is said to have helped defend Hindu society against foreign political domination; the historical and political interpretation is attributed to the discourse.",
+      "claim_summary_sha256": "54199127f3a92a7aa885e7bca0339e2241f9186d28dfaa8ecee1f4058272859e",
+      "record_metadata_sha256": "0ce704279b05da39d363b9fe0cd001208b13ee2c673ea1d5d4c8632e3572964d",
+      "flags": [
+        "gender_discriminatory_norm_requires_context",
+        "hagiographic_tradition",
+        "historical_claim_requires_external_verification",
+        "political_social_claim_requires_context",
+        "religious_comparison_attributed_only",
+        "violence_requires_context"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: gender_discriminatory_norm_requires_context, hagiographic_tradition, historical_claim_requires_external_verification, political_social_claim_requires_context",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v7.c230.chapter_teaching",
+      "volume": 7,
+      "chapter_ordinal": 230,
+      "chapter_title_ta": "கன்னடியன் கால்வாய் கர்ம வியாதியும் காயத்ரி சக்தியும்",
+      "current_authority": "dk_attested",
+      "claim_summary": "The Kannadian canal story links karma, illness and Gayatri practice in a hagiographic causal chain; medical and supernatural claims remain attributed and unverified.",
+      "claim_summary_sha256": "fd3e0278c7395c318ca6338873d067fb04abdb3fec6e4c10695f7d02516d538c",
+      "record_metadata_sha256": "5481bfd819631c877fccfb3cdb51009881d2b8d5ddaaac06cab587edf506bcf5",
+      "flags": [
+        "hagiographic_tradition",
+        "historical_claim_requires_external_verification",
+        "medical_claim_requires_external_verification",
+        "ritual_effect_claim_attributed_only",
+        "scientific_claim_requires_external_verification"
+      ],
+      "priority_reason": "High evidence-depth value because the public-safe record carries context/verification flags: hagiographic_tradition, historical_claim_requires_external_verification, medical_claim_requires_external_verification, ritual_effect_claim_attributed_only",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v7.c035.chapter_teaching",
+      "volume": 7,
+      "chapter_ordinal": 35,
+      "chapter_title_ta": "குருவின் தன்மையால் சீடன் பெறும் பயன்",
+      "current_authority": "dk_attested",
+      "claim_summary": "A qualified guru is said to raise the disciple toward the guru's own realized state, making the teacher's character and attainment crucial to discipleship.",
+      "claim_summary_sha256": "8821468c176c112509dc940e9011e544b774640d1dd0b38a391e3940cd191e1b",
+      "record_metadata_sha256": "c086537300b45f54060117decc30cef27b546169cf4043e6995d5213e7d9c5ff",
+      "flags": [],
+      "priority_reason": "Coverage sample from Volume 7 for print/earlier-witness item-level review.",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    },
+    {
+      "teaching_id": "mahaperiyava.deivathin_kural.v7.c103.chapter_teaching",
+      "volume": 7,
+      "chapter_ordinal": 103,
+      "chapter_title_ta": "சிரத்தையிலிருந்து சரணாகதி",
+      "current_authority": "dk_attested",
+      "claim_summary": "Shraddha matures into surrender when confidence in the teaching becomes willingness to place one's life under its discipline.",
+      "claim_summary_sha256": "84f1d778d13b226f25448f4608fcd78de2ecb68130d56a9f36e5c55818c484d0",
+      "record_metadata_sha256": "4e1cb931be28096844936c3d9d2a816dea496b5de5b3312abd644879219e8891",
+      "flags": [],
+      "priority_reason": "Coverage sample from Volume 7 for print/earlier-witness item-level review.",
+      "target_review_stages": [
+        "dk_print_check",
+        "earlier_witness_check"
+      ],
+      "source_text_included": false
+    }
+  ]
+}
