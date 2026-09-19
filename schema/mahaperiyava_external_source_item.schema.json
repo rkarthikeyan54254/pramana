@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/pramana/mahaperiyava_external_source_item.schema.json",
+  "title": "Pramana Mahaperiyava External Source Item",
+  "description": "Metadata-only registry item for a source outside Deivathin Kural. A registry item never grants teaching authority by itself.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "source_key",
+    "title",
+    "source_family_id",
+    "source_kind",
+    "event",
+    "url",
+    "host",
+    "official_host",
+    "language",
+    "representation",
+    "verbatim_status",
+    "independence_from_deivathin_kural",
+    "original_artifact_status",
+    "acquisition_status",
+    "candidate_for_item_level_crosslink",
+    "candidate_authority_if_item_level_provenance_is_satisfied",
+    "rights",
+    "authority_effect",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_key": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_family_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_kind": {
+      "enum": [
+        "official_digital_message",
+        "official_digital_transcription",
+        "interview_gist",
+        "editorial_preface",
+        "contemporaneous_periodical_interview"
+      ]
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "date",
+        "place",
+        "date_note"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "place": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "date_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "host": {
+      "type": "string",
+      "minLength": 1
+    },
+    "official_host": {
+      "type": "boolean"
+    },
+    "language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "representation": {
+      "enum": [
+        "later_official_web_reproduction",
+        "translated_official_web_transcription",
+        "reported_interview_gist",
+        "editorial_history",
+        "contemporaneous_editorialized_interview"
+      ]
+    },
+    "verbatim_status": {
+      "enum": [
+        "not_established",
+        "translated_not_original_wording",
+        "gist_not_verbatim",
+        "not_a_teaching_witness",
+        "editorially_reorganized_not_verbatim"
+      ]
+    },
+    "independence_from_deivathin_kural": {
+      "enum": [
+        "independent_event",
+        "same_discourse_family",
+        "unknown"
+      ]
+    },
+    "original_artifact_status": {
+      "enum": [
+        "not_located",
+        "unknown",
+        "candidate_located",
+        "verified"
+      ]
+    },
+    "acquisition_status": {
+      "enum": [
+        "live_url_verified_metadata_only_no_local_copy",
+        "private_research_snapshot_pinned"
+      ]
+    },
+    "candidate_for_item_level_crosslink": {
+      "type": "boolean"
+    },
+    "candidate_authority_if_item_level_provenance_is_satisfied": {
+      "enum": [
+        "earlier_witness_supported",
+        "none"
+      ]
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_text_redistribution",
+        "registry_public_export",
+        "terms_url",
+        "status"
+      ],
+      "properties": {
+        "source_text_redistribution": {
+          "const": false
+        },
+        "registry_public_export": {
+          "const": "metadata_only"
+        },
+        "terms_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "status": {
+          "const": "restricted_reference_only"
+        }
+      }
+    },
+    "authority_effect": {
+      "const": "none_without_item_level_review"
+    },
+    "notes": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

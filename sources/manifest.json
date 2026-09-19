@@ -2421,6 +2421,16 @@
       "status": "verified-live-restricted-private-snapshot",
       "expected_sha256": "7259096b08f054929a00a4d1c573c7fee88186e2d60d27ae06b5cfe3073d67c9",
       "expected_bytes": 73042
+    },
+    {
+      "key": "illustrated-weekly-as-raman-interview-1963-scan",
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2018/02/1963-illustrated-weekly-interview-by-a-s-raman.pdf",
+      "path": "sources/raw/verification/mahaperiyava/illustrated_weekly_as_raman_1963.pdf",
+      "covers": "Private research snapshot of a modern-hosted scan of the historical Illustrated Weekly of India A. S. Raman interview with Mahaperiyava, identified with the 18 August 1963 issue.",
+      "terms": "Private research/verification witness only. Historical publication age and modern hosting do not establish redistribution rights. Do not redistribute the scan or source text.",
+      "status": "historical-periodical-scan-restricted-pinned-modern-host",
+      "expected_sha256": "7f5ea38fca50b67553338af3525c64ccae11d83f2d8a0c5eaac2de813f285ee8",
+      "expected_bytes": 3492363
     }
   ]
 }

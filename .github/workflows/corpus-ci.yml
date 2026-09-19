@@ -17,6 +17,16 @@ jobs:
         run: make dk-semantic-hardening-gate
       - name: Mahaperiyava evidence-depth authority gate
         run: make mahaperiyava-evidence-depth-gate
+      - name: Mahaperiyava external source-family evidence gate
+        run: make mahaperiyava-external-source-gate
+      - name: Mahaperiyava external-to-DK crosslink gate
+        run: make mahaperiyava-external-crosslink-gate
+      - name: Mahaperiyava external evidence adjudication gate
+        run: make mahaperiyava-external-adjudication-gate
+      - name: Mahaperiyava archival acquisition gate
+        run: make mahaperiyava-archival-acquisition-gate
+      - name: Mahaperiyava 1963 interview artifact gate
+        run: make mahaperiyava-1963-interview-artifact-gate
       - name: Mahaperiyava V1-V7 retrieval foundation
         run: make mahaperiyava-retrieval-gate
       - name: Mahaperiyava grounded answer backend

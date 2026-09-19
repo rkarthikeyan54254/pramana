@@ -1,0 +1,121 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_EXTERNAL_ATOMIC_CLAIMS_V1",
+  "status": "ATOMIC_CLAIMS_READY_FOR_RETRIEVAL",
+  "policy": {
+    "atomization_preserves_parent_provenance": true,
+    "atomization_does_not_create_new_evidence": true,
+    "summaries_are_not_quotes": true,
+    "authority_promotions": 0,
+    "source_text_included": false
+  },
+  "claim_count": 7,
+  "claims": [
+    {
+      "id": "external.atomic.1947.public_freedom_and_inner_enemies",
+      "parent_claim_id": "external.1947.inner_freedom_and_mind_control",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "claim_summary": "Political independence is linked with inner freedom from enemies such as desire and anger, making personal self-mastery part of safeguarding freedom.",
+      "topics": [
+        "independence",
+        "desire",
+        "anger",
+        "self_mastery"
+      ],
+      "flags": [
+        "political_social_claim_requires_context"
+      ],
+      "source_text_included": false,
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.atomic.1947.meditation_and_inner_discipline",
+      "parent_claim_id": "external.1947.inner_freedom_and_mind_control",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "claim_summary": "Regular meditation on God is recommended as part of cultivating inner discipline and spiritual freedom.",
+      "topics": [
+        "meditation",
+        "god",
+        "inner_discipline",
+        "spiritual_freedom"
+      ],
+      "flags": [],
+      "source_text_included": false,
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.atomic.1947.truthfulness_and_kind_conduct",
+      "parent_claim_id": "external.1947.truth_kindness_and_social_amity",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "claim_summary": "Truthfulness and kindly conduct toward others are presented as duties supporting peaceful collective life.",
+      "topics": [
+        "truthfulness",
+        "kindness",
+        "ethical_conduct",
+        "social_harmony"
+      ],
+      "flags": [],
+      "source_text_included": false,
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.atomic.1947.regard_for_living_beings",
+      "parent_claim_id": "external.1947.truth_kindness_and_social_amity",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "claim_summary": "People are urged to act with regard for the welfare and happiness of other living beings.",
+      "topics": [
+        "living_beings",
+        "compassion",
+        "welfare"
+      ],
+      "flags": [],
+      "source_text_included": false,
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.atomic.1947.avoid_social_conflict",
+      "parent_claim_id": "external.1947.truth_kindness_and_social_amity",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "claim_summary": "Petty social conflict should be avoided so that collective life can remain peaceful and cooperative.",
+      "topics": [
+        "social_conflict",
+        "peace",
+        "cooperation"
+      ],
+      "flags": [
+        "political_social_claim_requires_context"
+      ],
+      "source_text_included": false,
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.atomic.elder.truthfulness_and_honesty",
+      "parent_claim_id": "external.elder.truthfulness_and_limits_on_consumption",
+      "source_id": "mahaperiyava.external.jw_elder_interview_gist",
+      "claim_summary": "Truthfulness and honesty are presented as important foundations of social and religious ethics.",
+      "topics": [
+        "truthfulness",
+        "honesty",
+        "ethics"
+      ],
+      "flags": [],
+      "source_text_included": false,
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.atomic.elder.necessities_vs_luxuries",
+      "parent_claim_id": "external.elder.truthfulness_and_limits_on_consumption",
+      "source_id": "mahaperiyava.external.jw_elder_interview_gist",
+      "claim_summary": "People should distinguish genuine necessities from luxuries and limit unnecessary consumption.",
+      "topics": [
+        "necessities",
+        "luxuries",
+        "simplicity",
+        "consumption"
+      ],
+      "flags": [],
+      "source_text_included": false,
+      "authority_effect": "none_without_item_level_review"
+    }
+  ]
+}

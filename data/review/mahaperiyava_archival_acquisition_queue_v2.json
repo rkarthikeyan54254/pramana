@@ -1,0 +1,96 @@
+{
+  "version": "2.0",
+  "checkpoint": "MAHAPERIYAVA_ARCHIVAL_ACQUISITION_QUEUE_V2",
+  "status": "ARCHIVAL_LEADS_PINNED_NO_AUTHORITY_PROMOTION",
+  "research_date": "2026-09-19",
+  "policy": {
+    "event_date_is_distinct_from_publication_date": true,
+    "modern_scan_host_is_not_original_publisher": true,
+    "scan_locator_is_not_a_pinned_scan": true,
+    "institutional_archive_presence_is_not_item_level_evidence": true,
+    "later_official_reproduction_is_not_original_artifact": true,
+    "translation_does_not_establish_original_wording": true,
+    "no_authority_change_without_item_level_artifact": true,
+    "source_text_included": false,
+    "authority_promotions": 0
+  },
+  "leads": [
+    {
+      "id": "archive.illustrated_weekly.1963_interview",
+      "priority": 1,
+      "title": "Sri Sankaracharya Speaks — interview by A. S. Raman",
+      "source_family": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
+      "original_publication": "The Illustrated Weekly of India",
+      "date_evidence": {
+        "later_kanchi_interview_date_claim": "1963-08-11",
+        "scan_locator_publication_issue_date": "1963-08-18",
+        "status": "date_disambiguation_pending"
+      },
+      "current_locator": "https://mahaperiyavaa.blog/wp-content/uploads/2018/02/1963-illustrated-weekly-interview-by-a-s-raman.pdf",
+      "current_locator_kind": "modern_hosted_scan_of_historical_periodical",
+      "artifact_status": "private_scan_pinned_integrity_verified_visual_issue_review_pending",
+      "rights_status": "historical_periodical_rights_unresolved_private_research_only",
+      "promotion_readiness": "blocked",
+      "next_action": "Visually verify masthead, issue date and article locus; then create public-safe proposition summaries and perform item-level DK cross-linking. Because the published interview is editorially organized, its authority ceiling for matching teachings is earlier_witness_supported, not exact primary-source wording.",
+      "authority_effect": "none_without_item_level_review",
+      "pinned_artifact": {
+        "source_key": "illustrated-weekly-as-raman-interview-1963-scan",
+        "private_path": "sources/raw/verification/mahaperiyava/illustrated_weekly_as_raman_1963.pdf",
+        "sha256": "7f5ea38fca50b67553338af3525c64ccae11d83f2d8a0c5eaac2de813f285ee8",
+        "bytes": 3492363,
+        "redistributable": false
+      }
+    },
+    {
+      "id": "archive.bhavans.1961.what_life_has_taught_me",
+      "priority": 2,
+      "title": "What Life Has Taught Me",
+      "source_family": "family.mahaperiyava.bhavans_journal_1961",
+      "original_publication": "Bhavan's Journal",
+      "date_evidence": {
+        "year": "1961",
+        "exact_issue": null,
+        "status": "year_supported_exact_issue_unresolved"
+      },
+      "institutional_archive": {
+        "institution": "Munshi Saraswati Mandir Granthagar / Bharatiya Vidya Bhavan",
+        "coverage": "Bhavan's Journal issues from 1954 through 2016",
+        "access": "digital archive available for reference within the library",
+        "exact_item_status": "not_yet_identified"
+      },
+      "artifact_status": "institutional_archive_confirmed_item_unpinned",
+      "rights_status": "rights_unresolved_reference_only",
+      "promotion_readiness": "blocked",
+      "next_action": "Identify exact 1961 issue, article pages and author attribution in the Bhavan archive, then acquire a rights-compliant reference scan.",
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "archive.ilayathangudi.1962.tamil_address",
+      "priority": 3,
+      "title": "Underlying Tamil address — Vyasa Bharata Agama Shilpa Sadas",
+      "source_family": "family.mahaperiyava.1962_ilayathangudi_sadas",
+      "event_date": "1962",
+      "current_evidence": "Official Kanchi English pages state that V. Srinivasan translated the speech from Tamil for web publication and state that a Tamil version of Parts 1 and 2 is accessible.",
+      "artifact_status": "underlying_tamil_witness_asserted_locator_unresolved",
+      "rights_status": "restricted_reference_only",
+      "promotion_readiness": "blocked",
+      "next_action": "Resolve the Tamil-version link or proceedings object, pin exact URL/artifact and compare its provenance with the 1962 event.",
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "archive.independence_message.1947.original",
+      "priority": 4,
+      "title": "Mahaperiyava Independence Day message — original/near-contemporaneous witness",
+      "source_family": "family.mahaperiyava.1947_independence_message",
+      "event_date": "1947-08-15",
+      "current_evidence": "Later official Kanchi web reproduction explicitly dated 15 August 1947.",
+      "artifact_status": "original_or_near_contemporaneous_artifact_not_located",
+      "rights_status": "restricted_reference_only",
+      "promotion_readiness": "blocked",
+      "next_action": "Search Kanchi archives, 1947 newspaper/periodical collections, Math publications and institutional archives for a dated contemporaneous witness.",
+      "authority_effect": "none_without_item_level_review"
+    }
+  ],
+  "promotion_eligible_count": 0,
+  "authority_promotions": 0
+}

@@ -799,6 +799,3051 @@
         "pin exact file-level reuse terms before redistribution"
       ],
       "reason": "Reuse/publication terms are not sufficiently pinned."
+    },
+    {
+      "key": "ta-wikisource-tiruppavai-oldid-1526476",
+      "url": "https://ta.wikisource.org/w/index.php?title=%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%B5%E0%AF%88&oldid=1526476",
+      "path": "sources/raw/verification/tiruppavai_wikisource_oldid_1526476.html",
+      "covers": "Tiruppavai, 30 pasurams",
+      "source_status": "comparison-witness-independence-unproven",
+      "recorded_terms": "Tamil Wikisource Creative Commons site terms; comparison witness only until exact license and textual provenance are pinned.",
+      "classification": "terms_unresolved",
+      "redistribution": "blocked_pending_terms",
+      "allowed_profiles": [],
+      "requirements": [
+        "pin exact file-level reuse terms before redistribution"
+      ],
+      "reason": "Reuse/publication terms are not sufficiently pinned."
+    },
+    {
+      "key": "ta-wikisource-nachiyar-tirumozhi-oldid-1526110",
+      "url": "https://ta.wikisource.org/w/index.php?title=%E0%AE%A8%E0%AE%BE%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%BE%E0%AE%B0%E0%AF%8D_%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF&oldid=1526110",
+      "path": "sources/raw/verification/nachiyar_tirumozhi_wikisource_oldid_1526110.html",
+      "covers": "Nachiyar Tirumozhi, global pasurams 504-646 (143 units)",
+      "source_status": "comparison-witness-independence-unproven",
+      "recorded_terms": "Tamil Wikisource comparison witness. Preserve source provenance. Independence from Project Madurai is unproven; comparison does not grant verification authority.",
+      "classification": "unresolved",
+      "redistribution": "blocked",
+      "allowed_profiles": [],
+      "requirements": [
+        "manual rights review"
+      ],
+      "reason": "No sufficiently explicit file-level redistribution policy is recorded."
+    },
+    {
+      "key": "aradhanam-nachiyar-tirumozhi-0504-0646",
+      "url": "https://www.aradhanam.org/wp-content/uploads/2015/11/29-n-AchchiyAr-thirumozhi-0504-0646-withCoverPage.pdf",
+      "path": "sources/raw/verification/aradhanam_nachiyar_tirumozhi_0504_0646.pdf",
+      "covers": "Nachiyar Tirumozhi global pasurams 504-646; third-witness comparison",
+      "source_status": "verification-only-rights-restricted-independence-unproven",
+      "recorded_terms": "Verification-only witness. aradhanam.org footer states Copyright © 2026; no explicit redistribution license located. Keep raw PDF internal/research-only and exclude it from public releases until reuse permission/terms are clarified. Editorial provenance and independence from Project Madurai/Wikisource remain unproven.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-index",
+      "url": "https://www.kamakoti.org/tamil/part1index.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1index.htm",
+      "covers": "Official Kanchi Deivathin Kural Volume 1 index and table of contents",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v2-index",
+      "url": "https://www.kamakoti.org/tamil/part2index.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v2_index.html",
+      "covers": "Deivathin Kural Volume 2 official Kanchi Kamakoti digital index",
+      "source_status": "verification-only-rights-restricted",
+      "recorded_terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v3-index",
+      "url": "https://www.kamakoti.org/tamil/3dkindex.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v3_index.html",
+      "covers": "Deivathin Kural Volume 3 official Kanchi Kamakoti digital index",
+      "source_status": "verification-only-rights-restricted",
+      "recorded_terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v4-index",
+      "url": "https://www.kamakoti.org/tamil/part4index.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v4_index.html",
+      "covers": "Deivathin Kural Volume 4 official Kanchi Kamakoti digital index",
+      "source_status": "verification-only-rights-restricted",
+      "recorded_terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v5-index",
+      "url": "https://www.kamakoti.org/tamil/5index.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v5_index.html",
+      "covers": "Deivathin Kural Volume 5 official Kanchi Kamakoti digital index",
+      "source_status": "verification-only-rights-restricted",
+      "recorded_terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v6-index",
+      "url": "https://www.kamakoti.org/tamil/part6index.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v6_index.html",
+      "covers": "Deivathin Kural Volume 6 official Kanchi Kamakoti digital index",
+      "source_status": "verification-only-rights-restricted",
+      "recorded_terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v7-index",
+      "url": "https://www.kamakoti.org/tamil/part7index.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/kamakoti_v7_index.html",
+      "covers": "Deivathin Kural Volume 7 official Kanchi Kamakoti digital index",
+      "source_status": "verification-only-rights-restricted",
+      "recorded_terms": "Verification/reference-only restricted source. Kamakoti.org Terms of Service state personal non-commercial use and no download/copy/reproduction/distribution without prior written consent of the respective rightful owners. Do not redistribute Deivathin Kural source text; public artifacts must be metadata/citation only unless rights are explicitly cleared.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-terms-of-service-2026",
+      "url": "https://www.kamakoti.org/main/terms_of_service.html",
+      "path": "sources/raw/verification/mahaperiyava/kamakoti_terms_of_service.html",
+      "covers": "Kamakoti.org current terms governing source use",
+      "source_status": "verified-live-rights-policy",
+      "recorded_terms": "Terms page preserved as the governing site-use evidence for Kamakoti.org sources.",
+      "classification": "unresolved",
+      "redistribution": "blocked",
+      "allowed_profiles": [],
+      "requirements": [
+        "manual rights review"
+      ],
+      "reason": "No sufficiently explicit file-level redistribution policy is recorded."
+    },
+    {
+      "key": "mahaperiyavaa-dk-correction-history-2013",
+      "url": "https://mahaperiyavaa.blog/2013/09/10/deivathin-kural-corrected-version/",
+      "path": "sources/raw/discovery/mahaperiyava/deivathin_kural_corrected_version_2013.html",
+      "covers": "Community correction history for Deivathin Kural digital text; reports two proofreading rounds on most volumes and no work on Volume 7",
+      "source_status": "lineage-metadata-rights-restricted-independence-unproven",
+      "recorded_terms": "Discovery/lineage metadata only. The page documents a volunteer correction project derived from the existing Kanchi/print text, not an independent Mahaperiyava witness. It reports copyright concerns and no correction work on Volume 7.",
+      "classification": "metadata_only",
+      "redistribution": "metadata_only",
+      "allowed_profiles": [],
+      "requirements": [
+        "do not infer e-text reuse rights from institutional metadata"
+      ],
+      "reason": "Metadata/discovery source, not a text-release source."
+    },
+    {
+      "key": "kamakoti-sage-of-kanchi-1932-madras",
+      "url": "https://kamakoti.org/kamakoti/articles/SageOfKanchi6.html",
+      "path": "sources/raw/verification/mahaperiyava/history/kamakoti_sage_of_kanchi_1932_madras.html",
+      "covers": "Official Kanchi account of 1932 Madras discourses, daily newspaper reporting, and three named subsequent publications.",
+      "source_status": "verification-only-rights-restricted",
+      "recorded_terms": "Verification/reference only under Kamakoti site terms; do not redistribute page text.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-sage-of-kanchi-1957-59-madras",
+      "url": "https://www.kamakoti.org/kamakoti/articles/SageOfKanchi9.html",
+      "path": "sources/raw/verification/mahaperiyava/history/kamakoti_sage_of_kanchi_1957_59_madras.html",
+      "covers": "Official Kanchi account of 1957-59 Madras discourses, newspaper reporting, doctrinal themes, and later publications.",
+      "source_status": "verification-only-rights-restricted",
+      "recorded_terms": "Verification/reference only under Kamakoti site terms; do not redistribute page text.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "tdl-jagadguruvin-upadesangal-1933-catalog",
+      "url": "https://tamildigitallibrary.in/book_list_view_book?cid=&selected_title=1933&stype=Y0hWaVgzbGxZWEk9QXRvWmF0b3owdG85&stypeval=TVRrek13PT1BdG9aYXRvejB0bzk-",
+      "path": "sources/raw/discovery/mahaperiyava/tdl_1933_catalog_jagadguruvin_upadesangal.html",
+      "covers": "TDL catalog evidence for 1933 Jagadguruvin Upadesangal, described as the Kanchi Jagadguru's Chennai discourses.",
+      "source_status": "catalog-evidence-direct-item-not-yet-pinned",
+      "recorded_terms": "Catalog metadata only; direct item/scan and reuse terms must be pinned before textual use.",
+      "classification": "terms_unresolved",
+      "redistribution": "blocked_pending_terms",
+      "allowed_profiles": [],
+      "requirements": [
+        "pin exact file-level reuse terms before redistribution"
+      ],
+      "reason": "Reuse/publication terms are not sufficiently pinned."
+    },
+    {
+      "key": "tdl-namathu-anathi-matham-1932",
+      "url": "https://tamildigitallibrary.in/Articles/%E0%AE%A8%E0%AF%82%E0%AE%B2%E0%AF%8D-9529-%E0%AE%A8%E0%AE%AE%E0%AE%A4%E0%AF%81%20%E0%AE%85%E0%AE%A9%E0%AE%BE%E0%AE%A4%E0%AE%BF%20%E0%AE%AE%E0%AE%A4%E0%AE%AE%E0%AF%8D",
+      "path": "sources/raw/discovery/mahaperiyava/tdl_namathu_anathi_matham_1932.html",
+      "covers": "TDL metadata for Namathu Anathi Matham, Sri Kamakoti Kosasthanam, Chennai, 1932.",
+      "source_status": "catalog-scan-available-rights-unresolved",
+      "recorded_terms": "Historical scan available; rights/reuse status not assumed.",
+      "classification": "unresolved",
+      "redistribution": "blocked",
+      "allowed_profiles": [],
+      "requirements": [
+        "manual rights review"
+      ],
+      "reason": "No sufficiently explicit file-level redistribution policy is recorded."
+    },
+    {
+      "key": "tdl-namathu-vedangal-sastrangal-1949",
+      "url": "https://tamildigitallibrary.in/Articles/%E0%AE%A8%E0%AF%82%E0%AE%B2%E0%AF%8D-7740-%E0%AE%A8%E0%AE%AE%E0%AE%A4%E0%AF%81%20%E0%AE%B5%E0%AF%87%E0%AE%A4%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D%20%E0%AE%9A%E0%AE%BE%E0%AE%B8%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D",
+      "path": "sources/raw/discovery/mahaperiyava/tdl_namathu_vedangal_sastrangal_1949.html",
+      "covers": "TDL metadata for Namathu Vedangalum Sastrangalum, Sri Kamakoti Kosasthanam, 1949.",
+      "source_status": "catalog-scan-available-rights-unresolved",
+      "recorded_terms": "Historical scan available; rights/reuse status not assumed.",
+      "classification": "unresolved",
+      "redistribution": "blocked",
+      "allowed_profiles": [],
+      "requirements": [
+        "manual rights review"
+      ],
+      "reason": "No sufficiently explicit file-level redistribution policy is recorded."
+    },
+    {
+      "key": "tdl-narpatu-samskarangal-1950",
+      "url": "https://tamildigitallibrary.in/Articles/%E0%AE%A8%E0%AF%82%E0%AE%B2%E0%AF%8D-7646-%E0%AE%A8%E0%AE%BE%E0%AE%B1%E0%AF%8D%E0%AE%AA%E0%AE%A4%E0%AF%81%20%E0%AE%B8%E0%AE%AE%E0%AF%8D%E0%AE%B8%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D%20%E0%AE%95%E0%AE%B0%E0%AF%8D%E0%AE%AE%E0%AE%BE%E0%AE%A9%E0%AF%81%E0%AE%B7%E0%AF%8D%E0%AE%9F%E0%AE%BE%E0%AE%A9%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%81%E0%AE%AE%E0%AF%8D-%E0%AE%B8%E0%AF%8D%E0%AE%B0%E0%AF%80%20%E0%AE%95%E0%AE%BE%E0%AE%AE%E0%AE%95%E0%AF%8B%E0%AE%9F%E0%AE%BF%20%E0%AE%AA%E0%AF%80%E0%AE%9F%E0%AE%A4%E0%AE%BF%E0%AE%AA%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AE%BE%E0%AE%A9%20%E0%AE%9C%E0%AE%95%E0%AE%A4%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%B0%E0%AF%81%20%E0%AE%B8%E0%AF%8D%E0%AE%B0%E0%AF%80%20%E0%AE%9A%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B0%E0%AE%BE%E0%AE%9A%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%AF%20%E0%AE%B8%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AE%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AF%8D%20%E0%AE%85%E0%AE%B0%E0%AF%81%E0%AE%B3%E0%AE%BF%E0%AE%AF%20%E0%AE%A8%E0%AE%A9%E0%AF%8D%E0%AE%AE%E0%AF%8A%E0%AE%B4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AF%8D",
+      "path": "sources/raw/discovery/mahaperiyava/tdl_narpatu_samskarangal_1950.html",
+      "covers": "TDL metadata for 1950 Narpatu Samskarangalum Karmanushtanangalum; back matter lists a five-part Kamakoti series.",
+      "source_status": "catalog-scan-available-rights-unresolved",
+      "recorded_terms": "Historical scan available; rights/reuse status not assumed.",
+      "classification": "unresolved",
+      "redistribution": "blocked",
+      "allowed_profiles": [],
+      "requirements": [
+        "manual rights review"
+      ],
+      "reason": "No sufficiently explicit file-level redistribution policy is recorded."
+    },
+    {
+      "key": "cinii-call-of-jagadguru-kamakoti-1958",
+      "url": "https://ci.nii.ac.jp/ncid/BB22781304",
+      "path": "sources/raw/discovery/mahaperiyava/cinii_call_of_jagadguru_kamakoti_1958.html",
+      "covers": "Bibliographic metadata for Kanchi The Call of the Jagadguru, P. Sankaranarayanan, Ganesh & Co., Madras, 1958, xvi+255 pages.",
+      "source_status": "verified-bibliographic-metadata",
+      "recorded_terms": "Bibliographic metadata page; citation/discovery only.",
+      "classification": "metadata_only",
+      "redistribution": "metadata_only",
+      "allowed_profiles": [],
+      "requirements": [
+        "do not infer e-text reuse rights from institutional metadata"
+      ],
+      "reason": "Metadata/discovery source, not a text-release source."
+    },
+    {
+      "key": "tdl-arya-dharma-v15n43-1931",
+      "url": "https://tamildigitallibrary.in/Articles/%E0%AE%87%E0%AE%A4%E0%AE%B4%E0%AF%8D-10685-%E0%AE%86%E0%AE%B0%E0%AF%8D%E0%AE%AF%20%E0%AE%A4%E0%AE%B0%E0%AF%8D%E0%AE%AE%E0%AE%AE%E0%AF%8D-Vol.%2015%2C%20No.%2043%20%28%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AF%88%2019%2C%201931%29",
+      "path": "sources/raw/discovery/mahaperiyava/tdl_arya_dharma_v15n43_1931.html",
+      "covers": "One surviving 1931 Arya Dharma issue proving the archive run is digitized; not proven to contain the target Mahaperiyava report.",
+      "source_status": "archive-run-confirmed-target-issue-unresolved",
+      "recorded_terms": "Archive-discovery metadata only; do not treat as a teaching witness until article located.",
+      "classification": "unresolved",
+      "redistribution": "blocked",
+      "allowed_profiles": [],
+      "requirements": [
+        "manual rights review"
+      ],
+      "reason": "No sufficiently explicit file-level redistribution policy is recorded."
+    },
+    {
+      "key": "mahaperiyavaa-acharya-upanyasangal-1957-58-discovery",
+      "url": "https://mahaperiyavaa.blog/2023/04/20/acharya-swamigalin-upanyasangal-kalaimagal-1957-58/",
+      "path": "sources/raw/discovery/mahaperiyava/acharya_swamigalin_upanyasangal_1957_58_locator.html",
+      "covers": "Modern scan-locator page exposing surviving Part 1 and Part 2 PDFs of Acharya Swamigalin Upanyasangal.",
+      "source_status": "discovery-only-secondary-hosting",
+      "recorded_terms": "Discovery/locator only; modern hosting does not establish historical textual independence or redistribution rights.",
+      "classification": "unresolved",
+      "redistribution": "blocked",
+      "allowed_profiles": [],
+      "requirements": [
+        "manual rights review"
+      ],
+      "reason": "No sufficiently explicit file-level redistribution policy is recorded."
+    },
+    {
+      "key": "acharya-upanyasangal-part1-1957-58-scan",
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-1.pdf",
+      "path": "sources/raw/verification/mahaperiyava/acharya_upanyasangal_part1_1957_58.pdf",
+      "covers": "Historical Tamil witness scan: Acharya Swamigalin Upanyasangal, Part 1, associated with the 1957-58 Madras discourse period.",
+      "source_status": "historical-witness-scan-restricted-pinned",
+      "recorded_terms": "Restricted/private research witness. Historical publication age does not by itself clear edition, scan, compilation, or hosting rights. Do not redistribute full scan or source text.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "acharya-upanyasangal-part2-1957-58-scan",
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2023/04/Acharyaswamigal-Upanyasangal-Part-2.pdf",
+      "path": "sources/raw/verification/mahaperiyava/acharya_upanyasangal_part2_1957_58.pdf",
+      "covers": "Historical Tamil witness scan: Acharya Swamigalin Upanyasangal, Part 2, associated with the 1957-58 Madras discourse period.",
+      "source_status": "historical-witness-scan-restricted-pinned",
+      "recorded_terms": "Restricted/private research witness. Historical publication age does not by itself clear edition, scan, compilation, or hosting rights. Do not redistribute full scan or source text.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "ananthan-shorthand-recollection-2019",
+      "url": "https://mahaperiavaamyguru.blogspot.com/2019/08/",
+      "path": "sources/raw/discovery/mahaperiyava/ananthan_shorthand_recollection_2019.html",
+      "covers": "Later repost of a first-person recollection attributed to Ananthan describing shorthand capture of the 1957-58 discourses followed by conversion into continuous prose for the Kalaimagal volumes.",
+      "source_status": "retrospective-provenance-lead-needs-front-matter-check",
+      "recorded_terms": "Retrospective discovery evidence only. Do not treat modern repost as an independent textual witness or as proof of verbatim wording.",
+      "classification": "unresolved",
+      "redistribution": "blocked",
+      "allowed_profiles": [],
+      "requirements": [
+        "manual rights review"
+      ],
+      "reason": "No sufficiently explicit file-level redistribution policy is recorded."
+    },
+    {
+      "key": "tdl-gs-ananthanarayanan-tamil-shorthand-1965",
+      "url": "https://tamildigitallibrary.in/book-details/TVRJMk5UUT1BdG9aYXRvejB0bzk-/TkE9PUF0b1phdG96MHRvOQ--/TWpBPUF0b1phdG96MHRvOQ--",
+      "path": "sources/raw/verification/mahaperiyava/tdl_gs_ananthanarayanan_tamil_shorthand_1965.html",
+      "covers": "Tamil Digital Library institutional metadata for the 1965 Tamil shorthand manual by G. S. Ananthanarayanan.",
+      "source_status": "verified-bibliographic-identity-metadata",
+      "recorded_terms": "Institutional bibliographic/identity metadata. The manual itself is not a Mahaperiyava witness.",
+      "classification": "metadata_only",
+      "redistribution": "metadata_only",
+      "allowed_profiles": [],
+      "requirements": [
+        "do not infer e-text reuse rights from institutional metadata"
+      ],
+      "reason": "Metadata/discovery source, not a text-release source."
+    },
+    {
+      "key": "tdl-jagadguruvin-upadesangal-1957-catalog-35317",
+      "url": "https://tamildigitallibrary.in/Articles/%E0%AE%A8%E0%AF%82%E0%AE%B2%E0%AF%8D-35317-%E0%AE%B8%E0%AF%8D%E0%AE%B0%E0%AF%80%20%E0%AE%9C%E0%AE%95%E0%AE%A4%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%B0%E0%AF%81%E0%AE%B5%E0%AE%BF%E0%AE%A9%E0%AF%8D%20%E0%AE%89%E0%AE%AA%E0%AE%A4%E0%AF%87%E0%AE%9A%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D",
+      "path": "sources/raw/discovery/mahaperiyava/tdl_jagadguruvin_upadesangal_1957_35317.html",
+      "covers": "Tamil Digital Library item lead for the 1957 edition of Sri Jagadguruvin Upadesangal; stable item number 35317.",
+      "source_status": "catalog-item-located-scan-object-unresolved",
+      "recorded_terms": "Catalog/discovery metadata only until the exact scan object, edition front matter, and reuse terms are pinned.",
+      "classification": "terms_unresolved",
+      "redistribution": "blocked_pending_terms",
+      "allowed_profiles": [],
+      "requirements": [
+        "pin exact file-level reuse terms before redistribution"
+      ],
+      "reason": "Reuse/publication terms are not sufficiently pinned."
+    },
+    {
+      "key": "triveni-call-of-jagadguru-review-1958",
+      "url": "https://www.wisdomlib.org/history/compilation/triveni-journal/d/doc69475.html",
+      "path": "sources/raw/verification/mahaperiyava/triveni_call_of_jagadguru_review_1958.html",
+      "covers": "Contemporary 1958 review of the Kanchi The Call of the Jagadguru; useful for bibliographic confirmation and claim-level acquisition leads including simple living.",
+      "source_status": "contemporary-review-acquisition-lead",
+      "recorded_terms": "Review/reference evidence only. Short quotations require normal copyright care; do not substitute review excerpts for the 1958 book.",
+      "classification": "unresolved",
+      "redistribution": "blocked",
+      "allowed_profiles": [],
+      "requirements": [
+        "manual rights review"
+      ],
+      "reason": "No sufficiently explicit file-level redistribution policy is recorded."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural1",
+      "url": "https://www.kamakoti.org/tamil/part1kural1.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural1.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 1: விநாயகர்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural2",
+      "url": "https://www.kamakoti.org/tamil/part1kural2.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural2.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 2: தத்துவ மயமான விநாயகர்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural3",
+      "url": "https://www.kamakoti.org/tamil/part1kural3.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural3.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 3: ஸ்வாமி நாமா? இல்லை என்றால்?",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural4",
+      "url": "https://www.kamakoti.org/tamil/part1kural4.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural4.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 4: அத்வைதம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural5",
+      "url": "https://www.kamakoti.org/tamil/part1kural5.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural5.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 5: அதுவேதான் இது!",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural6",
+      "url": "https://www.kamakoti.org/tamil/part1kural6.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural6.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 6: ஸ்வாமி எதற்கு? அத்வைதம் அமைதிக்கே.",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural7",
+      "url": "https://www.kamakoti.org/tamil/part1kural7.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural7.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 7: அத்வைதமும் அணு விஞ்ஞானமும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural8",
+      "url": "https://www.kamakoti.org/tamil/part1kural8.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural8.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 8: அழுக்கு நீங்க வழி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural9",
+      "url": "https://www.kamakoti.org/tamil/part1kural9.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural9.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 9: கண்ணமும் அகண்டமும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural10",
+      "url": "https://www.kamakoti.org/tamil/part1kural10.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural10.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 10: நிறைந்த ஆனந்தம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural11",
+      "url": "https://www.kamakoti.org/tamil/part1kural11.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural11.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 11: கண்ணன் சொன்னான், கம்பனும் சொன்னான்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural12",
+      "url": "https://www.kamakoti.org/tamil/part1kural12.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural12.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 12: ஆனந்தம் எங்கே",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural13",
+      "url": "https://www.kamakoti.org/tamil/part1kural13.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural13.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 13: எதிர்கொண்டு அழைப்பான்?",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural14",
+      "url": "https://www.kamakoti.org/tamil/part1kural14.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural14.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 14: மாயை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural15",
+      "url": "https://www.kamakoti.org/tamil/part1kural15.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural15.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 15: அகமும் புறமும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural16",
+      "url": "https://www.kamakoti.org/tamil/part1kural16.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural16.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 16: துக்கச் சுமை குறைய வழி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural17",
+      "url": "https://www.kamakoti.org/tamil/part1kural17.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural17.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 17: யோகி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural18",
+      "url": "https://www.kamakoti.org/tamil/part1kural18.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural18.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 18: துக்க பரிகாரம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural19",
+      "url": "https://www.kamakoti.org/tamil/part1kural19.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural19.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 19: த்வைதம் ./. பௌத்தம் = அத்வைதம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural20",
+      "url": "https://www.kamakoti.org/tamil/part1kural20.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural20.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 20: ஆசார்யர்களின் ஆக்ஞை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural21",
+      "url": "https://www.kamakoti.org/tamil/part1kural21.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural21.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 21: தர்மமே தலைக்காக்கும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural22",
+      "url": "https://www.kamakoti.org/tamil/part1kural22.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural22.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 22: பாப புண்ணியங்கள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural23",
+      "url": "https://www.kamakoti.org/tamil/part1kural23.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural23.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 23: மதத்தின் பயன்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural24",
+      "url": "https://www.kamakoti.org/tamil/part1kural24.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural24.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 24: மனிதனும் மிருகமும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural25",
+      "url": "https://www.kamakoti.org/tamil/part1kural25.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural25.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 25: சகல மதங்களுக்கும் பொதுவான பக்தி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural26",
+      "url": "https://www.kamakoti.org/tamil/part1kural26.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural26.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 26: மதங்களின் ஒற்றுமை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural27",
+      "url": "https://www.kamakoti.org/tamil/part1kural27.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural27.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 27: மதபோதகரின் யோக்கியதாம்சங்கள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural28",
+      "url": "https://www.kamakoti.org/tamil/part1kural28.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural28.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 28: பெயரில்லாத மதம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural29",
+      "url": "https://www.kamakoti.org/tamil/part1kural29.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural29.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 29: உலகம் பரவிய மதம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural30",
+      "url": "https://www.kamakoti.org/tamil/part1kural30.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural30.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 30: நம் மதத்தின் தனி அம்சங்கள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural31",
+      "url": "https://www.kamakoti.org/tamil/part1kural31.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural31.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 31: தருமங்களின் பாகுபாடு",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural32",
+      "url": "https://www.kamakoti.org/tamil/part1kural32.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural32.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 32: வர்ண தர்மம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural33",
+      "url": "https://www.kamakoti.org/tamil/part1kural33.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural33.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 33: வேற்றுமையில் ஒற்றுமை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural34",
+      "url": "https://www.kamakoti.org/tamil/part1kural34.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural34.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 34: காரியத்தில் பேதமும் மனோ பேதமும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural35",
+      "url": "https://www.kamakoti.org/tamil/part1kural35.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural35.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 35: இங்கு மட்டும் இருப்பானேன்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural36",
+      "url": "https://www.kamakoti.org/tamil/part1kural36.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural36.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 36: பொருப்பாள் யார் ? பரிகாரம் என்ன ?",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural37",
+      "url": "https://www.kamakoti.org/tamil/part1kural37.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural37.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 37: அதம பட்சப் பரிகாரம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural38",
+      "url": "https://www.kamakoti.org/tamil/part1kural38.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural38.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 38: வேத ரக்ஷணம் ஏன் ஆயுட்காலத் தொழிலலாக வேண்டும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural39",
+      "url": "https://www.kamakoti.org/tamil/part1kural39.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural39.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 39: என் காரியம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural40",
+      "url": "https://www.kamakoti.org/tamil/part1kural40.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural40.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 40: நாகரீக வியாதிக்கு மருந்து",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural41",
+      "url": "https://www.kamakoti.org/tamil/part1kural41.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural41.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 41: சமயமும் சமூகமும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural42",
+      "url": "https://www.kamakoti.org/tamil/part1kural42.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural42.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 42: தலைவலிக்குப் பரிகாரம் சிரச்சேதமா ?",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural43",
+      "url": "https://www.kamakoti.org/tamil/part1kural43.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural43.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 43: மூலமாகிய வேதம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural44",
+      "url": "https://www.kamakoti.org/tamil/part1kural44.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural44.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 44: வைதிகமும் தமிழும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural45",
+      "url": "https://www.kamakoti.org/tamil/part1kural45.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural45.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 45: வேதத்தின் மூல வடிவம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural46",
+      "url": "https://www.kamakoti.org/tamil/part1kural46.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural46.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 46: சாஸ்திரமா? மனசாட்சியா?",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural47",
+      "url": "https://www.kamakoti.org/tamil/part1kural47.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural47.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 47: சநாதன தர்மமே சங்கரர் தரும் நெறி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural48",
+      "url": "https://www.kamakoti.org/tamil/part1kural48.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural48.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 48: சாமானிய தர்மங்கள் அனைவருக்கும் பொதுவானவை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural49",
+      "url": "https://www.kamakoti.org/tamil/part1kural49.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural49.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 49: அஹிம்ஸை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural50",
+      "url": "https://www.kamakoti.org/tamil/part1kural50.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural50.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 50: சத்தியம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural51",
+      "url": "https://www.kamakoti.org/tamil/part1kural51.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural51.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 51: எள்ளும் தண்ணீரும் எங்கே போயின?",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural52",
+      "url": "https://www.kamakoti.org/tamil/part1kural52.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural52.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 52: பூஜை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural53",
+      "url": "https://www.kamakoti.org/tamil/part1kural53.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural53.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 53: பரோபகாரம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural54",
+      "url": "https://www.kamakoti.org/tamil/part1kural54.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural54.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 54: சேவையே மேலான பாக்கியம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural55",
+      "url": "https://www.kamakoti.org/tamil/part1kural55.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural55.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 55: எல்லா உயிரளின் திருப்திக்காக",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural56",
+      "url": "https://www.kamakoti.org/tamil/part1kural56.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural56.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 56: சித்த சுத்திக்குச் சில சின்ன விஷயங்கள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural57",
+      "url": "https://www.kamakoti.org/tamil/part1kural57.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural57.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 57: குற்றமும் குணமும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural58",
+      "url": "https://www.kamakoti.org/tamil/part1kural58.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural58.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 58: கோபம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural59",
+      "url": "https://www.kamakoti.org/tamil/part1kural59.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural59.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 59: கோபம் கொள்ளத் தகுதி ஏது",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural60",
+      "url": "https://www.kamakoti.org/tamil/part1kural60.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural60.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 60: அன்பும் துன்பமும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural61",
+      "url": "https://www.kamakoti.org/tamil/part1kural61.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural61.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 61: அன்பu",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural62",
+      "url": "https://www.kamakoti.org/tamil/part1kural62.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural62.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 62: எது சுயராஜ்யம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural63",
+      "url": "https://www.kamakoti.org/tamil/part1kural63.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural63.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 63: அறமும் அன்பும் அரசாங்கமும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural64",
+      "url": "https://www.kamakoti.org/tamil/part1kural64.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural64.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 64: குற்றத்தைக் குறைக்கும் வழி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural65",
+      "url": "https://www.kamakoti.org/tamil/part1kural65.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural65.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 65: உண்மைக் கல்வி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural66",
+      "url": "https://www.kamakoti.org/tamil/part1kural66.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural66.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 66: கல்வி முறையின் கோளாறு",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural67",
+      "url": "https://www.kamakoti.org/tamil/part1kural67.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural67.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 67: வாழ்க்கைத் தரம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural68",
+      "url": "https://www.kamakoti.org/tamil/part1kural68.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural68.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 68: எளிய வாழ்வு",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural69",
+      "url": "https://www.kamakoti.org/tamil/part1kural69.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural69.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 69: கணக்காயிருக்கணும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural70",
+      "url": "https://www.kamakoti.org/tamil/part1kural70.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural70.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 70: பணத்தை விட்டுக் குணத்தைக் கொள்க",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural71",
+      "url": "https://www.kamakoti.org/tamil/part1kural71.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural71.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 71: வரதக்ஷிணைப் பிரச்சனை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural72",
+      "url": "https://www.kamakoti.org/tamil/part1kural72.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural72.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 72: இளைஞர் கடமை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural73",
+      "url": "https://www.kamakoti.org/tamil/part1kural73.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural73.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 73: அஹிம்ஸா ஸோல்ஜர்கள் தேவை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural74",
+      "url": "https://www.kamakoti.org/tamil/part1kural74.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural74.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 74: வையகம் துயர்தீர வழி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural75",
+      "url": "https://www.kamakoti.org/tamil/part1kural75.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural75.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 75: பண்பாட்டின் இதயஸ்தானம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural76",
+      "url": "https://www.kamakoti.org/tamil/part1kural76.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural76.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 76: ஸங்கீத லக்ஷியம் சாந்தமே",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural77",
+      "url": "https://www.kamakoti.org/tamil/part1kural77.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural77.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 77: இசை வழியே ஈஸ்வரானுபவம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural78",
+      "url": "https://www.kamakoti.org/tamil/part1kural78.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural78.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 78: காந்தர்வ வேதம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural79",
+      "url": "https://www.kamakoti.org/tamil/part1kural79.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural79.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 79: வாக்கின் பயன்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural80",
+      "url": "https://www.kamakoti.org/tamil/part1kural80.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural80.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 80: சொல்லுக்கும் பொருளுக்கும் மூலம் இறைவனே",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural81",
+      "url": "https://www.kamakoti.org/tamil/part1kural81.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural81.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 81: எழுத்தாளர் கடமை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural82",
+      "url": "https://www.kamakoti.org/tamil/part1kural82.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural82.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 82: மஹா பாரதம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural83",
+      "url": "https://www.kamakoti.org/tamil/part1kural83.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural83.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 83: விஞ்ஞானமுமம் ஆன்ம நிறைவும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural84",
+      "url": "https://www.kamakoti.org/tamil/part1kural84.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural84.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 84: வருங்காலத்தவருக்கு வஞ்சனை செய்யலாமா ?",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural85",
+      "url": "https://www.kamakoti.org/tamil/part1kural85.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural85.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 85: தமிழ்நாட்டுப் பண்பின் பெருமை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural87",
+      "url": "https://www.kamakoti.org/tamil/part1kural87.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural87.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 86: வெளியே கர்மம், உள்ளே தியானம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural88",
+      "url": "https://www.kamakoti.org/tamil/part1kural88.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural88.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 87: சீலம் உண்டாக வழி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural89",
+      "url": "https://www.kamakoti.org/tamil/part1kural89.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural89.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 88: ஸம்ஸாரே கிம் ஸாரம் ?",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural90",
+      "url": "https://www.kamakoti.org/tamil/part1kural90.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural90.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 89: உள்ளும் புறமும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural91",
+      "url": "https://www.kamakoti.org/tamil/part1kural91.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural91.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 90: சடங்குகள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural92",
+      "url": "https://www.kamakoti.org/tamil/part1kural92.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural92.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 91: யோகத்தின் தொடக்கம் கர்மமே",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kural93",
+      "url": "https://www.kamakoti.org/tamil/part1kural93.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kural93.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 92: கர்ம யோகம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall01",
+      "url": "https://www.kamakoti.org/tamil/part1kurall01.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall01.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 93: ஸ்வாமி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall02",
+      "url": "https://www.kamakoti.org/tamil/part1kurall02.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall02.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 94: ஸ்வாமி என்றால் என்ன ?",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall03",
+      "url": "https://www.kamakoti.org/tamil/part1kurall03.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall03.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 95: இயற்கை காட்டும் ஈஸ்வர தத்துவம்.",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall04",
+      "url": "https://www.kamakoti.org/tamil/part1kurall04.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall04.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 96: கர்மமும் பக்தியும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall05",
+      "url": "https://www.kamakoti.org/tamil/part1kurall05.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall05.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 97: உருவமும் அருவமும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall06",
+      "url": "https://www.kamakoti.org/tamil/part1kurall06.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall06.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 98: ஈஸ்வரன்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall07",
+      "url": "https://www.kamakoti.org/tamil/part1kurall07.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall07.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 99: மூர்த்தி வழிபாடும் முற்றிய ஞானமும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall08",
+      "url": "https://www.kamakoti.org/tamil/part1kurall08.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall08.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 100: ஆலய வழிபாடு",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall09",
+      "url": "https://www.kamakoti.org/tamil/part1kurall09.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall09.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 101: ஆலயங்களின் தூய்மை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall10",
+      "url": "https://www.kamakoti.org/tamil/part1kurall10.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall10.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 102: ஆலயமும் தெய்வீகக் கலைகளும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall11",
+      "url": "https://www.kamakoti.org/tamil/part1kurall11.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall11.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 103: ஆலயமும் ஆஸ்பத்திரியும்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall12",
+      "url": "https://www.kamakoti.org/tamil/part1kurall12.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall12.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 104: ஐம்புலன்கள் ஐந்து உபச்சாரங்கள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall13",
+      "url": "https://www.kamakoti.org/tamil/part1kurall13.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall13.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 105: நாக மகிமை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall14",
+      "url": "https://www.kamakoti.org/tamil/part1kurall14.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall14.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 106: நமஸ்காரம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall15",
+      "url": "https://www.kamakoti.org/tamil/part1kurall15.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall15.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 107: பக்தி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall16",
+      "url": "https://www.kamakoti.org/tamil/part1kurall16.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall16.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 108: பக்தி செய்வது எதற்காக ?",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall17",
+      "url": "https://www.kamakoti.org/tamil/part1kurall17.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall17.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 109: காரணமில்லாத பக்தி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall18",
+      "url": "https://www.kamakoti.org/tamil/part1kurall18.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall18.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 110: முக்திக்கு முந்தைய நிலையில் பக்தி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall19",
+      "url": "https://www.kamakoti.org/tamil/part1kurall19.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall19.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 111: \"என்னையே எனக்குக் கொடு\"",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall20",
+      "url": "https://www.kamakoti.org/tamil/part1kurall20.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall20.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 112: பகவத்பாதர் தரும் பக்தி லட்சணம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall21",
+      "url": "https://www.kamakoti.org/tamil/part1kurall21.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall21.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 113: இஷ்ட தேவதை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall22",
+      "url": "https://www.kamakoti.org/tamil/part1kurall22.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall22.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 114: சம்பு சங்கரனார்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall23",
+      "url": "https://www.kamakoti.org/tamil/part1kurall23.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall23.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 115: மனிதப் பிறவியும் வேண்டுவதே",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall24",
+      "url": "https://www.kamakoti.org/tamil/part1kurall24.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall24.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 116: நம் தருமதத்தில் மூல புருஷர்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall25",
+      "url": "https://www.kamakoti.org/tamil/part1kurall25.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall25.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 117: கண்ணன் பிறந்த தினம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall26",
+      "url": "https://www.kamakoti.org/tamil/part1kurall26.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall26.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 118: ஸ்ரீ ராமன்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall27",
+      "url": "https://www.kamakoti.org/tamil/part1kurall27.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall27.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 119: ஸ்ரீராம நவமி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall28",
+      "url": "https://www.kamakoti.org/tamil/part1kurall28.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall28.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 120: ஐயப்பன்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall29",
+      "url": "https://www.kamakoti.org/tamil/part1kurall29.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall29.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 121: ஸ்வாமி என்றால் குமாரஸ்வாமியே",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall30",
+      "url": "https://www.kamakoti.org/tamil/part1kurall30.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall30.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 122: அருள் மின்னல்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall31",
+      "url": "https://www.kamakoti.org/tamil/part1kurall31.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall31.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 123: குமாரன்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall32",
+      "url": "https://www.kamakoti.org/tamil/part1kurall32.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall32.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 124: சிவ சக்தியின் ஐக்கிய ஸ்தானம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall33",
+      "url": "https://www.kamakoti.org/tamil/part1kurall33.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall33.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 125: தந்தையை மிஞ்சிய தனயன்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall34",
+      "url": "https://www.kamakoti.org/tamil/part1kurall34.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall34.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 126: வேத நெறியை வாழ்விப்பவன்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall35",
+      "url": "https://www.kamakoti.org/tamil/part1kurall35.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall35.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 127: முருகனின் தமிழ்நாட்டு அவதாரம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall36",
+      "url": "https://www.kamakoti.org/tamil/part1kurall36.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall36.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 128: முருகனின் வடநாட்டு அவதாரம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall37",
+      "url": "https://www.kamakoti.org/tamil/part1kurall37.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall37.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 129: அக்கினியில் அடங்கிய அவதார புருஷர்கள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall38",
+      "url": "https://www.kamakoti.org/tamil/part1kurall38.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall38.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 130: முருகனின் பூர்வ அவதாரம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall39",
+      "url": "https://www.kamakoti.org/tamil/part1kurall39.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall39.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 131: சகல மார்க்க நிறைவான சரவணபவன்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall40",
+      "url": "https://www.kamakoti.org/tamil/part1kurall40.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall40.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 132: உம்மாச்சி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall41",
+      "url": "https://www.kamakoti.org/tamil/part1kurall41.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall41.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 133: பசுபதி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall42",
+      "url": "https://www.kamakoti.org/tamil/part1kurall42.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall42.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 134: தேவர்கள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall43",
+      "url": "https://www.kamakoti.org/tamil/part1kurall43.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall43.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 135: சிவராத்ரி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall44",
+      "url": "https://www.kamakoti.org/tamil/part1kurall44.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall44.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 136: சிவ, விஷ்ணு அபேதம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall46",
+      "url": "https://www.kamakoti.org/tamil/part1kurall46.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall46.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 137: சிவ மயம் ; ஸர்வம் விஷ்ணுமயம் ஜகத்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall47",
+      "url": "https://www.kamakoti.org/tamil/part1kurall47.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall47.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 138: அரனை மறவேல் ; திருமாலுக்கு அடிமை செய்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall48",
+      "url": "https://www.kamakoti.org/tamil/part1kurall48.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall48.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 139: காலையில் திருமால், மாலையில் மஹாதேவன்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall49",
+      "url": "https://www.kamakoti.org/tamil/part1kurall49.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall49.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 140: ஒற்றும் உணர்த்தும் உத்தமத் தலங்கள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall50",
+      "url": "https://www.kamakoti.org/tamil/part1kurall50.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall50.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 141: இரண்டு ராஜாக்கள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall51",
+      "url": "https://www.kamakoti.org/tamil/part1kurall51.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall51.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 142: \" பகவான் யார் ?\" பகவத் பாதர் பதில்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall52",
+      "url": "https://www.kamakoti.org/tamil/part1kurall52.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall52.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 143: விபூதி, திருமண்ணின் மகிமை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall53",
+      "url": "https://www.kamakoti.org/tamil/part1kurall53.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall53.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 144: சிறுவர் இருவரின் சிறப்பு வாக்கு",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall54",
+      "url": "https://www.kamakoti.org/tamil/part1kurall54.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall54.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 145: ஸரஸ்வதி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall55",
+      "url": "https://www.kamakoti.org/tamil/part1kurall55.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall55.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 146: மஹாலக்ஷ்மி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall56",
+      "url": "https://www.kamakoti.org/tamil/part1kurall56.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall56.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 147: பராசக்தியே மஹாலக்ஷ்மி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall57",
+      "url": "https://www.kamakoti.org/tamil/part1kurall57.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall57.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 148: மஹான்களுக்கு அருளிய மஹாலக்ஷ்மி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall58",
+      "url": "https://www.kamakoti.org/tamil/part1kurall58.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall58.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 149: பகியே பெரிய லக்ஷ்மி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall59",
+      "url": "https://www.kamakoti.org/tamil/part1kurall59.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall59.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 150: நவராத்திரி நாயகியர்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall60",
+      "url": "https://www.kamakoti.org/tamil/part1kurall60.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall60.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 151: எனக்கு முக்கியம் அம்பாள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall61",
+      "url": "https://www.kamakoti.org/tamil/part1kurall61.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall61.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 152: அன்னைத் தெய்வம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall62",
+      "url": "https://www.kamakoti.org/tamil/part1kurall62.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall62.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 153: தேவியின் திருவடித் தியானம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall63",
+      "url": "https://www.kamakoti.org/tamil/part1kurall63.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall63.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 154: இயற்கை ஏமாற்றுகிறது ! அம்பாள் ஏமாற்றுகிறாள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall64",
+      "url": "https://www.kamakoti.org/tamil/part1kurall64.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall64.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 155: காமாக்ஷி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall65",
+      "url": "https://www.kamakoti.org/tamil/part1kurall65.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall65.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 156: காமாக்ஷியின் சிவப்பு",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall66",
+      "url": "https://www.kamakoti.org/tamil/part1kurall66.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall66.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 157: கறுப்பும் சிவப்புமான காமாக்ஷி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall67",
+      "url": "https://www.kamakoti.org/tamil/part1kurall67.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall67.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 158: காமாக்ஷியின் கருமை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall68",
+      "url": "https://www.kamakoti.org/tamil/part1kurall68.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall68.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 159: காமாக்ஷியின் கருணை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall69",
+      "url": "https://www.kamakoti.org/tamil/part1kurall69.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall69.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 160: காமாக்ஷியின் பெருமை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall70",
+      "url": "https://www.kamakoti.org/tamil/part1kurall70.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall70.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 161: காமாக்ஷியின் சரிதை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall71",
+      "url": "https://www.kamakoti.org/tamil/part1kurall71.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall71.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 162: காமாக்ஷியின் கண்கள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall72",
+      "url": "https://www.kamakoti.org/tamil/part1kurall72.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall72.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 163: அம்பாளின் ஸ்வரூபம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall73",
+      "url": "https://www.kamakoti.org/tamil/part1kurall73.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall73.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 164: அம்பாளின் இருப்பிடம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall74",
+      "url": "https://www.kamakoti.org/tamil/part1kurall74.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall74.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 165: ஞானாம்பிகை",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall75",
+      "url": "https://www.kamakoti.org/tamil/part1kurall75.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall75.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 166: பவானித்வம்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall76",
+      "url": "https://www.kamakoti.org/tamil/part1kurall76.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall76.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 167: வாக்குவன்மை வருக்ஷிப்பாள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall77",
+      "url": "https://www.kamakoti.org/tamil/part1kurall77.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall77.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 168: பதிபக்தியும் குருபக்தியும் வழங்கும் தேவி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall78",
+      "url": "https://www.kamakoti.org/tamil/part1kurall78.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall78.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 169: அம்பாள் இருக்க அஹம்பாவம் ஏன் ?",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall79",
+      "url": "https://www.kamakoti.org/tamil/part1kurall79.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall79.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 170: ஆசாரியாள் காட்டும் அம்பாள்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall80",
+      "url": "https://www.kamakoti.org/tamil/part1kurall80.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall80.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 171: இன்னல் தருவதும் அவள் இன்னருளே !",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall81",
+      "url": "https://www.kamakoti.org/tamil/part1kurall81.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall81.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 172: சிவத்தின் சக்தி ; நாராயண ஸஹோதரி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall82",
+      "url": "https://www.kamakoti.org/tamil/part1kurall82.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall82.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 173: அன்னபூர்ணி",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall83",
+      "url": "https://www.kamakoti.org/tamil/part1kurall83.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall83.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 174: அம்மா",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "kamakoti-dk-v1-part1kurall84",
+      "url": "https://www.kamakoti.org/tamil/part1kurall84.htm",
+      "path": "sources/raw/verification/mahaperiyava/deivathin_kural/v1/part1kurall84.htm",
+      "covers": "Deivathin Kural Volume 1 chapter 175: அநுமார் அநுக்கிரஹிப்பார்",
+      "source_status": "verified-live-restricted-private-snapshot",
+      "recorded_terms": "Official Kanchi digital Deivathin Kural. Private research/verification snapshot only; do not redistribute source text. Public export is metadata only.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
+    },
+    {
+      "key": "illustrated-weekly-as-raman-interview-1963-scan",
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2018/02/1963-illustrated-weekly-interview-by-a-s-raman.pdf",
+      "path": "sources/raw/verification/mahaperiyava/illustrated_weekly_as_raman_1963.pdf",
+      "covers": "Private research snapshot of a modern-hosted scan of the historical Illustrated Weekly of India A. S. Raman interview with Mahaperiyava, identified with the 18 August 1963 issue.",
+      "source_status": "historical-periodical-scan-restricted-pinned-modern-host",
+      "recorded_terms": "Private research/verification witness only. Historical publication age and modern hosting do not establish redistribution rights. Do not redistribute the scan or source text.",
+      "classification": "verification_only_or_restricted",
+      "redistribution": "no_source_text_release",
+      "allowed_profiles": [],
+      "requirements": [
+        "retain only verification metadata/locus mappings unless permission is obtained"
+      ],
+      "reason": "Source is used as a witness/reference; its text is not authorized for dataset redistribution under current policy."
     }
   ]
 }

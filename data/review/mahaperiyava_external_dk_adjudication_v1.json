@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_EXTERNAL_DK_ADJUDICATION_V1",
+  "status": "SEMANTIC_ADJUDICATION_COMPLETE_NO_AUTHORITY_CHANGE",
+  "review_basis": "Public-safe external curator summaries compared with public-safe Deivathin Kural curator summaries; not exact-text comparison.",
+  "policy": {
+    "same_teaching_means_semantic_proposition_match_not_textual_identity": true,
+    "assistant_curator_decision_does_not_change_authority": true,
+    "owner_or_designated_human_approval_required_before_authority_change": true,
+    "source_provenance_gate_required_after_semantic_match": true,
+    "retrieval_rank_never_grants_equivalence": true,
+    "source_text_included": false
+  },
+  "decision_counts": {
+    "compound_needs_atomization": 3,
+    "same_teaching": 4,
+    "no_same_teaching_candidate": 1,
+    "related_teaching": 4
+  },
+  "authority_promotions": 0,
+  "source_text_included": false,
+  "decisions": [
+    {
+      "external_claim_id": "external.1947.inner_freedom_and_mind_control",
+      "decision": "compound_needs_atomization",
+      "best_candidate_id": "mahaperiyava.deivathin_kural.v7.c144.chapter_teaching",
+      "review_note": "The freedom/inner-enemies proposition is a strong match, but the external summary also includes meditation; split before same-teaching use."
+    },
+    {
+      "external_claim_id": "external.1947.truth_kindness_and_social_amity",
+      "decision": "compound_needs_atomization",
+      "best_candidate_id": null,
+      "review_note": "Truthfulness, regard for living beings, kindness and social conflict are separable propositions; top candidates only partially overlap."
+    },
+    {
+      "external_claim_id": "external.1947.dharma_symbolism_of_national_flag",
+      "decision": "same_teaching",
+      "best_candidate_id": "mahaperiyava.deivathin_kural.v7.c139.chapter_teaching",
+      "review_note": "Both propositions interpret the Dharma Chakra on the national flag as a moral/dharmic symbol for public life."
+    },
+    {
+      "external_claim_id": "external.1962p1.epic_listening_as_moral_formation",
+      "decision": "same_teaching",
+      "best_candidate_id": "mahaperiyava.deivathin_kural.v1.maha_bharatham.repeated_epic_hearing_shapes_moral_imagination",
+      "review_note": "Both propositions present repeated hearing of epic narratives as moral formation toward right conduct."
+    },
+    {
+      "external_claim_id": "external.1962p1.temple_and_traditional_arts_preservation",
+      "decision": "same_teaching",
+      "best_candidate_id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.preserving_temple_presence_and_arts_benefits_society",
+      "review_note": "Both propositions connect temple life, Agamic practice, sacred discourse and temple arts with living religious preservation."
+    },
+    {
+      "external_claim_id": "external.1962p1.vote_bribery_condemned",
+      "decision": "no_same_teaching_candidate",
+      "best_candidate_id": null,
+      "review_note": "Money used for conversion or attachment to money is not equivalent to the specific condemnation of electoral bribery."
+    },
+    {
+      "external_claim_id": "external.1962p2.sectarian_unity",
+      "decision": "same_teaching",
+      "best_candidate_id": "mahaperiyava.deivathin_kural.v1.bhagavan_yaar_bhagavatpadhar_badhil.ishta_devata_without_denigration_and_reciprocal_worship",
+      "review_note": "Both reject denigration among forms/sects while allowing strong devotion to a chosen form."
+    },
+    {
+      "external_claim_id": "external.1962p2.tiruppavai_tiruvempavai_and_folk_arts",
+      "decision": "related_teaching",
+      "best_candidate_id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.religious_arts_and_hereditary_skills_are_declining",
+      "review_note": "Preservation of folk/religious arts overlaps strongly, but the specific Tiruppavai/Tiruvempavai observance linkage is not present."
+    },
+    {
+      "external_claim_id": "external.1962p2.ethical_formation_beyond_law",
+      "decision": "related_teaching",
+      "best_candidate_id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.ahimsa_soldiers_live_dharma_courageously",
+      "review_note": "Both value exemplary lived dharma, but the proposition that law alone cannot remove corruption is distinct."
+    },
+    {
+      "external_claim_id": "external.elder.truthfulness_and_limits_on_consumption",
+      "decision": "compound_needs_atomization",
+      "best_candidate_id": "mahaperiyava.deivathin_kural.v1.kanakkayirukkanum.economy_means_limiting_needs",
+      "review_note": "The necessities-versus-luxuries proposition matches strongly; truthfulness/honesty is a separate proposition and must be split."
+    },
+    {
+      "external_claim_id": "external.elder.ahimsa_and_role_specific_duty",
+      "decision": "related_teaching",
+      "best_candidate_id": "mahaperiyava.deivathin_kural.v1.ahimsai.contextual_exceptions_to_absolute_ahimsa",
+      "review_note": "The same role/context-sensitive ahimsa framework appears, but the interview specifically distinguishes renunciants from rulers/governments."
+    },
+    {
+      "external_claim_id": "external.elder.religious_institutions_and_secular_state",
+      "decision": "related_teaching",
+      "best_candidate_id": "mahaperiyava.deivathin_kural.v2.c190.source_claims_secular_law_treats_hindu_religious_social_norms_less_deferentially_than_minority_norms",
+      "review_note": "The broader secular-state/religion issue overlaps, but the institutional-role proposition is not identical."
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_EXTERNAL_SOURCE_PILOT_CLAIMS_V1",
+  "baseline_commit": "3c9a47bcc65b052abcded76b18bc9051031e742c",
+  "status": "SOURCE_READ_CLAIMS_PENDING_DK_CROSSLINK",
+  "policy": {
+    "summaries_are_curator_paraphrases_not_quotes": true,
+    "source_text_included": false,
+    "authority_promotions": 0,
+    "crosslinking_does_not_prove_textual_identity": true,
+    "sensitive_claims_require_context": true
+  },
+  "claim_count": 12,
+  "claims": [
+    {
+      "id": "external.1947.inner_freedom_and_mind_control",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "claim_summary": "The 1947 message connects political independence with an inner freedom cultivated through control of mind, desire and anger, together with regular meditation on God.",
+      "topics": [
+        "independence",
+        "mind_control",
+        "meditation",
+        "self_mastery"
+      ],
+      "flags": [],
+      "source_read_status": "source_read_live_page",
+      "crosslink_status": "pending_dk_item_level_review",
+      "authority_effect": "none_without_item_level_review",
+      "source_text_included": false,
+      "public_export": "none_pending_rights_and_review"
+    },
+    {
+      "id": "external.1947.truth_kindness_and_social_amity",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "claim_summary": "The message presents truthfulness, regard for other living beings, avoidance of petty social conflict and kindly conduct as duties needed for peaceful collective life.",
+      "topics": [
+        "truth",
+        "kindness",
+        "social_harmony",
+        "ethical_conduct"
+      ],
+      "flags": [],
+      "source_read_status": "source_read_live_page",
+      "crosslink_status": "pending_dk_item_level_review",
+      "authority_effect": "none_without_item_level_review",
+      "source_text_included": false,
+      "public_export": "none_pending_rights_and_review"
+    },
+    {
+      "id": "external.1947.dharma_symbolism_of_national_flag",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "claim_summary": "The national flag and its central chakra are interpreted through a religious-moral lens linking national freedom with dharma and spiritual reflection.",
+      "topics": [
+        "national_flag",
+        "dharma",
+        "chakra",
+        "public_life"
+      ],
+      "flags": [
+        "political_social_claim_requires_context"
+      ],
+      "source_read_status": "source_read_live_page",
+      "crosslink_status": "pending_dk_item_level_review",
+      "authority_effect": "none_without_item_level_review",
+      "source_text_included": false,
+      "public_export": "none_pending_rights_and_review"
+    },
+    {
+      "id": "external.1962p1.epic_listening_as_moral_formation",
+      "source_id": "mahaperiyava.external.1962_ilayathangudi_part1",
+      "claim_summary": "The 1962 address presents hearing and reflecting on the Mahabharata and exemplary lives as a form of moral formation that can orient people toward truth and dharma.",
+      "topics": [
+        "mahabharata",
+        "satsang",
+        "moral_formation",
+        "dharma"
+      ],
+      "flags": [],
+      "source_read_status": "source_read_live_page",
+      "crosslink_status": "pending_dk_item_level_review",
+      "authority_effect": "none_without_item_level_review",
+      "source_text_included": false,
+      "public_export": "none_pending_rights_and_review"
+    },
+    {
+      "id": "external.1962p1.temple_and_traditional_arts_preservation",
+      "source_id": "mahaperiyava.external.1962_ilayathangudi_part1",
+      "claim_summary": "The address urges preservation of temples, scriptural discourse, traditional ritual roles, sculpture and related arts as living religious responsibilities rather than museum remnants.",
+      "topics": [
+        "temple",
+        "agama",
+        "shilpa",
+        "traditional_arts",
+        "preservation"
+      ],
+      "flags": [],
+      "source_read_status": "source_read_live_page",
+      "crosslink_status": "pending_dk_item_level_review",
+      "authority_effect": "none_without_item_level_review",
+      "source_text_included": false,
+      "public_export": "none_pending_rights_and_review"
+    },
+    {
+      "id": "external.1962p1.vote_bribery_condemned",
+      "source_id": "mahaperiyava.external.1962_ilayathangudi_part1",
+      "claim_summary": "Accepting money for votes and broader dishonesty in public and commercial life are condemned as forms of corruption that damage the nation.",
+      "topics": [
+        "elections",
+        "bribery",
+        "truth",
+        "public_ethics"
+      ],
+      "flags": [
+        "political_social_claim_requires_context"
+      ],
+      "source_read_status": "source_read_live_page",
+      "crosslink_status": "pending_dk_item_level_review",
+      "authority_effect": "none_without_item_level_review",
+      "source_text_included": false,
+      "public_export": "none_pending_rights_and_review"
+    },
+    {
+      "id": "external.1962p2.sectarian_unity",
+      "source_id": "mahaperiyava.external.1962_ilayathangudi_part2",
+      "claim_summary": "The address calls for reduced hostility among Shaiva, Vaishnava and other worship traditions and presents multiple forms of divine worship as capable of coexisting without mutual hatred.",
+      "topics": [
+        "shaiva",
+        "vaishnava",
+        "shanmatha",
+        "religious_harmony"
+      ],
+      "flags": [
+        "religious_comparison_attributed_only"
+      ],
+      "source_read_status": "source_read_live_page",
+      "crosslink_status": "pending_dk_item_level_review",
+      "authority_effect": "none_without_item_level_review",
+      "source_text_included": false,
+      "public_export": "none_pending_rights_and_review"
+    },
+    {
+      "id": "external.1962p2.tiruppavai_tiruvempavai_and_folk_arts",
+      "source_id": "mahaperiyava.external.1962_ilayathangudi_part2",
+      "claim_summary": "Tiruppavai and Tiruvempavai observances are linked with encouragement of folk arts, agama scholarship and shilpa traditions as part of sustaining living religious culture.",
+      "topics": [
+        "tiruppavai",
+        "tiruvempavai",
+        "folk_arts",
+        "agama",
+        "shilpa"
+      ],
+      "flags": [],
+      "source_read_status": "source_read_live_page",
+      "crosslink_status": "pending_dk_item_level_review",
+      "authority_effect": "none_without_item_level_review",
+      "source_text_included": false,
+      "public_export": "none_pending_rights_and_review"
+    },
+    {
+      "id": "external.1962p2.ethical_formation_beyond_law",
+      "source_id": "mahaperiyava.external.1962_ilayathangudi_part2",
+      "claim_summary": "The address argues that law alone cannot remove corruption and that ethical formation also requires personal practice, religious teaching and reflection on exemplary lives.",
+      "topics": [
+        "law",
+        "corruption",
+        "ethical_formation",
+        "dharma"
+      ],
+      "flags": [
+        "political_social_claim_requires_context"
+      ],
+      "source_read_status": "source_read_live_page",
+      "crosslink_status": "pending_dk_item_level_review",
+      "authority_effect": "none_without_item_level_review",
+      "source_text_included": false,
+      "public_export": "none_pending_rights_and_review"
+    },
+    {
+      "id": "external.elder.truthfulness_and_limits_on_consumption",
+      "source_id": "mahaperiyava.external.jw_elder_interview_gist",
+      "claim_summary": "The interview gist stresses truthfulness, honesty and discrimination between necessities and luxuries as important elements of social and religious ethics.",
+      "topics": [
+        "truthfulness",
+        "honesty",
+        "simplicity",
+        "needs_and_luxury"
+      ],
+      "flags": [
+        "historical_social_claim_requires_external_verification"
+      ],
+      "source_read_status": "source_read_live_page",
+      "crosslink_status": "pending_dk_item_level_review",
+      "authority_effect": "none_without_item_level_review",
+      "source_text_included": false,
+      "public_export": "none_pending_rights_and_review"
+    },
+    {
+      "id": "external.elder.ahimsa_and_role_specific_duty",
+      "source_id": "mahaperiyava.external.jw_elder_interview_gist",
+      "claim_summary": "The interview gist gives a role-specific interpretation of ahimsa and distinguishes the renunciant ideal of nonviolence from duties attributed to rulers and governments.",
+      "topics": [
+        "ahimsa",
+        "sannyasa",
+        "state_duty",
+        "dharma"
+      ],
+      "flags": [
+        "political_social_claim_requires_context",
+        "caste_varna_normative_claim",
+        "violence_requires_context",
+        "religious_comparison_attributed_only"
+      ],
+      "source_read_status": "source_read_live_page",
+      "crosslink_status": "pending_dk_item_level_review",
+      "authority_effect": "none_without_item_level_review",
+      "source_text_included": false,
+      "public_export": "none_pending_rights_and_review"
+    },
+    {
+      "id": "external.elder.religious_institutions_and_secular_state",
+      "source_id": "mahaperiyava.external.jw_elder_interview_gist",
+      "claim_summary": "The interview gist distinguishes a secular government's constitutional role from the role of religious institutions in teaching their communities principles drawn from dharma texts.",
+      "topics": [
+        "secular_state",
+        "religious_institutions",
+        "dharmasastra",
+        "constitution"
+      ],
+      "flags": [
+        "political_social_claim_requires_context"
+      ],
+      "source_read_status": "source_read_live_page",
+      "crosslink_status": "pending_dk_item_level_review",
+      "authority_effect": "none_without_item_level_review",
+      "source_text_included": false,
+      "public_export": "none_pending_rights_and_review"
+    }
+  ]
+}

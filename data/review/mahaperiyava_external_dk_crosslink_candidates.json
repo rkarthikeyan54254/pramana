@@ -1,0 +1,4292 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_EXTERNAL_DK_CROSSLINK_CANDIDATES_V1",
+  "status": "CANDIDATE_MATRIX_READY_FOR_ITEM_LEVEL_REVIEW",
+  "policy": {
+    "machine_retrieval_never_grants_equivalence": true,
+    "topic_overlap_never_grants_equivalence": true,
+    "same_source_family_is_not_independent_vote": true,
+    "translated_or_gist_sources_do_not_prove_exact_wording": true,
+    "candidate_generation_never_changes_authority": true,
+    "human_same_claim_review_required": true,
+    "primary_source_verified_not_available_from_this_matrix": true,
+    "source_text_included": false
+  },
+  "input_claim_count": 12,
+  "top_k": 10,
+  "authority_promotions": 0,
+  "source_text_included": false,
+  "input_claims_sha256": "3c4dfbf248c72da2fcaaa77b6fe5a59a1505f02ecab703217a045c276acd5af6",
+  "input_registry_sha256": "0b39e3467c95c5a5f1f5719b30e0ed8d70638aaa7ac2eaf289748072dd16391d",
+  "rows": [
+    {
+      "external_claim_id": "external.1947.inner_freedom_and_mind_control",
+      "external_source_id": "mahaperiyava.external.1947_independence_message",
+      "source_family_id": "family.mahaperiyava.1947_independence_message",
+      "source_representation": "later_official_web_reproduction",
+      "source_verbatim_status": "not_established",
+      "source_independence_from_dk": "independent_event",
+      "external_claim_summary": "The 1947 message connects political independence with an inner freedom cultivated through control of mind, desire and anger, together with regular meditation on God.",
+      "external_topics": [
+        "independence",
+        "mind_control",
+        "meditation",
+        "self_mastery"
+      ],
+      "external_flags": [],
+      "retrieval_query_sha256": "bbe0dde022bc33531486e4dc56fde4b20c0118c2a089e26adc20340f1e8aac75",
+      "retrieval_status": "retrieved_evidence",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c144.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 144,
+            "chapter_title_ta": "நாடு, தனி மனிதர் இரண்டின் சுதந்திரத்திற்காகவும் பிரார்த்தனை, வாழ்த்து",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk144.htm"
+          },
+          "dk_claim_summary": "The discourse closes the civic sequence with a prayer for national unity and freedom from inner enemies such as desire and anger, joining public freedom with personal self-mastery.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 141.14111,
+          "matched_terms": [
+            "anger",
+            "desire",
+            "freedom",
+            "inner",
+            "mastery",
+            "political",
+            "self"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v6.c187.desire_imagery_reversed_toward_liberation",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 6,
+            "chapter_ordinal": 187,
+            "chapter_title_ta": "ஸ்வரூப வர்ணனை",
+            "digital_url": "https://www.kamakoti.org/tamil/dk6-192.htm"
+          },
+          "dk_claim_summary": "The chapter connects these six inner instruments with meditation and the transformation of desire, arguing that the same imagery associated with Kama can be spiritually reversed so the Goddess becomes the means of freedom from passion.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 138.983312,
+          "matched_terms": [
+            "connects",
+            "desire",
+            "freedom",
+            "inner",
+            "meditation"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.master_mind_in_this_life",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 48,
+            "chapter_title_ta": "சாமானிய தர்மங்கள் அனைவருக்கும் பொதுவானவை",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural48.htm"
+          },
+          "dk_claim_summary": "The teaching urges mastering desire and anger within this lifetime and links such mastery with the yogic state and freedom from repeated birth.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 135.995875,
+          "matched_terms": [
+            "anger",
+            "desire",
+            "freedom",
+            "mastery",
+            "mind"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.restless_mind_obstructs_meditation",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 48,
+            "chapter_title_ta": "சாமானிய தர்மங்கள் அனைவருக்கும் பொதுவானவை",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural48.htm"
+          },
+          "dk_claim_summary": "Restlessness and desire are described as major obstacles to meditation, because the mind repeatedly leaves even a chosen spiritual focus.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 119.386821,
+          "matched_terms": [
+            "desire",
+            "meditation",
+            "mind"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.paapa_punniyangal.desire_as_driver_of_sin_and_anger",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 22,
+            "chapter_title_ta": "பாப புண்ணியங்கள்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural22.htm"
+          },
+          "dk_claim_summary": "Desire is presented as a principal force behind wrongdoing: fulfillment feeds further desire, while frustration turns desire into anger and pushes the mind toward more harmful action.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 112.954926,
+          "matched_terms": [
+            "anger",
+            "desire",
+            "mind"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.sathiyam.pure_mind_underlies_truthful_speech",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 50,
+            "chapter_title_ta": "சத்தியம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural50.htm"
+          },
+          "dk_claim_summary": "Stable truthfulness is linked to a mind purified of desire and anger, so that speech is both honest and beneficial.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 112.660638,
+          "matched_terms": [
+            "anger",
+            "desire",
+            "mind"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.samsare_kim_saram.examine_arising_desire_anger_and_pride",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 88,
+            "chapter_title_ta": "samsare kim saram",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural89.htm"
+          },
+          "dk_claim_summary": "Even before passions can be fully overcome, one should repeatedly examine the arising of desire, anger, pride, and falsehood so that they do not operate unnoticed.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 107.651409,
+          "matched_terms": [
+            "anger",
+            "desire",
+            "self"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.unmai_kalvi.education_should_cultivate_inner_and_outer_peace",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 65,
+            "chapter_title_ta": "உண்மைக் கல்வி",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural65.htm"
+          },
+          "dk_claim_summary": "The highest aim of education is presented as mastery of the mind and inner peace, which is also said to reduce conflict and harm in society.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 105.56725,
+          "matched_terms": [
+            "control",
+            "inner",
+            "mastery",
+            "mind"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.one_pointed_isvara_meditation",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 48,
+            "chapter_title_ta": "சாமானிய தர்மங்கள் அனைவருக்கும் பொதுவானவை",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural48.htm"
+          },
+          "dk_claim_summary": "Repeated one-pointed remembrance of God is presented as training the mind toward absorption, and this restraining of mind is identified with yoga.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 102.950588,
+          "matched_terms": [
+            "control",
+            "god",
+            "meditation",
+            "mind"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.ahimsai.ahimsa_purifies_and_disciplines_mind",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 49,
+            "chapter_title_ta": "அஹிம்ஸை",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural49.htm"
+          },
+          "dk_claim_summary": "Practicing ahimsa is said to reduce anger and strengthen the disciplined mind, which can then become a force for beneficial action.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 101.169187,
+          "matched_terms": [
+            "anger",
+            "control",
+            "mind"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "human_review_status": "pending",
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.1947.truth_kindness_and_social_amity",
+      "external_source_id": "mahaperiyava.external.1947_independence_message",
+      "source_family_id": "family.mahaperiyava.1947_independence_message",
+      "source_representation": "later_official_web_reproduction",
+      "source_verbatim_status": "not_established",
+      "source_independence_from_dk": "independent_event",
+      "external_claim_summary": "The message presents truthfulness, regard for other living beings, avoidance of petty social conflict and kindly conduct as duties needed for peaceful collective life.",
+      "external_topics": [
+        "truth",
+        "kindness",
+        "social_harmony",
+        "ethical_conduct"
+      ],
+      "external_flags": [],
+      "retrieval_query_sha256": "2bd36227663259818184c986c7d013006402afbf1ee2a78d664210c8c7ee02ac",
+      "retrieval_status": "retrieved_evidence",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c038.collective_service_across_hindu_communities_peaceful_way",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 38,
+            "chapter_title_ta": "தொண்டின் உட்பயன்கள்; ‘திரு’ப்பணி",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk38.htm"
+          },
+          "dk_claim_summary": "Collective service across Hindu communities is presented as a peaceful way to strengthen religious belonging and reduce conversion, while the source insists that such service should arise from genuine love rather than ulterior proselytizing motives.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 114.808414,
+          "matched_terms": [
+            "collective",
+            "harmony",
+            "peaceful",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.vaishvadeva_and_recurring_sacred_duties",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 55,
+            "chapter_title_ta": "எல்லா உயிரளின் திருப்திக்காக",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural55.htm"
+          },
+          "dk_claim_summary": "The chapter recalls a network of recurring ritual duties toward deities, ancestors, guests, and living beings, introducing Vaishvadeva as one of those inherited practices.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 110.9295,
+          "matched_terms": [
+            "beings",
+            "duties",
+            "living"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c213.debt_free_local_simple_living_is_idealized_as_reducing_caste_conflict_and_purifying_the_mind",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 213,
+            "chapter_title_ta": "ஒரு பெரிய தப்பபிப்ராயம்",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk72.htm"
+          },
+          "dk_claim_summary": "Debt-free, locally rooted and materially simple living is idealized as spiritually purifying and socially equalizing, with the source arguing that caste conflict arose when different groups came to experience unequal wealth and hardship.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 108.151566,
+          "matched_terms": [
+            "conflict",
+            "living",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c223.growth_of_bhakti_is_proposed_as_the_primary_remedy_for_caste_hatred_and_public_conflict",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 223,
+            "chapter_title_ta": "ஸர்வரோக நிவாரணி",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk82.htm"
+          },
+          "dk_claim_summary": "The chapter proposes increased devotion as the fundamental remedy for caste hatred and wider social conflict, preferring a positive religious focus over repeated rhetoric of abolition.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 103.338777,
+          "matched_terms": [
+            "conflict",
+            "harmony",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c115.universal_ethical_duties_such_truthfulness_nonviolence_distinguished",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 115,
+            "chapter_title_ta": "ஆசாரத்தில் ஸாமான்ய தர்மங்கள்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk119.htm"
+          },
+          "dk_claim_summary": "Universal ethical duties such as truthfulness and nonviolence are distinguished from more specific ritual observances, with both treated as parts of achara.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 100.609533,
+          "matched_terms": [
+            "duties",
+            "ethical",
+            "truthfulness"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.srirama_navami.festival_prayer_is_directed_to_devotion_and_good_conduct_for_all",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 119,
+            "chapter_title_ta": "srirama navami",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall27.htm"
+          },
+          "dk_claim_summary": "The festival observance culminates in a collective prayer that devotion and good conduct take root among all people.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 99.105103,
+          "matched_terms": [
+            "collective",
+            "conduct",
+            "ethical"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.varna_dharmam.samanya_and_vishesha_dharma",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 32,
+            "chapter_title_ta": "வர்ண தர்மம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural32.htm"
+          },
+          "dk_claim_summary": "The chapter distinguishes universal ethical duties such as nonviolence, truthfulness, purity and self-control from special duties assigned within a traditional social order.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 91.523527,
+          "matched_terms": [
+            "duties",
+            "ethical",
+            "social",
+            "truthfulness"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.thalaivalikku_parikaram_sirachedhama.language_and_ideology_conflict_analogies",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 42,
+            "chapter_title_ta": "தலைவலிக்குப் பரிகாரம் சிரச்சேதமா ?",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural42.htm"
+          },
+          "dk_claim_summary": "Language and political ideology are cited as other sources of conflict to argue that the existence of disputes does not by itself justify abolishing languages, governments, or social principles.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 89.926566,
+          "matched_terms": [
+            "conflict",
+            "other",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c053.brahmin_daily_duties_are_presented_as_sixfold_vedic_obligation",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 53,
+            "chapter_title_ta": "வேதமும் தமிழ்நாடும்",
+            "digital_url": "https://www.kamakoti.org/tamil/Kural51.htm"
+          },
+          "dk_claim_summary": "Traditional sixfold Brahmin duties are explained through study, teaching, sacrifice, priestly service, giving and receiving, and through a daily routine of sandhya, bathing, japa, homa, deity worship, hospitality and offerings to living beings.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 89.798581,
+          "matched_terms": [
+            "beings",
+            "duties",
+            "living"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.eliya_vaazhvu.affluent_simplicity_as_social_example",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 68,
+            "chapter_title_ta": "eliya vaazhvu",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural68.htm"
+          },
+          "dk_claim_summary": "The chapter presents simplicity among socially influential or affluent people as a stabilizing example and contrasts it with ostentation, while making historical claims about older patterns of social life.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 89.296948,
+          "matched_terms": [
+            "life",
+            "living",
+            "presents",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "human_review_status": "pending",
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.1947.dharma_symbolism_of_national_flag",
+      "external_source_id": "mahaperiyava.external.1947_independence_message",
+      "source_family_id": "family.mahaperiyava.1947_independence_message",
+      "source_representation": "later_official_web_reproduction",
+      "source_verbatim_status": "not_established",
+      "source_independence_from_dk": "independent_event",
+      "external_claim_summary": "The national flag and its central chakra are interpreted through a religious-moral lens linking national freedom with dharma and spiritual reflection.",
+      "external_topics": [
+        "national_flag",
+        "dharma",
+        "chakra",
+        "public_life"
+      ],
+      "external_flags": [
+        "political_social_claim_requires_context"
+      ],
+      "retrieval_query_sha256": "6f90ee29eefed402294e8b8d42727c7b4f920dbdf351746ecd62db2ae856501d",
+      "retrieval_status": "retrieved_evidence",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c139.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 139,
+            "chapter_title_ta": "தேசக் கொடியில் தர்ம சக்கரம் இடம் பெற்றதன் உட்காரணம்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk139.htm"
+          },
+          "dk_claim_summary": "The Dharma Chakra on India's flag is interpreted as a moral symbol calling public life toward dharma rather than merely a decorative emblem.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 275.7287,
+          "matched_terms": [
+            "chakra",
+            "dharma",
+            "flag",
+            "interpreted",
+            "life",
+            "moral",
+            "public",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c144.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 144,
+            "chapter_title_ta": "நாடு, தனி மனிதர் இரண்டின் சுதந்திரத்திற்காகவும் பிரார்த்தனை, வாழ்த்து",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk144.htm"
+          },
+          "dk_claim_summary": "The discourse closes the civic sequence with a prayer for national unity and freedom from inner enemies such as desire and anger, joining public freedom with personal self-mastery.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 129.71894,
+          "matched_terms": [
+            "dharma",
+            "freedom",
+            "life",
+            "national",
+            "public",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c143.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 143,
+            "chapter_title_ta": "தர்ம சக்கரம் சுழலும் தொடர்பாதை;தியாகமே அதன் ஸாரம்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk143.htm"
+          },
+          "dk_claim_summary": "The continuing movement of the Dharma Chakra is interpreted as a chain of mutual service whose inner principle is sacrifice rather than self-assertion.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 129.190371,
+          "matched_terms": [
+            "chakra",
+            "dharma",
+            "interpreted",
+            "life",
+            "public",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c130.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 130,
+            "chapter_title_ta": "இந்தியாவின் உயிர்நிலையே மதமும் ஆன்மிகமும்தான்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk130.htm"
+          },
+          "dk_claim_summary": "Religion and spirituality are presented as central to the historical self-understanding of India rather than as optional private additions to national life.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 127.450695,
+          "matched_terms": [
+            "central",
+            "dharma",
+            "life",
+            "national",
+            "public",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c142.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 142,
+            "chapter_title_ta": "கீதை காட்டும் தர்ம சக்கரம்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk142.htm"
+          },
+          "dk_claim_summary": "The Dharma Chakra is read through the Bhagavad Gita's cycle of reciprocal obligation, sacrifice and sustenance rather than as a purely political symbol.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 125.401259,
+          "matched_terms": [
+            "chakra",
+            "dharma",
+            "life",
+            "public",
+            "religious",
+            "through"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c137.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 137,
+            "chapter_title_ta": "அரசியல் சுதந்திரம் போல் ஆன்மிய சுதந்திரத்திற்காகவும் மக்களே போராட வேண்டும்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk137.htm"
+          },
+          "dk_claim_summary": "Citizens are urged to work for freedom to sustain spiritual and religious life with the same seriousness once devoted to political freedom.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 121.189032,
+          "matched_terms": [
+            "dharma",
+            "freedom",
+            "life",
+            "public",
+            "religious",
+            "spiritual"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c105.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 105,
+            "chapter_title_ta": "அரசும் மதமும்,",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk105.htm"
+          },
+          "dk_claim_summary": "The discourse argues that government and religion cannot be treated as wholly unrelated because public order affects the conditions in which religious and moral life are practiced.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 118.075775,
+          "matched_terms": [
+            "dharma",
+            "life",
+            "moral",
+            "public",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c116.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 116,
+            "chapter_title_ta": "ஹிந்து மதத்தின் நிறுவன அமைப்பு:பண பலமும் ஆள் பலமும் இல்லாதது.",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk116.htm"
+          },
+          "dk_claim_summary": "Hindu religious life is described as institutionally diffuse and comparatively weak in centralized money and personnel, which the discourse sees as affecting its public capacity.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 116.242317,
+          "matched_terms": [
+            "dharma",
+            "its",
+            "life",
+            "public",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c098.gita_interpreted_assigning_leaders_duty_model_conventional",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 98,
+            "chapter_title_ta": "தலைவர் கடமை: கீதை உபதேசம்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk99.htm"
+          },
+          "dk_claim_summary": "The Gita is interpreted as assigning leaders a duty to model conventional dharma for the public even when their own spiritual maturity might permit greater freedom.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 115.854512,
+          "matched_terms": [
+            "dharma",
+            "freedom",
+            "interpreted",
+            "public",
+            "religious",
+            "spiritual"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c141.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 141,
+            "chapter_title_ta": "தர்ம சக்கரமா? ஆலைத் தொழில் சக்கரமா?",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk141.htm"
+          },
+          "dk_claim_summary": "The replacement of the charkha by the chakra is used to question whether industrial modernity displaced the Gandhian ideal of simple, decentralized economic life.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 107.85317,
+          "matched_terms": [
+            "chakra",
+            "dharma",
+            "life",
+            "public",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "human_review_status": "pending",
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.1962p1.epic_listening_as_moral_formation",
+      "external_source_id": "mahaperiyava.external.1962_ilayathangudi_part1",
+      "source_family_id": "family.mahaperiyava.1962_ilayathangudi_sadas",
+      "source_representation": "translated_official_web_transcription",
+      "source_verbatim_status": "translated_not_original_wording",
+      "source_independence_from_dk": "independent_event",
+      "external_claim_summary": "The 1962 address presents hearing and reflecting on the Mahabharata and exemplary lives as a form of moral formation that can orient people toward truth and dharma.",
+      "external_topics": [
+        "mahabharata",
+        "satsang",
+        "moral_formation",
+        "dharma"
+      ],
+      "external_flags": [],
+      "retrieval_query_sha256": "765de3cb9d83343fbed9fe4eeb97b7ef98b6893d6014b45f75e39863fd5dee33",
+      "retrieval_status": "retrieved_evidence",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.maha_bharatham.repeated_epic_hearing_shapes_moral_imagination",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 82,
+            "chapter_title_ta": "maha bharatham",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural82.htm"
+          },
+          "dk_claim_summary": "Regular hearing of epic stories is said to keep ideals of right conduct before people even when they cannot fully imitate the exemplary characters.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 137.314386,
+          "matched_terms": [
+            "exemplary",
+            "formation",
+            "hearing",
+            "moral",
+            "people"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c130.ramayana_and_mahabharata_are_elevated_as_veda_like_guides_to_dharma_for_the_general_population",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 130,
+            "chapter_title_ta": "இதிஹாஸங்களின் பெருமை",
+            "digital_url": "https://www.kamakoti.org/tamil/Kural122.htm"
+          },
+          "dk_claim_summary": "Ramayana and Mahabharata are praised as Veda-like texts that carried dharma to people across social and educational levels and are credited with shaping moral life through widely shared narrative.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 135.593912,
+          "matched_terms": [
+            "dharma",
+            "mahabharata",
+            "moral",
+            "people"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.ezhuthalar_kadamai.temple_purana_recitation_as_moral_education",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 81,
+            "chapter_title_ta": "ezhuthalar kadamai",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural81.htm"
+          },
+          "dk_claim_summary": "Public recitation of Puranas and the Mahabharata in temples is presented as an older form of moral education that helped shape ordinary people’s character.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 133.970754,
+          "matched_terms": [
+            "form",
+            "mahabharata",
+            "moral",
+            "people"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c143.puranic_moral_ideals_require_practical_disciplines_that_transform_habit",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 143,
+            "chapter_title_ta": "புராண லக்ஷியத்துக்கு நடைமுறை வழி",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk1.htm"
+          },
+          "dk_claim_summary": "Admiration for exemplary Puranic characters is said to be insufficient by itself; because people are driven to action, moral aspiration must be supported by concrete religious disciplines that purify habits and character.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 115.018889,
+          "matched_terms": [
+            "exemplary",
+            "formation",
+            "moral",
+            "people"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.ahimsa_soldiers_live_dharma_courageously",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 73,
+            "chapter_title_ta": "ahimsa soldiers thevai",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural73.htm"
+          },
+          "dk_claim_summary": "The desired ‘ahimsa soldiers’ are people willing to live their own dharma with purity, discipline, love, and even personal sacrifice, without attacking opponents; exemplary lives are expected to inspire others.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 112.127448,
+          "matched_terms": [
+            "dharma",
+            "exemplary",
+            "lives",
+            "people"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.mathapothagar_yokkiyathamsangal.goal_to_form_exemplary_persons",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 27,
+            "chapter_title_ta": "மதபோதகரின் யோக்கியதாம்சங்கள்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural27.htm"
+          },
+          "dk_claim_summary": "The stated aim of the discourses is to help produce people marked by peace, compassion, knowledge, and sacrifice, whose lives themselves can guide others.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 107.216576,
+          "matched_terms": [
+            "can",
+            "exemplary",
+            "form",
+            "formation",
+            "lives",
+            "people"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.maha_bharatham.restore_epic_culture_to_preserve_dharma",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 82,
+            "chapter_title_ta": "maha bharatham",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural82.htm"
+          },
+          "dk_claim_summary": "The chapter urges reviving some exposure to the epics as a way of preserving truth, justice, and dharma amid modern social and ideological pressures.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 99.072058,
+          "matched_terms": [
+            "dharma",
+            "mahabharata",
+            "moral",
+            "truth"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v4.c124.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 4,
+            "chapter_ordinal": 124,
+            "chapter_title_ta": "முரண்பாடு எதனால்?",
+            "digital_url": "https://www.kamakoti.org/tamil/part4kural178.htm"
+          },
+          "dk_claim_summary": "The apparent contradiction between praising education and observing misconduct among educated people is resolved by arguing that knowledge without devotion, restraint, and moral formation can strengthen ego rather than virtue.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 98.43558,
+          "matched_terms": [
+            "can",
+            "dharma",
+            "formation",
+            "moral",
+            "people"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.practice_dharma_without_anger_or_polemic",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 73,
+            "chapter_title_ta": "ahimsa soldiers thevai",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural73.htm"
+          },
+          "dk_claim_summary": "Practitioners are urged not to fear, hate, or quarrel with religious opponents, but instead to follow their own disciplines fully enough that the tradition can be seen embodied in exemplary lives.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 92.882902,
+          "matched_terms": [
+            "can",
+            "dharma",
+            "exemplary",
+            "lives"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c258.contrasts_older_dharma_centered_order_religious_instruction",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 258,
+            "chapter_title_ta": "தர்ம அபிவிருத்தியே அஸ்திவாரம் வர்ண தர்ம பரிபாலனம்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk264.htm"
+          },
+          "dk_claim_summary": "The chapter contrasts an older dharma-centered order of religious instruction, caste-community regulation and limited policing with modern reliance on courts, police and welfare administration, claiming that moral formation once prevented crime more effectively.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 86.672004,
+          "matched_terms": [
+            "dharma",
+            "formation",
+            "moral"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "human_review_status": "pending",
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.1962p1.temple_and_traditional_arts_preservation",
+      "external_source_id": "mahaperiyava.external.1962_ilayathangudi_part1",
+      "source_family_id": "family.mahaperiyava.1962_ilayathangudi_sadas",
+      "source_representation": "translated_official_web_transcription",
+      "source_verbatim_status": "translated_not_original_wording",
+      "source_independence_from_dk": "independent_event",
+      "external_claim_summary": "The address urges preservation of temples, scriptural discourse, traditional ritual roles, sculpture and related arts as living religious responsibilities rather than museum remnants.",
+      "external_topics": [
+        "temple",
+        "agama",
+        "shilpa",
+        "traditional_arts",
+        "preservation"
+      ],
+      "external_flags": [],
+      "retrieval_query_sha256": "df8896a381377c084f06ddaea46efce91af4e40f7ef09eaf3c945dda8d5e54e1",
+      "retrieval_status": "retrieved_evidence",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.preserving_temple_presence_and_arts_benefits_society",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 102,
+            "chapter_title_ta": "alayamum deivika kalaigalum",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall10.htm"
+          },
+          "dk_claim_summary": "Maintaining consecrated presence, Agamic renovation, sacred storytelling, and temple arts is presented as supporting both religious specialists and the moral welfare of society at large.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 150.36955,
+          "matched_terms": [
+            "agama",
+            "arts",
+            "religious",
+            "temple",
+            "traditional"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.religious_arts_and_hereditary_skills_are_declining",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 102,
+            "chapter_title_ta": "alayamum deivika kalaigalum",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall10.htm"
+          },
+          "dk_claim_summary": "Temple-related storytelling, ritual professions, architecture, folk arts, and hereditary skills are described as declining because systems of patronage and transmission have weakened.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 129.953801,
+          "matched_terms": [
+            "arts",
+            "related",
+            "religious",
+            "ritual",
+            "temple"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.alaya_vazhipadu.preserve_agamic_order_and_correct_lapses",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 100,
+            "chapter_title_ta": "alaya vazhipadu",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall08.htm"
+          },
+          "dk_claim_summary": "Temple reform is framed as restoring lapses within the inherited Agamic discipline rather than freely altering ritual systems, because those systems are treated as instruments for preserving sacred presence.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 129.282966,
+          "matched_terms": [
+            "agama",
+            "rather",
+            "ritual",
+            "temple",
+            "than",
+            "traditional"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c209.vastu_architecture_sculpture_mechanics_related_technical_arts",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 209,
+            "chapter_title_ta": "வாஸ்து சாஸ்திரம்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk215.htm"
+          },
+          "dk_claim_summary": "Vastu, architecture, sculpture, mechanics, and related technical arts are presented as branches of traditional sacred or practical knowledge associated especially with Atharvaveda.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 129.008419,
+          "matched_terms": [
+            "arts",
+            "related",
+            "sculpture",
+            "traditional"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c207.agama_tantra_yoga_and_modern_science_are_added_to_a_broad_program_of_religious_and_intellectual_learning",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 207,
+            "chapter_title_ta": "பிறகு போகவே முதலில் வேண்டும்",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk66.htm"
+          },
+          "dk_claim_summary": "Agama, Tantra, Yoga, the traditional eighteen fields and modern sciences are all presented as worthy of serious study, with old and new knowledge ideally complementing rather than caricaturing one another.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 119.819825,
+          "matched_terms": [
+            "agama",
+            "rather",
+            "religious",
+            "than",
+            "traditional"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.restore_temples_as_centers_of_social_life",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 102,
+            "chapter_title_ta": "alayamum deivika kalaigalum",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall10.htm"
+          },
+          "dk_claim_summary": "A proposed remedy for moral and cultural decline is to make temples central to community life again and actively support older devotional and folk arts.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 115.791946,
+          "matched_terms": [
+            "arts",
+            "religious",
+            "temple",
+            "temples",
+            "traditional"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c197.supporting_existing_vedic_lineages_is_preferred_over_creating_new_ritual_castes",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 197,
+            "chapter_title_ta": "புது பிராம்மண ஜாதி உண்டாக்கலாமா?",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk56.htm"
+          },
+          "dk_claim_summary": "If preservation of mantra and Vedic learning is the goal, the source recommends strengthening existing hereditary lineages rather than reallocating ritual roles to new groups, while claiming equal dignity for non-Vedic occupations.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 110.797672,
+          "matched_terms": [
+            "preservation",
+            "rather",
+            "ritual",
+            "roles",
+            "than"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v4.c117.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 4,
+            "chapter_ordinal": 117,
+            "chapter_title_ta": "ஆலயமும் வித்யையும்",
+            "digital_url": "https://www.kamakoti.org/tamil/part4kural171.htm"
+          },
+          "dk_claim_summary": "Temples are described as major educational sites in later periods, with dedicated teaching spaces supporting grammar and secular as well as religious learning rather than functioning only as ritual centers.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 108.090762,
+          "matched_terms": [
+            "rather",
+            "religious",
+            "ritual",
+            "temple",
+            "temples",
+            "than"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v5.c075.shaiva_explanatory_traditions",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 5,
+            "chapter_ordinal": 75,
+            "chapter_title_ta": "பூஜை இல்லாத காரணம்",
+            "digital_url": "https://www.kamakoti.org/tamil/5part65.htm"
+          },
+          "dk_claim_summary": "Shaiva narratives explaining Brahma’s lack of widespread temple worship are presented as sectarian traditions rather than as a universally accepted historical explanation.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 106.662329,
+          "matched_terms": [
+            "rather",
+            "religious",
+            "ritual",
+            "temple",
+            "than"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v4.c139.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 4,
+            "chapter_ordinal": 139,
+            "chapter_title_ta": "ஆகம சாஸ்திரம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part4kural194.htm"
+          },
+          "dk_claim_summary": "Mantra and Agama traditions are presented as large bodies of technical religious knowledge governing consecration, temple construction, worship, and ritual presence, and therefore needing serious transmission.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 104.513611,
+          "matched_terms": [
+            "agama",
+            "religious",
+            "ritual",
+            "temple"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "human_review_status": "pending",
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.1962p1.vote_bribery_condemned",
+      "external_source_id": "mahaperiyava.external.1962_ilayathangudi_part1",
+      "source_family_id": "family.mahaperiyava.1962_ilayathangudi_sadas",
+      "source_representation": "translated_official_web_transcription",
+      "source_verbatim_status": "translated_not_original_wording",
+      "source_independence_from_dk": "independent_event",
+      "external_claim_summary": "Accepting money for votes and broader dishonesty in public and commercial life are condemned as forms of corruption that damage the nation.",
+      "external_topics": [
+        "elections",
+        "bribery",
+        "truth",
+        "public_ethics"
+      ],
+      "external_flags": [
+        "political_social_claim_requires_context"
+      ],
+      "retrieval_query_sha256": "d93de1f8c462b7bbb598bfb3bfe110f8b01d382f0e0dea73b4e9c30ebfdefad5",
+      "retrieval_status": "retrieved_evidence",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c116.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 116,
+            "chapter_title_ta": "ஹிந்து மதத்தின் நிறுவன அமைப்பு:பண பலமும் ஆள் பலமும் இல்லாதது.",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk116.htm"
+          },
+          "dk_claim_summary": "Hindu religious life is described as institutionally diffuse and comparatively weak in centralized money and personnel, which the discourse sees as affecting its public capacity.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 92.558421,
+          "matched_terms": [
+            "life",
+            "money",
+            "public"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c128.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 128,
+            "chapter_title_ta": "மதத் தொடர்பில்லாத உபாயங்கள்;கடும் தண்டனை விதித்தல் வேண்டும்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk128.htm"
+          },
+          "dk_claim_summary": "Use of money, institutional pressure or other non-religious inducements to secure conversion is condemned and the discourse advocates strong legal penalties for such methods.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 91.050771,
+          "matched_terms": [
+            "condemned",
+            "life",
+            "money",
+            "public"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.panathai_vittu_gunathai_kolka.cultivate_virtue_instead_of_attachment_to_money",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 70,
+            "chapter_title_ta": "panathai vittu gunathai kolka",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural70.htm"
+          },
+          "dk_claim_summary": "Attachment to money is identified as a root disorder, and the recommended alternative is to cultivate virtues so that one’s life benefits both oneself and the world.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 90.076757,
+          "matched_terms": [
+            "life",
+            "money"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.thalaivalikku_parikaram_sirachedhama.duty_over_money_and_final_unity_ideal",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 42,
+            "chapter_title_ta": "தலைவலிக்குப் பரிகாரம் சிரச்சேதமா ?",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural42.htm"
+          },
+          "dk_claim_summary": "Replacing money-centered competition with duty-centered life is presented as a path toward mutual trust, assistance, equality of worth, peace, and social unity.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 75.915291,
+          "matched_terms": [
+            "life",
+            "money"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.panathai_vittu_gunathai_kolka.character_over_money",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 70,
+            "chapter_title_ta": "panathai vittu gunathai kolka",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural70.htm"
+          },
+          "dk_claim_summary": "Full well-being is said to require reviving dharmic practice, reducing the pursuit of money and comfort, and striving instead for good character and a quieter, more contented life.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 75.915291,
+          "matched_terms": [
+            "life",
+            "money"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c002.avvaiyar_forms_children_through_ethics_and_bhakti",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 2,
+            "chapter_title_ta": "தமிழ் நாட்டின் சிறப்பு",
+            "digital_url": "https://www.kamakoti.org/tamil/KURAL1b.htm"
+          },
+          "dk_claim_summary": "Avvaiyar is praised for directing her literary and spiritual gifts toward children, planting ethics, discipline and devotion early enough to endure across life and generations.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 72.349329,
+          "matched_terms": [
+            "ethics",
+            "forms",
+            "life"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c140.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 140,
+            "chapter_title_ta": "தேசிய இலட்சணம் வாசகமாக வேதவாக்கு",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk140.htm"
+          },
+          "dk_claim_summary": "The national motto Satyameva Jayate is welcomed as a Vedic-Upanishadic statement that truth should stand at the center of public ideals.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 71.920899,
+          "matched_terms": [
+            "life",
+            "public",
+            "truth"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c105.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 105,
+            "chapter_title_ta": "அரசும் மதமும்,",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk105.htm"
+          },
+          "dk_claim_summary": "The discourse argues that government and religion cannot be treated as wholly unrelated because public order affects the conditions in which religious and moral life are practiced.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 63.891482,
+          "matched_terms": [
+            "life",
+            "public"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c139.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 139,
+            "chapter_title_ta": "தேசக் கொடியில் தர்ம சக்கரம் இடம் பெற்றதன் உட்காரணம்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk139.htm"
+          },
+          "dk_claim_summary": "The Dharma Chakra on India's flag is interpreted as a moral symbol calling public life toward dharma rather than merely a decorative emblem.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 63.891482,
+          "matched_terms": [
+            "life",
+            "public"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.sathiyam.truth_must_be_beneficial_not_merely_literal",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 50,
+            "chapter_title_ta": "சத்தியம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural50.htm"
+          },
+          "dk_claim_summary": "Truth is said to require more than literal correspondence: speech, thought, and action should also conduce to genuine welfare rather than merely expose faults or express harmful thoughts.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 62.329705,
+          "matched_terms": [
+            "ethics",
+            "truth"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "human_review_status": "pending",
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.1962p2.sectarian_unity",
+      "external_source_id": "mahaperiyava.external.1962_ilayathangudi_part2",
+      "source_family_id": "family.mahaperiyava.1962_ilayathangudi_sadas",
+      "source_representation": "translated_official_web_transcription",
+      "source_verbatim_status": "translated_not_original_wording",
+      "source_independence_from_dk": "independent_event",
+      "external_claim_summary": "The address calls for reduced hostility among Shaiva, Vaishnava and other worship traditions and presents multiple forms of divine worship as capable of coexisting without mutual hatred.",
+      "external_topics": [
+        "shaiva",
+        "vaishnava",
+        "shanmatha",
+        "religious_harmony"
+      ],
+      "external_flags": [
+        "religious_comparison_attributed_only"
+      ],
+      "retrieval_query_sha256": "1a620845441ab972a18c97b07fed8477e2796022ac0f95511ee3a495d1c3e45b",
+      "retrieval_status": "retrieved_evidence",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.bhagavan_yaar_bhagavatpadhar_badhil.ishta_devata_without_denigration_and_reciprocal_worship",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 142,
+            "chapter_title_ta": "bhagavan yaar bhagavatpadhar badhil",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall51.htm"
+          },
+          "dk_claim_summary": "Strong devotion to one's chosen deity is allowed, but denigration of other forms is rejected; reciprocal worship among deities in Puranic narratives is used to reinforce mutual reverence.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 154.236715,
+          "matched_terms": [
+            "among",
+            "forms",
+            "mutual",
+            "other",
+            "religious",
+            "without",
+            "worship"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c284.shaiva_vaishnava_sources_celebrate_power_shiva_name",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 284,
+            "chapter_title_ta": "சிவ நாம மஹிமை! சிவன் தரும் மஹிமை",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk290.htm"
+          },
+          "dk_claim_summary": "Shaiva and Vaishnava sources are used to celebrate the power of Shiva's name and to argue for cross-sectarian recognition of Shiva's greatness.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 151.0957,
+          "matched_terms": [
+            "harmony",
+            "religious",
+            "shaiva",
+            "vaishnava"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.moolamagiya_vedam.sectarian_diversity_within_hindu_fold",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 43,
+            "chapter_title_ta": "மூலமாகிய வேதம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural43.htm"
+          },
+          "dk_claim_summary": "Shaiva, Vaishnava, and other traditions may appear to have different deities and texts, yet the chapter asks whether a deeper common religious identity underlies these differences.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 147.201887,
+          "matched_terms": [
+            "other",
+            "religious",
+            "shaiva",
+            "traditions",
+            "vaishnava"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.moolamagiya_vedam.upanishadic_brahman_as_common_divine",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 43,
+            "chapter_title_ta": "மூலமாகிய வேதம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural43.htm"
+          },
+          "dk_claim_summary": "The Upanishadic Brahman is presented as the common ultimate divine reality behind Shaiva, Vaishnava, Smarta, and other Hindu traditions.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 143.510944,
+          "matched_terms": [
+            "divine",
+            "other",
+            "shaiva",
+            "traditions",
+            "vaishnava"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c015.smarta_devotion_should_honor_all_divine_forms_without_denigration",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 15,
+            "chapter_title_ta": "\"சங்கர சம்பிரதாயம்\"",
+            "digital_url": "https://www.kamakoti.org/tamil/Kural8N5.htm"
+          },
+          "dk_claim_summary": "Shankara and the Smarta ideal are presented as embracing Shiva, Vishnu, Shakti and other divine forms without hierarchy; strong personal devotion to an ishta-devata is acceptable, but denigrating another deity is rejected.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 127.681766,
+          "matched_terms": [
+            "divine",
+            "forms",
+            "harmony",
+            "other",
+            "religious",
+            "without"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.nam_mathathin_thani_amsangal.one_formless_divine_many_forms_and_murtis",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 30,
+            "chapter_title_ta": "நம் மதத்தின் தனி அம்சங்கள்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural30.htm"
+          },
+          "dk_claim_summary": "Murti worship is explained as focused worship of the one all-pervading divine through multiple forms, not as belief in independent rival gods or in stone alone.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 117.165163,
+          "matched_terms": [
+            "divine",
+            "forms",
+            "multiple",
+            "worship"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c006.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 6,
+            "chapter_title_ta": "தெற்கு நோக்கும் தெய்வம் மூன்று சைவ - வைணவ ஸமரஸம்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk6.htm"
+          },
+          "dk_claim_summary": "The south-facing forms of Dakshinamurti, Nataraja and Ranganatha are used to illustrate an underlying Shaiva-Vaishnava harmony rather than sectarian rivalry.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 107.977098,
+          "matched_terms": [
+            "forms",
+            "harmony",
+            "religious",
+            "shaiva",
+            "vaishnava"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c200.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 200,
+            "chapter_title_ta": "இரண்டு ராஜாக்கள்: ஸர்வலோக ராஜாவின் இரண்டு வேஷங்கள்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk200a.htm"
+          },
+          "dk_claim_summary": "Shiva and Vishnu are portrayed as two royal forms of the one supreme divine reality; sectarian difference is treated as a difference of role and appearance rather than ultimate substance.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 107.945048,
+          "matched_terms": [
+            "divine",
+            "forms",
+            "harmony",
+            "religious",
+            "shaiva",
+            "vaishnava"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c207.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 207,
+            "chapter_title_ta": "சிவ-விஷ்ணு அபேதம்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk200h.htm"
+          },
+          "dk_claim_summary": "Shaiva-Vaishnava non-difference is explicitly affirmed, with Shiva and Vishnu treated as devotional approaches to one ultimate reality.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 107.093688,
+          "matched_terms": [
+            "harmony",
+            "shaiva",
+            "vaishnava"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c015.ritual_difference_should_not_destroy_spiritual_fellowship",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 15,
+            "chapter_title_ta": "\"சங்கர சம்பிரதாயம்\"",
+            "digital_url": "https://www.kamakoti.org/tamil/Kural8N5.htm"
+          },
+          "dk_claim_summary": "The chapter ends by urging people to preserve inherited ritual disciplines while remaining inwardly united, without hostility, as members of one spiritual family under Shankara's ideal of harmony.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 104.796231,
+          "matched_terms": [
+            "harmony",
+            "hostility",
+            "religious",
+            "without"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "human_review_status": "pending",
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.1962p2.tiruppavai_tiruvempavai_and_folk_arts",
+      "external_source_id": "mahaperiyava.external.1962_ilayathangudi_part2",
+      "source_family_id": "family.mahaperiyava.1962_ilayathangudi_sadas",
+      "source_representation": "translated_official_web_transcription",
+      "source_verbatim_status": "translated_not_original_wording",
+      "source_independence_from_dk": "independent_event",
+      "external_claim_summary": "Tiruppavai and Tiruvempavai observances are linked with encouragement of folk arts, agama scholarship and shilpa traditions as part of sustaining living religious culture.",
+      "external_topics": [
+        "tiruppavai",
+        "tiruvempavai",
+        "folk_arts",
+        "agama",
+        "shilpa"
+      ],
+      "external_flags": [],
+      "retrieval_query_sha256": "eeb545f82c416be22b9a68d13ccadb5c32fbe32277b33dca8163cfa72ee904ca",
+      "retrieval_status": "retrieved_evidence",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.religious_arts_and_hereditary_skills_are_declining",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 102,
+            "chapter_title_ta": "alayamum deivika kalaigalum",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall10.htm"
+          },
+          "dk_claim_summary": "Temple-related storytelling, ritual professions, architecture, folk arts, and hereditary skills are described as declining because systems of patronage and transmission have weakened.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 104.589859,
+          "matched_terms": [
+            "arts",
+            "folk",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.preserving_temple_presence_and_arts_benefits_society",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 102,
+            "chapter_title_ta": "alayamum deivika kalaigalum",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall10.htm"
+          },
+          "dk_claim_summary": "Maintaining consecrated presence, Agamic renovation, sacred storytelling, and temple arts is presented as supporting both religious specialists and the moral welfare of society at large.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 96.701921,
+          "matched_terms": [
+            "agama",
+            "arts",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v4.c142.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 4,
+            "chapter_ordinal": 142,
+            "chapter_title_ta": "கிராமக் கலைகள்",
+            "digital_url": "https://www.kamakoti.org/tamil/part4kural197.htm"
+          },
+          "dk_claim_summary": "Local hereditary arts, including performance and ritual crafts, are treated as knowledge traditions worth sustaining before they disappear with the last living practitioners.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 94.617193,
+          "matched_terms": [
+            "arts",
+            "living",
+            "sustaining",
+            "traditions"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.restore_temples_as_centers_of_social_life",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 102,
+            "chapter_title_ta": "alayamum deivika kalaigalum",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall10.htm"
+          },
+          "dk_claim_summary": "A proposed remedy for moral and cultural decline is to make temples central to community life again and actively support older devotional and folk arts.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 90.5476,
+          "matched_terms": [
+            "arts",
+            "folk",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c008.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 8,
+            "chapter_title_ta": "பாரத தேசத்தின் தனித்தன்மை",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk8.htm"
+          },
+          "dk_claim_summary": "India's religious culture is portrayed as distinctive for integrating regional forms of devotion into a larger sacred civilization rather than isolating them as mutually exclusive traditions.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 80.7276,
+          "matched_terms": [
+            "culture",
+            "religious",
+            "traditions"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c010.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 10,
+            "chapter_title_ta": "கலாசார வளர்ச்சி கணேசராலேயே",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk10.htm"
+          },
+          "dk_claim_summary": "Ganesha is credited in the discourse with a formative role in the growth of Tamil religious culture, especially through worship, literature and temple traditions.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 80.7276,
+          "matched_terms": [
+            "culture",
+            "religious",
+            "traditions"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c207.agama_tantra_yoga_and_modern_science_are_added_to_a_broad_program_of_religious_and_intellectual_learning",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 207,
+            "chapter_title_ta": "பிறகு போகவே முதலில் வேண்டும்",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk66.htm"
+          },
+          "dk_claim_summary": "Agama, Tantra, Yoga, the traditional eighteen fields and modern sciences are all presented as worthy of serious study, with old and new knowledge ideally complementing rather than caricaturing one another.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 77.925042,
+          "matched_terms": [
+            "agama",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c232.traditional_sixty_four_arts_wide_cultural_field",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 232,
+            "chapter_title_ta": "அறுபத்துநாலு கலைகள்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk238.htm"
+          },
+          "dk_claim_summary": "The traditional sixty-four arts are presented as a wide cultural field encompassing artistic, linguistic, recreational, and performative skills.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 77.432264,
+          "matched_terms": [
+            "arts",
+            "culture"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c110.takes_seriously_objection_person_can_remain_within",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 110,
+            "chapter_title_ta": "முந்தைய உரைத் தொடர்பாக ஒரு விளக்கம்1",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk112.htm"
+          },
+          "dk_claim_summary": "The chapter takes seriously the objection that a person can remain within Vedic religion while moving between later Hindu philosophical or devotional traditions, especially because sectarian divisions arose after an earlier shared ritual culture.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 76.44966,
+          "matched_terms": [
+            "culture",
+            "religious",
+            "traditions"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c212.simple_living_is_presented_as_a_condition_for_contentment_and_spiritual_attention",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 212,
+            "chapter_title_ta": "அதிக ஸெளகர்யம் கூடாது",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk71.htm"
+          },
+          "dk_claim_summary": "Simple living with limited material demands is presented as more conducive to contentment, prayer and realization than maximizing comfort, and this ideal is linked to the source's defense of traditional social discipline.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 73.532123,
+          "matched_terms": [
+            "linked",
+            "living",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "human_review_status": "pending",
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.1962p2.ethical_formation_beyond_law",
+      "external_source_id": "mahaperiyava.external.1962_ilayathangudi_part2",
+      "source_family_id": "family.mahaperiyava.1962_ilayathangudi_sadas",
+      "source_representation": "translated_official_web_transcription",
+      "source_verbatim_status": "translated_not_original_wording",
+      "source_independence_from_dk": "independent_event",
+      "external_claim_summary": "The address argues that law alone cannot remove corruption and that ethical formation also requires personal practice, religious teaching and reflection on exemplary lives.",
+      "external_topics": [
+        "law",
+        "corruption",
+        "ethical_formation",
+        "dharma"
+      ],
+      "external_flags": [
+        "political_social_claim_requires_context"
+      ],
+      "retrieval_query_sha256": "8fec127ca735dd2f9781b44e9c72ed59bc0dc830c1dc99931cb2397ef48665de",
+      "retrieval_status": "retrieved_evidence",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.practice_dharma_without_anger_or_polemic",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 73,
+            "chapter_title_ta": "ahimsa soldiers thevai",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural73.htm"
+          },
+          "dk_claim_summary": "Practitioners are urged not to fear, hate, or quarrel with religious opponents, but instead to follow their own disciplines fully enough that the tradition can be seen embodied in exemplary lives.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 121.309082,
+          "matched_terms": [
+            "dharma",
+            "exemplary",
+            "lives",
+            "practice",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.ahimsa_soldiers_live_dharma_courageously",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 73,
+            "chapter_title_ta": "ahimsa soldiers thevai",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural73.htm"
+          },
+          "dk_claim_summary": "The desired ‘ahimsa soldiers’ are people willing to live their own dharma with purity, discipline, love, and even personal sacrifice, without attacking opponents; exemplary lives are expected to inspire others.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 112.640839,
+          "matched_terms": [
+            "dharma",
+            "exemplary",
+            "lives",
+            "personal"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c145.traditional_dharma_inheritance_rules_are_contrasted_with_modern_hindu_law_reform",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 145,
+            "chapter_title_ta": "வைத்யநாத தீக்ஷிதீயம்",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk3.htm"
+          },
+          "dk_claim_summary": "Traditional inheritance and family-law rules in Dharma Shastra are discussed in contrast with modern Hindu legal reforms, with the older system treated by the source as religiously authoritative; this is preserved as historical normative teaching, not current legal advice.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 103.241617,
+          "matched_terms": [
+            "dharma",
+            "law",
+            "requires"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c097.religious_faith_dharma_disciplined_practice_integrated_ladder",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 97,
+            "chapter_title_ta": "தெய்வமும் மதமும் தர்மமும்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk98.htm"
+          },
+          "dk_claim_summary": "Religious faith, dharma, and disciplined practice are presented as an integrated ladder of formation; removing the practical disciplines is said to leave most people without a stable route upward.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 102.624733,
+          "matched_terms": [
+            "dharma",
+            "formation",
+            "practice",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c179.source_urges_legal_persuasion_toward_earlier_marriage_while_explicitly_saying_not_to_break_current_law",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 179,
+            "chapter_title_ta": "விவாஹ வயதும் சட்டமும்",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk37.htm"
+          },
+          "dk_claim_summary": "Although defending the traditional early-marriage norm, the source explicitly says current civil law should not be violated and instead calls for peaceful long-term persuasion of government and society toward its Dharma Shastra view.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 101.723245,
+          "matched_terms": [
+            "dharma",
+            "law",
+            "religious",
+            "requires"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c190.source_claims_secular_law_treats_hindu_religious_social_norms_less_deferentially_than_minority_norms",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 190,
+            "chapter_title_ta": "எடுத்துச் சொல்லிப் பயனுண்டா?",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk48.htm"
+          },
+          "dk_claim_summary": "The chapter argues that a secular state is inconsistent when reform laws override Hindu religious-social rules while granting exemptions to minority communities, presenting a political grievance that requires historical legal verification and neutral attribution.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 92.169789,
+          "matched_terms": [
+            "argues",
+            "law",
+            "religious",
+            "requires"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c207.practice_character_and_reduced_money_centeredness_are_ranked_above_lectures_or_book_learning_alone",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 207,
+            "chapter_title_ta": "பிறகு போகவே முதலில் வேண்டும்",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk66.htm"
+          },
+          "dk_claim_summary": "Lectures and books are said to be insufficient without embodied practice and moral discipline, while excessive orientation toward money is blamed for weakening traditional learning and observance; education should ultimately serve spiritual and cultural formation rather than income alone.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 91.014353,
+          "matched_terms": [
+            "alone",
+            "formation",
+            "practice",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c254.answers_charge_brahmins_manipulated_kings_privilege_portraying",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 254,
+            "chapter_title_ta": "அரசனுக்கிருந்த கட்டுப்பாடுகள்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk260.htm"
+          },
+          "dk_claim_summary": "The source answers the charge that Brahmins manipulated kings for privilege by portraying learned advisers as austere and politically detached; it also says rulers were fully accountable under law and that a ruler's sin could cause collective or even natural calamity.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 87.879545,
+          "matched_terms": [
+            "also",
+            "dharma",
+            "law",
+            "requires"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c028.vedic_dharmashastra_tamil_ethical_later_digest_traditions",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 28,
+            "chapter_title_ta": "வேத, சாஸ்த்ரங்களில் தான தர்மம்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk28.htm"
+          },
+          "dk_claim_summary": "Vedic, Dharmashastra, Tamil ethical, and later digest traditions are surveyed to show that dana and material generosity are deeply embedded in Hindu religious duty.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 84.361178,
+          "matched_terms": [
+            "dharma",
+            "ethical",
+            "religious",
+            "requires"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c110.deep_personal_conviction_philosophy_different_one_inherited",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 110,
+            "chapter_title_ta": "முந்தைய உரைத் தொடர்பாக ஒரு விளக்கம்1",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk112.htm"
+          },
+          "dk_claim_summary": "Deep personal conviction in a philosophy different from one's inherited school is allowed as an inward matter, but the source distinguishes such conviction from outward inherited practice and argues that ritual forms can indirectly support spiritual maturation without directly determining doctrine.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 84.102441,
+          "matched_terms": [
+            "argues",
+            "personal",
+            "practice",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "human_review_status": "pending",
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.elder.truthfulness_and_limits_on_consumption",
+      "external_source_id": "mahaperiyava.external.jw_elder_interview_gist",
+      "source_family_id": "family.mahaperiyava.jw_elder_interview",
+      "source_representation": "reported_interview_gist",
+      "source_verbatim_status": "gist_not_verbatim",
+      "source_independence_from_dk": "independent_event",
+      "external_claim_summary": "The interview gist stresses truthfulness, honesty and discrimination between necessities and luxuries as important elements of social and religious ethics.",
+      "external_topics": [
+        "truthfulness",
+        "honesty",
+        "simplicity",
+        "needs_and_luxury"
+      ],
+      "external_flags": [
+        "historical_social_claim_requires_external_verification"
+      ],
+      "retrieval_query_sha256": "e1a4b549dbdf58718bbeb5d4dc28ef97a6d51aac24233c729afcdb3e7121016e",
+      "retrieval_status": "retrieved_evidence",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.kanakkayirukkanum.economy_means_limiting_needs",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 69,
+            "chapter_title_ta": "kanakkayirukkanum",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural69.htm"
+          },
+          "dk_claim_summary": "True economy is described not as bargaining over unnecessary purchases but as first asking whether a thing is genuinely necessary and limiting one’s needs accordingly.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 83.617032,
+          "matched_terms": [
+            "needs",
+            "simplicity"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c220.society_and_state_are_said_to_owe_basic_food_clothing_and_shelter_to_manual_laborers",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 220,
+            "chapter_title_ta": "நாலாம் வர்ணத்தவரின் அநுகூல நிலை",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk79.htm"
+          },
+          "dk_claim_summary": "Despite defending differentiated social roles, the source says society and government incur moral fault if manual laborers lack basic food, clothing and shelter and insists that these necessities must be provided.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 83.43067,
+          "matched_terms": [
+            "necessities",
+            "needs",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.basic_needs_for_all",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 67,
+            "chapter_title_ta": "vaazhkai tharam",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural67.htm"
+          },
+          "dk_claim_summary": "Public planning is said to have a proper role in ensuring that everyone receives the necessities required to preserve life and dignity.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 78.75199,
+          "matched_terms": [
+            "necessities",
+            "needs",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c146.religious_rules_are_defended_as_necessary_but_overregulation_is_warned_against",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 146,
+            "chapter_title_ta": "சுயச்சையும் கட்டுப்பாடும்",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk4.htm"
+          },
+          "dk_claim_summary": "The chapter argues that social and religious life needs binding rules but also warns that excessive regulation can destroy initiative and provoke resistance, so discipline itself requires limits.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 76.975998,
+          "matched_terms": [
+            "needs",
+            "religious",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c188.real_reform_is_defined_as_simplifying_rites_and_removing_dowry_not_delaying_samskaras",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 188,
+            "chapter_title_ta": "வாஸ்தவமான சீர்திருத்தம்",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk46.htm"
+          },
+          "dk_claim_summary": "The chapter argues that genuine reform should reduce luxury, dowry and waste so religious rites can be performed without financial pressure, rather than delaying upanayana or marriage beyond traditional limits.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 74.96971,
+          "matched_terms": [
+            "luxury",
+            "religious",
+            "simplicity",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.affluent_should_limit_luxury",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 67,
+            "chapter_title_ta": "vaazhkai tharam",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural67.htm"
+          },
+          "dk_claim_summary": "Those with means are urged to restrain their own comforts rather than continually enlarging them while others lack necessities.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 71.446902,
+          "matched_terms": [
+            "luxury",
+            "necessities",
+            "simplicity",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.dharumangalin_pagupadu.basic_needs_over_status_competition",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 31,
+            "chapter_title_ta": "தருமங்களின் பாகுபாடு",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural31.htm"
+          },
+          "dk_claim_summary": "Social peace is linked to securing basic necessities while limiting expanding wants and the equation of fulfillment with money or status.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 69.742503,
+          "matched_terms": [
+            "necessities",
+            "needs",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.eliya_vaazhvu.affluent_simplicity_as_social_example",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 68,
+            "chapter_title_ta": "eliya vaazhvu",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural68.htm"
+          },
+          "dk_claim_summary": "The chapter presents simplicity among socially influential or affluent people as a stabilizing example and contrasts it with ostentation, while making historical claims about older patterns of social life.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 65.793576,
+          "matched_terms": [
+            "simplicity",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v4.c191.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 4,
+            "chapter_ordinal": 191,
+            "chapter_title_ta": "தர்ம ஒழுங்கின் ஸத்ய அடிப்படை",
+            "digital_url": "https://www.kamakoti.org/tamil/part4kural247.htm"
+          },
+          "dk_claim_summary": "Truthfulness is presented as the indispensable moral foundation of dharmic public administration, because rules cannot protect a polity when officials themselves abandon honesty.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 64.176865,
+          "matched_terms": [
+            "honesty",
+            "social",
+            "truthfulness"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c099.three_approaches_reform_distinguished_religion_accommodating_worldly",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 99,
+            "chapter_title_ta": "மூன்று விதமான கொள்கைகள்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk100.htm"
+          },
+          "dk_claim_summary": "Three approaches to reform are distinguished: religion accommodating worldly needs, spiritual reform aimed at higher realization, and secular reform aimed chiefly at social equality or material goals.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 63.148006,
+          "matched_terms": [
+            "needs",
+            "religious",
+            "social"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "human_review_status": "pending",
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.elder.ahimsa_and_role_specific_duty",
+      "external_source_id": "mahaperiyava.external.jw_elder_interview_gist",
+      "source_family_id": "family.mahaperiyava.jw_elder_interview",
+      "source_representation": "reported_interview_gist",
+      "source_verbatim_status": "gist_not_verbatim",
+      "source_independence_from_dk": "independent_event",
+      "external_claim_summary": "The interview gist gives a role-specific interpretation of ahimsa and distinguishes the renunciant ideal of nonviolence from duties attributed to rulers and governments.",
+      "external_topics": [
+        "ahimsa",
+        "sannyasa",
+        "state_duty",
+        "dharma"
+      ],
+      "external_flags": [
+        "political_social_claim_requires_context",
+        "caste_varna_normative_claim",
+        "violence_requires_context",
+        "religious_comparison_attributed_only"
+      ],
+      "retrieval_query_sha256": "a0ab45a21b20ef67c99640ccabff5ea847ae4a8f68717596290ad36e50336764",
+      "retrieval_status": "retrieved_evidence",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c040.ahimsa_is_ranked_highly_while_vedic_sacrificial_exceptions_are_retained",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 40,
+            "chapter_title_ta": "ஜீவஹிம்ஸை செய்யலாமா ?",
+            "digital_url": "https://www.kamakoti.org/tamil/Kural39.htm"
+          },
+          "dk_claim_summary": "Ahimsa is treated as a superior virtue without being read as a blanket condemnation of Vedic sacrifice; the chapter distinguishes renunciant nonviolence from householder ritual duties and notes that most prescribed sacrifices do not involve animal offerings.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 172.517692,
+          "matched_terms": [
+            "ahimsa",
+            "attributed",
+            "distinguishes",
+            "duties",
+            "nonviolence",
+            "renunciant"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.ahimsai.contextual_exceptions_to_absolute_ahimsa",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 49,
+            "chapter_title_ta": "அஹிம்ஸை",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural49.htm"
+          },
+          "dk_claim_summary": "The chapter distinguishes an ideal of ahimsa from contexts in which traditional dharma is said to permit force or sacrifice for a larger duty, emphasizing intention over outward form.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 162.137967,
+          "matched_terms": [
+            "ahimsa",
+            "attributed",
+            "dharma",
+            "distinguishes",
+            "duty",
+            "ideal"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c115.universal_ethical_duties_such_truthfulness_nonviolence_distinguished",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 115,
+            "chapter_title_ta": "ஆசாரத்தில் ஸாமான்ய தர்மங்கள்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk119.htm"
+          },
+          "dk_claim_summary": "Universal ethical duties such as truthfulness and nonviolence are distinguished from more specific ritual observances, with both treated as parts of achara.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 144.223344,
+          "matched_terms": [
+            "attributed",
+            "dharma",
+            "duties",
+            "duty",
+            "interpretation",
+            "nonviolence",
+            "specific"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.varna_dharmam.samanya_and_vishesha_dharma",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 32,
+            "chapter_title_ta": "வர்ண தர்மம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural32.htm"
+          },
+          "dk_claim_summary": "The chapter distinguishes universal ethical duties such as nonviolence, truthfulness, purity and self-control from special duties assigned within a traditional social order.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 124.140246,
+          "matched_terms": [
+            "dharma",
+            "distinguishes",
+            "duties",
+            "duty",
+            "nonviolence"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c070.neglect_assigned_duties_carry_consequences_even_motivated",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 70,
+            "chapter_title_ta": "கடமை தவறுவதற்குத் தண்டனை",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk71.htm"
+          },
+          "dk_claim_summary": "Neglect of assigned duties is said to carry consequences even when motivated by apparently noble service, because dharma is role-specific.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 115.517868,
+          "matched_terms": [
+            "attributed",
+            "dharma",
+            "duties",
+            "duty",
+            "role",
+            "specific"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c254.closes_ideal_rulers_should_resist_treasury_greed",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 254,
+            "chapter_title_ta": "அரசனுக்கிருந்த கட்டுப்பாடுகள்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk260.htm"
+          },
+          "dk_claim_summary": "The chapter closes with the ideal that rulers should resist treasury greed, protect heirs and vulnerable people, and provide public welfare such as support for the poor, pregnant women, orphans, the elderly and the sick within a dharma-bound conception of government.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 109.437571,
+          "matched_terms": [
+            "dharma",
+            "duty",
+            "ideal",
+            "rulers"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.ahimsa_soldiers_thevai.ahimsa_soldiers_live_dharma_courageously",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 73,
+            "chapter_title_ta": "ahimsa soldiers thevai",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural73.htm"
+          },
+          "dk_claim_summary": "The desired ‘ahimsa soldiers’ are people willing to live their own dharma with purity, discipline, love, and even personal sacrifice, without attacking opponents; exemplary lives are expected to inspire others.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 109.035977,
+          "matched_terms": [
+            "ahimsa",
+            "attributed",
+            "dharma"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.ahimsai.ahimsa_in_thought_speech_action",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 49,
+            "chapter_title_ta": "அஹிம்ஸை",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural49.htm"
+          },
+          "dk_claim_summary": "Ahimsa is presented as a common dharma and a limb of yogic discipline, extending beyond bodily nonviolence to intention and speech.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 100.261478,
+          "matched_terms": [
+            "ahimsa",
+            "dharma",
+            "nonviolence"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c042.dharma_texts_are_cited_to_retain_yajna_and_sannyasa_while_barring_selected_practices",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 42,
+            "chapter_title_ta": "கலியில் ஜீவபலி உண்டா ?",
+            "digital_url": "https://www.kamakoti.org/tamil/Kural41.htm"
+          },
+          "dk_claim_summary": "Dharma-text citations are used to argue that yajna and sannyasa remain available while Vedic social divisions and recitation survive, whereas certain animal sacrifices, meat in ancestor rites and specified reproductive customs are treated as prohibited in the Kali age.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 88.937025,
+          "matched_terms": [
+            "dharma",
+            "sannyasa"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c221.changing_another_varnas_duty_is_said_to_disrupt_the_collective_order_even_when_the_act_is_good_in_another_role",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 221,
+            "chapter_title_ta": "மரியாதைக் குறைவல்ல;அஹம்பாவ நீக்கமே!",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk80.htm"
+          },
+          "dk_claim_summary": "The source argues that the same act can be dharma for one role and wrong for another because social duties are coordinated as a whole; individual interchange is therefore portrayed as producing collective disorder.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 87.793473,
+          "matched_terms": [
+            "dharma",
+            "duties",
+            "duty",
+            "role"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "human_review_status": "pending",
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.elder.religious_institutions_and_secular_state",
+      "external_source_id": "mahaperiyava.external.jw_elder_interview_gist",
+      "source_family_id": "family.mahaperiyava.jw_elder_interview",
+      "source_representation": "reported_interview_gist",
+      "source_verbatim_status": "gist_not_verbatim",
+      "source_independence_from_dk": "independent_event",
+      "external_claim_summary": "The interview gist distinguishes a secular government's constitutional role from the role of religious institutions in teaching their communities principles drawn from dharma texts.",
+      "external_topics": [
+        "secular_state",
+        "religious_institutions",
+        "dharmasastra",
+        "constitution"
+      ],
+      "external_flags": [
+        "political_social_claim_requires_context"
+      ],
+      "retrieval_query_sha256": "bfd8e1652364c54ecafdba09ba2af5a64c161109c8778431ee8eb56fbd9daf2e",
+      "retrieval_status": "retrieved_evidence",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c190.source_claims_secular_law_treats_hindu_religious_social_norms_less_deferentially_than_minority_norms",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 190,
+            "chapter_title_ta": "எடுத்துச் சொல்லிப் பயனுண்டா?",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk48.htm"
+          },
+          "dk_claim_summary": "The chapter argues that a secular state is inconsistent when reform laws override Hindu religious-social rules while granting exemptions to minority communities, presenting a political grievance that requires historical legal verification and neutral attribution.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 166.582763,
+          "matched_terms": [
+            "communities",
+            "religious",
+            "secular",
+            "state"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c258.modern_cinema_consumer_culture_credit_equality_politics",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 258,
+            "chapter_title_ta": "தர்ம அபிவிருத்தியே அஸ்திவாரம் வர்ண தர்ம பரிபாலனம்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk264.htm"
+          },
+          "dk_claim_summary": "Modern cinema, consumer culture, credit, equality politics and welfare institutions are criticized as weakening religious discipline and encouraging vice, while governance rooted in devotion, dharma and guidance from saints is presented as the deeper form of welfare.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 105.010028,
+          "matched_terms": [
+            "dharma",
+            "institutions",
+            "religious",
+            "state"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v4.c184.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 4,
+            "chapter_ordinal": 184,
+            "chapter_title_ta": "‘ஸொந்த’ ஸர்க்காரின் அத்துமீறல்!",
+            "digital_url": "https://www.kamakoti.org/tamil/part4kural239.htm"
+          },
+          "dk_claim_summary": "Post-independence secular government is criticized for intervening in Hindu custom while allowing other religious communities more autonomy; this is a contested political-religious claim presented as the discourse’s view, not established here as neutral fact.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 104.282302,
+          "matched_terms": [
+            "communities",
+            "government",
+            "religious",
+            "secular"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c150.smriti_is_presented_as_practical_expansion_of_vedic_intuition_into_rules_and_procedures",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 150,
+            "chapter_title_ta": "ச்ருதி-ஸ்மிருதி;ச்ரௌதம்-ஸ்மார்த்தம்",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk8.htm"
+          },
+          "dk_claim_summary": "The chapter distinguishes revealed Vedic insight from Smriti's remembered and systematized application, presenting Dharma Shastra as the practical articulation of Vedic principles for concrete life situations.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 86.829248,
+          "matched_terms": [
+            "dharma",
+            "distinguishes",
+            "principles",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c116.dharma_achara_inseparable_abstract_moral_principles_become",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 116,
+            "chapter_title_ta": "தர்மத்துக்கும் ஆசாரத்துக்கும் தொடர்பு",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk120.htm"
+          },
+          "dk_claim_summary": "Dharma and achara are presented as inseparable: abstract moral principles are said to become stable only when embodied in recurring practices.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 86.409326,
+          "matched_terms": [
+            "dharma",
+            "principles",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c038.criticizes_secular_education_welfare_detached_religious_discipline",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 38,
+            "chapter_title_ta": "தொண்டின் உட்பயன்கள்; ‘திரு’ப்பணி",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk38.htm"
+          },
+          "dk_claim_summary": "The chapter criticizes secular education and welfare when detached from religious discipline and presents Appar as a model of service rooted in devotion, arguing that public service should remain joined to dharma and divine orientation.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 82.759453,
+          "matched_terms": [
+            "dharma",
+            "religious",
+            "secular"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c123.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 123,
+            "chapter_title_ta": "மத விஷயங்களில் மக்கள் ஆதரவே மூலதனம்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk123.htm"
+          },
+          "dk_claim_summary": "Religious institutions are urged not to depend primarily on the state; durable religious life is said to require voluntary support and responsibility from adherents.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 79.483891,
+          "matched_terms": [
+            "dharma",
+            "institutions",
+            "religious",
+            "state"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c111.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 111,
+            "chapter_title_ta": "அரசின் எல்லைக்கு அப்பாற்பட்ட துறை",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk111.htm"
+          },
+          "dk_claim_summary": "Doctrine, initiation and spiritual adjudication are placed beyond the proper competence of government and within religious communities themselves.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 77.044018,
+          "matched_terms": [
+            "communities",
+            "dharma",
+            "government",
+            "religious"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c114.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 114,
+            "chapter_title_ta": "அரசு புரிய வேண்டிய மத போஷணை, அதனால் அரசு பெறும் லாபம்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk114.htm"
+          },
+          "dk_claim_summary": "State support for the conditions of religious and moral life is presented as beneficial to government itself because disciplined citizens reduce social disorder.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 76.168925,
+          "matched_terms": [
+            "dharma",
+            "government",
+            "religious",
+            "state"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c105.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 105,
+            "chapter_title_ta": "அரசும் மதமும்,",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk105.htm"
+          },
+          "dk_claim_summary": "The discourse argues that government and religion cannot be treated as wholly unrelated because public order affects the conditions in which religious and moral life are practiced.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 73.79249,
+          "matched_terms": [
+            "dharma",
+            "government",
+            "religious",
+            "state"
+          ],
+          "topic_overlap": [],
+          "machine_role": "candidate_only",
+          "human_decision": "unreviewed",
+          "decision_options": [
+            "same_teaching",
+            "related_teaching",
+            "possible_tension",
+            "contradiction",
+            "not_same_teaching",
+            "insufficient_to_decide"
+          ],
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "human_review_status": "pending",
+      "authority_promotions": 0,
+      "source_text_included": false
+    }
+  ]
+}

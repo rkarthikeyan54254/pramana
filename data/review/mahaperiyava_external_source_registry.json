@@ -1,0 +1,294 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_EXTERNAL_SOURCE_FAMILY_PILOT_V1",
+  "baseline_commit": "3c9a47bcc65b052abcded76b18bc9051031e742c",
+  "status": "SOURCE_FAMILIES_PINNED_NO_AUTHORITY_PROMOTION",
+  "scope": "First external-evidence tranche beyond Deivathin Kural. Only source metadata and curator-authored summaries are tracked.",
+  "policy": {
+    "no_bulk_source_text_in_git": true,
+    "official_hosting_does_not_equal_original_artifact": true,
+    "translated_web_text_does_not_establish_original_wording": true,
+    "interview_gist_is_not_verbatim": true,
+    "same_source_family_is_not_independent_vote": true,
+    "registry_presence_never_changes_teaching_authority": true,
+    "item_level_crosslink_required_for_authority": true,
+    "primary_source_verified_requires_original_primary_artifact": true,
+    "rights_review_is_separate_from_evidence_review": true,
+    "generated_prose_never_becomes_corpus_evidence": true
+  },
+  "source_families": [
+    {
+      "id": "family.mahaperiyava.1947_independence_message",
+      "label": "1947 Independence Day message",
+      "independence_model": "standalone_event"
+    },
+    {
+      "id": "family.mahaperiyava.1962_ilayathangudi_sadas",
+      "label": "1962 Ilayathangudi Vyasa Bharata Agama Shilpa Sadas",
+      "independence_model": "single_event_multi_page"
+    },
+    {
+      "id": "family.mahaperiyava.jw_elder_interview",
+      "label": "J. W. Elder direct interview",
+      "independence_model": "direct_interview_reported_as_gist"
+    },
+    {
+      "id": "family.mahaperiyava.1957_60_madras_discourses",
+      "label": "1957-60 Madras discourse reporting/publication family",
+      "independence_model": "dependent_reporting_and_reprint_chain"
+    },
+    {
+      "id": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
+      "label": "A. S. Raman / Illustrated Weekly interview, 1963",
+      "independence_model": "single_near_contemporaneous_editorialized_interview"
+    }
+  ],
+  "items": [
+    {
+      "id": "mahaperiyava.external.1947_independence_message",
+      "source_key": "kamakoti-mahaswami-independence-message-1947",
+      "title": "Independence Day Message of Jagadguru Kanchi Mahaswamiji",
+      "source_family_id": "family.mahaperiyava.1947_independence_message",
+      "source_kind": "official_digital_message",
+      "event": {
+        "id": "event.mahaperiyava.independence_message.1947_08_15",
+        "date": "1947-08-15",
+        "place": null,
+        "date_note": "The official Kanchi page explicitly dates the message to 15 August 1947."
+      },
+      "url": "https://www.kamakoti.org/kamakoti/articles/Mahaswami%20Independence%20Day%20Message.html",
+      "host": "kamakoti.org",
+      "official_host": true,
+      "language": "English",
+      "representation": "later_official_web_reproduction",
+      "verbatim_status": "not_established",
+      "independence_from_deivathin_kural": "independent_event",
+      "original_artifact_status": "not_located",
+      "acquisition_status": "live_url_verified_metadata_only_no_local_copy",
+      "candidate_for_item_level_crosslink": true,
+      "candidate_authority_if_item_level_provenance_is_satisfied": "earlier_witness_supported",
+      "rights": {
+        "source_text_redistribution": false,
+        "registry_public_export": "metadata_only",
+        "terms_url": "https://www.kamakoti.org/main/terms_of_service.html",
+        "status": "restricted_reference_only"
+      },
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Official-hosted reproduction of a specifically dated message. The registry does not claim that the current web page is the original 1947 artifact or that wording has been checked against an original document."
+    },
+    {
+      "id": "mahaperiyava.external.1962_ilayathangudi_part1",
+      "source_key": "kamakoti-ilayathangudi-sadas-speech-part1-1962",
+      "title": "Vyasa Bharata Agama Shilpa Sadas — Ilayathangudi 1962 — Part 1",
+      "source_family_id": "family.mahaperiyava.1962_ilayathangudi_sadas",
+      "source_kind": "official_digital_transcription",
+      "event": {
+        "id": "event.mahaperiyava.ilayathangudi_sadas.1962",
+        "date": "1962",
+        "place": "Ilayathangudi, Tamil Nadu, India",
+        "date_note": "Official page identifies the speech with the 1962 Ilayathangudi Sadas; exact day is not pinned here."
+      },
+      "url": "https://kamakoti.org/kamakoti/articles/Mahaswami%27s%20speech.html",
+      "host": "kamakoti.org",
+      "official_host": true,
+      "language": "English translation from Tamil",
+      "representation": "translated_official_web_transcription",
+      "verbatim_status": "translated_not_original_wording",
+      "independence_from_deivathin_kural": "independent_event",
+      "original_artifact_status": "not_located",
+      "acquisition_status": "live_url_verified_metadata_only_no_local_copy",
+      "candidate_for_item_level_crosslink": true,
+      "candidate_authority_if_item_level_provenance_is_satisfied": "earlier_witness_supported",
+      "rights": {
+        "source_text_redistribution": false,
+        "registry_public_export": "metadata_only",
+        "terms_url": "https://www.kamakoti.org/main/terms_of_service.html",
+        "status": "restricted_reference_only"
+      },
+      "authority_effect": "none_without_item_level_review",
+      "notes": "The official page identifies V. Srinivasan as translator for web publication. This source can support proposition-level earlier attestation after review, but cannot establish Mahaperiyava's exact original wording."
+    },
+    {
+      "id": "mahaperiyava.external.1962_ilayathangudi_part2",
+      "source_key": "kamakoti-ilayathangudi-sadas-speech-part2-1962",
+      "title": "Vyasa Bharata Agama Shilpa Sadas — Ilayathangudi 1962 — Part 2",
+      "source_family_id": "family.mahaperiyava.1962_ilayathangudi_sadas",
+      "source_kind": "official_digital_transcription",
+      "event": {
+        "id": "event.mahaperiyava.ilayathangudi_sadas.1962",
+        "date": "1962",
+        "place": "Ilayathangudi, Tamil Nadu, India",
+        "date_note": "Second part of the same officially identified 1962 address."
+      },
+      "url": "https://kamakoti.org/kamakoti/articles/Mahaswami%27s%20speech2.html",
+      "host": "kamakoti.org",
+      "official_host": true,
+      "language": "English translation from Tamil",
+      "representation": "translated_official_web_transcription",
+      "verbatim_status": "translated_not_original_wording",
+      "independence_from_deivathin_kural": "independent_event",
+      "original_artifact_status": "not_located",
+      "acquisition_status": "live_url_verified_metadata_only_no_local_copy",
+      "candidate_for_item_level_crosslink": true,
+      "candidate_authority_if_item_level_provenance_is_satisfied": "earlier_witness_supported",
+      "rights": {
+        "source_text_redistribution": false,
+        "registry_public_export": "metadata_only",
+        "terms_url": "https://www.kamakoti.org/main/terms_of_service.html",
+        "status": "restricted_reference_only"
+      },
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Part 2 belongs to the same event/source family as Part 1 and must not be counted as an independent witness merely because it is a separate web page."
+    },
+    {
+      "id": "mahaperiyava.external.jw_elder_interview_gist",
+      "source_key": "kamakoti-jw-elder-interview-gist",
+      "title": "Dr. J. W. Elder's interview with H.H. Kanchi Paramacharya",
+      "source_family_id": "family.mahaperiyava.jw_elder_interview",
+      "source_kind": "interview_gist",
+      "event": {
+        "id": "event.mahaperiyava.jw_elder_interview",
+        "date": null,
+        "place": null,
+        "date_note": "The page's questions refer to the recent Chinese invasion; exact interview date has not yet been pinned from an original publication."
+      },
+      "url": "https://www.kamakoti.org/souv/5-32.html",
+      "host": "kamakoti.org",
+      "official_host": true,
+      "language": "English",
+      "representation": "reported_interview_gist",
+      "verbatim_status": "gist_not_verbatim",
+      "independence_from_deivathin_kural": "independent_event",
+      "original_artifact_status": "not_located",
+      "acquisition_status": "live_url_verified_metadata_only_no_local_copy",
+      "candidate_for_item_level_crosslink": true,
+      "candidate_authority_if_item_level_provenance_is_satisfied": "earlier_witness_supported",
+      "rights": {
+        "source_text_redistribution": false,
+        "registry_public_export": "metadata_only",
+        "terms_url": "https://www.kamakoti.org/main/terms_of_service.html",
+        "status": "restricted_reference_only"
+      },
+      "authority_effect": "none_without_item_level_review",
+      "notes": "The official-hosted page expressly describes itself as a detailed gist of the discussion. It is therefore direct-interview evidence at the proposition level, but not a verbatim transcript."
+    },
+    {
+      "id": "mahaperiyava.external.acharyas_call_1995_preface",
+      "source_key": "kamakoti-acharyas-call-1995-preface",
+      "title": "Acharya's Call Part II — 1995 Preface",
+      "source_family_id": "family.mahaperiyava.1957_60_madras_discourses",
+      "source_kind": "editorial_preface",
+      "event": {
+        "id": "event.mahaperiyava.acharyas_call_reprint.1995",
+        "date": "1995-02",
+        "place": "Madras, India",
+        "date_note": "Preface is signed K. Narayanan, Madras, February 1995."
+      },
+      "url": "https://www.kamakoti.org/kamakoti/stotra/acharyascall/bookview.php?chapnum=1",
+      "host": "kamakoti.org",
+      "official_host": true,
+      "language": "English",
+      "representation": "editorial_history",
+      "verbatim_status": "not_a_teaching_witness",
+      "independence_from_deivathin_kural": "same_discourse_family",
+      "original_artifact_status": "unknown",
+      "acquisition_status": "live_url_verified_metadata_only_no_local_copy",
+      "candidate_for_item_level_crosslink": false,
+      "candidate_authority_if_item_level_provenance_is_satisfied": "none",
+      "rights": {
+        "source_text_redistribution": false,
+        "registry_public_export": "metadata_only",
+        "terms_url": "https://www.kamakoti.org/main/terms_of_service.html",
+        "status": "restricted_reference_only"
+      },
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Lineage evidence only. The preface states that 1957-58 Madras discourses were reported in The Hindu, issued in 1964/1968 book form, and that the 1995 edition was regrouped by subject with minor editing. It is not counted as an independent teaching witness."
+    },
+    {
+      "id": "mahaperiyava.external.1963_as_raman_illustrated_weekly",
+      "source_key": "illustrated-weekly-as-raman-interview-1963-scan",
+      "title": "Sri Sankaracharya Speaks — An Exclusive Interview by A. S. Raman",
+      "source_family_id": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
+      "source_kind": "contemporaneous_periodical_interview",
+      "event": {
+        "id": "event.mahaperiyava.as_raman_interview.1963",
+        "date": null,
+        "place": null,
+        "date_note": "The surviving scan locator identifies the Illustrated Weekly publication issue as 18 August 1963. A later Kanchi source associates 11 August 1963 with the interview. Preserve interview date and publication date separately until the issue is fully reviewed."
+      },
+      "url": "https://mahaperiyavaa.blog/wp-content/uploads/2018/02/1963-illustrated-weekly-interview-by-a-s-raman.pdf",
+      "host": "mahaperiyavaa.blog",
+      "official_host": false,
+      "language": "English",
+      "representation": "contemporaneous_editorialized_interview",
+      "verbatim_status": "editorially_reorganized_not_verbatim",
+      "independence_from_deivathin_kural": "independent_event",
+      "original_artifact_status": "candidate_located",
+      "acquisition_status": "private_research_snapshot_pinned",
+      "candidate_for_item_level_crosslink": true,
+      "candidate_authority_if_item_level_provenance_is_satisfied": "earlier_witness_supported",
+      "rights": {
+        "source_text_redistribution": false,
+        "registry_public_export": "metadata_only",
+        "terms_url": "https://mahaperiyavaa.blog/",
+        "status": "restricted_reference_only"
+      },
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Hash-pinned private research snapshot of a modern-hosted scan of a historical periodical interview. The published framing states that Raman organized the questions and Mahaperiyava's observations into a coherent presentation after the conversation. Treat this as a near-contemporaneous editorialized interview witness, not as verbatim wording."
+    }
+  ],
+  "candidate_queue": [
+    {
+      "id": "candidate.the_hindu.1957_60_original_reports",
+      "priority": "A",
+      "reason": "Acquire issue/date/page-level reports underlying Acharya's Call and determine which items, if any, were reviewed or corrected by Mahaperiyava."
+    },
+    {
+      "id": "candidate.the_hindu.1932_original_reports",
+      "priority": "A",
+      "reason": "Acquire issue-level contemporaneous reports for the 1932 Madras discourse cycle."
+    },
+    {
+      "id": "candidate.swadesamitran.1932_and_1957_59_reports",
+      "priority": "A",
+      "reason": "Acquire Tamil contemporaneous reports as a distinct newspaper reporting stream."
+    },
+    {
+      "id": "candidate.bhavans_journal.what_life_has_taught_me",
+      "priority": "A",
+      "reason": "Bharatiya Vidya Bhavan sources state that 'What Life Has Taught Me' appeared in Bhavan's Journal in 1961. The Bhavan Library confirms an on-site digital archive covering every issue from 1954 onward. Identify exact 1961 issue/date/pages and obtain a rights-compliant reference copy.",
+      "status": "institutional_archive_confirmed_exact_issue_unresolved",
+      "archive": {
+        "institution": "Munshi Saraswati Mandir Granthagar / Bharatiya Vidya Bhavan",
+        "archive_scope": "Bhavan's Journal digital archive, 1954-2016",
+        "access": "reference access within library premises",
+        "exact_issue_pinned": false
+      }
+    },
+    {
+      "id": "candidate.illustrated_weekly.1963_interview",
+      "priority": "A",
+      "reason": "Acquire and pin the original Illustrated Weekly of India A. S. Raman interview scan. A later Kanchi source describes the interview as 11 August 1963, while the surviving scan locator identifies the magazine issue as 18 August 1963. Do not conflate interview date with publication date.",
+      "status": "original_periodical_scan_locator_found_not_yet_pinned",
+      "locator_url": "https://mahaperiyavaa.blog/wp-content/uploads/2018/02/1963-illustrated-weekly-interview-by-a-s-raman.pdf",
+      "date_disambiguation": {
+        "later_kanchi_interview_date_claim": "1963-08-11",
+        "scan_locator_publication_issue_date": "1963-08-18",
+        "resolved": false,
+        "interpretation": "Possible interview-date/publication-date distinction; requires inspection of the original issue."
+      }
+    },
+    {
+      "id": "candidate.ilayathangudi.1962_underlying_tamil_speech",
+      "priority": "A",
+      "status": "official_page_asserts_tamil_version_locator_unresolved",
+      "reason": "The official Kanchi English pages state that the 1962 Ilayathangudi address was translated from Tamil and that a Tamil version of Parts 1 and 2 is available. Locate and pin that underlying Tamil witness before any wording or earlier-witness promotion is considered."
+    },
+    {
+      "id": "candidate.independence_message.1947_original_artifact",
+      "priority": "A",
+      "status": "official_later_reproduction_found_original_unlocated",
+      "reason": "The official Kanchi web page explicitly dates the message to 15 August 1947, but an original document, contemporary newspaper publication, circular, transcript or other near-contemporaneous witness has not yet been pinned."
+    }
+  ]
+}

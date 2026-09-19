@@ -279,3 +279,30 @@ mahaperiyava-hf-release-gate:
 	$(PYTHON) scripts/triage_mahaperiyava_evidence_depth.py --output dist/mahaperiyava/evidence_depth_triage.json
 	$(PYTHON) -m pytest -q tests/test_mahaperiyava_hf_release.py tests/test_mahaperiyava_evidence_triage.py
 	@echo "mahaperiyava-hf-release-gate: GREEN"
+
+# Mahaperiyava external source-family foundation.
+# Metadata/lineage only; source-family discovery never grants authority.
+mahaperiyava-external-source-gate:
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_source_lineage.py tests/test_mahaperiyava_external_sources.py
+	@echo "mahaperiyava-external-source-gate: GREEN"
+
+# Candidate cross-linking between external Mahaperiyava source claims
+# and the Deivathin Kural evidence corpus. Machine retrieval is review
+# assistance only and must never promote authority.
+mahaperiyava-external-crosslink-gate:
+	$(PYTHON) scripts/crosslink_mahaperiyava_external_claims.py --output data/review/mahaperiyava_external_dk_crosslink_candidates.json --top-k 10
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_external_crosslinks.py
+	@echo "mahaperiyava-external-crosslink-gate: GREEN"
+
+mahaperiyava-external-adjudication-gate:
+	$(PYTHON) scripts/crosslink_mahaperiyava_external_atomic_claims.py --output data/review/mahaperiyava_external_atomic_dk_crosslink_candidates_v1.json --top-k 10
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_external_adjudication.py
+	@echo "mahaperiyava-external-adjudication-gate: GREEN"
+
+mahaperiyava-archival-acquisition-gate:
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_archival_acquisition.py tests/test_mahaperiyava_external_sources.py
+	@echo "mahaperiyava-archival-acquisition-gate: GREEN"
+
+mahaperiyava-1963-interview-artifact-gate:
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_1963_interview_artifact.py tests/test_mahaperiyava_source_lineage.py tests/test_mahaperiyava_external_sources.py
+	@echo "mahaperiyava-1963-interview-artifact-gate: GREEN"

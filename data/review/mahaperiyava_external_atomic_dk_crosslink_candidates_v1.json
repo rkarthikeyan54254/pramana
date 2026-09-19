@@ -1,0 +1,1642 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_EXTERNAL_ATOMIC_DK_CROSSLINK_V1",
+  "status": "ATOMIC_CANDIDATES_READY_FOR_SEMANTIC_REVIEW",
+  "policy": {
+    "machine_similarity_never_grants_equivalence": true,
+    "candidate_generation_never_changes_authority": true,
+    "source_text_included": false
+  },
+  "claim_count": 7,
+  "authority_promotions": 0,
+  "rows": [
+    {
+      "atomic_claim_id": "external.atomic.1947.public_freedom_and_inner_enemies",
+      "parent_claim_id": "external.1947.inner_freedom_and_mind_control",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "source_family_id": "family.mahaperiyava.1947_independence_message",
+      "claim_summary": "Political independence is linked with inner freedom from enemies such as desire and anger, making personal self-mastery part of safeguarding freedom.",
+      "retrieval_query_sha256": "ffcc44c16db5498d2749bd4b463210e629ad7b9cb1dd3ec416ff8b0cacbf96e3",
+      "retrieval_status": "retrieved_evidence",
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c144.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 144,
+            "chapter_title_ta": "நாடு, தனி மனிதர் இரண்டின் சுதந்திரத்திற்காகவும் பிரார்த்தனை, வாழ்த்து",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk144.htm"
+          },
+          "dk_claim_summary": "The discourse closes the civic sequence with a prayer for national unity and freedom from inner enemies such as desire and anger, joining public freedom with personal self-mastery.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 253.502257,
+          "matched_terms": [
+            "anger",
+            "desire",
+            "enemies",
+            "freedom",
+            "inner",
+            "mastery",
+            "personal",
+            "political",
+            "self",
+            "such"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.samanya_dharmangal_anaivarukkum_pothuvana.master_mind_in_this_life",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 48,
+            "chapter_title_ta": "சாமானிய தர்மங்கள் அனைவருக்கும் பொதுவானவை",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural48.htm"
+          },
+          "dk_claim_summary": "The teaching urges mastering desire and anger within this lifetime and links such mastery with the yogic state and freedom from repeated birth.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 156.646062,
+          "matched_terms": [
+            "anger",
+            "desire",
+            "freedom",
+            "mastery",
+            "such"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.sakala_maarga_niraivaana_saravanabhavan.sixfold_symbolism_and_inner_enemies",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 131,
+            "chapter_title_ta": "sakala maarga niraivaana saravanabhavan",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall39.htm"
+          },
+          "dk_claim_summary": "The number six in Subrahmanya worship is related symbolically to sacred geography, Shashti observance and the overcoming of six inner enemies.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 117.633162,
+          "matched_terms": [
+            "enemies",
+            "inner"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.kobam.desire_and_anger_as_moral_enemies",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 58,
+            "chapter_title_ta": "கோபம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural58.htm"
+          },
+          "dk_claim_summary": "Desire and anger are presented as paired forces that push a person toward wrongdoing, with anger arising when desire is obstructed.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 115.35084,
+          "matched_terms": [
+            "anger",
+            "desire",
+            "enemies"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.samsare_kim_saram.examine_arising_desire_anger_and_pride",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 88,
+            "chapter_title_ta": "samsare kim saram",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural89.htm"
+          },
+          "dk_claim_summary": "Even before passions can be fully overcome, one should repeatedly examine the arising of desire, anger, pride, and falsehood so that they do not operate unnoticed.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 112.325924,
+          "matched_terms": [
+            "anger",
+            "desire",
+            "self"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.sathiyam.pure_mind_underlies_truthful_speech",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 50,
+            "chapter_title_ta": "சத்தியம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural50.htm"
+          },
+          "dk_claim_summary": "Stable truthfulness is linked to a mind purified of desire and anger, so that speech is both honest and beneficial.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 103.040302,
+          "matched_terms": [
+            "anger",
+            "desire",
+            "linked"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.paapa_punniyangal.desire_as_driver_of_sin_and_anger",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 22,
+            "chapter_title_ta": "பாப புண்ணியங்கள்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural22.htm"
+          },
+          "dk_claim_summary": "Desire is presented as a principal force behind wrongdoing: fulfillment feeds further desire, while frustration turns desire into anger and pushes the mind toward more harmful action.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 98.45552,
+          "matched_terms": [
+            "anger",
+            "desire"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.manithanum_mirugamum.desire_anger_karma_rebirth_chain",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 24,
+            "chapter_title_ta": "மனிதனும் மிருகமும்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural24.htm"
+          },
+          "dk_claim_summary": "Desire and attachment are described as giving rise to anger and harmful action, which in turn bind the individual to karmic suffering and repeated birth.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 96.12565,
+          "matched_terms": [
+            "anger",
+            "desire"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.kobam.grief_and_anger_as_two_forms_of_frustrated_desire",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 58,
+            "chapter_title_ta": "கோபம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural58.htm"
+          },
+          "dk_claim_summary": "Grief and anger are described as two responses to frustrated desire, shaped partly by whether one feels able to direct anger outward.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 93.955514,
+          "matched_terms": [
+            "anger",
+            "desire"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.kobam_kolla_thaguthi_ethu.we_lack_ground_for_self_righteous_anger",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 59,
+            "chapter_title_ta": "கோபம் கொள்ளத் தகுதி ஏது",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural59.htm"
+          },
+          "dk_claim_summary": "The chapter argues that awareness of one’s own actual or potential wrongdoing undermines self-righteous anger toward people who have fallen into worse conduct.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 88.515789,
+          "matched_terms": [
+            "anger",
+            "self"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "atomic_claim_id": "external.atomic.1947.meditation_and_inner_discipline",
+      "parent_claim_id": "external.1947.inner_freedom_and_mind_control",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "source_family_id": "family.mahaperiyava.1947_independence_message",
+      "claim_summary": "Regular meditation on God is recommended as part of cultivating inner discipline and spiritual freedom.",
+      "retrieval_query_sha256": "d9b49cb507f1a481fcd2ee4bbcbbf3a10313e597395e5259faf270ae2cac9ee0",
+      "retrieval_status": "retrieved_evidence",
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.dakshinamurti_remembrance_aids_meditation",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 86,
+            "chapter_title_ta": "veliye karmam ulle dhyanam",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural87.htm"
+          },
+          "dk_claim_summary": "Daily remembrance of Dakshinamurti is recommended as a practical aid for cultivating inward peace and moving toward Self-meditation.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 114.892785,
+          "matched_terms": [
+            "cultivating",
+            "meditation",
+            "recommended"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.staged_path_karma_meditation_lokasangraha",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 86,
+            "chapter_title_ta": "veliye karmam ulle dhyanam",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural87.htm"
+          },
+          "dk_claim_summary": "The spiritual path is described as a progression from disciplined action to meditation and realization, after which outward action may continue for the welfare of the world without disturbing inner peace.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 91.697186,
+          "matched_terms": [
+            "inner",
+            "meditation",
+            "spiritual"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c054.falling_asleep_remembrance_god_recommended_daily_rehearsal",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 54,
+            "chapter_title_ta": "தெய்வ நினைப்புடன் தூக்கம்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk54.htm"
+          },
+          "dk_claim_summary": "Falling asleep with remembrance of God is recommended as a daily rehearsal for meeting death with the same orientation.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 84.045768,
+          "matched_terms": [
+            "god",
+            "recommended"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.acharyargalin_aagnai.human_birth_fulfilled_by_isvara_meditation",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 20,
+            "chapter_title_ta": "ஆசார்யர்களின் ஆக்ஞை",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural20.htm"
+          },
+          "dk_claim_summary": "Sustained meditation on Isvara is presented as a principal way of fulfilling human birth and reaching life's end with spiritual confidence rather than fear.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 80.081778,
+          "matched_terms": [
+            "meditation",
+            "spiritual"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.deviyin_tiruvadi_dhyanam.cooling_meditation_as_peace_and_welfare",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 153,
+            "chapter_title_ta": "deviyin tiruvadi dhyanam",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall62.htm"
+          },
+          "dk_claim_summary": "Cultural associations of coolness with relief are used to explain Ambal's moonlike grace; meditation on her feet is recommended for purification, enduring welfare and peace.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 79.890387,
+          "matched_terms": [
+            "meditation",
+            "recommended"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c095.inner_purity_external_ritual_mutually_reinforcing_embodied",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 95,
+            "chapter_title_ta": "மனத்தூய்மையும் வெளிக் காரியமும்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk96.htm"
+          },
+          "dk_claim_summary": "Inner purity and external ritual are presented as mutually reinforcing, with embodied discipline said to be necessary because mental intention alone is difficult to stabilize.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 78.926947,
+          "matched_terms": [
+            "discipline",
+            "inner"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c156.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 156,
+            "chapter_title_ta": "அழுக்கு நீக்கிக்கான நீர் பிரார்த்தனையே",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk156.htm"
+          },
+          "dk_claim_summary": "Prayer is compared with cleansing water: regular turning toward God is recommended as the practical means for washing the mind of harmful tendencies.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 78.376449,
+          "matched_terms": [
+            "god",
+            "recommended",
+            "regular"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c005.guru_distinguished_acharya_one_whose_inner_realization",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 5,
+            "chapter_title_ta": "‘குரு’ இலக்கணம்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk5.htm"
+          },
+          "dk_claim_summary": "A guru is distinguished from an acharya as one whose inner realization or spiritual force may guide disciples even without formal scholarship, teaching, or institutional discipline.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 75.869808,
+          "matched_terms": [
+            "discipline",
+            "inner",
+            "spiritual"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c164.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 164,
+            "chapter_title_ta": "கெட்ட குணங்கள் தாக்காமலிருக்க",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk164.htm"
+          },
+          "dk_claim_summary": "Regular devotion, good company and discipline are recommended as protection against the growth of destructive habits and character traits.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 75.187972,
+          "matched_terms": [
+            "discipline",
+            "recommended",
+            "regular"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.daily_meditation_alongside_karma",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 86,
+            "chapter_title_ta": "veliye karmam ulle dhyanam",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural87.htm"
+          },
+          "dk_claim_summary": "At the beginner stage, karma, devotion, and meditation are to be practiced together, with at least a short daily period of quiet meditation while ritual discipline continues.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 72.433612,
+          "matched_terms": [
+            "discipline",
+            "meditation"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "atomic_claim_id": "external.atomic.1947.truthfulness_and_kind_conduct",
+      "parent_claim_id": "external.1947.truth_kindness_and_social_amity",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "source_family_id": "family.mahaperiyava.1947_independence_message",
+      "claim_summary": "Truthfulness and kindly conduct toward others are presented as duties supporting peaceful collective life.",
+      "retrieval_query_sha256": "e0d606c0d75a8238d9570246dc59301b471f3222bb338545567350ecd5b80676",
+      "retrieval_status": "retrieved_evidence",
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c038.collective_service_across_hindu_communities_peaceful_way",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 38,
+            "chapter_title_ta": "தொண்டின் உட்பயன்கள்; ‘திரு’ப்பணி",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk38.htm"
+          },
+          "dk_claim_summary": "Collective service across Hindu communities is presented as a peaceful way to strengthen religious belonging and reduce conversion, while the source insists that such service should arise from genuine love rather than ulterior proselytizing motives.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 134.957213,
+          "matched_terms": [
+            "collective",
+            "harmony",
+            "peaceful",
+            "presented",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c115.universal_ethical_duties_such_truthfulness_nonviolence_distinguished",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 115,
+            "chapter_title_ta": "ஆசாரத்தில் ஸாமான்ய தர்மங்கள்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk119.htm"
+          },
+          "dk_claim_summary": "Universal ethical duties such as truthfulness and nonviolence are distinguished from more specific ritual observances, with both treated as parts of achara.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 103.606413,
+          "matched_terms": [
+            "duties",
+            "ethical",
+            "truthfulness"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.srirama_navami.festival_prayer_is_directed_to_devotion_and_good_conduct_for_all",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 119,
+            "chapter_title_ta": "srirama navami",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall27.htm"
+          },
+          "dk_claim_summary": "The festival observance culminates in a collective prayer that devotion and good conduct take root among all people.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 102.05717,
+          "matched_terms": [
+            "collective",
+            "conduct",
+            "ethical"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.varna_dharmam.samanya_and_vishesha_dharma",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 32,
+            "chapter_title_ta": "வர்ண தர்மம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural32.htm"
+          },
+          "dk_claim_summary": "The chapter distinguishes universal ethical duties such as nonviolence, truthfulness, purity and self-control from special duties assigned within a traditional social order.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 95.082775,
+          "matched_terms": [
+            "duties",
+            "ethical",
+            "social",
+            "truthfulness"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c102.dharma_sutras_and_architecture_are_presented_as_extensions_of_ritualized_social_life",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 102,
+            "chapter_title_ta": "கல்பம் : வேதத்தின் கை",
+            "digital_url": "https://www.kamakoti.org/tamil/Kural95.htm"
+          },
+          "dk_claim_summary": "Dharma Sutras are presented as predecessors of later legal and social codes, while Kalpa is said to regulate even everyday bodily conduct and house design so that a Brahmin's environment supports prescribed ritual purity and social obligations.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 91.084579,
+          "matched_terms": [
+            "conduct",
+            "duties",
+            "life",
+            "presented",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.karma_yogam.scrutinize_motives_in_every_action",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 92,
+            "chapter_title_ta": "karma yogam",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural93.htm"
+          },
+          "dk_claim_summary": "Every action is to be examined for self-interest, desire, hatred, fame, and partiality; purified motives and disciplined duty are presented as conducive to social harmony.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 84.732807,
+          "matched_terms": [
+            "harmony",
+            "presented",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c221.changing_another_varnas_duty_is_said_to_disrupt_the_collective_order_even_when_the_act_is_good_in_another_role",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 221,
+            "chapter_title_ta": "மரியாதைக் குறைவல்ல;அஹம்பாவ நீக்கமே!",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk80.htm"
+          },
+          "dk_claim_summary": "The source argues that the same act can be dharma for one role and wrong for another because social duties are coordinated as a whole; individual interchange is therefore portrayed as producing collective disorder.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 84.233933,
+          "matched_terms": [
+            "collective",
+            "duties",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c219.vaishya_agriculture_cow_protection_and_trade_are_presented_as_social_service_not_private_profit_alone",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 219,
+            "chapter_title_ta": "அனைத்தும் அனைவர் பொருட்டுமே!",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk78.htm"
+          },
+          "dk_claim_summary": "Agriculture, cattle protection and trade are presented as Vaishya duties serving society by producing food, supporting animals and distributing goods, with profit treated as subordinate to social function.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 82.696873,
+          "matched_terms": [
+            "duties",
+            "presented",
+            "social",
+            "supporting"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.manitha_piraviyum_venduvathe.acharya_is_one_who_teaches_and_lives_the_discipline",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 115,
+            "chapter_title_ta": "manitha piraviyum venduvathe",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall23.htm"
+          },
+          "dk_claim_summary": "The title acharya is explained as belonging to one who not only teaches scriptural meaning and establishes others in conduct but personally lives that discipline; Shankara is presented as the exemplary case.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 76.46709,
+          "matched_terms": [
+            "conduct",
+            "others",
+            "presented"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c215.advaitic_equality_is_confined_to_inner_realization_while_differentiated_action_is_defended_in_social_life",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 215,
+            "chapter_title_ta": "ஐக்கிய சக்தி",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk74.htm"
+          },
+          "dk_claim_summary": "The source distinguishes inner nondual vision and universal love from practical social action, arguing that Advaita should transform attitude but not erase differentiated duties in ordinary life.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 75.809447,
+          "matched_terms": [
+            "duties",
+            "life",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "atomic_claim_id": "external.atomic.1947.regard_for_living_beings",
+      "parent_claim_id": "external.1947.truth_kindness_and_social_amity",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "source_family_id": "family.mahaperiyava.1947_independence_message",
+      "claim_summary": "People are urged to act with regard for the welfare and happiness of other living beings.",
+      "retrieval_query_sha256": "fbb91854bf3535185ed307f8fc3736cbc65658e526f5611274ef705e0ef64dad",
+      "retrieval_status": "retrieved_evidence",
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c155.compassion_patience_and_freedom_from_envy_form_the_first_part_of_eight_virtues",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 155,
+            "chapter_title_ta": "அஷ்ட குணங்கள்",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk13.htm"
+          },
+          "dk_claim_summary": "Compassion toward all beings, patient endurance and forgiveness, and freedom from envy are explained as foundational virtues governing one's response to living beings, suffering, offenders and the success of others.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 102.353774,
+          "matched_terms": [
+            "beings",
+            "compassion",
+            "living"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c061.against_criticism_advaita_leaves_room_helping_others",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 61,
+            "chapter_title_ta": "இதுவே வேத தர்மம்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk62.htm"
+          },
+          "dk_claim_summary": "Against the criticism that Advaita leaves no room for helping others, the chapter cites the Gita and Shankara to argue that even realized people act for loka-sangraha and that charity, devotional practice and service to living beings remain part of the path.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 100.486724,
+          "matched_terms": [
+            "act",
+            "beings",
+            "living",
+            "people"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.eliya_vaazhvu.return_to_simple_living",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 68,
+            "chapter_title_ta": "eliya vaazhvu",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural68.htm"
+          },
+          "dk_claim_summary": "People are urged to revive simple living, reduce wants, perform their duties, and seek prosperity in contentment rather than display.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 94.377203,
+          "matched_terms": [
+            "living",
+            "people",
+            "urged"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.vaishvadeva_and_recurring_sacred_duties",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 55,
+            "chapter_title_ta": "எல்லா உயிரளின் திருப்திக்காக",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural55.htm"
+          },
+          "dk_claim_summary": "The chapter recalls a network of recurring ritual duties toward deities, ancestors, guests, and living beings, introducing Vaishvadeva as one of those inherited practices.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 89.022034,
+          "matched_terms": [
+            "beings",
+            "living"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.aramum_anbum_arasangamum.force_and_punishment_without_hatred",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 63,
+            "chapter_title_ta": "அறமும் அன்பும் அரசாங்கமும்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural63.htm"
+          },
+          "dk_claim_summary": "Even where war or punishment is considered unavoidable, the actor is urged to remove hatred, selfish passion, and revenge and to act only for perceived welfare, including that of the offender.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 88.193783,
+          "matched_terms": [
+            "act",
+            "urged",
+            "welfare"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.nam_mathathin_thani_amsangal.avatar_as_divine_compassion_and_dharma_restoration",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 30,
+            "chapter_title_ta": "நம் மதத்தின் தனி அம்சங்கள்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural30.htm"
+          },
+          "dk_claim_summary": "Divine incarnation is presented as an act of compassion by which Isvara enters the world to guide beings, restore dharma, protect the good, and restrain destructive forces.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 80.124055,
+          "matched_terms": [
+            "act",
+            "beings",
+            "compassion"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.ella_uyirgalin_thirupthikkaga.vaishvadeva_as_atonement_and_feeding_beings",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 55,
+            "chapter_title_ta": "எல்லா உயிரளின் திருப்திக்காக",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural55.htm"
+          },
+          "dk_claim_summary": "Vaishvadeva is presented as an act of repentance and feeding directed toward all classes of beings affected by unavoidable household harm.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 78.019386,
+          "matched_terms": [
+            "act",
+            "beings",
+            "compassion"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.helping_beings_is_worship",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 54,
+            "chapter_title_ta": "சேவையே மேலான பாக்கியம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural54.htm"
+          },
+          "dk_claim_summary": "Using a Tirumantiram verse, the chapter equates help rendered to living beings with worship offered to God.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 77.736894,
+          "matched_terms": [
+            "beings",
+            "compassion",
+            "living"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c040.cow_protection_both_compassion_worship_daily_feeding",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 40,
+            "chapter_title_ta": "கோ ஸம்ரக்ஷணை",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk40.htm"
+          },
+          "dk_claim_summary": "Cow protection is presented as both compassion and worship, with daily feeding and organized care urged especially for animals no longer economically useful.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 76.66025,
+          "matched_terms": [
+            "compassion",
+            "urged",
+            "welfare"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c219.brahmin_ritual_is_presented_as_service_for_all_beings_including_socially_excluded_people",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 219,
+            "chapter_title_ta": "அனைத்தும் அனைவர் பொருட்டுமே!",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk78.htm"
+          },
+          "dk_claim_summary": "Vaishvadeva, Vedic recitation and yajna are presented as duties performed for universal welfare rather than private Brahmin benefit, with food offerings explicitly extended in the source to animals and socially excluded people.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 76.446986,
+          "matched_terms": [
+            "beings",
+            "people",
+            "welfare"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "atomic_claim_id": "external.atomic.1947.avoid_social_conflict",
+      "parent_claim_id": "external.1947.truth_kindness_and_social_amity",
+      "source_id": "mahaperiyava.external.1947_independence_message",
+      "source_family_id": "family.mahaperiyava.1947_independence_message",
+      "claim_summary": "Petty social conflict should be avoided so that collective life can remain peaceful and cooperative.",
+      "retrieval_query_sha256": "a0e9457d3515264518946e9f4c66b11e434457051634117c6e6ffe7660b8063b",
+      "retrieval_status": "retrieved_evidence",
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.en_kariyam.live_veda_duty_as_reconciliation",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 39,
+            "chapter_title_ta": "என் காரியம்",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural39.htm"
+          },
+          "dk_claim_summary": "Those entrusted with Veda preservation are urged to live as peaceful, disciplined exemplars so that the social value of their duty becomes visible and hostility can diminish.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 120.461896,
+          "matched_terms": [
+            "can",
+            "peace",
+            "peaceful",
+            "so",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.vaiyagam_thuyar_theera_vazhi.worship_associations_for_social_peace",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 74,
+            "chapter_title_ta": "vaiyagam thuyar theera vazhi",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural74.htm"
+          },
+          "dk_claim_summary": "Local worship associations are proposed as institutions that can turn hostility into love, cultivate peace, and orient community life toward the welfare of all beings.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 95.417261,
+          "matched_terms": [
+            "can",
+            "life",
+            "peace",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c038.collective_service_across_hindu_communities_peaceful_way",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 38,
+            "chapter_title_ta": "தொண்டின் உட்பயன்கள்; ‘திரு’ப்பணி",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk38.htm"
+          },
+          "dk_claim_summary": "Collective service across Hindu communities is presented as a peaceful way to strengthen religious belonging and reduce conversion, while the source insists that such service should arise from genuine love rather than ulterior proselytizing motives.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 95.251732,
+          "matched_terms": [
+            "collective",
+            "peaceful",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v4.c267.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 4,
+            "chapter_ordinal": 267,
+            "chapter_title_ta": "யுத்தம் தீர ஆசையை அழிக்க!",
+            "digital_url": "https://www.kamakoti.org/tamil/part4kural325.htm"
+          },
+          "dk_claim_summary": "Outer conflict will recur as long as craving and possessiveness remain, so lasting peace is said to require attacking desire at its psychological root rather than only negotiating its external consequences.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 92.61499,
+          "matched_terms": [
+            "conflict",
+            "peace",
+            "remain",
+            "so"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.kamakshiyin_perumai.changeless_power_can_underlie_all_activity",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 160,
+            "chapter_title_ta": "kamakshiyin perumai",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kurall69.htm"
+          },
+          "dk_claim_summary": "The chapter argues that the power underlying all movement can itself remain still, using analogies of foundational support to reconcile cosmic activity with the peace of Sat-Chit-Ananda and the inseparability of Shiva and Shakti.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 87.036848,
+          "matched_terms": [
+            "can",
+            "peace",
+            "remain"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c223.growth_of_bhakti_is_proposed_as_the_primary_remedy_for_caste_hatred_and_public_conflict",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 223,
+            "chapter_title_ta": "ஸர்வரோக நிவாரணி",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk82.htm"
+          },
+          "dk_claim_summary": "The chapter proposes increased devotion as the fundamental remedy for caste hatred and wider social conflict, preferring a positive religious focus over repeated rhetoric of abolition.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 84.75357,
+          "matched_terms": [
+            "conflict",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c223.source_attributes_modern_intergroup_conflict_more_to_politics_and_anti_caste_agitation_than_to_old_caste_structure",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 223,
+            "chapter_title_ta": "ஸர்வரோக நிவாரணி",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk82.htm"
+          },
+          "dk_claim_summary": "The source claims that older caste differentiation did not produce the same hostility as modern regional and electoral conflict and argues that repeated anti-caste agitation can intensify caste consciousness; these political-historical claims require independent verification.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 80.797875,
+          "matched_terms": [
+            "can",
+            "conflict",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c146.religious_rules_are_defended_as_necessary_but_overregulation_is_warned_against",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 146,
+            "chapter_title_ta": "சுயச்சையும் கட்டுப்பாடும்",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk4.htm"
+          },
+          "dk_claim_summary": "The chapter argues that social and religious life needs binding rules but also warns that excessive regulation can destroy initiative and provoke resistance, so discipline itself requires limits.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 80.734416,
+          "matched_terms": [
+            "can",
+            "life",
+            "so",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c221.changing_another_varnas_duty_is_said_to_disrupt_the_collective_order_even_when_the_act_is_good_in_another_role",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 221,
+            "chapter_title_ta": "மரியாதைக் குறைவல்ல;அஹம்பாவ நீக்கமே!",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk80.htm"
+          },
+          "dk_claim_summary": "The source argues that the same act can be dharma for one role and wrong for another because social duties are coordinated as a whole; individual interchange is therefore portrayed as producing collective disorder.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 79.815107,
+          "matched_terms": [
+            "can",
+            "collective",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.vaiyagam_thuyar_theera_vazhi.devotion_and_peace_as_social_remedy",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 74,
+            "chapter_title_ta": "vaiyagam thuyar theera vazhi",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural74.htm"
+          },
+          "dk_claim_summary": "Devotion and peace are presented as remedies for social disorder, with the claim that their spread would reduce dependence on police, courts, and armies.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 78.610843,
+          "matched_terms": [
+            "peace",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "atomic_claim_id": "external.atomic.elder.truthfulness_and_honesty",
+      "parent_claim_id": "external.elder.truthfulness_and_limits_on_consumption",
+      "source_id": "mahaperiyava.external.jw_elder_interview_gist",
+      "source_family_id": "family.mahaperiyava.jw_elder_interview",
+      "claim_summary": "Truthfulness and honesty are presented as important foundations of social and religious ethics.",
+      "retrieval_query_sha256": "5544010e77f4b63f91ed9c19546b42c55f2f7e8d11b46e3e88845ab8a81fe7cf",
+      "retrieval_status": "retrieved_evidence",
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v4.c191.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 4,
+            "chapter_ordinal": 191,
+            "chapter_title_ta": "தர்ம ஒழுங்கின் ஸத்ய அடிப்படை",
+            "digital_url": "https://www.kamakoti.org/tamil/part4kural247.htm"
+          },
+          "dk_claim_summary": "Truthfulness is presented as the indispensable moral foundation of dharmic public administration, because rules cannot protect a polity when officials themselves abandon honesty.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 86.762375,
+          "matched_terms": [
+            "honesty",
+            "presented",
+            "social",
+            "truthfulness"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c115.universal_ethical_duties_such_truthfulness_nonviolence_distinguished",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 115,
+            "chapter_title_ta": "ஆசாரத்தில் ஸாமான்ய தர்மங்கள்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk119.htm"
+          },
+          "dk_claim_summary": "Universal ethical duties such as truthfulness and nonviolence are distinguished from more specific ritual observances, with both treated as parts of achara.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 65.477165,
+          "matched_terms": [
+            "ethics",
+            "religious",
+            "truthfulness"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c216.pathya_dietary_behavioral_regimen_least_important_medicine",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 216,
+            "chapter_title_ta": "பத்தியம்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk222.htm"
+          },
+          "dk_claim_summary": "Pathya—dietary and behavioral regimen—is presented as at least as important as medicine, and periodic fasting is linked to both Ayurvedic and religious discipline.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 64.61431,
+          "matched_terms": [
+            "important",
+            "presented",
+            "religious"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c125.defends_differentiated_religious_duties_practical_response_differing",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 125,
+            "chapter_title_ta": "ஆதர்ச நிலையும் நடைமுறை ஸாத்தியமும்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk129.htm"
+          },
+          "dk_claim_summary": "The source defends differentiated religious duties as a practical response to differing capacities, arguing that assigning the same highest ideal to everyone may lead to widespread nonobservance; comparisons with Christian, Buddhist and other societies are used polemically to support this claim.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 64.134341,
+          "matched_terms": [
+            "ethics",
+            "religious",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v7.c149.chapter_teaching",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 7,
+            "chapter_ordinal": 149,
+            "chapter_title_ta": "பொய்யும் பயமும்",
+            "digital_url": "https://www.kamakoti.org/tamil/7dk149.htm"
+          },
+          "dk_claim_summary": "Hiding mistakes leads to lying and fear; admitting fault and accepting consequences are presented as ways to recover truthfulness and courage.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 63.226662,
+          "matched_terms": [
+            "ethics",
+            "presented",
+            "truthfulness"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.maha_bharatham.ancient_indian_moral_superiority_claim",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 82,
+            "chapter_title_ta": "maha bharatham",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural82.htm"
+          },
+          "dk_claim_summary": "Ancient Indians are portrayed as having had greater honesty, restraint, and social order, including an appeal to Megasthenes as evidence.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 62.602777,
+          "matched_terms": [
+            "honesty",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c009.gita_and_taittiriya_define_student_and_teacher_ethics",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 9,
+            "chapter_title_ta": "குருகுல வாஸம்",
+            "digital_url": "https://www.kamakoti.org/tamil/KURAL7.htm"
+          },
+          "dk_claim_summary": "The Gita's call for humility, inquiry and service and the Taittiriya Upanishad's graduation counsel are read together as defining reciprocal ideals: the student learns through reverence while the teacher must exemplify truthfulness, dharma, humility and good conduct.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 59.365754,
+          "matched_terms": [
+            "ethics",
+            "truthfulness"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.varadakshanai_prachchanai.women_as_guardians_of_dharma",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 71,
+            "chapter_title_ta": "varadakshanai prachchanai",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural71.htm"
+          },
+          "dk_claim_summary": "Within the traditional framework of the discourse, women are portrayed as central transmitters of family and social dharma, and timely marriage is treated as important to social welfare.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 57.385523,
+          "matched_terms": [
+            "important",
+            "social"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c165.marriage_is_presented_as_regulated_outlet_and_religious_partnership_for_most_householders",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 165,
+            "chapter_title_ta": "நைஷ்டிக பிரம்மசரியம்;இல்லற வாழ்க்கை",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk22.htm"
+          },
+          "dk_claim_summary": "Marriage is presented as the sanctioned framework for sexuality, procreation and shared religious duty for ordinary practitioners, while celibacy remains an exceptional vocation rather than the universal norm.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 56.094383,
+          "matched_terms": [
+            "ethics",
+            "presented",
+            "religious"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c133.different_scriptural_and_devotional_paths_are_presented_as_valid_routes_to_one_goal",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 133,
+            "chapter_title_ta": "வழிகள் பல; குறிக்கோள் ஒன்றே",
+            "digital_url": "https://www.kamakoti.org/tamil/Kural125.htm"
+          },
+          "dk_claim_summary": "Alvar devotion, Shaiva hymns, Vedic worship, Upanishadic inquiry, Tirukkural ethics and yogic discipline are presented as distinct but valid paths that can converge on the same ultimate truth when followed sincerely.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 53.35754,
+          "matched_terms": [
+            "ethics",
+            "presented",
+            "religious"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "authority_promotions": 0,
+      "source_text_included": false
+    },
+    {
+      "atomic_claim_id": "external.atomic.elder.necessities_vs_luxuries",
+      "parent_claim_id": "external.elder.truthfulness_and_limits_on_consumption",
+      "source_id": "mahaperiyava.external.jw_elder_interview_gist",
+      "source_family_id": "family.mahaperiyava.jw_elder_interview",
+      "claim_summary": "People should distinguish genuine necessities from luxuries and limit unnecessary consumption.",
+      "retrieval_query_sha256": "c255abd48fe70a3f52978a90c6ebc04be664e28705c62514b4c0b300e6db45d0",
+      "retrieval_status": "retrieved_evidence",
+      "candidates": [
+        {
+          "rank": 1,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.policy_should_reduce_excess_wants",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 67,
+            "chapter_title_ta": "vaazhkai tharam",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural67.htm"
+          },
+          "dk_claim_summary": "The chapter argues that policy aimed at genuine welfare should reduce the multiplication of unnecessary material wants rather than treating their expansion as progress.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 81.324904,
+          "matched_terms": [
+            "genuine",
+            "simplicity",
+            "unnecessary"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 2,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.affluent_should_limit_luxury",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 67,
+            "chapter_title_ta": "vaazhkai tharam",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural67.htm"
+          },
+          "dk_claim_summary": "Those with means are urged to restrain their own comforts rather than continually enlarging them while others lack necessities.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 72.863618,
+          "matched_terms": [
+            "limit",
+            "necessities",
+            "simplicity"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 3,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.poojai.daily_offering_disciplines_consumption",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 52,
+            "chapter_title_ta": "பூஜை",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural52.htm"
+          },
+          "dk_claim_summary": "Regularly offering what one uses to God is presented as gradually disciplining consumption toward what one would consider fit to offer.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 67.250869,
+          "matched_terms": [
+            "consumption"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 4,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.luxury_imitation_and_debt",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 67,
+            "chapter_title_ta": "vaazhkai tharam",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural67.htm"
+          },
+          "dk_claim_summary": "Luxury consumption by the affluent is said to stimulate imitation among those with fewer means, encouraging unnecessary borrowing and hardship.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 60.278272,
+          "matched_terms": [
+            "consumption",
+            "unnecessary"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 5,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c206.aparigraha_limiting_possession_genuine_need_reducing_dependence",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 3,
+            "chapter_ordinal": 206,
+            "chapter_title_ta": "அபரிக்ரஹம்",
+            "digital_url": "https://www.kamakoti.org/tamil/3dk212.htm"
+          },
+          "dk_claim_summary": "Aparigraha is presented as limiting possession to genuine need, reducing dependence and greed, and freeing resources for service and spiritual life.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 57.750586,
+          "matched_terms": [
+            "genuine",
+            "simplicity"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 6,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.eliya_vaazhvu.affluent_simplicity_as_social_example",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 68,
+            "chapter_title_ta": "eliya vaazhvu",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural68.htm"
+          },
+          "dk_claim_summary": "The chapter presents simplicity among socially influential or affluent people as a stabilizing example and contrasts it with ostentation, while making historical claims about older patterns of social life.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 56.141669,
+          "matched_terms": [
+            "people",
+            "simplicity"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 7,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.vaazhkai_tharam.endless_wants_are_not_higher_living",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 67,
+            "chapter_title_ta": "vaazhkai tharam",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural67.htm"
+          },
+          "dk_claim_summary": "Increasing consumption is rejected as a genuine rise in quality of life; multiplying wants is said to increase greed, dissatisfaction, and a sense of poverty.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 55.273778,
+          "matched_terms": [
+            "consumption",
+            "genuine"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 8,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c193.three_household_economy_measures_are_proposed_to_make_religious_life_financially_viable",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 2,
+            "chapter_ordinal": 193,
+            "chapter_title_ta": "சிக்கனத்துக்கு மூன்று உபாயம்",
+            "digital_url": "https://www.kamakoti.org/tamil/2dk52.htm"
+          },
+          "dk_claim_summary": "The source proposes austere clothing, replacing coffee with cheaper foods and reducing other habitual consumption so families can lower expenses and avoid using money as a reason to abandon religious duties.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 54.235528,
+          "matched_terms": [
+            "consumption",
+            "simplicity"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 9,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.sadangugal.ritual_needed_until_self_realization",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 90,
+            "chapter_title_ta": "sadangugal",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural91.htm"
+          },
+          "dk_claim_summary": "Ritual is presented as unnecessary only after genuine Self-realization; before that maturity, wholesome actions and habits are said to counter accumulated harmful tendencies.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 53.995191,
+          "matched_terms": [
+            "genuine",
+            "unnecessary"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        },
+        {
+          "rank": 10,
+          "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.kanakkayirukkanum.economy_means_limiting_needs",
+          "dk_source": {
+            "work": "Deivathin Kural",
+            "volume": 1,
+            "chapter_ordinal": 69,
+            "chapter_title_ta": "kanakkayirukkanum",
+            "digital_url": "https://www.kamakoti.org/tamil/part1kural69.htm"
+          },
+          "dk_claim_summary": "True economy is described not as bargaining over unnecessary purchases but as first asking whether a thing is genuinely necessary and limiting one’s needs accordingly.",
+          "dk_topics": [],
+          "dk_authority": null,
+          "retrieval_score": 52.956941,
+          "matched_terms": [
+            "simplicity",
+            "unnecessary"
+          ],
+          "decision": "unreviewed",
+          "authority_effect": "none_without_item_level_review"
+        }
+      ],
+      "authority_promotions": 0,
+      "source_text_included": false
+    }
+  ]
+}
