@@ -95,3 +95,15 @@ python scripts/network_materialize.py --group core-materialization --fetch --mat
 ```
 
 See `docs/PUBLICATION_POLICY.md`, `docs/NETWORK_HANDOFF.md`, `sources/LICENSE_MATRIX.json`, and `docs/HUGGINGFACE_DATASET_CARD.md`.
+
+## Mahaperiyava V1–V7 RAG and Hugging Face release lane
+
+The Mahaperiyava / Deivathin Kural lane now has a hardened V1–V7 teaching-metadata corpus, fail-closed retrieval, grounded answer packets, and a mobile-first UI. Build the Hugging Face-safe **metadata-only** release candidate with:
+
+```bash
+make mahaperiyava-hf-release-gate
+```
+
+The gate expands retrieval/refusal regression coverage, produces a SHA-256-manifested bundle under `dist/huggingface/mahaperiyava-deivathin-kural-v1-v7/`, rechecks source-text leakage, and triages the 30-record evidence-depth queue without authority promotion.
+
+The bundle intentionally excludes Deivathin Kural source text and private review anchors. Publication approval remains a separate human decision because the project owner still needs to choose explicit license/terms for the Pramāṇa-authored curator metadata. See `docs/MAHAPERIYAVA_HF_RELEASE.md`.

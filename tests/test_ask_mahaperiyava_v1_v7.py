@@ -95,3 +95,37 @@ def test_checkpoint_is_honest_and_fail_closed():
     assert cp["metrics"]["abstention_accuracy"] == 1.0
     assert cp["metrics"]["supported_cases"] >= 13
     assert cp["metrics"]["distinct_expected_volumes_hit"] == 7
+
+
+
+def test_release_hardening_exact_title_and_subject_anchor_regressions():
+    r = MahaperiyavaRetriever()
+
+    # Exact Tamil chapter title must deterministically resolve to its own locus,
+    # not to a merely related chapter with stronger lexical weight.
+    out = r.retrieve("வேதாந்த மதங்களும் மீமாம்ஸையும்", 5)
+    assert out["status"] == "retrieved_evidence"
+    assert out["hits"]
+    assert out["hits"][0]["source"]["volume"] == 2
+    assert out["hits"][0]["source"]["chapter_ordinal"] == 113
+
+    # Generic corpus words must not fabricate attestation for modern subjects.
+    for query in (
+        "What was Mahaperiyava's view on ransomware incident response?",
+        "Did Mahaperiyava discuss large-language-model prompt injection?",
+    ):
+        out = r.retrieve(query, 5)
+        assert out["status"] == "insufficient_evidence", (query, out)
+        assert out["answerable"] is False
+        assert out["hits"] == []
+
+    # The fail-closed subject gate is not a blanket rejection of attribution
+    # questions. A subject represented in the corpus remains retrievable.
+    out = r.retrieve("What was Mahaperiyava's view on Shiva Vishnu unity?", 5)
+    assert out["status"] == "retrieved_evidence"
+    assert out["answerable"] is True
+    assert any(
+        hit["support_id"]
+        == "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity"
+        for hit in out["hits"]
+    )

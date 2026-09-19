@@ -146,6 +146,49 @@ def _norm(text: str) -> str:
     return " ".join(text.split())
 
 
+def _title_key(text: str) -> str:
+    """Unicode-safe exact-title key.
+
+    Punctuation is insignificant, but letters/marks from Tamil and other
+    scripts are preserved. This is intentionally separate from tokenization:
+    title lookup should not depend on how regex tokenization handles combining
+    marks.
+    """
+    text = unicodedata.normalize("NFKC", text or "").casefold()
+    chars = []
+    for ch in text:
+        category = unicodedata.category(ch)
+        chars.append(" " if category.startswith("P") else ch)
+    return " ".join("".join(chars).split())
+
+
+def _attribution_subject(query: str) -> str | None:
+    """Return the explicit subject of an attribution-style question.
+
+    Examples:
+      "Mahaperiyava's view on X"       -> X
+      "Did Mahaperiyava discuss X?"    -> X
+      "What did he say about X?"       -> X
+
+    This is used only as a fail-closed evidence check; it never grants
+    relevance or authority.
+    """
+    q = _norm(query)
+    patterns = (
+        r"\bviews?\s+on\s+(.+)$",
+        r"\bdid\s+mahaperiyava\s+discuss(?:ed|es|ing)?\s+(.+)$",
+        r"\bmahaperiyava(?:'s)?\s+discussion\s+of\s+(.+)$",
+        r"\bsay\s+about\s+(.+)$",
+        r"\bsaid\s+about\s+(.+)$",
+        r"\bteach(?:es|ing)?\s+about\s+(.+)$",
+    )
+    for pattern in patterns:
+        m = re.search(pattern, q)
+        if m:
+            return m.group(1).strip(" ?!.,;:…'\"“”‘’()[]{}")
+    return None
+
+
 def _expand(text: str) -> str:
     base = _norm(text)
     additions: list[str] = []
@@ -190,6 +233,15 @@ class MahaperiyavaRetriever:
                 unique.update(c)
             df.update(unique)
             self.docs.append({"record": record, "fields": fields, "counts": counts})
+        # Exact chapter-title lookup is deliberately independent of fuzzy
+        # lexical scoring. If a user supplies an exact chapter title, that
+        # chapter must not lose to a merely related high-frequency topic.
+        self.title_docs: dict[str, list[dict[str, Any]]] = {}
+        for doc in self.docs:
+            key = _title_key(doc["fields"]["title"])
+            if key:
+                self.title_docs.setdefault(key, []).append(doc)
+
         n = len(self.docs)
         self.idf = {t: math.log((n + 1) / (freq + 1)) + 1.0 for t, freq in df.items()}
 
@@ -268,6 +320,34 @@ class MahaperiyavaRetriever:
         }
 
     def retrieve(self, query: str, top_k: int = 8) -> dict[str, Any]:
+        # Exact-title lookup is a separate retrieval mode, not a score boost.
+        # This prevents fuzzy topical matches from outranking the chapter whose
+        # title the user supplied verbatim.
+        exact_title_docs = self.title_docs.get(_title_key(query), [])
+        if exact_title_docs:
+            question_type = classify_question(query)
+            ordered = sorted(
+                exact_title_docs,
+                key=lambda doc: (
+                    int(doc["record"]["source_locus"]["volume"]),
+                    doc["record"]["source_locus"].get("chapter_ordinal") or 10**9,
+                    doc["record"]["id"],
+                ),
+            )
+            hits = [
+                self._hit(doc["record"], 1_000_000.0 - i, ["exact_title"])
+                for i, doc in enumerate(ordered[:max(1, top_k)])
+            ]
+            return {
+                "query": query,
+                "question_type": question_type,
+                "status": "retrieved_evidence",
+                "answerable": True,
+                "message": "Exact chapter-title match retrieved from public-safe curator metadata. Claim summaries are not quotations.",
+                "hits": hits,
+                "generation_contract": _generation_contract(question_type),
+            }
+
         scored: list[tuple[float, list[str], dict[str, Any]]] = []
         for doc in self.docs:
             score, matched = self._score(query, doc)
@@ -284,7 +364,35 @@ class MahaperiyavaRetriever:
         # Fail closed on weak lexical accidents. Multi-token questions need
         # at least two meaningful matched concepts in the best candidate.
         query_tokens = list(dict.fromkeys(_tokens(_expand(query))))
-        if scored:
+
+        # Attribution questions ("view on X", "discuss X", "say about X")
+        # make a stronger claim than ordinary topical search: they imply that
+        # the corpus actually attests discussion of X. If X contains a
+        # significant English subject term that appears nowhere in the entire
+        # metadata corpus, generic collisions such as "view", "response",
+        # "large", "language", or "model" are not sufficient evidence.
+        #
+        # Restricting the OOV rule to long ASCII alphabetic subject terms avoids
+        # pretending our lexical tokenizer can safely make the same judgment
+        # about Tamil morphology.
+        subject = _attribution_subject(query)
+        subject_tokens = (
+            list(dict.fromkeys(_tokens(_expand(subject))))
+            if subject
+            else []
+        )
+        strong_oov_subject_terms = [
+            token
+            for token in subject_tokens
+            if token.isascii()
+            and token.isalpha()
+            and len(token) >= 5
+            and token not in self.idf
+        ]
+
+        if strong_oov_subject_terms:
+            weak_match = True
+        elif scored:
             best_matched = scored[0][1]
             min_matches = 1 if len(query_tokens) <= 1 else 2
             weak_match = len(best_matched) < min_matches

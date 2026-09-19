@@ -11,7 +11,7 @@
   },
   "metrics": {
     "supported_cases": 13,
-    "top1_accuracy": 0.6154,
+    "top1_accuracy": 0.6923,
     "top5_recall": 1.0,
     "unsupported_cases": 1,
     "abstention_accuracy": 1.0,
@@ -389,36 +389,16 @@
       "actual_status": "retrieved_evidence",
       "question_type": "doctrinal",
       "returned_ids": [
-        "mahaperiyava.deivathin_kural.v1.vinayagar.pillaiyar_tamil_devotional_presence",
-        "mahaperiyava.deivathin_kural.v3.c001.traditional_pillaiyar_suzhi_interpreted_symbol_ganesha_pranava",
-        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching",
-        "mahaperiyava.deivathin_kural.v6.c035.chapter_teaching",
-        "mahaperiyava.deivathin_kural.v2.c001.ganesha_names_primacy_and_obstacle_removal"
+        "mahaperiyava.deivathin_kural.v3.c001.traditional_pillaiyar_suzhi_interpreted_symbol_ganesha_pranava"
       ],
       "returned_loci": [
         {
-          "volume": 1,
-          "chapter_ordinal": 1
-        },
-        {
           "volume": 3,
-          "chapter_ordinal": 1
-        },
-        {
-          "volume": 6,
-          "chapter_ordinal": 31
-        },
-        {
-          "volume": 6,
-          "chapter_ordinal": 35
-        },
-        {
-          "volume": 2,
           "chapter_ordinal": 1
         }
       ],
       "top5_pass": true,
-      "top1_pass": false
+      "top1_pass": true
     },
     {
       "id": "v4_moon_curse",

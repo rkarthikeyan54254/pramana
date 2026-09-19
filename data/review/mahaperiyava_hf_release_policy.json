@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "profile": "huggingface_metadata_only_candidate",
+  "baseline_commit": "ea99aeeba4e664880be81be8db156e31ae582cb2",
+  "work": "deivathin_kural",
+  "volumes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "expected_record_count": 3368,
+  "expected_volume_counts": {
+    "1": 927,
+    "2": 673,
+    "3": 370,
+    "4": 457,
+    "5": 345,
+    "6": 254,
+    "7": 342
+  },
+  "expected_authority_counts": {
+    "dk_attested": 3335,
+    "earlier_witness_supported": 33
+  },
+  "public_record_fields": [
+    "id",
+    "corpus",
+    "work",
+    "teacher",
+    "compiler",
+    "language",
+    "claim_summary",
+    "topics",
+    "flags",
+    "source",
+    "attribution",
+    "evidence_status",
+    "provenance",
+    "rights",
+    "citation",
+    "record_sha256"
+  ],
+  "source_fields": [
+    "volume",
+    "chapter_ordinal",
+    "chapter_title_ta",
+    "digital_url"
+  ],
+  "attribution_fields": [
+    "dk_attestation",
+    "wording_status",
+    "compiler_intervention_status"
+  ],
+  "evidence_status_fields": [
+    "digital_attestation",
+    "print_check",
+    "primary_source_status",
+    "authority"
+  ],
+  "provenance_fields": [
+    "source_key",
+    "witness_role",
+    "url",
+    "snapshot_sha256",
+    "rights_status"
+  ],
+  "rights_fields": [
+    "source_text_tier",
+    "public_export"
+  ],
+  "prohibited_record_fields": [
+    "exact_text_restricted",
+    "curator_notes",
+    "digital_anchor",
+    "print_page_start",
+    "print_page_end",
+    "attribution_note",
+    "provenance_locus",
+    "lineage_note"
+  ],
+  "forbidden_value_markers": [
+    "private_curation_blocks:",
+    "private batch review packet",
+    "paragraph_sha256=",
+    "source_packet_sha256=",
+    "sources/raw/verification/mahaperiyava/deivathin_kural/"
+  ],
+  "rights_contract": {
+    "source_text_redistributed": false,
+    "public_export_required": "metadata_only",
+    "dataset_license_field": "other",
+    "underlying_source_rights": "restricted/reference-only; not granted by this metadata release",
+    "curator_summary_is_not_quote": true
+  },
+  "publication_approval": false,
+  "human_decisions_remaining": [
+    "Choose and record the license/terms for Pramana-authored curator metadata before public Hugging Face publication.",
+    "Choose the Hugging Face namespace/repository name and version tag.",
+    "Do not market this bundle as source text, verbatim Mahaperiyava speech, print-checked corpus, or primary-source-verified corpus.",
+    "If marketed specifically as semantic-vector RAG, run and record an embedding-model benchmark in addition to the deterministic release benchmark."
+  ]
+}

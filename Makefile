@@ -270,3 +270,12 @@ mahaperiyava-product-ui-gate:
 	$(PYTHON) -m pytest -q tests/test_mahaperiyava_product_ui.py
 	$(PYTHON) tests/test_mahaperiyava_product_ui_http.py
 	@echo "mahaperiyava-product-ui-gate: GREEN"
+
+# Mahaperiyava V1-V7 metadata-only Hugging Face release hardening.
+mahaperiyava-hf-release-gate:
+	$(PYTHON) benchmark/run_mahaperiyava_release.py --output dist/mahaperiyava/retrieval_release_benchmark.json
+	$(PYTHON) scripts/build_mahaperiyava_hf_release.py --outdir dist/huggingface/mahaperiyava-deivathin-kural-v1-v7 --benchmark dist/mahaperiyava/retrieval_release_benchmark.json
+	$(PYTHON) scripts/check_mahaperiyava_hf_release.py dist/huggingface/mahaperiyava-deivathin-kural-v1-v7
+	$(PYTHON) scripts/triage_mahaperiyava_evidence_depth.py --output dist/mahaperiyava/evidence_depth_triage.json
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_hf_release.py tests/test_mahaperiyava_evidence_triage.py
+	@echo "mahaperiyava-hf-release-gate: GREEN"
