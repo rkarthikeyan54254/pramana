@@ -2431,6 +2431,16 @@
       "status": "historical-periodical-scan-restricted-pinned-modern-host",
       "expected_sha256": "7f5ea38fca50b67553338af3525c64ccae11d83f2d8a0c5eaac2de813f285ee8",
       "expected_bytes": 3492363
+    },
+    {
+      "key": "kamakoti-ilayathangudi-sadas-tamil-witness-1962",
+      "url": "https://www.kamakoti.org/kamakoti/articles/Sri%20jagadguru%20munnurai.pdf",
+      "path": "sources/raw/verification/mahaperiyava/ilayathangudi_1962_sri_jagadguru_munnurai.pdf",
+      "covers": "Private research snapshot of the Tamil document directly linked by the official Kanchi Part-2 page as the Tamil version of Mahaperiyava's 1962 Ilayathangudi Vyasa Bharata Agama Shilpa Sadas speech, Parts 1 and 2.",
+      "terms": "Private research/verification only. Official hosting does not establish redistribution rights, original 1962 artifact status, verbatim transcription, or contemporaneous publication.",
+      "status": "official-linked-tamil-witness-restricted-pinned-transmission-age-unresolved",
+      "expected_sha256": "9ad3e54fc2ec146ea694f70dc98c8aefa8c9acecb7f7533f00224f8af8d2dc60",
+      "expected_bytes": 407432
     }
   ]
 }

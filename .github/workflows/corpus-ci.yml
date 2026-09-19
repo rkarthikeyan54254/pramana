@@ -25,6 +25,8 @@ jobs:
         run: make mahaperiyava-external-adjudication-gate
       - name: Mahaperiyava archival acquisition gate
         run: make mahaperiyava-archival-acquisition-gate
+      - name: Mahaperiyava 1962 Tamil visual witness gate
+        run: make mahaperiyava-1962-tamil-visual-gate
       - name: Mahaperiyava 1963 interview artifact gate
         run: make mahaperiyava-1963-interview-artifact-gate
       - name: Mahaperiyava 1963 interview proposition gate

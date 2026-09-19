@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_1962_ILAYATHANGUDI_TAMIL_VISUAL_REVIEW_V1",
+  "source_key": "kamakoti-ilayathangudi-sadas-tamil-witness-1962",
+  "source_sha256": "9ad3e54fc2ec146ea694f70dc98c8aefa8c9acecb7f7533f00224f8af8d2dc60",
+  "source_pages": 43,
+  "review_method": "human_visual",
+  "status": "THREE_SAME_TEACHING_MATCHES_VISUALLY_CONFIRMED_PROMOTION_BLOCKED_BY_TRANSMISSION_PROVENANCE",
+  "source_identity_review": {
+    "document_heading": "Sri Jagadguruvin Munnurai",
+    "event_identity": "Vyasa Bharata Agama Shilpa Sadas, Ilayathangudi, Tamil Nadu, 1962",
+    "official_link_relationship": "Official Kanchi Part-2 page links this PDF as the Tamil version of the speech covering Parts 1 and 2.",
+    "original_language": "Tamil",
+    "visual_identity_confirmed": true,
+    "digital_publication_date_established": false,
+    "contemporaneous_1962_artifact_established": false,
+    "verbatim_transcript_established": false
+  },
+  "items": [
+    {
+      "external_claim_id": "external.1962p1.epic_listening_as_moral_formation",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.maha_bharatham.repeated_epic_hearing_shapes_moral_imagination",
+      "decision": "same_teaching",
+      "visual_status": "verified",
+      "pdf_pages": [
+        7,
+        17
+      ],
+      "primary_visual_locus": "PDF p.7",
+      "review_note": "The Tamil discourse connects repeated hearing of Ramayana/Bharata narratives and exemplary lives with sustained moral recollection and orientation toward dharmic conduct. PDF p.17 also invokes Bhishma's instruction to Dharma and continuation of such teaching across generations.",
+      "source_text_included": false,
+      "promotion_eligible": false,
+      "promotion_blocker": "transmission_age_and_editorial_lineage_unresolved"
+    },
+    {
+      "external_claim_id": "external.1962p1.temple_and_traditional_arts_preservation",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.preserving_temple_presence_and_arts_benefits_society",
+      "decision": "same_teaching",
+      "visual_status": "verified",
+      "pdf_pages": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "primary_visual_locus": "PDF pp.17-18",
+      "review_note": "The Tamil discourse treats temple architecture, sacred artistic traditions, worship practice, silpa-sastra knowledge, Bharata discourse and their practitioners as traditions that should be sustained rather than allowed to disappear with the present generation.",
+      "source_text_included": false,
+      "promotion_eligible": false,
+      "promotion_blocker": "transmission_age_and_editorial_lineage_unresolved"
+    },
+    {
+      "external_claim_id": "external.1962p2.sectarian_unity",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.bhagavan_yaar_bhagavatpadhar_badhil.ishta_devata_without_denigration_and_reciprocal_worship",
+      "decision": "same_teaching",
+      "visual_status": "verified",
+      "pdf_pages": [
+        22,
+        23
+      ],
+      "primary_visual_locus": "PDF p.22",
+      "review_note": "Under the heading 'Pinakku ara vendum', the Tamil discourse refers to Saiva and Vaishnava texts and arusamayam, rejects mutual religious quarrelling and urges unity among worship traditions.",
+      "source_text_included": false,
+      "promotion_eligible": false,
+      "promotion_blocker": "transmission_age_and_editorial_lineage_unresolved"
+    }
+  ],
+  "decision_counts": {
+    "same_teaching": 3,
+    "related_teaching": 0,
+    "no_same_teaching_candidate": 0
+  },
+  "promotion_eligible_count": 0,
+  "authority_promotions": 0,
+  "primary_source_promotions": 0,
+  "policy": {
+    "visual_semantic_match_never_grants_authority": true,
+    "original_language_does_not_equal_original_artifact": true,
+    "official_hosting_does_not_prove_contemporaneity": true,
+    "same_event_pages_are_not_independent_votes": true,
+    "source_text_must_not_enter_git": true
+  }
+}

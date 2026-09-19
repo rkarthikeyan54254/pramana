@@ -705,6 +705,44 @@
       ],
       "authority_effect": "none_without_item_level_review",
       "notes": "Near-contemporaneous witness independent of Deivathin Kural, but not represented as a verbatim transcript. Publication-date/interview-date distinction remains explicit."
+    },
+    {
+      "id": "mahaperiyava.lineage.1962.ilayathangudi_tamil_official_witness",
+      "relation_type": "retrospective_attestation_of",
+      "left": {
+        "id": "source.kamakoti.ilayathangudi_1962.tamil",
+        "kind": "source",
+        "title": "Official-linked Tamil witness — Sri Jagadguruvin Munnurai",
+        "date": null,
+        "source_key": "kamakoti-ilayathangudi-sadas-tamil-witness-1962"
+      },
+      "right": {
+        "id": "event.mahaperiyava.ilayathangudi_sadas.1962",
+        "kind": "event",
+        "title": "Vyasa Bharata Agama Shilpa Sadas address at Ilayathangudi",
+        "date": "1962",
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "claim",
+      "status": "supported",
+      "acharya_review": "unknown",
+      "evidence": [
+        {
+          "source_key": "kamakoti-ilayathangudi-sadas-tamil-witness-1962",
+          "url": "https://www.kamakoti.org/kamakoti/articles/Sri%20jagadguru%20munnurai.pdf",
+          "locus": "PDF title plus visually reviewed proposition loci",
+          "note": "Official-linked Tamil document visibly identifies the 1962 Ilayathangudi Sadas and supports three previously adjudicated propositions."
+        },
+        {
+          "source_key": "kamakoti-ilayathangudi-sadas-speech-part2-1962",
+          "url": "https://kamakoti.org/kamakoti/articles/Mahaswami%27s%20speech2.html",
+          "locus": "Tamil-version hyperlink",
+          "note": "Official English Part-2 page explicitly links the Tamil PDF as the Tamil version of Parts 1 and 2."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "The evidence establishes an official original-language digital witness to the event and proposition-level agreement. It does not establish when the digital transcription was created, whether it is a verbatim transcript, or whether it is a contemporaneous 1962 artifact."
     }
   ],
   "acquisition_priorities": [

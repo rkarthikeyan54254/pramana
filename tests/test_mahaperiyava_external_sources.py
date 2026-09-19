@@ -24,7 +24,7 @@ def test_external_source_registry_validates_and_is_metadata_only():
 
     assert registry["checkpoint"] == "MAHAPERIYAVA_EXTERNAL_SOURCE_FAMILY_PILOT_V1"
     assert registry["status"] == "SOURCE_FAMILIES_PINNED_NO_AUTHORITY_PROMOTION"
-    assert len(registry["items"]) == 6
+    assert len(registry["items"]) == 7
 
     ids = set()
     keys = set()

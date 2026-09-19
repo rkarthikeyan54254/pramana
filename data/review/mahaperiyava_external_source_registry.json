@@ -235,6 +235,38 @@
       },
       "authority_effect": "none_without_item_level_review",
       "notes": "Hash-pinned private research snapshot of a modern-hosted scan of a historical periodical interview. The published framing states that Raman organized the questions and Mahaperiyava's observations into a coherent presentation after the conversation. Treat this as a near-contemporaneous editorialized interview witness, not as verbatim wording."
+    },
+    {
+      "id": "mahaperiyava.external.1962_ilayathangudi_tamil_witness",
+      "source_key": "kamakoti-ilayathangudi-sadas-tamil-witness-1962",
+      "title": "Sri Jagadguruvin Munnurai — Tamil version of Vyasa Bharata Agama Shilpa Sadas address",
+      "source_family_id": "family.mahaperiyava.1962_ilayathangudi_sadas",
+      "source_kind": "official_digital_transcription",
+      "event": {
+        "id": "event.mahaperiyava.ilayathangudi_sadas.1962",
+        "date": "1962",
+        "place": "Ilayathangudi, Tamil Nadu, India",
+        "date_note": "The document title identifies the Vyasa Bharata Agama Shilpa Sadas, Ilayathangudi, 1962. The age of the digital transcription itself remains unresolved."
+      },
+      "url": "https://www.kamakoti.org/kamakoti/articles/Sri%20jagadguru%20munnurai.pdf",
+      "host": "kamakoti.org",
+      "official_host": true,
+      "language": "Tamil",
+      "representation": "later_official_web_reproduction",
+      "verbatim_status": "not_established",
+      "independence_from_deivathin_kural": "independent_event",
+      "original_artifact_status": "not_located",
+      "acquisition_status": "private_research_snapshot_pinned",
+      "candidate_for_item_level_crosslink": true,
+      "candidate_authority_if_item_level_provenance_is_satisfied": "earlier_witness_supported",
+      "rights": {
+        "source_text_redistribution": false,
+        "registry_public_export": "metadata_only",
+        "terms_url": "https://www.kamakoti.org/main/terms_of_service.html",
+        "status": "restricted_reference_only"
+      },
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Official Part-2 page directly links this PDF as the Tamil version of the speech covering Parts 1 and 2. Visual review confirms the title and three previously adjudicated proposition-level matches. The digital transcription's publication date, editorial history and verbatim status remain unresolved."
     }
   ],
   "candidate_queue": [
@@ -281,8 +313,16 @@
     {
       "id": "candidate.ilayathangudi.1962_underlying_tamil_speech",
       "priority": "A",
-      "status": "official_page_asserts_tamil_version_locator_unresolved",
-      "reason": "The official Kanchi English pages state that the 1962 Ilayathangudi address was translated from Tamil and that a Tamil version of Parts 1 and 2 is available. Locate and pin that underlying Tamil witness before any wording or earlier-witness promotion is considered."
+      "status": "official_tamil_witness_pinned_visual_review_complete_transmission_age_unresolved",
+      "reason": "The official Kanchi English pages state that the 1962 Ilayathangudi address was translated from Tamil and that a Tamil version of Parts 1 and 2 is available. Locate and pin that underlying Tamil witness before any wording or earlier-witness promotion is considered.",
+      "locator_url": "https://www.kamakoti.org/kamakoti/articles/Sri%20jagadguru%20munnurai.pdf",
+      "pinned_sha256": "9ad3e54fc2ec146ea694f70dc98c8aefa8c9acecb7f7533f00224f8af8d2dc60",
+      "pinned_bytes": 407432,
+      "visual_review_complete": true,
+      "same_teaching_visual_matches": 3,
+      "promotion_readiness": "blocked",
+      "blocking_reason": "digital_transcription_age_and_editorial_lineage_unresolved",
+      "authority_effect": "none_without_item_level_review"
     },
     {
       "id": "candidate.independence_message.1947_original_artifact",

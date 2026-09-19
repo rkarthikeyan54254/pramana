@@ -319,3 +319,7 @@ mahaperiyava-1963-adjudication-gate:
 mahaperiyava-1963-promotion-gate:
 	$(PYTHON) -m pytest -q tests/test_mahaperiyava_1963_promotions.py tests/test_mahaperiyava_1963_curation_sync.py
 	@echo "mahaperiyava-1963-promotion-gate: GREEN"
+
+mahaperiyava-1962-tamil-visual-gate:
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_1962_tamil_visual_review.py
+	@echo "mahaperiyava-1962-tamil-visual-gate: GREEN"

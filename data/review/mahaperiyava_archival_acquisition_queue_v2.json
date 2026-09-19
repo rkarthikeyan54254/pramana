@@ -71,11 +71,24 @@
       "source_family": "family.mahaperiyava.1962_ilayathangudi_sadas",
       "event_date": "1962",
       "current_evidence": "Official Kanchi English pages state that V. Srinivasan translated the speech from Tamil for web publication and state that a Tamil version of Parts 1 and 2 is accessible.",
-      "artifact_status": "underlying_tamil_witness_asserted_locator_unresolved",
+      "artifact_status": "official_tamil_witness_pinned_visual_reviewed_transmission_age_unresolved",
       "rights_status": "restricted_reference_only",
       "promotion_readiness": "blocked",
-      "next_action": "Resolve the Tamil-version link or proceedings object, pin exact URL/artifact and compare its provenance with the 1962 event.",
-      "authority_effect": "none_without_item_level_review"
+      "next_action": "Determine the digital Tamil transcription's publication history or locate a dated 1962/near-contemporaneous proceedings, print or periodical witness.",
+      "authority_effect": "none_without_item_level_review",
+      "pinned_artifact": {
+        "source_key": "kamakoti-ilayathangudi-sadas-tamil-witness-1962",
+        "url": "https://www.kamakoti.org/kamakoti/articles/Sri%20jagadguru%20munnurai.pdf",
+        "sha256": "9ad3e54fc2ec146ea694f70dc98c8aefa8c9acecb7f7533f00224f8af8d2dc60",
+        "bytes": 407432,
+        "pages": 43,
+        "redistributable": false
+      },
+      "visual_review": {
+        "completed": true,
+        "same_teaching_matches": 3,
+        "promotion_eligible": 0
+      }
     },
     {
       "id": "archive.independence_message.1947.original",

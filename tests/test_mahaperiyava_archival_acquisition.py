@@ -89,15 +89,44 @@ def test_bhavans_archive_is_not_misrepresented_as_pinned_issue():
     )
 
 
-def test_1962_tamil_and_1947_original_remain_unlocated():
+def test_1962_tamil_witness_is_pinned_but_transmission_remains_unresolved():
     d = j("mahaperiyava_archival_acquisition_queue_v2.json")
 
     rows = {x["id"]: x for x in d["leads"]}
 
-    assert rows[
+    tamil = rows[
         "archive.ilayathangudi.1962.tamil_address"
-    ]["artifact_status"] == (
-        "underlying_tamil_witness_asserted_locator_unresolved"
+    ]
+
+    assert tamil["artifact_status"] == (
+        "official_tamil_witness_pinned_visual_reviewed_"
+        "transmission_age_unresolved"
+    )
+
+    assert tamil["promotion_readiness"] == "blocked"
+
+    assert (
+        tamil["authority_effect"]
+        == "none_without_item_level_review"
+    )
+
+    assert "pinned_artifact" in tamil
+
+    artifact = tamil["pinned_artifact"]
+
+    assert len(artifact["sha256"]) == 64
+    assert artifact["bytes"] > 1000
+    assert artifact["pages"] == 43
+    assert artifact["redistributable"] is False
+
+    assert tamil["visual_review"]["completed"] is True
+    assert (
+        tamil["visual_review"]["same_teaching_matches"]
+        == 3
+    )
+    assert (
+        tamil["visual_review"]["promotion_eligible"]
+        == 0
     )
 
     assert rows[
@@ -105,8 +134,6 @@ def test_1962_tamil_and_1947_original_remain_unlocated():
     ]["artifact_status"] == (
         "original_or_near_contemporaneous_artifact_not_located"
     )
-
-
 def test_registry_no_longer_encodes_unresolved_1963_date_in_id():
     d = j("mahaperiyava_external_source_registry.json")
 
