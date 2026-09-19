@@ -17,6 +17,12 @@ AUDIT = REVIEW / "mahaperiyava_deivathin_kural_v3_semantic_completion_audit.json
 
 UNUSED_LEGACY_NUMBERS = {60, 111, 115, 118, 135, 152}
 
+RAMAN_1963_PROMOTED_ID = (
+    "mahaperiyava.deivathin_kural.v3.c110."
+    "ritual_observances_shared_across_different_doctrines_preparatory"
+)
+
+
 def _json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -28,7 +34,13 @@ def test_v3_shape_authority_and_chapter_frontier():
     assert len(rows) == 370
     assert len({r["id"] for r in rows}) == 370
     assert {r["source_locus"]["chapter_ordinal"] for r in rows} == set(range(1, 290))
-    assert Counter(r["evidence_status"]["authority"] for r in rows) == Counter({"dk_attested": 370})
+    assert Counter(
+        r["evidence_status"]["authority"]
+        for r in rows
+    ) == Counter({
+        "dk_attested": 369,
+        "earlier_witness_supported": 1,
+    })
     assert all(r["evidence_status"]["digital_attestation"] == "confirmed" for r in rows)
     assert all(r["evidence_status"]["print_check"] == "not_checked" for r in rows)
     assert all(r["evidence_status"]["primary_source_status"] == "unknown" for r in rows)
@@ -49,7 +61,22 @@ def test_v3_records_match_teaching_record_schema_shape_and_rights():
         assert row["rights"]["source_text_tier"] == "restricted"
         assert row["rights"]["public_export"] == "metadata_only"
         assert row["attribution"]["dk_attestation"] == "located"
-        assert row["attribution"]["wording_status"] == "dk_wording_only"
+        if row["id"] == RAMAN_1963_PROMOTED_ID:
+            assert (
+                row["attribution"]["wording_status"]
+                == "earlier_witness_agrees"
+            )
+            earlier = [
+                p for p in row["provenance"]
+                if p["witness_role"] == "earlier_secondary"
+            ]
+            assert len(earlier) == 1
+            assert (
+                earlier[0]["source_key"]
+                == "illustrated-weekly-as-raman-interview-1963-scan"
+            )
+        else:
+            assert row["attribution"]["wording_status"] == "dk_wording_only"
         assert row["attribution"]["compiler_intervention_status"] == "unknown"
         assert row["claim_summary"]
         assert isinstance(row["topics"], list)
@@ -77,7 +104,29 @@ def test_v3_source_paragraph_accounting_is_complete_and_fail_closed():
     assert all(len(u["source_paragraph_ids"]) == len(u["source_paragraph_hashes"]) for u in units)
     assert all(re.fullmatch(r"[0-9a-f]{64}", h) for u in units for h in u["source_paragraph_hashes"])
     assert all("historical_witness" in u for u in units)
-    assert all(u["historical_witness"] is None for u in units)
+
+    promoted = [
+        u for u in units
+        if u["id"] == RAMAN_1963_PROMOTED_ID
+    ]
+
+    assert len(promoted) == 1
+
+    witness = promoted[0]["historical_witness"]
+
+    assert witness is not None
+    assert (
+        witness["source_key"]
+        == "illustrated-weekly-as-raman-interview-1963-scan"
+    )
+    assert witness["witness_role"] == "earlier_secondary"
+    assert witness["match_level"] == "same_claim"
+
+    assert all(
+        u["historical_witness"] is None
+        for u in units
+        if u["id"] != RAMAN_1963_PROMOTED_ID
+    )
     assert len(index["explicit_exclusions"]) == 1
     exc = index["explicit_exclusions"][0]
     assert exc["chapter_ordinal"] == 23

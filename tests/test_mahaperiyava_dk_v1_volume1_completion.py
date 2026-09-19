@@ -24,8 +24,8 @@ def test_volume1_semantic_frontier_is_complete_through_175():
     assert len(ids) == len(set(ids))
 
     auth = Counter(r["evidence_status"]["authority"] for r in all_rows)
-    assert auth["dk_attested"] == 894
-    assert auth["earlier_witness_supported"] == 33
+    assert auth["dk_attested"] == 892
+    assert auth["earlier_witness_supported"] == 35
     assert auth["dk_print_checked"] == 0
     assert auth["primary_source_verified"] == 0
 

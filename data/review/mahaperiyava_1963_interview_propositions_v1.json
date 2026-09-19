@@ -1,0 +1,193 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_1963_RAMAN_PROPOSITIONS_V1",
+  "status": "PROPOSITION_CANDIDATES_PENDING_SCAN_LOCUS_VERIFICATION",
+  "source_id": "mahaperiyava.external.1963_as_raman_illustrated_weekly",
+  "source_family_id": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
+  "source_representation": "contemporaneous_editorialized_interview",
+  "verbatim_status": "editorially_reorganized_not_verbatim",
+  "curation_basis": "Public-safe curator paraphrases derived from the surviving transcription of the historical periodical interview. Each proposition must be visually checked against the hash-pinned private scan before any authority promotion.",
+  "policy": {
+    "curator_summary_is_quote": false,
+    "source_text_included": false,
+    "machine_crosslink_never_promotes": true,
+    "visual_scan_locus_required_before_promotion": true,
+    "authority_ceiling_after_successful_item_review": "earlier_witness_supported",
+    "primary_source_verified_available": false,
+    "authority_promotions": 0
+  },
+  "claim_count": 8,
+  "claims": [
+    {
+      "id": "external.1963.raman.inner_virtue_beyond_legislation",
+      "source_locus": "Q4",
+      "claim_summary": "Lasting moral reform requires an inner commitment to virtue and righteousness; legislation by itself is presented as insufficient to create moral conduct.",
+      "topics": [
+        "moral_formation",
+        "virtue",
+        "righteousness",
+        "law",
+        "inner_discipline"
+      ],
+      "flags": [
+        "social_normative_claim",
+        "political_social_claim_requires_context"
+      ],
+      "source_id": "mahaperiyava.external.1963_as_raman_illustrated_weekly",
+      "source_family_id": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
+      "source_text_included": false,
+      "scan_locus_verified": false,
+      "crosslink_status": "pending",
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.1963.raman.character_before_career",
+      "source_locus": "Q4",
+      "claim_summary": "Education should give high priority to character, conduct and moral instruction rather than treating career-oriented knowledge as sufficient formation.",
+      "topics": [
+        "education",
+        "character",
+        "conduct",
+        "moral_instruction"
+      ],
+      "flags": [
+        "educational_normative_claim"
+      ],
+      "source_id": "mahaperiyava.external.1963_as_raman_illustrated_weekly",
+      "source_family_id": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
+      "source_text_included": false,
+      "scan_locus_verified": false,
+      "crosslink_status": "pending",
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.1963.raman.rituals_support_concentration",
+      "source_locus": "Q5",
+      "claim_summary": "Ritual observance is not presented as indispensable for inner realization, but for ordinary practitioners it can cultivate concentration, discipline, will-power and austerity.",
+      "topics": [
+        "ritual",
+        "concentration",
+        "discipline",
+        "austerity",
+        "realization"
+      ],
+      "flags": [
+        "religious_practice_claim_attributed_only"
+      ],
+      "source_id": "mahaperiyava.external.1963_as_raman_illustrated_weekly",
+      "source_family_id": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
+      "source_text_included": false,
+      "scan_locus_verified": false,
+      "crosslink_status": "pending",
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.1963.raman.morality_not_identical_with_theism",
+      "source_locus": "Q5",
+      "claim_summary": "Moral conduct is distinguished from belief in God: the discussion allows that a person may pursue virtue without theism while still arguing that an ideal can orient moral transformation.",
+      "topics": [
+        "morality",
+        "theism",
+        "virtue",
+        "ideal",
+        "ethical_transformation"
+      ],
+      "flags": [
+        "religious_comparison_attributed_only",
+        "religious_interpretation_attributed_only"
+      ],
+      "source_id": "mahaperiyava.external.1963_as_raman_illustrated_weekly",
+      "source_family_id": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
+      "source_text_included": false,
+      "scan_locus_verified": false,
+      "crosslink_status": "pending",
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.1963.raman.energy_advaita_analogy",
+      "source_locus": "Q6",
+      "claim_summary": "Modern scientific descriptions of matter and energy are used as an analogy for Advaita and divine power, linking multiplicity of manifestation with an underlying unity.",
+      "topics": [
+        "advaita",
+        "science",
+        "energy",
+        "unity",
+        "parashakti"
+      ],
+      "flags": [
+        "science_religion_analogy_not_equivalence",
+        "scientific_claim_requires_external_verification"
+      ],
+      "source_id": "mahaperiyava.external.1963_as_raman_illustrated_weekly",
+      "source_family_id": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
+      "source_text_included": false,
+      "scan_locus_verified": false,
+      "crosslink_status": "pending",
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.1963.raman.peace_through_tolerance",
+      "source_locus": "Q7",
+      "claim_summary": "Love, tolerance, understanding and a willingness to compromise are presented as ethical foundations for reducing conflict and supporting peace.",
+      "topics": [
+        "peace",
+        "tolerance",
+        "love",
+        "understanding",
+        "compromise"
+      ],
+      "flags": [
+        "social_normative_claim"
+      ],
+      "source_id": "mahaperiyava.external.1963_as_raman_illustrated_weekly",
+      "source_family_id": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
+      "source_text_included": false,
+      "scan_locus_verified": false,
+      "crosslink_status": "pending",
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.1963.raman.temple_authenticity",
+      "source_locus": "Q8",
+      "claim_summary": "Temple renovation should preserve a shrine's authenticity and inherited grandeur rather than replacing historic character with superficial visual alteration.",
+      "topics": [
+        "temple",
+        "renovation",
+        "authenticity",
+        "heritage",
+        "preservation"
+      ],
+      "flags": [
+        "normative_religious_preservation_claim"
+      ],
+      "source_id": "mahaperiyava.external.1963_as_raman_illustrated_weekly",
+      "source_family_id": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
+      "source_text_included": false,
+      "scan_locus_verified": false,
+      "crosslink_status": "pending",
+      "authority_effect": "none_without_item_level_review"
+    },
+    {
+      "id": "external.1963.raman.rituals_as_prelude_to_seeking",
+      "source_locus": "Q14",
+      "claim_summary": "Rituals, ceremonies and observances are described as preparatory disciplines whose purpose is fulfilled as the devotee becomes oriented toward philosophical and spiritual seeking.",
+      "topics": [
+        "ritual",
+        "philosophy",
+        "spiritual_seeking",
+        "discipline",
+        "devotion"
+      ],
+      "flags": [
+        "religious_practice_claim_attributed_only",
+        "religious_interpretation_attributed_only"
+      ],
+      "source_id": "mahaperiyava.external.1963_as_raman_illustrated_weekly",
+      "source_family_id": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
+      "source_text_included": false,
+      "scan_locus_verified": false,
+      "crosslink_status": "pending",
+      "authority_effect": "none_without_item_level_review"
+    }
+  ]
+}

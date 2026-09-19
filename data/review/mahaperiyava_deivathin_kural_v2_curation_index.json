@@ -24,7 +24,8 @@
     "sensitive_external_fact_claims_flagged": true,
     "medical_self_harm_child_marriage_and_discriminatory_historical_material_requires_context": true,
     "human_publication_review_still_required": true,
-    "historical_witness_comparison_deferred": true
+    "historical_witness_comparison_deferred": true,
+    "post_curation_item_level_evidence_review_present": true
   },
   "chapter_unit_counts": {
     "1": 7,
@@ -23346,8 +23347,16 @@
         "religious_normative_claim",
         "religious_comparison_attributed_only"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "illustrated-weekly-as-raman-interview-1963-scan",
+        "witness_role": "earlier_secondary",
+        "locus": "The Illustrated Weekly of India, 18 Aug 1963, magazine pp. 25–26; Q4; relevant proposition on p. 26 left column",
+        "snapshot_sha256": "7f5ea38fca50b67553338af3525c64ccae11d83f2d8a0c5eaac2de813f285ee8",
+        "match_level": "same_claim",
+        "wording_agreement": "earlier_witness_agrees",
+        "note": "Post-curation item-level evidence-depth review. Hash-pinned 1963 periodical scan visually supports the same narrow teaching proposition. The interview is editorially organized and is not treated as verbatim primary speech."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v2.c207.ritual_pilgrimage_and_learning_are_means_to_realization_and_should_not_be_abandoned_prematurely",

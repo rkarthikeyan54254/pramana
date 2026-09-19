@@ -44,6 +44,7 @@ def main():
     baseline=J(R/"mahaperiyava_evidence_depth_baseline.json")
     queue=J(R/"mahaperiyava_evidence_depth_pilot_queue.json")
     audit=J(R/"mahaperiyava_evidence_depth_foundation_audit.json")
+    state=J(R/"mahaperiyava_evidence_depth_current_state.json")
     manifest=J(ROOT/"sources/manifest.json")
     ts=J(ROOT/"schema/teaching_record.schema.json")
 
@@ -54,8 +55,11 @@ def main():
     rows,by=records()
     assert len(rows)==3368
     c=Counter(x["evidence_status"]["authority"] for x in rows)
-    assert c["dk_attested"]==3335 and c["earlier_witness_supported"]==33
-    assert c["dk_print_checked"]==0 and c["primary_source_verified"]==0
+    expected=state["authority_counts"]
+    assert c["dk_attested"]==expected["dk_attested"]
+    assert c["earlier_witness_supported"]==expected["earlier_witness_supported"]
+    assert c["dk_print_checked"]==expected["dk_print_checked"]
+    assert c["primary_source_verified"]==expected["primary_source_verified"]
 
     v=jsonschema.Draft202012Validator(ts,format_checker=jsonschema.FormatChecker())
     for row in rows: v.validate(row)
@@ -90,6 +94,11 @@ def main():
     assert a["earlier_witness_supported_with_pinned_item_level_evidence_after_repair"]==33
     assert a["known_partial_match_negative_controls"]==4 and a["negative_controls_still_dk_attested"] is True
     assert a["new_authority_promotions"]==0 and a["restricted_source_text_embedded"] is False and a["publication_approved"] is False
-    print("Mahaperiyava evidence-depth gate: GREEN (3368 records; 33/33 earlier-witness promotions pinned; 9 legacy hashes repaired; 4 negative controls unpromoted; 30 forward candidates; 0 new promotions)")
+    print(
+        "Mahaperiyava evidence-depth gate: GREEN "
+        f"(3368 records; {c['earlier_witness_supported']} earlier-witness-supported; "
+        f"{state['new_1963_raman_promotions']} new 1963 Raman promotions; "
+        "0 primary-source promotions)"
+    )
 
 if __name__=="__main__": main()

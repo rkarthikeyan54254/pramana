@@ -14,6 +14,13 @@ INDEX = REVIEW / "mahaperiyava_deivathin_kural_v2_curation_index.json"
 RECORDS = REVIEW / "mahaperiyava_deivathin_kural_v2_teaching_records.jsonl"
 AUDIT = REVIEW / "mahaperiyava_deivathin_kural_v2_semantic_completion_audit.json"
 
+RAMAN_1963_PROMOTED_ID = (
+    "mahaperiyava.deivathin_kural.v2.c206."
+    "knowledge_is_to_be_grounded_in_character_and_religious_discipline_"
+    "before_broad_intellectual_exploration"
+)
+
+
 def _json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -25,7 +32,13 @@ def test_v2_shape_authority_and_chapter_frontier():
     assert len(rows) == 673
     assert len({r["id"] for r in rows}) == 673
     assert {r["source_locus"]["chapter_ordinal"] for r in rows} == set(range(1, 226))
-    assert Counter(r["evidence_status"]["authority"] for r in rows) == Counter({"dk_attested": 673})
+    assert Counter(
+        r["evidence_status"]["authority"]
+        for r in rows
+    ) == Counter({
+        "dk_attested": 672,
+        "earlier_witness_supported": 1,
+    })
     assert all(r["evidence_status"]["print_check"] == "not_checked" for r in rows)
     assert all(r["evidence_status"]["primary_source_status"] == "unknown" for r in rows)
 
@@ -45,7 +58,22 @@ def test_v2_records_match_teaching_record_schema_shape_and_rights():
         assert row["rights"]["source_text_tier"] == "restricted"
         assert row["rights"]["public_export"] == "metadata_only"
         assert row["attribution"]["dk_attestation"] == "located"
-        assert row["attribution"]["wording_status"] == "dk_wording_only"
+        if row["id"] == RAMAN_1963_PROMOTED_ID:
+            assert (
+                row["attribution"]["wording_status"]
+                == "earlier_witness_agrees"
+            )
+            earlier = [
+                p for p in row["provenance"]
+                if p["witness_role"] == "earlier_secondary"
+            ]
+            assert len(earlier) == 1
+            assert (
+                earlier[0]["source_key"]
+                == "illustrated-weekly-as-raman-interview-1963-scan"
+            )
+        else:
+            assert row["attribution"]["wording_status"] == "dk_wording_only"
         assert row["attribution"]["compiler_intervention_status"] == "unknown"
         assert row["claim_summary"]
         assert row["topics"] is not None

@@ -27,6 +27,12 @@ jobs:
         run: make mahaperiyava-archival-acquisition-gate
       - name: Mahaperiyava 1963 interview artifact gate
         run: make mahaperiyava-1963-interview-artifact-gate
+      - name: Mahaperiyava 1963 interview proposition gate
+        run: make mahaperiyava-1963-proposition-gate
+      - name: Mahaperiyava 1963 interview adjudication gate
+        run: make mahaperiyava-1963-adjudication-gate
+      - name: Mahaperiyava 1963 item-level promotion gate
+        run: make mahaperiyava-1963-promotion-gate
       - name: Mahaperiyava V1-V7 retrieval foundation
         run: make mahaperiyava-retrieval-gate
       - name: Mahaperiyava grounded answer backend

@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_1963_SCAN_VERIFICATION_QUEUE_V1",
+  "status": "FOUR_ITEM_LEVEL_EARLIER_WITNESS_PROMOTIONS_COMPLETE",
+  "source_key": "illustrated-weekly-as-raman-interview-1963-scan",
+  "private_artifact_path": "sources/raw/verification/mahaperiyava/illustrated_weekly_as_raman_1963.pdf",
+  "policy": {
+    "private_source_text_must_not_enter_git": true,
+    "visual_confirmation_is_item_level_not_source_family_level": true,
+    "same_teaching_without_scan_confirmation_never_promotes": true,
+    "editorialized_interview_authority_ceiling": "earlier_witness_supported",
+    "primary_source_verified_available": false,
+    "authority_promotions": 0
+  },
+  "item_count": 4,
+  "items": [
+    {
+      "id": "scanverify.1963.raman.character_before_career",
+      "external_claim_id": "external.1963.raman.character_before_career",
+      "source_locus": "Q4",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c206.knowledge_is_to_be_grounded_in_character_and_religious_discipline_before_broad_intellectual_exploration",
+      "visual_status": "verified",
+      "page_number": 3,
+      "article_page_label": "26",
+      "scan_proposition_supported": true,
+      "same_teaching_confirmed_after_scan": true,
+      "promotion_eligible": true,
+      "promotion_applied": true,
+      "authority_effect": "promoted_to_earlier_witness_supported",
+      "visual_review_note": "The Illustrated Weekly of India, 18 Aug 1963, magazine pp. 25–26; Q4; relevant proposition on p. 26 left column"
+    },
+    {
+      "id": "scanverify.1963.raman.rituals_support_concentration",
+      "external_claim_id": "external.1963.raman.rituals_support_concentration",
+      "source_locus": "Q5",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.sadangugal.ritual_cultivates_concentration_and_discipline",
+      "visual_status": "verified",
+      "page_number": 3,
+      "article_page_label": "26",
+      "scan_proposition_supported": true,
+      "same_teaching_confirmed_after_scan": true,
+      "promotion_eligible": true,
+      "promotion_applied": true,
+      "authority_effect": "promoted_to_earlier_witness_supported",
+      "visual_review_note": "The Illustrated Weekly of India, 18 Aug 1963, magazine p. 26; Q5; lower-left to middle columns"
+    },
+    {
+      "id": "scanverify.1963.raman.energy_advaita_analogy",
+      "external_claim_id": "external.1963.raman.energy_advaita_analogy",
+      "source_locus": "Q6",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.science_matter_energy_unity_as_analogy",
+      "visual_status": "verified",
+      "page_number": 3,
+      "article_page_label": "26",
+      "scan_proposition_supported": true,
+      "same_teaching_confirmed_after_scan": true,
+      "promotion_eligible": true,
+      "promotion_applied": true,
+      "authority_effect": "promoted_to_earlier_witness_supported",
+      "visual_review_note": "The Illustrated Weekly of India, 18 Aug 1963, magazine p. 26; Q6; upper-right column"
+    },
+    {
+      "id": "scanverify.1963.raman.rituals_as_prelude_to_seeking",
+      "external_claim_id": "external.1963.raman.rituals_as_prelude_to_seeking",
+      "source_locus": "Q14",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c110.ritual_observances_shared_across_different_doctrines_preparatory",
+      "visual_status": "verified",
+      "page_number": 4,
+      "article_page_label": "27",
+      "scan_proposition_supported": true,
+      "same_teaching_confirmed_after_scan": true,
+      "promotion_eligible": true,
+      "promotion_applied": true,
+      "authority_effect": "promoted_to_earlier_witness_supported",
+      "visual_review_note": "The Illustrated Weekly of India, 18 Aug 1963, Q14 spanning magazine pp. 26–27; relevant proposition on p. 27 upper-right column"
+    }
+  ],
+  "promotion_eligible_count": 4,
+  "authority_promotions": 4,
+  "publication_date_review": {
+    "publication_issue_date": "1963-08-18",
+    "publication_issue_date_verified_from_scan": true,
+    "interview_date_claim": "1963-08-11",
+    "interview_date_verified_from_scan": false,
+    "note": "The uploaded scan visibly identifies The Illustrated Weekly of India and 18 August 1963 on article pages 25 and 27. The scan does not independently establish the reported 11 August interview date."
+  }
+}

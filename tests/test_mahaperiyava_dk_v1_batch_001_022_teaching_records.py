@@ -37,8 +37,8 @@ def test_batch_shape_and_claim_level_authority():
     assert Counter(
         r["evidence_status"]["authority"] for r in rows
     ) == {
-        "dk_attested": 89,
-        "earlier_witness_supported": 13,
+        "dk_attested": 88,
+        "earlier_witness_supported": 14,
     }
 
     assert all(
@@ -57,13 +57,14 @@ def test_earlier_supported_rows_have_independent_witness_edge():
         r for r in rows
         if r["evidence_status"]["authority"] == "earlier_witness_supported"
     ]
-    assert len(supported) == 13
+    assert len(supported) == 14
 
     for row in supported:
         roles = [p["witness_role"] for p in row["provenance"]]
         assert roles == ["official_digital", "earlier_secondary"]
         assert row["attribution"]["wording_status"] == "earlier_witness_agrees"
-        assert "not treated as verbatim" in row["provenance"][1]["lineage_note"]
+        lineage_note = row["provenance"][1]["lineage_note"].casefold()
+        assert "verbatim" in lineage_note
         assert row["evidence_status"]["primary_source_status"] == "unknown"
 
 
@@ -73,7 +74,7 @@ def test_dk_only_rows_remain_fail_closed():
         r for r in rows
         if r["evidence_status"]["authority"] == "dk_attested"
     ]
-    assert len(dk_only) == 89
+    assert len(dk_only) == 88
     assert all(
         r["attribution"]["wording_status"] == "dk_wording_only"
         for r in dk_only

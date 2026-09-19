@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_1963_RAMAN_HUMAN_ADJUDICATION_V1",
+  "status": "SEMANTIC_ADJUDICATION_COMPLETE_SCAN_VERIFICATION_PENDING",
+  "source_id": "mahaperiyava.external.1963_as_raman_illustrated_weekly",
+  "policy": {
+    "same_teaching_is_semantic_not_textual_identity": true,
+    "visual_scan_verification_required_before_promotion": true,
+    "editorialized_interview_cannot_verify_exact_wording": true,
+    "maximum_possible_authority": "earlier_witness_supported",
+    "authority_promotions": 0
+  },
+  "decision_counts": {
+    "related_teaching": 3,
+    "same_teaching": 4,
+    "no_same_teaching_candidate": 1
+  },
+  "authority_promotions": 0,
+  "decisions": [
+    {
+      "external_claim_id": "external.1963.raman.inner_virtue_beyond_legislation",
+      "source_locus": "Q4",
+      "decision": "related_teaching",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c143.puranic_moral_ideals_require_practical_disciplines_that_transform_habit",
+      "review_note": "Both emphasize formation of moral character beyond admiration of ideals, but the DK proposition does not specifically say that legislation is insufficient."
+    },
+    {
+      "external_claim_id": "external.1963.raman.character_before_career",
+      "source_locus": "Q4",
+      "decision": "same_teaching",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v2.c206.knowledge_is_to_be_grounded_in_character_and_religious_discipline_before_broad_intellectual_exploration",
+      "review_note": "Strong proposition-level correspondence: character and moral/religious formation are ranked before wider intellectual or career-oriented knowledge."
+    },
+    {
+      "external_claim_id": "external.1963.raman.rituals_support_concentration",
+      "source_locus": "Q5",
+      "decision": "same_teaching",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.sadangugal.ritual_cultivates_concentration_and_discipline",
+      "review_note": "Direct correspondence on ritual cultivating concentration, discipline, willpower and preparation for deeper inquiry."
+    },
+    {
+      "external_claim_id": "external.1963.raman.morality_not_identical_with_theism",
+      "source_locus": "Q5",
+      "decision": "no_same_teaching_candidate",
+      "dk_teaching_id": null,
+      "review_note": "The returned astika/nastika teaching distinguishes Vedic authority from simple theism but does not establish the interview's morality-without-theism proposition."
+    },
+    {
+      "external_claim_id": "external.1963.raman.energy_advaita_analogy",
+      "source_locus": "Q6",
+      "decision": "same_teaching",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.science_matter_energy_unity_as_analogy",
+      "review_note": "Very strong correspondence: modern matter/energy descriptions are used as an analogy for underlying Advaitic unity."
+    },
+    {
+      "external_claim_id": "external.1963.raman.peace_through_tolerance",
+      "source_locus": "Q7",
+      "decision": "related_teaching",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.anbu.guru_love_expands_to_equal_love_for_all",
+      "review_note": "Love and peace overlap, but tolerance, understanding and compromise are additional elements not established by the DK candidate."
+    },
+    {
+      "external_claim_id": "external.1963.raman.temple_authenticity",
+      "source_locus": "Q8",
+      "decision": "related_teaching",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.alaya_vazhipadu.preserve_agamic_order_and_correct_lapses",
+      "review_note": "Both favor preservation over arbitrary alteration, but the interview concerns historic shrine authenticity while the DK record concerns inherited Agamic ritual order."
+    },
+    {
+      "external_claim_id": "external.1963.raman.rituals_as_prelude_to_seeking",
+      "source_locus": "Q14",
+      "decision": "same_teaching",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v3.c110.ritual_observances_shared_across_different_doctrines_preparatory",
+      "review_note": "Strong proposition-level match: ritual observance is treated as preparatory discipline leading toward purification and deeper philosophical/spiritual realization."
+    }
+  ]
+}

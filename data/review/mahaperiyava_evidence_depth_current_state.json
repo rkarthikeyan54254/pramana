@@ -1,0 +1,44 @@
+{
+  "version": "2.0",
+  "checkpoint": "MAHAPERIYAVA_EVIDENCE_DEPTH_CURRENT_STATE_V2",
+  "teaching_record_count": 3368,
+  "authority_counts": {
+    "dk_attested": 3331,
+    "earlier_witness_supported": 37,
+    "dk_print_checked": 0,
+    "primary_source_verified": 0
+  },
+  "foundation_earlier_witness_supported": 33,
+  "new_1963_raman_promotions": 4,
+  "publication_approved": false,
+  "volume_authority_counts": {
+    "1": {
+      "dk_attested": 892,
+      "earlier_witness_supported": 35
+    },
+    "2": {
+      "dk_attested": 672,
+      "earlier_witness_supported": 1
+    },
+    "3": {
+      "dk_attested": 369,
+      "earlier_witness_supported": 1
+    },
+    "4": {
+      "dk_attested": 457,
+      "earlier_witness_supported": 0
+    },
+    "5": {
+      "dk_attested": 345,
+      "earlier_witness_supported": 0
+    },
+    "6": {
+      "dk_attested": 254,
+      "earlier_witness_supported": 0
+    },
+    "7": {
+      "dk_attested": 342,
+      "earlier_witness_supported": 0
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_1963_RAMAN_PROMOTION_REVIEWS_V1",
+  "source_key": "illustrated-weekly-as-raman-interview-1963-scan",
+  "review_count": 4,
+  "authority_promotions": 4,
+  "primary_source_promotions": 0,
+  "reviews": [
+    {
+      "version": "1.0",
+      "review_id": "mahaperiyava.review.1963.raman.knowledge_is_to_be_grounded_in_character_and_religious_discipline_before_broad_intellectual_exploration",
+      "teaching_id": "mahaperiyava.deivathin_kural.v2.c206.knowledge_is_to_be_grounded_in_character_and_religious_discipline_before_broad_intellectual_exploration",
+      "review_stage": "earlier_witness_check",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "decision": "supported",
+      "review_method": "manual_item_level",
+      "evidence": [
+        {
+          "source_key": "illustrated-weekly-as-raman-interview-1963-scan",
+          "witness_role": "earlier_secondary",
+          "locus": "The Illustrated Weekly of India, 18 Aug 1963, magazine pp. 25–26; Q4; relevant proposition on p. 26 left column",
+          "snapshot_sha256": "7f5ea38fca50b67553338af3525c64ccae11d83f2d8a0c5eaac2de813f285ee8",
+          "source_date": "1963-08-18",
+          "relation_to_dk": "earlier_attestation",
+          "match_level": "same_claim",
+          "rights_status": "restricted_private_research",
+          "note": "The hash-pinned periodical scan was visually reviewed at the stated item-level locus. Claim-level agreement is supported; exact wording and primary-source status are not claimed."
+        }
+      ],
+      "guardrails": {
+        "source_text_embedded": false,
+        "verbatim_wording_claimed": false,
+        "primary_source_claimed_without_primary_evidence": false,
+        "external_factual_truth_claimed": false,
+        "machine_similarity_grants_authority": false,
+        "majority_vote_grants_authority": false
+      },
+      "reviewer": "project_curator",
+      "reviewed_at": "2026-09-19T05:26:56Z",
+      "notes": "Promotion is limited to earlier_witness_supported. The 1963 interview is an editorially organized near-contemporaneous witness, not a verbatim transcript."
+    },
+    {
+      "version": "1.0",
+      "review_id": "mahaperiyava.review.1963.raman.ritual_cultivates_concentration_and_discipline",
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.sadangugal.ritual_cultivates_concentration_and_discipline",
+      "review_stage": "earlier_witness_check",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "decision": "supported",
+      "review_method": "manual_item_level",
+      "evidence": [
+        {
+          "source_key": "illustrated-weekly-as-raman-interview-1963-scan",
+          "witness_role": "earlier_secondary",
+          "locus": "The Illustrated Weekly of India, 18 Aug 1963, magazine p. 26; Q5; lower-left to middle columns",
+          "snapshot_sha256": "7f5ea38fca50b67553338af3525c64ccae11d83f2d8a0c5eaac2de813f285ee8",
+          "source_date": "1963-08-18",
+          "relation_to_dk": "earlier_attestation",
+          "match_level": "same_claim",
+          "rights_status": "restricted_private_research",
+          "note": "The hash-pinned periodical scan was visually reviewed at the stated item-level locus. Claim-level agreement is supported; exact wording and primary-source status are not claimed."
+        }
+      ],
+      "guardrails": {
+        "source_text_embedded": false,
+        "verbatim_wording_claimed": false,
+        "primary_source_claimed_without_primary_evidence": false,
+        "external_factual_truth_claimed": false,
+        "machine_similarity_grants_authority": false,
+        "majority_vote_grants_authority": false
+      },
+      "reviewer": "project_curator",
+      "reviewed_at": "2026-09-19T05:26:56Z",
+      "notes": "Promotion is limited to earlier_witness_supported. The 1963 interview is an editorially organized near-contemporaneous witness, not a verbatim transcript."
+    },
+    {
+      "version": "1.0",
+      "review_id": "mahaperiyava.review.1963.raman.science_matter_energy_unity_as_analogy",
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.science_matter_energy_unity_as_analogy",
+      "review_stage": "earlier_witness_check",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "decision": "supported",
+      "review_method": "manual_item_level",
+      "evidence": [
+        {
+          "source_key": "illustrated-weekly-as-raman-interview-1963-scan",
+          "witness_role": "earlier_secondary",
+          "locus": "The Illustrated Weekly of India, 18 Aug 1963, magazine p. 26; Q6; upper-right column",
+          "snapshot_sha256": "7f5ea38fca50b67553338af3525c64ccae11d83f2d8a0c5eaac2de813f285ee8",
+          "source_date": "1963-08-18",
+          "relation_to_dk": "earlier_attestation",
+          "match_level": "same_claim",
+          "rights_status": "restricted_private_research",
+          "note": "The hash-pinned periodical scan was visually reviewed at the stated item-level locus. Claim-level agreement is supported; exact wording and primary-source status are not claimed."
+        }
+      ],
+      "guardrails": {
+        "source_text_embedded": false,
+        "verbatim_wording_claimed": false,
+        "primary_source_claimed_without_primary_evidence": false,
+        "external_factual_truth_claimed": false,
+        "machine_similarity_grants_authority": false,
+        "majority_vote_grants_authority": false
+      },
+      "reviewer": "project_curator",
+      "reviewed_at": "2026-09-19T05:26:56Z",
+      "notes": "Promotion is limited to earlier_witness_supported. The 1963 interview is an editorially organized near-contemporaneous witness, not a verbatim transcript."
+    },
+    {
+      "version": "1.0",
+      "review_id": "mahaperiyava.review.1963.raman.ritual_observances_shared_across_different_doctrines_preparatory",
+      "teaching_id": "mahaperiyava.deivathin_kural.v3.c110.ritual_observances_shared_across_different_doctrines_preparatory",
+      "review_stage": "earlier_witness_check",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "decision": "supported",
+      "review_method": "manual_item_level",
+      "evidence": [
+        {
+          "source_key": "illustrated-weekly-as-raman-interview-1963-scan",
+          "witness_role": "earlier_secondary",
+          "locus": "The Illustrated Weekly of India, 18 Aug 1963, Q14 spanning magazine pp. 26–27; relevant proposition on p. 27 upper-right column",
+          "snapshot_sha256": "7f5ea38fca50b67553338af3525c64ccae11d83f2d8a0c5eaac2de813f285ee8",
+          "source_date": "1963-08-18",
+          "relation_to_dk": "earlier_attestation",
+          "match_level": "same_claim",
+          "rights_status": "restricted_private_research",
+          "note": "The hash-pinned periodical scan was visually reviewed at the stated item-level locus. Claim-level agreement is supported; exact wording and primary-source status are not claimed."
+        }
+      ],
+      "guardrails": {
+        "source_text_embedded": false,
+        "verbatim_wording_claimed": false,
+        "primary_source_claimed_without_primary_evidence": false,
+        "external_factual_truth_claimed": false,
+        "machine_similarity_grants_authority": false,
+        "majority_vote_grants_authority": false
+      },
+      "reviewer": "project_curator",
+      "reviewed_at": "2026-09-19T05:26:56Z",
+      "notes": "Promotion is limited to earlier_witness_supported. The 1963 interview is an editorially organized near-contemporaneous witness, not a verbatim transcript."
+    }
+  ]
+}

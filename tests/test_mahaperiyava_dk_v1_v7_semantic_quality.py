@@ -46,22 +46,78 @@ def test_v1_v7_have_a_closed_semantic_frontier_without_publication_promotion():
             assert checks["exact_restricted_paragraph_leak_count"] == 0
 
 
-def test_v2_v7_record_ids_are_globally_unique_and_authority_is_not_promoted():
+def test_v2_v7_record_ids_are_unique_and_authority_promotions_are_allowlisted():
+    promoted = {
+        "mahaperiyava.deivathin_kural.v2.c206.knowledge_is_to_be_grounded_in_character_and_religious_discipline_before_broad_intellectual_exploration",
+        "mahaperiyava.deivathin_kural.v3.c110.ritual_observances_shared_across_different_doctrines_preparatory",
+    }
+
     ids = set()
+    seen_promoted = set()
+
     for volume in range(2, 8):
-        rows = _jsonl(REVIEW / f"mahaperiyava_deivathin_kural_v{volume}_teaching_records.jsonl")
+        rows = _jsonl(
+            REVIEW
+            / f"mahaperiyava_deivathin_kural_v{volume}_teaching_records.jsonl"
+        )
+
         for row in rows:
             assert row["id"] not in ids
             ids.add(row["id"])
-            assert row["evidence_status"]["authority"] == "dk_attested"
-            assert row["evidence_status"]["print_check"] == "not_checked"
-            assert row["evidence_status"]["primary_source_status"] == "unknown"
+
+            authority = row["evidence_status"]["authority"]
+
+            if row["id"] in promoted:
+                assert authority == "earlier_witness_supported"
+                seen_promoted.add(row["id"])
+
+                witnesses = [
+                    witness
+                    for witness in row.get("provenance", [])
+                    if witness.get("source_key")
+                    == "illustrated-weekly-as-raman-interview-1963-scan"
+                ]
+
+                assert len(witnesses) == 1
+
+                witness = witnesses[0]
+
+                assert witness["witness_role"] == "earlier_secondary"
+                assert witness["locus"]
+                assert len(witness["snapshot_sha256"]) == 64
+                assert (
+                    witness["rights_status"]
+                    == "restricted_private_research"
+                )
+
+                assert (
+                    row["attribution"]["wording_status"]
+                    == "earlier_witness_agrees"
+                )
+            else:
+                assert authority == "dk_attested"
+
+            assert (
+                row["evidence_status"]["print_check"]
+                == "not_checked"
+            )
+
+            assert (
+                row["evidence_status"]["primary_source_status"]
+                == "unknown"
+            )
+
             assert "exact_text_restricted" not in row
+
             summary = row.get("claim_summary") or ""
             assert summary.strip()
-            assert not any(x.lower() in summary.lower() for x in BAD)
 
+            assert not any(
+                x.lower() in summary.lower()
+                for x in BAD
+            )
 
+    assert seen_promoted == promoted
 def test_v4_v7_are_source_read_hardened_and_not_publication_approved():
     for volume in range(4, 8):
         index = _json(REVIEW / f"mahaperiyava_deivathin_kural_v{volume}_curation_index.json")

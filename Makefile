@@ -306,3 +306,16 @@ mahaperiyava-archival-acquisition-gate:
 mahaperiyava-1963-interview-artifact-gate:
 	$(PYTHON) -m pytest -q tests/test_mahaperiyava_1963_interview_artifact.py tests/test_mahaperiyava_source_lineage.py tests/test_mahaperiyava_external_sources.py
 	@echo "mahaperiyava-1963-interview-artifact-gate: GREEN"
+
+mahaperiyava-1963-proposition-gate:
+	$(PYTHON) scripts/crosslink_mahaperiyava_1963_interview.py --output data/review/mahaperiyava_1963_interview_dk_candidates_v1.json --top-k 10
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_1963_interview_propositions.py
+	@echo "mahaperiyava-1963-proposition-gate: GREEN"
+
+mahaperiyava-1963-adjudication-gate:
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_1963_interview_adjudication.py
+	@echo "mahaperiyava-1963-adjudication-gate: GREEN"
+
+mahaperiyava-1963-promotion-gate:
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_1963_promotions.py tests/test_mahaperiyava_1963_curation_sync.py
+	@echo "mahaperiyava-1963-promotion-gate: GREEN"

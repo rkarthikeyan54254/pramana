@@ -19,7 +19,7 @@
   "policy": {
     "no_exact_source_text_in_tracked_artifacts": true,
     "claim_summaries_are_not_quotes": true,
-    "all_batch_authority_is_dk_attested": true,
+    "all_batch_authority_is_dk_attested": false,
     "historical_witness_comparison_deferred": true,
     "no_print_check_claimed": true,
     "no_primary_source_verified_claimed": true,
@@ -32,7 +32,8 @@
     "political_material_requires_source_attribution": true,
     "violence_punishment_and_sacrifice_material_requires_context": true,
     "human_publication_review_still_required": true,
-    "historical_witness_comparison_completed_for_promoted": false
+    "historical_witness_comparison_completed_for_promoted": false,
+    "post_curation_item_level_evidence_review_present": true
   },
   "source_anomalies": [
     {
@@ -45,7 +46,8 @@
   ],
   "unit_count": 95,
   "authority_counts": {
-    "dk_attested": 95
+    "dk_attested": 92,
+    "earlier_witness_supported": 3
   },
   "chapter_unit_counts": {
     "86": 9,
@@ -878,8 +880,16 @@
         "traditional_normative_claim",
         "traditional_ritual_claim"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null,
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "illustrated-weekly-as-raman-interview-1963-scan",
+        "witness_role": "earlier_secondary",
+        "locus": "The Illustrated Weekly of India, 18 Aug 1963, magazine p. 26; Q5; lower-left to middle columns",
+        "snapshot_sha256": "7f5ea38fca50b67553338af3525c64ccae11d83f2d8a0c5eaac2de813f285ee8",
+        "match_level": "same_claim",
+        "wording_agreement": "earlier_witness_agrees",
+        "note": "Post-curation item-level evidence-depth review. Hash-pinned 1963 periodical scan visually supports the same narrow teaching proposition. The interview is editorially organized and is not treated as verbatim primary speech."
+      },
       "candidate_witness": null,
       "not_evaluated_in_targeted_sections": null
     },

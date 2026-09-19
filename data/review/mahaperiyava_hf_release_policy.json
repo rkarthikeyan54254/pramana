@@ -23,8 +23,8 @@
     "7": 342
   },
   "expected_authority_counts": {
-    "dk_attested": 3335,
-    "earlier_witness_supported": 33
+    "dk_attested": 3331,
+    "earlier_witness_supported": 37
   },
   "public_record_fields": [
     "id",

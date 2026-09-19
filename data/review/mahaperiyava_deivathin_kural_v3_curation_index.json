@@ -27,7 +27,8 @@
     "overlap_allowed_when_semantically_required": true,
     "sensitive_external_fact_claims_flagged": true,
     "medical_self_harm_caste_gender_violence_and_other_harmful_historical_material_requires_context": true,
-    "human_publication_review_still_required": true
+    "human_publication_review_still_required": true,
+    "post_curation_item_level_evidence_review_present": true
   },
   "chapter_unit_counts": {
     "1": 1,
@@ -5800,8 +5801,16 @@
         "theological_causation_not_external_fact",
         "religious_comparison_attributed_only"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "illustrated-weekly-as-raman-interview-1963-scan",
+        "witness_role": "earlier_secondary",
+        "locus": "The Illustrated Weekly of India, 18 Aug 1963, Q14 spanning magazine pp. 26–27; relevant proposition on p. 27 upper-right column",
+        "snapshot_sha256": "7f5ea38fca50b67553338af3525c64ccae11d83f2d8a0c5eaac2de813f285ee8",
+        "match_level": "same_claim",
+        "wording_agreement": "earlier_witness_agrees",
+        "note": "Post-curation item-level evidence-depth review. Hash-pinned 1963 periodical scan visually supports the same narrow teaching proposition. The interview is editorially organized and is not treated as verbatim primary speech."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v3.c110.because_many_traditions_use_similar_disciplines_inherited",
