@@ -41,6 +41,8 @@ jobs:
         run: make mahaperiyava-retrieval-gate
       - name: Mahaperiyava multilingual hybrid retrieval structure gate
         run: make mahaperiyava-hybrid-retrieval-structure-gate
+      - name: Mahaperiyava Phase 13 hybrid retrieval structure gate
+        run: make mahaperiyava-hybrid-retrieval-v2-structure-gate
       - name: Mahaperiyava grounded answer backend
         run: make mahaperiyava-grounded-answer-gate
       - name: Mahaperiyava mobile-first product UI

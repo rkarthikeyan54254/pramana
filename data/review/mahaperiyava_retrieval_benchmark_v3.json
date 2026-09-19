@@ -1,0 +1,1833 @@
+{
+  "version": "3.0",
+  "checkpoint_family": "MAHAPERIYAVA_RETRIEVAL_BENCHMARK_V3",
+  "scope": "154 retrieval cases over public-safe Mahaperiyava/Deivathin Kural metadata. Phase 13 adds new held-out concepts and multilingual hard negatives without changing authority.",
+  "quality_target": {
+    "test_top1": 0.75,
+    "test_top5": 0.9,
+    "test_abstention": 1.0,
+    "test_tamil_top5": 0.75,
+    "test_roman_tamil_top5": 0.8
+  },
+  "split_policy": "Phase-13 parameters are selected on dev only. Test metrics are computed after the config is locked. The 12 new test supported cases use concepts not present in the Phase-13 dev additions.",
+  "cases": [
+    {
+      "id": "advaita_nonduality__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "How does Mahaperiyava explain the idea that ultimate reality is nondual?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.advaitam.nonduality_of_brahman"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "advaita_nonduality__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "If Brahman is one without a second, what does that mean for the apparent many?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.advaitam.nonduality_of_brahman"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "advaita_nonduality__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "அத்வைதத்தில் பரம்பொருள் ஒன்றே என்று சொல்வதன் பொருள் என்ன?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.advaitam.nonduality_of_brahman"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "advaita_nonduality__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Advaitathil Brahman onnu than endraal apparent differences-ai eppadi purinjukanum?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.advaitam.nonduality_of_brahman"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "bhakti_karma_jnana__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "How are karma, bhakti and jnana connected on the spiritual path?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.mukthikku_munthaiya_nilaiyil_bhakti.karma_bhakti_and_jnana_as_successive_stages"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "bhakti_karma_jnana__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Why would disciplined action and devotion come before knowledge?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.mukthikku_munthaiya_nilaiyil_bhakti.karma_bhakti_and_jnana_as_successive_stages"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "bhakti_karma_jnana__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "கர்மம், பக்தி, ஞானம் மூன்றுக்கும் என்ன தொடர்பு?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.mukthikku_munthaiya_nilaiyil_bhakti.karma_bhakti_and_jnana_as_successive_stages"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "bhakti_karma_jnana__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Karmam bhakti jnanam moonum spiritual path-la eppadi connect aagudhu?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.mukthikku_munthaiya_nilaiyil_bhakti.karma_bhakti_and_jnana_as_successive_stages"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "shiva_vishnu_unity__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "How does Mahaperiyava reconcile Shiva worship and Vishnu worship?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "shiva_vishnu_unity__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Are Shiva and Vishnu ultimately separate according to this teaching?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "shiva_vishnu_unity__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "சிவனும் விஷ்ணுவும் இறுதியில் வேறா, ஒன்றா?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "shiva_vishnu_unity__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Sivanum Vishnuvum ultimate-a separate-aa illa onna?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.siva_vishnu_abhedam.shiva_vishnu_essential_unity"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "kamakshi_compassion__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Why is Kamakshi associated with compassion in these teachings?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.karuppum_sivappumana_kamakshi.red_kamakshi_as_compassionate_parashakti"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "kamakshi_compassion__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "What is the connection between the Goddess Kamakshi and mercy or grace?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.karuppum_sivappumana_kamakshi.red_kamakshi_as_compassionate_parashakti"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "kamakshi_compassion__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "காமாட்சிக்கும் கருணைக்கும் என்ன தொடர்பு?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.karuppum_sivappumana_kamakshi.red_kamakshi_as_compassionate_parashakti"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "kamakshi_compassion__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Kamakshi-yum karunai-yum eppadi connect pannappadudhu?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.karuppum_sivappumana_kamakshi.red_kamakshi_as_compassionate_parashakti"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "kamakshi_eyes__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "What spiritual symbolism is attached to Kamakshi's eyes and brows?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.kamakshiyin_kangal.kamakshi_eyes_and_brows_as_bow_of_compassion"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "kamakshi_eyes__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Why are Kamakshi's eyes described as expressions of compassion?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.kamakshiyin_kangal.kamakshi_eyes_and_brows_as_bow_of_compassion"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "kamakshi_eyes__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "காமாட்சியின் கண்களும் புருவங்களும் எந்த ஆன்மிக அர்த்தத்தை குறிக்கின்றன?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.kamakshiyin_kangal.kamakshi_eyes_and_brows_as_bow_of_compassion"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "kamakshi_eyes__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Kamakshi kannum puruvamum compassion-ai eppadi symbolize pannudhu?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.kamakshiyin_kangal.kamakshi_eyes_and_brows_as_bow_of_compassion"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "ritual_concentration__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Can ritual practice train concentration and personal discipline?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.sadangugal.ritual_cultivates_concentration_and_discipline"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "ritual_concentration__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "What inner benefit is supposed to come from regularly following religious rites?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.sadangugal.ritual_cultivates_concentration_and_discipline"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "ritual_concentration__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "சடங்குகளை முறையாக செய்வது மன ஒருமைப்பாட்டையும் ஒழுக்கத்தையும் வளர்க்குமா?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.sadangugal.ritual_cultivates_concentration_and_discipline"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "ritual_concentration__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Sadangu regular-a seyyaradhu concentration-um discipline-um valarkkuma?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.sadangugal.ritual_cultivates_concentration_and_discipline"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "science_matter_energy_analogy__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "How is the scientific relation between matter and energy used as an analogy for unity?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.science_matter_energy_unity_as_analogy"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "science_matter_energy_analogy__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Does the discourse compare modern physics on matter and energy with Advaita?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.science_matter_energy_unity_as_analogy"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "science_matter_energy_analogy__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "பொருளும் சக்தியும் ஒன்றுடன் ஒன்று தொடர்புடையது என்பதை அத்வைதத்திற்கு ஒப்புமையாக பயன்படுத்துகிறாரா?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.science_matter_energy_unity_as_analogy"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "science_matter_energy_analogy__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Matter energy relation-ai Advaita unity-kku analogy-aa use pannara teaching edhu?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.advaitamum_anu_vignaanamum.science_matter_energy_unity_as_analogy"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "rituals_across_doctrines__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Can people with different philosophical doctrines still share preparatory religious observances?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v3.c110.ritual_observances_shared_across_different_doctrines_preparatory"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "rituals_across_doctrines__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Do doctrinal differences necessarily mean that ritual disciplines must be completely different?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v3.c110.ritual_observances_shared_across_different_doctrines_preparatory"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "rituals_across_doctrines__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "வேறு தத்துவங்களைப் பின்பற்றினாலும் சில சடங்கு ஒழுக்கங்கள் பொதுவாக இருக்க முடியுமா?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v3.c110.ritual_observances_shared_across_different_doctrines_preparatory"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "rituals_across_doctrines__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Different darshanam follow pannalum sila ritual observances common-a irukka mudiyuma?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v3.c110.ritual_observances_shared_across_different_doctrines_preparatory"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "knowledge_and_character__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Why should broad intellectual learning be grounded first in character and discipline?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v2.c206.knowledge_is_to_be_grounded_in_character_and_religious_discipline_before_broad_intellectual_exploration"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "knowledge_and_character__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "What is the warning against pursuing knowledge without moral formation?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v2.c206.knowledge_is_to_be_grounded_in_character_and_religious_discipline_before_broad_intellectual_exploration"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "knowledge_and_character__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "பெரிய அறிவைப் பெறுவதற்கு முன் நல்ல குணமும் ஒழுக்கமும் ஏன் அடிப்படையாக வேண்டும்?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v2.c206.knowledge_is_to_be_grounded_in_character_and_religious_discipline_before_broad_intellectual_exploration"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "knowledge_and_character__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Periya knowledge-ku munnaadi character-um discipline-um base-a venum nu yen?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v2.c206.knowledge_is_to_be_grounded_in_character_and_religious_discipline_before_broad_intellectual_exploration"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "temple_and_arts_preservation__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Why does preserving temples together with traditional sacred arts matter to society?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.preserving_temple_presence_and_arts_benefits_society"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "temple_and_arts_preservation__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "What social value is attributed to keeping temple culture and its arts alive?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.preserving_temple_presence_and_arts_benefits_society"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "temple_and_arts_preservation__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "கோவில்களையும் தெய்வீக பாரம்பரிய கலைகளையும் காப்பது சமுதாயத்திற்கு ஏன் முக்கியம்?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.preserving_temple_presence_and_arts_benefits_society"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "temple_and_arts_preservation__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Kovil culture-um traditional kalaigal-um preserve pannina society-kku enna benefit?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.preserving_temple_presence_and_arts_benefits_society"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "ishta_devata_non_denigration__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Can someone be devoted to an ishta-devata without belittling other forms of God?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.bhagavan_yaar_bhagavatpadhar_badhil.ishta_devata_without_denigration_and_reciprocal_worship"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "ishta_devata_non_denigration__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "How should exclusive personal devotion avoid turning into hostility toward other deities?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.bhagavan_yaar_bhagavatpadhar_badhil.ishta_devata_without_denigration_and_reciprocal_worship"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "ishta_devata_non_denigration__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "தன் இஷ்ட தெய்வத்தை வணங்கும்போது மற்ற தெய்வங்களை இகழாமல் இருக்க வேண்டுமா?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.bhagavan_yaar_bhagavatpadhar_badhil.ishta_devata_without_denigration_and_reciprocal_worship"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "ishta_devata_non_denigration__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Ishta deivam mela bhakti irundhaalum other deities-ai kevalama pesa koodatha?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.bhagavan_yaar_bhagavatpadhar_badhil.ishta_devata_without_denigration_and_reciprocal_worship"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "epic_hearing_moral_formation__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "How can repeatedly hearing the Mahabharata shape a person's moral imagination?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.maha_bharatham.repeated_epic_hearing_shapes_moral_imagination"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "epic_hearing_moral_formation__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Why is regular listening to the epics treated as character-forming rather than mere entertainment?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.maha_bharatham.repeated_epic_hearing_shapes_moral_imagination"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "epic_hearing_moral_formation__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "மகாபாரதத்தை மீண்டும் மீண்டும் கேட்பது நல்லொழுக்க மனப்பாங்கை எப்படி உருவாக்கும்?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.maha_bharatham.repeated_epic_hearing_shapes_moral_imagination"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "epic_hearing_moral_formation__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Mahabharatam repeated-a kekkaradhu moral character-ai eppadi shape pannum?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v1.maha_bharatham.repeated_epic_hearing_shapes_moral_imagination"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "education_and_health__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Should education also protect a student's bodily health and balanced development?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c078.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "education_and_health__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "What is wrong with study that ignores the physical well-being of the learner?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c078.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "education_and_health__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "படிப்புடன் மாணவரின் உடல் ஆரோக்கியமும் சமநிலையான வளர்ச்சியும் கவனிக்கப்பட வேண்டுமா?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c078.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "education_and_health__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Padippoda student-oda udal health-um balanced growth-um care panna venuma?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c078.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "fearlessness_and_liberation__en",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Why is liberation associated with fearlessness while samsara is linked with insecurity?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c229.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "fearlessness_and_liberation__en_paraphrase",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "How does nondual awareness remove fear according to this discourse?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c229.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "fearlessness_and_liberation__ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "மோக்ஷம் பயமின்மையுடன், சம்சாரம் பயத்துடன் எப்படி தொடர்புபடுத்தப்படுகிறது?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c229.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "fearlessness_and_liberation__roman_ta",
+      "group": "natural_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Moksham bayam illamai-oda, samsaram insecurity-oda eppadi connect aagudhu?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c229.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "action_to_nonaction__en",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "en",
+      "query": "How can disciplined action become a path toward freedom from attachment to action?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "action_to_nonaction__en_paraphrase",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "en",
+      "query": "Why prescribe duties if the eventual ideal is effortless non-doership?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "action_to_nonaction__ta",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "ta",
+      "query": "செயல்களை ஒழுக்கமாக செய்வது செயல்பற்றை கடந்து செல்லும் வழியாக எப்படி அமையும்?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "action_to_nonaction__roman_ta",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "roman_ta",
+      "query": "Duty seyyaradhu eppadi later attachment-to-action-ai thaandi non-doership-kku kondu pogum?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "shankara_seeks_guru__en",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "en",
+      "query": "Why is Shankara portrayed as seeking a qualified teacher even though he is treated as an avatara?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "shankara_seeks_guru__en_paraphrase",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "en",
+      "query": "What does Shankara's search for a guru teach about self-sufficiency in spiritual learning?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "shankara_seeks_guru__ta",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "ta",
+      "query": "அவதாரமாகக் கருதப்பட்ட சங்கரரும் ஏன் தகுதியான குருவைத் தேடினார்?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "shankara_seeks_guru__roman_ta",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "roman_ta",
+      "query": "Shankarar avatara-nu sonnalum yen qualified guru-ai thedinaar?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "love_self_transcendence__en",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "en",
+      "query": "How is love described as moving beyond self-centered separateness into service?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "love_self_transcendence__en_paraphrase",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "en",
+      "query": "What makes genuine love different from simply protecting one's own separate interests?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "love_self_transcendence__ta",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "ta",
+      "query": "அன்பு தனக்கே மையமான பிரிவுணர்வை விட்டுச் சேவையாக மாறுவது எப்படி?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "love_self_transcendence__roman_ta",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "roman_ta",
+      "query": "Anbu self-centered separateness-ai vittutu service-a maarudhu-na enna artham?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "liberation_highest_benefit__en",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "en",
+      "query": "Why is liberation ranked above material prosperity as the highest benefit?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "liberation_highest_benefit__en_paraphrase",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "en",
+      "query": "How are worldly benefits subordinated to removing ignorance and escaping samsara?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "liberation_highest_benefit__ta",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "ta",
+      "query": "பொருள் செல்வத்தை விட அறியாமை நீங்கி மோக்ஷம் பெறுவது ஏன் உயர்ந்த பலன்?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "liberation_highest_benefit__roman_ta",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "roman_ta",
+      "query": "Material prosperity vida ignorance remove aagi moksham varradhu yen highest benefit?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "service_without_harming_study__en",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "en",
+      "query": "How should students do service without neglecting their studies and basic responsibilities?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "service_without_harming_study__en_paraphrase",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "en",
+      "query": "When can service become an excuse that harms a student's primary duties?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "service_without_harming_study__ta",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "ta",
+      "query": "படிப்பையும் அடிப்படை கடமைகளையும் பாதிக்காமல் மாணவர்கள் சேவை செய்வது எப்படி?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "service_without_harming_study__roman_ta",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "roman_ta",
+      "query": "Padippai affect pannama students sevai eppadi seyyanum?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "upadhyaya_vs_guru__en",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "en",
+      "query": "What is the difference between an upadhyaya's instructional role and the fuller role of a guru or acharya?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "upadhyaya_vs_guru__en_paraphrase",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "en",
+      "query": "Why is an upadhyaya described as a more limited teaching office than a guru?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "upadhyaya_vs_guru__ta",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "ta",
+      "query": "உபாத்தியாயரின் பங்கு குரு அல்லது ஆசாரியரின் பங்கில் இருந்து எப்படி வேறுபடுகிறது?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "upadhyaya_vs_guru__roman_ta",
+      "group": "natural_supported",
+      "split": "test",
+      "language": "roman_ta",
+      "query": "Upadhyayar role-um guru acharya role-um enna difference?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "v2_c001_title",
+      "group": "exact_title_lookup",
+      "split": "dev",
+      "language": "ta",
+      "query": "கிழவியும் குழவியும்",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 2,
+          "chapter_ordinal": 1
+        }
+      ]
+    },
+    {
+      "id": "v3_c001_title",
+      "group": "exact_title_lookup",
+      "split": "dev",
+      "language": "ta",
+      "query": "பிள்ளையார் சுழி",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 3,
+          "chapter_ordinal": 1
+        }
+      ]
+    },
+    {
+      "id": "v4_c078_title",
+      "group": "exact_title_lookup",
+      "split": "dev",
+      "language": "ta",
+      "query": "ஆரோக்ய வளர்ச்சிக்கும் உதவி",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 4,
+          "chapter_ordinal": 78
+        }
+      ]
+    },
+    {
+      "id": "v4_c229_title",
+      "group": "exact_title_lookup",
+      "split": "dev",
+      "language": "ta",
+      "query": "அபயம் – மோக்ஷம் ; பயம் – ஸம்ஸாரம்",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 4,
+          "chapter_ordinal": 229
+        }
+      ]
+    },
+    {
+      "id": "v4_c376_title",
+      "group": "exact_title_lookup",
+      "split": "dev",
+      "language": "ta",
+      "query": "இருவகைச் சந்தங்கள்",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 4,
+          "chapter_ordinal": 376
+        }
+      ]
+    },
+    {
+      "id": "v5_c163_title",
+      "group": "exact_title_lookup",
+      "split": "dev",
+      "language": "ta",
+      "query": "செயலற்றுப் போக வழியாகவே செயல்களும்!",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 5,
+          "chapter_ordinal": 163
+        }
+      ]
+    },
+    {
+      "id": "v5_c259_title",
+      "group": "exact_title_lookup",
+      "split": "dev",
+      "language": "ta",
+      "query": "அன்னையைப் பிரிந்து ஆசானைத் தேடி..",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 5,
+          "chapter_ordinal": 259
+        }
+      ]
+    },
+    {
+      "id": "v6_c038_title",
+      "group": "exact_title_lookup",
+      "split": "dev",
+      "language": "ta",
+      "query": "பாலசந்த்ரர்",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 6,
+          "chapter_ordinal": 38
+        }
+      ]
+    },
+    {
+      "id": "v6_c110_title",
+      "group": "exact_title_lookup",
+      "split": "dev",
+      "language": "ta",
+      "query": "அன்பு என்பது என்ன ?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 6,
+          "chapter_ordinal": 110
+        }
+      ]
+    },
+    {
+      "id": "v6_c180_title",
+      "group": "exact_title_lookup",
+      "split": "dev",
+      "language": "ta",
+      "query": "இஹ-பர நலன் தரும் இணையடிப் பொடி",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 6,
+          "chapter_ordinal": 180
+        }
+      ]
+    },
+    {
+      "id": "v7_c058_title",
+      "group": "exact_title_lookup",
+      "split": "test",
+      "language": "ta",
+      "query": "உபாத்தியாயர்",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 7,
+          "chapter_ordinal": 58
+        }
+      ]
+    },
+    {
+      "id": "v7_c171_title",
+      "group": "exact_title_lookup",
+      "split": "test",
+      "language": "ta",
+      "query": "படிப்பு பாதிக்காமல் ஸேவை",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 7,
+          "chapter_ordinal": 171
+        }
+      ]
+    },
+    {
+      "id": "v7_c284_title",
+      "group": "exact_title_lookup",
+      "split": "test",
+      "language": "ta",
+      "query": "ஸத்தும் சித்தும் சேர்ந்த ஆனந்தமே ஸுப்ரஹ்மண்யம்",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 7,
+          "chapter_ordinal": 284
+        }
+      ]
+    },
+    {
+      "id": "v2_c113_title",
+      "group": "exact_title_lookup",
+      "split": "test",
+      "language": "ta",
+      "query": "வேதாந்த மதங்களும் மீமாம்ஸையும்",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": [
+        {
+          "volume": 2,
+          "chapter_ordinal": 113
+        }
+      ]
+    },
+    {
+      "id": "unsupported_modern_01",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "What did Mahaperiyava say about smartphone push notifications?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_02",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "What did Mahaperiyava teach about Kubernetes autoscaling policies?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_03",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "Did Mahaperiyava recommend Bitcoin cold-storage wallets?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_04",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "What was Mahaperiyava's view on React Server Components?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_05",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "Did Mahaperiyava discuss Wi-Fi 7 router configuration?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_06",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "What did Mahaperiyava say about GPU tensor cores?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_07",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "Did Mahaperiyava discuss electric-vehicle battery management systems?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_08",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "What was Mahaperiyava's advice on QR-code payment fraud?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_09",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "Did Mahaperiyava recommend password managers and passkeys?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_10",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "What did Mahaperiyava teach about cloud container orchestration?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_11",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "What did Mahaperiyava say about PostgreSQL query planners?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_12",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "Did Mahaperiyava discuss 5G millimeter-wave antennas?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_13",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "What was Mahaperiyava's view on CRISPR gene-editing protocols?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_14",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "Did Mahaperiyava advise airlines on dynamic-pricing algorithms?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_15",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "What did Mahaperiyava say about index funds and exchange-traded funds?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_16",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "Did Mahaperiyava discuss video-game ray tracing?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_17",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "What was Mahaperiyava's view on USB-C versus Thunderbolt ports?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_18",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "What did Mahaperiyava teach about ransomware incident response?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_19",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "Did Mahaperiyava discuss large-language-model prompt injection?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_20",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "What did Mahaperiyava recommend for Docker image-layer caching?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_21",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "en",
+      "query": "Did Mahaperiyava discuss quantum-computing error correction?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_22",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "en",
+      "query": "What did Mahaperiyava say about social-media engagement algorithms?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_23",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "en",
+      "query": "Did Mahaperiyava recommend cryptocurrency staking strategies?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_24",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "en",
+      "query": "What was Mahaperiyava's view on generative-AI copyright licensing?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_25",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "en",
+      "query": "Did Mahaperiyava discuss autonomous-drone delivery logistics?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_26",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "en",
+      "query": "What did Mahaperiyava say about cloud-observability SLO dashboards?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_27",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "en",
+      "query": "Did Mahaperiyava discuss Kubernetes service-mesh routing?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_28",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "en",
+      "query": "What was Mahaperiyava's advice on smartphone screen-time applications?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_29",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "en",
+      "query": "Did Mahaperiyava discuss electric-scooter battery swapping?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "unsupported_modern_30",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "en",
+      "query": "What did Mahaperiyava say about biometric face-recognition systems?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_prosody_types__en",
+      "group": "phase13_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "How are Sanskrit metres divided between syllable-counted and mora-counted forms?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c376.prosody_theory"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_prosody_types__ta",
+      "group": "phase13_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "சமஸ்கிருதச் சந்தங்களில் எழுத்து எண்ணிக்கையையும் மாத்திரை எண்ணிக்கையையும் அடிப்படையாகக் கொண்ட இரு வகைகள் என்ன?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c376.prosody_theory"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_prosody_types__roman_ta",
+      "group": "phase13_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Sanskrita chandasil syllable count-um matra count-um base pannina rendu vagai enna?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c376.prosody_theory"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_alvar_return__en",
+      "group": "phase13_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Why does the king seek reconciliation, and how is the deity's earlier act reversed after the Alvar returns?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c058.return_and_reversal"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_alvar_return__ta",
+      "group": "phase13_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "ஆழ்வார் திரும்பியபின் அரசன் ஏன் சமரசம் தேடுகிறான், முன்னைய தெய்வச் செயல் எவ்வாறு மாற்றப்படுகிறது?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c058.return_and_reversal"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_alvar_return__roman_ta",
+      "group": "phase13_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Alvar thirumbi vandha pin raja yen samarasam thedaraan, deivathin munnaadiya seyal eppadi reverse aagudhu?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c058.return_and_reversal"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_bhalachandra__en",
+      "group": "phase13_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "Why is Ganesha called Bhalachandra, and what does the moon on his forehead signify?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c038.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_bhalachandra__ta",
+      "group": "phase13_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "விநாயகர் ஏன் பாலசந்திரர் என்று அழைக்கப்படுகிறார், நெற்றியில் உள்ள சந்திரன் எதை குறிக்கிறது?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c038.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_bhalachandra__roman_ta",
+      "group": "phase13_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Vinayagar yen Bhalachandrar-nu sollappadugirar, netriyil irukkira chandran enna kurikkudhu?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c038.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_subrahmanya_satchit__en",
+      "group": "phase13_supported",
+      "split": "dev",
+      "language": "en",
+      "query": "How is Subrahmanya interpreted as the bliss in which sat and chit come together?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c284.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_subrahmanya_satchit__ta",
+      "group": "phase13_supported",
+      "split": "dev",
+      "language": "ta",
+      "query": "ஸத் மற்றும் சித் ஒன்றாகும் ஆனந்தமாக ஸுப்ரஹ்மண்யம் எப்படி விளக்கப்படுகிறது?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c284.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_subrahmanya_satchit__roman_ta",
+      "group": "phase13_supported",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Sat-um chit-um serndha anandham Subrahmanya-nu eppadi vilakkappadudhu?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c284.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_moon_pride__en",
+      "group": "phase13_supported",
+      "split": "test",
+      "language": "en",
+      "query": "What moral does the Ganesha and moon episode draw about pride and mocking others?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c033.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_moon_pride__ta",
+      "group": "phase13_supported",
+      "split": "test",
+      "language": "ta",
+      "query": "விநாயகரும் சந்திரனும் பற்றிய கதை பெருமை மற்றும் பிறரை இகழ்வது குறித்து என்ன பாடம் கூறுகிறது?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c033.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_moon_pride__roman_ta",
+      "group": "phase13_supported",
+      "split": "test",
+      "language": "roman_ta",
+      "query": "Vinayagar chandran kathai perumaiyum mathavangala kindal panradhu pathiyum enna paadam solludhu?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v4.c033.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_pallava_origins__en",
+      "group": "phase13_supported",
+      "split": "test",
+      "language": "en",
+      "query": "How does the discourse handle conflicting or uncertain traditions about the origins of the Pallavas?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c055.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_pallava_origins__ta",
+      "group": "phase13_supported",
+      "split": "test",
+      "language": "ta",
+      "query": "பல்லவர்களின் தோற்றம் பற்றிய முரண்பட்ட அல்லது உறுதியற்ற மரபுகளை உரை எவ்வாறு அணுகுகிறது?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c055.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_pallava_origins__roman_ta",
+      "group": "phase13_supported",
+      "split": "test",
+      "language": "roman_ta",
+      "query": "Pallavargal origin pathina conflicting traditions-ai urai eppadi handle pannudhu?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v5.c055.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_ganesha_beginning__en",
+      "group": "phase13_supported",
+      "split": "test",
+      "language": "en",
+      "query": "Why is Ganesha invoked before beginning an undertaking or important piece of work?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_ganesha_beginning__ta",
+      "group": "phase13_supported",
+      "split": "test",
+      "language": "ta",
+      "query": "ஒரு முக்கியமான செயலைத் தொடங்குவதற்கு முன் விநாயகரை ஏன் நினைத்து வழிபடுகிறோம்?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_ganesha_beginning__roman_ta",
+      "group": "phase13_supported",
+      "split": "test",
+      "language": "roman_ta",
+      "query": "Mukkiyamaana velai start panna munnaadi Pillaiyar-ai yen ninaichu vazhipadanum?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__en",
+      "group": "phase13_supported",
+      "split": "test",
+      "language": "en",
+      "query": "Why should Tamil devotion to Ganesha avoid becoming sectarian or separatist?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c002.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__ta",
+      "group": "phase13_supported",
+      "split": "test",
+      "language": "ta",
+      "query": "தமிழ் விநாயக பக்தி ஏன் சமயப் பிரிவினையாகவோ தனித்துவப் பிரச்சாரமாகவோ மாறக்கூடாது?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c002.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__roman_ta",
+      "group": "phase13_supported",
+      "split": "test",
+      "language": "roman_ta",
+      "query": "Tamil Pillaiyar bhakti yen sectarian-a illa separatist-a maara koodadhu?",
+      "expected_status": "retrieved_evidence",
+      "expected_any_ids": [
+        "mahaperiyava.deivathin_kural.v7.c002.chapter_teaching"
+      ],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_negative_rag__en",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "en",
+      "query": "Did Mahaperiyava discuss retrieval-augmented generation and vector databases?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_negative_ai_chatbot__ta",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "ta",
+      "query": "மஹாபெரியவா செயற்கை நுண்ணறிவு சாட்பாட்கள் பற்றி என்ன சொன்னார்?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_negative_crypto__roman_ta",
+      "group": "hard_negative",
+      "split": "dev",
+      "language": "roman_ta",
+      "query": "Mahaperiyava cryptocurrency staking pathi enna sonnaar?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_negative_satellite__en",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "en",
+      "query": "What did Mahaperiyava say about satellite internet constellations?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_negative_smartphone__ta",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "ta",
+      "query": "மஹாபெரியவா ஸ்மார்ட்போன் அறிவிப்புகள் பற்றி என்ன சொன்னார்?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    },
+    {
+      "id": "p13_negative_upi__roman_ta",
+      "group": "hard_negative",
+      "split": "test",
+      "language": "roman_ta",
+      "query": "Mahaperiyava UPI transaction security pathi enna advise panninaar?",
+      "expected_status": "insufficient_evidence",
+      "expected_any_ids": [],
+      "expected_any_loci": []
+    }
+  ]
+}

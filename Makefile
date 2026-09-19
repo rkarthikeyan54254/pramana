@@ -339,3 +339,16 @@ mahaperiyava-hybrid-retrieval-structure-gate:
 mahaperiyava-hybrid-retrieval-benchmark:
 	$(PYTHON) scripts/eval_mahaperiyava_hybrid_retrieval.py --output data/review/mahaperiyava_hybrid_retrieval_checkpoint_v1.json
 	@echo "mahaperiyava-hybrid-retrieval-benchmark: COMPLETE"
+
+# Phase 13: field-separated multilingual hybrid retrieval tuning.
+# CI runs only the network-free structural contract.  Real model evaluation is local-first.
+mahaperiyava-hybrid-retrieval-v2-structure-gate:
+	$(PYTHON) scripts/build_mahaperiyava_retrieval_benchmark_v3.py --check
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_hybrid_retrieval.py tests/test_mahaperiyava_hybrid_retrieval_v2.py
+	@echo "mahaperiyava-hybrid-retrieval-v2-structure-gate: GREEN"
+
+mahaperiyava-hybrid-retrieval-v2-benchmark:
+	$(PYTHON) scripts/build_mahaperiyava_retrieval_benchmark_v3.py
+	$(PYTHON) scripts/analyze_mahaperiyava_hybrid_failures.py
+	$(PYTHON) scripts/eval_mahaperiyava_hybrid_retrieval_v2.py --output data/review/mahaperiyava_hybrid_retrieval_checkpoint_v2.json
+	@echo "mahaperiyava-hybrid-retrieval-v2-benchmark: COMPLETE"
