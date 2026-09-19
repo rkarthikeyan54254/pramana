@@ -1,0 +1,252 @@
+{
+  "version": "2.0",
+  "source_checkpoint": "data/review/mahaperiyava_candidate_reranker_checkpoint_v3.json",
+  "summary": {
+    "top1": 26,
+    "miss_top5": 6,
+    "top5_not_top1": 8
+  },
+  "by_language": {
+    "en": {
+      "top1": 12,
+      "top5_not_top1": 3,
+      "miss_top5": 1
+    },
+    "roman_ta": {
+      "top1": 5,
+      "miss_top5": 3,
+      "top5_not_top1": 2
+    },
+    "ta": {
+      "miss_top5": 2,
+      "top1": 9,
+      "top5_not_top1": 3
+    }
+  },
+  "failures": [
+    {
+      "id": "action_to_nonaction__ta",
+      "language": "ta",
+      "bucket": "miss_top5",
+      "query": "செயல்களை ஒழுக்கமாக செய்வது செயல்பற்றை கடந்து செல்லும் வழியாக எப்படி அமையும்?",
+      "rank": null,
+      "profile": "concept_heavy",
+      "concept_query": "action discipline character duty karma",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c277.karma_and_jnana_distinction",
+        "mahaperiyava.deivathin_kural.v5.c162.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c143.puranic_moral_ideals_require_practical_disciplines_that_transform_habit",
+        "mahaperiyava.deivathin_kural.v5.c108.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.karma_yogam.karma_yoga_is_egoless_duty_and_offering_of_fruits"
+      ]
+    },
+    {
+      "id": "shankara_seeks_guru__en_paraphrase",
+      "language": "en",
+      "bucket": "top5_not_top1",
+      "query": "What does Shankara's search for a guru teach about self-sufficiency in spiritual learning?",
+      "rank": 2,
+      "profile": "lexical_guarded",
+      "concept_query": "guru teacher acharya shankara search self sufficiency spiritual learning",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+        "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c008.shankara_texts_are_read_as_insisting_on_guru_devotion",
+        "mahaperiyava.deivathin_kural.v2.c010.problem_of_discerning_a_true_spiritual_guru",
+        "mahaperiyava.deivathin_kural.v7.c087.chapter_teaching"
+      ]
+    },
+    {
+      "id": "shankara_seeks_guru__ta",
+      "language": "ta",
+      "bucket": "miss_top5",
+      "query": "அவதாரமாகக் கருதப்பட்ட சங்கரரும் ஏன் தகுதியான குருவைத் தேடினார்?",
+      "rank": null,
+      "profile": "concept_heavy",
+      "concept_query": "sought search shankara guru teacher seek",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v3.c014.shankara_portrayed_exemplifying_extreme_humility_devotion_toward",
+        "mahaperiyava.deivathin_kural.v2.c008.shankara_texts_are_read_as_insisting_on_guru_devotion",
+        "mahaperiyava.deivathin_kural.v5.c095.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c173.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c080.chapter_teaching"
+      ]
+    },
+    {
+      "id": "love_self_transcendence__en_paraphrase",
+      "language": "en",
+      "bucket": "miss_top5",
+      "query": "What makes genuine love different from simply protecting one's own separate interests?",
+      "rank": null,
+      "profile": "lexical_guarded",
+      "concept_query": "makes genuine love different simply protecting own separate interests",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.annai_deivam.nondual_mother_worship_should_expand_into_universal_love",
+        "mahaperiyava.deivathin_kural.v1.siva_sakthiyin_aikkiya_sthanam.seek_the_indivisible_center_of_shiva_shakti_love",
+        "mahaperiyava.deivathin_kural.v2.c016.practical_life_requires_difference_even_when_nonduality_is_accepted",
+        "mahaperiyava.deivathin_kural.v1.anbu.true_love_is_unconditional",
+        "mahaperiyava.deivathin_kural.v2.c016.dvaita_visishtadvaita_and_advaita_are_presented_as_possible_stages_of_experience"
+      ]
+    },
+    {
+      "id": "service_without_harming_study__en_paraphrase",
+      "language": "en",
+      "bucket": "top5_not_top1",
+      "query": "When can service become an excuse that harms a student's primary duties?",
+      "rank": 2,
+      "profile": "lexical_guarded",
+      "concept_query": "can service become excuse harms student primary duties",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c009.service_and_delayed_dakshina_preserve_gratitude_to_teacher",
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c037.temple_service_people_complementary_competing_duties_religious",
+        "mahaperiyava.deivathin_kural.v2.c009.gita_and_taittiriya_define_student_and_teacher_ethics",
+        "mahaperiyava.deivathin_kural.v2.c161.brahmacharya_training_is_presented_as_disciplined_service_study_celibacy_and_character_formation"
+      ]
+    },
+    {
+      "id": "service_without_harming_study__ta",
+      "language": "ta",
+      "bucket": "top5_not_top1",
+      "query": "படிப்பையும் அடிப்படை கடமைகளையும் பாதிக்காமல் மாணவர்கள் சேவை செய்வது எப்படி?",
+      "rank": 2,
+      "profile": "concept_heavy",
+      "concept_query": "without harming neglecting students education action student duty responsibility service",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c177.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c211.anecdotes_of_students_professionals_and_official_selection_are_used_to_question_personality_based_career_matching",
+        "mahaperiyava.deivathin_kural.v2.c009.first_guru_must_model_dharma_and_care_for_students",
+        "mahaperiyava.deivathin_kural.v2.c057.vedic_students_and_teachers_are_to_receive_enough_support_to_keep_full_time_study_viable"
+      ]
+    },
+    {
+      "id": "service_without_harming_study__roman_ta",
+      "language": "roman_ta",
+      "bucket": "miss_top5",
+      "query": "Padippai affect pannama students sevai eppadi seyyanum?",
+      "rank": null,
+      "profile": "lexical_guarded",
+      "concept_query": "study education duty student service padippai affect pannama students sevai eppadi seyyanum",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c057.vedic_students_and_teachers_are_to_receive_enough_support_to_keep_full_time_study_viable",
+        "mahaperiyava.deivathin_kural.v2.c060.followers_are_asked_to_fund_vedic_education_through_a_small_recurring_donation_scheme",
+        "mahaperiyava.deivathin_kural.v2.c057.families_are_urged_to_give_children_sustained_vedic_instruction_from_youth",
+        "mahaperiyava.deivathin_kural.v3.c173.self_cooking_students_proposed_way_make_vedic",
+        "mahaperiyava.deivathin_kural.v4.c113.chapter_teaching"
+      ]
+    },
+    {
+      "id": "upadhyaya_vs_guru__roman_ta",
+      "language": "roman_ta",
+      "bucket": "top5_not_top1",
+      "query": "Upadhyayar role-um guru acharya role-um enna difference?",
+      "rank": 2,
+      "profile": "lexical_guarded",
+      "concept_query": "difference distinction upadhyaya instructor acharya guru teacher role upadhyayar enna",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c005.guru_distinguished_acharya_one_whose_inner_realization",
+        "mahaperiyava.deivathin_kural.v4.c043.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c009.first_guru_must_model_dharma_and_care_for_students"
+      ]
+    },
+    {
+      "id": "p13_moon_pride__roman_ta",
+      "language": "roman_ta",
+      "bucket": "miss_top5",
+      "query": "Vinayagar chandran kathai perumaiyum mathavangala kindal panradhu pathiyum enna paadam solludhu?",
+      "rank": null,
+      "profile": "lexical_guarded",
+      "concept_query": "ganesha vinayaka pillaiyar moon lunar pride mock ridicule lesson study vinayagar chandran kathai perumaiyum mathavangala kindal panradhu pathiyum enna paadam solludhu",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c003.vinayagar_agaval_as_devotional_and_yogic_practice",
+        "mahaperiyava.deivathin_kural.v1.vinayagar.pillaiyar_tamil_devotional_presence",
+        "mahaperiyava.deivathin_kural.v1.vinayagar.ganesha_as_pranava_form",
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.broken_tusk_sacrifice_for_dharma",
+        "mahaperiyava.deivathin_kural.v1.vinayagar.ganesha_grace_elevates_devotee"
+      ]
+    },
+    {
+      "id": "p13_ganesha_beginning__en",
+      "language": "en",
+      "bucket": "top5_not_top1",
+      "query": "Why is Ganesha invoked before beginning an undertaking or important piece of work?",
+      "rank": 2,
+      "profile": "lexical_guarded",
+      "concept_query": "ganesha invoked before beginning undertaking important piece work obstacle",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v4.c007.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life",
+        "mahaperiyava.deivathin_kural.v5.c001.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+        "mahaperiyava.deivathin_kural.v4.c013.chapter_teaching"
+      ]
+    },
+    {
+      "id": "p13_ganesha_beginning__ta",
+      "language": "ta",
+      "bucket": "top5_not_top1",
+      "query": "ஒரு முக்கியமான செயலைத் தொடங்குவதற்கு முன் விநாயகரை ஏன் நினைத்து வழிபடுகிறோம்?",
+      "rank": 2,
+      "profile": "concept_heavy",
+      "concept_query": "beginning undertaking obstacle work ganesha vinayaka pillaiyar",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life",
+        "mahaperiyava.deivathin_kural.v5.c001.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c007.chapter_teaching"
+      ]
+    },
+    {
+      "id": "p13_ganesha_beginning__roman_ta",
+      "language": "roman_ta",
+      "bucket": "miss_top5",
+      "query": "Mukkiyamaana velai start panna munnaadi Pillaiyar-ai yen ninaichu vazhipadanum?",
+      "rank": null,
+      "profile": "lexical_guarded",
+      "concept_query": "ganesha vinayaka pillaiyar beginning undertaking obstacle work mukkiyamaana velai start panna munnaadi yen ninaichu vazhipadanum",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.vinayagar.pillaiyar_tamil_devotional_presence",
+        "mahaperiyava.deivathin_kural.v3.c001.traditional_pillaiyar_suzhi_interpreted_symbol_ganesha_pranava",
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+        "mahaperiyava.deivathin_kural.v2.c001.ganesha_names_primacy_and_obstacle_removal"
+      ]
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__ta",
+      "language": "ta",
+      "bucket": "top5_not_top1",
+      "query": "தமிழ் விநாயக பக்தி ஏன் சமயப் பிரிவினையாகவோ தனித்துவப் பிரச்சாரமாகவோ மாறக்கூடாது?",
+      "rank": 2,
+      "profile": "concept_heavy",
+      "concept_query": "sectarian separatist division separatism ganesha vinayaka pillaiyar bhakti devotion",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.vinayagar.pillaiyar_tamil_devotional_presence",
+        "mahaperiyava.deivathin_kural.v7.c002.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c132.sridhara_ayyaval_tradition_is_used_to_model_nonsectarian_devotion_and_social_compassion",
+        "mahaperiyava.deivathin_kural.v3.c110.then_raises_harder_problem_inherited_sectarian_practice",
+        "mahaperiyava.deivathin_kural.v3.c110.attempts_separate_ordinary_ritual_devotional_worship_shown"
+      ]
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__roman_ta",
+      "language": "roman_ta",
+      "bucket": "top5_not_top1",
+      "query": "Tamil Pillaiyar bhakti yen sectarian-a illa separatist-a maara koodadhu?",
+      "rank": 2,
+      "profile": "lexical_guarded",
+      "concept_query": "sectarian division separatist separatism ganesha vinayaka pillaiyar devotion bhakti tamil yen illa maara koodadhu",
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.vinayagar.pillaiyar_tamil_devotional_presence",
+        "mahaperiyava.deivathin_kural.v7.c002.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c003.ganesha_presented_as_transsectarian_and_global",
+        "mahaperiyava.deivathin_kural.v3.c110.then_raises_harder_problem_inherited_sectarian_practice",
+        "mahaperiyava.deivathin_kural.v2.c132.sridhara_ayyaval_tradition_is_used_to_model_nonsectarian_devotion_and_social_compassion"
+      ]
+    }
+  ]
+}

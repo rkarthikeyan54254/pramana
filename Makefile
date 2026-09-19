@@ -352,3 +352,14 @@ mahaperiyava-hybrid-retrieval-v2-benchmark:
 	$(PYTHON) scripts/analyze_mahaperiyava_hybrid_failures.py
 	$(PYTHON) scripts/eval_mahaperiyava_hybrid_retrieval_v2.py --output data/review/mahaperiyava_hybrid_retrieval_checkpoint_v2.json
 	@echo "mahaperiyava-hybrid-retrieval-v2-benchmark: COMPLETE"
+
+# Phase 14: language-aware candidate generation + constrained reranking.
+# Structural gate is network-free. Real benchmark remains local/model-backed.
+mahaperiyava-candidate-reranker-structure-gate:
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_candidate_reranker_v3.py
+	@echo "mahaperiyava-candidate-reranker-structure-gate: GREEN"
+
+mahaperiyava-candidate-reranker-benchmark:
+	$(PYTHON) scripts/eval_mahaperiyava_candidate_reranker_v3.py --output data/review/mahaperiyava_candidate_reranker_checkpoint_v3.json
+	$(PYTHON) scripts/analyze_mahaperiyava_candidate_reranker_v3.py
+	@echo "mahaperiyava-candidate-reranker-benchmark: COMPLETE"

@@ -41,6 +41,8 @@ jobs:
         run: make mahaperiyava-retrieval-gate
       - name: Mahaperiyava multilingual hybrid retrieval structure gate
         run: make mahaperiyava-hybrid-retrieval-structure-gate
+      - name: Mahaperiyava language-aware candidate reranker structure gate
+        run: make mahaperiyava-candidate-reranker-structure-gate
       - name: Mahaperiyava Phase 13 hybrid retrieval structure gate
         run: make mahaperiyava-hybrid-retrieval-v2-structure-gate
       - name: Mahaperiyava grounded answer backend

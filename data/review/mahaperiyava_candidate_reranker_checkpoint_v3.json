@@ -1,0 +1,2334 @@
+{
+  "version": "3.0",
+  "checkpoint": "MAHAPERIYAVA_LANGUAGE_AWARE_CANDIDATE_RERANKER_V3",
+  "status": "PHASE14_CANDIDATE_RERANKER_RECORDED_MORE_WORK_REQUIRED",
+  "decision": "continue_retrieval_work_before_product_switch",
+  "benchmark": {
+    "file": "data/review/mahaperiyava_retrieval_benchmark_v3.json",
+    "cases": 154,
+    "dev_cases": 101,
+    "test_cases": 53,
+    "quality_target": {
+      "test_top1": 0.75,
+      "test_top5": 0.9,
+      "test_abstention": 1.0,
+      "test_tamil_top5": 0.75,
+      "test_roman_tamil_top5": 0.8,
+      "candidate_recall_at_cap": 0.95
+    }
+  },
+  "architecture": {
+    "candidate_generation": [
+      "original lexical",
+      "augmented lexical",
+      "concept-only lexical",
+      "claim semantic",
+      "title semantic"
+    ],
+    "reranking": "language-specific profile selected on dev only",
+    "semantic_model_profile": "minilm_multilingual",
+    "restricted_source_text_embedded": false,
+    "embedding_vectors_committed": false,
+    "product_retriever_switched": false
+  },
+  "selected_profiles": {
+    "en": "lexical_guarded",
+    "roman_ta": "lexical_guarded",
+    "ta": "concept_heavy"
+  },
+  "metrics": {
+    "candidate_recall_dev": 0.9872,
+    "candidate_recall_test": 1.0,
+    "dev": {
+      "cases": 101,
+      "supported": 78,
+      "negatives": 23,
+      "top1": 0.5513,
+      "top5": 0.7692,
+      "mrr": 0.6207,
+      "abstention": 1.0,
+      "by_language": {
+        "en": {
+          "supported": 32,
+          "top1": 0.5312,
+          "top5": 0.7812,
+          "mrr": 0.6313,
+          "negatives": 21,
+          "abstention": 1.0
+        },
+        "roman_ta": {
+          "supported": 18,
+          "top1": 0.4444,
+          "top5": 0.7778,
+          "mrr": 0.5241,
+          "negatives": 1,
+          "abstention": 1.0
+        },
+        "ta": {
+          "supported": 28,
+          "top1": 0.6429,
+          "top5": 0.75,
+          "mrr": 0.6708,
+          "negatives": 1,
+          "abstention": 1.0
+        }
+      }
+    },
+    "test": {
+      "cases": 53,
+      "supported": 40,
+      "negatives": 13,
+      "top1": 0.65,
+      "top5": 0.85,
+      "mrr": 0.75,
+      "abstention": 1.0,
+      "by_language": {
+        "en": {
+          "supported": 16,
+          "top1": 0.75,
+          "top5": 0.9375,
+          "mrr": 0.8438,
+          "negatives": 11,
+          "abstention": 1.0
+        },
+        "roman_ta": {
+          "supported": 10,
+          "top1": 0.5,
+          "top5": 0.7,
+          "mrr": 0.6,
+          "negatives": 1,
+          "abstention": 1.0
+        },
+        "ta": {
+          "supported": 14,
+          "top1": 0.6429,
+          "top5": 0.8571,
+          "mrr": 0.75,
+          "negatives": 1,
+          "abstention": 1.0
+        }
+      }
+    },
+    "phase13_test": {
+      "cases": 53,
+      "supported": 40,
+      "negatives": 13,
+      "top1": 0.425,
+      "top5": 0.8,
+      "mrr": 0.6062,
+      "abstention": 1.0,
+      "by_language": {
+        "en": {
+          "supported": 16,
+          "top1": 0.5,
+          "top5": 0.9375,
+          "mrr": 0.7031,
+          "negatives": 11,
+          "abstention": 1.0
+        },
+        "roman_ta": {
+          "supported": 10,
+          "top1": 0.3,
+          "top5": 0.8,
+          "mrr": 0.55,
+          "negatives": 1,
+          "abstention": 1.0
+        },
+        "ta": {
+          "supported": 14,
+          "top1": 0.4286,
+          "top5": 0.6429,
+          "mrr": 0.5357,
+          "negatives": 1,
+          "abstention": 1.0
+        }
+      }
+    },
+    "vs_phase13_top1_delta": 0.225,
+    "vs_phase13_top5_delta": 0.05,
+    "vs_phase13_mrr_delta": 0.1438
+  },
+  "authority_boundary": {
+    "authority_counts": {
+      "dk_attested": 3329,
+      "earlier_witness_supported": 39
+    },
+    "authority_promotions": 0,
+    "retrieval_score_changes_authority": false,
+    "exact_source_text_exposed": false,
+    "generated_text_may_enter_corpus": false,
+    "publication_approval_implied": false
+  },
+  "profile_dev_metrics": {
+    "en": [
+      {
+        "profile": "lexical_guarded",
+        "objective": 2.3499,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5312,
+          "top5": 0.7812,
+          "mrr": 0.6313,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5312,
+              "top5": 0.7812,
+              "mrr": 0.6313,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "concept_heavy",
+        "objective": 2.27295,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5,
+          "top5": 0.8125,
+          "mrr": 0.6167,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5,
+              "top5": 0.8125,
+              "mrr": 0.6167,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "balanced",
+        "objective": 2.2479,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5,
+          "top5": 0.7812,
+          "mrr": 0.6073,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5,
+              "top5": 0.7812,
+              "mrr": 0.6073,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "semantic_guarded",
+        "objective": 2.2312,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5,
+          "top5": 0.7812,
+          "mrr": 0.5906,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5,
+              "top5": 0.7812,
+              "mrr": 0.5906,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "concept_semantic",
+        "objective": 2.2146,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5,
+          "top5": 0.75,
+          "mrr": 0.5896,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5,
+              "top5": 0.75,
+              "mrr": 0.5896,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "tamil_concept_title",
+        "objective": 2.1496,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.4688,
+          "top5": 0.7812,
+          "mrr": 0.587,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.4688,
+              "top5": 0.7812,
+              "mrr": 0.587,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      }
+    ],
+    "roman_ta": [
+      {
+        "profile": "lexical_guarded",
+        "objective": 2.024,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.7778,
+          "mrr": 0.5241,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.7778,
+              "mrr": 0.5241,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "concept_semantic",
+        "objective": 1.98325,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.6667,
+          "mrr": 0.5389,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.6667,
+              "mrr": 0.5389,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "balanced",
+        "objective": 1.92765,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.6111,
+          "mrr": 0.5111,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.6111,
+              "mrr": 0.5111,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "concept_heavy",
+        "objective": 1.8102,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.3889,
+          "top5": 0.6667,
+          "mrr": 0.5046,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.3889,
+              "top5": 0.6667,
+              "mrr": 0.5046,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "tamil_concept_title",
+        "objective": 1.8075,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.3889,
+          "top5": 0.6667,
+          "mrr": 0.5019,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.3889,
+              "top5": 0.6667,
+              "mrr": 0.5019,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "semantic_guarded",
+        "objective": 1.6407,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.3333,
+          "top5": 0.6667,
+          "mrr": 0.4741,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.3333,
+              "top5": 0.6667,
+              "mrr": 0.4741,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      }
+    ],
+    "ta": [
+      {
+        "profile": "concept_heavy",
+        "objective": 2.65305,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6429,
+          "top5": 0.75,
+          "mrr": 0.6708,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6429,
+              "top5": 0.75,
+              "mrr": 0.6708,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "balanced",
+        "objective": 2.54575,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6071,
+          "top5": 0.75,
+          "mrr": 0.653,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6071,
+              "top5": 0.75,
+              "mrr": 0.653,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "tamil_concept_title",
+        "objective": 2.41185,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.5714,
+          "top5": 0.7143,
+          "mrr": 0.6262,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.5714,
+              "top5": 0.7143,
+              "mrr": 0.6262,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "concept_semantic",
+        "objective": 2.3839,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.5714,
+          "top5": 0.6786,
+          "mrr": 0.6161,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.5714,
+              "top5": 0.6786,
+              "mrr": 0.6161,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "semantic_guarded",
+        "objective": 2.26305,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.5357,
+          "top5": 0.6786,
+          "mrr": 0.5845,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.5357,
+              "top5": 0.6786,
+              "mrr": 0.5845,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "profile": "lexical_guarded",
+        "objective": 2.11435,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.5,
+          "top5": 0.6429,
+          "mrr": 0.5429,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.5,
+              "top5": 0.6429,
+              "mrr": 0.5429,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      }
+    ]
+  },
+  "candidate_rows": [
+    {
+      "id": "advaita_nonduality__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 111,
+      "expected_present": true
+    },
+    {
+      "id": "advaita_nonduality__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 110,
+      "expected_present": true
+    },
+    {
+      "id": "advaita_nonduality__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 122,
+      "expected_present": true
+    },
+    {
+      "id": "advaita_nonduality__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 139,
+      "expected_present": true
+    },
+    {
+      "id": "bhakti_karma_jnana__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 106,
+      "expected_present": true
+    },
+    {
+      "id": "bhakti_karma_jnana__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 115,
+      "expected_present": true
+    },
+    {
+      "id": "bhakti_karma_jnana__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 112,
+      "expected_present": true
+    },
+    {
+      "id": "bhakti_karma_jnana__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 127,
+      "expected_present": true
+    },
+    {
+      "id": "shiva_vishnu_unity__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 133,
+      "expected_present": true
+    },
+    {
+      "id": "shiva_vishnu_unity__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 91,
+      "expected_present": true
+    },
+    {
+      "id": "shiva_vishnu_unity__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 137,
+      "expected_present": true
+    },
+    {
+      "id": "shiva_vishnu_unity__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 115,
+      "expected_present": true
+    },
+    {
+      "id": "kamakshi_compassion__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 109,
+      "expected_present": true
+    },
+    {
+      "id": "kamakshi_compassion__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 100,
+      "expected_present": true
+    },
+    {
+      "id": "kamakshi_compassion__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 100,
+      "expected_present": true
+    },
+    {
+      "id": "kamakshi_compassion__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 128,
+      "expected_present": true
+    },
+    {
+      "id": "kamakshi_eyes__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 120,
+      "expected_present": true
+    },
+    {
+      "id": "kamakshi_eyes__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 100,
+      "expected_present": true
+    },
+    {
+      "id": "kamakshi_eyes__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 101,
+      "expected_present": true
+    },
+    {
+      "id": "kamakshi_eyes__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 117,
+      "expected_present": true
+    },
+    {
+      "id": "ritual_concentration__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 130,
+      "expected_present": true
+    },
+    {
+      "id": "ritual_concentration__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 133,
+      "expected_present": false
+    },
+    {
+      "id": "ritual_concentration__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "ritual_concentration__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "science_matter_energy_analogy__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 98,
+      "expected_present": true
+    },
+    {
+      "id": "science_matter_energy_analogy__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 111,
+      "expected_present": true
+    },
+    {
+      "id": "science_matter_energy_analogy__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 120,
+      "expected_present": true
+    },
+    {
+      "id": "science_matter_energy_analogy__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 109,
+      "expected_present": true
+    },
+    {
+      "id": "rituals_across_doctrines__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "rituals_across_doctrines__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 124,
+      "expected_present": true
+    },
+    {
+      "id": "rituals_across_doctrines__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "rituals_across_doctrines__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 127,
+      "expected_present": true
+    },
+    {
+      "id": "knowledge_and_character__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 102,
+      "expected_present": true
+    },
+    {
+      "id": "knowledge_and_character__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 112,
+      "expected_present": true
+    },
+    {
+      "id": "knowledge_and_character__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "knowledge_and_character__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 118,
+      "expected_present": true
+    },
+    {
+      "id": "temple_and_arts_preservation__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 111,
+      "expected_present": true
+    },
+    {
+      "id": "temple_and_arts_preservation__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 100,
+      "expected_present": true
+    },
+    {
+      "id": "temple_and_arts_preservation__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "temple_and_arts_preservation__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "ishta_devata_non_denigration__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 112,
+      "expected_present": true
+    },
+    {
+      "id": "ishta_devata_non_denigration__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 114,
+      "expected_present": true
+    },
+    {
+      "id": "ishta_devata_non_denigration__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "ishta_devata_non_denigration__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "epic_hearing_moral_formation__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 115,
+      "expected_present": true
+    },
+    {
+      "id": "epic_hearing_moral_formation__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 114,
+      "expected_present": true
+    },
+    {
+      "id": "epic_hearing_moral_formation__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "epic_hearing_moral_formation__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 127,
+      "expected_present": true
+    },
+    {
+      "id": "education_and_health__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 96,
+      "expected_present": true
+    },
+    {
+      "id": "education_and_health__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 128,
+      "expected_present": true
+    },
+    {
+      "id": "education_and_health__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "education_and_health__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 130,
+      "expected_present": true
+    },
+    {
+      "id": "fearlessness_and_liberation__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 110,
+      "expected_present": true
+    },
+    {
+      "id": "fearlessness_and_liberation__en_paraphrase",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 116,
+      "expected_present": true
+    },
+    {
+      "id": "fearlessness_and_liberation__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 108,
+      "expected_present": true
+    },
+    {
+      "id": "fearlessness_and_liberation__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 133,
+      "expected_present": true
+    },
+    {
+      "id": "action_to_nonaction__en",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 120,
+      "expected_present": true
+    },
+    {
+      "id": "action_to_nonaction__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 135,
+      "expected_present": true
+    },
+    {
+      "id": "action_to_nonaction__ta",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "action_to_nonaction__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "candidate_count": 128,
+      "expected_present": true
+    },
+    {
+      "id": "shankara_seeks_guru__en",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 105,
+      "expected_present": true
+    },
+    {
+      "id": "shankara_seeks_guru__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 133,
+      "expected_present": true
+    },
+    {
+      "id": "shankara_seeks_guru__ta",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "shankara_seeks_guru__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "love_self_transcendence__en",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 102,
+      "expected_present": true
+    },
+    {
+      "id": "love_self_transcendence__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 106,
+      "expected_present": true
+    },
+    {
+      "id": "love_self_transcendence__ta",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "love_self_transcendence__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "candidate_count": 123,
+      "expected_present": true
+    },
+    {
+      "id": "liberation_highest_benefit__en",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 108,
+      "expected_present": true
+    },
+    {
+      "id": "liberation_highest_benefit__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 123,
+      "expected_present": true
+    },
+    {
+      "id": "liberation_highest_benefit__ta",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 124,
+      "expected_present": true
+    },
+    {
+      "id": "liberation_highest_benefit__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "service_without_harming_study__en",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 128,
+      "expected_present": true
+    },
+    {
+      "id": "service_without_harming_study__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 113,
+      "expected_present": true
+    },
+    {
+      "id": "service_without_harming_study__ta",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "service_without_harming_study__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "candidate_count": 130,
+      "expected_present": true
+    },
+    {
+      "id": "upadhyaya_vs_guru__en",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 132,
+      "expected_present": true
+    },
+    {
+      "id": "upadhyaya_vs_guru__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "upadhyaya_vs_guru__ta",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "upadhyaya_vs_guru__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "candidate_count": 132,
+      "expected_present": true
+    },
+    {
+      "id": "v2_c001_title",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 78,
+      "expected_present": true
+    },
+    {
+      "id": "v3_c001_title",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 122,
+      "expected_present": true
+    },
+    {
+      "id": "v4_c078_title",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 101,
+      "expected_present": true
+    },
+    {
+      "id": "v4_c229_title",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 107,
+      "expected_present": true
+    },
+    {
+      "id": "v4_c376_title",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 120,
+      "expected_present": true
+    },
+    {
+      "id": "v5_c163_title",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "v5_c259_title",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "v6_c038_title",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 72,
+      "expected_present": true
+    },
+    {
+      "id": "v6_c110_title",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "v6_c180_title",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 132,
+      "expected_present": true
+    },
+    {
+      "id": "v7_c058_title",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "v7_c171_title",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "v7_c284_title",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "v2_c113_title",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 132,
+      "expected_present": true
+    },
+    {
+      "id": "p13_prosody_types__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 96,
+      "expected_present": true
+    },
+    {
+      "id": "p13_prosody_types__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 129,
+      "expected_present": true
+    },
+    {
+      "id": "p13_prosody_types__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 84,
+      "expected_present": true
+    },
+    {
+      "id": "p13_alvar_return__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "p13_alvar_return__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "p13_alvar_return__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "p13_bhalachandra__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 113,
+      "expected_present": true
+    },
+    {
+      "id": "p13_bhalachandra__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 113,
+      "expected_present": true
+    },
+    {
+      "id": "p13_bhalachandra__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 134,
+      "expected_present": true
+    },
+    {
+      "id": "p13_subrahmanya_satchit__en",
+      "split": "dev",
+      "language": "en",
+      "candidate_count": 114,
+      "expected_present": true
+    },
+    {
+      "id": "p13_subrahmanya_satchit__ta",
+      "split": "dev",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "p13_subrahmanya_satchit__roman_ta",
+      "split": "dev",
+      "language": "roman_ta",
+      "candidate_count": 116,
+      "expected_present": true
+    },
+    {
+      "id": "p13_moon_pride__en",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 116,
+      "expected_present": true
+    },
+    {
+      "id": "p13_moon_pride__ta",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "p13_moon_pride__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "candidate_count": 135,
+      "expected_present": true
+    },
+    {
+      "id": "p13_pallava_origins__en",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 118,
+      "expected_present": true
+    },
+    {
+      "id": "p13_pallava_origins__ta",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "p13_pallava_origins__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "p13_ganesha_beginning__en",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 94,
+      "expected_present": true
+    },
+    {
+      "id": "p13_ganesha_beginning__ta",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "p13_ganesha_beginning__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "candidate_count": 138,
+      "expected_present": true
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__en",
+      "split": "test",
+      "language": "en",
+      "candidate_count": 104,
+      "expected_present": true
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__ta",
+      "split": "test",
+      "language": "ta",
+      "candidate_count": 140,
+      "expected_present": true
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "candidate_count": 112,
+      "expected_present": true
+    }
+  ],
+  "test_rows": [
+    {
+      "id": "action_to_nonaction__en",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "How can disciplined action become a path toward freedom from attachment to action?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c156.action_is_presented_as_shaping_character_until_virtue_becomes_natural_and_action_can_be_transcended",
+        "mahaperiyava.deivathin_kural.v5.c111.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.anandam_enge.desire_binds_to_sorrow",
+        "mahaperiyava.deivathin_kural.v6.c121.chapter_teaching"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "can disciplined action become path toward freedom attachment"
+    },
+    {
+      "id": "action_to_nonaction__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "Why prescribe duties if the eventual ideal is effortless non-doership?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c125.defends_differentiated_religious_duties_practical_response_differing",
+        "mahaperiyava.deivathin_kural.v2.c204.ideal_brahmin_daily_life_is_presented_as_an_austere_schedule_of_ritual_study_teaching_and_service",
+        "mahaperiyava.deivathin_kural.v6.c086.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c152.dietary_ideal_something_approach_realistically_practitioners_should"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "prescribe duties eventual ideal effortless non doership"
+    },
+    {
+      "id": "action_to_nonaction__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "natural_supported",
+      "query": "செயல்களை ஒழுக்கமாக செய்வது செயல்பற்றை கடந்து செல்லும் வழியாக எப்படி அமையும்?",
+      "actual_status": "retrieved_evidence",
+      "rank": null,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c277.karma_and_jnana_distinction",
+        "mahaperiyava.deivathin_kural.v5.c162.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c143.puranic_moral_ideals_require_practical_disciplines_that_transform_habit",
+        "mahaperiyava.deivathin_kural.v5.c108.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.karma_yogam.karma_yoga_is_egoless_duty_and_offering_of_fruits"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "concept_heavy",
+      "concept_query": "action discipline character duty karma"
+    },
+    {
+      "id": "action_to_nonaction__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "natural_supported",
+      "query": "Duty seyyaradhu eppadi later attachment-to-action-ai thaandi non-doership-kku kondu pogum?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c158.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c246.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c108.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.samadhi_as_conscious_actionless_peace"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "duty action seyyaradhu eppadi later attachment thaandi non doership kku kondu pogum"
+    },
+    {
+      "id": "shankara_seeks_guru__en",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "Why is Shankara portrayed as seeking a qualified teacher even though he is treated as an avatara?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c014.shankara_portrayed_exemplifying_extreme_humility_devotion_toward",
+        "mahaperiyava.deivathin_kural.v5.c161.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c169.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c143.chapter_teaching"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "shankara portrayed seeking qualified teacher even though treated avatara"
+    },
+    {
+      "id": "shankara_seeks_guru__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "What does Shankara's search for a guru teach about self-sufficiency in spiritual learning?",
+      "actual_status": "retrieved_evidence",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+        "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c008.shankara_texts_are_read_as_insisting_on_guru_devotion",
+        "mahaperiyava.deivathin_kural.v2.c010.problem_of_discerning_a_true_spiritual_guru",
+        "mahaperiyava.deivathin_kural.v7.c087.chapter_teaching"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "guru teacher acharya shankara search self sufficiency spiritual learning"
+    },
+    {
+      "id": "shankara_seeks_guru__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "natural_supported",
+      "query": "அவதாரமாகக் கருதப்பட்ட சங்கரரும் ஏன் தகுதியான குருவைத் தேடினார்?",
+      "actual_status": "retrieved_evidence",
+      "rank": null,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v3.c014.shankara_portrayed_exemplifying_extreme_humility_devotion_toward",
+        "mahaperiyava.deivathin_kural.v2.c008.shankara_texts_are_read_as_insisting_on_guru_devotion",
+        "mahaperiyava.deivathin_kural.v5.c095.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c173.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c080.chapter_teaching"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "concept_heavy",
+      "concept_query": "sought search shankara guru teacher seek"
+    },
+    {
+      "id": "shankara_seeks_guru__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "natural_supported",
+      "query": "Shankarar avatara-nu sonnalum yen qualified guru-ai thedinaar?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c195.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c035.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c008.shankara_texts_are_read_as_insisting_on_guru_devotion",
+        "mahaperiyava.deivathin_kural.v2.c008.guru_loyalty_and_guru_offence_are_treated_as_spiritually_decisive"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "shankara sought search seek guru teacher acharya unity nonseparate shankarar avatara sonnalum yen qualified thedinaar"
+    },
+    {
+      "id": "love_self_transcendence__en",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "How is love described as moving beyond self-centered separateness into service?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.panpaattin_idhayasthanam.highest_culture_is_universal_love",
+        "mahaperiyava.deivathin_kural.v1.anbu.three_conditioned_forms_of_worldly_love",
+        "mahaperiyava.deivathin_kural.v1.dharmame_thalaikakkum.religion_redirects_self_interest",
+        "mahaperiyava.deivathin_kural.v2.c050.maitreyi_dialogue_teaches_that_all_love_is_rooted_in_the_self"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "love described moving beyond self centered separateness into service"
+    },
+    {
+      "id": "love_self_transcendence__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "What makes genuine love different from simply protecting one's own separate interests?",
+      "actual_status": "retrieved_evidence",
+      "rank": null,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.annai_deivam.nondual_mother_worship_should_expand_into_universal_love",
+        "mahaperiyava.deivathin_kural.v1.siva_sakthiyin_aikkiya_sthanam.seek_the_indivisible_center_of_shiva_shakti_love",
+        "mahaperiyava.deivathin_kural.v2.c016.practical_life_requires_difference_even_when_nonduality_is_accepted",
+        "mahaperiyava.deivathin_kural.v1.anbu.true_love_is_unconditional",
+        "mahaperiyava.deivathin_kural.v2.c016.dvaita_visishtadvaita_and_advaita_are_presented_as_possible_stages_of_experience"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "makes genuine love different simply protecting own separate interests"
+    },
+    {
+      "id": "love_self_transcendence__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "natural_supported",
+      "query": "அன்பு தனக்கே மையமான பிரிவுணர்வை விட்டுச் சேவையாக மாறுவது எப்படி?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.love_as_fulfillment_of_human_life",
+        "mahaperiyava.deivathin_kural.v3.c110.answers_historically_contingent_sectarian_traditions_have_now",
+        "mahaperiyava.deivathin_kural.v1.dharmame_thalaikakkum.religion_redirects_self_interest",
+        "mahaperiyava.deivathin_kural.v1.annai_deivam.nondual_mother_worship_should_expand_into_universal_love"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "concept_heavy",
+      "concept_query": "self centered separateness division love selflessness service"
+    },
+    {
+      "id": "love_self_transcendence__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "natural_supported",
+      "query": "Anbu self-centered separateness-ai vittutu service-a maarudhu-na enna artham?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c061.personal_spiritual_discipline_social_service_mutually_reinforcing",
+        "mahaperiyava.deivathin_kural.v1.dharmame_thalaikakkum.religion_redirects_self_interest",
+        "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_as_better_use_of_leisure",
+        "mahaperiyava.deivathin_kural.v2.c224.source_recommends_replacing_abolition_slogans_with_positive_programs_of_bhakti_and_shared_service"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "love selflessness service anbu self centered separateness vittutu maarudhu enna artham"
+    },
+    {
+      "id": "liberation_highest_benefit__en",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "Why is liberation ranked above material prosperity as the highest benefit?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+        "mahaperiyava.deivathin_kural.v1.mahankalukku_aruliya_mahalakshmi.highest_wealth_is_purity_and_devotion",
+        "mahaperiyava.deivathin_kural.v3.c283.krishna_mukunda_praised_exceptionally_compassionate_granting_liberation",
+        "mahaperiyava.deivathin_kural.v1.mathathin_payan.religion_and_four_purusharthas",
+        "mahaperiyava.deivathin_kural.v1.alayamum_aspathiriyum.bhakti_supports_morality_and_liberation"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "liberation ranked above material prosperity highest benefit moksha"
+    },
+    {
+      "id": "liberation_highest_benefit__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "How are worldly benefits subordinated to removing ignorance and escaping samsara?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+        "mahaperiyava.deivathin_kural.v4.c414.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c225.hanumans_mastery_of_mind_becomes_the_final_prayer_for_crossing_the_ocean_of_samsara",
+        "mahaperiyava.deivathin_kural.v4.c320.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c007.royal_heir_parable_explains_ignorance_and_realization"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "worldly benefits subordinated removing ignorance escaping samsara"
+    },
+    {
+      "id": "liberation_highest_benefit__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "natural_supported",
+      "query": "பொருள் செல்வத்தை விட அறியாமை நீங்கி மோக்ஷம் பெறுவது ஏன் உயர்ந்த பலன்?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+        "mahaperiyava.deivathin_kural.v4.c312.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c342.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.advaitam.moksha_as_freedom_from_duality",
+        "mahaperiyava.deivathin_kural.v2.c176.dharma_is_presented_as_the_governing_principle_for_artha_kama_and_the_path_toward_moksha"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "concept_heavy",
+      "concept_query": "ignorance highest superior moksha liberation remove freedom material worldly wealth prosperity benefit fruit"
+    },
+    {
+      "id": "liberation_highest_benefit__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "natural_supported",
+      "query": "Material prosperity vida ignorance remove aagi moksham varradhu yen highest benefit?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+        "mahaperiyava.deivathin_kural.v1.mahankalukku_aruliya_mahalakshmi.highest_wealth_is_purity_and_devotion",
+        "mahaperiyava.deivathin_kural.v1.mathathin_payan.religion_and_four_purusharthas",
+        "mahaperiyava.deivathin_kural.v1.muruganin_tamilnaattu_avataram.yajna_rain_prosperity_and_social_welfare",
+        "mahaperiyava.deivathin_kural.v6.c208.black_hair_and_ignorance_symbolism"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "moksha liberation material prosperity vida ignorance remove aagi moksham varradhu yen highest benefit"
+    },
+    {
+      "id": "service_without_harming_study__en",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "How should students do service without neglecting their studies and basic responsibilities?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c067.public_service_undermines_one_immediate_responsibilities_defeat",
+        "mahaperiyava.deivathin_kural.v3.c068.household_responsibilities_prior_service_beyond_home_wider",
+        "mahaperiyava.deivathin_kural.v2.c211.anecdotes_of_students_professionals_and_official_selection_are_used_to_question_personality_based_career_matching",
+        "mahaperiyava.deivathin_kural.v3.c079.leaving_one_own_responsibilities_others_publicly_performing"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "student education students service without neglecting studies basic responsibilities"
+    },
+    {
+      "id": "service_without_harming_study__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "When can service become an excuse that harms a student's primary duties?",
+      "actual_status": "retrieved_evidence",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c009.service_and_delayed_dakshina_preserve_gratitude_to_teacher",
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c037.temple_service_people_complementary_competing_duties_religious",
+        "mahaperiyava.deivathin_kural.v2.c009.gita_and_taittiriya_define_student_and_teacher_ethics",
+        "mahaperiyava.deivathin_kural.v2.c161.brahmacharya_training_is_presented_as_disciplined_service_study_celibacy_and_character_formation"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "can service become excuse harms student primary duties"
+    },
+    {
+      "id": "service_without_harming_study__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "natural_supported",
+      "query": "படிப்பையும் அடிப்படை கடமைகளையும் பாதிக்காமல் மாணவர்கள் சேவை செய்வது எப்படி?",
+      "actual_status": "retrieved_evidence",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c177.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c211.anecdotes_of_students_professionals_and_official_selection_are_used_to_question_personality_based_career_matching",
+        "mahaperiyava.deivathin_kural.v2.c009.first_guru_must_model_dharma_and_care_for_students",
+        "mahaperiyava.deivathin_kural.v2.c057.vedic_students_and_teachers_are_to_receive_enough_support_to_keep_full_time_study_viable"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "concept_heavy",
+      "concept_query": "without harming neglecting students education action student duty responsibility service"
+    },
+    {
+      "id": "service_without_harming_study__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "natural_supported",
+      "query": "Padippai affect pannama students sevai eppadi seyyanum?",
+      "actual_status": "retrieved_evidence",
+      "rank": null,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c057.vedic_students_and_teachers_are_to_receive_enough_support_to_keep_full_time_study_viable",
+        "mahaperiyava.deivathin_kural.v2.c060.followers_are_asked_to_fund_vedic_education_through_a_small_recurring_donation_scheme",
+        "mahaperiyava.deivathin_kural.v2.c057.families_are_urged_to_give_children_sustained_vedic_instruction_from_youth",
+        "mahaperiyava.deivathin_kural.v3.c173.self_cooking_students_proposed_way_make_vedic",
+        "mahaperiyava.deivathin_kural.v4.c113.chapter_teaching"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "study education duty student service padippai affect pannama students sevai eppadi seyyanum"
+    },
+    {
+      "id": "upadhyaya_vs_guru__en",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "What is the difference between an upadhyaya's instructional role and the fuller role of a guru or acharya?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+        "mahaperiyava.deivathin_kural.v3.c005.guru_distinguished_acharya_one_whose_inner_realization",
+        "mahaperiyava.deivathin_kural.v4.c045.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c043.chapter_teaching"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "difference distinction acharya guru teacher role between upadhyaya instructional fuller"
+    },
+    {
+      "id": "upadhyaya_vs_guru__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "Why is an upadhyaya described as a more limited teaching office than a guru?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c195.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c061.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c066.practical_advantages_of_guru_devotion",
+        "mahaperiyava.deivathin_kural.v7.c068.chapter_teaching"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "guru teacher acharya upadhyaya described more limited office than"
+    },
+    {
+      "id": "upadhyaya_vs_guru__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "natural_supported",
+      "query": "உபாத்தியாயரின் பங்கு குரு அல்லது ஆசாரியரின் பங்கில் இருந்து எப்படி வேறுபடுகிறது?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c045.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+        "mahaperiyava.deivathin_kural.v4.c043.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c068.chapter_teaching"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "concept_heavy",
+      "concept_query": "upadhyaya instructor teacher acharya guru role"
+    },
+    {
+      "id": "upadhyaya_vs_guru__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "natural_supported",
+      "query": "Upadhyayar role-um guru acharya role-um enna difference?",
+      "actual_status": "retrieved_evidence",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c005.guru_distinguished_acharya_one_whose_inner_realization",
+        "mahaperiyava.deivathin_kural.v4.c043.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c009.first_guru_must_model_dharma_and_care_for_students"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "difference distinction upadhyaya instructor acharya guru teacher role upadhyayar enna"
+    },
+    {
+      "id": "v7_c058_title",
+      "split": "test",
+      "language": "ta",
+      "group": "exact_title_lookup",
+      "query": "உபாத்தியாயர்",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching"
+      ],
+      "retrieval_mode": "exact_title",
+      "profile": "concept_heavy",
+      "concept_query": null
+    },
+    {
+      "id": "v7_c171_title",
+      "split": "test",
+      "language": "ta",
+      "group": "exact_title_lookup",
+      "query": "படிப்பு பாதிக்காமல் ஸேவை",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching"
+      ],
+      "retrieval_mode": "exact_title",
+      "profile": "concept_heavy",
+      "concept_query": null
+    },
+    {
+      "id": "v7_c284_title",
+      "split": "test",
+      "language": "ta",
+      "group": "exact_title_lookup",
+      "query": "ஸத்தும் சித்தும் சேர்ந்த ஆனந்தமே ஸுப்ரஹ்மண்யம்",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c284.chapter_teaching"
+      ],
+      "retrieval_mode": "exact_title",
+      "profile": "concept_heavy",
+      "concept_query": null
+    },
+    {
+      "id": "v2_c113_title",
+      "split": "test",
+      "language": "ta",
+      "group": "exact_title_lookup",
+      "query": "வேதாந்த மதங்களும் மீமாம்ஸையும்",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c113.vedanta_recasts_mimamsa_karma_as_means_for_world_order_mind_purification_and_higher_realization",
+        "mahaperiyava.deivathin_kural.v2.c113.vedanta_schools_accept_mimamsa_methods_and_ritual_while_moving_beyond_ritual_finality"
+      ],
+      "retrieval_mode": "exact_title",
+      "profile": "concept_heavy",
+      "concept_query": null
+    },
+    {
+      "id": "unsupported_modern_21",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "Did Mahaperiyava discuss quantum-computing error correction?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": null
+    },
+    {
+      "id": "unsupported_modern_22",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "What did Mahaperiyava say about social-media engagement algorithms?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": null
+    },
+    {
+      "id": "unsupported_modern_23",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "Did Mahaperiyava recommend cryptocurrency staking strategies?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": null
+    },
+    {
+      "id": "unsupported_modern_24",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "What was Mahaperiyava's view on generative-AI copyright licensing?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": null
+    },
+    {
+      "id": "unsupported_modern_25",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "Did Mahaperiyava discuss autonomous-drone delivery logistics?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": null
+    },
+    {
+      "id": "unsupported_modern_26",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "What did Mahaperiyava say about cloud-observability SLO dashboards?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": null
+    },
+    {
+      "id": "unsupported_modern_27",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "Did Mahaperiyava discuss Kubernetes service-mesh routing?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": null
+    },
+    {
+      "id": "unsupported_modern_28",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "What was Mahaperiyava's advice on smartphone screen-time applications?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": null
+    },
+    {
+      "id": "unsupported_modern_29",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "Did Mahaperiyava discuss electric-scooter battery swapping?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": null
+    },
+    {
+      "id": "unsupported_modern_30",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "What did Mahaperiyava say about biometric face-recognition systems?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": null
+    },
+    {
+      "id": "p13_moon_pride__en",
+      "split": "test",
+      "language": "en",
+      "group": "phase13_supported",
+      "query": "What moral does the Ganesha and moon episode draw about pride and mocking others?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v4.c033.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c036.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c026.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c039.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c038.chapter_teaching"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "moral ganesha moon episode draw pride mocking others"
+    },
+    {
+      "id": "p13_moon_pride__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "phase13_supported",
+      "query": "விநாயகரும் சந்திரனும் பற்றிய கதை பெருமை மற்றும் பிறரை இகழ்வது குறித்து என்ன பாடம் கூறுகிறது?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v4.c033.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c039.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c038.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c026.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.vinayagar.pillaiyar_tamil_devotional_presence"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "concept_heavy",
+      "concept_query": "moon lunar pride ganesha vinayaka pillaiyar lesson study prosody metre meter mock ridicule"
+    },
+    {
+      "id": "p13_moon_pride__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "phase13_supported",
+      "query": "Vinayagar chandran kathai perumaiyum mathavangala kindal panradhu pathiyum enna paadam solludhu?",
+      "actual_status": "retrieved_evidence",
+      "rank": null,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c003.vinayagar_agaval_as_devotional_and_yogic_practice",
+        "mahaperiyava.deivathin_kural.v1.vinayagar.pillaiyar_tamil_devotional_presence",
+        "mahaperiyava.deivathin_kural.v1.vinayagar.ganesha_as_pranava_form",
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.broken_tusk_sacrifice_for_dharma",
+        "mahaperiyava.deivathin_kural.v1.vinayagar.ganesha_grace_elevates_devotee"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "ganesha vinayaka pillaiyar moon lunar pride mock ridicule lesson study vinayagar chandran kathai perumaiyum mathavangala kindal panradhu pathiyum enna paadam solludhu"
+    },
+    {
+      "id": "p13_pallava_origins__en",
+      "split": "test",
+      "language": "en",
+      "group": "phase13_supported",
+      "query": "How does the discourse handle conflicting or uncertain traditions about the origins of the Pallavas?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c055.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c110.answers_historically_contingent_sectarian_traditions_have_now",
+        "mahaperiyava.deivathin_kural.v5.c206.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c092.modern_philology_is_traced_to_indian_grammar_and_nirukta_while_universal_human_unity_is_affirmed",
+        "mahaperiyava.deivathin_kural.v6.c022.chapter_teaching"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "origins history origin dynasty discourse handle conflicting uncertain traditions pallavas"
+    },
+    {
+      "id": "p13_pallava_origins__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "phase13_supported",
+      "query": "பல்லவர்களின் தோற்றம் பற்றிய முரண்பட்ட அல்லது உறுதியற்ற மரபுகளை உரை எவ்வாறு அணுகுகிறது?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c055.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c054.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c100.vast_yuga_and_manvantara_chronology_is_compared_with_modern_geology_and_human_origins",
+        "mahaperiyava.deivathin_kural.v3.c110.answers_historically_contingent_sectarian_traditions_have_now",
+        "mahaperiyava.deivathin_kural.v2.c069.indian_scripts_are_traced_to_brahmi_with_regional_and_religious_explanations_added"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "concept_heavy",
+      "concept_query": "origin history pallava origins dynasty"
+    },
+    {
+      "id": "p13_pallava_origins__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "phase13_supported",
+      "query": "Pallavargal origin pathina conflicting traditions-ai urai eppadi handle pannudhu?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c055.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c110.answers_historically_contingent_sectarian_traditions_have_now",
+        "mahaperiyava.deivathin_kural.v6.c022.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c262.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c296.kanchi_historiography_and_variant_endings"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "pallava origins history origin dynasty pallavargal pathina conflicting traditions urai eppadi handle pannudhu"
+    },
+    {
+      "id": "p13_ganesha_beginning__en",
+      "split": "test",
+      "language": "en",
+      "group": "phase13_supported",
+      "query": "Why is Ganesha invoked before beginning an undertaking or important piece of work?",
+      "actual_status": "retrieved_evidence",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v4.c007.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life",
+        "mahaperiyava.deivathin_kural.v5.c001.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+        "mahaperiyava.deivathin_kural.v4.c013.chapter_teaching"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "ganesha invoked before beginning undertaking important piece work obstacle"
+    },
+    {
+      "id": "p13_ganesha_beginning__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "phase13_supported",
+      "query": "ஒரு முக்கியமான செயலைத் தொடங்குவதற்கு முன் விநாயகரை ஏன் நினைத்து வழிபடுகிறோம்?",
+      "actual_status": "retrieved_evidence",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life",
+        "mahaperiyava.deivathin_kural.v5.c001.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c007.chapter_teaching"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "concept_heavy",
+      "concept_query": "beginning undertaking obstacle work ganesha vinayaka pillaiyar"
+    },
+    {
+      "id": "p13_ganesha_beginning__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "phase13_supported",
+      "query": "Mukkiyamaana velai start panna munnaadi Pillaiyar-ai yen ninaichu vazhipadanum?",
+      "actual_status": "retrieved_evidence",
+      "rank": null,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.vinayagar.pillaiyar_tamil_devotional_presence",
+        "mahaperiyava.deivathin_kural.v3.c001.traditional_pillaiyar_suzhi_interpreted_symbol_ganesha_pranava",
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+        "mahaperiyava.deivathin_kural.v2.c001.ganesha_names_primacy_and_obstacle_removal"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "ganesha vinayaka pillaiyar beginning undertaking obstacle work mukkiyamaana velai start panna munnaadi yen ninaichu vazhipadanum"
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__en",
+      "split": "test",
+      "language": "en",
+      "group": "phase13_supported",
+      "query": "Why should Tamil devotion to Ganesha avoid becoming sectarian or separatist?",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c002.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c110.then_raises_harder_problem_inherited_sectarian_practice",
+        "mahaperiyava.deivathin_kural.v2.c003.ganesha_presented_as_transsectarian_and_global",
+        "mahaperiyava.deivathin_kural.v2.c132.sridhara_ayyaval_tradition_is_used_to_model_nonsectarian_devotion_and_social_compassion",
+        "mahaperiyava.deivathin_kural.v3.c110.attempts_separate_ordinary_ritual_devotional_worship_shown"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "sectarian division separatist separatism tamil devotion ganesha avoid becoming bhakti"
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "phase13_supported",
+      "query": "தமிழ் விநாயக பக்தி ஏன் சமயப் பிரிவினையாகவோ தனித்துவப் பிரச்சாரமாகவோ மாறக்கூடாது?",
+      "actual_status": "retrieved_evidence",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.vinayagar.pillaiyar_tamil_devotional_presence",
+        "mahaperiyava.deivathin_kural.v7.c002.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c132.sridhara_ayyaval_tradition_is_used_to_model_nonsectarian_devotion_and_social_compassion",
+        "mahaperiyava.deivathin_kural.v3.c110.then_raises_harder_problem_inherited_sectarian_practice",
+        "mahaperiyava.deivathin_kural.v3.c110.attempts_separate_ordinary_ritual_devotional_worship_shown"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "concept_heavy",
+      "concept_query": "sectarian separatist division separatism ganesha vinayaka pillaiyar bhakti devotion"
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "phase13_supported",
+      "query": "Tamil Pillaiyar bhakti yen sectarian-a illa separatist-a maara koodadhu?",
+      "actual_status": "retrieved_evidence",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.vinayagar.pillaiyar_tamil_devotional_presence",
+        "mahaperiyava.deivathin_kural.v7.c002.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c003.ganesha_presented_as_transsectarian_and_global",
+        "mahaperiyava.deivathin_kural.v3.c110.then_raises_harder_problem_inherited_sectarian_practice",
+        "mahaperiyava.deivathin_kural.v2.c132.sridhara_ayyaval_tradition_is_used_to_model_nonsectarian_devotion_and_social_compassion"
+      ],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": "sectarian division separatist separatism ganesha vinayaka pillaiyar devotion bhakti tamil yen illa maara koodadhu"
+    },
+    {
+      "id": "p13_negative_satellite__en",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "What did Mahaperiyava say about satellite internet constellations?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": null
+    },
+    {
+      "id": "p13_negative_smartphone__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "hard_negative",
+      "query": "மஹாபெரியவா ஸ்மார்ட்போன் அறிவிப்புகள் பற்றி என்ன சொன்னார்?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "concept_heavy",
+      "concept_query": null
+    },
+    {
+      "id": "p13_negative_upi__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "hard_negative",
+      "query": "Mahaperiyava UPI transaction security pathi enna advise panninaar?",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "candidate_then_rerank",
+      "profile": "lexical_guarded",
+      "concept_query": null
+    }
+  ],
+  "limitations": [
+    "Concept normalization is heuristic query understanding, not translation authority.",
+    "Semantic similarity is used for retrieval only and cannot change evidence authority.",
+    "The benchmark remains the Phase-13 v3 benchmark for direct comparability; test labels are never used for profile selection.",
+    "Product retrieval remains unchanged even if the shadow-integration threshold is met."
+  ]
+}
