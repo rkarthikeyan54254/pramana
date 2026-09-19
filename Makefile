@@ -363,3 +363,14 @@ mahaperiyava-candidate-reranker-benchmark:
 	$(PYTHON) scripts/eval_mahaperiyava_candidate_reranker_v3.py --output data/review/mahaperiyava_candidate_reranker_checkpoint_v3.json
 	$(PYTHON) scripts/analyze_mahaperiyava_candidate_reranker_v3.py
 	@echo "mahaperiyava-candidate-reranker-benchmark: COMPLETE"
+
+# Phase 15: cross-encoder reranking over Phase-14 public-safe candidates.
+# Structure gate is network-free. Real benchmark downloads a pinned model.
+mahaperiyava-crossencoder-reranker-structure-gate:
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_crossencoder_reranker_v4.py
+	@echo "mahaperiyava-crossencoder-reranker-structure-gate: GREEN"
+
+mahaperiyava-crossencoder-reranker-benchmark:
+	$(PYTHON) scripts/eval_mahaperiyava_crossencoder_reranker_v4.py --output data/review/mahaperiyava_crossencoder_reranker_checkpoint_v4.json
+	$(PYTHON) scripts/analyze_mahaperiyava_crossencoder_reranker_v4.py
+	@echo "mahaperiyava-crossencoder-reranker-benchmark: COMPLETE"

@@ -1,0 +1,179 @@
+{
+  "version": "3.0",
+  "source_checkpoint": "data/review/mahaperiyava_crossencoder_reranker_checkpoint_v4.json",
+  "summary": {
+    "top1": 32,
+    "miss_top5": 3,
+    "top5_not_top1": 5
+  },
+  "by_language": {
+    "en": {
+      "top1": 14,
+      "miss_top5": 1,
+      "top5_not_top1": 1
+    },
+    "roman_ta": {
+      "top1": 7,
+      "top5_not_top1": 3
+    },
+    "ta": {
+      "miss_top5": 2,
+      "top1": 11,
+      "top5_not_top1": 1
+    }
+  },
+  "failures": [
+    {
+      "id": "action_to_nonaction__ta",
+      "language": "ta",
+      "bucket": "miss_top5",
+      "query": "செயல்களை ஒழுக்கமாக செய்வது செயல்பற்றை கடந்து செல்லும் வழியாக எப்படி அமையும்?",
+      "rank": null,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c277.karma_and_jnana_distinction",
+        "mahaperiyava.deivathin_kural.v5.c162.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c143.puranic_moral_ideals_require_practical_disciplines_that_transform_habit",
+        "mahaperiyava.deivathin_kural.v1.karma_yogam.karma_yoga_is_egoless_duty_and_offering_of_fruits",
+        "mahaperiyava.deivathin_kural.v5.c108.chapter_teaching"
+      ],
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "shankara_seeks_guru__ta",
+      "language": "ta",
+      "bucket": "miss_top5",
+      "query": "அவதாரமாகக் கருதப்பட்ட சங்கரரும் ஏன் தகுதியான குருவைத் தேடினார்?",
+      "rank": null,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v3.c014.shankara_portrayed_exemplifying_extreme_humility_devotion_toward",
+        "mahaperiyava.deivathin_kural.v2.c008.shankara_texts_are_read_as_insisting_on_guru_devotion",
+        "mahaperiyava.deivathin_kural.v5.c095.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c173.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c080.chapter_teaching"
+      ],
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "love_self_transcendence__en_paraphrase",
+      "language": "en",
+      "bucket": "miss_top5",
+      "query": "What makes genuine love different from simply protecting one's own separate interests?",
+      "rank": null,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.anbu.true_love_is_unconditional",
+        "mahaperiyava.deivathin_kural.v1.annai_deivam.nondual_mother_worship_should_expand_into_universal_love",
+        "mahaperiyava.deivathin_kural.v1.siva_sakthiyin_aikkiya_sthanam.seek_the_indivisible_center_of_shiva_shakti_love",
+        "mahaperiyava.deivathin_kural.v2.c016.practical_life_requires_difference_even_when_nonduality_is_accepted",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.love_of_god_as_enduring_love"
+      ],
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "service_without_harming_study__en_paraphrase",
+      "language": "en",
+      "bucket": "top5_not_top1",
+      "query": "When can service become an excuse that harms a student's primary duties?",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c009.service_and_delayed_dakshina_preserve_gratitude_to_teacher",
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c161.brahmacharya_training_is_presented_as_disciplined_service_study_celibacy_and_character_formation",
+        "mahaperiyava.deivathin_kural.v2.c009.gita_and_taittiriya_define_student_and_teacher_ethics",
+        "mahaperiyava.deivathin_kural.v3.c065.duty_toward_one_mother_father_treated_primary"
+      ],
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "service_without_harming_study__roman_ta",
+      "language": "roman_ta",
+      "bucket": "top5_not_top1",
+      "query": "Padippai affect pannama students sevai eppadi seyyanum?",
+      "rank": 3,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c177.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c009.service_and_delayed_dakshina_preserve_gratitude_to_teacher",
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c057.vedic_students_and_teachers_are_to_receive_enough_support_to_keep_full_time_study_viable",
+        "mahaperiyava.deivathin_kural.v1.karmamum_bhaktiyum.duty_with_devotion_serves_divine_family"
+      ],
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    },
+    {
+      "id": "p13_moon_pride__roman_ta",
+      "language": "roman_ta",
+      "bucket": "top5_not_top1",
+      "query": "Vinayagar chandran kathai perumaiyum mathavangala kindal panradhu pathiyum enna paadam solludhu?",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c001.ganesha_names_primacy_and_obstacle_removal",
+        "mahaperiyava.deivathin_kural.v4.c033.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c039.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c038.chapter_teaching"
+      ],
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    },
+    {
+      "id": "p13_ganesha_beginning__ta",
+      "language": "ta",
+      "bucket": "top5_not_top1",
+      "query": "ஒரு முக்கியமான செயலைத் தொடங்குவதற்கு முன் விநாயகரை ஏன் நினைத்து வழிபடுகிறோம்?",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life",
+        "mahaperiyava.deivathin_kural.v5.c001.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c007.chapter_teaching"
+      ],
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "p13_ganesha_beginning__roman_ta",
+      "language": "roman_ta",
+      "bucket": "top5_not_top1",
+      "query": "Mukkiyamaana velai start panna munnaadi Pillaiyar-ai yen ninaichu vazhipadanum?",
+      "rank": 3,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c001.ganesha_names_primacy_and_obstacle_removal",
+        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life",
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+        "mahaperiyava.deivathin_kural.v4.c007.chapter_teaching"
+      ],
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    }
+  ]
+}

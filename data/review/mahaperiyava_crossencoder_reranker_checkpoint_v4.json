@@ -1,0 +1,2203 @@
+{
+  "version": "4.0",
+  "checkpoint": "MAHAPERIYAVA_CROSSENCODER_RERANKER_V4",
+  "status": "PHASE15_CROSSENCODER_RERANKER_READY_FOR_SHADOW_INTEGRATION",
+  "decision": "allow_shadow_only_integration_not_product_switch",
+  "benchmark": {
+    "file": "data/review/mahaperiyava_retrieval_benchmark_v3.json",
+    "cases": 154,
+    "dev_cases": 101,
+    "test_cases": 53,
+    "quality_target": {
+      "test_top1": 0.75,
+      "test_top5": 0.9,
+      "test_abstention": 1.0,
+      "test_tamil_top5": 0.75,
+      "test_roman_tamil_top5": 0.8
+    }
+  },
+  "model": {
+    "name": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "revision": "8008f0154ca2387468013ed439df09d70c122412",
+    "document_fields": [
+      "claim_summary",
+      "topics",
+      "chapter_title_ta"
+    ],
+    "non_english_query_view": "public-safe concept-normalized English query view",
+    "restricted_source_text_embedded_or_reranked": false,
+    "model_weights_committed": false,
+    "score_cache_committed": false
+  },
+  "selected_fusion_by_language": {
+    "en": {
+      "heuristic_weight": 1.0,
+      "cross_weight": 0.5,
+      "rrf_k": 10
+    },
+    "roman_ta": {
+      "heuristic_weight": 0.5,
+      "cross_weight": 2.0,
+      "rrf_k": 60
+    },
+    "ta": {
+      "heuristic_weight": 3.0,
+      "cross_weight": 0.5,
+      "rrf_k": 30
+    }
+  },
+  "language_detection": {
+    "correct": 148,
+    "total": 154,
+    "accuracy": 0.961
+  },
+  "metrics": {
+    "phase14_test": {
+      "cases": 53,
+      "supported": 40,
+      "negatives": 13,
+      "top1": 0.65,
+      "top5": 0.85,
+      "mrr": 0.75,
+      "abstention": 1.0,
+      "by_language": {
+        "en": {
+          "supported": 16,
+          "top1": 0.75,
+          "top5": 0.9375,
+          "mrr": 0.8438,
+          "negatives": 11,
+          "abstention": 1.0
+        },
+        "roman_ta": {
+          "supported": 10,
+          "top1": 0.5,
+          "top5": 0.7,
+          "mrr": 0.6,
+          "negatives": 1,
+          "abstention": 1.0
+        },
+        "ta": {
+          "supported": 14,
+          "top1": 0.6429,
+          "top5": 0.8571,
+          "mrr": 0.75,
+          "negatives": 1,
+          "abstention": 1.0
+        }
+      }
+    },
+    "dev": {
+      "cases": 101,
+      "supported": 78,
+      "negatives": 23,
+      "top1": 0.5769,
+      "top5": 0.7949,
+      "mrr": 0.6605,
+      "abstention": 1.0,
+      "by_language": {
+        "en": {
+          "supported": 32,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6557,
+          "negatives": 21,
+          "abstention": 1.0
+        },
+        "roman_ta": {
+          "supported": 18,
+          "top1": 0.5,
+          "top5": 0.8333,
+          "mrr": 0.6407,
+          "negatives": 1,
+          "abstention": 1.0
+        },
+        "ta": {
+          "supported": 28,
+          "top1": 0.6429,
+          "top5": 0.75,
+          "mrr": 0.6786,
+          "negatives": 1,
+          "abstention": 1.0
+        }
+      }
+    },
+    "test": {
+      "cases": 53,
+      "supported": 40,
+      "negatives": 13,
+      "top1": 0.8,
+      "top5": 0.925,
+      "mrr": 0.8542,
+      "abstention": 1.0,
+      "by_language": {
+        "en": {
+          "supported": 16,
+          "top1": 0.875,
+          "top5": 0.9375,
+          "mrr": 0.9062,
+          "negatives": 11,
+          "abstention": 1.0
+        },
+        "roman_ta": {
+          "supported": 10,
+          "top1": 0.7,
+          "top5": 1.0,
+          "mrr": 0.8167,
+          "negatives": 1,
+          "abstention": 1.0
+        },
+        "ta": {
+          "supported": 14,
+          "top1": 0.7857,
+          "top5": 0.8571,
+          "mrr": 0.8214,
+          "negatives": 1,
+          "abstention": 1.0
+        }
+      }
+    },
+    "vs_phase14_top1_delta": 0.15,
+    "vs_phase14_top5_delta": 0.075,
+    "vs_phase14_mrr_delta": 0.1042
+  },
+  "authority_boundary": {
+    "authority_counts": {
+      "dk_attested": 3329,
+      "earlier_witness_supported": 39
+    },
+    "authority_promotions": 0,
+    "retrieval_score_changes_authority": false,
+    "exact_source_text_exposed": false,
+    "generated_text_may_enter_corpus": false,
+    "publication_approval_implied": false,
+    "product_retriever_switched": false
+  },
+  "dev_tuning_top_configs": {
+    "en": [
+      {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10,
+        "objective": 2.74945,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6557,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5625,
+              "top5": 0.8125,
+              "mrr": 0.6557,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 2.0,
+        "cross_weight": 1.0,
+        "rrf_k": 10,
+        "objective": 2.74945,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6557,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5625,
+              "top5": 0.8125,
+              "mrr": 0.6557,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 3.0,
+        "cross_weight": 1.5,
+        "rrf_k": 10,
+        "objective": 2.74945,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6557,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5625,
+              "top5": 0.8125,
+              "mrr": 0.6557,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 1.5,
+        "cross_weight": 0.5,
+        "rrf_k": 30,
+        "objective": 2.74795,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6542,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5625,
+              "top5": 0.8125,
+              "mrr": 0.6542,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 3.0,
+        "cross_weight": 1.0,
+        "rrf_k": 30,
+        "objective": 2.74795,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6542,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5625,
+              "top5": 0.8125,
+              "mrr": 0.6542,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 1.5,
+        "cross_weight": 1.0,
+        "rrf_k": 10,
+        "objective": 2.74685,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6531,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5625,
+              "top5": 0.8125,
+              "mrr": 0.6531,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 3.0,
+        "cross_weight": 2.0,
+        "rrf_k": 10,
+        "objective": 2.74685,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6531,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5625,
+              "top5": 0.8125,
+              "mrr": 0.6531,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30,
+        "objective": 2.74535,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6516,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5625,
+              "top5": 0.8125,
+              "mrr": 0.6516,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 1.5,
+        "cross_weight": 0.5,
+        "rrf_k": 60,
+        "objective": 2.74535,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6516,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5625,
+              "top5": 0.8125,
+              "mrr": 0.6516,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 2.0,
+        "cross_weight": 1.0,
+        "rrf_k": 30,
+        "objective": 2.74535,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6516,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5625,
+              "top5": 0.8125,
+              "mrr": 0.6516,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 3.0,
+        "cross_weight": 1.0,
+        "rrf_k": 60,
+        "objective": 2.74535,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6516,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5625,
+              "top5": 0.8125,
+              "mrr": 0.6516,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 3.0,
+        "cross_weight": 1.5,
+        "rrf_k": 30,
+        "objective": 2.74535,
+        "metrics": {
+          "cases": 53,
+          "supported": 32,
+          "negatives": 21,
+          "top1": 0.5625,
+          "top5": 0.8125,
+          "mrr": 0.6516,
+          "abstention": 1.0,
+          "by_language": {
+            "en": {
+              "supported": 32,
+              "top1": 0.5625,
+              "top5": 0.8125,
+              "mrr": 0.6516,
+              "negatives": 21,
+              "abstention": 1.0
+            }
+          }
+        }
+      }
+    ],
+    "roman_ta": [
+      {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60,
+        "objective": 2.55735,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.5,
+          "top5": 0.8333,
+          "mrr": 0.6407,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.5,
+              "top5": 0.8333,
+              "mrr": 0.6407,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 30,
+        "objective": 2.5185,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.5,
+          "top5": 0.7778,
+          "mrr": 0.6296,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.5,
+              "top5": 0.7778,
+              "mrr": 0.6296,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 0.5,
+        "cross_weight": 1.5,
+        "rrf_k": 30,
+        "objective": 2.36285,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.8333,
+          "mrr": 0.613,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.8333,
+              "mrr": 0.613,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 1.0,
+        "cross_weight": 3.0,
+        "rrf_k": 30,
+        "objective": 2.36285,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.8333,
+          "mrr": 0.613,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.8333,
+              "mrr": 0.613,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 0.5,
+        "cross_weight": 1.5,
+        "rrf_k": 60,
+        "objective": 2.35355,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.8333,
+          "mrr": 0.6037,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.8333,
+              "mrr": 0.6037,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 1.0,
+        "cross_weight": 3.0,
+        "rrf_k": 60,
+        "objective": 2.35355,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.8333,
+          "mrr": 0.6037,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.8333,
+              "mrr": 0.6037,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 1.5,
+        "cross_weight": 1.0,
+        "rrf_k": 60,
+        "objective": 2.33785,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.8333,
+          "mrr": 0.588,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.8333,
+              "mrr": 0.588,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 2.0,
+        "cross_weight": 1.5,
+        "rrf_k": 30,
+        "objective": 2.33785,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.8333,
+          "mrr": 0.588,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.8333,
+              "mrr": 0.588,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 2.0,
+        "cross_weight": 1.5,
+        "rrf_k": 60,
+        "objective": 2.33785,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.8333,
+          "mrr": 0.588,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.8333,
+              "mrr": 0.588,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 3.0,
+        "cross_weight": 2.0,
+        "rrf_k": 60,
+        "objective": 2.33785,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.8333,
+          "mrr": 0.588,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.8333,
+              "mrr": 0.588,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 1.5,
+        "cross_weight": 1.0,
+        "rrf_k": 30,
+        "objective": 2.33505,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.8333,
+          "mrr": 0.5852,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.8333,
+              "mrr": 0.5852,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 3.0,
+        "cross_weight": 2.0,
+        "rrf_k": 30,
+        "objective": 2.33505,
+        "metrics": {
+          "cases": 19,
+          "supported": 18,
+          "negatives": 1,
+          "top1": 0.4444,
+          "top5": 0.8333,
+          "mrr": 0.5852,
+          "abstention": 1.0,
+          "by_language": {
+            "roman_ta": {
+              "supported": 18,
+              "top1": 0.4444,
+              "top5": 0.8333,
+              "mrr": 0.5852,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      }
+    ],
+    "ta": [
+      {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30,
+        "objective": 2.9823,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6429,
+          "top5": 0.75,
+          "mrr": 0.6786,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6429,
+              "top5": 0.75,
+              "mrr": 0.6786,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 60,
+        "objective": 2.9823,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6429,
+          "top5": 0.75,
+          "mrr": 0.6786,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6429,
+              "top5": 0.75,
+              "mrr": 0.6786,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 2.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30,
+        "objective": 2.9775,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6429,
+          "top5": 0.75,
+          "mrr": 0.6738,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6429,
+              "top5": 0.75,
+              "mrr": 0.6738,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 2.0,
+        "cross_weight": 0.5,
+        "rrf_k": 60,
+        "objective": 2.9775,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6429,
+          "top5": 0.75,
+          "mrr": 0.6738,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6429,
+              "top5": 0.75,
+              "mrr": 0.6738,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10,
+        "objective": 2.9745,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6429,
+          "top5": 0.75,
+          "mrr": 0.6708,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6429,
+              "top5": 0.75,
+              "mrr": 0.6708,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 2.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10,
+        "objective": 2.95545,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6429,
+          "top5": 0.7143,
+          "mrr": 0.6696,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6429,
+              "top5": 0.7143,
+              "mrr": 0.6696,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 1.5,
+        "cross_weight": 0.5,
+        "rrf_k": 10,
+        "objective": 2.95255,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6429,
+          "top5": 0.7143,
+          "mrr": 0.6667,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6429,
+              "top5": 0.7143,
+              "mrr": 0.6667,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 3.0,
+        "cross_weight": 1.0,
+        "rrf_k": 10,
+        "objective": 2.95255,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6429,
+          "top5": 0.7143,
+          "mrr": 0.6667,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6429,
+              "top5": 0.7143,
+              "mrr": 0.6667,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10,
+        "objective": 2.82725,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6071,
+          "top5": 0.7143,
+          "mrr": 0.6488,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6071,
+              "top5": 0.7143,
+              "mrr": 0.6488,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 1.5,
+        "cross_weight": 0.5,
+        "rrf_k": 30,
+        "objective": 2.82725,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6071,
+          "top5": 0.7143,
+          "mrr": 0.6488,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6071,
+              "top5": 0.7143,
+              "mrr": 0.6488,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 1.5,
+        "cross_weight": 0.5,
+        "rrf_k": 60,
+        "objective": 2.82725,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6071,
+          "top5": 0.7143,
+          "mrr": 0.6488,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6071,
+              "top5": 0.7143,
+              "mrr": 0.6488,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      },
+      {
+        "heuristic_weight": 2.0,
+        "cross_weight": 1.0,
+        "rrf_k": 10,
+        "objective": 2.82725,
+        "metrics": {
+          "cases": 29,
+          "supported": 28,
+          "negatives": 1,
+          "top1": 0.6071,
+          "top5": 0.7143,
+          "mrr": 0.6488,
+          "abstention": 1.0,
+          "by_language": {
+            "ta": {
+              "supported": 28,
+              "top1": 0.6071,
+              "top5": 0.7143,
+              "mrr": 0.6488,
+              "negatives": 1,
+              "abstention": 1.0
+            }
+          }
+        }
+      }
+    ]
+  },
+  "test_rows": [
+    {
+      "id": "action_to_nonaction__en",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "How can disciplined action become a path toward freedom from attachment to action?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c156.action_is_presented_as_shaping_character_until_virtue_becomes_natural_and_action_can_be_transcended",
+        "mahaperiyava.deivathin_kural.v4.c239.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c111.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.anandam_enge.desire_binds_to_sorrow"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "action_to_nonaction__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "Why prescribe duties if the eventual ideal is effortless non-doership?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c125.defends_differentiated_religious_duties_practical_response_differing",
+        "mahaperiyava.deivathin_kural.v7.c292.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c016.joyful_duty_and_desireless_bhakti_are_enough_for_present_stage",
+        "mahaperiyava.deivathin_kural.v6.c086.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "action_to_nonaction__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "natural_supported",
+      "query": "செயல்களை ஒழுக்கமாக செய்வது செயல்பற்றை கடந்து செல்லும் வழியாக எப்படி அமையும்?",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": null,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c277.karma_and_jnana_distinction",
+        "mahaperiyava.deivathin_kural.v5.c162.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c143.puranic_moral_ideals_require_practical_disciplines_that_transform_habit",
+        "mahaperiyava.deivathin_kural.v1.karma_yogam.karma_yoga_is_egoless_duty_and_offering_of_fruits",
+        "mahaperiyava.deivathin_kural.v5.c108.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "action_to_nonaction__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "natural_supported",
+      "query": "Duty seyyaradhu eppadi later attachment-to-action-ai thaandi non-doership-kku kondu pogum?",
+      "detected_language": "roman_ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c108.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.samadhi_as_conscious_actionless_peace",
+        "mahaperiyava.deivathin_kural.v1.mathathin_payan.nishkama_dharma_leads_to_moksha",
+        "mahaperiyava.deivathin_kural.v2.c016.joyful_duty_and_desireless_bhakti_are_enough_for_present_stage"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    },
+    {
+      "id": "shankara_seeks_guru__en",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "Why is Shankara portrayed as seeking a qualified teacher even though he is treated as an avatara?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c014.shankara_portrayed_exemplifying_extreme_humility_devotion_toward",
+        "mahaperiyava.deivathin_kural.v5.c169.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c143.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c161.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "shankara_seeks_guru__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "What does Shankara's search for a guru teach about self-sufficiency in spiritual learning?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c008.shankara_texts_are_read_as_insisting_on_guru_devotion",
+        "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+        "mahaperiyava.deivathin_kural.v7.c073.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c010.problem_of_discerning_a_true_spiritual_guru"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "shankara_seeks_guru__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "natural_supported",
+      "query": "அவதாரமாகக் கருதப்பட்ட சங்கரரும் ஏன் தகுதியான குருவைத் தேடினார்?",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": null,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v3.c014.shankara_portrayed_exemplifying_extreme_humility_devotion_toward",
+        "mahaperiyava.deivathin_kural.v2.c008.shankara_texts_are_read_as_insisting_on_guru_devotion",
+        "mahaperiyava.deivathin_kural.v5.c095.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c173.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c080.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "shankara_seeks_guru__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "natural_supported",
+      "query": "Shankarar avatara-nu sonnalum yen qualified guru-ai thedinaar?",
+      "detected_language": "roman_ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c195.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c014.shankara_portrayed_exemplifying_extreme_humility_devotion_toward",
+        "mahaperiyava.deivathin_kural.v5.c158.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c068.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    },
+    {
+      "id": "love_self_transcendence__en",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "How is love described as moving beyond self-centered separateness into service?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.panpaattin_idhayasthanam.highest_culture_is_universal_love",
+        "mahaperiyava.deivathin_kural.v1.dharmame_thalaikakkum.religion_redirects_self_interest",
+        "mahaperiyava.deivathin_kural.v1.anbu.three_conditioned_forms_of_worldly_love",
+        "mahaperiyava.deivathin_kural.v6.c127.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "love_self_transcendence__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "What makes genuine love different from simply protecting one's own separate interests?",
+      "detected_language": "roman_ta",
+      "actual_status": "retrieved_evidence",
+      "rank": null,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.anbu.true_love_is_unconditional",
+        "mahaperiyava.deivathin_kural.v1.annai_deivam.nondual_mother_worship_should_expand_into_universal_love",
+        "mahaperiyava.deivathin_kural.v1.siva_sakthiyin_aikkiya_sthanam.seek_the_indivisible_center_of_shiva_shakti_love",
+        "mahaperiyava.deivathin_kural.v2.c016.practical_life_requires_difference_even_when_nonduality_is_accepted",
+        "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.love_of_god_as_enduring_love"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "love_self_transcendence__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "natural_supported",
+      "query": "அன்பு தனக்கே மையமான பிரிவுணர்வை விட்டுச் சேவையாக மாறுவது எப்படி?",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.love_as_fulfillment_of_human_life",
+        "mahaperiyava.deivathin_kural.v1.dharmame_thalaikakkum.religion_redirects_self_interest",
+        "mahaperiyava.deivathin_kural.v1.annai_deivam.nondual_mother_worship_should_expand_into_universal_love",
+        "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_as_highest_human_fortune"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "love_self_transcendence__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "natural_supported",
+      "query": "Anbu self-centered separateness-ai vittutu service-a maarudhu-na enna artham?",
+      "detected_language": "roman_ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_as_highest_human_fortune",
+        "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_without_publicity",
+        "mahaperiyava.deivathin_kural.v1.dharmame_thalaikakkum.religion_redirects_self_interest",
+        "mahaperiyava.deivathin_kural.v1.anbum_thunbamum.finite_attachment_ends_in_separation_grief"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    },
+    {
+      "id": "liberation_highest_benefit__en",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "Why is liberation ranked above material prosperity as the highest benefit?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+        "mahaperiyava.deivathin_kural.v1.mahankalukku_aruliya_mahalakshmi.highest_wealth_is_purity_and_devotion",
+        "mahaperiyava.deivathin_kural.v4.c072.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c342.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c283.krishna_mukunda_praised_exceptionally_compassionate_granting_liberation"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "liberation_highest_benefit__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "How are worldly benefits subordinated to removing ignorance and escaping samsara?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+        "mahaperiyava.deivathin_kural.v4.c414.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c320.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.vignaanamum_aanma_niraivum.science_should_serve_spiritual_fulfillment",
+        "mahaperiyava.deivathin_kural.v2.c225.hanumans_mastery_of_mind_becomes_the_final_prayer_for_crossing_the_ocean_of_samsara"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "liberation_highest_benefit__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "natural_supported",
+      "query": "பொருள் செல்வத்தை விட அறியாமை நீங்கி மோக்ஷம் பெறுவது ஏன் உயர்ந்த பலன்?",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+        "mahaperiyava.deivathin_kural.v4.c312.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c342.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.advaitam.moksha_as_freedom_from_duality",
+        "mahaperiyava.deivathin_kural.v2.c176.dharma_is_presented_as_the_governing_principle_for_artha_kama_and_the_path_toward_moksha"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "liberation_highest_benefit__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "natural_supported",
+      "query": "Material prosperity vida ignorance remove aagi moksham varradhu yen highest benefit?",
+      "detected_language": "roman_ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+        "mahaperiyava.deivathin_kural.v4.c312.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.vakkuvanmai_varushippal.goddess_grace_gives_speech_but_aims_at_jnana",
+        "mahaperiyava.deivathin_kural.v1.mathathin_payan.religion_and_four_purusharthas",
+        "mahaperiyava.deivathin_kural.v1.advaitam.moksha_as_freedom_from_duality"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    },
+    {
+      "id": "service_without_harming_study__en",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "How should students do service without neglecting their studies and basic responsibilities?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c067.public_service_undermines_one_immediate_responsibilities_defeat",
+        "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_without_publicity",
+        "mahaperiyava.deivathin_kural.v7.c177.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c079.leaving_one_own_responsibilities_others_publicly_performing"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "service_without_harming_study__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "When can service become an excuse that harms a student's primary duties?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c009.service_and_delayed_dakshina_preserve_gratitude_to_teacher",
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c161.brahmacharya_training_is_presented_as_disciplined_service_study_celibacy_and_character_formation",
+        "mahaperiyava.deivathin_kural.v2.c009.gita_and_taittiriya_define_student_and_teacher_ethics",
+        "mahaperiyava.deivathin_kural.v3.c065.duty_toward_one_mother_father_treated_primary"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "service_without_harming_study__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "natural_supported",
+      "query": "படிப்பையும் அடிப்படை கடமைகளையும் பாதிக்காமல் மாணவர்கள் சேவை செய்வது எப்படி?",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c177.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c009.first_guru_must_model_dharma_and_care_for_students",
+        "mahaperiyava.deivathin_kural.v2.c009.service_and_delayed_dakshina_preserve_gratitude_to_teacher",
+        "mahaperiyava.deivathin_kural.v2.c211.anecdotes_of_students_professionals_and_official_selection_are_used_to_question_personality_based_career_matching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "service_without_harming_study__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "natural_supported",
+      "query": "Padippai affect pannama students sevai eppadi seyyanum?",
+      "detected_language": "roman_ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 3,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c177.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c009.service_and_delayed_dakshina_preserve_gratitude_to_teacher",
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c057.vedic_students_and_teachers_are_to_receive_enough_support_to_keep_full_time_study_viable",
+        "mahaperiyava.deivathin_kural.v1.karmamum_bhaktiyum.duty_with_devotion_serves_divine_family"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    },
+    {
+      "id": "upadhyaya_vs_guru__en",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "What is the difference between an upadhyaya's instructional role and the fuller role of a guru or acharya?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+        "mahaperiyava.deivathin_kural.v3.c005.guru_distinguished_acharya_one_whose_inner_realization",
+        "mahaperiyava.deivathin_kural.v4.c045.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c054.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "upadhyaya_vs_guru__en_paraphrase",
+      "split": "test",
+      "language": "en",
+      "group": "natural_supported",
+      "query": "Why is an upadhyaya described as a more limited teaching office than a guru?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c195.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c045.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c066.practical_advantages_of_guru_devotion",
+        "mahaperiyava.deivathin_kural.v7.c061.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "upadhyaya_vs_guru__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "natural_supported",
+      "query": "உபாத்தியாயரின் பங்கு குரு அல்லது ஆசாரியரின் பங்கில் இருந்து எப்படி வேறுபடுகிறது?",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c045.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+        "mahaperiyava.deivathin_kural.v4.c043.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c068.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "upadhyaya_vs_guru__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "natural_supported",
+      "query": "Upadhyayar role-um guru acharya role-um enna difference?",
+      "detected_language": "roman_ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v7.c054.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c043.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c045.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    },
+    {
+      "id": "v7_c058_title",
+      "split": "test",
+      "language": "ta",
+      "group": "exact_title_lookup",
+      "query": "உபாத்தியாயர்",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching"
+      ],
+      "retrieval_mode": "exact_title",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "v7_c171_title",
+      "split": "test",
+      "language": "ta",
+      "group": "exact_title_lookup",
+      "query": "படிப்பு பாதிக்காமல் ஸேவை",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching"
+      ],
+      "retrieval_mode": "exact_title",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "v7_c284_title",
+      "split": "test",
+      "language": "ta",
+      "group": "exact_title_lookup",
+      "query": "ஸத்தும் சித்தும் சேர்ந்த ஆனந்தமே ஸுப்ரஹ்மண்யம்",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c284.chapter_teaching"
+      ],
+      "retrieval_mode": "exact_title",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "v2_c113_title",
+      "split": "test",
+      "language": "ta",
+      "group": "exact_title_lookup",
+      "query": "வேதாந்த மதங்களும் மீமாம்ஸையும்",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c113.vedanta_recasts_mimamsa_karma_as_means_for_world_order_mind_purification_and_higher_realization",
+        "mahaperiyava.deivathin_kural.v2.c113.vedanta_schools_accept_mimamsa_methods_and_ritual_while_moving_beyond_ritual_finality"
+      ],
+      "retrieval_mode": "exact_title",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "unsupported_modern_21",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "Did Mahaperiyava discuss quantum-computing error correction?",
+      "detected_language": "en",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "unsupported_modern_22",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "What did Mahaperiyava say about social-media engagement algorithms?",
+      "detected_language": "en",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "unsupported_modern_23",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "Did Mahaperiyava recommend cryptocurrency staking strategies?",
+      "detected_language": "en",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "unsupported_modern_24",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "What was Mahaperiyava's view on generative-AI copyright licensing?",
+      "detected_language": "en",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "unsupported_modern_25",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "Did Mahaperiyava discuss autonomous-drone delivery logistics?",
+      "detected_language": "en",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "unsupported_modern_26",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "What did Mahaperiyava say about cloud-observability SLO dashboards?",
+      "detected_language": "en",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "unsupported_modern_27",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "Did Mahaperiyava discuss Kubernetes service-mesh routing?",
+      "detected_language": "en",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "unsupported_modern_28",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "What was Mahaperiyava's advice on smartphone screen-time applications?",
+      "detected_language": "en",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "unsupported_modern_29",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "Did Mahaperiyava discuss electric-scooter battery swapping?",
+      "detected_language": "en",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "unsupported_modern_30",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "What did Mahaperiyava say about biometric face-recognition systems?",
+      "detected_language": "en",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "p13_moon_pride__en",
+      "split": "test",
+      "language": "en",
+      "group": "phase13_supported",
+      "query": "What moral does the Ganesha and moon episode draw about pride and mocking others?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v4.c033.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c026.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c039.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c036.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c038.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "p13_moon_pride__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "phase13_supported",
+      "query": "விநாயகரும் சந்திரனும் பற்றிய கதை பெருமை மற்றும் பிறரை இகழ்வது குறித்து என்ன பாடம் கூறுகிறது?",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v4.c033.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c039.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c038.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c026.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "p13_moon_pride__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "phase13_supported",
+      "query": "Vinayagar chandran kathai perumaiyum mathavangala kindal panradhu pathiyum enna paadam solludhu?",
+      "detected_language": "roman_ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c001.ganesha_names_primacy_and_obstacle_removal",
+        "mahaperiyava.deivathin_kural.v4.c033.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c039.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c038.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    },
+    {
+      "id": "p13_pallava_origins__en",
+      "split": "test",
+      "language": "en",
+      "group": "phase13_supported",
+      "query": "How does the discourse handle conflicting or uncertain traditions about the origins of the Pallavas?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c055.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c022.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v3.c110.answers_historically_contingent_sectarian_traditions_have_now",
+        "mahaperiyava.deivathin_kural.v6.c012.pallava_chalukya_history_and_war_ethics",
+        "mahaperiyava.deivathin_kural.v5.c206.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "p13_pallava_origins__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "phase13_supported",
+      "query": "பல்லவர்களின் தோற்றம் பற்றிய முரண்பட்ட அல்லது உறுதியற்ற மரபுகளை உரை எவ்வாறு அணுகுகிறது?",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c055.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c054.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c069.indian_scripts_are_traced_to_brahmi_with_regional_and_religious_explanations_added",
+        "mahaperiyava.deivathin_kural.v2.c100.vast_yuga_and_manvantara_chronology_is_compared_with_modern_geology_and_human_origins",
+        "mahaperiyava.deivathin_kural.v5.c206.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "p13_pallava_origins__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "phase13_supported",
+      "query": "Pallavargal origin pathina conflicting traditions-ai urai eppadi handle pannudhu?",
+      "detected_language": "roman_ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v5.c055.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c022.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c054.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c080.paninian_pratyaharas_are_explained_from_the_maheshvara_sutra_sound_sequences",
+        "mahaperiyava.deivathin_kural.v6.c012.pallava_chalukya_history_and_war_ethics"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    },
+    {
+      "id": "p13_ganesha_beginning__en",
+      "split": "test",
+      "language": "en",
+      "group": "phase13_supported",
+      "query": "Why is Ganesha invoked before beginning an undertaking or important piece of work?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life",
+        "mahaperiyava.deivathin_kural.v4.c007.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v5.c001.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+        "mahaperiyava.deivathin_kural.v4.c013.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "p13_ganesha_beginning__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "phase13_supported",
+      "query": "ஒரு முக்கியமான செயலைத் தொடங்குவதற்கு முன் விநாயகரை ஏன் நினைத்து வழிபடுகிறோம்?",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 2,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life",
+        "mahaperiyava.deivathin_kural.v5.c001.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v4.c007.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "p13_ganesha_beginning__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "phase13_supported",
+      "query": "Mukkiyamaana velai start panna munnaadi Pillaiyar-ai yen ninaichu vazhipadanum?",
+      "detected_language": "roman_ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 3,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v2.c001.ganesha_names_primacy_and_obstacle_removal",
+        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v6.c001.obstacle_removal_across_life",
+        "mahaperiyava.deivathin_kural.v1.tattuva_mayamana_vinayagar.ganesha_invoked_before_all_worship",
+        "mahaperiyava.deivathin_kural.v4.c007.chapter_teaching"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__en",
+      "split": "test",
+      "language": "en",
+      "group": "phase13_supported",
+      "query": "Why should Tamil devotion to Ganesha avoid becoming sectarian or separatist?",
+      "detected_language": "en",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c002.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c003.ganesha_presented_as_transsectarian_and_global",
+        "mahaperiyava.deivathin_kural.v3.c110.then_raises_harder_problem_inherited_sectarian_practice",
+        "mahaperiyava.deivathin_kural.v3.c110.attempts_separate_ordinary_ritual_devotional_worship_shown",
+        "mahaperiyava.deivathin_kural.v3.c110.people_advised_keep_inherited_sectarian_practice_supplementing"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 1.0,
+        "cross_weight": 0.5,
+        "rrf_k": 10
+      }
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "phase13_supported",
+      "query": "தமிழ் விநாயக பக்தி ஏன் சமயப் பிரிவினையாகவோ தனித்துவப் பிரச்சாரமாகவோ மாறக்கூடாது?",
+      "detected_language": "ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c002.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v1.vinayagar.pillaiyar_tamil_devotional_presence",
+        "mahaperiyava.deivathin_kural.v2.c132.sridhara_ayyaval_tradition_is_used_to_model_nonsectarian_devotion_and_social_compassion",
+        "mahaperiyava.deivathin_kural.v3.c110.then_raises_harder_problem_inherited_sectarian_practice",
+        "mahaperiyava.deivathin_kural.v2.c003.ganesha_presented_as_transsectarian_and_global"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 3.0,
+        "cross_weight": 0.5,
+        "rrf_k": 30
+      }
+    },
+    {
+      "id": "p13_ganesha_nonsectarian__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "phase13_supported",
+      "query": "Tamil Pillaiyar bhakti yen sectarian-a illa separatist-a maara koodadhu?",
+      "detected_language": "roman_ta",
+      "actual_status": "retrieved_evidence",
+      "rank": 1,
+      "returned_ids": [
+        "mahaperiyava.deivathin_kural.v7.c002.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c132.sridhara_ayyaval_tradition_is_used_to_model_nonsectarian_devotion_and_social_compassion",
+        "mahaperiyava.deivathin_kural.v3.c110.then_raises_harder_problem_inherited_sectarian_practice",
+        "mahaperiyava.deivathin_kural.v6.c031.chapter_teaching",
+        "mahaperiyava.deivathin_kural.v2.c001.ganesha_names_primacy_and_obstacle_removal"
+      ],
+      "retrieval_mode": "phase14_candidates_crossencoder_rrf",
+      "crossencoder_used": true,
+      "fusion_config": {
+        "heuristic_weight": 0.5,
+        "cross_weight": 2.0,
+        "rrf_k": 60
+      }
+    },
+    {
+      "id": "p13_negative_satellite__en",
+      "split": "test",
+      "language": "en",
+      "group": "hard_negative",
+      "query": "What did Mahaperiyava say about satellite internet constellations?",
+      "detected_language": "en",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "p13_negative_smartphone__ta",
+      "split": "test",
+      "language": "ta",
+      "group": "hard_negative",
+      "query": "மஹாபெரியவா ஸ்மார்ட்போன் அறிவிப்புகள் பற்றி என்ன சொன்னார்?",
+      "detected_language": "ta",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    },
+    {
+      "id": "p13_negative_upi__roman_ta",
+      "split": "test",
+      "language": "roman_ta",
+      "group": "hard_negative",
+      "query": "Mahaperiyava UPI transaction security pathi enna advise panninaar?",
+      "detected_language": "roman_ta",
+      "actual_status": "insufficient_evidence",
+      "rank": null,
+      "returned_ids": [],
+      "retrieval_mode": "phase14_guard_then_crossencoder",
+      "crossencoder_used": false,
+      "fusion_config": null
+    }
+  ],
+  "limitations": [
+    "Cross-encoder ranking is applied only after Phase-14 candidate generation and fail-closed checks.",
+    "Tamil and Roman-Tamil queries use a heuristic public-safe English concept view; this is query normalization, not translation authority.",
+    "The same 154-case benchmark is retained for direct Phase-14 comparison.",
+    "Product retrieval remains unchanged even if the shadow threshold is met."
+  ]
+}
