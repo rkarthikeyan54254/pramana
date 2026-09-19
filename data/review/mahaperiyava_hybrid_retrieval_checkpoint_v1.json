@@ -1,0 +1,1667 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_HYBRID_RETRIEVAL_FOUNDATION_V1",
+  "status": "PHASE12_HYBRID_RETRIEVAL_FOUNDATION_RECORDED_TUNING_REQUIRED",
+  "decision": "tune_before_product_integration",
+  "benchmark": {
+    "file": "data/review/mahaperiyava_retrieval_benchmark_v2.json",
+    "cases": 124,
+    "dev_cases": 86,
+    "test_cases": 38
+  },
+  "model": {
+    "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "383bbb10e05bb8885acd71a7956dc2d823b60305",
+    "sentence_transformers_version": "5.1.2",
+    "document_fields": [
+      "claim_summary",
+      "topics",
+      "chapter_title_ta",
+      "record_id"
+    ],
+    "restricted_source_text_embedded": false,
+    "embedding_vectors_committed": false
+  },
+  "selected_config": {
+    "lexical_weight": 1.3,
+    "semantic_weight": 0.8,
+    "min_semantic": 0.44,
+    "rrf_k": 60,
+    "selected_on": "dev_only"
+  },
+  "metrics": {
+    "lexical_dev": {
+      "cases": 86,
+      "supported": 66,
+      "negatives": 20,
+      "top1": 0.5,
+      "top5": 0.6515,
+      "mrr": 0.5535,
+      "abstention": 1.0,
+      "by_language": {
+        "en": {
+          "supported": 28,
+          "top1": 0.5,
+          "top5": 0.75,
+          "mrr": 0.5875,
+          "negatives": 20,
+          "abstention": 1.0
+        },
+        "roman_ta": {
+          "supported": 14,
+          "top1": 0.3571,
+          "top5": 0.5714,
+          "mrr": 0.4345,
+          "negatives": 0,
+          "abstention": 1.0
+        },
+        "ta": {
+          "supported": 24,
+          "top1": 0.5833,
+          "top5": 0.5833,
+          "mrr": 0.5833,
+          "negatives": 0,
+          "abstention": 1.0
+        }
+      }
+    },
+    "lexical_test": {
+      "cases": 38,
+      "supported": 28,
+      "negatives": 10,
+      "top1": 0.6071,
+      "top5": 0.7143,
+      "mrr": 0.6399,
+      "abstention": 1.0,
+      "by_language": {
+        "en": {
+          "supported": 12,
+          "top1": 0.8333,
+          "top5": 0.9167,
+          "mrr": 0.8611,
+          "negatives": 10,
+          "abstention": 1.0
+        },
+        "roman_ta": {
+          "supported": 6,
+          "top1": 0.5,
+          "top5": 0.8333,
+          "mrr": 0.5972,
+          "negatives": 0,
+          "abstention": 1.0
+        },
+        "ta": {
+          "supported": 10,
+          "top1": 0.4,
+          "top5": 0.4,
+          "mrr": 0.4,
+          "negatives": 0,
+          "abstention": 1.0
+        }
+      }
+    },
+    "hybrid_dev": {
+      "cases": 86,
+      "supported": 66,
+      "negatives": 20,
+      "top1": 0.4697,
+      "top5": 0.6818,
+      "mrr": 0.5503,
+      "abstention": 1.0,
+      "by_language": {
+        "en": {
+          "supported": 28,
+          "top1": 0.5357,
+          "top5": 0.75,
+          "mrr": 0.625,
+          "negatives": 20,
+          "abstention": 1.0
+        },
+        "roman_ta": {
+          "supported": 14,
+          "top1": 0.4286,
+          "top5": 0.7143,
+          "mrr": 0.5286,
+          "negatives": 0,
+          "abstention": 1.0
+        },
+        "ta": {
+          "supported": 24,
+          "top1": 0.4167,
+          "top5": 0.5833,
+          "mrr": 0.4757,
+          "negatives": 0,
+          "abstention": 1.0
+        }
+      }
+    },
+    "hybrid_test": {
+      "cases": 38,
+      "supported": 28,
+      "negatives": 10,
+      "top1": 0.6429,
+      "top5": 0.75,
+      "mrr": 0.6815,
+      "abstention": 1.0,
+      "by_language": {
+        "en": {
+          "supported": 12,
+          "top1": 0.8333,
+          "top5": 0.9167,
+          "mrr": 0.8542,
+          "negatives": 10,
+          "abstention": 1.0
+        },
+        "roman_ta": {
+          "supported": 6,
+          "top1": 0.6667,
+          "top5": 0.8333,
+          "mrr": 0.75,
+          "negatives": 0,
+          "abstention": 1.0
+        },
+        "ta": {
+          "supported": 10,
+          "top1": 0.4,
+          "top5": 0.5,
+          "mrr": 0.4333,
+          "negatives": 0,
+          "abstention": 1.0
+        }
+      }
+    },
+    "test_top1_delta": 0.0358,
+    "test_top5_delta": 0.0357,
+    "test_mrr_delta": 0.0416,
+    "improved_top1": true
+  },
+  "authority_boundary": {
+    "authority_counts": {
+      "dk_attested": 3329,
+      "earlier_witness_supported": 39
+    },
+    "authority_promotions": 0,
+    "retrieval_score_changes_authority": false,
+    "exact_source_text_exposed": false,
+    "generated_text_may_enter_corpus": false,
+    "publication_approval_implied": false
+  },
+  "test_rows": {
+    "lexical": [
+      {
+        "id": "action_to_nonaction__en",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "How can disciplined action become a path toward freedom from attachment to action?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c156.action_is_presented_as_shaping_character_until_virtue_becomes_natural_and_action_can_be_transcended",
+          "mahaperiyava.deivathin_kural.v5.c111.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v1.anandam_enge.desire_binds_to_sorrow",
+          "mahaperiyava.deivathin_kural.v6.c121.chapter_teaching"
+        ]
+      },
+      {
+        "id": "action_to_nonaction__en_paraphrase",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "Why prescribe duties if the eventual ideal is effortless non-doership?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c204.ideal_brahmin_daily_life_is_presented_as_an_austere_schedule_of_ritual_study_teaching_and_service",
+          "mahaperiyava.deivathin_kural.v3.c125.defends_differentiated_religious_duties_practical_response_differing",
+          "mahaperiyava.deivathin_kural.v6.c086.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c152.dietary_ideal_something_approach_realistically_practitioners_should"
+        ]
+      },
+      {
+        "id": "action_to_nonaction__ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "ta",
+        "query": "செயல்களை ஒழுக்கமாக செய்வது செயல்பற்றை கடந்து செல்லும் வழியாக எப்படி அமையும்?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v4.c288.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c013.pot_space_analogy_explains_apparent_limitation_of_brahman",
+          "mahaperiyava.deivathin_kural.v2.c013.reflection_theory_explains_one_consciousness_as_many_jivas",
+          "mahaperiyava.deivathin_kural.v2.c087.metrical_counting_distinguishes_equal_unequal_and_alternating_quarters_and_explains_anushtubh",
+          "mahaperiyava.deivathin_kural.v5.c011.chapter_teaching"
+        ]
+      },
+      {
+        "id": "action_to_nonaction__roman_ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "roman_ta",
+        "query": "Duty seyyaradhu eppadi later attachment-to-action-ai thaandi non-doership-kku kondu pogum?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c158.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v4.c246.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c108.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.samadhi_as_conscious_actionless_peace"
+        ]
+      },
+      {
+        "id": "shankara_seeks_guru__en",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "Why is Shankara portrayed as seeking a qualified teacher even though he is treated as an avatara?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c161.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c014.shankara_portrayed_exemplifying_extreme_humility_devotion_toward",
+          "mahaperiyava.deivathin_kural.v5.c143.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c169.chapter_teaching"
+        ]
+      },
+      {
+        "id": "shankara_seeks_guru__en_paraphrase",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "What does Shankara's search for a guru teach about self-sufficiency in spiritual learning?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v7.c087.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c097.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c010.problem_of_discerning_a_true_spiritual_guru",
+          "mahaperiyava.deivathin_kural.v7.c073.chapter_teaching"
+        ]
+      },
+      {
+        "id": "shankara_seeks_guru__ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "ta",
+        "query": "அவதாரமாகக் கருதப்பட்ட சங்கரரும் ஏன் தகுதியான குருவைத் தேடினார்?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v5.c245.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c247.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c202.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c149.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c223.chapter_teaching"
+        ]
+      },
+      {
+        "id": "shankara_seeks_guru__roman_ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "roman_ta",
+        "query": "Shankarar avatara-nu sonnalum yen qualified guru-ai thedinaar?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 4,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c035.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v6.c128.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v7.c095.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c010.problem_of_discerning_a_true_spiritual_guru"
+        ]
+      },
+      {
+        "id": "love_self_transcendence__en",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "How is love described as moving beyond self-centered separateness into service?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v1.panpaattin_idhayasthanam.highest_culture_is_universal_love",
+          "mahaperiyava.deivathin_kural.v1.dharmame_thalaikakkum.religion_redirects_self_interest",
+          "mahaperiyava.deivathin_kural.v2.c050.maitreyi_dialogue_teaches_that_all_love_is_rooted_in_the_self",
+          "mahaperiyava.deivathin_kural.v1.anbu.three_conditioned_forms_of_worldly_love"
+        ]
+      },
+      {
+        "id": "love_self_transcendence__en_paraphrase",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "What makes genuine love different from simply protecting one's own separate interests?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v1.siva_sakthiyin_aikkiya_sthanam.seek_the_indivisible_center_of_shiva_shakti_love",
+          "mahaperiyava.deivathin_kural.v1.annai_deivam.nondual_mother_worship_should_expand_into_universal_love",
+          "mahaperiyava.deivathin_kural.v2.c016.dvaita_visishtadvaita_and_advaita_are_presented_as_possible_stages_of_experience",
+          "mahaperiyava.deivathin_kural.v2.c016.practical_life_requires_difference_even_when_nonduality_is_accepted",
+          "mahaperiyava.deivathin_kural.v1.bhagavatpadar_tharum_bhakti_lakshanam.transactional_devotion_can_mature_into_love_for_its_own_sake"
+        ]
+      },
+      {
+        "id": "love_self_transcendence__ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "ta",
+        "query": "அன்பு தனக்கே மையமான பிரிவுணர்வை விட்டுச் சேவையாக மாறுவது எப்படி?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v2.c015.sectarian_marks_are_presented_as_later_than_common_vedic_practice",
+          "mahaperiyava.deivathin_kural.v3.c110.answers_historically_contingent_sectarian_traditions_have_now",
+          "mahaperiyava.deivathin_kural.v2.c216.source_argues_other_religions_also_develop_endogamous_or_sectarian_divisions",
+          "mahaperiyava.deivathin_kural.v3.c110.counterargument_acknowledged_present_day_sectarian_customs_themselves",
+          "mahaperiyava.deivathin_kural.v3.c110.later_acharyas_acknowledged_have_introduced_new_sectarian"
+        ]
+      },
+      {
+        "id": "love_self_transcendence__roman_ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "roman_ta",
+        "query": "Anbu self-centered separateness-ai vittutu service-a maarudhu-na enna artham?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c061.personal_spiritual_discipline_social_service_mutually_reinforcing",
+          "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_as_better_use_of_leisure",
+          "mahaperiyava.deivathin_kural.v2.c224.source_recommends_replacing_abolition_slogans_with_positive_programs_of_bhakti_and_shared_service",
+          "mahaperiyava.deivathin_kural.v3.c021.external_social_service_require_inner_purification_because"
+        ]
+      },
+      {
+        "id": "liberation_highest_benefit__en",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "Why is liberation ranked above material prosperity as the highest benefit?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+          "mahaperiyava.deivathin_kural.v1.mahankalukku_aruliya_mahalakshmi.highest_wealth_is_purity_and_devotion",
+          "mahaperiyava.deivathin_kural.v1.mathathin_payan.religion_and_four_purusharthas",
+          "mahaperiyava.deivathin_kural.v1.alayamum_aspathiriyum.bhakti_supports_morality_and_liberation",
+          "mahaperiyava.deivathin_kural.v3.c283.krishna_mukunda_praised_exceptionally_compassionate_granting_liberation"
+        ]
+      },
+      {
+        "id": "liberation_highest_benefit__en_paraphrase",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "How are worldly benefits subordinated to removing ignorance and escaping samsara?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+          "mahaperiyava.deivathin_kural.v4.c414.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c225.hanumans_mastery_of_mind_becomes_the_final_prayer_for_crossing_the_ocean_of_samsara",
+          "mahaperiyava.deivathin_kural.v2.c007.royal_heir_parable_explains_ignorance_and_realization",
+          "mahaperiyava.deivathin_kural.v5.c018.chapter_teaching"
+        ]
+      },
+      {
+        "id": "liberation_highest_benefit__ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "ta",
+        "query": "பொருள் செல்வத்தை விட அறியாமை நீங்கி மோக்ஷம் பெறுவது ஏன் உயர்ந்த பலன்?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v6.c119.nadi_and_liberation_clarifications",
+          "mahaperiyava.deivathin_kural.v2.c017.human_effort_and_divine_grace_are_presented_as_cooperating",
+          "mahaperiyava.deivathin_kural.v2.c182.marital_surrender_is_linked_to_liberation_through_self_effacement",
+          "mahaperiyava.deivathin_kural.v1.alayamum_aspathiriyum.bhakti_supports_morality_and_liberation",
+          "mahaperiyava.deivathin_kural.v3.c283.krishna_mukunda_praised_exceptionally_compassionate_granting_liberation"
+        ]
+      },
+      {
+        "id": "liberation_highest_benefit__roman_ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "roman_ta",
+        "query": "Material prosperity vida ignorance remove aagi moksham varradhu yen highest benefit?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+          "mahaperiyava.deivathin_kural.v1.mahankalukku_aruliya_mahalakshmi.highest_wealth_is_purity_and_devotion",
+          "mahaperiyava.deivathin_kural.v6.c208.black_hair_and_ignorance_symbolism",
+          "mahaperiyava.deivathin_kural.v1.muruganin_tamilnaattu_avataram.yajna_rain_prosperity_and_social_welfare",
+          "mahaperiyava.deivathin_kural.v1.arul_minnal.arul_minnal_is_said_to_remove_inner_darkness_and_restore_oneness"
+        ]
+      },
+      {
+        "id": "service_without_harming_study__en",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "How should students do service without neglecting their studies and basic responsibilities?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c067.public_service_undermines_one_immediate_responsibilities_defeat",
+          "mahaperiyava.deivathin_kural.v3.c068.household_responsibilities_prior_service_beyond_home_wider",
+          "mahaperiyava.deivathin_kural.v3.c079.leaving_one_own_responsibilities_others_publicly_performing",
+          "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_without_publicity"
+        ]
+      },
+      {
+        "id": "service_without_harming_study__en_paraphrase",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "When can service become an excuse that harms a student's primary duties?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 3,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v2.c009.service_and_delayed_dakshina_preserve_gratitude_to_teacher",
+          "mahaperiyava.deivathin_kural.v3.c037.temple_service_people_complementary_competing_duties_religious",
+          "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c009.gita_and_taittiriya_define_student_and_teacher_ethics",
+          "mahaperiyava.deivathin_kural.v2.c161.brahmacharya_training_is_presented_as_disciplined_service_study_celibacy_and_character_formation"
+        ]
+      },
+      {
+        "id": "service_without_harming_study__ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "ta",
+        "query": "படிப்பையும் அடிப்படை கடமைகளையும் பாதிக்காமல் மாணவர்கள் சேவை செய்வது எப்படி?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v4.c288.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c013.pot_space_analogy_explains_apparent_limitation_of_brahman",
+          "mahaperiyava.deivathin_kural.v2.c013.reflection_theory_explains_one_consciousness_as_many_jivas",
+          "mahaperiyava.deivathin_kural.v2.c087.metrical_counting_distinguishes_equal_unequal_and_alternating_quarters_and_explains_anushtubh",
+          "mahaperiyava.deivathin_kural.v2.c149.dilipa_nandini_narrative_is_used_to_illustrate_dharma_as_received_instruction_and_faithful_obedience"
+        ]
+      },
+      {
+        "id": "service_without_harming_study__roman_ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "roman_ta",
+        "query": "Padippai affect pannama students sevai eppadi seyyanum?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "upadhyaya_vs_guru__en",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "What is the difference between an upadhyaya's instructional role and the fuller role of a guru or acharya?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+          "mahaperiyava.deivathin_kural.v3.c005.guru_distinguished_acharya_one_whose_inner_realization",
+          "mahaperiyava.deivathin_kural.v4.c045.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c218.role_specific_exceptions_are_defended_as_functional_and_heart_level_unity_is_ranked_above_social_uniformity"
+        ]
+      },
+      {
+        "id": "upadhyaya_vs_guru__en_paraphrase",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "Why is an upadhyaya described as a more limited teaching office than a guru?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c195.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c066.practical_advantages_of_guru_devotion",
+          "mahaperiyava.deivathin_kural.v7.c061.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v4.c193.chapter_teaching"
+        ]
+      },
+      {
+        "id": "upadhyaya_vs_guru__ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "ta",
+        "query": "உபாத்தியாயரின் பங்கு குரு அல்லது ஆசாரியரின் பங்கில் இருந்து எப்படி வேறுபடுகிறது?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v4.c045.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v6.c164.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v4.c056.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v7.c236.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c152.heaven_and_self_knowledge_are_presented_as_two_forms_of_happiness_with_self_knowledge_ranked_permanent"
+        ]
+      },
+      {
+        "id": "upadhyaya_vs_guru__roman_ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "roman_ta",
+        "query": "Upadhyayar role-um guru acharya role-um enna difference?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 3,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+          "mahaperiyava.deivathin_kural.v3.c005.guru_distinguished_acharya_one_whose_inner_realization",
+          "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c218.role_specific_exceptions_are_defended_as_functional_and_heart_level_unity_is_ranked_above_social_uniformity",
+          "mahaperiyava.deivathin_kural.v7.c054.chapter_teaching"
+        ]
+      },
+      {
+        "id": "v7_c058_title",
+        "split": "test",
+        "group": "exact_title_lookup",
+        "language": "ta",
+        "query": "உபாத்தியாயர்",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching"
+        ]
+      },
+      {
+        "id": "v7_c171_title",
+        "split": "test",
+        "group": "exact_title_lookup",
+        "language": "ta",
+        "query": "படிப்பு பாதிக்காமல் ஸேவை",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching"
+        ]
+      },
+      {
+        "id": "v7_c284_title",
+        "split": "test",
+        "group": "exact_title_lookup",
+        "language": "ta",
+        "query": "ஸத்தும் சித்தும் சேர்ந்த ஆனந்தமே ஸுப்ரஹ்மண்யம்",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c284.chapter_teaching"
+        ]
+      },
+      {
+        "id": "v2_c113_title",
+        "split": "test",
+        "group": "exact_title_lookup",
+        "language": "ta",
+        "query": "வேதாந்த மதங்களும் மீமாம்ஸையும்",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v2.c113.vedanta_recasts_mimamsa_karma_as_means_for_world_order_mind_purification_and_higher_realization",
+          "mahaperiyava.deivathin_kural.v2.c113.vedanta_schools_accept_mimamsa_methods_and_ritual_while_moving_beyond_ritual_finality"
+        ]
+      },
+      {
+        "id": "unsupported_modern_21",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "Did Mahaperiyava discuss quantum-computing error correction?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_22",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "What did Mahaperiyava say about social-media engagement algorithms?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_23",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "Did Mahaperiyava recommend cryptocurrency staking strategies?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_24",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "What was Mahaperiyava's view on generative-AI copyright licensing?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_25",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "Did Mahaperiyava discuss autonomous-drone delivery logistics?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_26",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "What did Mahaperiyava say about cloud-observability SLO dashboards?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_27",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "Did Mahaperiyava discuss Kubernetes service-mesh routing?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_28",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "What was Mahaperiyava's advice on smartphone screen-time applications?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_29",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "Did Mahaperiyava discuss electric-scooter battery swapping?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_30",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "What did Mahaperiyava say about biometric face-recognition systems?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "action_to_nonaction__en",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "How can disciplined action become a path toward freedom from attachment to action?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c156.action_is_presented_as_shaping_character_until_virtue_becomes_natural_and_action_can_be_transcended",
+          "mahaperiyava.deivathin_kural.v4.c239.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v1.paapa_punniyangal.redirect_action_toward_selfless_ends",
+          "mahaperiyava.deivathin_kural.v1.ahimsai.ahimsa_purifies_and_disciplines_mind"
+        ]
+      },
+      {
+        "id": "action_to_nonaction__en_paraphrase",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "Why prescribe duties if the eventual ideal is effortless non-doership?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c016.joyful_duty_and_desireless_bhakti_are_enough_for_present_stage",
+          "mahaperiyava.deivathin_kural.v3.c125.defends_differentiated_religious_duties_practical_response_differing",
+          "mahaperiyava.deivathin_kural.v4.c389.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c070.neglect_assigned_duties_carry_consequences_even_motivated"
+        ]
+      },
+      {
+        "id": "action_to_nonaction__ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "ta",
+        "query": "செயல்களை ஒழுக்கமாக செய்வது செயல்பற்றை கடந்து செல்லும் வழியாக எப்படி அமையும்?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 3,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v2.c012.adhisthana_and_aropya_explain_world_as_mithya",
+          "mahaperiyava.deivathin_kural.v5.c011.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v4.c288.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c013.pot_space_analogy_explains_apparent_limitation_of_brahman"
+        ]
+      },
+      {
+        "id": "action_to_nonaction__roman_ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "roman_ta",
+        "query": "Duty seyyaradhu eppadi later attachment-to-action-ai thaandi non-doership-kku kondu pogum?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 2,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v5.c158.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c163.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c164.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c168.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c080.presents_graded_duty_ritual_practical_path_most"
+        ]
+      },
+      {
+        "id": "shankara_seeks_guru__en",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "Why is Shankara portrayed as seeking a qualified teacher even though he is treated as an avatara?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c014.shankara_portrayed_exemplifying_extreme_humility_devotion_toward",
+          "mahaperiyava.deivathin_kural.v5.c169.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c143.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v1.manitha_piraviyum_venduvathe.shankara_is_presented_as_embodying_advaita_while_serving_the_world"
+        ]
+      },
+      {
+        "id": "shankara_seeks_guru__en_paraphrase",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "What does Shankara's search for a guru teach about self-sufficiency in spiritual learning?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 4,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v3.c005.guru_distinguished_acharya_one_whose_inner_realization",
+          "mahaperiyava.deivathin_kural.v7.c068.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c008.shankara_texts_are_read_as_insisting_on_guru_devotion",
+          "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v7.c080.chapter_teaching"
+        ]
+      },
+      {
+        "id": "shankara_seeks_guru__ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "ta",
+        "query": "அவதாரமாகக் கருதப்பட்ட சங்கரரும் ஏன் தகுதியான குருவைத் தேடினார்?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v5.c144.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c014.purnam_mantra_is_read_as_brahman_both_beyond_and_within",
+          "mahaperiyava.deivathin_kural.v5.c245.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c247.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v5.c202.chapter_teaching"
+        ]
+      },
+      {
+        "id": "shankara_seeks_guru__roman_ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "roman_ta",
+        "query": "Shankarar avatara-nu sonnalum yen qualified guru-ai thedinaar?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v5.c259.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c005.guru_distinguished_acharya_one_whose_inner_realization",
+          "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+          "mahaperiyava.deivathin_kural.v5.c169.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v7.c035.chapter_teaching"
+        ]
+      },
+      {
+        "id": "love_self_transcendence__en",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "How is love described as moving beyond self-centered separateness into service?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v1.anbu.three_conditioned_forms_of_worldly_love",
+          "mahaperiyava.deivathin_kural.v2.c050.maitreyi_dialogue_teaches_that_all_love_is_rooted_in_the_self",
+          "mahaperiyava.deivathin_kural.v1.panpaattin_idhayasthanam.highest_culture_is_universal_love",
+          "mahaperiyava.deivathin_kural.v1.anbu.guru_love_expands_to_equal_love_for_all"
+        ]
+      },
+      {
+        "id": "love_self_transcendence__en_paraphrase",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "What makes genuine love different from simply protecting one's own separate interests?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v1.anbu.true_love_is_unconditional",
+          "mahaperiyava.deivathin_kural.v1.bhakti_seyvathu_etharkaga.love_of_god_as_enduring_love",
+          "mahaperiyava.deivathin_kural.v1.aramum_anbum_arasangamum.all_action_should_begin_in_love",
+          "mahaperiyava.deivathin_kural.v1.annai_deivam.nondual_mother_worship_should_expand_into_universal_love",
+          "mahaperiyava.deivathin_kural.v1.anbu.three_conditioned_forms_of_worldly_love"
+        ]
+      },
+      {
+        "id": "love_self_transcendence__ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "ta",
+        "query": "அன்பு தனக்கே மையமான பிரிவுணர்வை விட்டுச் சேவையாக மாறுவது எப்படி?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v2.c015.sectarian_marks_are_presented_as_later_than_common_vedic_practice",
+          "mahaperiyava.deivathin_kural.v3.c110.answers_historically_contingent_sectarian_traditions_have_now",
+          "mahaperiyava.deivathin_kural.v2.c216.source_argues_other_religions_also_develop_endogamous_or_sectarian_divisions",
+          "mahaperiyava.deivathin_kural.v3.c110.counterargument_acknowledged_present_day_sectarian_customs_themselves",
+          "mahaperiyava.deivathin_kural.v2.c132.sridhara_ayyaval_tradition_is_used_to_model_nonsectarian_devotion_and_social_compassion"
+        ]
+      },
+      {
+        "id": "love_self_transcendence__roman_ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "roman_ta",
+        "query": "Anbu self-centered separateness-ai vittutu service-a maarudhu-na enna artham?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v6.c110.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c050.maitreyi_dialogue_teaches_that_all_love_is_rooted_in_the_self",
+          "mahaperiyava.deivathin_kural.v1.anbu.three_conditioned_forms_of_worldly_love",
+          "mahaperiyava.deivathin_kural.v1.anbu.true_love_is_unconditional",
+          "mahaperiyava.deivathin_kural.v1.anbu.guru_love_expands_to_equal_love_for_all"
+        ]
+      },
+      {
+        "id": "liberation_highest_benefit__en",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "Why is liberation ranked above material prosperity as the highest benefit?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+          "mahaperiyava.deivathin_kural.v4.c342.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c283.krishna_mukunda_praised_exceptionally_compassionate_granting_liberation",
+          "mahaperiyava.deivathin_kural.v1.mahankalukku_aruliya_mahalakshmi.highest_wealth_is_purity_and_devotion",
+          "mahaperiyava.deivathin_kural.v2.c153.human_birth_is_valued_as_the_mixed_condition_in_which_spiritual_choice_and_liberation_are_possible"
+        ]
+      },
+      {
+        "id": "liberation_highest_benefit__en_paraphrase",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "How are worldly benefits subordinated to removing ignorance and escaping samsara?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+          "mahaperiyava.deivathin_kural.v4.c414.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v4.c320.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c205.visible_practical_results_are_contrasted_with_unseen_spiritual_fruits_of_dharma",
+          "mahaperiyava.deivathin_kural.v4.c229.chapter_teaching"
+        ]
+      },
+      {
+        "id": "liberation_highest_benefit__ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "ta",
+        "query": "பொருள் செல்வத்தை விட அறியாமை நீங்கி மோக்ஷம் பெறுவது ஏன் உயர்ந்த பலன்?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v6.c119.nadi_and_liberation_clarifications",
+          "mahaperiyava.deivathin_kural.v2.c017.human_effort_and_divine_grace_are_presented_as_cooperating",
+          "mahaperiyava.deivathin_kural.v3.c055.constant_divine_remembrance_described_direct_shortened_route",
+          "mahaperiyava.deivathin_kural.v2.c182.marital_surrender_is_linked_to_liberation_through_self_effacement",
+          "mahaperiyava.deivathin_kural.v1.alayamum_aspathiriyum.bhakti_supports_morality_and_liberation"
+        ]
+      },
+      {
+        "id": "liberation_highest_benefit__roman_ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "roman_ta",
+        "query": "Material prosperity vida ignorance remove aagi moksham varradhu yen highest benefit?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v6.c180.liberation_as_highest_benefit",
+          "mahaperiyava.deivathin_kural.v1.mahankalukku_aruliya_mahalakshmi.highest_wealth_is_purity_and_devotion",
+          "mahaperiyava.deivathin_kural.v1.advaitam.moksha_as_freedom_from_duality",
+          "mahaperiyava.deivathin_kural.v2.c035.yajna_is_given_worldly_heavenly_and_mind_purifying_fruits",
+          "mahaperiyava.deivathin_kural.v4.c342.chapter_teaching"
+        ]
+      },
+      {
+        "id": "service_without_harming_study__en",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "How should students do service without neglecting their studies and basic responsibilities?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c068.household_responsibilities_prior_service_beyond_home_wider",
+          "mahaperiyava.deivathin_kural.v3.c060.day_without_useful_duty_service_portrayed_wasted",
+          "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_without_publicity",
+          "mahaperiyava.deivathin_kural.v3.c067.public_service_undermines_one_immediate_responsibilities_defeat"
+        ]
+      },
+      {
+        "id": "service_without_harming_study__en_paraphrase",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "When can service become an excuse that harms a student's primary duties?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c009.service_and_delayed_dakshina_preserve_gratitude_to_teacher",
+          "mahaperiyava.deivathin_kural.v2.c161.brahmacharya_training_is_presented_as_disciplined_service_study_celibacy_and_character_formation",
+          "mahaperiyava.deivathin_kural.v3.c070.neglect_assigned_duties_carry_consequences_even_motivated",
+          "mahaperiyava.deivathin_kural.v3.c021.external_social_service_require_inner_purification_because"
+        ]
+      },
+      {
+        "id": "service_without_harming_study__ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "ta",
+        "query": "படிப்பையும் அடிப்படை கடமைகளையும் பாதிக்காமல் மாணவர்கள் சேவை செய்வது எப்படி?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v4.c288.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c012.adhisthana_and_aropya_explain_world_as_mithya",
+          "mahaperiyava.deivathin_kural.v2.c013.pot_space_analogy_explains_apparent_limitation_of_brahman",
+          "mahaperiyava.deivathin_kural.v6.c171.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c013.reflection_theory_explains_one_consciousness_as_many_jivas"
+        ]
+      },
+      {
+        "id": "service_without_harming_study__roman_ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "roman_ta",
+        "query": "Padippai affect pannama students sevai eppadi seyyanum?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v1.paropakaram.purta_dharma_and_physical_service",
+          "mahaperiyava.deivathin_kural.v1.veliye_karmam_ulle_dhyanam.service_and_worship_benefit_the_doer",
+          "mahaperiyava.deivathin_kural.v2.c009.service_and_delayed_dakshina_preserve_gratitude_to_teacher",
+          "mahaperiyava.deivathin_kural.v3.c037.temple_service_people_complementary_competing_duties_religious",
+          "mahaperiyava.deivathin_kural.v1.sevaiye_melana_bakkiyam.service_without_publicity"
+        ]
+      },
+      {
+        "id": "upadhyaya_vs_guru__en",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "What is the difference between an upadhyaya's instructional role and the fuller role of a guru or acharya?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+          "mahaperiyava.deivathin_kural.v3.c005.guru_distinguished_acharya_one_whose_inner_realization",
+          "mahaperiyava.deivathin_kural.v4.c045.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v4.c043.chapter_teaching"
+        ]
+      },
+      {
+        "id": "upadhyaya_vs_guru__en_paraphrase",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "en",
+        "query": "Why is an upadhyaya described as a more limited teaching office than a guru?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v4.c043.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+          "mahaperiyava.deivathin_kural.v3.c005.guru_distinguished_acharya_one_whose_inner_realization",
+          "mahaperiyava.deivathin_kural.v4.c045.chapter_teaching"
+        ]
+      },
+      {
+        "id": "upadhyaya_vs_guru__ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "ta",
+        "query": "உபாத்தியாயரின் பங்கு குரு அல்லது ஆசாரியரின் பங்கில் இருந்து எப்படி வேறுபடுகிறது?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": null,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v4.c330.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v4.c418.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v2.c152.ritual_merit_is_presented_as_leading_to_heaven_while_nishkamya_dharma_prepares_for_liberation",
+          "mahaperiyava.deivathin_kural.v5.c011.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v4.c045.chapter_teaching"
+        ]
+      },
+      {
+        "id": "upadhyaya_vs_guru__roman_ta",
+        "split": "test",
+        "group": "natural_supported",
+        "language": "roman_ta",
+        "query": "Upadhyayar role-um guru acharya role-um enna difference?",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v3.c010.guru_acharya_treated_overlapping_roles_highest_teachers",
+          "mahaperiyava.deivathin_kural.v4.c045.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v4.c043.chapter_teaching",
+          "mahaperiyava.deivathin_kural.v7.c068.chapter_teaching"
+        ]
+      },
+      {
+        "id": "v7_c058_title",
+        "split": "test",
+        "group": "exact_title_lookup",
+        "language": "ta",
+        "query": "உபாத்தியாயர்",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c058.chapter_teaching"
+        ]
+      },
+      {
+        "id": "v7_c171_title",
+        "split": "test",
+        "group": "exact_title_lookup",
+        "language": "ta",
+        "query": "படிப்பு பாதிக்காமல் ஸேவை",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c171.chapter_teaching"
+        ]
+      },
+      {
+        "id": "v7_c284_title",
+        "split": "test",
+        "group": "exact_title_lookup",
+        "language": "ta",
+        "query": "ஸத்தும் சித்தும் சேர்ந்த ஆனந்தமே ஸுப்ரஹ்மண்யம்",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v7.c284.chapter_teaching"
+        ]
+      },
+      {
+        "id": "v2_c113_title",
+        "split": "test",
+        "group": "exact_title_lookup",
+        "language": "ta",
+        "query": "வேதாந்த மதங்களும் மீமாம்ஸையும்",
+        "expected_status": "retrieved_evidence",
+        "actual_status": "retrieved_evidence",
+        "rank": 1,
+        "returned_ids": [
+          "mahaperiyava.deivathin_kural.v2.c113.vedanta_recasts_mimamsa_karma_as_means_for_world_order_mind_purification_and_higher_realization",
+          "mahaperiyava.deivathin_kural.v2.c113.vedanta_schools_accept_mimamsa_methods_and_ritual_while_moving_beyond_ritual_finality"
+        ]
+      },
+      {
+        "id": "unsupported_modern_21",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "Did Mahaperiyava discuss quantum-computing error correction?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_22",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "What did Mahaperiyava say about social-media engagement algorithms?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_23",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "Did Mahaperiyava recommend cryptocurrency staking strategies?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_24",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "What was Mahaperiyava's view on generative-AI copyright licensing?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_25",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "Did Mahaperiyava discuss autonomous-drone delivery logistics?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_26",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "What did Mahaperiyava say about cloud-observability SLO dashboards?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_27",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "Did Mahaperiyava discuss Kubernetes service-mesh routing?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_28",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "What was Mahaperiyava's advice on smartphone screen-time applications?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_29",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "Did Mahaperiyava discuss electric-scooter battery swapping?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      },
+      {
+        "id": "unsupported_modern_30",
+        "split": "test",
+        "group": "hard_negative",
+        "language": "en",
+        "query": "What did Mahaperiyava say about biometric face-recognition systems?",
+        "expected_status": "insufficient_evidence",
+        "actual_status": "insufficient_evidence",
+        "rank": null,
+        "returned_ids": []
+      }
+    ]
+  },
+  "top_dev_configs": [
+    {
+      "lexical_weight": 1.3,
+      "semantic_weight": 0.8,
+      "min_semantic": 0.44,
+      "metrics": {
+        "cases": 86,
+        "supported": 66,
+        "negatives": 20,
+        "top1": 0.4697,
+        "top5": 0.6818,
+        "mrr": 0.5503,
+        "abstention": 1.0,
+        "by_language": {
+          "en": {
+            "supported": 28,
+            "top1": 0.5357,
+            "top5": 0.75,
+            "mrr": 0.625,
+            "negatives": 20,
+            "abstention": 1.0
+          },
+          "roman_ta": {
+            "supported": 14,
+            "top1": 0.4286,
+            "top5": 0.7143,
+            "mrr": 0.5286,
+            "negatives": 0,
+            "abstention": 1.0
+          },
+          "ta": {
+            "supported": 24,
+            "top1": 0.4167,
+            "top5": 0.5833,
+            "mrr": 0.4757,
+            "negatives": 0,
+            "abstention": 1.0
+          }
+        }
+      },
+      "objective": 1.8306
+    },
+    {
+      "lexical_weight": 1.0,
+      "semantic_weight": 0.8,
+      "min_semantic": 0.44,
+      "metrics": {
+        "cases": 86,
+        "supported": 66,
+        "negatives": 20,
+        "top1": 0.4697,
+        "top5": 0.6364,
+        "mrr": 0.5371,
+        "abstention": 1.0,
+        "by_language": {
+          "en": {
+            "supported": 28,
+            "top1": 0.5357,
+            "top5": 0.75,
+            "mrr": 0.631,
+            "negatives": 20,
+            "abstention": 1.0
+          },
+          "roman_ta": {
+            "supported": 14,
+            "top1": 0.4286,
+            "top5": 0.5714,
+            "mrr": 0.4881,
+            "negatives": 0,
+            "abstention": 1.0
+          },
+          "ta": {
+            "supported": 24,
+            "top1": 0.4167,
+            "top5": 0.5417,
+            "mrr": 0.4562,
+            "negatives": 0,
+            "abstention": 1.0
+          }
+        }
+      },
+      "objective": 1.7947
+    },
+    {
+      "lexical_weight": 1.3,
+      "semantic_weight": 1.1,
+      "min_semantic": 0.44,
+      "metrics": {
+        "cases": 86,
+        "supported": 66,
+        "negatives": 20,
+        "top1": 0.4697,
+        "top5": 0.6364,
+        "mrr": 0.5371,
+        "abstention": 1.0,
+        "by_language": {
+          "en": {
+            "supported": 28,
+            "top1": 0.5357,
+            "top5": 0.75,
+            "mrr": 0.631,
+            "negatives": 20,
+            "abstention": 1.0
+          },
+          "roman_ta": {
+            "supported": 14,
+            "top1": 0.4286,
+            "top5": 0.5714,
+            "mrr": 0.4881,
+            "negatives": 0,
+            "abstention": 1.0
+          },
+          "ta": {
+            "supported": 24,
+            "top1": 0.4167,
+            "top5": 0.5417,
+            "mrr": 0.4562,
+            "negatives": 0,
+            "abstention": 1.0
+          }
+        }
+      },
+      "objective": 1.7947
+    },
+    {
+      "lexical_weight": 0.7,
+      "semantic_weight": 1.7,
+      "min_semantic": 0.44,
+      "metrics": {
+        "cases": 86,
+        "supported": 66,
+        "negatives": 20,
+        "top1": 0.4848,
+        "top5": 0.5909,
+        "mrr": 0.527,
+        "abstention": 1.0,
+        "by_language": {
+          "en": {
+            "supported": 28,
+            "top1": 0.5714,
+            "top5": 0.7857,
+            "mrr": 0.6637,
+            "negatives": 20,
+            "abstention": 1.0
+          },
+          "roman_ta": {
+            "supported": 14,
+            "top1": 0.4286,
+            "top5": 0.5,
+            "mrr": 0.4429,
+            "negatives": 0,
+            "abstention": 1.0
+          },
+          "ta": {
+            "supported": 24,
+            "top1": 0.4167,
+            "top5": 0.4167,
+            "mrr": 0.4167,
+            "negatives": 0,
+            "abstention": 1.0
+          }
+        }
+      },
+      "objective": 1.79205
+    },
+    {
+      "lexical_weight": 0.7,
+      "semantic_weight": 0.8,
+      "min_semantic": 0.44,
+      "metrics": {
+        "cases": 86,
+        "supported": 66,
+        "negatives": 20,
+        "top1": 0.4697,
+        "top5": 0.6061,
+        "mrr": 0.522,
+        "abstention": 1.0,
+        "by_language": {
+          "en": {
+            "supported": 28,
+            "top1": 0.5357,
+            "top5": 0.7857,
+            "mrr": 0.6321,
+            "negatives": 20,
+            "abstention": 1.0
+          },
+          "roman_ta": {
+            "supported": 14,
+            "top1": 0.4286,
+            "top5": 0.5714,
+            "mrr": 0.4821,
+            "negatives": 0,
+            "abstention": 1.0
+          },
+          "ta": {
+            "supported": 24,
+            "top1": 0.4167,
+            "top5": 0.4167,
+            "mrr": 0.4167,
+            "negatives": 0,
+            "abstention": 1.0
+          }
+        }
+      },
+      "objective": 1.76445
+    },
+    {
+      "lexical_weight": 1.0,
+      "semantic_weight": 1.1,
+      "min_semantic": 0.44,
+      "metrics": {
+        "cases": 86,
+        "supported": 66,
+        "negatives": 20,
+        "top1": 0.4697,
+        "top5": 0.6061,
+        "mrr": 0.522,
+        "abstention": 1.0,
+        "by_language": {
+          "en": {
+            "supported": 28,
+            "top1": 0.5357,
+            "top5": 0.7857,
+            "mrr": 0.6321,
+            "negatives": 20,
+            "abstention": 1.0
+          },
+          "roman_ta": {
+            "supported": 14,
+            "top1": 0.4286,
+            "top5": 0.5714,
+            "mrr": 0.4821,
+            "negatives": 0,
+            "abstention": 1.0
+          },
+          "ta": {
+            "supported": 24,
+            "top1": 0.4167,
+            "top5": 0.4167,
+            "mrr": 0.4167,
+            "negatives": 0,
+            "abstention": 1.0
+          }
+        }
+      },
+      "objective": 1.76445
+    },
+    {
+      "lexical_weight": 1.3,
+      "semantic_weight": 1.4,
+      "min_semantic": 0.44,
+      "metrics": {
+        "cases": 86,
+        "supported": 66,
+        "negatives": 20,
+        "top1": 0.4697,
+        "top5": 0.6061,
+        "mrr": 0.522,
+        "abstention": 1.0,
+        "by_language": {
+          "en": {
+            "supported": 28,
+            "top1": 0.5357,
+            "top5": 0.7857,
+            "mrr": 0.6321,
+            "negatives": 20,
+            "abstention": 1.0
+          },
+          "roman_ta": {
+            "supported": 14,
+            "top1": 0.4286,
+            "top5": 0.5714,
+            "mrr": 0.4821,
+            "negatives": 0,
+            "abstention": 1.0
+          },
+          "ta": {
+            "supported": 24,
+            "top1": 0.4167,
+            "top5": 0.4167,
+            "mrr": 0.4167,
+            "negatives": 0,
+            "abstention": 1.0
+          }
+        }
+      },
+      "objective": 1.76445
+    },
+    {
+      "lexical_weight": 0.7,
+      "semantic_weight": 1.4,
+      "min_semantic": 0.44,
+      "metrics": {
+        "cases": 86,
+        "supported": 66,
+        "negatives": 20,
+        "top1": 0.4697,
+        "top5": 0.5909,
+        "mrr": 0.5194,
+        "abstention": 1.0,
+        "by_language": {
+          "en": {
+            "supported": 28,
+            "top1": 0.5357,
+            "top5": 0.7857,
+            "mrr": 0.6458,
+            "negatives": 20,
+            "abstention": 1.0
+          },
+          "roman_ta": {
+            "supported": 14,
+            "top1": 0.4286,
+            "top5": 0.5,
+            "mrr": 0.4429,
+            "negatives": 0,
+            "abstention": 1.0
+          },
+          "ta": {
+            "supported": 24,
+            "top1": 0.4167,
+            "top5": 0.4167,
+            "mrr": 0.4167,
+            "negatives": 0,
+            "abstention": 1.0
+          }
+        }
+      },
+      "objective": 1.75425
+    }
+  ],
+  "limitations": [
+    "The benchmark evaluates retrieval over curator-authored public-safe metadata, not restricted source text.",
+    "Roman-Tamil normalization is heuristic and must not be treated as linguistic authority.",
+    "The semantic model is a retrieval component only; its similarity score cannot alter evidence authority.",
+    "Product answer generation remains on the existing Phase-9 grounding contract until explicit integration is tested."
+  ]
+}

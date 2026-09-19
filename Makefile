@@ -327,3 +327,15 @@ mahaperiyava-1962-tamil-visual-gate:
 mahaperiyava-1968-preceptors-promotion-gate:
 	$(PYTHON) -m pytest -q tests/test_mahaperiyava_preceptors_1968_promotions.py tests/test_mahaperiyava_external_sources.py
 	@echo "mahaperiyava-1968-preceptors-promotion-gate: GREEN"
+
+# Phase 12: multilingual hybrid retrieval foundation.
+# The structure gate is network-free; the benchmark target uses a pinned
+# external sentence-transformer model and is run explicitly/local-first.
+mahaperiyava-hybrid-retrieval-structure-gate:
+	$(PYTHON) scripts/build_mahaperiyava_retrieval_benchmark_v2.py --check
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_hybrid_retrieval.py
+	@echo "mahaperiyava-hybrid-retrieval-structure-gate: GREEN"
+
+mahaperiyava-hybrid-retrieval-benchmark:
+	$(PYTHON) scripts/eval_mahaperiyava_hybrid_retrieval.py --output data/review/mahaperiyava_hybrid_retrieval_checkpoint_v1.json
+	@echo "mahaperiyava-hybrid-retrieval-benchmark: COMPLETE"

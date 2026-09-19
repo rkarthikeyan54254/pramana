@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install jsonschema indic-transliteration pytest
+      - run: pip install jsonschema indic-transliteration pytest numpy
       - name: Deivathin Kural semantic hardening
         run: make dk-semantic-hardening-gate
       - name: Mahaperiyava evidence-depth authority gate
@@ -39,6 +39,8 @@ jobs:
         run: make mahaperiyava-1963-promotion-gate
       - name: Mahaperiyava V1-V7 retrieval foundation
         run: make mahaperiyava-retrieval-gate
+      - name: Mahaperiyava multilingual hybrid retrieval structure gate
+        run: make mahaperiyava-hybrid-retrieval-structure-gate
       - name: Mahaperiyava grounded answer backend
         run: make mahaperiyava-grounded-answer-gate
       - name: Mahaperiyava mobile-first product UI
