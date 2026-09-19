@@ -50,7 +50,8 @@
         "official_digital_transcription",
         "interview_gist",
         "editorial_preface",
-        "contemporaneous_periodical_interview"
+        "contemporaneous_periodical_interview",
+        "near_contemporary_biographical_monograph"
       ]
     },
     "event": {
@@ -108,7 +109,8 @@
         "translated_official_web_transcription",
         "reported_interview_gist",
         "editorial_history",
-        "contemporaneous_editorialized_interview"
+        "contemporaneous_editorialized_interview",
+        "near_contemporary_secondary_synthesis"
       ]
     },
     "verbatim_status": {
@@ -117,14 +119,16 @@
         "translated_not_original_wording",
         "gist_not_verbatim",
         "not_a_teaching_witness",
-        "editorially_reorganized_not_verbatim"
+        "editorially_reorganized_not_verbatim",
+        "mixed_secondary_summary_and_attributed_quotation_not_verbatim_verified"
       ]
     },
     "independence_from_deivathin_kural": {
       "enum": [
         "independent_event",
         "same_discourse_family",
-        "unknown"
+        "unknown",
+        "independent_publication"
       ]
     },
     "original_artifact_status": {

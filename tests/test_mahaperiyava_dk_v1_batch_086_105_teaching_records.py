@@ -29,15 +29,15 @@ EXPECTED_COUNTS = {
 
 # Batch authority totals
 EXPECTED_BATCH_AUTHORITY = {
-    "dk_attested": 92,
-    "earlier_witness_supported": 3,
+    "dk_attested": 91,
+    "earlier_witness_supported": 4,
 }
 
 # Corpus-wide totals after this batch
 EXPECTED_CORPUS_AUTHORITY = {
     "total": 592,
-    "dk_attested": 557,
-    "earlier_witness_supported": 35,
+    "dk_attested": 556,
+    "earlier_witness_supported": 36,
     "dk_print_checked": 0,
     "primary_source_verified": 0,
 }
@@ -54,6 +54,11 @@ CARRYFORWARD_IDS = {
 
 RAMAN_1963_IDS = {
     "mahaperiyava.deivathin_kural.v1.sadangugal.ritual_cultivates_concentration_and_discipline",
+}
+
+
+PRECEPTORS_1968_IDS = {
+    "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.preserving_temple_presence_and_arts_benefits_society",
 }
 
 
@@ -86,7 +91,7 @@ def test_batch_shape_and_authority():
 
     # Wording status: mostly dk_wording_only, but 2 carry-forward are earlier_witness_agrees
     for r in rows:
-        if r["id"] in (CARRYFORWARD_IDS | RAMAN_1963_IDS):
+        if r["id"] in (CARRYFORWARD_IDS | RAMAN_1963_IDS | PRECEPTORS_1968_IDS):
             assert r["attribution"]["wording_status"] == "earlier_witness_agrees"
         else:
             assert r["attribution"]["wording_status"] == "dk_wording_only"
@@ -347,7 +352,7 @@ def test_no_unrelated_authority_changes():
     for r in rows:
         if (
             r["source_locus"]["chapter_ordinal"] != 100
-            and r["id"] not in RAMAN_1963_IDS
+            and r["id"] not in (RAMAN_1963_IDS | PRECEPTORS_1968_IDS)
         ):
             assert r["evidence_status"]["authority"] == "dk_attested"
 
@@ -361,11 +366,11 @@ def test_carryforward_manifest_sha256_locked():
 
 
 def test_batch_authority_totals():
-    """Batch 086-105 authority: 92 dk_attested, 3 earlier_witness_supported."""
+    """Batch 086-105 authority: 91 dk_attested, 4 earlier_witness_supported."""
     rows = _jsonl(RECORDS)
     authority = Counter(r["evidence_status"]["authority"] for r in rows)
-    assert authority["dk_attested"] == 92
-    assert authority["earlier_witness_supported"] == 3
+    assert authority["dk_attested"] == 91
+    assert authority["earlier_witness_supported"] == 4
     assert sum(authority.values()) == 95
 
 

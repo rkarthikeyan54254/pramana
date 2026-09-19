@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_PRECEPTORS_OF_ADVAITA_1968_VISUAL_REVIEW_V1",
+  "source_id": "mahaperiyava.external.preceptors_of_advaita_1968",
+  "source_key": "preceptors-of-advaita-1968-scan",
+  "snapshot_sha256": "660397607107975459f04ada26d58120506d03d30831ee6eb82bf8709049c388",
+  "source_pages": 595,
+  "publication": {
+    "title": "Preceptors of Advaita",
+    "chapter": "The Sage of Kanchi",
+    "author": "T. M. P. Mahadevan",
+    "publisher": "Sri Kanchi Kamakoti Sankara Mandir",
+    "publication_year": "1968",
+    "preface_date": "1967-12-31"
+  },
+  "review_method": "human_visual_item_level",
+  "source_class": "earlier_secondary",
+  "source_text_included": false,
+  "primary_source_status": "not_claimed",
+  "verbatim_status": "not_claimed",
+  "items": [
+    {
+      "external_claim_id": "external.1962p2.sectarian_unity",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.bhagavan_yaar_bhagavatpadhar_badhil.ishta_devata_without_denigration_and_reciprocal_worship",
+      "decision": "same_teaching",
+      "visual_status": "verified",
+      "printed_pages": [
+        512,
+        513
+      ],
+      "pdf_pages": [
+        534,
+        535
+      ],
+      "promotion_eligible": true,
+      "promotion_authority": "earlier_witness_supported",
+      "review_note": "The dated 1968 secondary source attributes to the Acharya the teaching that the same God is worshipped under different names and forms, rejects sectarian quarrelling, and explains ishta-devata without hostility to other forms. The section also discusses Saiva/Vaishnava harmony and Tiruppavai/Tiruvembavai. Same-claim support is established without a verbatim-primary claim.",
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.1962p1.temple_and_traditional_arts_preservation",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.preserving_temple_presence_and_arts_benefits_society",
+      "decision": "same_teaching",
+      "visual_status": "verified",
+      "printed_pages": [
+        514,
+        515
+      ],
+      "pdf_pages": [
+        536,
+        537
+      ],
+      "promotion_eligible": true,
+      "promotion_authority": "earlier_witness_supported",
+      "review_note": "The dated 1968 secondary source describes the need to revive traditional arts and crafts, identifies temples as centres of architecture, sculpture and sacred arts, mentions Agamic traditions, and records establishment of the Vyasa-Bharata-Agama-Silpa-Sadas at Ilayattangudi in 1962. This supports the same narrow preservation teaching without establishing verbatim wording.",
+      "source_text_included": false
+    },
+    {
+      "external_claim_id": "external.1962p1.epic_listening_as_moral_formation",
+      "dk_teaching_id": "mahaperiyava.deivathin_kural.v1.maha_bharatham.repeated_epic_hearing_shapes_moral_imagination",
+      "decision": "related_teaching",
+      "visual_status": "verified",
+      "printed_pages": [
+        515
+      ],
+      "pdf_pages": [
+        537
+      ],
+      "promotion_eligible": false,
+      "promotion_authority": null,
+      "review_note": "The 1968 source mentions popular discourse on Epics and Puranas within preservation of religious culture, but does not establish the narrower claim that repeated hearing of exemplary epic lives specifically shapes moral imagination. Hold.",
+      "source_text_included": false
+    }
+  ],
+  "decision_counts": {
+    "same_teaching": 2,
+    "related_teaching": 1,
+    "no_same_teaching_candidate": 0
+  },
+  "promotion_eligible_count": 2,
+  "authority_promotions": 2,
+  "primary_source_promotions": 0,
+  "additional_leads": [
+    {
+      "locus": "printed p. 517; PDF p. 539",
+      "topic": "1947 Independence Day message",
+      "authority_effect": "none_pending_separate_item_level_review"
+    }
+  ],
+  "guardrails": {
+    "source_text_embedded": false,
+    "verbatim_wording_claimed": false,
+    "primary_source_claimed": false,
+    "dependent_internal_citations_count_as_independent_votes": false,
+    "related_epic_material_grants_promotion": false
+  }
+}

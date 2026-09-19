@@ -13,8 +13,8 @@ RESEARCH = ROOT / "data" / "research"
 
 EXPECTED = {
     "records": 927,
-    "dk_attested": 892,
-    "earlier_witness_supported": 35,
+    "dk_attested": 890,
+    "earlier_witness_supported": 37,
     "chapters": 175,
     "pilot_records": 28,
     "pilot_ordinals": {4, 21, 23, 25, 32},

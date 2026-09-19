@@ -41,6 +41,11 @@
       "id": "family.mahaperiyava.as_raman_illustrated_weekly_interview",
       "label": "A. S. Raman / Illustrated Weekly interview, 1963",
       "independence_model": "single_near_contemporaneous_editorialized_interview"
+    },
+    {
+      "id": "family.mahaperiyava.preceptors_of_advaita_1968",
+      "label": "T. M. P. Mahadevan — Preceptors of Advaita, 1968",
+      "independence_model": "independent_1968_publication_with_internal_citations;_dependent_reproductions_are_not_independent_votes"
     }
   ],
   "items": [
@@ -267,6 +272,38 @@
       },
       "authority_effect": "none_without_item_level_review",
       "notes": "Official Part-2 page directly links this PDF as the Tamil version of the speech covering Parts 1 and 2. Visual review confirms the title and three previously adjudicated proposition-level matches. The digital transcription's publication date, editorial history and verbatim status remain unresolved."
+    },
+    {
+      "id": "mahaperiyava.external.preceptors_of_advaita_1968",
+      "source_key": "preceptors-of-advaita-1968-scan",
+      "title": "Preceptors of Advaita — The Sage of Kanchi",
+      "source_family_id": "family.mahaperiyava.preceptors_of_advaita_1968",
+      "source_kind": "near_contemporary_biographical_monograph",
+      "event": {
+        "id": "event.mahaperiyava.preceptors_of_advaita.publication.1968",
+        "date": "1968",
+        "place": null,
+        "date_note": "Bibliographic publication year is 1968. T. M. P. Mahadevan's preface is dated 31 December 1967."
+      },
+      "url": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10153237295156675.pdf",
+      "host": "rarebooksocietyofindia.org",
+      "official_host": false,
+      "language": "English",
+      "representation": "near_contemporary_secondary_synthesis",
+      "verbatim_status": "mixed_secondary_summary_and_attributed_quotation_not_verbatim_verified",
+      "independence_from_deivathin_kural": "independent_publication",
+      "original_artifact_status": "candidate_located",
+      "acquisition_status": "private_research_snapshot_pinned",
+      "candidate_for_item_level_crosslink": true,
+      "candidate_authority_if_item_level_provenance_is_satisfied": "earlier_witness_supported",
+      "rights": {
+        "source_text_redistribution": false,
+        "registry_public_export": "metadata_only",
+        "terms_url": "https://www.rarebooksocietyofindia.org/",
+        "status": "restricted_reference_only"
+      },
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Hash-pinned scan of a 1968 Kanchi-published volume. Visual item-level review was performed on The Sage of Kanchi. The source is earlier secondary evidence, not a primary transcript. The sectarian-harmony discussion contains an internal citation to another 1968 publication; dependent reproductions must not be counted as separate votes."
     }
   ],
   "candidate_queue": [

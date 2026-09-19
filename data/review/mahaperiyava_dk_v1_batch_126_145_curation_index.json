@@ -36,7 +36,8 @@
   "source_anomalies": [],
   "unit_count": 98,
   "authority_counts": {
-    "dk_attested": 98
+    "dk_attested": 97,
+    "earlier_witness_supported": 1
   },
   "chapter_unit_counts": {
     "126": 5,
@@ -2860,8 +2861,16 @@
         "traditional_normative_claim",
         "traditional_scriptural_claim"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "preceptors-of-advaita-1968-scan",
+        "witness_role": "earlier_secondary",
+        "locus": "printed pp. 512–513; PDF pp. 534–535",
+        "snapshot_sha256": "660397607107975459f04ada26d58120506d03d30831ee6eb82bf8709049c388",
+        "match_level": "same_claim",
+        "wording_agreement": "earlier_witness_agrees",
+        "note": "Human visual item-level review of the hash-pinned 1968 secondary source supports the same narrow teaching claim. No verbatim or primary-source status is claimed."
+      }
     },
     {
       "id": "mahaperiyava.deivathin_kural.v1.bhagavan_yaar_bhagavatpadhar_badhil.chit_shakti_as_supreme_divine_power",

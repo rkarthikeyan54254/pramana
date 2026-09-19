@@ -123,8 +123,8 @@ def test_corpus_has_exactly_four_new_earlier_witness_promotions():
         for x in rows
     )
 
-    assert counts["dk_attested"] == 3331
-    assert counts["earlier_witness_supported"] == 37
+    assert counts["dk_attested"] == 3329
+    assert counts["earlier_witness_supported"] == 39
     assert counts["primary_source_verified"] == 0
 
 
@@ -136,8 +136,8 @@ def test_current_state_matches_promoted_corpus():
     )
 
     assert s["authority_counts"] == {
-        "dk_attested": 3331,
-        "earlier_witness_supported": 37,
+        "dk_attested": 3329,
+        "earlier_witness_supported": 39,
         "dk_print_checked": 0,
         "primary_source_verified": 0,
     }

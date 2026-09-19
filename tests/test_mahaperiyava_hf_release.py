@@ -25,8 +25,8 @@ def test_metadata_only_huggingface_bundle_builds_and_validates():
 
         info = json.loads((out / "dataset_info.json").read_text(encoding="utf-8"))
         assert info["authority_counts"] == {
-            "dk_attested": 3331,
-            "earlier_witness_supported": 37,
+            "dk_attested": 3329,
+            "earlier_witness_supported": 39,
         }
 
         rows = [

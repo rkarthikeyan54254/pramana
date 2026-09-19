@@ -323,3 +323,7 @@ mahaperiyava-1963-promotion-gate:
 mahaperiyava-1962-tamil-visual-gate:
 	$(PYTHON) -m pytest -q tests/test_mahaperiyava_1962_tamil_visual_review.py
 	@echo "mahaperiyava-1962-tamil-visual-gate: GREEN"
+
+mahaperiyava-1968-preceptors-promotion-gate:
+	$(PYTHON) -m pytest -q tests/test_mahaperiyava_preceptors_1968_promotions.py tests/test_mahaperiyava_external_sources.py
+	@echo "mahaperiyava-1968-preceptors-promotion-gate: GREEN"

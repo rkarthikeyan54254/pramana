@@ -1,10 +1,10 @@
 {
-  "version": "2.0",
-  "checkpoint": "MAHAPERIYAVA_EVIDENCE_DEPTH_CURRENT_STATE_V2",
+  "version": "3.0",
+  "checkpoint": "MAHAPERIYAVA_EVIDENCE_DEPTH_CURRENT_STATE_V3",
   "teaching_record_count": 3368,
   "authority_counts": {
-    "dk_attested": 3331,
-    "earlier_witness_supported": 37,
+    "dk_attested": 3329,
+    "earlier_witness_supported": 39,
     "dk_print_checked": 0,
     "primary_source_verified": 0
   },
@@ -13,8 +13,8 @@
   "publication_approved": false,
   "volume_authority_counts": {
     "1": {
-      "dk_attested": 892,
-      "earlier_witness_supported": 35
+      "dk_attested": 890,
+      "earlier_witness_supported": 37
     },
     "2": {
       "dk_attested": 672,
@@ -40,5 +40,6 @@
       "dk_attested": 342,
       "earlier_witness_supported": 0
     }
-  }
+  },
+  "new_1968_preceptors_promotions": 2
 }

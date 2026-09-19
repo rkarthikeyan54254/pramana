@@ -24,7 +24,7 @@ def test_external_source_registry_validates_and_is_metadata_only():
 
     assert registry["checkpoint"] == "MAHAPERIYAVA_EXTERNAL_SOURCE_FAMILY_PILOT_V1"
     assert registry["status"] == "SOURCE_FAMILIES_PINNED_NO_AUTHORITY_PROMOTION"
-    assert len(registry["items"]) == 7
+    assert len(registry["items"]) == 8
 
     ids = set()
     keys = set()
@@ -42,6 +42,12 @@ def test_external_source_registry_validates_and_is_metadata_only():
             assert item["host"] == "mahaperiyavaa.blog"
             assert item["acquisition_status"] == "private_research_snapshot_pinned"
             assert item["verbatim_status"] == "editorially_reorganized_not_verbatim"
+        elif item["id"] == "mahaperiyava.external.preceptors_of_advaita_1968":
+            assert item["official_host"] is False
+            assert item["host"] == "rarebooksocietyofindia.org"
+            assert item["acquisition_status"] == "private_research_snapshot_pinned"
+            assert item["source_kind"] == "near_contemporary_biographical_monograph"
+            assert item["representation"] == "near_contemporary_secondary_synthesis"
         else:
             assert item["official_host"] is True
             assert item["host"] == "kamakoti.org"

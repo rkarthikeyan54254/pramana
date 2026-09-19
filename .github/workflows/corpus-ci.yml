@@ -27,6 +27,8 @@ jobs:
         run: make mahaperiyava-archival-acquisition-gate
       - name: Mahaperiyava 1962 Tamil visual witness gate
         run: make mahaperiyava-1962-tamil-visual-gate
+      - name: Mahaperiyava 1968 Preceptors evidence-depth gate
+        run: make mahaperiyava-1968-preceptors-promotion-gate
       - name: Mahaperiyava 1963 interview artifact gate
         run: make mahaperiyava-1963-interview-artifact-gate
       - name: Mahaperiyava 1963 interview proposition gate

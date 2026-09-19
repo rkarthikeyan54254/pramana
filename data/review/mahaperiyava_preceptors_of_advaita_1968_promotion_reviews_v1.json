@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "checkpoint": "MAHAPERIYAVA_PRECEPTORS_OF_ADVAITA_1968_PROMOTION_REVIEWS_V1",
+  "source_key": "preceptors-of-advaita-1968-scan",
+  "review_count": 2,
+  "authority_promotions": 2,
+  "primary_source_promotions": 0,
+  "reviews": [
+    {
+      "version": "1.0",
+      "review_id": "mahaperiyava.review.1968.preceptors.preserving_temple_presence_and_arts_benefits_society",
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.alayamum_deivika_kalaigalum.preserving_temple_presence_and_arts_benefits_society",
+      "review_stage": "earlier_witness_check",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "decision": "supported",
+      "review_method": "manual_item_level",
+      "evidence": [
+        {
+          "source_key": "preceptors-of-advaita-1968-scan",
+          "witness_role": "earlier_secondary",
+          "locus": "Preceptors of Advaita (1968), The Sage of Kanchi, printed pp. 514–515; PDF pp. 536–537",
+          "snapshot_sha256": "660397607107975459f04ada26d58120506d03d30831ee6eb82bf8709049c388",
+          "source_date": "1968",
+          "relation_to_dk": "earlier_attestation",
+          "match_level": "same_claim",
+          "rights_status": "restricted_private_research",
+          "note": "The dated 1968 secondary source describes the need to revive traditional arts and crafts, identifies temples as centres of architecture, sculpture and sacred arts, mentions Agamic traditions, and records establishment of the Vyasa-Bharata-Agama-Silpa-Sadas at Ilayattangudi in 1962. This supports the same narrow preservation teaching without establishing verbatim wording."
+        }
+      ],
+      "guardrails": {
+        "source_text_embedded": false,
+        "verbatim_wording_claimed": false,
+        "primary_source_claimed_without_primary_evidence": false,
+        "external_factual_truth_claimed": false,
+        "machine_similarity_grants_authority": false,
+        "majority_vote_grants_authority": false
+      },
+      "reviewer": "project_curator",
+      "reviewed_at": "2026-09-19T07:31:08Z",
+      "notes": "Promotion is limited to earlier_witness_supported. The 1968 source is secondary evidence and is not treated as a primary or verbatim transcript."
+    },
+    {
+      "version": "1.0",
+      "review_id": "mahaperiyava.review.1968.preceptors.ishta_devata_without_denigration_and_reciprocal_worship",
+      "teaching_id": "mahaperiyava.deivathin_kural.v1.bhagavan_yaar_bhagavatpadhar_badhil.ishta_devata_without_denigration_and_reciprocal_worship",
+      "review_stage": "earlier_witness_check",
+      "authority_before": "dk_attested",
+      "authority_after": "earlier_witness_supported",
+      "decision": "supported",
+      "review_method": "manual_item_level",
+      "evidence": [
+        {
+          "source_key": "preceptors-of-advaita-1968-scan",
+          "witness_role": "earlier_secondary",
+          "locus": "Preceptors of Advaita (1968), The Sage of Kanchi, printed pp. 512–513; PDF pp. 534–535",
+          "snapshot_sha256": "660397607107975459f04ada26d58120506d03d30831ee6eb82bf8709049c388",
+          "source_date": "1968",
+          "relation_to_dk": "earlier_attestation",
+          "match_level": "same_claim",
+          "rights_status": "restricted_private_research",
+          "note": "The dated 1968 secondary source attributes to the Acharya the teaching that the same God is worshipped under different names and forms, rejects sectarian quarrelling, and explains ishta-devata without hostility to other forms. The section also discusses Saiva/Vaishnava harmony and Tiruppavai/Tiruvembavai. Same-claim support is established without a verbatim-primary claim."
+        }
+      ],
+      "guardrails": {
+        "source_text_embedded": false,
+        "verbatim_wording_claimed": false,
+        "primary_source_claimed_without_primary_evidence": false,
+        "external_factual_truth_claimed": false,
+        "machine_similarity_grants_authority": false,
+        "majority_vote_grants_authority": false
+      },
+      "reviewer": "project_curator",
+      "reviewed_at": "2026-09-19T07:31:08Z",
+      "notes": "Promotion is limited to earlier_witness_supported. The 1968 source is secondary evidence and is not treated as a primary or verbatim transcript."
+    }
+  ]
+}

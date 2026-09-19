@@ -46,8 +46,8 @@
   ],
   "unit_count": 95,
   "authority_counts": {
-    "dk_attested": 92,
-    "earlier_witness_supported": 3
+    "dk_attested": 91,
+    "earlier_witness_supported": 4
   },
   "chapter_unit_counts": {
     "86": 9,
@@ -2629,8 +2629,16 @@
         "causal_claim_attributed_only",
         "social_generalization"
       ],
-      "authority": "dk_attested",
-      "historical_witness": null,
+      "authority": "earlier_witness_supported",
+      "historical_witness": {
+        "source_key": "preceptors-of-advaita-1968-scan",
+        "witness_role": "earlier_secondary",
+        "locus": "printed pp. 514–515; PDF pp. 536–537",
+        "snapshot_sha256": "660397607107975459f04ada26d58120506d03d30831ee6eb82bf8709049c388",
+        "match_level": "same_claim",
+        "wording_agreement": "earlier_witness_agrees",
+        "note": "Human visual item-level review of the hash-pinned 1968 secondary source supports the same narrow teaching claim. No verbatim or primary-source status is claimed."
+      },
       "candidate_witness": null,
       "not_evaluated_in_targeted_sections": null
     },

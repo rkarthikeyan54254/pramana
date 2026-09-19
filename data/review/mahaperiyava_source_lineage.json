@@ -743,6 +743,38 @@
       ],
       "authority_effect": "none_without_item_level_review",
       "notes": "The evidence establishes an official original-language digital witness to the event and proposition-level agreement. It does not establish when the digital transcription was created, whether it is a verbatim transcript, or whether it is a contemporaneous 1962 artifact."
+    },
+    {
+      "id": "mahaperiyava.lineage.1968.preceptors_of_advaita",
+      "relation_type": "retrospective_attestation_of",
+      "left": {
+        "id": "source.preceptors_of_advaita.1968",
+        "kind": "source",
+        "title": "Preceptors of Advaita — The Sage of Kanchi",
+        "date": "1968",
+        "source_key": "preceptors-of-advaita-1968-scan"
+      },
+      "right": {
+        "id": "event.mahaperiyava.ilayathangudi_sadas.1962",
+        "kind": "event",
+        "title": "Vyasa Bharata Agama Shilpa Sadas at Ilayathangudi",
+        "date": "1962",
+        "source_key": null
+      },
+      "dependency_status": "established",
+      "evidence_level": "claim",
+      "status": "supported",
+      "acharya_review": "unknown",
+      "evidence": [
+        {
+          "source_key": "preceptors-of-advaita-1968-scan",
+          "url": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10153237295156675.pdf",
+          "locus": "The Sage of Kanchi, printed pp. 514–515; PDF pp. 536–537",
+          "note": "The 1968 volume explicitly records the revival of temple arts and the first Vyasa-Bharata-Agama-Silpa-Sadas at Ilayattangudi in 1962."
+        }
+      ],
+      "authority_effect": "none_without_item_level_review",
+      "notes": "Collection/source lineage alone grants no authority. Only the separately recorded item-level reviews below may support earlier_witness_supported."
     }
   ],
   "acquisition_priorities": [

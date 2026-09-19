@@ -2441,6 +2441,16 @@
       "status": "official-linked-tamil-witness-restricted-pinned-transmission-age-unresolved",
       "expected_sha256": "9ad3e54fc2ec146ea694f70dc98c8aefa8c9acecb7f7533f00224f8af8d2dc60",
       "expected_bytes": 407432
+    },
+    {
+      "key": "preceptors-of-advaita-1968-scan",
+      "url": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10153237295156675.pdf",
+      "path": "sources/raw/verification/mahaperiyava/preceptors_of_advaita_1968.pdf",
+      "covers": "Private research snapshot of Preceptors of Advaita (Sri Kanchi Kamakoti Sankara Mandir, 1968), including T. M. P. Mahadevan's chapter The Sage of Kanchi.",
+      "terms": "Private research and item-level evidence verification only. No source-text redistribution. A modern-hosted scan does not establish public-domain status or permission.",
+      "status": "historical-book-scan-restricted-pinned-modern-host",
+      "expected_sha256": "660397607107975459f04ada26d58120506d03d30831ee6eb82bf8709049c388",
+      "expected_bytes": 42482043
     }
   ]
 }

@@ -25,6 +25,11 @@ CANDIDATE_IDS = {
 }
 
 
+PRECEPTORS_1968_IDS = {
+    "mahaperiyava.deivathin_kural.v1.bhagavan_yaar_bhagavatpadhar_badhil.ishta_devata_without_denigration_and_reciprocal_worship",
+}
+
+
 def _jsonl(path):
     return [
         json.loads(line)
@@ -69,7 +74,7 @@ def test_batch_126_145_authority_and_chapter_136_migration():
     assert len(records) == 98
 
     auth = Counter(r["evidence_status"]["authority"] for r in records)
-    assert auth == Counter({"dk_attested": 98})
+    assert auth == Counter({"dk_attested": 97, "earlier_witness_supported": 1})
 
     ch136 = [
         r for r in records
@@ -144,3 +149,35 @@ def test_no_pilot_regular_batch_ordinal_overlap_after_145():
         f"pilot/regular overlap remains: "
         f"{sorted(pilot_ordinals & batch_ordinals)}"
     )
+
+def test_preceptors_1968_promotion_is_the_only_new_batch_authority():
+    records = _jsonl(RECORDS)
+
+    promoted = {
+        r["id"]
+        for r in records
+        if r["evidence_status"]["authority"]
+        == "earlier_witness_supported"
+    }
+
+    assert promoted == PRECEPTORS_1968_IDS
+
+    row = next(
+        r for r in records
+        if r["id"] in PRECEPTORS_1968_IDS
+    )
+
+    assert (
+        row["attribution"]["wording_status"]
+        == "earlier_witness_agrees"
+    )
+
+    witnesses = [
+        x for x in row["provenance"]
+        if x.get("source_key")
+        == "preceptors-of-advaita-1968-scan"
+    ]
+
+    assert len(witnesses) == 1
+    assert witnesses[0]["witness_role"] == "earlier_secondary"
+    assert len(witnesses[0]["snapshot_sha256"]) == 64
